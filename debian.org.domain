@@ -177,6 +177,7 @@ lists	1800	IN	A	146.82.138.7
 lully	1800	IN	A	146.82.138.60
 m68k	1800	IN	A	134.99.176.32
 	1800	IN	MX	50 kullervo.debian.org.
+malo	1800	IN	A	128.193.0.53
 master	1800	IN	A	146.82.138.7
 	1800	IN	MX	0 master.debian.org.
 	1800	IN	MX	5 gluck.debian.org.
