@@ -232,8 +232,7 @@ ports	1800	IN	A	192.25.206.10
 qa	1800	IN	A	192.25.206.16
 	1800	IN	MX	10 merkel.debian.org.
 $ORIGIN qa.debian.org.
-bugs	1800	IN	A	146.82.138.7
-	1800	IN	MX	0 dummy.debian.org.
+bugs	1800	IN	A	192.25.206.16
 	1800	IN	MX	10 gluck.debian.org.
 packages	1800	IN	A	146.82.138.7
 	1800	IN	MX	0 master.debian.org.
@@ -304,7 +303,7 @@ ftp	1800	IN	CNAME	debian.egr.msu.edu.
 $ORIGIN us.debian.org.
 www	1800	IN	CNAME	gluck.debian.org.
 $ORIGIN debian.org.
-vaughan	1800	IN	A	18.24.4.151
+vaughan	1800	IN	A	128.30.28.47
 	1800	IN	HINFO	"Cobalt RaQ2" "Debian GNU/Linux"
 voltaire	1800	IN	A	66.93.172.18
 	1800	IN	HINFO	"PowerPC" "Debian GNU/Linux"
