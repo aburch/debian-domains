@@ -54,7 +54,7 @@ casals	1800	IN	A	128.31.0.16
 cdimage	1800	IN	A	130.239.18.151
 $ORIGIN cdimage.debian.org.
 non-us	1800	IN	CNAME	debian.hands.com.
-us	1800	IN	CNAME	raff.debian.org.
+us	1800	IN	CNAME	debian.hands.com.
 $ORIGIN debian.org.
 cgi	1800	IN	A	146.82.138.7
 	1800	IN	MX	10 gluck.debian.org.
