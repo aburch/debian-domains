@@ -204,6 +204,9 @@ www-mirror		IN	CNAME	www-master.debian.org.
 
 $ORIGIN au.debian.org.
 ftp		IN	CNAME	ftp.planetmirror.com.
+; Bernard Grymonpon <ftpmaint@belnet.be>
+$ORIGIN be.debian.org.
+ftp		IN	CNAME	ftp.belnet.be.
 $ORIGIN bg.debian.org.
 ftp		IN	CNAME	debian.spnet.net.
 www		IN	CNAME	debian.spnet.net.
