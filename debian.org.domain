@@ -22,7 +22,6 @@ at		IN	NS	babylon.atnet.at.
 auber		IN	A	192.25.206.27
 auric		IN	A	206.246.226.45
 		IN	MX	0 auric.debian.org.
-		IN	MX	5 gluck.debian.org.
 bruckner		IN	A	62.104.23.253
 		IN	HINFO	"PowerPC" "Debian GNU/Linux"
 bugs		IN	A	128.193.0.4
