@@ -191,7 +191,7 @@ vote		IN	A	146.82.138.7
 		IN	MX	0 master.debian.org.
 		IN	MX	5 gluck.debian.org.
 $ORIGIN wna.debian.org.
-syncproxy		IN	A	128.193.0.7
+syncproxy	300	IN	A	128.193.0.7
 $ORIGIN debian.org.
 www		IN	A	194.109.137.218
 ;;www		IN	A	192.25.206.10
