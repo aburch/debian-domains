@@ -210,7 +210,8 @@ $ORIGIN bg.debian.org.
 ftp		IN	CNAME	debian.spnet.net.
 www		IN	CNAME	debian.spnet.net.
 $ORIGIN br.debian.org.
-ftp		IN	A	200.17.212.129
+; Marcos Castilho <marcos@inf.ufpr.br>
+ftp		IN	A	200.17.202.1
 www		IN	CNAME	www.debian.org.br.
 $ORIGIN ca.debian.org.
 ftp		IN	CNAME	ftp.debian.org.
