@@ -103,7 +103,7 @@ lintian		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
 		IN	MX	20 master.debian.org.
 lists		IN	A	146.82.138.7
-		IN	MX	0 murphy.debian.org.
+		IN	MX	0 newmurphy.debian.org.
 lully		IN	A	146.82.138.60
 m68k		IN	A	134.99.176.32
 		IN	MX	50 kullervo.debian.org.
