@@ -1,0 +1,2696 @@
+$ORIGIN debian.net.
+!template
+	3600	IN	NS	newsamosa.debian.org.
+	3600	IN	NS	saens.debian.org.
+	3600	IN	NS	spohr.debian.org.
+	3600	IN	NS	klecker.debian.org.
+$ORIGIN 54.18.12.rbl.debian.net.
+28	3600	IN	TXT	"launchmaster.com spam [98/12/13 jgg]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 248.247.12.rbl.debian.net.
+12	3600	IN	TXT	"free check recovery spam [troup 2002/11/29]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 0.0.127.rbl.debian.net.
+2	3600	IN	TXT	"RBL Test"
+	3600	IN	A	127.0.0.2
+$ORIGIN 37.228.130.rbl.debian.net.
+10	3600	IN	TXT	"extranet.dk relay [98/7/15 igor]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 10.58.134.rbl.debian.net.
+5	3600	IN	TXT	"Andre Pype [08/13/01 jgg]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 174.143.142.rbl.debian.net.
+65	3600	IN	TXT	"JTSterlings daily spam [troup]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 74.30.151.rbl.debian.net.
+99	3600	IN	TXT	"LEGGI E CAPIRAI spam [troup 2002/10/17]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 88.30.151.rbl.debian.net.
+187	3600	IN	TXT	"LEGGI E CAPIRAI spam [troup 2002/10/15]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 175.116.160.rbl.debian.net.
+1	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+10	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+100	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+101	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+102	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+103	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+104	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+105	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+106	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+107	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+108	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+109	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+11	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+110	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+111	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+112	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+113	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+114	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+115	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+116	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+117	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+118	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+119	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+12	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+120	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+121	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+122	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+123	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+124	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+125	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+126	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+127	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+128	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+129	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+13	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+130	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+131	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+132	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+133	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+134	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+135	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+136	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+137	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+138	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+139	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+14	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+140	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+141	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+142	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+143	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+144	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+145	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+146	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+147	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+148	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+149	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+15	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+150	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+151	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+152	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+153	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+154	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+155	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+156	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+157	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+158	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+159	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+16	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+160	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+161	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+162	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+163	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+164	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+165	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+166	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+167	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+168	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+169	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+17	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+170	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+171	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+172	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+173	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+174	3600	IN	A	127.0.0.2
+	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+175	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+176	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+177	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+178	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+179	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+18	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+180	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+181	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+182	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+183	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+184	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+185	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+186	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+187	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+188	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+189	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+19	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+190	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+191	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+192	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+193	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+194	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+195	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+196	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+197	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+198	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+199	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+2	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+20	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+200	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+201	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+202	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+203	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+204	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+205	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+206	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+207	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+208	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+209	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+21	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+210	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+211	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+212	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+213	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+214	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+215	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+216	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+217	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+218	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+219	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+22	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+220	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+221	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+222	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+223	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+224	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+225	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+226	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+227	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+228	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+229	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+23	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+230	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+231	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+232	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+233	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+234	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+235	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+236	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+237	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+238	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+239	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+24	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+240	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+241	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+242	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+243	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+244	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+245	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+246	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+247	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+248	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+249	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+25	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+250	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+251	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+252	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+253	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+254	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+26	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+27	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+28	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+29	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+3	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+30	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+31	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+32	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+33	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+34	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+35	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+36	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+37	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+38	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+39	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+4	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+40	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+41	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+42	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+43	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+44	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+45	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+46	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+47	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+48	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+49	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+5	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+50	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+51	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+52	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+53	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+54	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+55	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+56	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+57	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+58	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+59	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+6	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+60	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+61	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+62	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+63	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+64	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+65	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+66	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+67	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+68	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+69	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+7	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+70	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+71	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+72	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+73	3600	IN	A	127.0.0.2
+	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+74	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+75	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+76	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+77	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+78	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+79	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+8	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+80	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+81	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+82	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+83	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+84	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+85	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+86	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+87	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+88	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+89	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+9	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+90	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+91	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+92	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+93	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+94	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+95	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+96	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+97	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+98	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+99	3600	IN	TXT	"greatdealsontheweb.net spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 120.92.160.rbl.debian.net.
+62	3600	IN	TXT	"axime.com open relay [98/4/23 igor]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 4.176.163.rbl.debian.net.
+69	3600	IN	TXT	"SirCam virus [01/08/01 troup]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 123.89.192.rbl.debian.net.
+189	3600	IN	TXT	"Pekka Siitoin ban [99/02/26 jgg]"
+	3600	IN	A	127.0.0.2
+195	3600	IN	TXT	"Pekka Siitoin ban [99/02/26 jgg]"
+	3600	IN	A	127.0.0.2
+198	3600	IN	TXT	"Pekka Siitoin ban [99/02/26 jgg]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 11.14.193.rbl.debian.net.
+2	3600	IN	TXT	"grace.se relay [98/7/15 igor]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 224.76.193.rbl.debian.net.
+171	3600	IN	TXT	"Stop send mail to root@debian.org [02/01/07 rmurray]"
+	3600	IN	TXT	"Stop send mail to root@debian.org [02/05/09 rmurray]"
+	3600	IN	A	127.0.0.3
+73	3600	IN	TXT	"Stop send mail to root@debian.org [11/11/01 jgg]"
+	3600	IN	A	127.0.0.3
+$ORIGIN 222.137.194.rbl.debian.net.
+1	3600	IN	TXT	"avd.nl relay [98/5/23 igor]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 135.140.194.rbl.debian.net.
+132	3600	IN	TXT	"softly.es relay [98/6/20 igor]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 79.185.194.rbl.debian.net.
+195	3600	IN	TXT	"cryptonet.it relay [98/6/20 igor ]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 71.213.194.rbl.debian.net.
+130	3600	IN	TXT	"server1.ef.se relay [98/8/6 igor]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 46.255.194.rbl.debian.net.
+10	3600	IN	TXT	"intranet.dk relay [98/7/15 igor]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 76.30.194.rbl.debian.net.
+66	3600	IN	TXT	"Stop send mail to root@debian.org [03/07/28 rmurray]"
+	3600	IN	A	127.0.0.3
+$ORIGIN 201.57.194.rbl.debian.net.
+100	3600	IN	TXT	"Really nasty user not found loop [99/6/6 jgg]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 3.117.195.rbl.debian.net.
+4	3600	IN	TXT	"ids.pl relay [98/7/15 igor ]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 91.210.195.rbl.debian.net.
+87	3600	IN	TXT	"giglio.iol.it italian spam [98/3/24 igor]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 10.86.195.rbl.debian.net.
+18	3600	IN	TXT	"meganet.nl open relay [98/4/23 igor]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 127.42.198.rbl.debian.net.
+217	3600	IN	TXT	"Learn how to setup a mailer [01/09/30] troup]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 52.176.200.rbl.debian.net.
+206	3600	IN	TXT	"toner cartridges spam [troup 2002/11/26]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 11.180.200.rbl.debian.net.
+236	3600	IN	TXT	"GANHE spam [troup 2002/10/31]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 193.206.200.rbl.debian.net.
+215	3600	IN	TXT	"toner cartridges spam [rmurray]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 52.243.200.rbl.debian.net.
+138	3600	IN	TXT	"toner cartridges spam [rmurray]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 161.31.200.rbl.debian.net.
+66	3600	IN	TXT	"HGH spam [rmurray]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 159.59.200.rbl.debian.net.
+150	3600	IN	TXT	"HGH spam [rmurray]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 183.73.200.rbl.debian.net.
+168	3600	IN	TXT	"Canned peaches [troup 2003/10/20]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 58.9.200.rbl.debian.net.
+165	3600	IN	TXT	"Mail loop via brain damaged software [99/5/24 jgg]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 205.104.202.rbl.debian.net.
+6	3600	IN	TXT	"Non-english spam [99/11/25 jgg]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 173.221.202.rbl.debian.net.
+98	3600	IN	TXT	"stop sending mail to root@debian.org [troup 2002/11/25]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 29.227.202.rbl.debian.net.
+2	3600	IN	TXT	"edee.co.jp relay [98/5/23 igor]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 207.229.202.rbl.debian.net.
+194	3600	IN	TXT	"ehime-iinet.or.jp relay [98/5/23 igor]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 222.239.202.rbl.debian.net.
+2	3600	IN	TXT	"scan-net.or.jp relay [98/6/9 igor]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 75.32.202.rbl.debian.net.
+227	3600	IN	TXT	"jri.co.jp relay [98/5/23 igor]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 43.92.204.rbl.debian.net.
+190	3600	IN	TXT	"doculink crypto spam [98/2/18 igor]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 171.133.205.rbl.debian.net.
+1	3600	IN	TXT	"wcnet.org relay [98/5/30 igor]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 212.253.206.rbl.debian.net.
+11	3600	IN	TXT	"SPAM from Web 3000 [99/6/29 joey]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 81.63.206.rbl.debian.net.
+12	3600	IN	TXT	"launchmaster.com spam [98/3/12 joey]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 255.173.207.rbl.debian.net.
+198	3600	IN	TXT	"Stop send mail to root@debian.org [02/02/17 rmurray]"
+	3600	IN	A	127.0.0.3
+$ORIGIN 166.242.207.rbl.debian.net.
+241	3600	IN	TXT	"brand new listme.com IP [98/7/29 igor]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 197.50.207.rbl.debian.net.
+50	3600	IN	TXT	"siteposter.com spam [98/8/18 joey]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 38.151.208.rbl.debian.net.
+212	3600	IN	TXT	"Owlseye spam [98/3/28 joey]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 95.231.208.rbl.debian.net.
+15	3600	IN	TXT	"globaltiez.com spam [98/3/7 igor]"
+	3600	IN	A	127.0.0.2
+18	3600	IN	TXT	"globaltiez.com spam [98/3/7 igor]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 77.118.209.rbl.debian.net.
+1	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+10	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+100	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+101	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+102	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+103	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+104	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+105	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+106	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+107	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+108	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+109	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+11	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+110	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+111	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+112	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+113	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+114	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+115	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+116	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+117	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+118	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+119	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+12	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+120	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+121	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+122	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+123	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+124	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+125	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+126	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+127	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+128	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+129	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+13	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+130	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+131	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+132	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+133	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+134	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+135	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+136	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+137	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+138	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+139	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+14	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+140	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+141	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+142	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+143	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+144	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+145	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+146	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+147	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+148	3600	IN	A	127.0.0.2
+	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+149	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+15	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+150	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+151	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+152	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+153	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+154	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+155	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+156	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+157	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+158	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+159	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+16	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+160	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+161	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+162	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+163	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+164	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+165	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+166	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+167	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+168	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+169	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+17	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+170	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+171	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+172	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+173	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+174	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+175	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+176	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+177	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+178	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+179	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+18	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+180	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+181	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+182	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+183	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+184	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+185	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+186	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+187	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+188	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+189	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+19	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+190	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+191	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+192	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+193	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+194	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+195	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+196	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+197	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+198	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+199	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+2	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+20	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+200	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+201	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+202	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+203	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+204	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+205	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+206	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+207	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+208	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+209	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+21	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+210	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+211	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+212	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+213	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+214	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+215	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+216	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+217	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+218	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+219	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+22	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+220	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+221	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+222	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+223	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+224	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+225	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+226	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+227	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+228	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+229	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+23	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+230	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+231	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+232	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+233	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+234	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+235	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+236	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+237	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+238	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+239	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+24	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+240	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+241	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+242	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+243	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+244	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+245	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+246	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+247	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+248	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+249	3600	IN	A	127.0.0.2
+	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+25	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+250	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+251	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+252	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+253	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+26	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+27	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+28	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+29	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+3	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+30	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+31	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+32	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+33	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+34	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+35	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+36	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+37	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+38	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+39	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+4	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+40	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+41	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+42	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+43	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+44	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+45	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+46	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+47	3600	IN	A	127.0.0.2
+	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+48	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+49	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+5	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+50	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+51	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+52	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+53	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+54	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+55	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+56	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+57	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+58	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+59	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+6	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+60	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+61	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+62	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+63	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+64	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+65	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+66	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+67	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+68	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+69	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+7	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+70	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+71	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+72	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+73	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+74	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+75	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+76	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+77	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+78	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+79	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+8	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+80	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+81	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+82	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+83	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+84	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+85	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+86	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+87	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+88	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+89	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+9	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+90	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+91	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+92	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+93	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+94	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+95	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+96	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+97	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+98	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+99	3600	IN	TXT	"popsite.net spam [99/01/31 jgg]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 128.150.209.rbl.debian.net.
+112	3600	IN	TXT	"Photographer spam [00/02/13 jgg]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 82.155.209.rbl.debian.net.
+83	3600	IN	TXT	"hoteldocs.com spammer [98/7/15 igor]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 239.167.209.rbl.debian.net.
+28	3600	IN	TXT	"ftp-master spam [troup 2002/11/08]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 182.172.209.rbl.debian.net.
+194	3600	IN	TXT	"Glass bottles, marketclub.com [00/01/17 jgg]"
+	3600	IN	A	127.0.0.2
+196	3600	IN	TXT	"Glass bottles, marketclub.com [00/01/17 jgg]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 181.61.209.rbl.debian.net.
+44	3600	IN	TXT	"Annoying spam [01/5/15 jgg]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 190.61.209.rbl.debian.net.
+40	3600	IN	TXT	"Marjorie spam [01/04/18 jgg]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 99.66.209.rbl.debian.net.
+101	3600	IN	TXT	"Loop or something [99/03/15 jgg]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 232.150.210.rbl.debian.net.
+105	3600	IN	TXT	"stop sending mail to root@debian.org [troup 2002/11/08]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 124.104.211.rbl.debian.net.
+182	3600	IN	TXT	"GPS .kr spam [troup 2004/01/27]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 161.156.211.rbl.debian.net.
+166	3600	IN	TXT	"toner cartridges spam [rmurray]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 14.160.211.rbl.debian.net.
+242	3600	IN	TXT	"BTS spam [troup 2003/08/18]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 123.186.211.rbl.debian.net.
+169	3600	IN	A	127.0.0.2
+	3600	IN	TXT	"toner cartridges spam [rmurray]"
+$ORIGIN 139.192.211.rbl.debian.net.
+79	3600	IN	TXT	"toner cartridges spam [rmurray]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 225.196.211.rbl.debian.net.
+55	3600	IN	TXT	"keyring-maint spam [troup 2002/11/08]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 19.211.211.rbl.debian.net.
+156	3600	IN	TXT	"keyring-maint spam [troup 2002/11/08]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 22.215.211.rbl.debian.net.
+21	3600	IN	TXT	"Korean Spam [02/01/04 rmurray]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 242.218.211.rbl.debian.net.
+252	3600	IN	TXT	"spam [rmurray]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 13.221.211.rbl.debian.net.
+195	3600	IN	TXT	"ftp-master spam [troup 2002/11/08]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 10.233.211.rbl.debian.net.
+204	3600	IN	TXT	"spam [rmurray]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 58.248.211.rbl.debian.net.
+1	3600	IN	TXT	"HGH spam [rmurray]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 72.100.212.rbl.debian.net.
+158	3600	IN	TXT	"atiku spam [rmurray]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 80.141.212.rbl.debian.net.
+88	3600	IN	TXT	"lolita spam [troup 2002/11/29]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 190.244.212.rbl.debian.net.
+66	3600	IN	TXT	"news gateway injector [98/11/23 jgg]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 170.25.212.rbl.debian.net.
+81	3600	IN	TXT	"Our mailing lists don't want to sub to yours [rmurray]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 96.92.212.rbl.debian.net.
+33	3600	IN	TXT	"Learn how to setup a mailer [00/11/15 jgg]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 186.26.213.rbl.debian.net.
+10	3600	IN	TXT	"FreeSMS abuse [01/6/12 jgg]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 240.53.213.rbl.debian.net.
+2	3600	IN	TXT	"keyring-maint spam [troup 2002/11/08]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 14.6.213.rbl.debian.net.
+8	3600	IN	TXT	"Paper spam [00/04/25 jgg]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 20.86.213.rbl.debian.net.
+205	3600	IN	TXT	"toner cartridges spam [rmurray]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 111.98.213.rbl.debian.net.
+244	3600	IN	TXT	"toner cartridges spam [rmurray]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 169.139.216.rbl.debian.net.
+133	3600	IN	TXT	"contact me spam [rmurray]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 194.200.216.rbl.debian.net.
+51	3600	IN	TXT	"MS Mail is Crap [00/01/12 jgg]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 222.64.216.rbl.debian.net.
+1	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+10	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+100	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+101	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+102	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+103	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+104	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+105	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+106	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+107	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+108	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+109	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+11	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+110	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+111	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+112	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+113	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+114	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+115	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+116	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+117	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+118	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+119	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+12	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+120	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+121	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+122	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+123	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+124	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+125	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+126	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+127	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+128	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+129	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+13	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+130	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+131	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+132	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+133	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+134	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+135	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+136	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+137	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+138	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+139	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+14	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+140	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+141	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+142	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+143	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+144	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+145	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+146	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+147	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+148	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+149	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+15	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+150	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+151	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+152	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+153	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+154	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+155	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+156	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+157	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+158	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+159	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+16	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+160	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+161	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+162	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+163	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+164	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+165	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+166	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+167	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+168	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+169	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+17	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+170	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+171	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+172	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+173	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+174	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+175	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+176	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+177	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+178	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+179	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+18	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+180	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+19	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+2	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+20	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+21	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+22	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+23	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+24	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+25	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+26	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+27	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+28	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+29	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+3	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+30	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+31	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+32	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+33	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+34	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+35	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+36	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+37	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+38	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+39	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+4	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+40	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+41	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+42	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+43	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+44	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+45	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+46	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+47	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+48	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+49	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+5	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+50	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+51	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+52	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+53	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+54	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+55	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+56	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+57	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+58	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+59	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+6	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+60	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+61	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+62	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+63	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+64	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+65	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+66	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+67	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+68	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+69	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+7	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+70	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+71	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+72	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+73	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+74	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+75	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+76	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+77	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+78	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+79	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+8	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+80	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+81	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+82	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+83	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+84	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+85	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+86	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+87	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+88	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+89	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+9	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+90	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+91	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+92	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+93	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+94	3600	IN	A	127.0.0.2
+	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+95	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+96	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+97	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+98	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+99	3600	IN	TXT	"vtarget spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 79.125.217.rbl.debian.net.
+217	3600	IN	TXT	"objets.net spam [rmurray]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 31.127.217.rbl.debian.net.
+182	3600	IN	TXT	"objets.net spam [rmurray]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 99.14.217.rbl.debian.net.
+113	3600	IN	TXT	"ftp-master spam [troup 2002/11/08]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 80.27.217.rbl.debian.net.
+6	3600	IN	TXT	"Stop send mail to root@debian.org [02/01/08 rmurray]"
+	3600	IN	A	127.0.0.3
+$ORIGIN 132.104.218.rbl.debian.net.
+18	3600	IN	TXT	"webmaster@localhost spam [troup 2003/04/22]"
+	3600	IN	A	127.0.0.2
+19	3600	IN	TXT	"webmaster@localhost spam [troup 2003/04/22]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 133.148.218.rbl.debian.net.
+111	3600	IN	TXT	"ftp-master spam [troup 2002/11/08]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 156.98.218.rbl.debian.net.
+2	3600	IN	TXT	"chinese spam [rmurray 2003/07/30]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 102.200.24.rbl.debian.net.
+179	3600	IN	TXT	"Pour le temps spam [troup 2002/11/06]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 171.202.24.rbl.debian.net.
+30	3600	IN	TXT	"plus rentable spam [troup 2002/10/21]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 185.106.292.rbl.debian.net.
+55	3600	IN	TXT	"MS Mail is Crap [00/01/15 jgg]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 193.13.51.rbl.debian.net.
+213	3600	IN	TXT	"spam [troup]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 40.96.59.rbl.debian.net.
+212	3600	IN	TXT	"Annoying bouncers [01/5/24 troup]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 68.235.61.rbl.debian.net.
+66	3600	IN	TXT	"spam [rmurray]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 243.241.61.rbl.debian.net.
+73	3600	IN	TXT	"corridas de toros spam [troup 2003/01/25]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 63.194.62.rbl.debian.net.
+9	3600	IN	TXT	"STRICTLY CONFIDENTIAL spam [troup 2002/10/15]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 11.232.62.rbl.debian.net.
+179	3600	IN	TXT	"john david spam [rmurray 2003/08/01]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 50.32.62.rbl.debian.net.
+226	3600	IN	TXT	"toner cartridges spam [rmurray]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 249.109.63.rbl.debian.net.
+1709	3600	IN	TXT	"Nigerian scam spam [troup 2002/10/20]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 53.81.64.rbl.debian.net.
+76	3600	IN	TXT	"Learn to be polite [01/02/11 jgg]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 148.61.65.rbl.debian.net.
+1	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+10	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+100	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+101	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+102	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+103	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+104	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+105	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+106	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+107	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+108	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+109	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+11	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+110	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+111	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+112	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+113	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+114	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+115	3600	IN	A	127.0.0.2
+	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+116	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+117	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+118	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+119	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+12	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+120	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+121	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+122	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+123	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+124	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+125	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+126	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+127	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+128	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+129	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+13	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+130	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+131	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+132	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+133	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+134	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+135	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+136	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+137	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+138	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+139	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+14	3600	IN	A	127.0.0.2
+	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+140	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+141	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+142	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+143	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+144	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+145	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+146	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+147	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+148	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+149	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+15	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+150	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+151	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+152	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+153	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+154	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+155	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+156	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+157	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+158	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+159	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+16	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+160	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+161	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+162	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+163	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+164	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+165	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+166	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+167	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+168	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+169	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+17	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+170	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+171	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+172	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+173	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+174	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+175	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+176	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+177	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+178	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+179	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+18	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+180	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+181	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+182	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+183	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+184	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+185	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+186	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+187	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+188	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+189	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+19	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+190	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+191	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+192	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+193	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+194	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+195	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+196	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+197	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+198	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+199	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+2	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+20	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+200	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+201	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+202	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+203	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+204	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+205	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+206	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+207	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+208	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+209	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+21	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+210	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+211	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+212	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+213	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+214	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+215	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+216	3600	IN	A	127.0.0.2
+	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+217	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+218	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+219	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+22	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+220	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+221	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+222	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+223	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+224	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+225	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+226	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+227	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+228	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+229	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+23	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+230	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+231	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+232	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+233	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+234	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+235	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+236	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+237	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+238	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+239	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+24	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+240	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+241	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+242	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+243	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+25	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+26	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+27	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+28	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+29	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+3	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+30	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+31	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+32	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+33	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+34	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+35	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+36	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+37	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+38	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+39	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+4	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+40	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+41	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+42	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+43	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+44	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+45	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+46	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+47	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+48	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+49	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+5	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+50	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+51	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+52	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+53	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+54	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+55	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+56	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+57	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+58	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+59	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+6	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+60	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+61	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+62	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+63	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+64	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+65	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+66	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+67	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+68	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+69	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+7	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+70	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+71	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+72	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+73	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+74	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+75	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+76	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+77	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+78	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+79	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+8	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+80	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+81	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+82	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+83	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+84	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+85	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+86	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+87	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+88	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+89	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+9	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+90	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+91	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+92	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+93	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+94	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+95	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+96	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+97	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+98	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+99	3600	IN	TXT	"recessionspecials.com spam [troup - 2003/04/23]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 107.216.66.rbl.debian.net.
+1	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+10	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+100	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+101	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+102	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+103	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+104	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+105	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+106	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+107	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+108	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+109	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+11	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+110	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+111	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+112	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+113	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+114	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+115	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+116	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+117	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+118	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+119	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+12	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+120	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+121	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+122	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+123	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+124	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+125	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+126	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+127	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+128	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+129	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+13	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+130	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+131	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+132	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+133	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+134	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+135	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+136	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+137	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+138	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+139	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+14	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+140	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+141	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+142	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+143	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+144	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+145	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+146	3600	IN	A	127.0.0.2
+	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+147	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+148	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+149	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+15	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+150	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+151	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+152	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+153	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+154	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+155	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+156	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+157	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+158	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+159	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+16	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+160	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+161	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+162	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+163	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+164	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+165	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+166	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+167	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+168	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+169	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+17	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+170	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+171	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+172	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+173	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+174	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+175	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+176	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+177	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+178	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+179	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+18	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+180	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+181	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+182	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+183	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+184	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+185	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+186	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+187	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+188	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+189	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+19	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+190	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+191	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+192	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+193	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+194	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+195	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+196	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+197	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+198	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+199	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+2	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+20	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+200	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+201	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+202	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+203	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+204	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+205	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+206	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+207	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+208	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+209	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+21	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+210	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+211	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+212	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+213	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+214	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+215	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+216	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+217	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+218	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+219	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+22	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+220	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+221	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+222	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+223	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+224	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+225	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+226	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+227	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+228	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+229	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+23	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+230	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+231	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+232	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+233	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+234	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+235	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+236	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+237	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+238	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+239	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+24	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+240	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+241	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+242	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+243	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+244	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+245	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+246	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+247	3600	IN	A	127.0.0.2
+	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+248	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+249	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+25	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+250	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+251	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+252	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+253	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+26	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+27	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+28	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+29	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+3	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+30	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+31	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+32	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+33	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+34	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+35	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+36	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+37	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+38	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+39	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+4	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+40	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+41	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+42	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+43	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+44	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+45	3600	IN	A	127.0.0.2
+	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+46	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+47	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+48	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+49	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+5	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+50	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+51	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+52	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+53	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+54	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+55	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+56	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+57	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+58	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+59	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+6	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+60	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+61	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+62	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+63	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+64	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+65	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+66	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+67	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+68	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+69	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+7	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+70	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+71	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+72	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+73	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+74	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+75	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+76	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+77	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+78	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+79	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+8	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+80	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+81	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+82	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+83	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+84	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+85	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+86	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+87	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+88	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+89	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+9	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+90	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+91	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+92	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+93	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+94	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+95	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+96	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+97	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+98	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+99	3600	IN	TXT	"dealdelivery.com spam [troup - 2002/11/08]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 2.239.66.rbl.debian.net.
+71	3600	IN	TXT	"ftp-master spam [troup 2002/11/08]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 57.206.80.rbl.debian.net.
+10	3600	IN	TXT	"Stop send mail to root@debian.org [02/05/09 rmurray]"
+	3600	IN	A	127.0.0.3
+$ORIGIN 136.247.80.rbl.debian.net.
+29	3600	IN	TXT	"URGENT ASSISTANCE spam [troup 2002/10/17]"
+	3600	IN	A	127.0.0.2
+$ORIGIN 119.4.9.rbl.debian.net.
+65	3600	IN	TXT	"Fix your stupid spam filter [02/01/27 troup]"
+	3600	IN	A	127.0.0.2

@@ -1,0 +1,19 @@
+$ORIGIN debian.org.
+!template
+	10800	IN	NS	newsamosa.debian.org.
+	10800	IN	NS	saens.debian.org.
+	10800	IN	NS	spohr.debian.org.
+	10800	IN	NS	klecker.debian.org.
+$ORIGIN ipv6.debian.org.
+casals	10800	IN	AAAA	2002:121a:12:180a:a00:69ff:fe07:ba9b
+	10800	IN	AAAA	3ffe:1ce1:2:180a:a00:69ff:fe07:ba9b
+ftp	10800	IN	AAAA	2001:708:310:54::99
+	10800	IN	AAAA	2001:718:1:1:2d0:b7ff:fe46:fbb8
+	10800	IN	AAAA	2001:760:202:103::4
+	10800	IN	AAAA	2001:770:18:2::1:1
+	10800	IN	AAAA	3ffe:200:58:110::2
+	10800	IN	AAAA	3ffe:1001:210:16::5
+	10800	IN	AAAA	3ffe:8171:10:16::5
+klecker	10800	IN	AAAA	3ffe:8114:1000::525
+quantz	10800	IN	AAAA	2001:610:148:dead:2d0:b7ff:fef9:f78f
+raptor	10800	IN	AAAA	2001:658:201:390::4
