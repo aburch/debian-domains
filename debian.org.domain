@@ -241,9 +241,10 @@ $ORIGIN fr.debian.org.
 ftp		IN	A	212.27.32.66
 ftp2		IN	CNAME	ftp.oleane.net.
 www		IN	A	194.109.137.218
+; Anthony Wong <ypwong@debian.org>
 $ORIGIN hk.debian.org.
-ftp		IN	CNAME	ftp.debian.org.hk.
-www		IN	CNAME	www.debian.org.hk.
+ftp		IN	A	202.134.73.139
+www		IN	A	202.134.73.139
 $ORIGIN hr.debian.org.
 ftp		IN	A	161.53.160.11
 		IN	AAAA	2001:b68:e207::3
