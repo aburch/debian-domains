@@ -24,7 +24,7 @@ auric		IN	A	206.246.226.45
 		IN	MX	0 auric.debian.org.
 bruckner		IN	A	62.104.23.253
 		IN	HINFO	"PowerPC" "Debian GNU/Linux"
-bugs		300	IN	A	128.193.0.4
+bugs		300	IN	A	140.211.166.43
 		IN	MX	0 spohr.debian.org.
 		IN	MX	5 gluck.debian.org.
 bugs-mirror	IN	A	192.25.206.16
@@ -177,7 +177,7 @@ search		IN	A	194.109.137.218
 security	IN	A	194.109.137.218
 		IN	MX	10 klecker.debian.org.
 sparc		IN	A	206.246.226.48
-spohr		300	IN	A	128.193.0.4
+spohr		300	IN	A	140.211.166.43
 svn		IN	A	217.196.43.131
 		IN	MX	10 costa.debian.org.
 tippett		IN	A	195.92.249.0
@@ -191,7 +191,7 @@ vote		IN	A	146.82.138.7
 		IN	MX	0 master.debian.org.
 		IN	MX	5 gluck.debian.org.
 $ORIGIN wna.debian.org.
-syncproxy	300	IN	A	128.193.0.7
+syncproxy	300	IN	A	140.211.166.44
 $ORIGIN debian.org.
 www		IN	A	194.109.137.218
 ;;www		IN	A	192.25.206.10
@@ -300,15 +300,12 @@ www		IN	CNAME	debian.hands.com.
 $ORIGIN us.debian.org.
 ftp		IN	A	35.9.37.225
 		IN	A	128.101.80.133
-; [JT] downtime
-;		IN	A	128.193.0.3
 		IN	A	204.152.189.120
 		IN	A	208.185.25.35
 		IN	A	216.37.55.114
 ftp1		IN	CNAME	http.us.debian.org.
 http		IN	A	35.9.37.225
 		IN	A	128.101.80.133
-;		IN	A	128.193.0.3
 		IN	A	204.152.189.120
 		IN	A	208.185.25.35
 		IN	A	216.37.55.114
