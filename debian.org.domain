@@ -134,7 +134,7 @@ nonus		IN	A	194.109.137.218
 		IN	MX	10 dummy.debian.org.
 ntp		IN	A	192.25.206.10
 other		IN	A	146.82.138.6
-		IN	MX	0 murphy.debian.org.
+		IN	MX	0 newmurphy.debian.org.
 packages		IN	A	192.25.206.10
 		IN	MX	0 gluck.debian.org.
 paer		IN	A	192.25.206.11
