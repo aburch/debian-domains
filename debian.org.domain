@@ -62,8 +62,14 @@ elara		IN	A	209.87.236.28
 $ORIGIN ena.debian.org.
 syncproxy		IN	CNAME	newraff.debian.org.
 $ORIGIN debian.org.
+;
+; Thimo Neubauer <thimo@debian.org>
+;
 escher		IN	A	129.206.69.124
 		IN	MX	0 escher.debian.org.
+		IN	MX	10 newraff.debian.org.
+goedel		IN	A	129.206.109.29
+		IN	MX	0 goedel.debian.org.
 		IN	MX	10 newraff.debian.org.
 $ORIGIN eu.debian.org.
 syncproxy	3600	IN	CNAME	ftp.hr.debian.org.
