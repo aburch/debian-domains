@@ -216,8 +216,10 @@ $ORIGIN cl.debian.org.
 ftp		IN	CNAME	debian.ciencias.uchile.cl.
 $ORIGIN cn.debian.org.
 www		IN	A	61.152.210.194
+; Dan Ohnesorg <Dan@ohnesorg.cz>
 $ORIGIN cz.debian.org.
-ftp		IN	CNAME	www.debian.cz.
+;ftp		IN	CNAME	www.debian.cz.
+ftp		IN	A	195.113.161.73
 $ORIGIN de.debian.org.
 ftp		IN	A	141.76.2.4
 ftp1		IN	A	141.76.2.4
