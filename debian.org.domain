@@ -24,7 +24,7 @@ auric		IN	A	206.246.226.45
 		IN	MX	0 auric.debian.org.
 bruckner		IN	A	62.104.23.253
 		IN	HINFO	"PowerPC" "Debian GNU/Linux"
-bugs		IN	A	128.193.0.4
+bugs		300	IN	A	128.193.0.4
 		IN	MX	0 spohr.debian.org.
 		IN	MX	5 gluck.debian.org.
 bugs-mirror	IN	A	192.25.206.16
@@ -177,7 +177,7 @@ search		IN	A	194.109.137.218
 security	IN	A	194.109.137.218
 		IN	MX	10 klecker.debian.org.
 sparc		IN	A	206.246.226.48
-spohr		IN	A	128.193.0.4
+spohr		300	IN	A	128.193.0.4
 svn		IN	A	217.196.43.131
 		IN	MX	10 costa.debian.org.
 tippett		IN	A	195.92.249.0
