@@ -107,7 +107,7 @@ lists		IN	A	146.82.138.7
 lully		IN	A	146.82.138.60
 m68k		IN	A	134.99.176.32
 		IN	MX	50 kullervo.debian.org.
-malo		IN	A	128.193.0.53
+malo		IN	A	140.211.166.27
 master		IN	A	146.82.138.7
 		IN	MX	0 master.debian.org.
 		IN	MX	5 gluck.debian.org.
