@@ -577,9 +577,6 @@ $ORIGIN 46.255.194.rbl.debian.net.
 $ORIGIN 76.30.194.rbl.debian.net.
 66	3600	IN	TXT	"Stop send mail to root@debian.org [03/07/28 rmurray]"
 	3600	IN	A	127.0.0.3
-$ORIGIN 201.57.194.rbl.debian.net.
-100	3600	IN	TXT	"Really nasty user not found loop [99/6/6 jgg]"
-	3600	IN	A	127.0.0.2
 $ORIGIN 3.117.195.rbl.debian.net.
 4	3600	IN	TXT	"ids.pl relay [98/7/15 igor ]"
 	3600	IN	A	127.0.0.2
