@@ -133,8 +133,8 @@ nonus		IN	A	194.109.137.218
 ntp		IN	A	192.25.206.10
 other		IN	A	146.82.138.6
 		IN	MX	0 murphy.debian.org.
-packages		IN	A	192.25.206.10
-		IN	MX	0 gluck.debian.org.
+packages	IN	A	128.101.80.133
+		IN	MX	0 saens.debian.org.
 paer		IN	A	192.25.206.11
 people		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
