@@ -28,6 +28,8 @@ bruckner		IN	A	62.104.23.253
 bugs		IN	A	128.193.0.4
 		IN	MX	0 spohr.debian.org.
 		IN	MX	5 gluck.debian.org.
+bugs-mirror	IN	A	192.25.206.16
+		IN	MX	10 gluck.debian.org.
 buildd		IN	A	208.185.25.31
 		IN	MX	10 newraff.debian.org.
 		IN	MX	20 gluck.debian.org.
