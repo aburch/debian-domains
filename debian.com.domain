@@ -1,4 +1,4 @@
-$ORIGIN com.
+$ORIGIN debian.com.
 !template
 	10800	IN	NS	newsamosa.debian.org.
 	10800	IN	NS	saens.debian.org.

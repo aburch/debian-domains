@@ -1,4 +1,4 @@
-$ORIGIN debian.net.
+$ORIGIN rbl.debian.net.
 !template
 	3600	IN	NS	newsamosa.debian.org.
 	3600	IN	NS	saens.debian.org.

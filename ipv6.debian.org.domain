@@ -1,4 +1,4 @@
-$ORIGIN debian.org.
+$ORIGIN ipv6.debian.org.
 !template
 	10800	IN	NS	newsamosa.debian.org.
 	10800	IN	NS	saens.debian.org.

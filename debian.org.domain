@@ -1,4 +1,4 @@
-$ORIGIN org.
+$ORIGIN debian.org.
 !template
 	1800	IN	NS	newsamosa.debian.org.
 	1800	IN	NS	saens.debian.org.
