@@ -31,7 +31,7 @@ bugs		IN	A	128.193.0.4
 buildd		IN	A	208.185.25.31
 		IN	MX	10 newraff.debian.org.
 		IN	MX	20 gluck.debian.org.
-caballero		IN	A	212.240.194.174
+caballero	IN	A	193.201.200.200
 casals		IN	A	128.31.0.16
 		IN	HINFO	"SGI Indigo2" "Debian GNU/Linux"
 cdimage		IN	A	130.239.18.151
@@ -163,7 +163,7 @@ release		IN	A	192.25.206.10
 saens		IN	A	128.101.80.131
 samosa		IN	A	209.249.97.234
 samosa-replacement		IN	A	208.185.25.38
-sarti		IN	A	212.240.194.173
+sarti		IN	A	193.201.200.199
 search		IN	A	194.109.137.218
 		IN	MX	10 gluck.debian.org.
 		IN	MX	20 master.debian.org.
