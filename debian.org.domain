@@ -185,6 +185,8 @@ merulo	1800	IN	A	192.25.206.12
 mirror	1800	IN	A	194.109.137.218
 	1800	IN	MX	10 gluck.debian.org.
 	1800	IN	MX	20 master.debian.org.
+newmurphy 1800	IN	A	146.82.138.27
+	1800	IN	MX	0 newmurphy.debian.org.
 murphy	1800	IN	A	146.82.138.6
 	1800	IN	MX	0 murphy.debian.org.
 	1800	IN	MX	5 gluck.debian.org.
