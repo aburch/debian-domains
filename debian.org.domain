@@ -52,7 +52,7 @@ db		IN	A	208.185.25.35
 		IN	MX	10 newsamosa.debian.org.
 		IN	MX	15 auric.debian.org.
 ddtp		IN	A	192.25.206.10
-		IN	MX	0 dummy.debian.org.
+		IN	MX	0 gluck.debian.org.
 		IN	MX	10 master.debian.org.
 debussy		IN	A	62.116.32.98
 dsd		IN	A	194.109.137.219
