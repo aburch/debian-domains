@@ -120,7 +120,7 @@ newmurphy 	IN	A	146.82.138.27
 		IN	MX	0 newmurphy.debian.org.
 murphy		IN	A	146.82.138.6
 		IN	MX	0 murphy.debian.org.
-nessler		IN	A	217.196.34.10
+costa		IN	A	217.196.34.10
 netwinder		IN	CNAME	debussy.debian.org.
 newraff		IN	A	208.185.25.31
 newsamosa		IN	A	208.185.25.35
