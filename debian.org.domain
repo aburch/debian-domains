@@ -1,327 +1,308 @@
+$TTL 1800
 $ORIGIN debian.org.
 !template
-	1800	IN	NS	newsamosa.debian.org.
-	1800	IN	NS	saens.debian.org.
-	1800	IN	NS	spohr.debian.org.
-	1800	IN	NS	klecker.debian.org.
-	1800	IN	MX	0 master.debian.org.
-	1800	IN	MX	5 gluck.debian.org.
-	1800	IN	A	192.25.206.10
-$ORIGIN debian.org.
-admin	1800	IN	MX	10 gluck.debian.org.
-alioth	1800	IN	NS	haydn.debian.org.
-allegri	1800	IN	A	192.25.206.26
-arch	1800	IN	A	192.25.206.28
-	1800	IN	MX	10 haydn.debian.org.
-archive	1800	IN	A	208.185.25.38
-	1800	IN	MX	10 gluck.debian.org.
-	1800	IN	MX	20 master.debian.org.
-arm	1800	IN	CNAME	debussy.debian.org.
-at	1800	IN	NS	babylon.atnet.at.
-	1800	IN	NS	atlantis.atnet.at.
-$ORIGIN au.debian.org.
-ftp	1800	IN	CNAME	ftp.planetmirror.com.
-$ORIGIN wa.au.debian.org.
-ftp	1800	IN	A	203.8.116.111
-$ORIGIN au.debian.org.
-www	1800	IN	A	203.8.116.111
-$ORIGIN debian.org.
-auber	1800	IN	A	192.25.206.27
-auric	1800	IN	A	206.246.226.45
-	1800	IN	MX	0 auric.debian.org.
-	1800	IN	MX	5 gluck.debian.org.
-$ORIGIN bg.debian.org.
-ftp	1800	IN	CNAME	debian.spnet.net.
-www	1800	IN	CNAME	debian.spnet.net.
-$ORIGIN br.debian.org.
-ftp	1800	IN	A	200.17.212.129
-www	1800	IN	CNAME	www.debian.org.br.
-$ORIGIN debian.org.
-bruckner	1800	IN	A	62.104.23.253
-	1800	IN	HINFO	"PowerPC" "Debian GNU/Linux"
-bugs	1800	IN	A	128.193.0.4
-	1800	IN	MX	0 spohr.debian.org.
-	1800	IN	MX	5 gluck.debian.org.
-buildd	1800	IN	A	208.185.25.31
-	1800	IN	MX	10 newraff.debian.org.
-	1800	IN	MX	20 gluck.debian.org.
-$ORIGIN ca.debian.org.
-ftp	1800	IN	CNAME	ftp.debian.org.
-$ORIGIN debian.org.
-caballero	1800	IN	A	212.240.194.174
-casals	1800	IN	A	128.31.0.16
-	1800	IN	HINFO	"SGI Indigo2" "Debian GNU/Linux"
-cdimage	1800	IN	A	130.239.18.151
+		IN	NS	newsamosa.debian.org.
+		IN	NS	saens.debian.org.
+		IN	NS	spohr.debian.org.
+		IN	NS	klecker.debian.org.
+		IN	MX	0 master.debian.org.
+		IN	MX	5 gluck.debian.org.
+		IN	A	192.25.206.10
+admin		IN	MX	10 gluck.debian.org.
+alioth		IN	NS	haydn.debian.org.
+allegri		IN	A	192.25.206.26
+arch		IN	A	192.25.206.28
+		IN	MX	10 haydn.debian.org.
+archive		IN	A	208.185.25.38
+		IN	MX	10 gluck.debian.org.
+		IN	MX	20 master.debian.org.
+arm		IN	CNAME	debussy.debian.org.
+at		IN	NS	babylon.atnet.at.
+		IN	NS	atlantis.atnet.at.
+auber		IN	A	192.25.206.27
+auric		IN	A	206.246.226.45
+		IN	MX	0 auric.debian.org.
+		IN	MX	5 gluck.debian.org.
+bruckner		IN	A	62.104.23.253
+		IN	HINFO	"PowerPC" "Debian GNU/Linux"
+bugs		IN	A	128.193.0.4
+		IN	MX	0 spohr.debian.org.
+		IN	MX	5 gluck.debian.org.
+buildd		IN	A	208.185.25.31
+		IN	MX	10 newraff.debian.org.
+		IN	MX	20 gluck.debian.org.
+caballero		IN	A	212.240.194.174
+casals		IN	A	128.31.0.16
+		IN	HINFO	"SGI Indigo2" "Debian GNU/Linux"
+cdimage		IN	A	130.239.18.151
 $ORIGIN cdimage.debian.org.
-non-us	1800	IN	CNAME	debian.hands.com.
-us	1800	IN	CNAME	debian.hands.com.
+non-us		IN	CNAME	debian.hands.com.
+us		IN	CNAME	debian.hands.com.
 $ORIGIN debian.org.
-cgi	1800	IN	A	146.82.138.7
-	1800	IN	MX	10 gluck.debian.org.
-	1800	IN	MX	20 master.debian.org.
-$ORIGIN cl.debian.org.
-ftp	1800	IN	CNAME	debian.ciencias.uchile.cl.
-$ORIGIN cn.debian.org.
-www	1800	IN	A	61.152.210.194
-$ORIGIN debian.org.
-crest	1800	IN	A	134.99.176.62
-cvs	1800	IN	A	192.25.206.10
-	1800	IN	MX	10 gluck.debian.org.
-	1800	IN	MX	20 master.debian.org.
-$ORIGIN cz.debian.org.
-ftp	1800	IN	CNAME	www.debian.cz.
-$ORIGIN debian.org.
-db	1800	IN	A	208.185.25.35
-	1800	IN	MX	10 newsamosa.debian.org.
-	1800	IN	MX	15 auric.debian.org.
-ddtp	1800	IN	A	192.25.206.10
-	1800	IN	MX	0 dummy.debian.org.
-	1800	IN	MX	10 master.debian.org.
-$ORIGIN de.debian.org.
-ftp	1800	IN	A	141.76.2.4
-ftp1	1800	IN	A	141.76.2.4
-ftp2	1800	IN	A	195.71.9.196
-upload	1800	IN	A	131.188.3.71
-www	1800	IN	A	141.76.2.5
-$ORIGIN debian.org.
-debussy	1800	IN	A	62.116.32.98
-$ORIGIN dk.debian.org.
-ftp	1800	IN	A	194.192.187.79
-www	1800	IN	A	194.192.187.79
-$ORIGIN debian.org.
-dsd	1800	IN	A	194.109.137.219
-	1800	IN	MX	10 gluck.debian.org.
-dummy	1800	IN	A	194.70.183.234
-$ORIGIN ee.debian.org.
-ftp	1800	IN	A	195.222.16.154
-$ORIGIN debian.org.
-elara	1800	IN	A	209.87.236.28
+cgi		IN	A	146.82.138.7
+		IN	MX	10 gluck.debian.org.
+		IN	MX	20 master.debian.org.
+crest		IN	A	134.99.176.62
+cvs		IN	A	192.25.206.10
+		IN	MX	10 gluck.debian.org.
+		IN	MX	20 master.debian.org.
+db		IN	A	208.185.25.35
+		IN	MX	10 newsamosa.debian.org.
+		IN	MX	15 auric.debian.org.
+ddtp		IN	A	192.25.206.10
+		IN	MX	0 dummy.debian.org.
+		IN	MX	10 master.debian.org.
+debussy		IN	A	62.116.32.98
+dsd		IN	A	194.109.137.219
+		IN	MX	10 gluck.debian.org.
+dummy		IN	A	194.70.183.234
+elara		IN	A	209.87.236.28
 $ORIGIN ena.debian.org.
-syncproxy	1800	IN	CNAME	newraff.debian.org.
-$ORIGIN es.debian.org.
-ftp	1800	IN	A	150.244.30.38
-www	1800	IN	CNAME	pusa.informat.uv.es.
+syncproxy		IN	CNAME	newraff.debian.org.
 $ORIGIN debian.org.
-escher	1800	IN	A	129.206.69.124
-	1800	IN	MX	0 escher.debian.org.
-	1800	IN	MX	10 auric.debian.org.
+escher		IN	A	129.206.69.124
+		IN	MX	0 escher.debian.org.
+		IN	MX	10 auric.debian.org.
 $ORIGIN eu.debian.org.
 syncproxy	3600	IN	CNAME	ftp.hr.debian.org.
 syncproxy2	3600	IN	CNAME	farbror.acc.umu.se.
 $ORIGIN debian.org.
-europa	1800	IN	A	209.87.236.27
-faure	1800	IN	A	146.82.138.58
-$ORIGIN fi.debian.org.
-ftp	1800	IN	A	130.230.54.99
-	1800	IN	AAAA	2001:708:310:54::99
-$ORIGIN fr.debian.org.
-ftp	1800	IN	A	212.27.32.66
-ftp2	1800	IN	CNAME	ftp.oleane.net.
-www	1800	IN	A	194.109.137.218
-$ORIGIN debian.org.
-ftp	1800	IN	A	128.101.80.131
-	1800	IN	A	208.185.25.35
-	1800	IN	MX	10 gluck.debian.org.
-	1800	IN	MX	20 master.debian.org.
-ftp-master	1800	IN	A	208.185.25.31
-	1800	IN	MX	10 newraff.debian.org.
-	1800	IN	MX	20 gluck.debian.org.
-gluck	1800	IN	A	192.25.206.10
-haydn	1800	IN	A	192.25.206.28
-$ORIGIN hk.debian.org.
-ftp	1800	IN	CNAME	ftp.debian.org.hk.
-www	1800	IN	CNAME	www.debian.org.hk.
-$ORIGIN hr.debian.org.
-ftp	1800	IN	A	161.53.160.11
-	1800	IN	AAAA	3ffe:200:58:110::2
-$ORIGIN hu.debian.org.
-ftp	1800	IN	CNAME	ftp.fsn.hu.
-$ORIGIN id.debian.org.
-www	1800	IN	CNAME	kambing.vLSM.org.
-$ORIGIN ie.debian.org.
-ftp	1800	IN	A	193.1.219.85
-	1800	IN	AAAA	2001:770:18:2::1:1
-$ORIGIN debian.org.
-incoming	1800	IN	A	208.185.25.31
-	1800	IN	MX	10 gluck.debian.org.
-ipv6	1800	IN	NS	raff.debian.org.
-	1800	IN	NS	saens.debian.org.
-irc	1800	IN	CNAME	irc.freenode.net.
-$ORIGIN is.debian.org.
-ftp	1800	IN	CNAME	draupnir.rhnet.is.
-$ORIGIN it.debian.org.
-ftp	1800	IN	CNAME	ftp.bofh.it.
-ftp2	1800	IN	CNAME	giano.cnaf.infn.it.
-www	1800	IN	CNAME	baol.linux.it.
-$ORIGIN jp.debian.org.
-ftp	1800	IN	A	203.178.137.175
-ftp2	1800	IN	A	210.157.158.33
-www	1800	IN	A	210.157.158.35
-$ORIGIN debian.org.
-keyring	1800	IN	A	208.185.25.31
-	1800	IN	MX	10 gluck.debian.org.
-klecker	1800	IN	A	194.109.137.218
-	1800	IN	MX	0 klecker.debian.org.
-	1800	IN	MX	10 master.debian.org.
-$ORIGIN kr.debian.org.
-ftp	1800	IN	CNAME	ftp.kaist.ac.kr.
-$ORIGIN debian.org.
-kubrick	1800	IN	A	146.82.138.59
-kullervo	1800	IN	A	134.99.176.32
-	1800	IN	MX	50 kullervo.debian.org.
-lintian	1800	IN	A	192.25.206.10
-	1800	IN	MX	10 gluck.debian.org.
-	1800	IN	MX	20 master.debian.org.
-lists	1800	IN	A	146.82.138.7
-	1800	IN	MX	0 murphy.debian.org.
-lully	1800	IN	A	146.82.138.60
-m68k	1800	IN	A	134.99.176.32
-	1800	IN	MX	50 kullervo.debian.org.
-malo	1800	IN	A	128.193.0.53
-master	1800	IN	A	146.82.138.7
-	1800	IN	MX	0 master.debian.org.
-	1800	IN	MX	5 gluck.debian.org.
-merkel	1800	IN	A	192.25.206.16
-merulo	1800	IN	A	192.25.206.12
-mirror	1800	IN	A	194.109.137.218
-	1800	IN	MX	10 gluck.debian.org.
-	1800	IN	MX	20 master.debian.org.
-newmurphy 1800	IN	A	146.82.138.27
-	1800	IN	MX	0 newmurphy.debian.org.
-murphy	1800	IN	A	146.82.138.6
-	1800	IN	MX	0 murphy.debian.org.
-	1800	IN	MX	5 gluck.debian.org.
-	1800	IN	MX	10 master.debian.org.
-nessler	1800	IN	A	217.196.34.10
-netwinder	1800	IN	CNAME	debussy.debian.org.
-newraff	1800	IN	A	208.185.25.31
-newsamosa	1800	IN	A	208.185.25.35
-nl	1800	IN	NS	ns.cistron.nl.
-	1800	IN	NS	ns2.cistron.nl.
-nm	1800	IN	A	194.109.137.218
-	1800	IN	MX	10 klecker.debian.org.
-$ORIGIN no.debian.org.
-ftp	1800	IN	CNAME	spheniscus.uninett.no.
-$ORIGIN debian.org.
-non-us	1800	IN	A	194.109.137.218
-	1800	IN	MX	10 dummy.debian.org.
-nonus	1800	IN	A	194.109.137.218
-	1800	IN	MX	10 dummy.debian.org.
-ntp	1800	IN	A	192.25.206.10
-$ORIGIN nz.debian.org.
-ftp	1800	IN	CNAME	ftp.citylink.co.nz.
-$ORIGIN debian.org.
-other	1800	IN	A	146.82.138.6
-	1800	IN	MX	0 murphy.debian.org.
-packages	1800	IN	A	192.25.206.10
-	1800	IN	MX	0 gluck.debian.org.
-paer	1800	IN	A	192.25.206.11
-people	1800	IN	A	192.25.206.10
-	1800	IN	MX	10 gluck.debian.org.
-	1800	IN	MX	20 master.debian.org.
-pergolesi	1800	IN	A	62.104.23.252
-	1800	IN	HINFO	"Dual Opteron" "Debian GNU/Linux"
-peri	1800	IN	A	192.25.206.15
-$ORIGIN pl.debian.org.
-ftp	1800	IN	CNAME	ftp.task.gda.pl.
-www	1800	IN	CNAME	www.debian.org.
-$ORIGIN debian.org.
-popcon	1800	IN	A	192.25.206.10
-	1800	IN	MX	10 gluck.debian.org.
-	1800	IN	MX	20 master.debian.org.
-ports	1800	IN	A	192.25.206.10
-	1800	IN	MX	10 gluck.debian.org.
-	1800	IN	MX	20 master.debian.org.
-qa	1800	IN	A	192.25.206.16
-	1800	IN	MX	10 merkel.debian.org.
+europa		IN	A	209.87.236.27
+faure		IN	A	146.82.138.58
+ftp		IN	A	128.101.80.131
+		IN	A	208.185.25.35
+		IN	MX	10 gluck.debian.org.
+		IN	MX	20 master.debian.org.
+ftp-master		IN	A	208.185.25.31
+		IN	MX	10 newraff.debian.org.
+		IN	MX	20 gluck.debian.org.
+gluck		IN	A	192.25.206.10
+haydn		IN	A	192.25.206.28
+incoming		IN	A	208.185.25.31
+		IN	MX	10 gluck.debian.org.
+ipv6		IN	NS	raff.debian.org.
+		IN	NS	saens.debian.org.
+irc		IN	CNAME	irc.freenode.net.
+keyring		IN	A	208.185.25.31
+		IN	MX	10 gluck.debian.org.
+klecker		IN	A	194.109.137.218
+		IN	MX	0 klecker.debian.org.
+		IN	MX	10 master.debian.org.
+kubrick		IN	A	146.82.138.59
+kullervo		IN	A	134.99.176.32
+		IN	MX	50 kullervo.debian.org.
+lintian		IN	A	192.25.206.10
+		IN	MX	10 gluck.debian.org.
+		IN	MX	20 master.debian.org.
+lists		IN	A	146.82.138.7
+		IN	MX	0 murphy.debian.org.
+lully		IN	A	146.82.138.60
+m68k		IN	A	134.99.176.32
+		IN	MX	50 kullervo.debian.org.
+malo		IN	A	128.193.0.53
+master		IN	A	146.82.138.7
+		IN	MX	0 master.debian.org.
+		IN	MX	5 gluck.debian.org.
+merkel		IN	A	192.25.206.16
+merulo		IN	A	192.25.206.12
+mirror		IN	A	194.109.137.218
+		IN	MX	10 gluck.debian.org.
+		IN	MX	20 master.debian.org.
+newmurphy 	IN	A	146.82.138.27
+		IN	MX	0 newmurphy.debian.org.
+murphy		IN	A	146.82.138.6
+		IN	MX	0 murphy.debian.org.
+		IN	MX	5 gluck.debian.org.
+		IN	MX	10 master.debian.org.
+nessler		IN	A	217.196.34.10
+netwinder		IN	CNAME	debussy.debian.org.
+newraff		IN	A	208.185.25.31
+newsamosa		IN	A	208.185.25.35
+nl		IN	NS	ns.cistron.nl.
+		IN	NS	ns2.cistron.nl.
+nm		IN	A	194.109.137.218
+		IN	MX	10 klecker.debian.org.
+non-us		IN	A	194.109.137.218
+		IN	MX	10 dummy.debian.org.
+nonus		IN	A	194.109.137.218
+		IN	MX	10 dummy.debian.org.
+ntp		IN	A	192.25.206.10
+other		IN	A	146.82.138.6
+		IN	MX	0 murphy.debian.org.
+packages		IN	A	192.25.206.10
+		IN	MX	0 gluck.debian.org.
+paer		IN	A	192.25.206.11
+people		IN	A	192.25.206.10
+		IN	MX	10 gluck.debian.org.
+		IN	MX	20 master.debian.org.
+pergolesi		IN	A	62.104.23.252
+		IN	HINFO	"Dual Opteron" "Debian GNU/Linux"
+peri		IN	A	192.25.206.15
+popcon		IN	A	192.25.206.10
+		IN	MX	10 gluck.debian.org.
+		IN	MX	20 master.debian.org.
+ports		IN	A	192.25.206.10
+		IN	MX	10 gluck.debian.org.
+		IN	MX	20 master.debian.org.
+qa		IN	A	192.25.206.16
+		IN	MX	10 merkel.debian.org.
 $ORIGIN qa.debian.org.
-bugs	1800	IN	A	192.25.206.16
-	1800	IN	MX	10 merkel.debian.org.
-packages	1800	IN	A	146.82.138.7
-	1800	IN	MX	0 master.debian.org.
-	1800	IN	MX	10 gluck.debian.org.
+bugs		IN	A	192.25.206.16
+		IN	MX	10 merkel.debian.org.
+packages		IN	A	146.82.138.7
+		IN	MX	0 master.debian.org.
+		IN	MX	10 gluck.debian.org.
 $ORIGIN debian.org.
-quantz	1800	IN	A	192.87.30.200
-raff	1800	IN	A	208.185.25.38
-rameau	1800	IN	A	212.240.194.170
-raptor	1800	IN	A	195.243.109.162
-release	1800	IN	A	192.25.206.10
-	1800	IN	MX	10 gluck.debian.org.
-	1800	IN	MX	20 master.debian.org.
-$ORIGIN ro.debian.org.
-ftp	1800	IN	CNAME	ns.iasi.roedu.net.
-$ORIGIN ru.debian.org.
-ftp	1800	IN	CNAME	ftp.chg.ru.
-www	1800	IN	A	213.171.53.130
-$ORIGIN debian.org.
-saens	1800	IN	A	128.101.80.131
-samosa	1800	IN	A	209.249.97.234
-samosa-replacement	1800	IN	A	208.185.25.38
-sarti	1800	IN	A	212.240.194.173
-$ORIGIN se.debian.org.
-ftp	1800	IN	CNAME	ftp.acc.umu.se.
-$ORIGIN debian.org.
-search	1800	IN	A	194.109.137.218
-	1800	IN	MX	10 gluck.debian.org.
-	1800	IN	MX	20 master.debian.org.
-security	1800	IN	A	194.109.137.218
-	1800	IN	MX	10 klecker.debian.org.
-$ORIGIN si.debian.org.
-ftp	1800	IN	A	164.8.6.249
-$ORIGIN sk.debian.org.
-ftp	1800	IN	CNAME	ftp.tuke.sk.
-$ORIGIN debian.org.
-sparc	1800	IN	A	206.246.226.48
-spohr	1800	IN	A	128.193.0.4
-svn	1800	IN	A	192.25.206.28
-	1800	IN	MX	10 haydn.debian.org.
-tippett	1800	IN	A	195.92.249.0
-$ORIGIN tr.debian.org.
-ftp	1800	IN	CNAME	debian.ankara.edu.tr.
-$ORIGIN debian.org.
-trex	1800	IN	A	32.97.40.152
-$ORIGIN ua.debian.org.
-www	1800	IN	CNAME	www.debian.org.ua.
-$ORIGIN uk.debian.org.
-ftp	1800	IN	A	195.224.53.39
-upload	1800	IN	CNAME	debian.hands.com.
-www	1800	IN	CNAME	debian.hands.com.
-$ORIGIN us.debian.org.
-ftp	1800	IN	A	35.9.37.225
-	1800	IN	A	128.101.80.131
-; [JT] downtime
-;	1800	IN	A	128.193.0.3
-	1800	IN	A	204.152.189.120
-	1800	IN	A	208.185.25.35
-	1800	IN	A	216.37.55.114
-ftp1	1800	IN	CNAME	http.us.debian.org.
-http	1800	IN	A	35.9.37.225
-	1800	IN	A	128.101.80.131
-;	1800	IN	A	128.193.0.3
-	1800	IN	A	204.152.189.120
-	1800	IN	A	208.185.25.35
-	1800	IN	A	216.37.55.114
-$ORIGIN mi.us.debian.org.
-ftp	1800	IN	CNAME	debian.egr.msu.edu.
-$ORIGIN us.debian.org.
-www	1800	IN	CNAME	gluck.debian.org.
-$ORIGIN debian.org.
-vaughan	1800	IN	A	128.30.28.47
-	1800	IN	HINFO	"Cobalt RaQ2" "Debian GNU/Linux"
-voltaire	1800	IN	A	66.93.172.18
-	1800	IN	HINFO	"PowerPC" "Debian GNU/Linux"
-vore	1800	IN	A	206.246.226.48
-vote	1800	IN	A	146.82.138.7
-	1800	IN	MX	0 master.debian.org.
-	1800	IN	MX	5 gluck.debian.org.
+quantz		IN	A	192.87.30.200
+raff		IN	A	208.185.25.38
+rameau		IN	A	212.240.194.170
+raptor		IN	A	195.243.109.162
+release		IN	A	192.25.206.10
+		IN	MX	10 gluck.debian.org.
+		IN	MX	20 master.debian.org.
+saens		IN	A	128.101.80.131
+samosa		IN	A	209.249.97.234
+samosa-replacement		IN	A	208.185.25.38
+sarti		IN	A	212.240.194.173
+search		IN	A	194.109.137.218
+		IN	MX	10 gluck.debian.org.
+		IN	MX	20 master.debian.org.
+security		IN	A	194.109.137.218
+		IN	MX	10 klecker.debian.org.
+sparc		IN	A	206.246.226.48
+spohr		IN	A	128.193.0.4
+svn		IN	A	192.25.206.28
+		IN	MX	10 haydn.debian.org.
+tippett		IN	A	195.92.249.0
+trex		IN	A	32.97.40.152
+vaughan		IN	A	128.30.28.47
+		IN	HINFO	"Cobalt RaQ2" "Debian GNU/Linux"
+voltaire		IN	A	66.93.172.18
+		IN	HINFO	"PowerPC" "Debian GNU/Linux"
+vore		IN	A	206.246.226.48
+vote		IN	A	146.82.138.7
+		IN	MX	0 master.debian.org.
+		IN	MX	5 gluck.debian.org.
 $ORIGIN wna.debian.org.
-syncproxy	1800	IN	A	128.193.0.7
+syncproxy		IN	A	128.193.0.7
 $ORIGIN debian.org.
-www	1800	IN	A	192.25.206.10
-	1800	IN	MX	10 dummy.debian.org.
-	1800	IN	MX	20 master.debian.org.
-www-master	1800	IN	A	194.109.137.218
-	1800	IN	MX	10 klecker.debian.org.
-www-mirror	1800	IN	CNAME	www-master.debian.org.
+www		IN	A	192.25.206.10
+		IN	MX	10 dummy.debian.org.
+		IN	MX	20 master.debian.org.
+www-master		IN	A	194.109.137.218
+		IN	MX	10 klecker.debian.org.
+www-mirror		IN	CNAME	www-master.debian.org.
+
+$ORIGIN au.debian.org.
+ftp		IN	CNAME	ftp.planetmirror.com.
+$ORIGIN bg.debian.org.
+ftp		IN	CNAME	debian.spnet.net.
+www		IN	CNAME	debian.spnet.net.
+$ORIGIN br.debian.org.
+ftp		IN	A	200.17.212.129
+www		IN	CNAME	www.debian.org.br.
+$ORIGIN ca.debian.org.
+ftp		IN	CNAME	ftp.debian.org.
+$ORIGIN cl.debian.org.
+ftp		IN	CNAME	debian.ciencias.uchile.cl.
+$ORIGIN cn.debian.org.
+www		IN	A	61.152.210.194
+$ORIGIN cz.debian.org.
+ftp		IN	CNAME	www.debian.cz.
+$ORIGIN de.debian.org.
+ftp		IN	A	141.76.2.4
+ftp1		IN	A	141.76.2.4
+ftp2		IN	A	195.71.9.196
+upload		IN	A	131.188.3.71
+www		IN	A	141.76.2.5
+$ORIGIN dk.debian.org.
+ftp		IN	A	194.192.187.79
+www		IN	A	194.192.187.79
+$ORIGIN ee.debian.org.
+ftp		IN	A	195.222.16.154
+$ORIGIN es.debian.org.
+ftp		IN	A	150.244.30.38
+www		IN	CNAME	debian.ci.uv.es.
+$ORIGIN fi.debian.org.
+ftp		IN	A	130.230.54.99
+		IN	AAAA	2001:708:310:54::99
+$ORIGIN fr.debian.org.
+ftp		IN	A	212.27.32.66
+ftp2		IN	CNAME	ftp.oleane.net.
+www		IN	A	194.109.137.218
+$ORIGIN hk.debian.org.
+ftp		IN	CNAME	ftp.debian.org.hk.
+www		IN	CNAME	www.debian.org.hk.
+$ORIGIN hr.debian.org.
+ftp		IN	A	161.53.160.11
+		IN	AAAA	3ffe:200:58:110::2
+$ORIGIN hu.debian.org.
+ftp		IN	CNAME	ftp.fsn.hu.
+$ORIGIN id.debian.org.
+www		IN	CNAME	kambing.vLSM.org.
+$ORIGIN ie.debian.org.
+ftp		IN	A	193.1.219.85
+		IN	AAAA	2001:770:18:2::1:1
+$ORIGIN is.debian.org.
+ftp		IN	CNAME	draupnir.rhnet.is.
+$ORIGIN it.debian.org.
+ftp		IN	CNAME	ftp.bofh.it.
+ftp2		IN	CNAME	giano.cnaf.infn.it.
+www		IN	CNAME	baol.linux.it.
+$ORIGIN jp.debian.org.
+ftp		IN	A	203.178.137.175
+ftp2		IN	A	210.157.158.33
+www		IN	A	210.157.158.35
+$ORIGIN kr.debian.org.
+ftp		IN	CNAME	ftp.kaist.ac.kr.
+$ORIGIN no.debian.org.
+ftp		IN	CNAME	spheniscus.uninett.no.
+$ORIGIN nz.debian.org.
+ftp		IN	CNAME	ftp.citylink.co.nz.
+$ORIGIN pl.debian.org.
+ftp		IN	CNAME	ftp.task.gda.pl.
+www		IN	CNAME	www.debian.org.
+$ORIGIN ro.debian.org.
+ftp		IN	CNAME	ns.iasi.roedu.net.
+$ORIGIN ru.debian.org.
+ftp		IN	CNAME	ftp.chg.ru.
+www		IN	A	213.171.53.130
+$ORIGIN se.debian.org.
+ftp		IN	CNAME	ftp.acc.umu.se.
+$ORIGIN si.debian.org.
+ftp		IN	A	164.8.6.249
+$ORIGIN sk.debian.org.
+ftp		IN	CNAME	ftp.tuke.sk.
+$ORIGIN tr.debian.org.
+ftp		IN	CNAME	debian.ankara.edu.tr.
+$ORIGIN ua.debian.org.
+www		IN	CNAME	www.debian.org.ua.
+$ORIGIN uk.debian.org.
+ftp		IN	A	195.224.53.39
+upload		IN	CNAME	debian.hands.com.
+www		IN	CNAME	debian.hands.com.
+$ORIGIN us.debian.org.
+ftp		IN	A	35.9.37.225
+		IN	A	128.101.80.131
+; [JT] downtime
+;		IN	A	128.193.0.3
+		IN	A	204.152.189.120
+		IN	A	208.185.25.35
+		IN	A	216.37.55.114
+ftp1		IN	CNAME	http.us.debian.org.
+http		IN	A	35.9.37.225
+		IN	A	128.101.80.131
+;		IN	A	128.193.0.3
+		IN	A	204.152.189.120
+		IN	A	208.185.25.35
+		IN	A	216.37.55.114
+$ORIGIN mi.us.debian.org.
+ftp		IN	CNAME	debian.egr.msu.edu.
+$ORIGIN us.debian.org.
+www		IN	CNAME	gluck.debian.org.
+$ORIGIN wa.au.debian.org.
+ftp		IN	A	203.8.116.111
+$ORIGIN au.debian.org.
+www		IN	A	203.8.116.111
 $ORIGIN za.debian.org.
-www	1800	IN	CNAME	www.leg.uct.ac.za.
+www		IN	CNAME	www.leg.uct.ac.za.
