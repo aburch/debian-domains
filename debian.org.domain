@@ -78,8 +78,8 @@ syncproxy2	3600	IN	CNAME	farbror.acc.umu.se.
 $ORIGIN debian.org.
 europa		IN	A	209.87.236.27
 faure		IN	A	146.82.138.58
-;ftp		IN	A	128.101.80.131
-ftp		IN	A	208.185.25.35
+ftp		IN	A	128.101.80.133
+		IN	A	208.185.25.35
 		IN	MX	10 gluck.debian.org.
 		IN	MX	20 master.debian.org.
 ftp-master		IN	A	208.185.25.31
@@ -168,7 +168,8 @@ raptor		IN	A	195.243.109.162
 release		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
 		IN	MX	20 master.debian.org.
-saens		IN	A	128.101.80.131
+oldsaens	IN	A	128.101.80.131
+saens		IN	A	128.101.80.133
 samosa		IN	A	209.249.97.234
 samosa-replacement		IN	A	208.185.25.38
 sarti		IN	A	193.201.200.199
@@ -299,7 +300,7 @@ upload		IN	CNAME	debian.hands.com.
 www		IN	CNAME	debian.hands.com.
 $ORIGIN us.debian.org.
 ftp		IN	A	35.9.37.225
-;		IN	A	128.101.80.131
+		IN	A	128.101.80.133
 ; [JT] downtime
 ;		IN	A	128.193.0.3
 		IN	A	204.152.189.120
@@ -307,7 +308,7 @@ ftp		IN	A	35.9.37.225
 		IN	A	216.37.55.114
 ftp1		IN	CNAME	http.us.debian.org.
 http		IN	A	35.9.37.225
-;		IN	A	128.101.80.131
+		IN	A	128.101.80.133
 ;		IN	A	128.193.0.3
 		IN	A	204.152.189.120
 		IN	A	208.185.25.35
