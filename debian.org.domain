@@ -257,7 +257,7 @@ $ORIGIN is.debian.org.
 ftp		IN	CNAME	draupnir.rhnet.is.
 $ORIGIN it.debian.org.
 ftp		IN	CNAME	ftp.bofh.it.
-ftp2		IN	CNAME	giano.cnaf.infn.it.
+ftp2		IN	CNAME	korolyov.fastweb.it.
 www		IN	CNAME	baol.linux.it.
 $ORIGIN jp.debian.org.
 ftp		IN	A	203.178.137.175
