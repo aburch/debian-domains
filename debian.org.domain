@@ -69,7 +69,7 @@ $ORIGIN debian.org.
 escher		IN	A	129.206.69.124
 		IN	MX	0 escher.debian.org.
 		IN	MX	10 newraff.debian.org.
-goedel		IN	A	129.206.109.29
+goedel		IN	A	129.206.69.122
 		IN	MX	0 goedel.debian.org.
 		IN	MX	10 newraff.debian.org.
 $ORIGIN eu.debian.org.
