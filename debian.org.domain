@@ -143,6 +143,8 @@ peri		IN	A	192.25.206.15
 popcon		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
 		IN	MX	20 master.debian.org.
+planet		IN	A	192.25.206.10
+		IN	MX	10 gluck.debian.org.
 ports		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
 		IN	MX	20 master.debian.org.
