@@ -300,13 +300,15 @@ www		IN	CNAME	debian.hands.com.
 $ORIGIN us.debian.org.
 ftp		IN	A	35.9.37.225
 		IN	A	128.101.80.133
-		IN	A	204.152.189.120
+		IN	A	204.152.191.7
+		IN	A	204.152.191.39
 		IN	A	208.185.25.35
 		IN	A	216.37.55.114
 ftp1		IN	CNAME	http.us.debian.org.
 http		IN	A	35.9.37.225
 		IN	A	128.101.80.133
-		IN	A	204.152.189.120
+		IN	A	204.152.191.7
+		IN	A	204.152.191.39
 		IN	A	208.185.25.35
 		IN	A	216.37.55.114
 $ORIGIN mi.us.debian.org.
