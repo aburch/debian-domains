@@ -295,7 +295,7 @@ ftp		IN	CNAME	debian.ankara.edu.tr.
 $ORIGIN ua.debian.org.
 www		IN	CNAME	www.debian.org.ua.
 $ORIGIN uk.debian.org.
-ftp		IN	A	195.224.53.39
+ftp		IN	CNAME	debian.hands.com.
 upload		IN	CNAME	debian.hands.com.
 www		IN	CNAME	debian.hands.com.
 $ORIGIN us.debian.org.
