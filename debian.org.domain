@@ -22,6 +22,9 @@ at		IN	NS	babylon.atnet.at.
 auber		IN	A	192.25.206.27
 auric		IN	A	206.246.226.45
 		IN	MX	0 auric.debian.org.
+backup		IN	CNAME	bartok.debian.org.
+bartok		IN	A	82.195.72.248
+		IN	MX	0 bartok.debian.org.
 bruckner		IN	A	62.104.23.253
 		IN	HINFO	"PowerPC" "Debian GNU/Linux"
 bugs		300	IN	A	140.211.166.43
