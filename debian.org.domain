@@ -183,6 +183,8 @@ sparc		IN	A	206.246.226.48
 spohr		300	IN	A	140.211.166.43
 svn		IN	A	217.196.43.131
 		IN	MX	10 costa.debian.org.
+team		IN	A	146.82.138.6
+		IN	MX	10 murphy.debian.org.
 tippett		IN	A	195.92.249.0
 trex		IN	A	32.97.40.152
 vaughan		IN	A	128.30.28.47
