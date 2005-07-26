@@ -1,7 +1,7 @@
 $TTL 1800
 $ORIGIN debian.org.
 !template
-		IN	NS	newsamosa.debian.org.
+		IN	NS	samosa.debian.org.
 		IN	NS	saens.debian.org.
 		IN	NS	spohr.debian.org.
 		IN	NS	klecker.debian.org.
@@ -32,8 +32,8 @@ bugs		300	IN	A	140.211.166.43
 		IN	MX	5 gluck.debian.org.
 bugs-mirror	IN	A	192.25.206.16
 		IN	MX	10 gluck.debian.org.
-buildd		IN	A	208.185.25.31
-		IN	MX	10 newraff.debian.org.
+buildd		IN	A	192.25.206.59
+		IN	MX	10 raff.debian.org.
 		IN	MX	20 gluck.debian.org.
 caballero	IN	A	193.201.200.200
 casals		IN	A	128.31.0.16
@@ -51,8 +51,8 @@ crest		IN	A	134.99.176.62
 cvs		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
 		IN	MX	20 master.debian.org.
-db		IN	A	208.185.25.35
-		IN	MX	10 newsamosa.debian.org.
+db		IN	A	192.25.206.57
+		IN	MX	10 samosa.debian.org.
 		IN	MX	15 auric.debian.org.
 ddtp		IN	A	192.25.206.10
 		IN	MX	0 gluck.debian.org.
@@ -63,17 +63,17 @@ dsd		IN	A	194.109.137.219
 dummy		IN	A	194.70.183.234
 elara		IN	A	209.87.236.28
 $ORIGIN ena.debian.org.
-syncproxy		IN	CNAME	newraff.debian.org.
+syncproxy		IN	CNAME	raff.debian.org.
 $ORIGIN debian.org.
 ;
 ; Thimo Neubauer <thimo@debian.org>
 ;
 escher		IN	A	129.206.69.124
 		IN	MX	0 escher.debian.org.
-		IN	MX	10 newraff.debian.org.
+		IN	MX	10 raff.debian.org.
 goedel		IN	A	129.206.69.122
 		IN	MX	0 goedel.debian.org.
-		IN	MX	10 newraff.debian.org.
+		IN	MX	10 raff.debian.org.
 $ORIGIN eu.debian.org.
 syncproxy	3600	IN	CNAME	ftp.hr.debian.org.
 syncproxy2	3600	IN	CNAME	farbror.acc.umu.se.
@@ -81,19 +81,18 @@ $ORIGIN debian.org.
 europa		IN	A	209.87.236.27
 faure		IN	A	146.82.138.58
 ftp		IN	A	128.101.80.133
-		IN	A	208.185.25.35
 		IN	MX	10 gluck.debian.org.
 		IN	MX	20 master.debian.org.
 ftp-master		IN	A	208.185.25.31
-		IN	MX	10 newraff.debian.org.
+		IN	MX	10 raff.debian.org.
 gluck		IN	A	192.25.206.10
 haydn		IN	A	192.25.206.28
-incoming		IN	A	208.185.25.31
+incoming		IN	A	192.25.206.59
 		IN	MX	10 gluck.debian.org.
 ipv6		IN	NS	raff.debian.org.
 		IN	NS	saens.debian.org.
 irc		IN	CNAME	irc.freenode.net.
-keyring		IN	A	208.185.25.31
+keyring		IN	A	192.25.206.59
 		IN	MX	10 gluck.debian.org.
 klecker		IN	A	194.109.137.218
 		IN	MX	0 klecker.debian.org.
@@ -123,8 +122,8 @@ newmurphy 	IN	A	146.82.138.27
 murphy		IN	A	146.82.138.6
 		IN	MX	0 murphy.debian.org.
 netwinder		IN	CNAME	debussy.debian.org.
-newraff		IN	A	208.185.25.31
-newsamosa		IN	A	208.185.25.35
+raff		IN	A	192.25.206.59
+samosa		IN	A	192.25.206.57
 nl		IN	NS	ns.cistron.nl.
 		IN	NS	ns2.cistron.nl.
 nm		IN	A	194.109.137.218
@@ -163,7 +162,6 @@ packages		IN	A	146.82.138.7
 		IN	MX	10 gluck.debian.org.
 $ORIGIN debian.org.
 quantz		IN	A	192.87.30.200
-raff		IN	A	208.185.25.38
 rameau		IN	A	212.240.194.170
 raptor		IN	A	195.243.109.162
 release		IN	A	192.25.206.10
@@ -171,8 +169,6 @@ release		IN	A	192.25.206.10
 		IN	MX	20 master.debian.org.
 oldsaens	IN	A	128.101.80.131
 saens		IN	A	128.101.80.133
-samosa		IN	A	209.249.97.234
-samosa-replacement		IN	A	208.185.25.38
 sarti		IN	A	193.201.200.199
 search		IN	A	194.109.137.218
 		IN	MX	10 gluck.debian.org.
@@ -310,14 +306,12 @@ ftp		IN	A	35.9.37.225
 		IN	A	128.101.80.133
 		IN	A	204.152.191.7
 		IN	A	204.152.191.39
-		IN	A	208.185.25.35
 		IN	A	216.37.55.114
 ftp1		IN	CNAME	http.us.debian.org.
 http		IN	A	35.9.37.225
 		IN	A	128.101.80.133
 		IN	A	204.152.191.7
 		IN	A	204.152.191.39
-		IN	A	208.185.25.35
 		IN	A	216.37.55.114
 $ORIGIN mi.us.debian.org.
 ftp		IN	CNAME	debian.egr.msu.edu.
