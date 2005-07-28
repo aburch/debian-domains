@@ -83,11 +83,11 @@ faure		IN	A	146.82.138.58
 ftp		IN	A	128.101.80.133
 		IN	MX	10 gluck.debian.org.
 		IN	MX	20 master.debian.org.
-ftp-master		IN	A	208.185.25.31
+ftp-master	IN	A	140.211.166.43
 		IN	MX	10 raff.debian.org.
 gluck		IN	A	192.25.206.10
 haydn		IN	A	192.25.206.28
-incoming		IN	A	192.25.206.59
+incoming	IN	A	140.211.166.43
 		IN	MX	10 gluck.debian.org.
 ipv6		IN	NS	raff.debian.org.
 		IN	NS	saens.debian.org.
