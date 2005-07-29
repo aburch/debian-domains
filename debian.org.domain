@@ -63,7 +63,7 @@ dsd		IN	A	194.109.137.219
 dummy		IN	A	194.70.183.234
 elara		IN	A	209.87.236.28
 $ORIGIN ena.debian.org.
-syncproxy		IN	CNAME	raff.debian.org.
+;syncproxy		IN	CNAME	raff.debian.org.
 $ORIGIN debian.org.
 ;
 ; Thimo Neubauer <thimo@debian.org>
