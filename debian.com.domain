@@ -1,6 +1,6 @@
 $ORIGIN debian.com.
 !template
-	10800	IN	NS	newsamosa.debian.org.
+	10800	IN	NS	samosa.debian.org.
 	10800	IN	NS	saens.debian.org.
 	10800	IN	NS	spohr.debian.org.
 	10800	IN	NS	klecker.debian.org.

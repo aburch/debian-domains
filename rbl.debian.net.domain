@@ -1,6 +1,6 @@
 $ORIGIN rbl.debian.net.
 !template
-	3600	IN	NS	newsamosa.debian.org.
+	3600	IN	NS	samosa.debian.org.
 	3600	IN	NS	saens.debian.org.
 	3600	IN	NS	spohr.debian.org.
 	3600	IN	NS	klecker.debian.org.
