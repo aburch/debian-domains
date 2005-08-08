@@ -260,8 +260,7 @@ $ORIGIN id.debian.org.
 www		IN	CNAME	kambing.vLSM.org.
 ; Colm MacCarthaigh <colm.maccarthaigh@heanet.ie>
 $ORIGIN ie.debian.org.
-ftp		IN	A	193.1.219.85
-		IN	AAAA	2001:770:18:2::85
+ftp		IN	CNAME	debian.heanet.ie.
 $ORIGIN is.debian.org.
 ftp		IN	CNAME	draupnir.rhnet.is.
 $ORIGIN it.debian.org.
