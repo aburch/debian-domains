@@ -126,8 +126,8 @@ raff		IN	A	192.25.206.59
 samosa		IN	A	192.25.206.57
 nl		IN	NS	ns.cistron.nl.
 		IN	NS	ns2.cistron.nl.
-nm		IN	A	194.109.137.218
-		IN	MX	10 klecker.debian.org.
+nm		IN	A	192.25.206.16
+		IN	MX	10 merkel.debian.org.
 non-us		IN	A	194.109.137.218
 		IN	MX	10 dummy.debian.org.
 nonus		IN	A	194.109.137.218
