@@ -238,7 +238,8 @@ www		IN	A	194.192.187.79
 $ORIGIN ee.debian.org.
 ftp		IN	A	195.222.16.154
 $ORIGIN es.debian.org.
-ftp		IN	A	150.244.30.38
+; ftp temporary set to ftp.nl.debian.org
+ftp		IN	A	130.89.175.33
 www		IN	CNAME	debian.ci.uv.es.
 $ORIGIN fi.debian.org.
 ftp		IN	A	130.230.54.99
