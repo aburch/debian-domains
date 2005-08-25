@@ -196,8 +196,8 @@ vote		IN	A	146.82.138.7
 $ORIGIN wna.debian.org.
 syncproxy	300	IN	A	140.211.166.44
 $ORIGIN debian.org.
-www		IN	A	194.109.137.218
-;;www		IN	A	192.25.206.10
+;;www		IN	A	194.109.137.218
+www		IN	A	192.25.206.10
 		IN	MX	10 dummy.debian.org.
 		IN	MX	20 master.debian.org.
 www-master		IN	A	194.109.137.218
