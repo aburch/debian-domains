@@ -197,7 +197,6 @@ $ORIGIN wna.debian.org.
 syncproxy	300	IN	A	140.211.166.44
 $ORIGIN debian.org.
 wiki		IN	A	140.211.166.43
-;;www		IN	A	194.109.137.218
 www		IN	A	192.25.206.10
 		IN	MX	10 dummy.debian.org.
 		IN	MX	20 master.debian.org.
@@ -306,13 +305,10 @@ $ORIGIN us.debian.org.
 ftp		IN	A	35.9.37.225
 		IN	A	128.101.80.133
 		IN	A	204.152.191.7
-		IN	A	204.152.191.39
 		IN	A	216.37.55.114
-ftp1		IN	CNAME	http.us.debian.org.
 http		IN	A	35.9.37.225
 		IN	A	128.101.80.133
 		IN	A	204.152.191.7
-		IN	A	204.152.191.39
 		IN	A	216.37.55.114
 		IN	A	64.50.236.52
 $ORIGIN mi.us.debian.org.
