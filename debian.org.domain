@@ -181,6 +181,7 @@ svn		IN	A	217.196.43.131
 		IN	MX	10 costa.debian.org.
 small-teams	IN	A	146.82.138.6
 		IN	MX	10 murphy.debian.org.
+tartini		IN	A	217.196.43.140
 teams		IN	A	146.82.138.6
 		IN	MX	10 murphy.debian.org.
 tippett		IN	A	195.92.249.0
