@@ -174,8 +174,7 @@ search		IN	A	194.109.137.218
 		IN	MX	10 gluck.debian.org.
 		IN	MX	20 master.debian.org.
 security-master	IN	A	194.109.137.218
-security	IN	A	82.94.249.159
-		IN	A	194.109.137.218
+security	IN	A	194.109.137.218
 		IN	A	128.101.80.133
 		IN	MX	10 klecker.debian.org.
 sparc		IN	A	206.246.226.48
