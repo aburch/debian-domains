@@ -15,7 +15,6 @@ arch		IN	A	217.196.43.131
 		IN	MX	10 costa.debian.org.
 archive		IN	A	128.101.80.133
 		IN	MX	10 gluck.debian.org.
-		IN	MX	20 master.debian.org.
 arm		IN	CNAME	debussy.debian.org.
 at		IN	NS	babylon.atnet.at.
 		IN	NS	atlantis.atnet.at.
@@ -45,18 +44,15 @@ us		IN	CNAME	debian.hands.com.
 $ORIGIN debian.org.
 cgi		IN	A	146.82.138.7
 		IN	MX	10 gluck.debian.org.
-		IN	MX	20 master.debian.org.
 costa		IN	A	217.196.43.131
 crest		IN	A	134.99.176.62
 cvs		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
-		IN	MX	20 master.debian.org.
 db		IN	A	192.25.206.57
 		IN	MX	10 samosa.debian.org.
 		IN	MX	15 auric.debian.org.
 ddtp		IN	A	192.25.206.10
 		IN	MX	0 gluck.debian.org.
-		IN	MX	10 master.debian.org.
 debussy		IN	A	62.116.32.98
 dsd		IN	A	194.109.137.219
 		IN	MX	10 gluck.debian.org.
@@ -81,7 +77,6 @@ $ORIGIN debian.org.
 europa		IN	A	209.87.236.27
 ftp		IN	A	128.101.80.133
 		IN	MX	10 gluck.debian.org.
-		IN	MX	20 master.debian.org.
 ftp-master	IN	A	140.211.166.43
 		IN	MX	10 raff.debian.org.
 gluck		IN	A	192.25.206.10
@@ -95,12 +90,10 @@ keyring		IN	A	192.25.206.59
 		IN	MX	10 gluck.debian.org.
 klecker		IN	A	194.109.137.218
 		IN	MX	0 klecker.debian.org.
-		IN	MX	10 master.debian.org.
 kullervo		IN	A	134.99.176.32
 		IN	MX	50 kullervo.debian.org.
 lintian		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
-		IN	MX	20 master.debian.org.
 lists		IN	A	146.82.138.7
 		IN	MX	0 murphy.debian.org.
 lully		IN	A	146.82.138.60
@@ -109,14 +102,10 @@ m68k		IN	A	134.99.176.32
 malo		IN	A	140.211.166.27
 master		IN	A	146.82.138.7
 		IN	MX	0 master.debian.org.
-		IN	MX	5 gluck.debian.org.
 merkel		IN	A	192.25.206.16
 merulo		IN	A	192.25.206.12
 mirror		IN	A	194.109.137.218
 		IN	MX	10 gluck.debian.org.
-		IN	MX	20 master.debian.org.
-newmurphy 	IN	A	146.82.138.27
-		IN	MX	0 newmurphy.debian.org.
 murphy		IN	A	146.82.138.6
 		IN	MX	0 murphy.debian.org.
 netwinder		IN	CNAME	debussy.debian.org.
@@ -144,12 +133,10 @@ pergolesi		IN	A	62.104.23.252
 peri		IN	A	192.25.206.15
 popcon		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
-		IN	MX	20 master.debian.org.
 planet		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
 ports		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
-		IN	MX	20 master.debian.org.
 qa		IN	A	192.25.206.16
 		IN	MX	10 merkel.debian.org.
 $ORIGIN qa.debian.org.
@@ -168,7 +155,6 @@ saens		IN	A	128.101.80.133
 sarti		IN	A	193.201.200.199
 search		IN	A	194.109.137.218
 		IN	MX	10 gluck.debian.org.
-		IN	MX	20 master.debian.org.
 security-master	IN	A	194.109.137.218
 security	IN	A	82.94.249.158
 		IN	A	194.109.137.218
