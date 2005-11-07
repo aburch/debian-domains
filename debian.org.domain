@@ -49,7 +49,6 @@ cvs		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
 db		IN	A	192.25.206.57
 		IN	MX	10 samosa.debian.org.
-		IN	MX	15 auric.debian.org.
 ddtp		IN	A	192.25.206.10
 		IN	MX	0 gluck.debian.org.
 debussy		IN	A	62.116.32.98
