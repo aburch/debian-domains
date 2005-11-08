@@ -6,7 +6,6 @@ $ORIGIN debian.org.
 		IN	NS	spohr.debian.org.
 		IN	NS	klecker.debian.org.
 		IN	MX	0 master.debian.org.
-		IN	MX	5 gluck.debian.org.
 		IN	A	192.25.206.10
 admin		IN	MX	10 gluck.debian.org.
 alioth		IN	NS	haydn.debian.org.
@@ -20,10 +19,8 @@ at		IN	NS	babylon.atnet.at.
 		IN	NS	atlantis.atnet.at.
 auber		IN	A	192.25.206.27
 auric		IN	A	206.246.226.45
-		IN	MX	0 auric.debian.org.
 backup		IN	CNAME	bartok.debian.org.
 bartok		IN	A	82.195.75.91
-		IN	MX	0 bartok.debian.org.
 bruckner		IN	A	62.104.23.253
 		IN	HINFO	"PowerPC" "Debian GNU/Linux"
 bugs		300	IN	A	140.211.166.43
@@ -87,26 +84,21 @@ irc		IN	CNAME	irc.freenode.net.
 keyring		IN	A	192.25.206.59
 		IN	MX	10 gluck.debian.org.
 klecker		IN	A	194.109.137.218
-		IN	MX	0 klecker.debian.org.
 kullervo		IN	A	134.99.176.32
-		IN	MX	50 kullervo.debian.org.
 lintian		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
 lists		IN	A	146.82.138.7
 		IN	MX	0 murphy.debian.org.
 lully		IN	A	146.82.138.60
-m68k		IN	A	134.99.176.32
-		IN	MX	50 kullervo.debian.org.
+m68k		IN	CNAME   kullervo
 malo		IN	A	140.211.166.27
 master		IN	A	146.82.138.7
-		IN	MX	0 master.debian.org.
 merkel		IN	A	192.25.206.16
 merulo		IN	A	192.25.206.12
 mirror		IN	A	194.109.137.218
 		IN	MX	10 gluck.debian.org.
 murphy		IN	A	146.82.138.6
-		IN	MX	0 murphy.debian.org.
-netwinder		IN	CNAME	debussy.debian.org.
+netwinder	IN	CNAME	debussy.debian.org.
 raff		IN	A	192.25.206.59
 samosa		IN	A	192.25.206.57
 nl		IN	NS	ns.cistron.nl.
@@ -117,7 +109,6 @@ non-us		IN	A	194.109.137.218
 		IN	MX	10 dummy.debian.org.
 nonus		IN	A	194.109.137.218
 		IN	MX	10 dummy.debian.org.
-ntp		IN	A	192.25.206.10
 other		IN	A	146.82.138.6
 		IN	MX	0 murphy.debian.org.
 packages	IN	A	128.101.80.133
@@ -125,14 +116,13 @@ packages	IN	A	128.101.80.133
 paer		IN	A	192.25.206.11
 people		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
-		IN	MX	20 master.debian.org.
 pergolesi		IN	A	62.104.23.252
 		IN	HINFO	"Dual Opteron" "Debian GNU/Linux"
 peri		IN	A	192.25.206.15
 popcon		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
 planet		IN	A	192.25.206.10
-		IN	MX	10 gluck.debian.org.
+		IN	MX	10 dummy.debian.org.
 ports		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
 qa		IN	A	192.25.206.16
@@ -142,13 +132,11 @@ bugs		IN	A	192.25.206.16
 		IN	MX	10 merkel.debian.org.
 packages		IN	A	146.82.138.7
 		IN	MX	0 master.debian.org.
-		IN	MX	10 gluck.debian.org.
 $ORIGIN debian.org.
 rameau		IN	A	212.240.194.170
 raptor		IN	A	195.243.109.162
 release		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
-		IN	MX	20 master.debian.org.
 saens		IN	A	128.101.80.133
 sarti		IN	A	193.201.200.199
 search		IN	A	194.109.137.218
@@ -176,14 +164,12 @@ voltaire	IN	A	66.93.172.18
 vore		IN	A	206.246.226.48
 vote		IN	A	146.82.138.7
 		IN	MX	0 master.debian.org.
-		IN	MX	5 gluck.debian.org.
 $ORIGIN wna.debian.org.
 syncproxy	300	IN	A	140.211.166.44
 $ORIGIN debian.org.
 wiki		IN	A	140.211.166.43
 www		IN	A	192.25.206.10
 		IN	MX	10 dummy.debian.org.
-		IN	MX	20 master.debian.org.
 www-master		IN	A	194.109.137.218
 		IN	MX	10 klecker.debian.org.
 www-mirror		IN	CNAME	www-master.debian.org.
