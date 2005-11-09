@@ -4,6 +4,10 @@ $ORIGIN rbl.debian.net.
 	3600	IN	NS	saens.debian.org.
 	3600	IN	NS	spohr.debian.org.
 	3600	IN	NS	klecker.debian.org.
+korea.com.      IN      TXT     "registration required [05/11/09 RM]"
+                IN      A       127.0.0.2
+naver.com.      IN      TXT     "your spam is not wanted here [05/11/09 RM]"
+                IN      A       127.0.0.2
 $ORIGIN 54.18.12.rbl.debian.net.
 28	3600	IN	TXT	"launchmaster.com spam [98/12/13 jgg]"
 	3600	IN	A	127.0.0.2
@@ -553,12 +557,6 @@ $ORIGIN 123.89.192.rbl.debian.net.
 $ORIGIN 11.14.193.rbl.debian.net.
 2	3600	IN	TXT	"grace.se relay [98/7/15 igor]"
 	3600	IN	A	127.0.0.2
-$ORIGIN 224.76.193.rbl.debian.net.
-171	3600	IN	TXT	"Stop send mail to root@debian.org [02/01/07 rmurray]"
-	3600	IN	TXT	"Stop send mail to root@debian.org [02/05/09 rmurray]"
-	3600	IN	A	127.0.0.3
-73	3600	IN	TXT	"Stop send mail to root@debian.org [11/11/01 jgg]"
-	3600	IN	A	127.0.0.3
 $ORIGIN 222.137.194.rbl.debian.net.
 1	3600	IN	TXT	"avd.nl relay [98/5/23 igor]"
 	3600	IN	A	127.0.0.2
@@ -574,9 +572,6 @@ $ORIGIN 71.213.194.rbl.debian.net.
 $ORIGIN 46.255.194.rbl.debian.net.
 10	3600	IN	TXT	"intranet.dk relay [98/7/15 igor]"
 	3600	IN	A	127.0.0.2
-$ORIGIN 76.30.194.rbl.debian.net.
-66	3600	IN	TXT	"Stop send mail to root@debian.org [03/07/28 rmurray]"
-	3600	IN	A	127.0.0.3
 $ORIGIN 3.117.195.rbl.debian.net.
 4	3600	IN	TXT	"ids.pl relay [98/7/15 igor ]"
 	3600	IN	A	127.0.0.2
@@ -616,9 +611,6 @@ $ORIGIN 58.9.200.rbl.debian.net.
 $ORIGIN 205.104.202.rbl.debian.net.
 6	3600	IN	TXT	"Non-english spam [99/11/25 jgg]"
 	3600	IN	A	127.0.0.2
-$ORIGIN 173.221.202.rbl.debian.net.
-98	3600	IN	TXT	"stop sending mail to root@debian.org [troup 2002/11/25]"
-	3600	IN	A	127.0.0.2
 $ORIGIN 29.227.202.rbl.debian.net.
 2	3600	IN	TXT	"edee.co.jp relay [98/5/23 igor]"
 	3600	IN	A	127.0.0.2
@@ -643,9 +635,6 @@ $ORIGIN 212.253.206.rbl.debian.net.
 $ORIGIN 81.63.206.rbl.debian.net.
 12	3600	IN	TXT	"launchmaster.com spam [98/3/12 joey]"
 	3600	IN	A	127.0.0.2
-$ORIGIN 255.173.207.rbl.debian.net.
-198	3600	IN	TXT	"Stop send mail to root@debian.org [02/02/17 rmurray]"
-	3600	IN	A	127.0.0.3
 $ORIGIN 166.242.207.rbl.debian.net.
 241	3600	IN	TXT	"brand new listme.com IP [98/7/29 igor]"
 	3600	IN	A	127.0.0.2
@@ -1190,9 +1179,6 @@ $ORIGIN 190.61.209.rbl.debian.net.
 $ORIGIN 99.66.209.rbl.debian.net.
 101	3600	IN	TXT	"Loop or something [99/03/15 jgg]"
 	3600	IN	A	127.0.0.2
-$ORIGIN 232.150.210.rbl.debian.net.
-105	3600	IN	TXT	"stop sending mail to root@debian.org [troup 2002/11/08]"
-	3600	IN	A	127.0.0.2
 $ORIGIN 124.104.211.rbl.debian.net.
 182	3600	IN	TXT	"GPS .kr spam [troup 2004/01/27]"
 	3600	IN	A	127.0.0.2
@@ -1635,9 +1621,6 @@ $ORIGIN 31.127.217.rbl.debian.net.
 $ORIGIN 99.14.217.rbl.debian.net.
 113	3600	IN	TXT	"ftp-master spam [troup 2002/11/08]"
 	3600	IN	A	127.0.0.2
-$ORIGIN 80.27.217.rbl.debian.net.
-6	3600	IN	TXT	"Stop send mail to root@debian.org [02/01/08 rmurray]"
-	3600	IN	A	127.0.0.3
 $ORIGIN 132.104.218.rbl.debian.net.
 18	3600	IN	TXT	"webmaster@localhost spam [troup 2003/04/22]"
 	3600	IN	A	127.0.0.2
@@ -2682,9 +2665,6 @@ $ORIGIN 107.216.66.rbl.debian.net.
 $ORIGIN 2.239.66.rbl.debian.net.
 71	3600	IN	TXT	"ftp-master spam [troup 2002/11/08]"
 	3600	IN	A	127.0.0.2
-$ORIGIN 57.206.80.rbl.debian.net.
-10	3600	IN	TXT	"Stop send mail to root@debian.org [02/05/09 rmurray]"
-	3600	IN	A	127.0.0.3
 $ORIGIN 136.247.80.rbl.debian.net.
 29	3600	IN	TXT	"URGENT ASSISTANCE spam [troup 2002/10/17]"
 	3600	IN	A	127.0.0.2
