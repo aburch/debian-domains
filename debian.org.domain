@@ -94,7 +94,7 @@ m68k		IN	CNAME   kullervo
 malo		IN	A	140.211.166.27
 master		IN	A	146.82.138.7
 merkel		IN	A	192.25.206.16
-merulo		IN	A	192.25.206.12
+merulo		IN	A	192.25.206.58
 mirror		IN	A	194.109.137.218
 		IN	MX	10 gluck.debian.org.
 murphy		IN	A	146.82.138.6
