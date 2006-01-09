@@ -190,6 +190,8 @@ ftp		IN	A	200.17.202.1
 www		IN	CNAME	www.debian.org.br.
 $ORIGIN ca.debian.org.
 ftp		IN	CNAME	ftp.debian.org.
+$ORIGIN ch.debian.org.
+ftp		IN	CNAME	debian.ethz.ch.
 $ORIGIN cl.debian.org.
 ftp		IN	CNAME	debian.ciencias.uchile.cl.
 $ORIGIN cn.debian.org.
