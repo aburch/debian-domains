@@ -85,7 +85,8 @@ irc		IN	CNAME	chat.freenode.net.
 keyring		IN	A	192.25.206.59
 		IN	MX	10 gluck.debian.org.
 klecker		IN	A	194.109.137.218
-kullervo		IN	A	134.99.176.32
+kullervo	IN	A	134.99.176.32
+leisner		IN	A	209.251.101.202
 lintian		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
 lists		IN	A	146.82.138.7
