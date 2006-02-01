@@ -15,16 +15,15 @@ arch		IN	A	217.196.43.131
 		IN	MX	10 costa.debian.org.
 archive		IN	A	128.101.80.133
 		IN	MX	10 gluck.debian.org.
-arm		IN	CNAME	debussy.debian.org.
 at		IN	NS	babylon.atnet.at.
 		IN	NS	atlantis.atnet.at.
 auber		IN	A	192.25.206.27
 auric		IN	A	206.246.226.45
 backup		IN	CNAME	bartok.debian.org.
 bartok		IN	A	82.195.75.91
-bruckner		IN	A	62.104.23.253
+bruckner	IN	A	62.104.23.253
 		IN	HINFO	"PowerPC" "Debian GNU/Linux"
-bugs		300	IN	A	140.211.166.43
+bugs	300	IN	A	140.211.166.43
 		IN	MX	0 bugs.debian.org.
 bugs-mirror	IN	A	192.25.206.16
 		IN	MX	10 gluck.debian.org.
@@ -49,7 +48,6 @@ db		IN	A	192.25.206.57
 		IN	MX	10 samosa.debian.org.
 ddtp		IN	A	192.25.206.10
 		IN	MX	0 gluck.debian.org.
-debussy		IN	A	62.116.32.98
 dsd		IN	A	194.109.137.219
 		IN	MX	10 gluck.debian.org.
 dummy		IN	A	194.70.183.234
@@ -91,7 +89,6 @@ lintian		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
 lists		IN	A	146.82.138.7
 		IN	MX	0 murphy.debian.org.
-lully		IN	A	146.82.138.60
 m68k		IN	CNAME   kullervo
 malo		IN	A	140.211.166.27
 master		IN	A	146.82.138.7
@@ -102,7 +99,6 @@ merulo		IN	A	192.25.206.58
 mirror		IN	A	194.109.137.218
 		IN	MX	10 gluck.debian.org.
 murphy		IN	A	146.82.138.6
-netwinder	IN	CNAME	debussy.debian.org.
 raff		IN	A	192.25.206.59
 samosa		IN	A	192.25.206.57
 nl		IN	NS	ns.cistron.nl.
@@ -120,7 +116,7 @@ packages	IN	A	128.101.80.133
 paer		IN	A	192.25.206.11
 people		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
-pergolesi		IN	A	62.104.23.252
+pergolesi	IN	A	62.104.23.252
 		IN	HINFO	"Dual Opteron" "Debian GNU/Linux"
 peri		IN	A	192.25.206.15
 popcon		IN	A	192.25.206.10
@@ -137,7 +133,6 @@ bugs		IN	A	192.25.206.16
 packages		IN	A	146.82.138.7
 		IN	MX	0 master.debian.org.
 $ORIGIN debian.org.
-rameau		IN	A	212.240.194.170
 raptor		IN	A	195.243.109.162
 release		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
@@ -151,7 +146,7 @@ security	IN	A	82.94.249.158
 		IN	A	128.101.80.133
 		IN	MX	10 klecker.debian.org.
 sparc		IN	A	206.246.226.48
-spohr		300	IN	A	140.211.166.43
+spohr	300	IN	A	140.211.166.43
 spontini	IN	A	137.82.84.42
 svn		IN	A	217.196.43.131
 		IN	MX	10 costa.debian.org.
@@ -160,7 +155,6 @@ small-teams	IN	A	146.82.138.6
 tartini		IN	A	82.94.249.158
 teams		IN	A	146.82.138.6
 		IN	MX	10 murphy.debian.org.
-trex		IN	A	32.97.40.152
 vaughan		IN	A	128.30.28.47
 		IN	HINFO	"Cobalt RaQ2" "Debian GNU/Linux"
 voltaire	IN	A	66.93.172.18
