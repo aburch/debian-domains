@@ -13,7 +13,7 @@ alioth		IN	NS	haydn.debian.org.
 allegri		IN	A	192.25.206.26
 arch		IN	A	217.196.43.131
 		IN	MX	10 costa.debian.org.
-archive		IN	A	128.101.80.133
+archive		IN	A	128.101.240.212
 		IN	MX	10 gluck.debian.org.
 at		IN	NS	babylon.atnet.at.
 		IN	NS	atlantis.atnet.at.
@@ -69,7 +69,7 @@ syncproxy	3600	IN	CNAME	ftp.hr.debian.org.
 syncproxy2	3600	IN	CNAME	farbror.acc.umu.se.
 $ORIGIN debian.org.
 europa		IN	A	209.87.236.27
-ftp		IN	A	128.101.80.133
+ftp		IN	A	128.101.240.212
 		IN	MX	10 gluck.debian.org.
 ftp-master	IN	A	140.211.166.43
 		IN	MX	10 raff.debian.org.
@@ -111,7 +111,7 @@ nonus		IN	A	194.109.137.218
 		IN	MX	10 dummy.debian.org.
 other		IN	A	146.82.138.6
 		IN	MX	0 murphy.debian.org.
-packages	IN	A	128.101.80.133
+packages	IN	A	128.101.240.212
 		IN	MX	0 saens.debian.org.
 paer		IN	A	192.25.206.11
 people		IN	A	192.25.206.10
@@ -136,14 +136,14 @@ $ORIGIN debian.org.
 raptor		IN	A	195.243.109.162
 release		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
-saens		IN	A	128.101.80.133
+saens		IN	A	128.101.240.212
 sarti		IN	A	193.201.200.199
 search		IN	A	194.109.137.218
 		IN	MX	10 gluck.debian.org.
 security-master	IN	A	194.109.137.218
 security	IN	A	82.94.249.158
 		IN	A	194.109.137.218
-		IN	A	128.101.80.133
+		IN	A	128.101.240.212
 		IN	MX	10 klecker.debian.org.
 sparc		IN	A	206.246.226.48
 spohr	300	IN	A	140.211.166.43
@@ -273,11 +273,11 @@ upload		IN	CNAME	debian.hands.com.
 www		IN	CNAME	debian.hands.com.
 $ORIGIN us.debian.org.
 ftp		IN	A	35.9.37.225
-		IN	A	128.101.80.133
+		IN	A	128.101.240.212
 		IN	A	204.152.191.7
 		IN	A	216.37.55.114
 http		IN	A	35.9.37.225
-		IN	A	128.101.80.133
+		IN	A	128.101.240.212
 		IN	A	204.152.191.7
 		IN	A	216.37.55.114
 		IN	A	64.50.238.52
