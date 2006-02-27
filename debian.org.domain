@@ -132,6 +132,7 @@ bugs		IN	A	192.25.206.16
 		IN	MX	10 merkel.debian.org.
 packages		IN	A	146.82.138.7
 		IN	MX	0 master.debian.org.
+puccini		IN	A	87.106.4.56
 $ORIGIN debian.org.
 raptor		IN	A	195.243.109.162
 release		IN	A	192.25.206.10
