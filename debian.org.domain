@@ -15,8 +15,6 @@ arch		IN	A	217.196.43.131
 		IN	MX	10 costa.debian.org.
 archive		IN	A	128.101.240.212
 		IN	MX	10 gluck.debian.org.
-at		IN	NS	babylon.atnet.at.
-		IN	NS	atlantis.atnet.at.
 auber		IN	A	192.25.206.27
 auric		IN	A	206.246.226.45
 backup		IN	CNAME	bartok.debian.org.
@@ -173,8 +171,15 @@ www-master		IN	A	194.109.137.218
 		IN	MX	10 klecker.debian.org.
 www-mirror		IN	CNAME	www-master.debian.org.
 
+$ORIGIN at.debian.org.
+ftp		IN	CNAME	ftp.debian.at.
+http		IN	CNAME	http.debian.at.
+non-us		IN	CNAME	non-us.debian.at.
+cdimage		IN	CNAME	cdimage.debian.at.
+www		IN	CNAME	www.debian.at.
 $ORIGIN au.debian.org.
 ftp		IN	CNAME	ftp.planetmirror.com.
+www		IN	A	203.8.116.111
 ; Bernard Grymonpon <ftpmaint@belnet.be>
 $ORIGIN be.debian.org.
 ftp		IN	CNAME	ftp.belnet.be.
@@ -288,7 +293,5 @@ $ORIGIN us.debian.org.
 www		IN	CNAME	gluck.debian.org.
 $ORIGIN wa.au.debian.org.
 ftp		IN	A	203.8.116.111
-$ORIGIN au.debian.org.
-www		IN	A	203.8.116.111
 $ORIGIN za.debian.org.
 www		IN	CNAME	www.leg.uct.ac.za.
