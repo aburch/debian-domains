@@ -140,8 +140,7 @@ sarti		IN	A	193.201.200.199
 search		IN	A	194.109.137.218
 		IN	MX	10 gluck.debian.org.
 security-master	IN	A	194.109.137.218
-security	IN	A	82.94.249.158
-		IN	A	194.109.137.218
+security	IN	A	194.109.137.218
 		IN	A	128.101.240.212
 		IN	MX	10 klecker.debian.org.
 sparc		IN	A	206.246.226.48
