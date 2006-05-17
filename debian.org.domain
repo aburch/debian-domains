@@ -36,7 +36,7 @@ $ORIGIN cdimage.debian.org.
 non-us		IN	CNAME	debian.hands.com.
 us		IN	CNAME	debian.hands.com.
 $ORIGIN debian.org.
-cgi		IN	A	146.82.138.7
+cgi		IN	A	70.103.162.30
 		IN	MX	10 gluck.debian.org.
 costa		IN	A	217.196.43.131
 crest		IN	A	134.99.176.62
@@ -85,18 +85,18 @@ kullervo	IN	A	134.99.176.32
 leisner		IN	A	209.251.101.202
 lintian		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
-lists		IN	A	146.82.138.7
+lists		IN	A	70.103.162.30
 		IN	MX	0 murphy.debian.org.
 m68k		IN	CNAME   kullervo
 malo		IN	A	140.211.166.27
-master		IN	A	146.82.138.7
+master		IN	A	70.103.162.30
 mayr		IN	A	140.211.166.58
 mayer		IN	A	140.211.166.78
 merkel		IN	A	192.25.206.16
 merulo		IN	A	192.25.206.58
 mirror		IN	A	194.109.137.218
 		IN	MX	10 gluck.debian.org.
-murphy		IN	A	146.82.138.6
+murphy		IN	A	70.103.162.31
 raff		IN	A	192.25.206.59
 samosa		IN	A	192.25.206.57
 nl		IN	NS	ns.cistron.nl.
@@ -107,7 +107,7 @@ non-us		IN	A	194.109.137.218
 		IN	MX	10 dummy.debian.org.
 nonus		IN	A	194.109.137.218
 		IN	MX	10 dummy.debian.org.
-other		IN	A	146.82.138.6
+other		IN	A	70.103.162.31
 		IN	MX	0 murphy.debian.org.
 packages	IN	A	87.106.4.56
 		IN	MX	0 puccini.debian.org.
@@ -129,7 +129,7 @@ qa		IN	A	192.25.206.16
 $ORIGIN qa.debian.org.
 bugs		IN	A	192.25.206.16
 		IN	MX	10 merkel.debian.org.
-packages		IN	A	146.82.138.7
+packages		IN	A	70.103.162.30
 		IN	MX	0 master.debian.org.
 $ORIGIN debian.org.
 raptor		IN	A	195.243.109.162
@@ -149,17 +149,17 @@ spontini	IN	A	137.82.84.42
 strauss		IN	A	194.109.109.3
 svn		IN	A	217.196.43.131
 		IN	MX	10 costa.debian.org.
-small-teams	IN	A	146.82.138.6
+small-teams	IN	A	70.103.162.31
 		IN	MX	10 murphy.debian.org.
 tartini		IN	A	82.94.249.158
-teams		IN	A	146.82.138.6
+teams		IN	A	70.103.162.31
 		IN	MX	10 murphy.debian.org.
 vaughan		IN	A	128.30.28.47
 		IN	HINFO	"Cobalt RaQ2" "Debian GNU/Linux"
 voltaire	IN	A	66.93.172.18
 		IN	HINFO	"PowerPC" "Debian GNU/Linux"
 vore		IN	A	206.246.226.48
-vote		IN	A	146.82.138.7
+vote		IN	A	70.103.162.30
 		IN	MX	0 master.debian.org.
 $ORIGIN wna.debian.org.
 syncproxy	300	IN	A	140.211.166.44
