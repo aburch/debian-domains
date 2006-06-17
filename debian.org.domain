@@ -94,7 +94,7 @@ mayr		IN	A	140.211.166.58
 mayer		IN	A	140.211.166.78
 merkel		IN	A	192.25.206.16
 merulo		IN	A	192.25.206.58
-mirror		IN	A	194.109.137.218
+mirror		IN	A	194.109.109.3
 		IN	MX	10 gluck.debian.org.
 murphy		IN	A	70.103.162.31
 raff		IN	A	192.25.206.59
@@ -137,7 +137,7 @@ release		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
 saens		IN	A	128.101.240.212
 sarti		IN	A	193.201.200.199
-search		IN	A	194.109.137.218
+search		IN	A	194.109.109.3
 		IN	MX	10 gluck.debian.org.
 security-master	300	IN	A	194.109.109.3
 security	300	IN	A	194.109.109.3
@@ -168,8 +168,8 @@ wiki		IN	A	140.211.166.43
 women		IN	A	140.211.166.43
 www		IN	A	192.25.206.10
 		IN	MX	10 dummy.debian.org.
-www-master		IN	A	194.109.137.218
-		IN	MX	10 klecker.debian.org.
+www-master		IN	A	194.109.109.3
+		IN	MX	10 strauss.debian.org.
 www-mirror		IN	CNAME	www-master.debian.org.
 
 $ORIGIN at.debian.org.
@@ -223,7 +223,7 @@ ftp		IN	A	130.230.54.99
 $ORIGIN fr.debian.org.
 ftp		IN	A	212.27.32.66
 ftp2		IN	CNAME	ftp.oleane.net.
-www		IN	A	194.109.137.218
+www		IN	A	194.109.109.3
 ; Anthony Wong <ypwong@debian.org>
 $ORIGIN hk.debian.org.
 ftp		IN	A	202.134.73.139
