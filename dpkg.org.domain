@@ -3,5 +3,5 @@
 	10800	IN	NS	saens.debian.org.
 	10800	IN	NS	spohr.debian.org.
 
-                MX 10   londo.c47.org.
-                MX 20   lennier.c47.org.
+                MX 10   lennier.c47.org.
+                MX 20   londo.c47.org.
