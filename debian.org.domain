@@ -167,7 +167,7 @@ syncproxy	300	IN	A	140.211.166.44
 $ORIGIN debian.org.
 wiki		IN	A	140.211.166.43
 women		IN	A	140.211.166.43
-www		IN	A	192.25.206.10
+www		IN	A	194.109.137.218
 		IN	MX	10 dummy.debian.org.
 www-master		IN	A	194.109.137.218
 		IN	MX	10 klecker.debian.org.
