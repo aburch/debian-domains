@@ -119,6 +119,7 @@ pergolesi	IN	A	62.104.23.252
 peri		IN	A	192.25.206.15
 popcon		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
+piatti		IN	A	193.167.161.225
 planet		IN	A	192.25.206.10
 		IN	MX	10 dummy.debian.org.
 ports		IN	A	192.25.206.10
