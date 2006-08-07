@@ -273,6 +273,9 @@ $ORIGIN sk.debian.org.
 ftp		IN	CNAME	ftp.tuke.sk.
 $ORIGIN tr.debian.org.
 ftp		IN	CNAME	debian.ankara.edu.tr.
+; Andrew Lee <andrew@linux.org.tw>
+$ORIGIN tw.debian.org.
+ftp		IN	CNAME	debian.linux.org.tw.
 $ORIGIN ua.debian.org.
 www		IN	CNAME	www.debian.org.ua.
 $ORIGIN uk.debian.org.
