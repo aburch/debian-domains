@@ -145,6 +145,7 @@ security-master	300	IN	A	194.109.137.218
 security	300	IN	A	194.109.137.218	; klecker
 		300	IN	A	128.101.240.212	; saens
 		300	IN	A	212.211.132.32	; villa
+		300	IN	A	212.211.132.250	; lobos
 		300	IN	MX	10 klecker.debian.org.
 sparc		IN	A	206.246.226.48
 spohr	300	IN	A	140.211.166.43
