@@ -9,7 +9,7 @@ $ORIGIN debian.org.
 		IN	A	192.25.206.10
 admin		IN	MX	10 gluck.debian.org.
 agnesi		IN	A	65.173.90.83
-alioth		IN	NS	haydn.debian.org.
+alioth	3600	IN	NS	haydn.debian.org.
 allegri		IN	A	192.25.206.26
 arch		IN	A	217.196.43.131
 		IN	MX	10 costa.debian.org.
@@ -28,6 +28,8 @@ bugs-mirror	IN	A	192.25.206.16
 buildd		IN	A	192.25.206.59
 		IN	MX	10 raff.debian.org.
 		IN	MX	20 gluck.debian.org.
+bzr		IN	A	217.196.43.131
+		IN	MX	10 costa.debian.org.
 caballero	IN	A	193.201.200.200
 casals		IN	A	128.31.0.16
 		IN	HINFO	"SGI Indigo2" "Debian GNU/Linux"
@@ -62,6 +64,8 @@ escher		IN	A	129.206.69.124
 goedel		IN	A	129.206.69.122
 		IN	MX	0 goedel.debian.org.
 		IN	MX	10 raff.debian.org.
+git		IN	A	217.196.43.131
+		IN	MX	10 costa.debian.org.
 $ORIGIN eu.debian.org.
 syncproxy	3600	IN	CNAME	ftp.hr.debian.org.
 syncproxy2	3600	IN	CNAME	farbror.acc.umu.se.
@@ -168,6 +172,10 @@ vote		IN	A	70.103.162.30
 $ORIGIN wna.debian.org.
 syncproxy	300	IN	A	140.211.166.44
 $ORIGIN debian.org.
+wagner		IN	A	217.196.43.132
+wagner-xen1	IN	A	217.196.43.134
+wagner-xen2	IN	A	217.196.43.135
+wagner-xen3	IN	A	217.196.43.136
 wiki		IN	A	140.211.166.43
 women		IN	A	140.211.166.43
 www		IN	A	194.109.137.218
