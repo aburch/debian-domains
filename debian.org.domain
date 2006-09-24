@@ -38,7 +38,7 @@ $ORIGIN cdimage.debian.org.
 non-us		IN	CNAME	debian.hands.com.
 us		IN	CNAME	debian.hands.com.
 $ORIGIN debian.org.
-cgi		IN	A	70.103.162.30
+cgi		IN	A	70.103.162.29
 		IN	MX	10 gluck.debian.org.
 costa		IN	A	217.196.43.131
 crest		IN	A	134.99.176.62
@@ -90,12 +90,12 @@ kullervo	IN	A	134.99.176.32
 leisner		IN	A	209.251.101.202
 lintian		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
-lists		IN	A	70.103.162.30
+lists		IN	A	70.103.162.29
 		IN	MX	0 murphy.debian.org.
 lobos		IN	A	212.211.132.250
 m68k		IN	CNAME   kullervo
 malo		IN	A	140.211.166.27
-master		IN	A	70.103.162.30
+master		IN	A	70.103.162.29
 mayr		IN	A	140.211.166.58
 mayer		IN	A	140.211.166.78
 merkel		IN	A	192.25.206.16
@@ -136,7 +136,7 @@ qa		IN	A	192.25.206.16
 $ORIGIN qa.debian.org.
 bugs		IN	A	192.25.206.16
 		IN	MX	10 merkel.debian.org.
-packages		IN	A	70.103.162.30
+packages		IN	A	70.103.162.29
 		IN	MX	0 master.debian.org.
 $ORIGIN debian.org.
 raptor		IN	A	195.243.109.162
@@ -168,7 +168,7 @@ villa		IN	A	212.211.132.32
 voltaire	IN	A	66.93.172.18
 		IN	HINFO	"PowerPC" "Debian GNU/Linux"
 vore		IN	A	206.246.226.48
-vote		IN	A	70.103.162.30
+vote		IN	A	70.103.162.29
 		IN	MX	0 master.debian.org.
 $ORIGIN wna.debian.org.
 syncproxy	300	IN	A	140.211.166.44
