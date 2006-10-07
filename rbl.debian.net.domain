@@ -2675,8 +2675,8 @@ $ORIGIN 119.4.9.rbl.debian.net.
 65	3600	IN	TXT	"Fix your stupid spam filter [02/01/27 troup]"
 	3600	IN	A	127.0.0.2
 $ORIGIN 137.171.222.rbl.debian.net.
+$GENERATE 0-255 $ A 	127.0.0.2
 195	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
-	3600	IN	A	127.0.0.2
 $ORIGIN 136.171.222.rbl.debian.net.
 $GENERATE 0-255 $ A 	127.0.0.2
 171	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
@@ -2689,6 +2689,9 @@ $GENERATE 0-255 $ A 	127.0.0.2
 $ORIGIN 176.47.61.rbl.debian.net.
 $GENERATE 0-255 $ A 	127.0.0.2
 0		TXT	"bts spam [06/10/07 rmurray]"
+$ORIGIN 177.47.61.rbl.debian.net.
+$GENERATE 0-255 $ A 	127.0.0.2
+200		TXT	"bts spam [06/10/07 rmurray]"
 $ORIGIN 207.11.60.rbl.debian.net.
 $GENERATE 0-255 $ A 	127.0.0.2
 0		TXT	"bts spam [06/10/07 rmurray]"
