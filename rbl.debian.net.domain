@@ -2683,6 +2683,8 @@ $ORIGIN 136.171.222.rbl.debian.net.
 $ORIGIN 228.44.59.rbl.debian.net.
 224	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
 	3600	IN	A	127.0.0.2
+47	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
+	3600	IN	A	127.0.0.2
 $ORIGIN 176.47.61.rbl.debian.net.
 174	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
 	3600	IN	A	127.0.0.2
@@ -2698,4 +2700,6 @@ $ORIGIN 229.44.59.rbl.debian.net.
 	3600	IN	A	127.0.0.2
 $ORIGIN 192.7.218.rbl.debian.net.
 48	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
+	3600	IN	A	127.0.0.2
+85	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
 	3600	IN	A	127.0.0.2
