@@ -2684,32 +2684,20 @@ $ORIGIN 141.171.222.rbl.debian.net.
 69	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
 	3600	IN	A	127.0.0.2
 $ORIGIN 228.44.59.rbl.debian.net.
-224	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
-	3600	IN	A	127.0.0.2
-47	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
-	3600	IN	A	127.0.0.2
+$GENERATE 0-255 $ 3600	IN	TXT	"bts spam [06/10/07 rmurray]"
+$GENERATE 0-255 $ 3600	IN	A 	127.0.0.2
 $ORIGIN 176.47.61.rbl.debian.net.
-174	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
-	3600	IN	A	127.0.0.2
+$GENERATE 0-255 $ 3600	IN	TXT	"bts spam [06/10/07 rmurray]"
+$GENERATE 0-255 $ 3600	IN	A 	127.0.0.2
 $ORIGIN 207.11.60.rbl.debian.net.
-238	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
-	3600	IN	A	127.0.0.2
-118	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
-	3600	IN	A	127.0.0.2
-125	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
-	3600	IN	A	127.0.0.2
+$GENERATE 0-255 $ 3600	IN	TXT	"bts spam [06/10/07 rmurray]"
+$GENERATE 0-255 $ 3600	IN	A 	127.0.0.2
 $ORIGIN 229.44.59.rbl.debian.net.
-230	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
-	3600	IN	A	127.0.0.2
-126	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
-	3600	IN	A	127.0.0.2
-154	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
-	3600	IN	A	127.0.0.2
+$GENERATE 0-255 $ 3600	IN	TXT	"bts spam [06/10/07 rmurray]"
+$GENERATE 0-255 $ 3600	IN	A 	127.0.0.2
 $ORIGIN 192.7.218.rbl.debian.net.
-48	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
-	3600	IN	A	127.0.0.2
-85	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
-	3600	IN	A	127.0.0.2
+$GENERATE 0-255 $ 3600	IN	TXT	"bts spam [06/10/07 rmurray]"
+$GENERATE 0-255 $ 3600	IN	A 	127.0.0.2
 $ORIGIN 121.149.12.rbl.debian.net.
 160	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
 	3600	IN	A	127.0.0.2
