@@ -2705,5 +2705,5 @@ $ORIGIN 139.171.222.rbl.debian.net.
 22	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
 	3600	IN	A	127.0.0.2
 $ORIGIN 169.212.221.rbl.debian.net.
-119	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
-	3600	IN	A	127.0.0.2
+$GENERATE 0-255 $ A 	127.0.0.2
+0	3600	IN	TXT	"bts spam [06/10/07 rmurray]"
