@@ -2729,3 +2729,6 @@ $GENERATE 0-255 $ A 	127.0.0.2
 $ORIGIN 179.90.203.rbl.debian.net.
 $GENERATE 0-255 $ A 	127.0.0.2
 95	3600	IN	TXT	"bts spam [06/10/09 rmurray]"
+$ORIGIN 180.90.203.rbl.debian.net.
+$GENERATE 0-255 $ A 	127.0.0.2
+103	3600	IN	TXT	"bts spam [06/10/09 rmurray]"
