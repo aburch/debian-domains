@@ -51,7 +51,7 @@ ddtp		IN	A	192.25.206.10
 dsd		IN	A	194.109.137.219
 		IN	MX	10 gluck.debian.org.
 dummy		IN	A	194.70.183.234
-elara		IN	A	209.87.236.28
+elara		IN	A	142.46.212.46
 $ORIGIN ena.debian.org.
 ;syncproxy		IN	CNAME	raff.debian.org.
 $ORIGIN debian.org.
@@ -71,7 +71,7 @@ $ORIGIN eu.debian.org.
 syncproxy	3600	IN	CNAME	ftp.hr.debian.org.
 syncproxy2	3600	IN	CNAME	farbror.acc.umu.se.
 $ORIGIN debian.org.
-europa		IN	A	209.87.236.27
+europa		IN	A	142.46.212.45
 ftp		IN	A	128.101.240.212
 		IN	MX	10 gluck.debian.org.
 ftp-master	IN	A	140.211.166.43
