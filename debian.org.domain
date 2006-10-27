@@ -9,10 +9,10 @@ $ORIGIN debian.org.
 		IN	A	192.25.206.10
 admin		IN	MX	10 gluck.debian.org.
 agnesi		IN	A	65.173.90.83
-alioth	3600	IN	NS	haydn.debian.org.
+alioth		IN	NS	wagner-xen1.debian.org.
 allegri		IN	A	192.25.206.26
-arch		IN	A	217.196.43.131
-		IN	MX	10 costa.debian.org.
+arch		IN	A	217.196.43.134
+		IN	MX	10 wagner-xen1.debian.org.
 archive		IN	A	128.101.240.212
 		IN	MX	10 gluck.debian.org.
 auber		IN	A	192.25.206.27
@@ -28,8 +28,8 @@ bugs-mirror	IN	A	192.25.206.16
 buildd		IN	A	192.25.206.59
 		IN	MX	10 raff.debian.org.
 		IN	MX	20 gluck.debian.org.
-bzr	3600	IN	A	217.196.43.131
-		IN	MX	10 costa.debian.org.
+bzr		IN	A	217.196.43.134
+		IN	MX	10 wagner-xen1.debian.org.
 caballero	IN	A	193.201.200.200
 casals		IN	A	128.31.0.16
 		IN	HINFO	"SGI Indigo2" "Debian GNU/Linux"
@@ -65,8 +65,8 @@ goedel		IN	A	129.206.69.122
 		IN	MX	0 goedel.debian.org.
 		IN	MX	10 raff.debian.org.
 gounod		IN	A	192.25.206.61
-git	3600	IN	A	217.196.43.131
-		IN	MX	10 costa.debian.org.
+git		IN	A	217.196.43.134
+		IN	MX	10 wagner-xen1.debian.org.
 $ORIGIN eu.debian.org.
 syncproxy	3600	IN	CNAME	ftp.hr.debian.org.
 syncproxy2	3600	IN	CNAME	farbror.acc.umu.se.
@@ -154,8 +154,8 @@ security	300	IN	A	128.101.240.212	; saens
 sparc		IN	A	206.246.226.48
 spohr	300	IN	A	140.211.166.43
 spontini	IN	A	137.82.84.42
-svn	3600	IN	A	217.196.43.131
-		IN	MX	10 costa.debian.org.
+svn		IN	A	217.196.43.134
+		IN	MX	10 wagner-xen1.debian.org.
 small-teams	IN	A	70.103.162.31
 		IN	MX	10 murphy.debian.org.
 tartini		IN	A	82.94.249.158
