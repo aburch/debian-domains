@@ -226,7 +226,6 @@ upload		IN	A	131.188.3.71
 www		IN	A	141.76.2.5
 $ORIGIN dk.debian.org.
 ftp		IN	CNAME	mirrors.dotsrc.org.
-www		IN	A	194.192.187.79
 $ORIGIN ee.debian.org.
 ftp		IN	A	195.222.16.154
 $ORIGIN es.debian.org.
