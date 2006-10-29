@@ -268,7 +268,7 @@ ftp		IN	CNAME	spheniscus.uninett.no.
 $ORIGIN nz.debian.org.
 ftp		IN	CNAME	ftp.citylink.co.nz.
 $ORIGIN pl.debian.org.
-ftp		IN	CNAME	ftp.task.gda.pl.
+ftp		IN	A	153.19.251.221
 www		IN	CNAME	www.debian.org.
 ; Subredu Manuel <diablo@iasi.roedu.net>
 $ORIGIN ro.debian.org.
