@@ -36,7 +36,7 @@ bzr		IN	A	217.196.43.134
 caballero	IN	A	193.201.200.200
 casals		IN	A	128.31.0.16
 		IN	HINFO	"SGI Indigo2" "Debian GNU/Linux"
-cdimage		IN	A	130.239.18.151
+cdimage		IN	CNAME	ftp.acc.umu.se.
 $ORIGIN cdimage.debian.org.
 non-us		IN	CNAME	debian.hands.com.
 us		IN	CNAME	debian.hands.com.
