@@ -74,7 +74,7 @@ $ORIGIN debian.org.
 europa		IN	A	142.46.212.45
 ftp		IN	A	128.101.240.212
 		IN	MX	10 gluck.debian.org.
-ftp-master	IN	A	140.211.166.43
+ftp-master	IN	A	128.148.34.103
 		IN	MX	10 raff.debian.org.
 gluck		IN	A	192.25.206.10
 haydn		IN	A	192.25.206.28
