@@ -307,3 +307,6 @@ $ORIGIN wa.au.debian.org.
 ftp		IN	A	203.8.116.111
 $ORIGIN za.debian.org.
 www		IN	CNAME	www.leg.uct.ac.za.
+
+# fingerprints exported from LDAP.
+$INCLUDE "/var/lib/misc/samosa.debian.org/dns-sshfp"
