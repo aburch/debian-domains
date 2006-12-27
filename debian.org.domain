@@ -308,4 +308,5 @@ ftp		IN	A	203.8.116.111
 $ORIGIN za.debian.org.
 www		IN	CNAME	www.leg.uct.ac.za.
 
-$INCLUDE "/var/lib/misc/samosa.debian.org/dns-sshfp"
+; commented out until etch upgrade on samosa.
+;$INCLUDE "/var/lib/misc/samosa.debian.org/dns-sshfp"
