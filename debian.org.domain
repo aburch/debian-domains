@@ -257,7 +257,7 @@ ftp2		IN	CNAME	giano.cnaf.infn.it.
 $ORIGIN jp.debian.org.
 ftp		IN	A	203.178.137.175
 ftp2		IN	A	210.157.158.33
-www		IN	A	61.215.208.41
+www		IN	A	202.221.179.41
 $ORIGIN kr.debian.org.
 ftp		IN	CNAME	ftp.kaist.ac.kr.
 $ORIGIN no.debian.org.
