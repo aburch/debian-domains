@@ -27,7 +27,6 @@ bugs-mirror	IN	A	192.25.206.16
 		IN	MX	10 gluck.debian.org.
 buildd		IN	A	192.25.206.59
 		IN	MX	10 raff.debian.org.
-		IN	MX	20 gluck.debian.org.
 bzr		IN	A	217.196.43.134
 		IN	MX	10 wagner-xen1.debian.org.
 caballero	IN	A	193.201.200.200
