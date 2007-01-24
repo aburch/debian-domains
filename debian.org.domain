@@ -57,10 +57,10 @@ $ORIGIN debian.org.
 ;
 ; Thimo Neubauer <thimo@debian.org>
 ;
-escher		IN	A	129.206.69.124
+escher		IN	A	213.188.99.215
 		IN	MX	0 escher.debian.org.
 		IN	MX	10 raff.debian.org.
-goedel		IN	A	129.206.69.122
+goedel		IN	A	213.188.99.214
 		IN	MX	0 goedel.debian.org.
 		IN	MX	10 raff.debian.org.
 ries		IN	A	128.148.34.103
