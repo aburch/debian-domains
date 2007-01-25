@@ -51,6 +51,7 @@ dsd		IN	A	194.109.137.219
 		IN	MX	10 gluck.debian.org.
 dummy		IN	A	194.70.183.234
 elara		IN	A	142.46.212.46
+goetz		IN	A	193.62.202.26
 $ORIGIN ena.debian.org.
 ;syncproxy		IN	CNAME	raff.debian.org.
 $ORIGIN debian.org.
