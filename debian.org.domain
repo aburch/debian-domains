@@ -59,11 +59,7 @@ $ORIGIN debian.org.
 ; Thimo Neubauer <thimo@debian.org>
 ;
 escher		IN	A	213.188.99.215
-		IN	MX	0 escher.debian.org.
-		IN	MX	10 raff.debian.org.
 goedel		IN	A	213.188.99.214
-		IN	MX	0 goedel.debian.org.
-		IN	MX	10 raff.debian.org.
 ries		IN	A	128.148.34.103
 git		IN	A	217.196.43.134
 		IN	MX	10 wagner-xen1.debian.org.
