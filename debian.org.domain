@@ -60,7 +60,10 @@ $ORIGIN debian.org.
 ;
 escher		IN	A	213.188.99.215
 goedel		IN	A	213.188.99.214
+
+; brown.edu
 ries		IN	A	128.148.34.103
+
 git		IN	A	217.196.43.134
 		IN	MX	10 wagner-xen1.debian.org.
 $ORIGIN eu.debian.org.
@@ -95,6 +98,7 @@ master		IN	A	70.103.162.29
 mayr		IN	A	140.211.166.58
 mayer		IN	A	140.211.166.78
 merkel		IN	A	192.25.206.16
+ravel		IN	A	192.25.206.61
 merulo		IN	A	192.25.206.58
 mirror		IN	A	194.109.137.218
 		IN	MX	10 gluck.debian.org.
