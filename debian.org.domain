@@ -1,8 +1,7 @@
 $TTL 1800
 $ORIGIN debian.org.
 !template
-		IN	NS	samosa.debian.org.
-		IN	NS	saens.debian.org.
+		IN	NS	raff.debian.org.
 		IN	NS	spohr.debian.org.
 		IN	NS	klecker.debian.org.
 		IN	MX	0 master.debian.org.
