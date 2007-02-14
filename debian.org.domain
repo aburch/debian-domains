@@ -177,8 +177,8 @@ wagner		IN	A	217.196.43.132
 wagner-xen1	IN	A	217.196.43.134
 wagner-xen2	IN	A	217.196.43.135
 wagner-xen3	IN	A	217.196.43.136
-wiki		200 IN	A	140.211.166.43
-women		200 IN	A	140.211.166.43
+wiki		200 IN	A	140.211.166.48
+women		200 IN	A	140.211.166.48
 www		IN	A	194.109.137.218
 		IN	MX	10 dummy.debian.org.
 www-master		IN	A	194.109.137.218
