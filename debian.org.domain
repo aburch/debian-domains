@@ -20,7 +20,7 @@ backup		IN	CNAME	bartok.debian.org.
 bartok		IN	A	82.195.75.91
 bruckner	IN	A	62.104.23.253
 		IN	HINFO	"PowerPC" "Debian GNU/Linux"
-bugs	300	IN	A	140.211.166.43
+bugs	300	IN	A	140.211.166.48
 		IN	MX	0 bugs.debian.org.
 bugs-mirror	IN	A	192.25.206.16
 		IN	MX	10 gluck.debian.org.
@@ -176,9 +176,9 @@ wagner		IN	A	217.196.43.132
 wagner-xen1	IN	A	217.196.43.134
 wagner-xen2	IN	A	217.196.43.135
 wagner-xen3	IN	A	217.196.43.136
-wiki	300	IN	A	140.211.166.43
+wiki	300	IN	A	140.211.166.48
 		IN	MX	10 dummy.debian.org.
-women	300	IN	A	140.211.166.43
+women	300	IN	A	140.211.166.48
 		IN	MX	10 dummy.debian.org.
 www		IN	A	194.109.137.218
 		IN	MX	10 dummy.debian.org.
