@@ -2,7 +2,7 @@ $TTL 1800
 $ORIGIN debian.org.
 !template
 		IN	NS	raff.debian.org.
-		IN	NS	spohr.debian.org.
+		IN	NS	rietz.debian.org.
 		IN	NS	klecker.debian.org.
 		IN	MX	0 master.debian.org.
 		IN	A	192.25.206.10
