@@ -164,6 +164,7 @@ teams		IN	A	70.103.162.31
 		IN	MX	10 murphy.debian.org.
 vaughan		IN	A	128.30.28.47
 		IN	HINFO	"Cobalt RaQ2" "Debian GNU/Linux"
+verdi		IN	A	192.54.42.193
 villa		IN	A	212.211.132.32
 voltaire	IN	A	66.93.172.18
 		IN	HINFO	"PowerPC" "Debian GNU/Linux"
