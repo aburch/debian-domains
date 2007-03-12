@@ -76,6 +76,8 @@ ftp-master	IN	A	128.148.34.103
 		IN	MX	10 raff.debian.org.
 gluck		IN	A	192.25.206.10
 haydn		IN	A	192.25.206.28
+hg		IN	A	217.196.43.134
+		IN	MX	10 wagner-xen1.debian.org.
 incoming	IN	A	128.148.34.103
 		IN	MX	10 gluck.debian.org.
 ipv6		IN	NS	raff.debian.org.
