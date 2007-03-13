@@ -17,6 +17,8 @@ so-net.ne.jp    IN      TXT     "domain blocked due to excessive spam [06/10/09 
                 IN      A       127.0.0.2
 nifty.com       IN      TXT     "domain blocked due to excessive spam [07/01/03 RM]"
                 IN      A       127.0.0.2
+sender.costumes-kostuums.be       IN      TXT     "domain blocked due to excessive spam [07/03/13 RM]"
+                IN      A       127.0.0.2
 $ORIGIN 54.18.12.rbl.debian.net.
 28	3600	IN	TXT	"launchmaster.com spam [98/12/13 jgg]"
 	3600	IN	A	127.0.0.2
