@@ -267,6 +267,8 @@ ftp2		IN	A	210.157.158.33
 www		IN	A	202.221.179.41
 $ORIGIN kr.debian.org.
 ftp		IN	CNAME	ftp.kaist.ac.kr.
+$ORIGIN mx.debian.org.
+ftp		IN	CNAME	nisamox.fciencias.unam.mx.
 $ORIGIN no.debian.org.
 ftp		IN	CNAME	spheniscus.uninett.no.
 $ORIGIN nz.debian.org.
