@@ -145,6 +145,8 @@ $ORIGIN debian.org.
 raptor		IN	A	195.243.109.162
 release		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
+rt		IN	A	192.25.206.33
+		IN	MX	10 spohr.debian.org.
 saens		IN	A	128.101.240.212
 sarti		IN	A	193.201.200.199
 schulz		IN	A	137.82.84.43
