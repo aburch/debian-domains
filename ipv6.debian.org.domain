@@ -11,15 +11,9 @@ lobos	10800	IN	AAAA	2001:a78::1a
 villa	10800	IN	AAAA	2001:a78::16
 
 ;
-; 2001:708:310:54::99 - Heikki Vatiainen <hessu@cs.tut.fi>
-ftp	10800	IN	AAAA	2001:708:310:54::99
-	10800	IN	AAAA	2001:718:1:1:2d0:b7ff:fe46:fbb8
-	10800	IN	AAAA	2001:760:202:103::4
-	10800	IN	AAAA	2001:770:18:2::1:1
-; 2001:b68:e212::3 - Josip Rodin <joy@debian.org>
-	10800	IN	AAAA	2001:b68:e212::3
-	10800	IN	AAAA	3ffe:1001:210:16::5
-	10800	IN	AAAA	3ffe:8171:10:16::5
+ftp	10800	IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
+	10800	IN	AAAA	2001:b68:e212::3 ; Josip Rodin <joy@debian.org>
+
 ;
 security 10800	IN	AAAA	2001:a78::16  ; villa
 	10800	IN	AAAA	2001:a78::1a  ; lobos 
