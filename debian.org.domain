@@ -310,7 +310,6 @@ upload		IN	CNAME	debian.hands.com.
 www		IN	CNAME	debian.hands.com.
 $ORIGIN us.debian.org.
 ftp		IN	A	35.9.37.225
-		IN	A	128.101.240.212
 		IN	A	204.152.191.7
 http		IN	A	35.9.37.225
 		IN	A	128.101.240.212
