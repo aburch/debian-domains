@@ -304,11 +304,8 @@ ftp		IN	CNAME	debian.linux.org.tw.
 $ORIGIN ua.debian.org.
 www		IN	CNAME	www.debian.org.ua.
 $ORIGIN uk.debian.org.
-;ftp		IN	CNAME	debian.hands.com.
-;www		IN	CNAME	debian.hands.com.
-; temporary diversion while free.hands.com is relocated overnight -- philh (2007-05-25)
-ftp		IN	CNAME	ukdebian.mirror.anlx.net.
-www		IN	CNAME	ukdebian.mirror.anlx.net.
+ftp		IN	CNAME	debian.hands.com.
+www		IN	CNAME	debian.hands.com.
 $ORIGIN us.debian.org.
 ftp		IN	A	35.9.37.225
 		IN	A	204.152.191.7
