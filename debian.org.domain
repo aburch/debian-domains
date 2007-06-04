@@ -176,7 +176,7 @@ volatile	IN	A	192.54.42.193
 		IN	A	82.195.75.82
 		IN	MX	0 murphy.debian.org.
 villa		IN	A	212.211.132.32
-voltaire	IN	A	66.93.172.18
+voltaire	IN	A	72.66.115.54
 		IN	HINFO	"PowerPC" "Debian GNU/Linux"
 vore		IN	A	206.246.226.48
 vote		IN	A	70.103.162.29
