@@ -160,6 +160,7 @@ security	300	IN	A	212.211.132.32	; villa
 sparc		IN	A	206.246.226.48
 spohr		IN	A	192.25.206.33
 spontini	IN	A	137.82.84.42
+steffani	IN	A	128.31.0.36
 svn		IN	A	217.196.43.134
 		IN	MX	10 wagner-xen1.debian.org.
 small-teams	IN	A	70.103.162.31
