@@ -287,6 +287,9 @@ $ORIGIN pl.debian.org.
 ; Michal Bialoskorski <skorka@task.gda.pl>
 ftp		IN	A	153.19.251.221
 www		IN	CNAME	www.debian.org.
+$ORIGIN pt.debian.org.
+; Miguel Ramos <miguel@uevora.pt>
+ftp		IN	A	193.136.216.20
 ; Subredu Manuel <diablo@iasi.roedu.net>
 $ORIGIN ro.debian.org.
 ftp		IN	A	192.129.4.120
