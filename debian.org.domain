@@ -176,7 +176,6 @@ verdi		IN	A	192.54.42.193
 volatile-master	IN	A	192.54.42.193
 		IN	MX	0 murphy.debian.org.
 volatile	IN	A	192.54.42.193
-		IN	A	82.195.75.82
 		IN	MX	0 murphy.debian.org.
 villa		IN	A	212.211.132.32
 voltaire	IN	A	72.66.115.54
