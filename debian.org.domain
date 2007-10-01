@@ -42,6 +42,8 @@ costa		IN	A	217.196.43.131
 crest		IN	A	134.99.176.62
 cvs		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
+darcs		IN	A	217.196.43.134
+		IN	MX	10 wagner-xen1.debian.org.
 db		IN	A	192.25.206.57
 		IN	MX	10 samosa.debian.org.
 ddtp		IN	A	192.25.206.10
