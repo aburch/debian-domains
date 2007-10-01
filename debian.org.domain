@@ -273,7 +273,7 @@ $ORIGIN it.debian.org.
 ftp		IN	CNAME	ftp.bofh.it.
 ftp2		IN	CNAME	ftp
 $ORIGIN jp.debian.org.
-ftp		IN	A	203.178.137.175
+ftp		IN	CNAME	ftp.nara.wide.ad.jp.
 ftp2		IN	A	210.157.158.33
 www		IN	A	202.221.179.41
 $ORIGIN kr.debian.org.
@@ -290,7 +290,7 @@ ftp		IN	A	153.19.251.221
 www		IN	CNAME	www.debian.org.
 $ORIGIN pt.debian.org.
 ; Miguel Ramos <miguel@uevora.pt>
-ftp		IN	A	193.136.216.20
+ftp		IN	CNAME	info.uevora.pt.
 ; Subredu Manuel <diablo@iasi.roedu.net>
 $ORIGIN ro.debian.org.
 ftp		IN	A	192.129.4.120
