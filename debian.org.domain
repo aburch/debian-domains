@@ -223,6 +223,8 @@ ftp		IN	CNAME	debian.c3sl.ufpr.br.
 www		IN	CNAME	www.debian.org.br.
 $ORIGIN ca.debian.org.
 ftp		IN	CNAME	ftp.debian.org.
+ftp1		IN	CNAME	gulus.usherbrooke.ca.
+ftp2		IN	CNAME	debian.mirror.iweb.ca.
 $ORIGIN ch.debian.org.
 ftp		IN	CNAME	debian.ethz.ch.
 $ORIGIN cl.debian.org.
