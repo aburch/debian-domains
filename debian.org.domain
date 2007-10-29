@@ -70,6 +70,8 @@ git		IN	A	217.196.43.134
 $ORIGIN eu.debian.org.
 syncproxy	3600	IN	CNAME	ftp.hr.debian.org.
 syncproxy2	3600	IN	CNAME	farbror.acc.umu.se.
+security	300	IN	A	212.211.132.32	; villa
+		300	IN	A	212.211.132.250	; lobos
 $ORIGIN debian.org.
 europa		IN	A	142.46.212.45
 ftp		IN	A	128.101.240.212
@@ -327,6 +329,7 @@ http		IN	A	64.50.238.52
 		IN	A	204.152.191.7
 		IN	A	204.152.191.39
 		IN	A	35.9.37.225
+security	300	IN	A	128.31.0.36	; steffani
 $ORIGIN mi.us.debian.org.
 ftp		IN	CNAME	debian.egr.msu.edu.
 $ORIGIN us.debian.org.
