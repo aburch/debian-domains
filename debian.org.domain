@@ -253,7 +253,7 @@ www		IN	A	141.76.2.5
 $ORIGIN dk.debian.org.
 ftp		IN	CNAME	mirrors.dotsrc.org.
 $ORIGIN ee.debian.org.
-ftp		IN	A	195.222.16.154
+ftp		IN	CNAME	ftp.aso.ee.
 $ORIGIN es.debian.org.
 ftp		IN	A	82.194.78.250
 www		IN	CNAME	debian.ci.uv.es.
