@@ -86,7 +86,8 @@ incoming	IN	A	128.148.34.103
 		IN	MX	10 gluck.debian.org.
 ipv6		IN	NS	raff.debian.org.
 		IN	NS	saens.debian.org.
-irc		IN	CNAME	irc.oftc.net.
+irc		IN	CNAME	irc.geo.oftc.net.
+irc6		IN	CNAME	irc6.geo.oftc.net.
 keyring		IN	A	192.25.206.59
 		IN	MX	10 gluck.debian.org.
 klecker		IN	A	194.109.137.218

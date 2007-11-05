@@ -18,4 +18,4 @@ ftp	10800	IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
 security 10800	IN	AAAA	2001:a78::16  ; villa
 	10800	IN	AAAA	2001:a78::1a  ; lobos 
 
-irc	10800	IN	CNAME	irc6.oftc.net.
+irc	10800	IN	CNAME	irc6.geo.oftc.net.
