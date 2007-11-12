@@ -7,6 +7,7 @@ $ORIGIN debian.org.
 		IN	MX	0 master.debian.org.
 		IN	A	192.25.206.10
 admin		IN	MX	10 gluck.debian.org.
+albeniz		IN	A	193.62.202.27
 agnesi		IN	A	65.173.90.83
 alioth		IN	NS	wagner-xen1.debian.org.
 allegri		IN	A	192.25.206.26
