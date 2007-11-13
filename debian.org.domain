@@ -327,13 +327,13 @@ $ORIGIN uk.debian.org.
 ftp		IN	CNAME	debian.hands.com.
 www		IN	CNAME	debian.hands.com.
 $ORIGIN us.debian.org.
-ftp		IN	A	64.50.238.52
-		IN	A	64.50.236.52
+;ftp		IN	A	64.50.238.52
+ftp		IN	A	64.50.236.52
 		IN	A	204.152.191.7
 		IN	A	204.152.191.39
 		IN	A	35.9.37.225
-http		IN	A	64.50.238.52
-		IN	A	64.50.236.52
+;http		IN	A	64.50.238.52
+http		IN	A	64.50.236.52
 		IN	A	204.152.191.7
 		IN	A	204.152.191.39
 		IN	A	35.9.37.225
