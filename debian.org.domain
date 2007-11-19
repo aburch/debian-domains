@@ -152,8 +152,8 @@ packages		IN	A	70.103.162.29
 		IN	MX	0 master.debian.org.
 $ORIGIN debian.org.
 raptor		IN	A	195.243.109.162
-release		IN	A	192.25.206.10
-		IN	MX	10 gluck.debian.org.
+release		IN	A	128.148.34.103
+		IN	MX	10 ries.debian.org.
 rt		IN	A	192.25.206.33
 		IN	MX	10 spohr.debian.org.
 saens		IN	A	128.101.240.212
