@@ -98,7 +98,7 @@ leisner		IN	A	209.251.101.202
 lintian		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
 lists	10m	IN	A	70.103.162.29
-	10m	IN	MX	0 murphy.debian.org.
+	10m	IN	MX	0 liszt.debian.org.
 liszt		IN	A	82.195.75.100
 		IN	AAAA	2001:41b8:0:1003:213:21ff:fe20:1426
 lobos		IN	A	212.211.132.250
@@ -125,8 +125,8 @@ non-us		IN	A	194.109.137.218
 		IN	MX	10 dummy.debian.org.
 nonus		IN	A	194.109.137.218
 		IN	MX	10 dummy.debian.org.
-other		IN	A	70.103.162.31
-		IN	MX	0 murphy.debian.org.
+other		IN	A	82.195.75.100
+		IN	MX	0 liszt.debian.org.
 packages	IN	A	87.106.4.56
 		IN	MX	0 puccini.debian.org.
 paer		IN	A	192.25.206.11
@@ -174,11 +174,11 @@ spontini	IN	A	137.82.84.42
 steffani	IN	A	128.31.0.36
 svn		IN	A	217.196.43.134
 		IN	MX	10 wagner-xen1.debian.org.
-small-teams	IN	A	70.103.162.31
-		IN	MX	10 murphy.debian.org.
+small-teams	IN	A	82.195.75.100
+		IN	MX	10 liszt.debian.org.
 tartini		IN	A	82.94.249.158
-teams		IN	A	70.103.162.31
-		IN	MX	10 murphy.debian.org.
+teams		IN	A	82.195.75.100
+		IN	MX	10 liszt.debian.org.
 vaughan		IN	A	128.30.28.47
 		IN	HINFO	"Cobalt RaQ2" "Debian GNU/Linux"
 verdi		IN	A	192.54.42.193
