@@ -217,7 +217,7 @@ non-us		IN	CNAME	non-us.debian.at.
 cdimage		IN	CNAME	cdimage.debian.at.
 www		IN	CNAME	www.debian.at.
 $ORIGIN au.debian.org.
-ftp		IN	CNAME	ftp.planetmirror.com.
+ftp	10m	IN	CNAME	ftp.planetmirror.com.
 www		IN	A	203.8.116.111
 ; Bernard Grymonpon <ftpmaint@belnet.be>
 $ORIGIN be.debian.org.
