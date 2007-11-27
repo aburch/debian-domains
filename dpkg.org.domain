@@ -1,7 +1,0 @@
-!template
-	10800	IN	NS	klecker.debian.org.
-	10800	IN	NS	raff.debian.org.
-	10800	IN	NS	rietz.debian.org.
-
-                MX 10   lennier.c47.org.
-                MX 20   londo.c47.org.
