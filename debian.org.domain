@@ -92,7 +92,7 @@ irc6		IN	CNAME	irc6.geo.oftc.net.
 keyring		IN	A	192.25.206.59
 		IN	MX	10 gluck.debian.org.
 klecker		IN	A	194.109.137.218
-kullervo	IN	A	134.99.176.32
+kullervo	IN	A	217.114.76.82
 lebrun		IN	A	161.53.160.165
 leisner		IN	A	209.251.101.202
 lintian		IN	A	192.25.206.10
