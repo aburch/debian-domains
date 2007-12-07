@@ -40,7 +40,7 @@ $ORIGIN debian.org.
 cgi		IN	A	70.103.162.29
 		IN	MX	10 gluck.debian.org.
 costa		IN	A	217.196.43.131
-crest		IN	A	134.99.176.62
+crest		IN	A	217.114.76.83
 cvs		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
 darcs		IN	A	217.196.43.134
