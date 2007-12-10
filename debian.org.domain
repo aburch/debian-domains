@@ -270,6 +270,8 @@ ftp		IN	A	212.27.32.66
 ftp2		IN	CNAME	ftp.oleane.net.
 www		IN	A	194.109.137.218
 ; Anthony Wong <ypwong@debian.org>
+$ORIGIN gr.debian.org.
+ftp		IN	CNAME	patroklos.noc.ntua.gr.
 $ORIGIN hk.debian.org.
 ftp		IN	A	202.134.73.139
 www		IN	A	202.134.73.139
