@@ -89,6 +89,7 @@ ipv6		IN	NS	raff.debian.org.
 		IN	NS	saens.debian.org.
 irc		IN	CNAME	irc.geo.oftc.net.
 irc6		IN	CNAME	irc6.geo.oftc.net.
+kassia		IN	A	130.89.175.54
 keyring		IN	A	192.25.206.59
 		IN	MX	10 gluck.debian.org.
 klecker		IN	A	194.109.137.218
