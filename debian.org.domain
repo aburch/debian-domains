@@ -212,6 +212,8 @@ www-master		IN	A	194.109.137.218
 		IN	MX	10 klecker.debian.org.
 www-mirror		IN	CNAME	www-master.debian.org.
 
+debprivate-ftcollins	IN	NS	merkel.debian.org.
+debprivate-ftcollins	IN	NS	gluck.debian.org.
 
 $ORIGIN debprivate-darmstadt.debian.org.
 bartok-int	IN	A	192.168.43.1
