@@ -4,7 +4,6 @@ $ORIGIN rbl.debian.net.
 	3600	IN	NS	master.debian.org.
 	3600	IN	NS	murphy.debian.org.
 	3600	IN	NS	spohr.debian.org.
-	3600	IN	NS	gluck.debian.org.
 korea.com       IN      TXT     "registration required [05/11/09 RM]"
                 IN      A       127.0.0.2
 naver.com       IN      TXT     "your spam is not wanted here [05/11/09 RM]"
