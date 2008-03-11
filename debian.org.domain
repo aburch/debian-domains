@@ -269,8 +269,10 @@ ftp		IN	A	195.113.161.73
 $ORIGIN de.debian.org.
 ;ftp	60	IN	A	141.76.2.4
 ftp	60	IN	A	82.195.75.73	; sinclair.farm.ftbfs.de
+	60	IN	A	81.173.192.234	; debian.netcologne.de
 ;ftp1	60	IN	A	141.76.2.4
 ftp1	60	IN	A	82.195.75.73	; sinclair.farm.ftbfs.de
+	60	IN	A	81.173.192.234	; debian.netcologne.de
 ftp2		IN	A	195.71.9.196
 upload		IN	A	131.188.3.71
 ;www		IN	A	141.76.2.5
