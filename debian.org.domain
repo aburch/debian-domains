@@ -267,11 +267,12 @@ $ORIGIN cz.debian.org.
 ;ftp		IN	CNAME	www.debian.cz.
 ftp		IN	A	195.113.161.73
 $ORIGIN de.debian.org.
-ftp		IN	A	141.76.2.4
-ftp1		IN	A	141.76.2.4
+ftp	60	IN	A	141.76.2.4
+ftp1	60	IN	A	141.76.2.4
 ftp2		IN	A	195.71.9.196
 upload		IN	A	131.188.3.71
-www		IN	A	141.76.2.5
+;www		IN	A	141.76.2.5
+www	180	IN	A	194.109.137.218  ; klecker
 $ORIGIN dk.debian.org.
 ftp		IN	CNAME	mirrors.dotsrc.org.
 $ORIGIN ee.debian.org.
