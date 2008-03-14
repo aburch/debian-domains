@@ -9,8 +9,12 @@ $ORIGIN debian.org.
 admin		IN	MX	10 gluck.debian.org.
 albeniz		IN	A	193.62.202.27
 agnesi		IN	A	65.173.90.83
+agricola	IN	A	82.195.75.86
+		IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
 alioth		IN	NS	wagner-xen1.debian.org.
 allegri		IN	A	192.25.206.26
+arcadelt	IN	A	82.195.75.87
+		IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
 arch		IN	A	217.196.43.134
 		IN	MX	10 wagner-xen1.debian.org.
 archive		IN	A	194.109.137.218
