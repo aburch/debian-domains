@@ -8,7 +8,9 @@ $ORIGIN debian.org.
 		IN	A	192.25.206.10
 admin		IN	MX	10 gluck.debian.org.
 albeniz		IN	A	193.62.202.27
+		IN	HINFO	"alpha" "Debian GNU/Linux"
 agnesi		IN	A	65.173.90.83
+		IN	HINFO	"arm/armv5tel" "Debian GNU/Linux"
 agricola	IN	A	82.195.75.86
 		IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
 alioth		IN	NS	wagner-xen1.debian.org.
@@ -35,7 +37,7 @@ bzr		IN	A	217.196.43.134
 		IN	MX	10 wagner-xen1.debian.org.
 caballero	IN	A	193.201.200.200
 casals		IN	A	128.31.0.16
-		IN	HINFO	"SGI Indigo2" "Debian GNU/Linux"
+		IN	HINFO	"mips/SGI Indigo2" "Debian GNU/Linux"
 cdimage		IN	CNAME	ftp.acc.umu.se.
 $ORIGIN cdimage.debian.org.
 non-us		IN	CNAME	debian.hands.com.
@@ -44,7 +46,9 @@ $ORIGIN debian.org.
 cgi		IN	A	70.103.162.29
 		IN	MX	10 gluck.debian.org.
 costa		IN	A	217.196.43.131
+		IN	HINFO	"m68k" "Debian GNU/Linux"
 crest		IN	A	217.114.76.83
+		IN	HINFO	"m68k" "Debian GNU/Linux"
 cvs		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
 darcs		IN	A	217.196.43.134
@@ -65,6 +69,7 @@ $ORIGIN debian.org.
 ; Thimo Neubauer <thimo@debian.org>
 ;
 escher		IN	A	213.188.99.215
+		IN	HINFO	"alpha" "Debian GNU/Linux"
 goedel		IN	A	213.188.99.214
 
 ; brown.edu
@@ -101,6 +106,7 @@ klecker		IN	A	194.109.137.218
 kullervo	IN	A	217.114.76.82
 lebrun		IN	A	161.53.160.165
 leisner		IN	A	209.251.101.202
+		IN	HINFO	"arm" "Debian GNU/Linux"
 lintian		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
 lists		IN	A	82.195.75.100
@@ -118,6 +124,7 @@ mundy		IN	A	192.25.206.62
 rietz		IN	A	140.211.166.43
 ravel		IN	A	192.25.206.62
 merulo		IN	A	192.25.206.58
+		IN	HINFO	"ia64" "Debian GNU/Linux"
 mirror		IN	A	194.109.137.218
 		IN	MX	10 gluck.debian.org.
 murphy		IN	A	70.103.162.31
@@ -136,6 +143,7 @@ other		IN	A	82.195.75.100
 packages	IN	A	87.106.4.56
 		IN	MX	0 puccini.debian.org.
 paer		IN	A	192.25.206.11
+		IN	HINFO	"hppa/parisc64" "Debian GNU/Linux"
 people		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
 pergolesi	IN	A	62.104.23.252
@@ -158,6 +166,7 @@ packages		IN	A	70.103.162.29
 		IN	MX	0 master.debian.org.
 $ORIGIN debian.org.
 raptor		IN	A	195.243.109.162
+		IN	HINFO	"s390" "Debian GNU/Linux"
 release		IN	A	128.148.34.103
 		IN	MX	10 ries.debian.org.
 rt		IN	A	192.25.206.33
@@ -175,6 +184,7 @@ security	300	IN	A	212.211.132.32	; villa
 sparc		IN	A	206.246.226.48
 sperger		IN	A	82.195.75.98
 		IN	AAAA	2001:41b8:0:1003:a00:20ff:fea9:23bd
+		IN	HINFO	"sparc/Ultra60" "Debian GNU/Linux"
 spohr		IN	A	192.25.206.33
 spontini	IN	A	137.82.84.42
 steffani	IN	A	128.31.0.36
