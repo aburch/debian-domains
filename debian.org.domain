@@ -146,11 +146,14 @@ packages	IN	A	87.106.4.56
 		IN	MX	0 puccini.debian.org.
 paer		IN	A	192.25.206.11
 		IN	HINFO	"hppa/parisc64" "Debian GNU/Linux"
+penalosa	IN	A	192.25.206.68
+		IN	HINFO	"hppa/parisc - j6700s" "Debian GNU/Linux"
 people		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
 pergolesi	IN	A	62.104.23.252
 		IN	HINFO	"Dual Opteron" "Debian GNU/Linux"
-peri	60	IN	A	192.25.206.15
+peri		IN	A	192.25.206.15
+		IN	HINFO	"hppa/parisc - j6700s" "Debian GNU/Linux"
 popcon		IN	A	192.25.206.10
 		IN	MX	10 gluck.debian.org.
 planet		IN	A	192.25.206.10
