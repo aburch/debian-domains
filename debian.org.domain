@@ -393,4 +393,4 @@ $ORIGIN za.debian.org.
 www		IN	CNAME	www.leg.uct.ac.za.
 
 ; commented out until etch upgrade on samosa.
-;$INCLUDE "/var/lib/misc/samosa.debian.org/dns-sshfp"
+$INCLUDE "/var/lib/misc/samosa.debian.org/dns-sshfp"
