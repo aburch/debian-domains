@@ -88,9 +88,7 @@ security	300	IN	A	212.211.132.32	; villa
 		300	IN	A	212.211.132.250	; lobos
 $ORIGIN debian.org.
 europa		IN	A	142.46.212.45
-ftp	60	IN	A	128.101.240.212 ; saens
-;ftp	60	IN	A	64.50.236.52	; ftp-chi.osuosl.org
-;ftp	60	IN	A	64.50.238.52	; ftp-atl.osuosl.org
+ftp		IN	A	128.101.240.212 ; saens
 		IN	MX	10 gluck.debian.org.
 ftp-master	IN	A	128.148.34.103
 		IN	MX	10 raff.debian.org.
