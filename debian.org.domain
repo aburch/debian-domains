@@ -43,10 +43,8 @@ caballero	IN	A	193.201.200.200
 casals		IN	A	128.31.0.16
 		IN	HINFO	"mips/SGI Indigo2" "Debian GNU/Linux"
 cdimage		IN	CNAME	ftp.acc.umu.se.
-$ORIGIN cdimage.debian.org.
-non-us		IN	CNAME	debian.hands.com.
-us		IN	CNAME	debian.hands.com.
-$ORIGIN debian.org.
+non-us.cdimage	IN	CNAME	debian.hands.com.
+us.cdimage	IN	CNAME	debian.hands.com.
 cgi		IN	A	70.103.162.29
 		IN	MX	10 gluck.debian.org.
 costa		IN	A	217.196.43.131
@@ -66,9 +64,7 @@ dsd		IN	A	194.109.137.219
 dummy		IN	A	194.70.183.234
 elara		IN	A	142.46.212.46
 goetz		IN	A	193.62.202.26
-$ORIGIN ena.debian.org.
-;syncproxy		IN	CNAME	raff.debian.org.
-$ORIGIN debian.org.
+;syncproxy.ena		IN	CNAME	raff.debian.org.
 ;
 ; Thimo Neubauer <thimo@debian.org>
 ;
@@ -81,12 +77,10 @@ ries		IN	A	128.148.34.103
 
 git		IN	A	217.196.43.134
 		IN	MX	10 wagner-xen1.debian.org.
-$ORIGIN eu.debian.org.
-syncproxy	3600	IN	CNAME	ftp.hr.debian.org.
-syncproxy2	3600	IN	CNAME	farbror.acc.umu.se.
-security	300	IN	A	212.211.132.32	; villa
+syncproxy.eu	3600	IN	CNAME	ftp.hr.debian.org.
+syncproxy2.eu	3600	IN	CNAME	farbror.acc.umu.se.
+security.eu	300	IN	A	212.211.132.32	; villa
 		300	IN	A	212.211.132.250	; lobos
-$ORIGIN debian.org.
 europa		IN	A	142.46.212.45
 ftp		IN	A	128.101.240.212 ; saens
 		IN	MX	10 gluck.debian.org.
@@ -167,12 +161,10 @@ piatti		IN	A	193.167.161.225
 puccini		IN	A	87.106.4.56
 qa		IN	A	192.25.206.16
 		IN	MX	10 merkel.debian.org.
-$ORIGIN qa.debian.org.
-bugs		IN	A	192.25.206.16
+bugs.qa		IN	A	192.25.206.16
 		IN	MX	10 merkel.debian.org.
-packages		IN	A	70.103.162.29
+packages.qa	IN	A	70.103.162.29
 		IN	MX	0 master.debian.org.
-$ORIGIN debian.org.
 raptor		IN	A	195.243.109.162
 		IN	HINFO	"s390" "Debian GNU/Linux"
 release		IN	A	128.148.34.103
@@ -217,9 +209,7 @@ voltaire	IN	A	72.66.115.54
 vore		IN	A	206.246.226.48
 vote		IN	A	70.103.162.29
 		IN	MX	0 master.debian.org.
-$ORIGIN wna.debian.org.
-syncproxy	300	IN	A	140.211.166.44
-$ORIGIN debian.org.
+syncproxy.wna	300	IN	A	140.211.166.44
 wagner		IN	A	217.196.43.132
 wagner-xen1	IN	A	217.196.43.134
 wagner-xen2	IN	A	217.196.43.135
@@ -237,16 +227,15 @@ www-mirror		IN	CNAME	www-master.debian.org.
 debprivate-ftcollins	IN	NS	merkel.debian.org.
 debprivate-ftcollins	IN	NS	gluck.debian.org.
 
-$ORIGIN debprivate-darmstadt.debian.org.
-bartok-int	IN	A	192.168.43.1
-wiggum-int	IN	A	192.168.43.2
-liszt-int	IN	A	192.168.43.3
-babylon5-int	IN	A	192.168.43.4
-sperger-int	IN	A	192.168.43.5
-urd-int		IN	A	192.168.43.6
-bartok-ilo	IN	A	192.168.43.129
-liszt-ilo	IN	A	192.168.43.131
-urd-ilo		IN	A	192.168.43.134
+bartok-int.debprivate-darmstadt		IN	A	192.168.43.1
+wiggum-int.debprivate-darmstadt		IN	A	192.168.43.2
+liszt-int.debprivate-darmstadt		IN	A	192.168.43.3
+babylon5-int.debprivate-darmstadt	IN	A	192.168.43.4
+sperger-int.debprivate-darmstadt	IN	A	192.168.43.5
+urd-int.debprivate-darmstadt		IN	A	192.168.43.6
+bartok-ilo.debprivate-darmstadt		IN	A	192.168.43.129
+liszt-ilo.debprivate-darmstadt		IN	A	192.168.43.131
+urd-ilo.debprivate-darmstadt		IN	A	192.168.43.134
 
 
 $ORIGIN at.debian.org.
