@@ -229,15 +229,16 @@ debprivate-ftcollins	IN	NS	merkel.debian.org.
 debprivate-ftcollins	IN	NS	gluck.debian.org.
 
 
-bartok-int.debprivate-darmstadt		IN	A	192.168.43.1
-wiggum-int.debprivate-darmstadt		IN	A	192.168.43.2
-liszt-int.debprivate-darmstadt		IN	A	192.168.43.3
-babylon5-int.debprivate-darmstadt	IN	A	192.168.43.4
-sperger-int.debprivate-darmstadt	IN	A	192.168.43.5
-urd-int.debprivate-darmstadt		IN	A	192.168.43.6
-bartok-ilo.debprivate-darmstadt		IN	A	192.168.43.129
-liszt-ilo.debprivate-darmstadt		IN	A	192.168.43.131
-urd-ilo.debprivate-darmstadt		IN	A	192.168.43.134
+$ORIGIN debprivate-darmstadt.debian.org.
+bartok-int		IN	A	192.168.43.1
+wiggum-int		IN	A	192.168.43.2
+liszt-int		IN	A	192.168.43.3
+babylon5-int		IN	A	192.168.43.4
+sperger-int		IN	A	192.168.43.5
+urd-int			IN	A	192.168.43.6
+bartok-ilo		IN	A	192.168.43.129
+liszt-ilo		IN	A	192.168.43.131
+urd-ilo			IN	A	192.168.43.134
 
 
 $ORIGIN at.debian.org.
