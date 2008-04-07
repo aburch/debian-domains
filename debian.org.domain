@@ -1,231 +1,233 @@
 $TTL 1800
 $ORIGIN debian.org.
 !template
-		IN	NS	raff.debian.org.
-		IN	NS	rietz.debian.org.
-		IN	NS	klecker.debian.org.
-		IN	MX	0 master.debian.org.
-		IN	A	192.25.206.10
-admin		IN	MX	10 gluck.debian.org.
-albeniz		IN	A	193.62.202.27
-		IN	HINFO	"alpha" "Debian GNU/Linux"
-agnesi		IN	A	65.173.90.83
-		IN	HINFO	"arm/armv5tel" "Debian GNU/Linux"
-agricola	IN	A	82.195.75.86
-		IN	AAAA	2001:41b8:0:1003:214:fdff:fe30:1ce8
-		IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
-alioth		IN	NS	wagner-xen1.debian.org.
-allegri		IN	A	192.25.206.26
-arcadelt	IN	A	82.195.75.87
-		IN	AAAA	2001:41b8:0:1003:214:fdff:fe30:1a98
-		IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
-arch		IN	A	217.196.43.134
-		IN	MX	10 wagner-xen1.debian.org.
-archive		IN	A	194.109.137.218
-		IN	MX	10 gluck.debian.org.
-argento		IN	A	195.49.152.174
-		IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
-auber		IN	A	192.25.206.27
-auric		IN	A	206.246.226.45
-backup		IN	CNAME	bartok.debian.org.
-bartok		IN	A	82.195.75.91
-bruckner	IN	A	62.104.23.253
-		IN	HINFO	"PowerPC" "Debian GNU/Linux"
-bugs		IN	A	140.211.166.43
-		IN	MX	0 bugs.debian.org.
-bugs-mirror	IN	A	192.25.206.16
-		IN	MX	10 gluck.debian.org.
-buildd		IN	A	192.25.206.59
-		IN	MX	10 raff.debian.org.
-bzr		IN	A	217.196.43.134
-		IN	MX	10 wagner-xen1.debian.org.
-caballero	IN	A	193.201.200.200
-casals		IN	A	128.31.0.16
-		IN	HINFO	"mips/SGI Indigo2" "Debian GNU/Linux"
-cdimage		IN	CNAME	ftp.acc.umu.se.
-non-us.cdimage	IN	CNAME	debian.hands.com.
-us.cdimage	IN	CNAME	debian.hands.com.
-cgi		IN	A	70.103.162.29
-		IN	MX	10 gluck.debian.org.
-costa		IN	A	217.196.43.131
-		IN	HINFO	"m68k" "Debian GNU/Linux"
-crest		IN	A	217.114.76.83
-		IN	HINFO	"m68k" "Debian GNU/Linux"
-cvs		IN	A	192.25.206.10
-		IN	MX	10 gluck.debian.org.
-darcs		IN	A	217.196.43.134
-		IN	MX	10 wagner-xen1.debian.org.
-db		IN	A	192.25.206.57
-		IN	MX	10 samosa.debian.org.
-ddtp		IN	A	192.25.206.10
-		IN	MX	0 gluck.debian.org.
-dsd		IN	A	194.109.137.219
-		IN	MX	10 gluck.debian.org.
-dummy		IN	A	194.70.183.234
-elara		IN	A	142.46.212.46
-goetz		IN	A	193.62.202.26
-;syncproxy.ena		IN	CNAME	raff.debian.org.
+			IN	NS	raff.debian.org.
+			IN	NS	rietz.debian.org.
+			IN	NS	klecker.debian.org.
+			IN	MX	0 master.debian.org.
+			IN	A	192.25.206.10
+admin			IN	MX	10 gluck.debian.org.
+albeniz			IN	A	193.62.202.27
+			IN	HINFO	"alpha" "Debian GNU/Linux"
+agnesi			IN	A	65.173.90.83
+			IN	HINFO	"arm/armv5tel" "Debian GNU/Linux"
+agricola		IN	A	82.195.75.86
+			IN	AAAA	2001:41b8:0:1003:214:fdff:fe30:1ce8
+			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
+alioth			IN	NS	wagner-xen1.debian.org.
+allegri			IN	A	192.25.206.26
+arcadelt		IN	A	82.195.75.87
+			IN	AAAA	2001:41b8:0:1003:214:fdff:fe30:1a98
+			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
+arch			IN	A	217.196.43.134
+			IN	MX	10 wagner-xen1.debian.org.
+archive			IN	A	194.109.137.218
+			IN	MX	10 gluck.debian.org.
+argento			IN	A	195.49.152.174
+			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
+auber			IN	A	192.25.206.27
+auric			IN	A	206.246.226.45
+backup			IN	CNAME	bartok.debian.org.
+bartok			IN	A	82.195.75.91
+bruckner		IN	A	62.104.23.253
+			IN	HINFO	"PowerPC" "Debian GNU/Linux"
+bugs			IN	A	140.211.166.43
+			IN	MX	0 bugs.debian.org.
+bugs-mirror		IN	A	192.25.206.16
+			IN	MX	10 gluck.debian.org.
+buildd			IN	A	192.25.206.59
+			IN	MX	10 raff.debian.org.
+bzr			IN	A	217.196.43.134
+			IN	MX	10 wagner-xen1.debian.org.
+caballero		IN	A	193.201.200.200
+casals			IN	A	128.31.0.16
+			IN	HINFO	"mips/SGI Indigo2" "Debian GNU/Linux"
+cdimage			IN	CNAME	ftp.acc.umu.se.
+non-us.cdimage		IN	CNAME	debian.hands.com.
+us.cdimage		IN	CNAME	debian.hands.com.
+cgi			IN	A	70.103.162.29
+			IN	MX	10 gluck.debian.org.
+costa			IN	A	217.196.43.131
+			IN	HINFO	"m68k" "Debian GNU/Linux"
+crest			IN	A	217.114.76.83
+			IN	HINFO	"m68k" "Debian GNU/Linux"
+cvs			IN	A	192.25.206.10
+			IN	MX	10 gluck.debian.org.
+darcs			IN	A	217.196.43.134
+			IN	MX	10 wagner-xen1.debian.org.
+db			IN	A	192.25.206.57
+			IN	MX	10 samosa.debian.org.
+ddtp			IN	A	192.25.206.10
+			IN	MX	0 gluck.debian.org.
+dsd			IN	A	194.109.137.219
+			IN	MX	10 gluck.debian.org.
+dummy			IN	A	194.70.183.234
+elara			IN	A	142.46.212.46
+goetz			IN	A	193.62.202.26
+;syncproxy.ena			IN	CNAME	raff.debian.org.
 ;
 ; Thimo Neubauer <thimo@debian.org>
 ;
-escher		IN	A	213.188.99.215
-		IN	HINFO	"alpha" "Debian GNU/Linux"
-goedel		IN	A	213.188.99.214
+escher			IN	A	213.188.99.215
+			IN	HINFO	"alpha" "Debian GNU/Linux"
+goedel			IN	A	213.188.99.214
 
 ; brown.edu
-ries		IN	A	128.148.34.103
+ries			IN	A	128.148.34.103
 
-git		IN	A	217.196.43.134
-		IN	MX	10 wagner-xen1.debian.org.
+git			IN	A	217.196.43.134
+			IN	MX	10 wagner-xen1.debian.org.
 syncproxy.eu	3600	IN	CNAME	ftp.hr.debian.org.
 syncproxy2.eu	3600	IN	CNAME	farbror.acc.umu.se.
 security.eu	300	IN	A	212.211.132.32	; villa
 		300	IN	A	212.211.132.250	; lobos
-europa		IN	A	142.46.212.45
-ftp		IN	A	128.101.240.212 ; saens
-		IN	MX	10 gluck.debian.org.
-ftp-master	IN	A	128.148.34.103
-		IN	MX	10 raff.debian.org.
-gluck		IN	A	192.25.206.10
-haydn		IN	A	192.25.206.28
-hg		IN	A	217.196.43.134
-		IN	MX	10 wagner-xen1.debian.org.
-incoming	IN	A	128.148.34.103
-		IN	MX	10 gluck.debian.org.
-ipv6		IN	NS	raff.debian.org.
-		IN	NS	saens.debian.org.
-irc		IN	CNAME	irc.geo.oftc.net.
-irc6		IN	CNAME	irc6.geo.oftc.net.
-kassia		IN	A	130.89.175.54
-		IN	AAAA	2001:610:1908:8000:21b:78ff:fe75:3d46
-keyring		IN	A	192.25.206.59
-		IN	MX	10 gluck.debian.org.
-klecker		IN	A	194.109.137.218
-kullervo	IN	A	217.114.76.82
-lebrun		IN	A	161.53.160.165
-leisner		IN	A	209.251.101.202
-		IN	HINFO	"arm" "Debian GNU/Linux"
-lintian		IN	A	192.25.206.10
-		IN	MX	10 gluck.debian.org.
-lists		IN	A	82.195.75.100
-		IN	MX	0 liszt.debian.org.
-liszt		IN	A	82.195.75.100
-		IN	AAAA	2001:41b8:0:1003:213:21ff:fe20:1426
-lobos		IN	A	212.211.132.250
-m68k		IN	CNAME   kullervo
-malo		IN	A	140.211.166.27
-master		IN	A	70.103.162.29
-mayr		IN	A	140.211.166.58
-mayer		IN	A	140.211.166.78
-merkel		IN	A	192.25.206.16
-mundy		IN	A	192.25.206.62
-rietz		IN	A	140.211.166.43
-ravel		IN	A	192.25.206.62
-merulo		IN	A	192.25.206.58
-		IN	HINFO	"ia64" "Debian GNU/Linux"
-mirror		IN	A	194.109.137.218
-		IN	MX	10 gluck.debian.org.
-murphy		IN	A	70.103.162.31
-raff		IN	A	192.25.206.59
-samosa		IN	A	192.25.206.57
-nl		IN	NS	ns.cistron.nl.
-		IN	NS	ns2.cistron.nl.
-nm		IN	A	192.25.206.16
-		IN	MX	10 merkel.debian.org.
-non-us		IN	A	194.109.137.218
-		IN	MX	10 dummy.debian.org.
-nonus		IN	A	194.109.137.218
-		IN	MX	10 dummy.debian.org.
-other		IN	A	82.195.75.100
-		IN	MX	0 liszt.debian.org.
-packages	IN	A	87.106.4.56
-		IN	MX	0 puccini.debian.org.
-paer		IN	A	192.25.206.11
-		IN	HINFO	"hppa/parisc64" "Debian GNU/Linux"
-penalosa	IN	A	192.25.206.68
-		IN	HINFO	"hppa/parisc - j6700s" "Debian GNU/Linux"
-people		IN	A	192.25.206.10
-		IN	MX	10 gluck.debian.org.
-pergolesi	IN	A	62.104.23.252
-		IN	HINFO	"Dual Opteron" "Debian GNU/Linux"
-peri		IN	A	192.25.206.15
-		IN	HINFO	"hppa/parisc - j6700s" "Debian GNU/Linux"
-popcon		IN	A	192.25.206.10
-		IN	MX	10 gluck.debian.org.
-planet		IN	A	192.25.206.10
-		IN	MX	10 dummy.debian.org.
-ports		IN	A	192.25.206.10
-		IN	MX	10 gluck.debian.org.
-;piatti		IN	CNAME	piuparts.cs.helsinki.fi.
-piatti		IN	A	193.167.161.225
-puccini		IN	A	87.106.4.56
-qa		IN	A	192.25.206.16
-		IN	MX	10 merkel.debian.org.
-bugs.qa		IN	A	192.25.206.16
-		IN	MX	10 merkel.debian.org.
-packages.qa	IN	A	70.103.162.29
-		IN	MX	0 master.debian.org.
-raptor		IN	A	195.243.109.162
-		IN	HINFO	"s390" "Debian GNU/Linux"
-release		IN	A	128.148.34.103
-		IN	MX	10 ries.debian.org.
-rt		IN	A	192.25.206.33
-		IN	MX	10 spohr.debian.org.
-saens		IN	A	128.101.240.212
-sarti		IN	A	193.201.200.199
-schulz		IN	A	137.82.84.43
-search		IN	A	194.109.137.218
-		IN	MX	10 gluck.debian.org.
+europa			IN	A	142.46.212.45
+ftp			IN	A	128.101.240.212 ; saens
+			IN	MX	10 gluck.debian.org.
+ftp-master		IN	A	128.148.34.103
+			IN	MX	10 raff.debian.org.
+gluck			IN	A	192.25.206.10
+haydn			IN	A	192.25.206.28
+hg			IN	A	217.196.43.134
+			IN	MX	10 wagner-xen1.debian.org.
+incoming		IN	A	128.148.34.103
+			IN	MX	10 gluck.debian.org.
+ipv6			IN	NS	raff.debian.org.
+			IN	NS	saens.debian.org.
+irc			IN	CNAME	irc.geo.oftc.net.
+irc6			IN	CNAME	irc6.geo.oftc.net.
+kassia			IN	A	130.89.175.54
+			IN	AAAA	2001:610:1908:8000:21b:78ff:fe75:3d46
+keyring			IN	A	192.25.206.59
+			IN	MX	10 gluck.debian.org.
+klecker			IN	A	194.109.137.218
+kullervo		IN	A	217.114.76.82
+lebrun			IN	A	161.53.160.165
+leisner			IN	A	209.251.101.202
+			IN	HINFO	"arm" "Debian GNU/Linux"
+lintian			IN	A	192.25.206.10
+			IN	MX	10 gluck.debian.org.
+lists			IN	A	82.195.75.100
+			IN	MX	0 liszt.debian.org.
+liszt			IN	A	82.195.75.100
+			IN	AAAA	2001:41b8:0:1003:213:21ff:fe20:1426
+lobos			IN	A	212.211.132.250
+m68k			IN	CNAME   kullervo
+malo			IN	A	140.211.166.27
+master			IN	A	70.103.162.29
+mayr			IN	A	140.211.166.58
+mayer			IN	A	140.211.166.78
+merkel			IN	A	192.25.206.16
+mundy			IN	A	192.25.206.62
+rietz			IN	A	140.211.166.43
+ravel			IN	A	192.25.206.62
+merulo			IN	A	192.25.206.58
+			IN	HINFO	"ia64" "Debian GNU/Linux"
+mirror			IN	A	194.109.137.218
+			IN	MX	10 gluck.debian.org.
+murphy			IN	A	70.103.162.31
+raff			IN	A	192.25.206.59
+samosa			IN	A	192.25.206.57
+nl			IN	NS	ns.cistron.nl.
+			IN	NS	ns2.cistron.nl.
+nm			IN	A	192.25.206.16
+			IN	MX	10 merkel.debian.org.
+non-us			IN	A	194.109.137.218
+			IN	MX	10 dummy.debian.org.
+nonus			IN	A	194.109.137.218
+			IN	MX	10 dummy.debian.org.
+other			IN	A	82.195.75.100
+			IN	MX	0 liszt.debian.org.
+packages		IN	A	87.106.4.56
+			IN	MX	0 puccini.debian.org.
+paer			IN	A	192.25.206.11
+			IN	HINFO	"hppa/parisc64" "Debian GNU/Linux"
+penalosa		IN	A	192.25.206.68
+			IN	HINFO	"hppa/parisc - j6700s" "Debian GNU/Linux"
+people			IN	A	192.25.206.10
+			IN	MX	10 gluck.debian.org.
+pergolesi		IN	A	62.104.23.252
+			IN	HINFO	"Dual Opteron" "Debian GNU/Linux"
+peri			IN	A	192.25.206.15
+			IN	HINFO	"hppa/parisc - j6700s" "Debian GNU/Linux"
+popcon			IN	A	192.25.206.10
+			IN	MX	10 gluck.debian.org.
+planet			IN	A	192.25.206.10
+			IN	MX	10 dummy.debian.org.
+ports			IN	A	192.25.206.10
+			IN	MX	10 gluck.debian.org.
+;piatti			IN	CNAME	piuparts.cs.helsinki.fi.
+piatti			IN	A	193.167.161.225
+puccini			IN	A	87.106.4.56
+qa			IN	A	192.25.206.16
+			IN	MX	10 merkel.debian.org.
+bugs.qa			IN	A	192.25.206.16
+			IN	MX	10 merkel.debian.org.
+packages.qa		IN	A	70.103.162.29
+			IN	MX	0 master.debian.org.
+raptor			IN	A	195.243.109.162
+			IN	HINFO	"s390" "Debian GNU/Linux"
+release			IN	A	128.148.34.103
+			IN	MX	10 ries.debian.org.
+rt			IN	A	192.25.206.33
+			IN	MX	10 spohr.debian.org.
+saens			IN	A	128.101.240.212
+sarti			IN	A	193.201.200.199
+schulz			IN	A	137.82.84.43
+search			IN	A	194.109.137.218
+			IN	MX	10 gluck.debian.org.
 security-master	300	IN	A	194.109.137.218
 security	300	IN	A	212.211.132.32	; villa
 		300	IN	A	212.211.132.250	; lobos
 		300	IN	A	128.31.0.36 ; steffani
 		300	IN	MX	10 klecker.debian.org.
-sparc		IN	A	206.246.226.48
-sperger		IN	A	82.195.75.98
-		IN	AAAA	2001:41b8:0:1003:a00:20ff:fea9:23bd
-		IN	HINFO	"sparc/Ultra60" "Debian GNU/Linux"
-spohr		IN	A	192.25.206.33
-spontini	IN	A	137.82.84.42
-steffani	IN	A	128.31.0.36
-svn		IN	A	217.196.43.134
-		IN	MX	10 wagner-xen1.debian.org.
-small-teams	IN	A	82.195.75.100
-		IN	MX	10 liszt.debian.org.
-tartini		IN	A	82.94.249.158
-teams		IN	A	82.195.75.100
-		IN	MX	10 liszt.debian.org.
-vaughan		IN	A	128.30.28.47
-		IN	HINFO	"Cobalt RaQ2" "Debian GNU/Linux"
-verdi		IN	A	192.54.42.193
-		IN	MX	0 murphy.debian.org.
-volatile-master	IN	A	192.54.42.193
-		IN	MX	0 murphy.debian.org.
-volatile	IN	A	192.54.42.193
-		IN	MX	0 murphy.debian.org.
-villa		IN	A	212.211.132.32
-voltaire	IN	A	72.66.115.54
-		IN	HINFO	"PowerPC" "Debian GNU/Linux"
-vore		IN	A	206.246.226.48
-vote		IN	A	70.103.162.29
-		IN	MX	0 master.debian.org.
+sparc			IN	A	206.246.226.48
+sperger			IN	A	82.195.75.98
+			IN	AAAA	2001:41b8:0:1003:a00:20ff:fea9:23bd
+			IN	HINFO	"sparc/Ultra60" "Debian GNU/Linux"
+spohr			IN	A	192.25.206.33
+spontini		IN	A	137.82.84.42
+steffani		IN	A	128.31.0.36
+svn			IN	A	217.196.43.134
+			IN	MX	10 wagner-xen1.debian.org.
+small-teams		IN	A	82.195.75.100
+			IN	MX	10 liszt.debian.org.
+tartini			IN	A	82.94.249.158
+teams			IN	A	82.195.75.100
+			IN	MX	10 liszt.debian.org.
+vaughan			IN	A	128.30.28.47
+			IN	HINFO	"Cobalt RaQ2" "Debian GNU/Linux"
+verdi			IN	A	192.54.42.193
+			IN	MX	0 murphy.debian.org.
+volatile-master		IN	A	192.54.42.193
+			IN	MX	0 murphy.debian.org.
+volatile		IN	A	192.54.42.193
+			IN	MX	0 murphy.debian.org.
+villa			IN	A	212.211.132.32
+voltaire		IN	A	72.66.115.54
+			IN	HINFO	"PowerPC" "Debian GNU/Linux"
+vore			IN	A	206.246.226.48
+vote			IN	A	70.103.162.29
+			IN	MX	0 master.debian.org.
 syncproxy.wna	300	IN	A	140.211.166.44
-wagner		IN	A	217.196.43.132
-wagner-xen1	IN	A	217.196.43.134
-wagner-xen2	IN	A	217.196.43.135
-wagner-xen3	IN	A	217.196.43.136
-wiki		IN	A	140.211.166.43
-		IN	MX	10 dummy.debian.org.
-women		IN	A	140.211.166.43
-		IN	MX	10 dummy.debian.org.
-www		IN	A	194.109.137.218
-		IN	MX	10 dummy.debian.org.
+wagner			IN	A	217.196.43.132
+wagner-xen1		IN	A	217.196.43.134
+wagner-xen2		IN	A	217.196.43.135
+wagner-xen3		IN	A	217.196.43.136
+wiki			IN	A	140.211.166.43
+			IN	MX	10 dummy.debian.org.
+women			IN	A	140.211.166.43
+			IN	MX	10 dummy.debian.org.
+www			IN	A	194.109.137.218
+			IN	MX	10 dummy.debian.org.
 www-master		IN	A	194.109.137.218
-		IN	MX	10 klecker.debian.org.
+			IN	MX	10 klecker.debian.org.
 www-mirror		IN	CNAME	www-master.debian.org.
+
 
 debprivate-ftcollins	IN	NS	merkel.debian.org.
 debprivate-ftcollins	IN	NS	gluck.debian.org.
+
 
 bartok-int.debprivate-darmstadt		IN	A	192.168.43.1
 wiggum-int.debprivate-darmstadt		IN	A	192.168.43.2
