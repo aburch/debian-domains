@@ -15,7 +15,8 @@ agricola		IN	A	82.195.75.86
 			IN	AAAA	2001:41b8:0:1003:214:fdff:fe30:1ce8
 			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
 alioth			IN	NS	wagner-xen1.debian.org.
-allegri			IN	A	192.25.206.26
+allegri			IN	A	157.193.39.233
+			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
 arcadelt		IN	A	82.195.75.87
 			IN	AAAA	2001:41b8:0:1003:214:fdff:fe30:1a98
 			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
