@@ -257,15 +257,15 @@ $ORIGIN au.debian.org.
 ;ftp	10m	IN	CNAME	ftp.planetmirror.com.
 ftp	10m	IN	CNAME	mirror.linux.org.au.
 www		IN	A	203.8.116.111
-; Bernard Grymonpon <ftpmaint@belnet.be>
+$ORIGIN wa.au.debian.org.
+ftp		IN	A	203.8.116.111
 $ORIGIN be.debian.org.
-ftp		IN	CNAME	ftp.belnet.be.
+ftp		IN	CNAME	ftp.belnet.be.  ; Bernard Grymonpon <ftpmaint@belnet.be>
 $ORIGIN bg.debian.org.
 ftp		IN	CNAME	debian.spnet.net.
 www		IN	CNAME	debian.spnet.net.
 $ORIGIN br.debian.org.
-; Marcos Castilho <marcos@inf.ufpr.br>
-ftp		IN	CNAME	debian.c3sl.ufpr.br.
+ftp		IN	CNAME	debian.c3sl.ufpr.br.  ; Marcos Castilho <marcos@inf.ufpr.br>
 www		IN	CNAME	www.debian.org.br.
 $ORIGIN ca.debian.org.
 ftp		A	206.167.141.10	; ftp1.ca
@@ -282,8 +282,8 @@ $ORIGIN cl.debian.org.
 ftp		IN	CNAME	debian.ciencias.uchile.cl.
 $ORIGIN cn.debian.org.
 www		IN	CNAME	debian.linuxforum.net.
-; Dan Ohnesorg <Dan@ohnesorg.cz>
 $ORIGIN cz.debian.org.
+; Dan Ohnesorg <Dan@ohnesorg.cz>
 ;ftp		IN	CNAME	www.debian.cz.
 ftp		IN	A	195.113.161.73
 $ORIGIN de.debian.org.
@@ -306,12 +306,11 @@ $ORIGIN fr.debian.org.
 ftp		IN	A	212.27.32.66
 ftp2		IN	CNAME	ftp.oleane.net.
 www		IN	A	194.109.137.218
-; Anthony Wong <ypwong@debian.org>
 $ORIGIN gr.debian.org.
 ftp		IN	CNAME	patroklos.noc.ntua.gr.
 $ORIGIN hk.debian.org.
-ftp		IN	A	202.134.73.139
-www		IN	A	202.134.73.139
+ftp		IN	A	202.134.73.139 ; Anthony Wong <ypwong@debian.org>
+www		IN	A	202.134.73.139 ; Anthony Wong <ypwong@debian.org>
 $ORIGIN hr.debian.org.
 ftp		IN	A	161.53.160.11
 		IN	AAAA	2001:b68:e212::3
@@ -319,9 +318,8 @@ $ORIGIN hu.debian.org.
 ftp		IN	CNAME	ftp.fsn.hu.
 $ORIGIN id.debian.org.
 www		IN	CNAME	kambing.vLSM.org.
-; Colm MacCarthaigh <colm.maccarthaigh@heanet.ie>
 $ORIGIN ie.debian.org.
-ftp		IN	CNAME	debian.heanet.ie.
+ftp		IN	CNAME	debian.heanet.ie.  ; Colm MacCarthaigh <colm.maccarthaigh@heanet.ie>
 $ORIGIN is.debian.org.
 ftp		IN	CNAME	draupnir.rhnet.is.
 $ORIGIN it.debian.org.
@@ -340,15 +338,12 @@ ftp		IN	CNAME	spheniscus.uninett.no.
 $ORIGIN nz.debian.org.
 ftp		IN	CNAME	ftp.citylink.co.nz.
 $ORIGIN pl.debian.org.
-; Michal Bialoskorski <skorka@task.gda.pl>
-ftp		IN	A	153.19.251.221
+ftp		IN	A	153.19.251.221 ; Michal Bialoskorski <skorka@task.gda.pl>
 www		IN	CNAME	www.debian.org.
 $ORIGIN pt.debian.org.
-; Miguel Ramos <miguel@uevora.pt>
-ftp		IN	CNAME	info.uevora.pt.
-; Subredu Manuel <diablo@iasi.roedu.net>
+ftp		IN	CNAME	info.uevora.pt.  ; Miguel Ramos <miguel@uevora.pt>
 $ORIGIN ro.debian.org.
-ftp		IN	A	192.129.4.120
+ftp		IN	A	192.129.4.120 ; Subredu Manuel <diablo@iasi.roedu.net>
 $ORIGIN ru.debian.org.
 ftp		IN	CNAME	ftp.chg.ru.
 www		IN	A	82.179.191.68
@@ -386,8 +381,6 @@ $ORIGIN mi.us.debian.org.
 ftp		IN	CNAME	debian.egr.msu.edu.
 $ORIGIN us.debian.org.
 www		IN	CNAME	gluck.debian.org.
-$ORIGIN wa.au.debian.org.
-ftp		IN	A	203.8.116.111
 $ORIGIN za.debian.org.
 www		IN	CNAME	www.leg.uct.ac.za.
 
