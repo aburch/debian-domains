@@ -255,10 +255,11 @@ cdimage		IN	CNAME	cdimage.debian.at.
 www		IN	CNAME	www.debian.at.
 $ORIGIN au.debian.org.
 ;ftp	10m	IN	CNAME	ftp.planetmirror.com.
-ftp	10m	IN	CNAME	mirror.linux.org.au.
-www		IN	A	203.8.116.111
-$ORIGIN wa.au.debian.org.
-ftp		IN	A	203.8.116.111
+ftp		IN	CNAME	mirror.linux.org.au.
+;www		IN	A	203.8.116.111
+www		IN	CNAME	www.debian.org.
+;ftp.wa		IN	A	203.8.116.111
+ftp.wa		IN	CNAME	mirror.linux.org.au.
 $ORIGIN be.debian.org.
 ftp		IN	CNAME	ftp.belnet.be.  ; Bernard Grymonpon <ftpmaint@belnet.be>
 $ORIGIN bg.debian.org.
