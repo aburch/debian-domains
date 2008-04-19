@@ -107,6 +107,7 @@ keyring			IN	A	192.25.206.59
 klecker			IN	A	194.109.137.218
 kullervo		IN	A	217.114.76.82
 lebrun			IN	A	161.53.160.165
+			IN	AAAA	2001:b68:e160:0:203:baff:fe09:91e2
 leisner			IN	A	209.251.101.202
 			IN	HINFO	"arm" "Debian GNU/Linux"
 lintian			IN	A	192.25.206.10
