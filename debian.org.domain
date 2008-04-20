@@ -87,6 +87,8 @@ security.eu	300	IN	A	212.211.132.32	; villa
 europa			IN	A	142.46.212.45
 ftp			IN	A	128.101.240.212 ; saens
 			IN	MX	10 gluck.debian.org.
+ftp.ipv6		IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
+			IN	AAAA	2001:b68:e212::3 ; Josip Rodin <joy@debian.org>
 ftp-master		IN	A	128.148.34.103
 			IN	MX	10 raff.debian.org.
 gluck			IN	A	192.25.206.10
@@ -99,6 +101,7 @@ ipv6			IN	NS	raff.debian.org.
 			IN	NS	saens.debian.org.
 irc			IN	CNAME	irc.geo.oftc.net.
 irc6			IN	CNAME	irc6.geo.oftc.net.
+irc.ipv6		IN	CNAME	irc6.geo.oftc.net.
 kassia			IN	A	130.89.175.54
 			IN	AAAA	2001:610:1908:8000:21b:78ff:fe75:3d46
 			IN	MX	0 murphy.debian.org.
@@ -117,6 +120,7 @@ lists			IN	A	82.195.75.100
 liszt			IN	A	82.195.75.100
 			IN	AAAA	2001:41b8:0:1003:213:21ff:fe20:1426
 lobos			IN	A	212.211.132.250
+			IN	AAAA	2001:a78::1a
 m68k			IN	CNAME   kullervo
 malo			IN	A	140.211.166.27
 master			IN	A	70.103.162.29
@@ -187,6 +191,8 @@ security	300	IN	A	212.211.132.32	; villa
 		300	IN	A	128.31.0.36	; steffani
 		300	IN	A	130.89.175.54	; kassia
 		300	IN	MX	10 klecker.debian.org.
+security.ipv6	300	IN	AAAA	2001:a78::16  ; villa
+		300	IN	AAAA	2001:a78::1a  ; lobos
 sparc			IN	A	206.246.226.48
 sperger			IN	A	82.195.75.98
 			IN	AAAA	2001:41b8:0:1003:a00:20ff:fea9:23bd
@@ -211,6 +217,7 @@ volatile	300	IN	A	192.54.42.193	; verdi
 ;volatile	180	IN	A	82.195.75.82	; durin.farm.ftbfs.de
 			IN	MX	0 murphy.debian.org.
 villa			IN	A	212.211.132.32
+			IN	AAAA	2001:a78::16
 voltaire		IN	A	72.66.115.54
 			IN	HINFO	"PowerPC" "Debian GNU/Linux"
 vore			IN	A	206.246.226.48
