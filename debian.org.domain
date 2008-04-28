@@ -174,6 +174,7 @@ packages.qa		IN	A	70.103.162.29
 			IN	MX	0 master.debian.org.
 raptor			IN	A	195.243.109.162
 			IN	HINFO	"s390" "Debian GNU/Linux"
+			IN	MX	0 murphy.debian.org.
 release			IN	A	128.148.34.103
 			IN	MX	10 ries.debian.org.
 rt			IN	A	192.25.206.33
