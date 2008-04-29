@@ -165,6 +165,7 @@ ports			IN	A	192.25.206.10
 			IN	MX	10 gluck.debian.org.
 ;piatti			IN	CNAME	piuparts.cs.helsinki.fi.
 piatti			IN	A	193.167.161.225
+			IN	MX	0 murphy.debian.org.
 puccini			IN	A	87.106.4.56
 qa			IN	A	192.25.206.16
 			IN	MX	10 merkel.debian.org.
