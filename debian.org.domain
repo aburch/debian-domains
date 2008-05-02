@@ -61,8 +61,6 @@ db			IN	A	192.25.206.57
 			IN	MX	10 samosa.debian.org.
 ddtp			IN	A	192.25.206.10
 			IN	MX	0 gluck.debian.org.
-dsd			IN	A	194.109.137.219
-			IN	MX	10 gluck.debian.org.
 dummy			IN	A	194.70.183.234
 elara			IN	A	142.46.212.46
 goetz			IN	A	193.62.202.26
