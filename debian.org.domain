@@ -81,7 +81,7 @@ syncproxy.eu	3600	IN	CNAME	ftp.hr.debian.org.
 syncproxy2.eu	3600	IN	CNAME	farbror.acc.umu.se.
 security.eu	300	IN	A	212.211.132.32	; villa
 		300	IN	A	212.211.132.250	; lobos
-		300	IN	A	130.89.175.54	; kassia
+		;300	IN	A	130.89.175.54	; kassia
 europa			IN	A	142.46.212.45
 ftp			IN	A	128.101.240.212 ; saens
 			IN	MX	10 gluck.debian.org.
@@ -187,7 +187,7 @@ security-master	300	IN	A	194.109.137.218
 security	300	IN	A	212.211.132.32	; villa
 		300	IN	A	212.211.132.250	; lobos
 		300	IN	A	128.31.0.36	; steffani
-		300	IN	A	130.89.175.54	; kassia
+		;300	IN	A	130.89.175.54	; kassia
 		300	IN	MX	10 klecker.debian.org.
 security.ipv6	300	IN	AAAA	2001:a78::16  ; villa
 		300	IN	AAAA	2001:a78::1a  ; lobos
