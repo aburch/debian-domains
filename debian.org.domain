@@ -183,7 +183,7 @@ search			IN	A	194.109.137.218
 security-master	300	IN	A	194.109.137.218
 security	300	IN	MX	10 klecker.debian.org.
 		300	IN	A	212.211.132.32	; villa
-;		300	IN	A	212.211.132.250	; lobos
+		300	IN	A	212.211.132.250	; lobos
 		300	IN	A	128.31.0.36	; steffani
 		300	IN	A	130.89.175.54	; kassia
 security.eu	300	IN	A	212.211.132.32	; villa
