@@ -41,6 +41,7 @@ buildd			IN	A	192.25.206.59
 			IN	MX	10 raff.debian.org.
 bzr			IN	A	217.196.43.134
 			IN	MX	10 wagner-xen1.debian.org.
+ca			IN	CNAME	samosa
 caballero		IN	A	193.201.200.200
 casals			IN	A	128.31.0.16
 			IN	HINFO	"mips/SGI Indigo2" "Debian GNU/Linux"
