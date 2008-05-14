@@ -185,7 +185,7 @@ security-master	300	IN	A	194.109.137.218
 security	300	IN	MX	10 klecker.debian.org.
 		300	IN	A	212.211.132.32	; villa
 		300	IN	A	212.211.132.250	; lobos
-		;300	IN	A	128.31.0.36	; steffani
+		300	IN	A	128.31.0.36	; steffani
 		300	IN	A	130.89.175.54	; kassia
 security.eu	300	IN	A	212.211.132.32	; villa
 security.eu	300	IN	A	212.211.132.250	; lobos
@@ -386,8 +386,8 @@ http		IN	A	64.50.238.52	; ftp-atl.osuosl.org
 ;http		IN	A	204.152.191.39	; mirrors2.kernel.org
 http		IN	A	35.9.37.225	; ike.egr.msu.edu
 http		IN	A	128.30.2.36	; debian.lcs.mit.edu
-;security	300	IN	A	128.31.0.36	; steffani
-security	180	IN	CNAME	security.debian.org.
+security	300	IN	A	128.31.0.36	; steffani
+;security	180	IN	CNAME	security.debian.org.
 www		IN	CNAME	gluck.debian.org.
 $ORIGIN mi.us.debian.org.
 ftp		IN	CNAME	debian.egr.msu.edu.
