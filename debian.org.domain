@@ -63,7 +63,7 @@ db			IN	A	192.25.206.57
 ddtp			IN	A	192.25.206.10
 			IN	MX	0 gluck.debian.org.
 dummy			IN	A	194.70.183.234
-elara			IN	A	142.46.212.46
+elara			IN	A	67.210.160.90
 goetz			IN	A	193.62.202.26
 ;syncproxy.ena			IN	CNAME	raff.debian.org.
 ;
@@ -80,7 +80,7 @@ git			IN	A	217.196.43.134
 			IN	MX	10 wagner-xen1.debian.org.
 syncproxy.eu	3600	IN	CNAME	ftp.hr.debian.org.
 syncproxy2.eu	3600	IN	CNAME	farbror.acc.umu.se.
-europa			IN	A	142.46.212.45
+europa			IN	A	67.210.160.89
 ftp			IN	A	128.101.240.212 ; saens
 			IN	MX	10 gluck.debian.org.
 ftp.ipv6		IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
