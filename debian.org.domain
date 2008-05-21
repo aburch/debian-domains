@@ -191,7 +191,7 @@ security.eu	300	IN	A	212.211.132.32	; villa
 ;security.eu	300	IN	A	212.211.132.250	; lobos
 security.eu	300	IN	A	130.89.175.54	; kassia
 security.ipv6	300	IN	AAAA	2001:a78::16  ; villa
-security.ipv6	300	IN	AAAA	2001:a78::1a  ; lobos
+;security.ipv6	300	IN	AAAA	2001:a78::1a  ; lobos
 sparc			IN	A	206.246.226.48
 sperger			IN	A	82.195.75.98
 			IN	AAAA	2001:41b8:0:1003:a00:20ff:fea9:23bd
