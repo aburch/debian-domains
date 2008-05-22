@@ -123,7 +123,7 @@ mayer			IN	A	140.211.166.78
 merkel			IN	A	192.25.206.16
 mundy			IN	A	192.25.206.62
 rietz			IN	A	140.211.166.43
-ravel			IN	A	192.25.206.62
+ravel			IN	A	192.25.206.26
 merulo			IN	A	192.25.206.58
 			IN	HINFO	"ia64" "Debian GNU/Linux"
 mirror			IN	A	194.109.137.218
