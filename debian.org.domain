@@ -5,7 +5,7 @@ $ORIGIN debian.org.
 			IN	NS	rietz.debian.org.
 			IN	NS	klecker.debian.org.
 			IN	MX	0 master.debian.org.
-			IN	A	192.25.206.10
+			IN	A	192.25.206.10	; gluck
 admin			IN	MX	10 gluck.debian.org.
 albeniz			IN	A	193.62.202.27
 			IN	HINFO	"alpha" "Debian GNU/Linux"
@@ -231,9 +231,9 @@ wiki			IN	A	140.211.166.43
 			IN	MX	10 dummy.debian.org.
 women			IN	A	140.211.166.43
 			IN	MX	10 dummy.debian.org.
-www			IN	A	194.109.137.218
+www			IN	A	194.109.137.218 ; klecker
 			IN	MX	10 dummy.debian.org.
-www-master		IN	A	194.109.137.218
+www-master		IN	A	194.109.137.218 ; klecker
 			IN	MX	10 klecker.debian.org.
 www-mirror		IN	CNAME	www-master.debian.org.
 
