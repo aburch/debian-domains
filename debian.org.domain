@@ -184,13 +184,15 @@ security-master	300	IN	A	194.109.137.218
 security	300	IN	MX	10 klecker.debian.org.
 		300	IN	A	212.211.132.32	; villa
 		300	IN	A	212.211.132.250	; lobos
-		300	IN	A	128.31.0.36	; steffani
-		;300	IN	A	130.89.175.54	; kassia
+		;300	IN	A	128.31.0.36	; steffani
+		300	IN	A	130.89.175.54	; kassia
 security.eu	300	IN	A	212.211.132.32	; villa
 security.eu	300	IN	A	212.211.132.250	; lobos
-;security.eu	300	IN	A	130.89.175.54	; kassia
+security.eu	300	IN	A	130.89.175.54	; kassia
 security.ipv6	300	IN	AAAA	2001:a78::16  ; villa
 security.ipv6	300	IN	AAAA	2001:a78::1a  ; lobos
+;security.us	300	IN	A	128.31.0.36	; steffani
+security.us	180	IN	CNAME	security.debian.org.
 sparc			IN	A	206.246.226.48
 sperger			IN	A	82.195.75.98
 			IN	AAAA	2001:41b8:0:1003:a00:20ff:fea9:23bd
@@ -211,8 +213,8 @@ verdi			IN	A	192.54.42.193
 			IN	MX	0 murphy.debian.org.
 volatile-master		IN	A	192.54.42.193
 			IN	MX	0 murphy.debian.org.
-;volatile	300	IN	A	192.54.42.193	; verdi
-volatile	180	IN	A	82.195.75.82	; durin.farm.ftbfs.de - zobel
+volatile	300	IN	A	192.54.42.193	; verdi
+;volatile	180	IN	A	82.195.75.82	; durin.farm.ftbfs.de - zobel
 			IN	MX	0 murphy.debian.org.
 villa			IN	A	212.211.132.32
 			IN	AAAA	2001:a78::16
@@ -385,8 +387,6 @@ http		IN	A	64.50.238.52	; ftp-atl.osuosl.org
 ;http		IN	A	204.152.191.39	; mirrors2.kernel.org
 http		IN	A	35.9.37.225	; ike.egr.msu.edu
 http		IN	A	128.30.2.36	; debian.lcs.mit.edu
-security	300	IN	A	128.31.0.36	; steffani
-;security	180	IN	CNAME	security.debian.org.
 www		IN	CNAME	gluck.debian.org.
 $ORIGIN mi.us.debian.org.
 ftp		IN	CNAME	debian.egr.msu.edu.
