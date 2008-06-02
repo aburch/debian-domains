@@ -309,7 +309,8 @@ $ORIGIN ee.debian.org.
 ftp		IN	CNAME	ftp.aso.ee.
 $ORIGIN es.debian.org.
 ;ftp		IN	A	82.194.78.250
-ftp		IN	A	161.53.160.16 ; ftp.hr.d.o/syncproxy.eu.d.o while 82.194.78.250's raid is broken
+ftp	300	IN	A	161.53.160.16 ; ftp.hr.d.o/syncproxy.eu.d.o while 82.194.78.250's raid is broken
+	300	IN	A	163.117.156.54 ; ftp.gul(.uc3m).es
 www		IN	CNAME	debian.ci.uv.es.
 $ORIGIN fi.debian.org.
 ftp		IN	A	130.230.54.99
