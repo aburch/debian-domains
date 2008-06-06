@@ -111,6 +111,7 @@ lintian			IN	A	192.25.206.10
 			IN	MX	10 gluck.debian.org.
 lists			IN	A	82.195.75.100
 			IN	MX	0 liszt.debian.org.
+lists-test		IN	MX	0 liszt.debian.org.
 liszt			IN	A	82.195.75.100
 			IN	AAAA	2001:41b8:0:1003:213:21ff:fe20:1426
 lobos			IN	A	212.211.132.250
