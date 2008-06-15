@@ -125,6 +125,7 @@ mayr			IN	A	140.211.166.58
 mayer			IN	A	140.211.166.78
 merkel			IN	A	192.25.206.16
 morales			IN	A	82.195.75.97
+			IN	AAAA	2001:41b8:0:1003:210:e0ff:fe00:3bca
 			IN	HINFO	"mipsel/Cobalt Raq2" "Debian GNU/Linux"
 mundy			IN	A	192.25.206.62
 ravel			IN	A	137.82.84.43
