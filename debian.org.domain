@@ -28,7 +28,6 @@ archive			IN	A	194.109.137.218
 argento			IN	A	195.49.152.174
 			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
 auber			IN	A	192.25.206.27
-auric			IN	A	206.246.226.45
 backup			IN	CNAME	bartok.debian.org.
 bartok			IN	A	82.195.75.91
 bruckner		IN	A	62.104.23.253
@@ -213,8 +212,6 @@ small-teams		IN	A	82.195.75.100
 tartini			IN	A	82.94.249.158
 teams			IN	A	82.195.75.100
 			IN	MX	10 liszt.debian.org.
-vaughan			IN	A	128.30.28.47
-			IN	HINFO	"Cobalt RaQ2" "Debian GNU/Linux"
 verdi			IN	A	192.54.42.193
 			IN	MX	0 murphy.debian.org.
 volatile-master		IN	A	192.54.42.193
@@ -226,7 +223,6 @@ villa			IN	A	212.211.132.32
 			IN	AAAA	2001:a78::16
 voltaire		IN	A	72.66.115.54
 			IN	HINFO	"PowerPC" "Debian GNU/Linux"
-vore			IN	A	206.246.226.48
 vote			IN	A	70.103.162.29
 			IN	MX	0 master.debian.org.
 syncproxy.wna	300	IN	A	140.211.166.44
