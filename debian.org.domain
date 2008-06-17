@@ -212,6 +212,8 @@ small-teams		IN	A	82.195.75.100
 tartini			IN	A	82.94.249.158
 teams			IN	A	82.195.75.100
 			IN	MX	10 liszt.debian.org.
+vaughan			IN	A	128.30.28.47
+			IN	HINFO	"Cobalt RaQ2" "Debian GNU/Linux"
 verdi			IN	A	192.54.42.193
 			IN	MX	0 murphy.debian.org.
 volatile-master		IN	A	192.54.42.193
