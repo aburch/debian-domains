@@ -55,6 +55,7 @@ crest			IN	A	217.114.76.83
 			IN	HINFO	"m68k" "Debian GNU/Linux"
 cvs			IN	A	192.25.206.10
 			IN	MX	10 gluck.debian.org.
+dsawiki			IN	CNAME	spohr
 darcs			IN	A	217.196.43.134
 			IN	MX	10 wagner-xen1.debian.org.
 db			IN	A	192.25.206.57
