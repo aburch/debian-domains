@@ -28,6 +28,7 @@ archive			IN	A	194.109.137.218
 argento			IN	A	195.49.152.174
 			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
 auber			IN	A	82.195.75.101
+			IN	AAAA	2001:41b8:0:1003:202:a5ff:fe20:5d8
 			IN	HINFO	"alpha/EV68CB" "Debian GNU/Linux"
 backup			IN	CNAME	bartok.debian.org.
 bartok			IN	A	82.195.75.91
