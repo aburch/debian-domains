@@ -27,7 +27,8 @@ archive			IN	A	194.109.137.218
 			IN	MX	10 gluck.debian.org.
 argento			IN	A	195.49.152.174
 			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
-auber			IN	A	192.25.206.27
+auber			IN	A	82.195.75.101
+			IN	HINFO	"alpha/EV68CB" "Debian GNU/Linux"
 backup			IN	CNAME	bartok.debian.org.
 bartok			IN	A	82.195.75.91
 bruckner		IN	A	62.104.23.253
