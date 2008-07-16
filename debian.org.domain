@@ -241,8 +241,8 @@ wiki			IN	A	140.211.166.43
 			IN	MX	10 dummy.debian.org.
 women			IN	A	140.211.166.43
 			IN	MX	10 dummy.debian.org.
-;www		60	IN	A	194.109.137.218 ; klecker
-www		60	IN	A	192.25.206.10 ; gluck
+www		300	IN	A	194.109.137.218 ; klecker
+;www		60	IN	A	192.25.206.10 ; gluck
 			IN	MX	10 dummy.debian.org.
 www-master		IN	A	194.109.137.218 ; klecker
 			IN	MX	10 klecker.debian.org.
