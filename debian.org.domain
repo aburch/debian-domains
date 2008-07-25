@@ -168,6 +168,7 @@ planet			IN	A	192.25.206.10
 			IN	MX	10 dummy.debian.org.
 ports			IN	A	192.25.206.10
 			IN	MX	10 gluck.debian.org.
+powell			IN 	A	87.106.64.223
 ;piatti			IN	CNAME	piuparts.cs.helsinki.fi.
 piatti			IN	A	193.167.161.225
 			IN	MX	0 murphy.debian.org.
