@@ -195,14 +195,14 @@ search			IN	A	194.109.137.218
 security-master	300	IN	A	194.109.137.218
 security	300	IN	MX	10 klecker.debian.org.
 		300	IN	A	212.211.132.32	; villa
-		300	IN	A	212.211.132.250	; lobos
+;		300	IN	A	212.211.132.250	; lobos
 		300	IN	A	128.31.0.36	; steffani
 		300	IN	A	130.89.175.54	; kassia
 security.eu	300	IN	A	212.211.132.32	; villa
-security.eu	300	IN	A	212.211.132.250	; lobos
+;security.eu	300	IN	A	212.211.132.250	; lobos
 security.eu	300	IN	A	130.89.175.54	; kassia
 security.ipv6	300	IN	AAAA	2001:a78::16	; villa
-security.ipv6	300	IN	AAAA	2001:a78::1a	; lobos
+;security.ipv6	300	IN	AAAA	2001:a78::1a	; lobos
 security.us	300	IN	A	128.31.0.36	; steffani
 ;security.us	180	IN	CNAME	security.debian.org.
 sparc			IN	A	206.246.226.48
