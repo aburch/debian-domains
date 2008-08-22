@@ -64,7 +64,6 @@ db			IN	A	192.25.206.57
 			IN	MX	10 samosa.debian.org.
 ddtp			IN	A	192.25.206.10
 			IN	MX	0 gluck.debian.org.
-dummy			IN	A	194.70.183.234
 elara			IN	A	67.210.160.90
 goetz			IN	A	193.62.202.26
 ;syncproxy.ena			IN	CNAME	raff.debian.org.
@@ -144,9 +143,9 @@ nl			IN	NS	ns.cistron.nl.
 nm			IN	A	192.25.206.16
 			IN	MX	10 merkel.debian.org.
 non-us			IN	A	194.109.137.218
-			IN	MX	10 dummy.debian.org.
+			IN	MX	10 .
 nonus			IN	A	194.109.137.218
-			IN	MX	10 dummy.debian.org.
+			IN	MX	10 .
 other			IN	A	82.195.75.100
 			IN	MX	0 liszt.debian.org.
 packages	60	IN	A	87.106.4.56
@@ -167,7 +166,7 @@ peri			IN	A	192.25.206.15
 popcon			IN	A	192.25.206.10
 			IN	MX	10 gluck.debian.org.
 planet			IN	A	192.25.206.10
-			IN	MX	10 dummy.debian.org.
+			IN	MX	10 .
 ports			IN	A	192.25.206.10
 			IN	MX	10 gluck.debian.org.
 powell			IN 	A	87.106.64.223
@@ -241,12 +240,12 @@ wagner-xen1		IN	A	217.196.43.134
 wagner-xen2		IN	A	217.196.43.135
 wagner-xen3		IN	A	217.196.43.136
 wiki			IN	A	140.211.166.43
-			IN	MX	10 dummy.debian.org.
+			IN	MX	10 .
 women			IN	A	140.211.166.43
-			IN	MX	10 dummy.debian.org.
+			IN	MX	10 .
 www		300	IN	A	194.109.137.218 ; klecker
 ;www		60	IN	A	192.25.206.10 ; gluck
-			IN	MX	10 dummy.debian.org.
+			IN	MX	10 .
 www-master		IN	A	194.109.137.218 ; klecker
 			IN	MX	10 klecker.debian.org.
 www-mirror		IN	CNAME	www-master.debian.org.
