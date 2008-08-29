@@ -121,7 +121,7 @@ lobos			IN	A	212.211.132.250
 			IN	AAAA	2001:a78::1a
 m68k			IN	CNAME   kullervo
 malo			IN	A	140.211.166.27
-mahler		60	IN	A	128.30.28.19
+mahler			IN	A	128.31.0.46
 			IN	HINFO	"mips/SGI O2" "Debian GNU/Linux"
 master			IN	A	70.103.162.29
 mayr			IN	A	140.211.166.58
