@@ -317,8 +317,8 @@ ftp		IN	A	195.113.161.73
 $ORIGIN de.debian.org.
 ftp		IN	A	141.76.2.4
 ftp1		IN	A	141.76.2.4
-;ftp2		IN	A	195.71.9.196
-ftp2	300	IN	A	194.8.197.20 ; mirror.netcologne.de
+ftp2		IN	A	195.71.9.196
+;ftp2	300	IN	A	194.8.197.20 ; mirror.netcologne.de
 upload		IN	A	131.188.3.71
 www		IN	A	141.76.2.5
 $ORIGIN dk.debian.org.
