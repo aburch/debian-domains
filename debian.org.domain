@@ -158,9 +158,10 @@ paer			IN	A	192.25.206.11
 			IN	HINFO	"hppa/parisc64" "Debian GNU/Linux"
 penalosa		IN	A	192.25.206.68
 			IN	HINFO	"hppa/parisc - j6700s" "Debian GNU/Linux"
-people		10	IN	A	192.25.206.10
+people		600	IN	A	137.82.84.43 ; ravel
 			IN	MX	10 gluck.debian.org.
 newpeople		IN	CNAME	ravel.debian.org.
+oldpeople		IN	CNAME	gluck.debian.org.
 pergolesi		IN	A	62.104.23.252
 			IN	HINFO	"Dual Opteron" "Debian GNU/Linux"
 peri			IN	A	192.25.206.15
