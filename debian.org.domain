@@ -217,6 +217,7 @@ spohr			IN	A	192.25.206.33
 spohr2			IN	A	192.25.206.38
 spontini		IN	A	137.82.84.42
 ssh-delayed.upload	IN	CNAME	ravel.debian.org.
+ssh.upload	600	IN	CNAME	ravel.debian.org.
 ftp.upload	600	IN	CNAME	ftp-master.debian.org.
 steffani		IN	A	128.31.0.36
 svn			IN	A	217.196.43.134
