@@ -107,7 +107,7 @@ keyring			IN	A	192.25.206.59
 klecker			IN	A	194.109.137.218
 kullervo		IN	A	217.114.76.82
 lebrun			IN	A	193.198.184.10
-			IN	AAAA	2001:b68:e160:0:203:baff:fe09:91e2
+;			IN	AAAA	2001:b68:e160:0:203:baff:fe09:91e2
 leisner			IN	A	209.251.101.202
 			IN	HINFO	"arm" "Debian GNU/Linux"
 lintian			IN	A	192.25.206.10
@@ -195,6 +195,7 @@ sarti			IN	A	193.201.200.199
 search			IN	A	194.109.137.218
 			IN	MX	10 gluck.debian.org.
 schroeder		IN	A	193.198.184.11
+;			IN	AAAA 2001:b68:e160:0:203:baff:fe5a:52c9
 			IN	HINFO	"sparc/v240" "Debian GNU/Linux"
 security-master	300	IN	A	194.109.137.218
 security	300	IN	MX	10 klecker.debian.org.
@@ -410,7 +411,8 @@ http		IN	A	64.50.238.52	; ftp-atl.osuosl.org
 ;http		IN	A	204.152.191.39	; mirrors2.kernel.org
 http		IN	A	35.9.37.225	; ike.egr.msu.edu
 http		IN	A	128.30.2.36	; debian.lcs.mit.edu
-www		IN	CNAME	gluck.debian.org.
+;www		IN	CNAME	gluck.debian.org.
+www		IN	CNAME	klecker.debian.org.
 $ORIGIN mi.us.debian.org.
 ftp		IN	CNAME	debian.egr.msu.edu.
 $ORIGIN za.debian.org.
