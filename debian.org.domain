@@ -106,7 +106,7 @@ keyring			IN	A	192.25.206.59
 			IN	MX	10 gluck.debian.org.
 klecker			IN	A	194.109.137.218
 kullervo		IN	A	217.114.76.82
-lebrun			IN	A	161.53.160.165
+lebrun			IN	A	193.198.184.10
 			IN	AAAA	2001:b68:e160:0:203:baff:fe09:91e2
 leisner			IN	A	209.251.101.202
 			IN	HINFO	"arm" "Debian GNU/Linux"
@@ -194,7 +194,7 @@ saens			IN	A	128.101.240.212
 sarti			IN	A	193.201.200.199
 search			IN	A	194.109.137.218
 			IN	MX	10 gluck.debian.org.
-schroeder		IN	A	161.53.160.164
+schroeder		IN	A	193.198.184.11
 			IN	HINFO	"sparc/v240" "Debian GNU/Linux"
 security-master	300	IN	A	194.109.137.218
 security	300	IN	MX	10 klecker.debian.org.
