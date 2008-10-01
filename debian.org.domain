@@ -234,9 +234,9 @@ vaughan			IN	A	128.30.28.47
 			IN	HINFO	"Cobalt RaQ2" "Debian GNU/Linux"
 verdi			IN	A	192.54.42.193
 			IN	MX	0 murphy.debian.org.
-volatile-master		IN	A	192.54.42.193
+volatile-master	60	IN	A	192.54.42.193
 			IN	MX	0 murphy.debian.org.
-volatile	300	IN	A	192.54.42.193	; verdi
+volatile	60	IN	A	192.54.42.193	; verdi
 ;volatile	180	IN	A	82.195.75.82	; durin.farm.ftbfs.de - zobel
 			IN	MX	0 murphy.debian.org.
 villa			IN	A	212.211.132.32
