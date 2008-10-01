@@ -150,10 +150,12 @@ nonus			IN	A	194.109.137.218
 			IN	MX	10 .
 other			IN	A	82.195.75.100
 			IN	MX	0 liszt.debian.org.
-packages	60	IN	A	87.106.4.56
+packages	300	IN	A	87.106.4.56
 			IN	MX	0 puccini.debian.org.
-packages-test	60	IN	A	87.106.4.56
+packages-test	300	IN	A	87.106.4.56
 			IN	MX	0 puccini.debian.org.
+newpackages	300	IN	A	87.106.64.223
+		300	IN	AAAA	2001:8d8:80:11::35d
 paer			IN	A	192.25.206.11
 			IN	HINFO	"hppa/parisc64" "Debian GNU/Linux"
 penalosa		IN	A	192.25.206.68
