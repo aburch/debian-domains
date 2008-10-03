@@ -225,6 +225,7 @@ ftp.upload	600	IN	CNAME	ftp-master.debian.org.
 steffani		IN	A	128.31.0.36
 svn			IN	A	217.196.43.134
 			IN	MX	10 wagner-xen1.debian.org.
+udd			IN	CNAME	piatti
 small-teams		IN	A	82.195.75.100
 			IN	MX	10 liszt.debian.org.
 tartini			IN	A	82.94.249.158
