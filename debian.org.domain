@@ -311,7 +311,7 @@ ftp2		IN	CNAME	debian.mirror.iweb.ca.
 ftp3		IN	CNAME	ftp3.nrc.ca.
 ftp4		IN	CNAME	debian.mirror.rafal.ca.
 $ORIGIN ch.debian.org.
-ftp		IN	CNAME	debian.ethz.ch.
+ftp		IN	CNAME	debian.netcologne.de.
 $ORIGIN cl.debian.org.
 ftp		IN	CNAME	debian.ciencias.uchile.cl.
 $ORIGIN cn.debian.org.
