@@ -12,14 +12,14 @@ albeniz			IN	A	193.62.202.27
 agnesi			IN	A	65.173.90.83
 			IN	HINFO	"arm/armv5tel" "Debian GNU/Linux"
 agricola		IN	A	82.195.75.86
-		60	IN	AAAA	2001:41b8:202:deb:214:fdff:fe30:1ce8
+			IN	AAAA	2001:41b8:202:deb:214:fdff:fe30:1ce8
 			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
 alioth			IN	NS	wagner-xen1.debian.org.
 allegri			IN	A	157.193.39.233
 			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
 			IN	MX	0 murphy.debian.org.
 arcadelt		IN	A	82.195.75.87
-		60	IN	AAAA	2001:41b8:202:deb:214:fdff:fe30:1a98
+			IN	AAAA	2001:41b8:202:deb:214:fdff:fe30:1a98
 			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
 arch			IN	A	217.196.43.134
 			IN	MX	10 wagner-xen1.debian.org.
@@ -28,10 +28,10 @@ archive			IN	A	194.109.137.218
 argento			IN	A	195.49.152.174
 			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
 auber			IN	A	82.195.75.101
-		60	IN	AAAA	2001:41b8:0:1003:202:a5ff:fe20:5d8
 			IN	HINFO	"alpha/EV68CB" "Debian GNU/Linux"
 backup			IN	CNAME	bartok.debian.org.
 bartok			IN	A	82.195.75.91
+			IN	AAAA	2001:41b8:202:deb:214:38ff:feee:b676
 bruckner		IN	A	62.104.23.253
 			IN	HINFO	"PowerPC" "Debian GNU/Linux"
 bugs			IN	A	140.211.166.43
@@ -116,7 +116,7 @@ lists			IN	A	82.195.75.100
 			IN	MX	0 liszt.debian.org.
 lists-test		IN	MX	0 liszt.debian.org.
 liszt			IN	A	82.195.75.100
-		60	IN	AAAA	2001:41b8:202:deb:213:21ff:fe20:1426
+			IN	AAAA	2001:41b8:202:deb:213:21ff:fe20:1426
 lobos			IN	A	212.211.132.250
 			IN	AAAA	2001:a78::1a
 m68k			IN	CNAME   kullervo
@@ -128,7 +128,7 @@ mayr			IN	A	140.211.166.58
 mayer			IN	A	140.211.166.78
 merkel			IN	A	192.25.206.16
 morales			IN	A	82.195.75.97
-		60	IN	AAAA	2001:41b8:202:deb:210:e0ff:fe00:3bca
+			IN	AAAA	2001:41b8:202:deb:210:e0ff:fe00:3bca
 			IN	HINFO	"mipsel/Cobalt Raq2" "Debian GNU/Linux"
 mundy			IN	A	192.25.206.62
 ravel			IN	A	137.82.84.43
@@ -214,7 +214,7 @@ security.us	300	IN	A	128.31.0.36	; steffani
 ;security.us	180	IN	CNAME	security.debian.org.
 sparc			IN	A	206.246.226.48
 sperger			IN	A	82.195.75.98
-		60	IN	AAAA	2001:41b8:202:deb:a00:20ff:fea9:23bd
+			IN	AAAA	2001:41b8:202:deb:a00:20ff:fea9:23bd
 			IN	HINFO	"sparc/Ultra60" "Debian GNU/Linux"
 spohr			IN	A	192.25.206.33
 spohr2			IN	A	192.25.206.38
