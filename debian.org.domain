@@ -154,10 +154,13 @@ nonus			IN	A	194.109.137.218
 			IN	MX	10 .
 other			IN	A	82.195.75.100
 			IN	MX	0 liszt.debian.org.
-packages	300	IN	A	87.106.4.56
+oldpackages	300	IN	A	87.106.4.56
 			IN	MX	0 puccini.debian.org.
 packages-test	300	IN	A	87.106.4.56
 			IN	MX	0 puccini.debian.org.
+packages	30	IN	A	87.106.64.223
+		30	IN	AAAA	2001:8d8:80:11::35d
+		30	IN	MX	0 powell.debian.org.
 newpackages	300	IN	A	87.106.64.223
 		300	IN	AAAA	2001:8d8:80:11::35d
 paer			IN	A	192.25.206.11
