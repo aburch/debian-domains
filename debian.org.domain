@@ -125,13 +125,17 @@ mahler			IN	A	128.31.0.46
 			IN	HINFO	"mips/SGI O2" "Debian GNU/Linux"
 master			IN	A	70.103.162.29
 mayr			IN	A	140.211.166.58
+			IN	HINFO	"mips/Broadcom BCM91250A aka SWARM" "Debian GNU/Linux"
 mayer			IN	A	140.211.166.78
+			IN	HINFO	"mipsel/Broadcom BCM91250A aka SWARM" "Debian GNU/Linux"
 merkel			IN	A	192.25.206.16
 morales			IN	A	82.195.75.97
 			IN	AAAA	2001:41b8:202:deb:210:e0ff:fe00:3bca
 			IN	HINFO	"mipsel/Cobalt Raq2" "Debian GNU/Linux"
 mundy			IN	A	192.25.206.62
 ravel			IN	A	137.82.84.43
+rem			IN	A	195.71.99.217
+			IN	HINFO	"mipsel/Broadcom BCM91250A aka SWARM" "Debian GNU/Linux"
 rietz			IN	A	140.211.166.43
 merulo			IN	A	192.25.206.58
 			IN	HINFO	"ia64" "Debian GNU/Linux"
