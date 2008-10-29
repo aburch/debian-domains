@@ -47,7 +47,6 @@ caballero		IN	A	193.201.200.200
 casals			IN	A	128.31.0.16
 			IN	HINFO	"mips/SGI Indigo2" "Debian GNU/Linux"
 cdimage			IN	CNAME	ftp.acc.umu.se.
-non-us.cdimage		IN	CNAME	debian.hands.com.
 us.cdimage		IN	CNAME	debian.hands.com.
 cgi			IN	A	70.103.162.29
 			IN	MX	10 gluck.debian.org.
@@ -148,10 +147,6 @@ nl			IN	NS	ns.cistron.nl.
 			IN	NS	ns2.cistron.nl.
 nm			IN	A	192.25.206.16
 			IN	MX	10 merkel.debian.org.
-non-us			IN	A	194.109.137.218
-			IN	MX	10 .
-nonus			IN	A	194.109.137.218
-			IN	MX	10 .
 other			IN	A	82.195.75.100
 			IN	MX	0 liszt.debian.org.
 stats.packages		IN	CNAME	powell
@@ -286,7 +281,6 @@ urd-ilo			IN	A	192.168.43.134
 $ORIGIN at.debian.org.
 ftp		IN	CNAME	ftp.debian.at.
 http		IN	CNAME	http.debian.at.
-non-us		IN	CNAME	non-us.debian.at.
 cdimage		IN	CNAME	cdimage.debian.at.
 www		IN	CNAME	www.debian.at.
 $ORIGIN au.debian.org.
