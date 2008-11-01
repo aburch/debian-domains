@@ -274,6 +274,7 @@ babylon5-int		IN	A	192.168.43.4
 sperger-int		IN	A	192.168.43.5
 urd-int			IN	A	192.168.43.6
 bartok-ilo		IN	A	192.168.43.129
+unger-ilo		IN	A	192.168.43.130
 liszt-ilo		IN	A	192.168.43.131
 urd-ilo			IN	A	192.168.43.134
 
