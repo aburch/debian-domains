@@ -176,7 +176,7 @@ pergolesi		IN	A	62.104.23.252
 peri			IN	A	192.25.206.15
 			IN	HINFO	"hppa/parisc - j6700s" "Debian GNU/Linux"
 pescetti		IN	A	217.114.76.85
-			IN	HINFO	"ppc" "Debian GNU/Linux"
+			IN	HINFO	"PowerPC/iMac G4" "Debian GNU/Linux"
 popcon			IN	A	192.25.206.10
 			IN	MX	10 gluck.debian.org.
 planet			IN	A	192.25.206.10
