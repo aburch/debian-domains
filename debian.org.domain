@@ -36,8 +36,9 @@ bartok			IN	A	82.195.75.91
 			IN	AAAA	2001:41b8:202:deb:214:38ff:feee:b676
 bruckner		IN	A	62.104.23.253
 			IN	HINFO	"PowerPC" "Debian GNU/Linux"
-bugs			IN	A	140.211.166.43	; rietz
-			IN	MX	0 bugs.debian.org.
+bugs			IN	MX	0 rietz.debian.org.
+		300	IN	A	140.211.166.43	; rietz
+		300	IN	A	193.167.161.225 ; piatti
 bugs-rietz		IN	CNAME	rietz
 bugs-master		IN	CNAME	rietz
 bugs-piatti		IN	CNAME	piatti
