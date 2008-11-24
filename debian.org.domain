@@ -24,7 +24,7 @@ arcadelt		IN	A	82.195.75.87
 arch			IN	A	217.196.43.134
 			IN	MX	10 wagner-xen1.debian.org.
 archive			IN	A	194.109.137.218
-			IN	MX	10 gluck.debian.org.
+			IN	MX	0 .
 argento			IN	A	195.49.152.174
 			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
 auber			IN	A	82.195.75.101
@@ -43,7 +43,7 @@ bugs-rietz		IN	CNAME	rietz
 bugs-master		IN	CNAME	rietz
 bugs-piatti		IN	CNAME	piatti
 bugs-mirror		IN	A	192.25.206.16
-			IN	MX	10 gluck.debian.org.
+			IN	MX	0 .
 buildd			IN	A	192.25.206.59
 			IN	MX	10 raff.debian.org.
 bzr			IN	A	217.196.43.134
@@ -55,13 +55,13 @@ casals			IN	A	128.31.0.16
 cdimage			IN	CNAME	ftp.acc.umu.se.
 us.cdimage		IN	CNAME	debian.hands.com.
 cgi			IN	A	70.103.162.29
-			IN	MX	10 gluck.debian.org.
+			IN	MX	0 .
 costa			IN	A	217.196.43.131
 			IN	HINFO	"m68k" "Debian GNU/Linux"
 crest			IN	A	217.114.76.83
 			IN	HINFO	"m68k" "Debian GNU/Linux"
 cvs			IN	A	192.25.206.10
-			IN	MX	10 gluck.debian.org.
+			IN	MX	0 .
 dsawiki			IN	CNAME	spohr2
 darcs			IN	A	217.196.43.134
 			IN	MX	10 wagner-xen1.debian.org.
@@ -90,7 +90,7 @@ europa			IN	A	67.210.160.89
 ftp		600	IN	A	128.101.240.212 ; saens
 ;ftp		60	IN	A	64.50.236.52	; ftp-chi.osuosl.org
 ;ftp		60	IN	A	64.50.238.52	; ftp-atl.osuosl.org
-			IN	MX	10 gluck.debian.org.
+			IN	MX	0 .
 ftp.ipv6		IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
 			IN	AAAA	2001:b68:e212::3 ; Josip Rodin <joy@debian.org>
 ftp-master		IN	A	128.148.34.103
@@ -100,7 +100,7 @@ haydn			IN	A	192.25.206.28
 hg			IN	A	217.196.43.134
 			IN	MX	10 wagner-xen1.debian.org.
 incoming		IN	A	128.148.34.103
-			IN	MX	10 gluck.debian.org.
+			IN	MX	0 .
 irc			IN	CNAME	irc.geo.oftc.net.
 irc6			IN	CNAME	irc6.geo.oftc.net.
 irc.ipv6		IN	CNAME	irc6.geo.oftc.net.
@@ -112,7 +112,7 @@ kassia		60	IN	A	130.89.175.54
 ; kassia3		IN	A	130.89.149.226
 ; kassia4		IN	A	130.89.149.227
 keyring			IN	A	192.25.206.59
-			IN	MX	10 gluck.debian.org.
+			IN	MX	0 .
 klecker			IN	A	194.109.137.218
 kullervo		IN	A	217.114.76.82
 lebrun			IN	A	193.198.184.10
@@ -120,7 +120,7 @@ lebrun			IN	A	193.198.184.10
 leisner			IN	A	209.251.101.202
 			IN	HINFO	"arm" "Debian GNU/Linux"
 lintian			IN	A	192.25.206.10
-			IN	MX	10 gluck.debian.org.
+			IN	MX	0 .
 lists			IN	A	82.195.75.100
 			IN	MX	0 liszt.debian.org.
 lists-test		IN	MX	0 liszt.debian.org.
@@ -149,7 +149,7 @@ rietz			IN	A	140.211.166.43
 merulo			IN	A	192.25.206.58
 			IN	HINFO	"ia64" "Debian GNU/Linux"
 mirror			IN	A	194.109.137.218
-			IN	MX	10 gluck.debian.org.
+			IN	MX	0 .
 murphy			IN	A	70.103.162.31
 raff			IN	A	192.25.206.59
 samosa			IN	A	192.25.206.57
@@ -168,7 +168,7 @@ paer			IN	A	192.25.206.11
 penalosa		IN	A	192.25.206.68
 			IN	HINFO	"hppa/parisc - j6700s" "Debian GNU/Linux"
 people			IN	A	137.82.84.43 ; ravel
-			IN	MX	10 gluck.debian.org.
+			IN	MX	0 .
 newpeople		IN	CNAME	ravel.debian.org.
 oldpeople		IN	CNAME	gluck.debian.org.
 pergolesi		IN	A	62.104.23.252
@@ -180,7 +180,7 @@ pescetti		IN	A	217.114.76.85
 popcon			IN	A	192.25.206.10
 			IN	MX	10 gluck.debian.org.
 planet			IN	A	192.25.206.10
-			IN	MX	10 .
+			IN	MX	0 .
 powell			IN 	A	87.106.64.223
 			IN	AAAA	2001:8d8:80:11::35d
 ;piatti			IN	CNAME	piuparts.cs.helsinki.fi.
@@ -204,7 +204,7 @@ rt			IN	A	192.25.206.33
 saens			IN	A	128.101.240.212
 sarti			IN	A	193.201.200.199
 search			IN	A	192.25.206.10 ; gluck
-			IN	MX	10 gluck.debian.org.
+			IN	MX	0 .
 schroeder		IN	A	193.198.184.11
 ;			IN	AAAA 2001:b68:e160:0:203:baff:fe5a:52c9
 			IN	HINFO	"sparc/v240" "Debian GNU/Linux"
@@ -263,12 +263,12 @@ wagner-xen1		IN	A	217.196.43.134
 wagner-xen2		IN	A	217.196.43.135
 wagner-xen3		IN	A	217.196.43.136
 wiki			IN	A	140.211.166.43
-			IN	MX	10 .
+			IN	MX	0 .
 women			IN	A	140.211.166.43
-			IN	MX	10 .
+			IN	MX	0 .
 www		300	IN	A	194.109.137.218 ; klecker
 ;www		60	IN	A	192.25.206.10 ; gluck
-			IN	MX	10 .
+			IN	MX	0 .
 www-master		IN	A	194.109.137.218 ; klecker
 			IN	MX	10 klecker.debian.org.
 www-mirror		IN	CNAME	www-master.debian.org.
