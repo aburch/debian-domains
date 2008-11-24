@@ -71,17 +71,10 @@ ddtp			IN	A	192.25.206.10
 			IN	MX	0 gluck.debian.org.
 elara			IN	A	67.210.160.90
 goetz			IN	A	193.62.202.26
-;syncproxy.ena			IN	CNAME	raff.debian.org.
-;
-; Thimo Neubauer <thimo@debian.org>
-;
 escher			IN	A	213.188.99.215
 			IN	HINFO	"alpha" "Debian GNU/Linux"
 goedel			IN	A	213.188.99.214
-
-; brown.edu
 ries			IN	A	128.148.34.103
-
 git			IN	A	217.196.43.134
 			IN	MX	10 wagner-xen1.debian.org.
 syncproxy.eu	3600	IN	CNAME	ftp.hr.debian.org.
