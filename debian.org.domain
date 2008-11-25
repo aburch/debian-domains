@@ -10,7 +10,9 @@ $ORIGIN debian.org.
 ; services
 ;=========
 admin			IN	MX	10 gluck.debian.org.
-alioth			IN	NS	wagner-xen1.debian.org.
+alioth			IN	NS	klecker
+			IN	NS	raff
+			IN	NS	rietz
 arch			IN	A	217.196.43.134
 			IN	MX	10 wagner-xen1.debian.org.
 archive			IN	A	194.109.137.218
