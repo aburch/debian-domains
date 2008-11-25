@@ -245,6 +245,7 @@ sarti			IN	A	193.201.200.199
 schroeder		IN	A	193.198.184.11
 ;			IN	AAAA 2001:b68:e160:0:203:baff:fe5a:52c9
 			IN	HINFO	"sparc/v240" "Debian GNU/Linux"
+schumann		IN	A	212.227.126.54
 smetana			IN	A	193.62.202.29
 			IN	HINFO	"sparc/v210" "Debian GNU/Linux"
 sperger			IN	A	82.195.75.98
@@ -267,6 +268,7 @@ wagner			IN	A	217.196.43.132
 wagner-xen1		IN	A	217.196.43.134
 wagner-xen2		IN	A	217.196.43.135
 wagner-xen3		IN	A	217.196.43.136
+wieck			IN	A	195.20.242.89
 
 
 
