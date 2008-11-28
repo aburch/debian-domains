@@ -75,9 +75,11 @@ nm			IN	A	192.25.206.16
 other			IN	A	82.195.75.100
 			IN	MX	0 liszt.debian.org.
 stats.packages		IN	CNAME	powell
-packages		IN	A	87.106.64.223
-			IN	AAAA	2001:8d8:80:11::35d
+packages		IN	A	87.106.64.223		; powell
+			IN	AAAA	2001:8d8:80:11::35d	; powell
 			IN	MX	0 powell.debian.org.
+packages-piatti		IN	CNAME	piatti
+packages-powell		IN	CNAME	powell
 people			IN	A	137.82.84.43 ; ravel
 			IN	MX	0 .
 newpeople		IN	CNAME	ravel.debian.org.
