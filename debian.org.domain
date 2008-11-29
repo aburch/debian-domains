@@ -20,7 +20,7 @@ archive			IN	A	194.109.137.218
 backup			IN	CNAME	bartok.debian.org.
 bugs			IN	MX	0 rietz.debian.org.
 		300	IN	A	140.211.166.43	; rietz
-		300	IN	A	193.167.161.225	; piatti
+;		300	IN	A	193.167.161.225	; piatti
 bugs-rietz		IN	CNAME	rietz
 bugs-master		IN	CNAME	rietz
 bugs-piatti		IN	CNAME	piatti
