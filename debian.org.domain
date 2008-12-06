@@ -13,9 +13,9 @@ admin			IN	MX	10 gluck.debian.org.
 alioth			IN	NS	klecker
 			IN	NS	raff
 			IN	NS	rietz
-arch			IN	A	217.196.43.134
+arch			IN	A	217.196.43.134	; alioth
 			IN	MX	10 wagner-xen1.debian.org.
-archive			IN	A	194.109.137.218
+archive			IN	A	194.109.137.218	; klecker
 			IN	MX	0 .
 backup			IN	CNAME	bartok.debian.org.
 bttracker	600	IN	CNAME	bttracker.acc.umu.se.
@@ -25,27 +25,27 @@ bugs			IN	MX	0 rietz.debian.org.
 bugs-rietz		IN	CNAME	rietz
 bugs-master		IN	CNAME	rietz
 bugs-piatti		IN	CNAME	piatti
-bugs-mirror		IN	A	192.25.206.16
+bugs-mirror		IN	A	192.25.206.16	; merkel
 			IN	MX	0 .
-buildd			IN	A	192.25.206.59
+buildd			IN	A	192.25.206.59	; raff
 			IN	MX	10 raff.debian.org.
-bzr			IN	A	217.196.43.134
+bzr			IN	A	217.196.43.134	; alioth
 			IN	MX	10 wagner-xen1.debian.org.
 ca			IN	CNAME	samosa
 cdimage			IN	CNAME	ftp.acc.umu.se.
 us.cdimage		IN	CNAME	debian.hands.com.
-cgi			IN	A	70.103.162.29
+cgi			IN	A	70.103.162.29	; master
 			IN	MX	0 .
-cvs			IN	A	192.25.206.10
+cvs			IN	A	192.25.206.10	; gluck
 			IN	MX	0 .
 dsawiki			IN	CNAME	spohr2
-darcs			IN	A	217.196.43.134
+darcs			IN	A	217.196.43.134	; alioth
 			IN	MX	10 wagner-xen1.debian.org.
-db			IN	A	192.25.206.57
+db			IN	A	192.25.206.57	; samosa
 			IN	MX	10 samosa.debian.org.
-ddtp			IN	A	192.25.206.10
+ddtp			IN	A	192.25.206.10	; gluck
 			IN	MX	0 gluck.debian.org.
-git			IN	A	217.196.43.134
+git			IN	A	217.196.43.134	; alioth
 			IN	MX	10 wagner-xen1.debian.org.
 ftp		600	IN	A	128.101.240.212 ; saens
 ;ftp		60	IN	A	64.50.236.52	; ftp-chi.osuosl.org
@@ -53,27 +53,27 @@ ftp		600	IN	A	128.101.240.212 ; saens
 			IN	MX	0 .
 ftp.ipv6		IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
 			IN	AAAA	2001:b68:e212::3 ; Josip Rodin <joy@debian.org>
-ftp-master		IN	A	128.148.34.103
+ftp-master		IN	A	128.148.34.103	; ries
 			IN	MX	10 raff.debian.org.
-hg			IN	A	217.196.43.134
+hg			IN	A	217.196.43.134	; alioth
 			IN	MX	10 wagner-xen1.debian.org.
-incoming		IN	A	128.148.34.103
+incoming		IN	A	128.148.34.103	; ries
 			IN	MX	0 .
 irc			IN	CNAME	irc.geo.oftc.net.
 irc6			IN	CNAME	irc6.geo.oftc.net.
 irc.ipv6		IN	CNAME	irc6.geo.oftc.net.
-keyring			IN	A	192.25.206.59
+keyring			IN	A	192.25.206.59	; raff
 			IN	MX	0 .
-lintian			IN	A	192.25.206.10
+lintian			IN	A	192.25.206.10	; gluck
 			IN	MX	0 .
-lists			IN	A	82.195.75.100
+lists			IN	A	82.195.75.100	; liszt
 			IN	MX	0 liszt.debian.org.
 lists-test		IN	MX	0 liszt.debian.org.
-mirror			IN	A	194.109.137.218
+mirror			IN	A	194.109.137.218	; klecker
 			IN	MX	0 .
-nm			IN	A	192.25.206.16
+nm			IN	A	192.25.206.16	; merkel
 			IN	MX	10 merkel.debian.org.
-other			IN	A	82.195.75.100
+other			IN	A	82.195.75.100	; liszt
 			IN	MX	0 liszt.debian.org.
 stats.packages		IN	CNAME	powell
 packages		IN	MX	0 powell.debian.org.
@@ -87,23 +87,23 @@ people			IN	A	137.82.84.43 ; ravel
 newpeople		IN	CNAME	ravel.debian.org.
 oldpeople		IN	CNAME	gluck.debian.org.
 piuparts		IN	CNAME	piatti
-planet			IN	A	192.25.206.10
+planet			IN	A	192.25.206.10	; gluck
 			IN	MX	0 .
-popcon			IN	A	192.25.206.10
+popcon			IN	A	192.25.206.10	; gluck
 			IN	MX	10 gluck.debian.org.
-qa			IN	A	192.25.206.16
+qa			IN	A	192.25.206.16	; merkel
 			IN	MX	10 merkel.debian.org.
-bugs.qa			IN	A	192.25.206.16
+bugs.qa			IN	A	192.25.206.16	; merkel
 			IN	MX	10 merkel.debian.org.
-packages.qa		IN	A	70.103.162.29
+packages.qa		IN	A	70.103.162.29	; master
 			IN	MX	0 master.debian.org.
-release			IN	A	128.148.34.103
+release			IN	A	128.148.34.103	; ries
 			IN	MX	10 ries.debian.org.
-rt			IN	A	192.25.206.33
+rt			IN	A	192.25.206.33	; spohr
 			IN	MX	10 spohr.debian.org.
 search			IN	A	192.25.206.10 ; gluck
 			IN	MX	0 .
-security-master	300	IN	A	194.109.137.218
+security-master	300	IN	A	194.109.137.218	; klecker
 security		IN	MX	10 klecker.debian.org.
 		300	IN	A	212.211.132.32	; villa
 		;300	IN	A	212.211.132.250	; lobos
@@ -121,29 +121,29 @@ security.ipv6		IN	MX	0 .
 		;300	IN	AAAA	2001:610:1908:8000:21b:78ff:fe75:3d46 ; kassia
 security.us	300	IN	A	128.31.0.36	; steffani
 ;security.us	180	IN	CNAME	security.debian.org.
-svn			IN	A	217.196.43.134
+svn			IN	A	217.196.43.134	; alioth
 			IN	MX	10 wagner-xen1.debian.org.
 syncproxy.eu		IN	CNAME	ftp.hr.debian.org.
 syncproxy2.eu		IN	CNAME	farbror.acc.umu.se.
-syncproxy.wna	300	IN	A	140.211.166.44
+syncproxy.wna	300	IN	A	140.211.166.44	; rietz
 udd			IN	CNAME	piatti
-small-teams		IN	A	82.195.75.100
+small-teams		IN	A	82.195.75.100	; liszt
 			IN	MX	10 liszt.debian.org.
-teams			IN	A	82.195.75.100
+teams			IN	A	82.195.75.100	; liszt
 			IN	MX	10 liszt.debian.org.
 ssh-delayed.upload	IN	CNAME	ravel.debian.org.
 ssh.upload	600	IN	CNAME	ravel.debian.org.
 ftp.upload	600	IN	CNAME	ftp-master.debian.org.
-volatile-master	60	IN	A	192.54.42.193
+volatile-master	60	IN	A	192.54.42.193	; verdi
 			IN	MX	0 murphy.debian.org.
 ;volatile	60	IN	A	192.54.42.193	; verdi
 volatile	180	IN	A	82.195.75.82	; durin.farm.ftbfs.de - zobel
 			IN	MX	0 murphy.debian.org.
-vote			IN	A	70.103.162.29
+vote			IN	A	70.103.162.29	; master
 			IN	MX	0 master.debian.org.
-wiki			IN	A	140.211.166.43
+wiki			IN	A	140.211.166.43	; rietz
 			IN	MX	0 .
-women			IN	A	140.211.166.43
+women			IN	A	140.211.166.43	; rietz
 			IN	MX	0 .
 www			IN	MX	0 .
 		300	IN	A	194.109.137.218 ; klecker
