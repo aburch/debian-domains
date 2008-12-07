@@ -191,9 +191,9 @@ goedel			IN	A	213.188.99.214
 ries			IN	A	128.148.34.103
 europa			IN	A	67.210.160.89
 gluck			IN	A	192.25.206.10
-kassia		60	IN	A	130.89.175.54
+kassia		05	IN	A	130.89.175.54
 ; kassia		IN	A	130.89.149.224
-		60	IN	AAAA	2001:610:1908:8000:21b:78ff:fe75:3d46
+;		60	IN	AAAA	2001:610:1908:8000:21b:78ff:fe75:3d46
 			IN	MX	0 murphy.debian.org.
 ; kassia2		IN	A	130.89.149.225
 ; kassia3		IN	A	130.89.149.226
