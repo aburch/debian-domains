@@ -165,6 +165,7 @@ agricola		IN	A	82.195.75.86
 allegri			IN	A	157.193.39.233
 			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
 			IN	MX	0 murphy.debian.org.
+ancina			IN	HINFO	"armel" "Security armel buildd"
 arcadelt		IN	A	82.195.75.87
 			IN	AAAA	2001:41b8:202:deb:214:fdff:fe30:1a98
 			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
