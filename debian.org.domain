@@ -108,17 +108,17 @@ security		IN	MX	10 klecker.debian.org.
 		300	IN	A	212.211.132.32	; villa
 		300	IN	A	212.211.132.250	; lobos
 		300	IN	A	128.31.0.36	; steffani
-		;300	IN	A	130.89.149.224	; kassia
+		;300	IN	A	130.89.149.225	; kassia (security)
 		300	IN	A	195.20.242.89	; wieck
 security.eu		IN	MX	0 .
 		300	IN	A	212.211.132.32	; villa
 		300	IN	A	212.211.132.250	; lobos
-		;300	IN	A	130.89.149.224	; kassia
+		;300	IN	A	130.89.149.225	; kassia (security)
 		300	IN	A	195.20.242.89	; wieck
 security.ipv6		IN	MX	0 .
 		300	IN	AAAA	2001:a78::16	; villa
 		300	IN	AAAA	2001:a78::1a	; lobos
-		;300	IN	AAAA	2001:610:1908:a000:21b:78ff:fe75:3d46 ; kassia
+		;300	IN	AAAA	2001:610:1908:a000::149:225 ; kassia (security)
 security.us	300	IN	A	128.31.0.36	; steffani
 ;security.us	180	IN	CNAME	security.debian.org.
 svn			IN	A	217.196.43.134	; alioth
@@ -194,9 +194,13 @@ gluck			IN	A	192.25.206.10
 kassia			IN	A	130.89.149.224
 			IN	AAAA	2001:610:1908:a000:21b:78ff:fe75:3d46
 			IN	MX	0 murphy.debian.org.
-kassia2			IN	A	130.89.149.225
+kassia-sec		IN	A	130.89.149.225
+			IN	AAAA	2001:610:1908:a000::149:225
+			IN	MX	0 .
 kassia3			IN	A	130.89.149.226
+			IN	MX	0 .
 kassia4			IN	A	130.89.149.227
+			IN	MX	0 .
 klecker			IN	A	194.109.137.218
 kullervo		IN	A	217.114.76.82
 lebrun			IN	A	193.198.184.10
