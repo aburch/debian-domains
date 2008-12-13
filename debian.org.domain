@@ -102,7 +102,6 @@ packages.qa		IN	A	70.103.162.29	; master
 release			IN	A	128.148.34.103	; ries
 			IN	MX	10 ries.debian.org.
 reportbug		IN	CNAME	rietz.debian.org.
-			IN	MX	0 .
 rt			IN	A	192.25.206.33	; spohr
 			IN	MX	10 spohr.debian.org.
 search			IN	A	192.25.206.10 ; gluck
