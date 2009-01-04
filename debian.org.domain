@@ -227,6 +227,7 @@ mayr			IN	A	140.211.166.58
 mayer			IN	A	140.211.166.78
 			IN	HINFO	"mipsel/Broadcom BCM91250A aka SWARM" "Debian GNU/Linux"
 merkel			IN	A	192.25.206.16
+merkel2			IN	A	192.25.206.71
 morales			IN	A	82.195.75.97
 			IN	AAAA	2001:41b8:202:deb:210:e0ff:fe00:3bca
 			IN	HINFO	"mipsel/Cobalt Raq2" "Debian GNU/Linux"
