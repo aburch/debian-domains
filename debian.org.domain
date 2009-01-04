@@ -25,7 +25,7 @@ bugs			IN	MX	0 rietz.debian.org.
 bugs-rietz		IN	CNAME	rietz
 bugs-master		IN	CNAME	rietz
 bugs-piatti		IN	CNAME	piatti
-bugs-mirror		IN	A	192.25.206.16	; merkel
+bugs-mirror	60	IN	A	192.25.206.16	; merkel
 			IN	MX	0 .
 buildd			IN	A	192.25.206.59	; raff
 			IN	MX	10 raff.debian.org.
@@ -73,7 +73,7 @@ lists			IN	A	82.195.75.100	; liszt
 lists-test		IN	MX	0 liszt.debian.org.
 mirror			IN	A	194.109.137.218	; klecker
 			IN	MX	0 .
-nm			IN	A	192.25.206.16	; merkel
+nm		60	IN	A	192.25.206.16	; merkel
 			IN	MX	10 merkel.debian.org.
 other			IN	A	82.195.75.100	; liszt
 			IN	MX	0 liszt.debian.org.
@@ -93,9 +93,9 @@ planet			IN	A	192.25.206.10	; gluck
 			IN	MX	0 .
 popcon			IN	A	192.25.206.10	; gluck
 			IN	MX	10 gluck.debian.org.
-qa			IN	A	192.25.206.16	; merkel
+qa		60	IN	A	192.25.206.16	; merkel
 			IN	MX	10 merkel.debian.org.
-bugs.qa			IN	A	192.25.206.16	; merkel
+bugs.qa		60	IN	A	192.25.206.16	; merkel
 			IN	MX	10 merkel.debian.org.
 packages.qa		IN	A	70.103.162.29	; master
 			IN	MX	0 master.debian.org.
