@@ -252,7 +252,7 @@ peri			IN	A	192.25.206.15
 pescetti		IN	A	217.114.76.85
 			IN	HINFO	"PowerPC/iMac G4" "Debian GNU/Linux"
 powell			IN	A	87.106.64.223
-			IN	AAAA	2001:8d8:80:11::35d
+		60	IN	AAAA	2001:8d8:80:11::35d
 piatti			IN	A	193.167.161.225
 			IN	MX	0 murphy.debian.org.
 puccini			IN	A	87.106.4.56
