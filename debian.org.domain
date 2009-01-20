@@ -319,12 +319,14 @@ urd-ilo			IN	A	192.168.43.134
 ;==========
 
 $ORIGIN at.debian.org.
-ftp	10m	IN	CNAME	ftp.debian.at.
-;ftp	300	IN	CNAME	kassia-ftp.debian.org.
-http	10m	IN	CNAME	http.debian.at.
-cdimage		IN	CNAME	cdimage.debian.at.
-www	10m	IN	CNAME	www.debian.at.
-;www	300	IN	CNAME	gluck.debian.org.
+;ftp	10m	IN	CNAME	ftp.debian.at.
+ftp	300	IN	CNAME	kassia-ftp.debian.org.
+;http	10m	IN	CNAME	http.debian.at.
+http	300	IN	CNAME	kassia-ftp.debian.org.
+;cdimage	10m	IN	CNAME	cdimage.debian.at.
+cdimage	300	IN	CNAME	cdimage.debian.org.
+;www	10m	IN	CNAME	www.debian.at.
+www	300	IN	CNAME	gluck.debian.org.
 $ORIGIN au.debian.org.
 ;ftp	10m	IN	CNAME	ftp.planetmirror.com.
 ftp		IN	CNAME	mirror.linux.org.au.
