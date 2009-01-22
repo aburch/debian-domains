@@ -347,7 +347,7 @@ ftp		IN	CNAME	debian.c3sl.ufpr.br.  ; Marcos Castilho <marcos@inf.ufpr.br>
 www		IN	CNAME	www.debian.org.
 $ORIGIN ca.debian.org.
 ftp		A	206.167.141.10	; ftp1.ca
-ftp		A	64.15.134.18	; ftp2.ca
+ftp		A	70.38.0.135	; ftp2.ca
 ftp		A	132.246.2.23	; ftp3.ca
 ftp		A	24.215.0.24	; ftp4.ca
 ftp1		IN	CNAME	gulus.usherbrooke.ca.
