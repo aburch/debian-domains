@@ -21,8 +21,8 @@ archive			IN	A	194.109.137.218	; klecker
 backup			IN	CNAME	bartok.debian.org.
 bttracker	600	IN	CNAME	bttracker.acc.umu.se.
 bugs			IN	MX	0 rietz.debian.org.
-		300	IN	A	140.211.166.43	; rietz
-		;300	IN	A	193.167.161.225	; piatti
+		;300	IN	A	140.211.166.43	; rietz
+		300	IN	A	193.167.161.225	; piatti
 bugs-rietz		IN	CNAME	rietz
 bugs-master		IN	CNAME	rietz
 bugs-piatti		IN	CNAME	piatti
@@ -82,7 +82,7 @@ stats.packages		IN	CNAME	powell
 packages		IN	MX	0 powell.debian.org.
 		300	IN	A	87.106.64.223		; powell
 		300	IN	AAAA	2001:8d8:81:1520::1	; powell
-		;300	IN	A	193.167.161.225	; piatti
+		300	IN	A	193.167.161.225	; piatti
 packages-piatti		IN	CNAME	piatti
 packages-powell		IN	CNAME	powell
 people			IN	A	137.82.84.66 ; ravel
