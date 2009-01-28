@@ -258,6 +258,7 @@ powell			IN	A	87.106.64.223
 piatti			IN	A	193.167.161.225
 			IN	MX	0 murphy.debian.org.
 puccini			IN	A	87.106.4.56
+			IN	AAAA	2001:8d8:81:15a0::1
 raptor			IN	A	195.243.109.162
 			IN	HINFO	"s390" "Debian GNU/Linux"
 			IN	MX	0 murphy.debian.org.
