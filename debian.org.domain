@@ -217,7 +217,7 @@ lebrun			IN	A	193.198.184.10
 leisner			IN	A	209.251.101.202
 			IN	HINFO	"arm" "Debian GNU/Linux"
 liszt			IN	A	82.195.75.100
-;			IN	AAAA	2001:41b8:202:deb:213:21ff:fe20:1426
+			IN	AAAA	2001:41b8:202:deb:213:21ff:fe20:1426
 lobos			IN	A	212.211.132.250
 			IN	AAAA	2001:a78::1a
 malo			IN	A	140.211.166.27
