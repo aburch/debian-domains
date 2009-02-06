@@ -421,7 +421,7 @@ ftp		IN	CNAME	nisamox.fciencias.unam.mx.
 $ORIGIN nl.debian.org.
 ;@		IN	NS	ns.cistron.nl.
 		;IN	NS	ns2.cistron.nl.
-ftp		IN	A	130.89.175.33
+ftp		IN	A	130.89.149.21
 www		IN	CNAME	www.debian.org.
 $ORIGIN no.debian.org.
 ftp		IN	CNAME	spheniscus.uninett.no.
