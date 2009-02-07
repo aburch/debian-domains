@@ -330,7 +330,7 @@ http	600	IN	CNAME	http.debian.at.
 cdimage	600	IN	CNAME	cdimage.debian.at.
 ;cdimage	300	IN	CNAME	cdimage.debian.org.
 www	600	IN	CNAME	www.debian.at.
-;www	300	IN	CNAME	klecker.debian.org.
+;www	300	IN	CNAME	www.debian.org.
 $ORIGIN au.debian.org.
 ;ftp	10m	IN	CNAME	ftp.planetmirror.com.
 ftp		IN	CNAME	mirror.linux.org.au.
@@ -467,8 +467,7 @@ http	300	IN	A	64.50.238.52	; ftp-atl.osuosl.org
 ;http	300	IN	A	204.152.191.39	; mirrors2.kernel.org
 http	300	IN	A	35.9.37.225	; ike.egr.msu.edu
 http	300	IN	A	128.30.2.36	; debian.lcs.mit.edu
-;www	300	IN	CNAME	gluck.debian.org.
-www	300	IN	CNAME	klecker.debian.org.
+www		IN	CNAME	www.debian.org.
 $ORIGIN mi.us.debian.org.
 ftp		IN	CNAME	debian.egr.msu.edu.
 $ORIGIN za.debian.org.
