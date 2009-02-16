@@ -339,7 +339,8 @@ www		IN	CNAME	www.debian.org.
 ;ftp.wa		IN	A	203.8.116.111
 ftp.wa		IN	CNAME	mirror.linux.org.au.
 $ORIGIN be.debian.org.
-ftp		IN	CNAME	ftp.belnet.be.  ; Bernard Grymonpon <ftpmaint@belnet.be>
+;ftp		IN	CNAME	ftp.belnet.be.  ; Bernard Grymonpon <ftpmaint@belnet.be>
+ftp		IN	CNAME	ftp.nl.debian.org.
 $ORIGIN bg.debian.org.
 ftp		IN	CNAME	debian.spnet.net.
 www		IN	CNAME	debian.spnet.net.
