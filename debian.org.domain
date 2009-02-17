@@ -196,6 +196,7 @@ goetz			IN	A	193.62.202.26
 escher			IN	A	213.188.99.215
 			IN	HINFO	"alpha" "Debian GNU/Linux"
 goedel			IN	A	213.188.99.214
+handel			IN	A	82.195.75.104
 ries			IN	A	128.148.34.103
 europa			IN	A	67.210.160.89
 gluck			IN	A	192.25.206.10
