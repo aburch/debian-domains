@@ -1,4 +1,4 @@
-$TTL 1800
+$TTL 1801
 $ORIGIN debian.org.
 			IN	NS	raff.debian.org.
 			IN	NS	rietz.debian.org.
