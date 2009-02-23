@@ -7,3 +7,4 @@ $ORIGIN debian.com.
 $ORIGIN debian.com.
 ftp	10800	IN	CNAME	ftp.debian.org.
 www	10800	IN	CNAME	www.debian.org.
+test	10800	IN	CNAME	www.debian.org.
