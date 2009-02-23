@@ -1,6 +1,5 @@
 $TTL 1800
 $ORIGIN debian.org.
-!template
 			IN	NS	raff.debian.org.
 			IN	NS	rietz.debian.org.
 			IN	NS	klecker.debian.org.

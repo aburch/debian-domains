@@ -1,5 +1,4 @@
 $ORIGIN rbl.debian.net.
-!template
 	3600	IN	NS	samosa.debian.org.
 	3600	IN	NS	master.debian.org.
 	3600	IN	NS	murphy.debian.org.

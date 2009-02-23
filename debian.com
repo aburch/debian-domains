@@ -1,5 +1,4 @@
 $ORIGIN debian.com.
-!template
 	10800	IN	NS	raff.debian.org.
 	10800	IN	NS	rietz.debian.org.
 	10800	IN	NS	klecker.debian.org.
