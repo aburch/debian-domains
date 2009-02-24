@@ -197,6 +197,7 @@ escher			IN	A	213.188.99.215
 goedel			IN	A	213.188.99.214
 handel			IN	A	82.195.75.104
 			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3902
+puppet                  IN      CNAME   handel.debian.org.
 ries			IN	A	128.148.34.103
 europa			IN	A	67.210.160.89
 gluck			IN	A	192.25.206.10
