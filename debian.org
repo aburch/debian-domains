@@ -56,7 +56,7 @@ ftp.ipv6	600	IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
 		600	IN	AAAA	2001:610:1908:a000::149:226 ; kassia
 		600	IN	AAAA	2001:b68:e212::3 ; Josip Rodin <joy@debian.org>
 ftp-master		IN	A	128.148.34.103	; ries
-		600	IN	MX	10 raff.debian.org.
+		60	IN	MX	10 raff.debian.org.
 hg			IN	A	217.196.43.134	; alioth
 			IN	MX	10 wagner-xen1.debian.org.
 incoming		IN	A	128.148.34.103	; ries
