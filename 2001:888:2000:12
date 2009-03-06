@@ -9,6 +9,7 @@ $TTL 8h
 ; 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		IN PTR	klecker-gw.debian.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		IN PTR	klecker.debian.org.
 
+
 ; it comes out right with those two lines:
 ; vim:set syn=dns:
 ; vim:set syn=named:
