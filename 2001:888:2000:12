@@ -1,0 +1,14 @@
+; 2.1.0.0.0.0.0.2.8.8.8.0.1.0.0.2.ip6.arpa - reverse for 2001:888:2000:12::/64 at klecker.debian.org
+
+$TTL 8h
+
+		IN	NS	raff.debian.org.
+		IN	NS	rietz.debian.org.
+		IN	NS	klecker.debian.org.
+
+; 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		IN PTR	klecker-gw.debian.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		IN PTR	klecker.debian.org.
+
+; it comes out right with those two lines:
+; vim:set syn=dns:
+; vim:set syn=named:
