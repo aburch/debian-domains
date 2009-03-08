@@ -74,6 +74,7 @@ lists			IN	A	82.195.75.100	; liszt
 lists-test		IN	MX	0 liszt.debian.org.
 mirror			IN	A	194.109.137.218	; klecker
 			IN	MX	0 .
+munin			IN	CNAME	spohr.debian.org.
 nm			IN	A	192.25.206.71	; merkel2
 			IN	MX	10 merkel.debian.org.
 other			IN	A	82.195.75.100	; liszt
