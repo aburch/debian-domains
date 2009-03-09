@@ -15,7 +15,8 @@ alioth			IN	NS	klecker
 			IN	NS	rietz
 arch			IN	A	217.196.43.134	; alioth
 			IN	MX	10 wagner-xen1.debian.org.
-archive			IN	A	194.109.137.218	; klecker
+archive			IN	A	194.109.137.218		; klecker
+			IN	AAAA	2001:888:2000:12::2	; klecker
 			IN	MX	0 .
 backup			IN	CNAME	bartok.debian.org.
 bttracker	600	IN	CNAME	bttracker.acc.umu.se.
@@ -111,7 +112,8 @@ rt			IN	A	192.25.206.33	; spohr
 			IN	MX	10 spohr.debian.org.
 search			IN	A	192.25.206.10 ; gluck
 			IN	MX	0 .
-security-master	300	IN	A	194.109.137.218	; klecker
+security-master		IN	A	194.109.137.218		; klecker
+			IN	AAAA	2001:888:2000:12::2	; klecker
 security		IN	MX	10 klecker.debian.org.
 		300	IN	A	212.211.132.32	; villa
 		300	IN	A	212.211.132.250	; lobos
@@ -223,6 +225,7 @@ kassia-ftp		IN	A	130.89.149.226
 kassia4			IN	A	130.89.149.227
 			IN	MX	0 .
 klecker			IN	A	194.109.137.218
+			IN	AAAA	2001:888:2000:12::2
 krbtest01		IN	A	82.195.75.103
 			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3901
 kullervo		IN	A	217.114.76.82
