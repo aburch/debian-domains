@@ -265,10 +265,10 @@ peri			IN	A	192.25.206.15
 			IN	HINFO	"hppa/parisc - j6700s" "Debian GNU/Linux"
 pescetti		IN	A	217.114.76.85
 			IN	HINFO	"PowerPC/iMac G4" "Debian GNU/Linux"
-powell			IN	A	87.106.64.223
-			IN	AAAA	2001:8d8:81:1520::1
 piatti			IN	A	193.167.161.225
 			IN	MX	0 murphy.debian.org.
+powell			IN	A	87.106.64.223
+			IN	AAAA	2001:8d8:81:1520::1
 puccini			IN	A	87.106.4.56
 			IN	AAAA	2001:8d8:81:15a0::1
 raff			IN	A	192.25.206.59
