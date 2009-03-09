@@ -269,6 +269,7 @@ piatti			IN	A	193.167.161.225
 			IN	MX	0 murphy.debian.org.
 powell			IN	A	87.106.64.223
 			IN	AAAA	2001:8d8:81:1520::1
+praetorius		IN	A	130.239.18.121
 puccini			IN	A	87.106.4.56
 			IN	AAAA	2001:8d8:81:15a0::1
 raff			IN	A	192.25.206.59
