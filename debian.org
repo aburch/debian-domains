@@ -45,6 +45,7 @@ db			IN	A	192.25.206.57	; samosa
 			IN	MX	10 samosa.debian.org.
 ddtp			IN	A	192.25.206.10	; gluck
 			IN	MX	0 gluck.debian.org.
+geo			IN	NS	dijkstra.debian.org.
 git			IN	A	217.196.43.134	; alioth
 			IN	MX	10 wagner-xen1.debian.org.
 ;ftp		600	IN	A	128.101.240.212 ; saens
@@ -331,11 +332,6 @@ bartok-ilo		IN	A	192.168.43.129
 unger-ilo		IN	A	192.168.43.130
 liszt-ilo		IN	A	192.168.43.131
 urd-ilo			IN	A	192.168.43.134
-
-; geolocation
-;============
-geo			IN	NS	dijkstra.debian.org.
-;			IN	NS	unger.debian.org.
 
 ; countries
 ;==========
