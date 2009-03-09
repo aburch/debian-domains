@@ -45,6 +45,8 @@ db			IN	A	192.25.206.57	; samosa
 			IN	MX	10 samosa.debian.org.
 ddtp			IN	A	192.25.206.10	; gluck
 			IN	MX	0 gluck.debian.org.
+geo			IN	NS	dijkstra.debian.org.
+;			IN	NS	unger.debian.org.
 git			IN	A	217.196.43.134	; alioth
 			IN	MX	10 wagner-xen1.debian.org.
 ;ftp		600	IN	A	128.101.240.212 ; saens
@@ -202,6 +204,8 @@ elara			IN	A	67.210.160.90
 escher			IN	A	213.188.99.215
 			IN	HINFO	"alpha" "Debian GNU/Linux"
 europa			IN	A	67.210.160.89
+geo1			IN	A	82.195.75.105				; kvm domain on unger
+			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3905	; kvm domain on unger
 gluck			IN	A	192.25.206.10
 goedel			IN	A	213.188.99.214
 goetz			IN	A	193.62.202.26
@@ -331,13 +335,6 @@ bartok-ilo		IN	A	192.168.43.129
 unger-ilo		IN	A	192.168.43.130
 liszt-ilo		IN	A	192.168.43.131
 urd-ilo			IN	A	192.168.43.134
-
-; geolocation
-;============
-geo			IN	NS	dijkstra.debian.org.
-;			IN	NS	unger.debian.org.
-geo1			IN	A	82.195.75.105
-			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3905
 
 ; countries
 ;==========
