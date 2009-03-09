@@ -337,6 +337,9 @@ urd-ilo			IN	A	192.168.43.134
 $ORIGIN geo.debian.org.
 @			IN	NS	dijkstra.debian.org.
 ;			IN	NS	unger.debian.org.
+$ORIGIN iso.debian.org.
+@			IN	NS	dijkstra.debian.org.
+;			IN	NS	unger.debian.org.
 
 ; countries
 ;==========
