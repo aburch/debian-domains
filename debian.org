@@ -157,7 +157,7 @@ volatile	60	IN	A	192.54.42.193	; verdi
 			IN	MX	0 murphy.debian.org.
 vote			IN	A	70.103.162.29	; master
 			IN	MX	0 master.debian.org.
-wiki		60	IN	A	140.211.166.43	; rietz
+wiki		60	IN	A	93.94.130.161	; widor
 		60	IN	MX	0 .
 women			IN	A	140.211.166.43	; rietz
 			IN	MX	0 .
