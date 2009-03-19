@@ -342,6 +342,9 @@ unger-ilo		IN	A	192.168.43.130
 liszt-ilo		IN	A	192.168.43.131
 urd-ilo			IN	A	192.168.43.134
 
+$ORIGIN debprivate-ubc.debian.org.
+; entries from /etc/hosts should move here
+
 ; countries
 ;==========
 
