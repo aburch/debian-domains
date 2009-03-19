@@ -343,7 +343,7 @@ liszt-ilo		IN	A	192.168.43.131
 urd-ilo			IN	A	192.168.43.134
 
 
-$ORIGIN debprivate-ubcece.debian.org.
+$ORIGIN debprivate-ubc.debian.org.
 ; iscsi network 
 giustini-a0-iscsi	IN	A	10.0.0.17
 giustini-a1-iscsi	IN	A	10.0.0.18
