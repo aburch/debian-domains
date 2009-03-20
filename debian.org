@@ -343,8 +343,87 @@ unger-ilo		IN	A	192.168.43.130
 liszt-ilo		IN	A	192.168.43.131
 urd-ilo			IN	A	192.168.43.134
 
+
 $ORIGIN debprivate-ubc.debian.org.
-; entries from /etc/hosts should move here
+; iscsi network 
+giustini-a0-iscsi	IN	A	10.0.0.17
+giustini-a1-iscsi	IN	A	10.0.0.18
+giustini-b0-iscsi	IN	A	10.0.0.19
+giustini-b1-iscsi	IN	A	10.0.0.20
+strozzi-db1-iscsi	IN	A	10.0.0.211
+strozzi-db2-iscsi	IN	A	10.0.0.212
+strozzi-db3-iscsi	IN	A	10.0.0.213
+strozzi-db4-iscsi	IN	A	10.0.0.214
+strozzi-db5-iscsi	IN	A	10.0.0.215
+strozzi-db6-iscsi	IN	A	10.0.0.216
+strozzi-db7-iscsi	IN	A	10.0.0.217
+strozzi-db8-iscsi	IN	A	10.0.0.218
+
+; management network
+mcld-console		IN	A	192.168.2.1	; OpenGear CM4008
+kais-console		IN	A	192.168.2.2	; OpenGear CM4008
+;positron-mnt		IN	A	192.168.2.3	; positron.oftc.net <noc@oftc.net>
+spontini-mnt		IN	A	192.168.2.4
+spontini-console	IN	CNAME	mcld-console
+ravel-mnt		IN	A	192.168.2.5
+ravel-console		IN	CNAME	kais-console
+giustini-mnt		IN	A	192.168.2.6
+;ravel-ilo		IN	A	192.168.2.7	; FIXME
+;lux-mnt		IN	A	192.168.2.8	; lux.oftc.net <noc@oftc.net>
+; dijkstra is a BL460c G5 blade in device bay 8 of strozzi
+dijkstra-mnt		IN	CNAME	strozzi-db8-mnt
+dijkstra-ilo		IN	CNAME	strozzi-db8-ilo
+dijkstra-iscsi		IN	CNAME	strozzi-db8-iscsi
+
+; strozzi is an HP BladeSystem c3000 enclosure
+; oaN = onboard assistant N
+; dbN = device bay N
+; ibN = interconnect bay N
+; ilo = integrated lights out
+; mnt = management interface of host o/s
+strozzi-oa		IN	CNAME	strozzi-oa1
+strozzi-switch		IN	CNAME	strozzi-ib1
+strozzi-db1-mnt		IN	A	192.168.2.211
+strozzi-db2-mnt		IN	A	192.168.2.212
+strozzi-db3-mnt		IN	A	192.168.2.213
+strozzi-db4-mnt		IN	A	192.168.2.214
+strozzi-db5-mnt		IN	A	192.168.2.215
+strozzi-db6-mnt		IN	A	192.168.2.216
+strozzi-db7-mnt		IN	A	192.168.2.217
+strozzi-db8-mnt		IN	A	192.168.2.218
+strozzi-oa1		IN	A	192.168.2.219
+ravel-ilo		IN	A	192.168.2.220	; FIXME should be strozzi-oa2
+strozzi-db1-ilo		IN	A	192.168.2.221
+strozzi-db2-ilo		IN	A	192.168.2.222
+strozzi-db3-ilo		IN	A	192.168.2.223
+strozzi-db4-ilo		IN	A	192.168.2.224
+strozzi-db5-ilo		IN	A	192.168.2.225
+strozzi-db6-ilo		IN	A	192.168.2.226
+strozzi-db7-ilo		IN	A	192.168.2.227
+strozzi-db8-ilo		IN	A	192.168.2.228
+strozzi-ib1		IN	A	192.168.2.229
+strozzi-ib2		IN	A	192.168.2.230
+strozzi-db1a-ilo	IN	A	192.168.2.231
+strozzi-db2a-ilo	IN	A	192.168.2.232
+strozzi-db3a-ilo	IN	A	192.168.2.233
+strozzi-db4a-ilo	IN	A	192.168.2.234
+strozzi-db5a-ilo	IN	A	192.168.2.235
+strozzi-db6a-ilo	IN	A	192.168.2.236
+strozzi-db7a-ilo	IN	A	192.168.2.237
+strozzi-db8a-ilo	IN	A	192.168.2.238
+strozzi-ib3		IN	A	192.168.2.239
+strozzi-ib4		IN	A	192.168.2.240
+strozzi-db1b-ilo	IN	A	192.168.2.241
+strozzi-db2b-ilo	IN	A	192.168.2.242
+strozzi-db3b-ilo	IN	A	192.168.2.243
+strozzi-db4b-ilo	IN	A	192.168.2.244
+strozzi-db5b-ilo	IN	A	192.168.2.245
+strozzi-db6b-ilo	IN	A	192.168.2.246
+strozzi-db7b-ilo	IN	A	192.168.2.247
+strozzi-db8b-ilo	IN	A	192.168.2.248
+
+
+
 
 ; countries
 ;==========
