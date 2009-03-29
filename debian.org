@@ -354,8 +354,6 @@ peri-gsp		IN	A	192.168.2.208
 raff			IN	A	192.168.2.7
 raff-console		IN	A	192.168.2.107
 raff-ilo		IN	A	192.168.2.207
-ravel			IN	A	192.168.2.20
-ravel-ilo		IN	A	192.168.2.220
 samosa			IN	A	192.168.2.6
 samosa-console		IN	A	192.168.2.106
 samosa-ilo		IN	A	192.168.2.206
