@@ -193,6 +193,7 @@ ball			IN	A	78.32.9.213
 bartok			IN	A	82.195.75.91
 			IN	AAAA	2001:41b8:202:deb:214:38ff:feee:b676
 caballero		IN	A	193.201.200.200
+carver			IN	A	128.31.0.50
 casals			IN	A	128.31.0.16
 			IN	HINFO	"mips/SGI Indigo2" "Debian GNU/Linux"
 chopin			IN	A	195.20.242.124
@@ -279,6 +280,7 @@ rem			IN	A	195.71.99.217
 			IN	HINFO	"mipsel/Broadcom BCM91250A aka SWARM" "Debian GNU/Linux"
 ries			IN	A	128.148.34.103
 rietz			IN	A	140.211.166.43
+rore			IN	A	128.31.0.49
 samosa			IN	A	192.25.206.57
 schein			IN	A	149.20.20.6
 			IN	AAAA	2001:4f8:8:36::6
@@ -289,6 +291,7 @@ schroeder		IN	A	193.198.184.11
 ;			IN	AAAA 2001:b68:e160:0:203:baff:fe5a:52c9
 			IN	HINFO	"sparc/v240" "Debian GNU/Linux"
 schumann		IN	A	212.227.126.54
+senfl			IN	A	128.31.0.51
 smetana			IN	A	193.62.202.29
 			IN	HINFO	"sparc/v210" "Debian GNU/Linux"
 sperger			IN	A	82.195.75.98
