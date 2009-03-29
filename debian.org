@@ -192,8 +192,6 @@ ball			IN	A	78.32.9.213
 			IN	HINFO	"mips/Broadcom BCM91250A aka SWARM" "Debian GNU/Linux"
 bartok			IN	A	82.195.75.91
 			IN	AAAA	2001:41b8:202:deb:214:38ff:feee:b676
-bruckner		IN	A	62.104.23.253
-			IN	HINFO	"PowerPC" "Debian GNU/Linux"
 caballero		IN	A	193.201.200.200
 casals			IN	A	128.31.0.16
 			IN	HINFO	"mips/SGI Indigo2" "Debian GNU/Linux"
