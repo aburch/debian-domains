@@ -325,8 +325,47 @@ zelenka			IN	A	80.245.147.40
 ; mgmt networks
 ;==============
 
-debprivate-ftcollins	IN	NS	merkel.debian.org.
-debprivate-ftcollins	IN	NS	gluck.debian.org.
+$ORIGIN debprivate-ftcollins.debian.org.
+alkman			IN	A	192.168.2.11
+alkman-console		IN	A	192.168.2.111
+alkman-mp		IN	A	192.168.2.211
+console			IN	A	192.168.2.254
+gluck			IN	A	192.168.2.3
+gluck-console		IN	A	192.168.2.103
+gluck-ilo		IN	A	192.168.2.217
+gounod			IN	A	192.168.2.9
+gounod-ilo		IN	A	192.168.2.209
+hydra			IN	A	192.168.2.21
+hydra-ilo		IN	A	192.168.2.221
+merkel			IN	A	192.168.2.4
+merkel-console		IN	A	192.168.2.104
+merkel-mp		IN	A	192.168.2.204
+merulo			IN	A	192.168.2.5
+merulo-console		IN	A	192.168.2.105
+merulo-mp		IN	A	192.168.2.205
+mundy			IN	A	192.168.2.12
+mundy-console		IN	A	192.168.2.112
+paer			IN	A	192.168.2.10
+paer-console		IN	A	192.168.2.102
+paer-gsp		IN	A	192.168.2.202
+peri			IN	A	192.168.2.8
+peri-console		IN	A	192.168.2.108
+peri-gsp		IN	A	192.168.2.208
+raff			IN	A	192.168.2.7
+raff-console		IN	A	192.168.2.107
+raff-ilo		IN	A	192.168.2.207
+ravel			IN	A	192.168.2.20
+ravel-ilo		IN	A	192.168.2.220
+samosa			IN	A	192.168.2.6
+samosa-console		IN	A	192.168.2.106
+samosa-ilo		IN	A	192.168.2.206
+spi1			IN	A	192.168.2.14
+spi1-ilo		IN	A	192.168.2.214
+spi2			IN	A	192.168.2.15
+spi2-ilo		IN	A	192.168.2.215
+spohr			IN	A	192.168.2.13
+spohr-ilo		IN	A	192.168.2.213
+switch			IN	A	192.168.2.253
 
 
 $ORIGIN debprivate-darmstadt.debian.org.
