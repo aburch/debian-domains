@@ -252,6 +252,7 @@ morales			IN	A	82.195.75.97
 			IN	HINFO	"mipsel/Cobalt Raq2" "Debian GNU/Linux"
 mundy			IN	A	192.25.206.62
 murphy			IN	A	70.103.162.31
+oldmaster		IN	A	70.103.162.30
 paer			IN	A	192.25.206.11
 			IN	HINFO	"hppa/parisc64" "Debian GNU/Linux"
 penalosa		IN	A	192.25.206.68
@@ -323,6 +324,11 @@ zelenka			IN	A	80.245.147.40
 ; mgmt networks
 ;==============
 
+$ORIGIN debprivate-brainfood.debian.org.
+murphy-int		IN	A	192.168.1.1
+murphy-ilo		IN	A	192.168.1.2
+master-int		IN	A	192.168.1.3
+
 $ORIGIN debprivate-ftcollins.debian.org.
 alkman			IN	A	192.168.2.11
 alkman-console		IN	A	192.168.2.111
@@ -375,6 +381,15 @@ bartok-ilo		IN	A	192.168.43.129
 unger-ilo		IN	A	192.168.43.130
 liszt-ilo		IN	A	192.168.43.131
 urd-ilo			IN	A	192.168.43.134
+
+$ORIGIN debprivate-oneandone.debian.org.
+wieck-drac		IN	A	192.168.253.2
+wieck-ilo		IN	A	192.168.253.2
+schumann-drac		IN	A	192.168.253.2
+schumann-ilo		IN	A	192.168.253.2
+
+$ORIGIN debprivate-sanger.debian.org.
+smetana-sc		IN	A	192.168.0.2
 
 
 $ORIGIN debprivate-ubc.debian.org.
