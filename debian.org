@@ -390,6 +390,10 @@ wieck-ilo		IN	A	192.168.253.2
 schumann-drac		IN	A	192.168.253.2
 schumann-ilo		IN	A	192.168.253.2
 
+$ORIGIN debprivate-sanger.debian.org.
+smetana-sc		IN	A	192.168.0.2
+
+
 $ORIGIN debprivate-ubc.debian.org.
 ; iscsi network 
 giustini-a0-iscsi	IN	A	10.0.0.17
