@@ -254,6 +254,7 @@ morales			IN	A	82.195.75.97
 			IN	HINFO	"mipsel/Cobalt Raq2" "Debian GNU/Linux"
 mundy			IN	A	192.25.206.62
 murphy			IN	A	70.103.162.31
+oldmaster		IN	A	70.103.162.30
 paer			IN	A	192.25.206.11
 			IN	HINFO	"hppa/parisc64" "Debian GNU/Linux"
 penalosa		IN	A	192.25.206.68
