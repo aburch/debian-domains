@@ -188,8 +188,6 @@ arcadelt		IN	A	82.195.75.87
 			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
 argento			IN	A	93.94.130.160
 			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
-auber			IN	A	82.195.75.101
-			IN	HINFO	"alpha/EV68CB" "Debian GNU/Linux"
 ball			IN	A	78.32.9.213
 			IN	HINFO	"mips/Broadcom BCM91250A aka SWARM" "Debian GNU/Linux"
 bartok			IN	A	82.195.75.91
