@@ -473,6 +473,8 @@ strozzi-db6b-ilo	IN	A	192.168.2.246
 strozzi-db7b-ilo	IN	A	192.168.2.247
 strozzi-db8b-ilo	IN	A	192.168.2.248
 
+$ORIGIN debprivate-csail.debian.org.
+carver-ilo		IN	A	192.168.0.100
 
 
 
