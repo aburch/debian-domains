@@ -273,9 +273,6 @@ praetorius		IN	A	130.239.18.121
 puccini			IN	A	87.106.4.56
 			IN	AAAA	2001:8d8:81:15a0::1
 raff			IN	A	192.25.206.59
-raptor			IN	A	195.243.109.162
-			IN	HINFO	"s390" "Debian GNU/Linux"
-			IN	MX	0 murphy.debian.org.
 ravel			IN	A	137.82.84.66
 rem			IN	A	195.71.99.217
 			IN	HINFO	"mipsel/Broadcom BCM91250A aka SWARM" "Debian GNU/Linux"
