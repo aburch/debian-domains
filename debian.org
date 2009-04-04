@@ -303,6 +303,7 @@ spohr2			IN	A	192.25.206.38
 spontini		IN	A	137.82.84.65
 steffani		IN	A	128.31.0.36
 tartini			IN	A	82.94.249.158
+tozzi			IN	A	137.82.84.75
 unger			IN	A	82.195.75.102
 			IN	AAAA	2001:41b8:202:deb:222:64ff:fe08:fe6
 vaughan			IN	A	128.30.28.47
