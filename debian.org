@@ -195,6 +195,7 @@ ball			IN	A	78.32.9.213
 			IN	HINFO	"mips/Broadcom BCM91250A aka SWARM" "Debian GNU/Linux"
 bartok			IN	A	82.195.75.91
 			IN	AAAA	2001:41b8:202:deb:214:38ff:feee:b676
+brahms			IN	A	137.82.84.74
 caballero		IN	A	193.201.200.200
 carver			IN	A	128.31.0.50
 casals			IN	A	128.31.0.16
