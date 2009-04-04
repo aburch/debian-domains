@@ -41,6 +41,7 @@ cgi			IN	A	70.103.162.29	; master
 			IN	MX	0 .
 cvs			IN	A	192.25.206.10	; gluck
 			IN	MX	0 .
+d-i			IN	CNAME	ravel
 dsa			IN	CNAME	samosa
 darcs			IN	A	217.196.43.134	; alioth
 			IN	MX	10 wagner-xen1.debian.org.
