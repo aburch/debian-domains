@@ -25,6 +25,7 @@ bugs			IN	MX	0 rietz.debian.org.
 		;300	IN	A	193.167.161.225	; piatti
 bugs-rietz		IN	CNAME	rietz
 bugs-master		IN	CNAME	rietz
+bugs-carver		IN	CNAME	carver
 bugs-piatti		IN	CNAME	piatti
 bugs-mirror	60	IN	A	192.25.206.16	; merkel
 			IN	MX	0 .
