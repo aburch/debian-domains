@@ -90,10 +90,10 @@ other			IN	A	82.195.75.100	; liszt
 			IN	MX	0 liszt.debian.org.
 stats.packages		IN	CNAME	powell
 packages		IN	MX	0 powell.debian.org.
-		300	IN	A	87.106.64.223		; powell
-		300	IN	AAAA	2001:8d8:81:1520::1	; powell
+		;300	IN	A	87.106.64.223		; powell
+		;300	IN	AAAA	2001:8d8:81:1520::1	; powell
 		;300	IN	A	128.31.0.50		; carver
-		;300	IN	A	193.167.161.225		; piatti
+		300	IN	A	193.167.161.225		; piatti
 packages-carver		IN	CNAME	carver
 packages-piatti		IN	CNAME	piatti
 packages-powell		IN	CNAME	powell
