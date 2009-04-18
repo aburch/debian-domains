@@ -189,8 +189,8 @@ allegri			IN	A	157.193.39.233
 			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
 			IN	MX	0 spohr.debian.org.
 ancina			IN	A	157.193.39.13
-			IN	MX	10 murphy.debian.org.
-			IN	HINFO	"armel" "Security armel buildd"
+			IN	MX	0 spohr.debian.org.
+			IN	HINFO	"armel/Marvell development board" "Debian GNU/Linux"
 arcadelt		IN	A	82.195.75.87
 			IN	AAAA	2001:41b8:202:deb:214:fdff:fe30:1a98
 			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
