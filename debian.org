@@ -97,6 +97,7 @@ packages		IN	MX	0 powell.debian.org.
 packages-carver		IN	CNAME	carver
 packages-piatti		IN	CNAME	piatti
 packages-powell		IN	CNAME	powell
+packages-rore		IN	CNAME	rore
 people			IN	A	137.82.84.66 ; ravel
 			IN	MX	0 .
 newpeople		IN	CNAME	ravel.debian.org.
