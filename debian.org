@@ -571,7 +571,7 @@ $ORIGIN gr.debian.org.
 ftp		IN	CNAME	patroklos.noc.ntua.gr.
 $ORIGIN hk.debian.org.
 ;ftp		IN	A	202.134.73.139 ; Anthony Wong <ypwong@debian.org>
-ftp	300	IN	CNAME	ftp.tw
+ftp	300	IN	CNAME	ftp.tw.debian.org.
 www		IN	A	202.134.73.139 ; Anthony Wong <ypwong@debian.org>
 $ORIGIN hr.debian.org.
 ftp		IN	A	161.53.160.11
