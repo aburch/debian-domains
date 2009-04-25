@@ -125,8 +125,6 @@ search			IN	A	192.25.206.10 ; gluck
 security-master		IN	A	194.109.137.218		; klecker
 			IN	AAAA	2001:888:2000:12::2	; klecker
 security		IN	MX	10 klecker.debian.org.
-			IN	CNAME	security.global.debian.org.
-security.global		IN	MX	0 .
 		300	IN	A	212.211.132.32	; villa
 		300	IN	A	212.211.132.250	; lobos
 		300	IN	A	128.31.0.36	; steffani
