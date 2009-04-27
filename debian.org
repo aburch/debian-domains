@@ -125,26 +125,26 @@ search			IN	A	192.25.206.10 ; gluck
 security-master		IN	A	194.109.137.218		; klecker
 			IN	AAAA	2001:888:2000:12::2	; klecker
 security		IN	MX	10 klecker.debian.org.
-		;300	IN	A	212.211.132.32	; villa
-		300	IN	A	212.211.132.250	; lobos
-		300	IN	A	128.31.0.36	; steffani
+		300	IN	A	212.211.132.32	; villa
+		;300	IN	A	212.211.132.250	; lobos
+		;300	IN	A	128.31.0.36	; steffani
 		300	IN	A	130.89.149.225	; kassia (security)
-		300	IN	A	195.20.242.89	; wieck
-		;300	IN	A	149.20.20.6	; schein
+		;300	IN	A	195.20.242.89	; wieck
+		300	IN	A	149.20.20.6	; schein
 security.eu		IN	MX	0 .
-		;300	IN	A	212.211.132.32	; villa
-		300	IN	A	212.211.132.250	; lobos
+		300	IN	A	212.211.132.32	; villa
+		;300	IN	A	212.211.132.250	; lobos
 		;300	IN	A	130.89.149.225	; kassia (security)
-		300	IN	A	195.20.242.89	; wieck
+		;300	IN	A	195.20.242.89	; wieck
 security.ipv6		IN	MX	0 .
-		;300	IN	AAAA	2001:a78::16	; villa
-		300	IN	AAAA	2001:a78::1a	; lobos
+		300	IN	AAAA	2001:a78::16	; villa
+		;300	IN	AAAA	2001:a78::1a	; lobos
 		300	IN	AAAA	2001:610:1908:a000::149:225 ; kassia (security)
-		;300	IN	AAAA	2001:4f8:8:36::6; schein
+		300	IN	AAAA	2001:4f8:8:36::6; schein
 security.us 	300	IN	CNAME	security.na.debian.org.
 security.na		IN	MX	0 .
-		300	IN	A	128.31.0.36	; steffani
-		;300	IN	A	149.20.20.6	; schein
+		;300	IN	A	128.31.0.36	; steffani
+		300	IN	A	149.20.20.6	; schein
 svn			IN	A	217.196.43.134	; alioth
 			IN	MX	10 wagner-xen1.debian.org.
 syncproxy.eu		IN	CNAME	ftp.hr.debian.org.
