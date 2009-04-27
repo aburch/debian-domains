@@ -549,8 +549,8 @@ ftp		IN	A	195.113.161.73
 $ORIGIN de.debian.org.
 ;ftp		IN	A	141.76.2.4
 ;ftp1		IN	A	141.76.2.4
-ftp	60	IN	CNAME	ftp2
-ftp1	60	IN	CNAME	ftp2
+ftp	60	IN	CNAME	ftp.se.debian.org.
+ftp1	60	IN	CNAME	ftp.se.debian.org.
 ftp2		IN	A	195.71.9.196
 ;ftp2	300	IN	A	194.8.197.20 ; mirror.netcologne.de
 upload		IN	A	131.188.3.71
