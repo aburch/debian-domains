@@ -207,6 +207,7 @@ chopin			IN	A	195.20.242.124
 crest			IN	A	217.114.76.83
 			IN	HINFO	"m68k" "Debian GNU/Linux"
 dijkstra		IN	A	137.82.84.70
+draghi			IN	A	82.195.75.106
 elara			IN	A	67.210.160.90
 escher			IN	A	213.188.99.215
 			IN	HINFO	"alpha" "Debian GNU/Linux"
