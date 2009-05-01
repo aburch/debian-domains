@@ -238,7 +238,6 @@ krbtest01		IN	A	82.195.75.103
 			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3901
 kullervo		IN	A	217.114.76.82
 lafayette		IN	A	147.215.7.160
-			IN	MX	0 spohr.debian.org.
 lebrun			IN	A	193.198.184.10
 ;			IN	AAAA	2001:b68:e160:0:203:baff:fe09:91e2
 leisner			IN	A	209.251.101.202
