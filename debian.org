@@ -36,7 +36,7 @@ logs.buildd		IN	A	192.25.206.59	; raff
 			IN	MX	10 raff.debian.org.
 bzr			IN	A	217.196.43.134	; alioth
 			IN	MX	10 wagner-xen1.debian.org.
-ca		60	IN	CNAME	samosa
+ca		60	IN	CNAME	draghi
 cdimage			IN	CNAME	ftp.acc.umu.se.
 us.cdimage		IN	CNAME	debian.hands.com.
 cgi			IN	A	70.103.162.29	; master
