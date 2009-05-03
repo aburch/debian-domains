@@ -56,13 +56,13 @@ geo			IN	NS	geo1.debian.org.
 git			IN	A	217.196.43.134	; alioth
 			IN	MX	10 wagner-xen1.debian.org.
 ;ftp		600	IN	A	128.101.240.212 ; saens
-ftp		600	IN	A	130.89.149.226  ; kassia
-;ftp		60	IN	A	130.239.18.173  ; cdimage
+;ftp		600	IN	A	130.89.149.226  ; kassia
+ftp		60	IN	A	130.239.18.173  ; cdimage
 ;ftp		60	IN	A	64.50.236.52	; ftp-chi.osuosl.org
 ;ftp		60	IN	A	64.50.238.52	; ftp-atl.osuosl.org
 			IN	MX	0 .
 ftp.ipv6	600	IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
-		600	IN	AAAA	2001:610:1908:a000::149:226 ; kassia
+		;600	IN	AAAA	2001:610:1908:a000::149:226 ; kassia
 		600	IN	AAAA	2001:b68:e212::3 ; Josip Rodin <joy@debian.org>
 ftp-master		IN	A	128.148.34.103	; ries
                         IN	MX	10 ries.debian.org.
@@ -124,18 +124,18 @@ security		IN	MX	10 klecker.debian.org.
 		300	IN	A	212.211.132.32	; villa
 		300	IN	A	212.211.132.250	; lobos
 		300	IN	A	128.31.0.36	; steffani
-		300	IN	A	130.89.149.225	; kassia (security)
+		;300	IN	A	130.89.149.225	; kassia (security)
 		300	IN	A	195.20.242.89	; wieck
 		300	IN	A	149.20.20.6	; schein
 security.eu		IN	MX	0 .
 		300	IN	A	212.211.132.32	; villa
 		300	IN	A	212.211.132.250	; lobos
-		300	IN	A	130.89.149.225	; kassia (security)
+		;300	IN	A	130.89.149.225	; kassia (security)
 		300	IN	A	195.20.242.89	; wieck
 security.ipv6		IN	MX	0 .
 		300	IN	AAAA	2001:a78::16	; villa
 		300	IN	AAAA	2001:a78::1a	; lobos
-		300	IN	AAAA	2001:610:1908:a000::149:225 ; kassia (security)
+		;300	IN	AAAA	2001:610:1908:a000::149:225 ; kassia (security)
 		300	IN	AAAA	2001:4f8:8:36::6; schein
 security.us 	300	IN	CNAME	security.na.debian.org.
 security.na		IN	MX	0 .
