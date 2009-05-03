@@ -271,6 +271,7 @@ paer			IN	A	192.25.206.11
 penalosa		IN	A	192.25.206.68
 			IN	HINFO	"hppa/parisc - j6700s" "Debian GNU/Linux"
 pergolesi		IN	A	62.104.23.252
+			IN	AAAA	2001:748:100:f0:2e0:81ff:fe51:da62
 			IN	HINFO	"Dual Opteron" "Debian GNU/Linux"
 peri			IN	A	192.25.206.15
 			IN	HINFO	"hppa/parisc - j6700s" "Debian GNU/Linux"
