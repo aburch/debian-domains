@@ -211,6 +211,7 @@ crest			IN	A	217.114.76.83
 dijkstra		IN	A	137.82.84.70
 draghi			IN	A	82.195.75.106
 			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3906
+duarte			IN	A	137.82.84.77
 elara			IN	A	67.210.160.90
 escher			IN	A	213.188.99.215
 			IN	HINFO	"alpha" "Debian GNU/Linux"
