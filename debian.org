@@ -148,7 +148,8 @@ svn			IN	A	217.196.43.134	; alioth
 syncproxy.eu		IN	CNAME	ftp.hr.debian.org.
 syncproxy2.eu		IN	CNAME	farbror.acc.umu.se.
 syncproxy.wna	300	IN	A	140.211.166.44	; rietz
-udd			IN	CNAME	piatti
+;udd			IN	CNAME	piatti
+udd			IN	CNAME	samosa
 small-teams		IN	A	82.195.75.100	; liszt
 			IN	MX	10 liszt.debian.org.
 teams			IN	A	82.195.75.100	; liszt
