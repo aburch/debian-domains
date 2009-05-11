@@ -251,6 +251,7 @@ liszt			IN	A	82.195.75.100
 			IN	AAAA	2001:41b8:202:deb:213:21ff:fe20:1426
 lobos			IN	A	212.211.132.250
 			IN	AAAA	2001:a78::1a
+luchesi			IN	A	137.82.84.78
 malo			IN	A	140.211.166.27
 mahler			IN	A	128.31.0.46
 			IN	HINFO	"mips/SGI O2" "Debian GNU/Linux"
@@ -436,6 +437,10 @@ ravel-console		IN	CNAME	kais-console
 giustini-mnt		IN	A	192.168.2.6
 ;ravel-ilo		IN	A	192.168.2.7	; FIXME
 ;lux-mnt		IN	A	192.168.2.8	; lux.oftc.net <noc@oftc.net>
+; luchesi is a BL460c G5 blade in device bay 7 of strozzi
+luchesi-mnt		IN	CNAME	strozzi-db7-mnt
+luchesi-ilo		IN	CNAME	strozzi-db7-ilo
+luchesi-iscsi		IN	CNAME	strozzi-db7-iscsi
 ; dijkstra is a BL460c G5 blade in device bay 8 of strozzi
 dijkstra-mnt		IN	CNAME	strozzi-db8-mnt
 dijkstra-ilo		IN	CNAME	strozzi-db8-ilo
