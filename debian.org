@@ -647,7 +647,7 @@ ftp	300	IN	A	64.50.238.52	; ftp-atl.osuosl.org
 ;ftp	300	IN	A	204.152.191.7	; mirrors1.kernel.org
 ;ftp	300	IN	A	204.152.191.39	; mirrors2.kernel.org
 ftp	300	IN	A	35.9.37.225	; ike.egr.msu.edu
-ftp	300	IN	A	128.30.2.36	; debian.lcs.mit.edu
+;ftp	300	IN	A	128.30.2.36	; debian.lcs.mit.edu
 http		IN	CNAME	ftp.us.debian.org.
 www		IN	CNAME	www.debian.org.
 $ORIGIN mi.us.debian.org.
