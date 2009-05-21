@@ -143,6 +143,7 @@ security.us 	300	IN	CNAME	security.na.debian.org.
 security.na		IN	MX	0 .
 		300	IN	A	128.31.0.36	; steffani
 		300	IN	A	149.20.20.6	; schein
+stabile			IN	A	137.82.84.72
 svn			IN	A	217.196.43.134	; alioth
 			IN	MX	10 wagner-xen1.debian.org.
 syncproxy.eu		IN	CNAME	ftp.hr.debian.org.
