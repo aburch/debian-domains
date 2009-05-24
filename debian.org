@@ -520,8 +520,8 @@ $ORIGIN au.debian.org.
 ftp		IN	CNAME	mirror.linux.org.au.
 ;www		IN	A	203.8.116.111
 www		IN	CNAME	www.debian.org.
-;ftp.wa		IN	A	203.8.116.111
-ftp.wa		IN	CNAME	mirror.linux.org.au.
+ftp.wa		IN	A	218.100.43.30
+;ftp.wa		IN	CNAME	mirror.linux.org.au.
 $ORIGIN ba.debian.org.
 ftp		IN	CNAME	mirror.debian.com.ba.
 $ORIGIN be.debian.org.
