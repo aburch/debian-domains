@@ -4,8 +4,8 @@ $ORIGIN debian.org.
 			IN	NS	rietz.debian.org.
 			IN	NS	klecker.debian.org.
 			IN	MX	0 master.debian.org.
-	;600		IN	A	192.25.206.10	; gluck
-	600		IN	A	194.109.137.218	; klecker
+	600		IN	A	192.25.206.10	; gluck
+	;600		IN	A	194.109.137.218	; klecker
 
 ; services
 ;=========
@@ -174,8 +174,8 @@ wiki			IN	A	93.94.130.161	; widor
 women			IN	A	140.211.166.43	; rietz
 			IN	MX	0 .
 www			IN	MX	0 .
-		300	IN	A	194.109.137.218 ; klecker
-		;300	IN	A	192.25.206.10 ; gluck
+		;300	IN	A	194.109.137.218 ; klecker
+		300	IN	A	192.25.206.10 ; gluck
 www-master		IN	A	194.109.137.218 ; klecker
 			IN	MX	10 klecker.debian.org.
 www-mirror		IN	CNAME	www-master.debian.org.
