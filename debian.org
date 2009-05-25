@@ -143,6 +143,7 @@ security.us 	300	IN	CNAME	security.na.debian.org.
 security.na		IN	MX	0 .
 		300	IN	A	128.31.0.36	; steffani
 		300	IN	A	149.20.20.6	; schein
+stabile			IN	A	137.82.84.72
 svn			IN	A	217.196.43.134	; alioth
 			IN	MX	10 wagner-xen1.debian.org.
 syncproxy.eu		IN	CNAME	ftp.hr.debian.org.
@@ -519,8 +520,8 @@ $ORIGIN au.debian.org.
 ftp		IN	CNAME	mirror.linux.org.au.
 ;www		IN	A	203.8.116.111
 www		IN	CNAME	www.debian.org.
-;ftp.wa		IN	A	203.8.116.111
-ftp.wa		IN	CNAME	mirror.linux.org.au.
+ftp.wa		IN	A	218.100.43.30
+;ftp.wa		IN	CNAME	mirror.linux.org.au.
 $ORIGIN ba.debian.org.
 ftp		IN	CNAME	mirror.debian.com.ba.
 $ORIGIN be.debian.org.
@@ -648,7 +649,7 @@ ftp	300	IN	A	64.50.238.52	; ftp-atl.osuosl.org
 ;ftp	300	IN	A	204.152.191.7	; mirrors1.kernel.org
 ;ftp	300	IN	A	204.152.191.39	; mirrors2.kernel.org
 ftp	300	IN	A	35.9.37.225	; ike.egr.msu.edu
-;ftp	300	IN	A	128.30.2.36	; debian.lcs.mit.edu
+ftp	300	IN	A	128.30.2.36	; debian.lcs.mit.edu
 http		IN	CNAME	ftp.us.debian.org.
 www		IN	CNAME	www.debian.org.
 $ORIGIN mi.us.debian.org.
