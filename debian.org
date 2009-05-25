@@ -4,12 +4,12 @@ $ORIGIN debian.org.
 			IN	NS	rietz.debian.org.
 			IN	NS	klecker.debian.org.
 			IN	MX	0 master.debian.org.
-	600		IN	A	192.25.206.10	; gluck
+	60		IN	A	192.25.206.10	; gluck
 	;600		IN	A	194.109.137.218	; klecker
 
 ; services
 ;=========
-admin			IN	MX	10 gluck.debian.org.
+admin		60	IN	MX	10 gluck.debian.org.
 alioth			IN	NS	klecker
 			IN	NS	raff
 			IN	NS	rietz
@@ -41,7 +41,7 @@ cdimage			IN	CNAME	ftp.acc.umu.se.
 us.cdimage		IN	CNAME	debian.hands.com.
 cgi			IN	A	70.103.162.29	; master
 			IN	MX	0 .
-cvs			IN	A	192.25.206.10	; gluck
+cvs		60	IN	A	192.25.206.10	; gluck
 			IN	MX	0 .
 d-i			IN	CNAME	ravel
 dsa		60	IN	CNAME	draghi
@@ -50,8 +50,8 @@ darcs			IN	A	217.196.43.134	; alioth
 db		60	IN	A	82.195.75.106	; draghi
 		60	IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3906	; draghi
 		60	IN	MX	10 draghi.debian.org.
-ddtp			IN	A	192.25.206.10	; gluck
-			IN	MX	0 gluck.debian.org.
+ddtp		60	IN	A	192.25.206.10	; gluck
+		60	IN	MX	0 gluck.debian.org.
 geo			IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
 git			IN	A	217.196.43.134	; alioth
@@ -76,7 +76,7 @@ irc6			IN	CNAME	irc6.geo.oftc.net.
 irc.ipv6		IN	CNAME	irc6.geo.oftc.net.
 keyring			IN	A	192.25.206.59	; raff
 			IN	MX	0 .
-lintian			IN	A	192.25.206.10	; gluck
+lintian		60	IN	A	192.25.206.10	; gluck
 			IN	MX	0 .
 lists			IN	A	82.195.75.100	; liszt
 			IN	MX	0 liszt.debian.org.
@@ -100,12 +100,12 @@ packages-rore		IN	CNAME	rore
 people			IN	A	137.82.84.66 ; ravel
 			IN	MX	0 .
 newpeople		IN	CNAME	ravel.debian.org.
-oldpeople		IN	CNAME	gluck.debian.org.
+oldpeople	60	IN	CNAME	gluck.debian.org.
 piuparts		IN	CNAME	piatti
-planet			IN	A	192.25.206.10	; gluck
+planet		60	IN	A	192.25.206.10	; gluck
 			IN	MX	0 .
-popcon			IN	A	192.25.206.10	; gluck
-			IN	MX	10 gluck.debian.org.
+popcon		60	IN	A	192.25.206.10	; gluck
+		60	IN	MX	10 gluck.debian.org.
 puppet			IN	CNAME	handel
 qa		60	IN	A	192.25.206.16	; merkel
 			IN	MX	10 merkel.debian.org.
@@ -118,7 +118,7 @@ release			IN	A	128.148.34.103	; ries
 reportbug		IN	CNAME	rietz.debian.org.
 rt			IN	A	192.25.206.33	; spohr
 			IN	MX	10 spohr.debian.org.
-search			IN	A	192.25.206.10 ; gluck
+search		60	IN	A	192.25.206.10 ; gluck
 			IN	MX	0 .
 security-master		IN	A	194.109.137.218		; klecker
 			IN	AAAA	2001:888:2000:12::2	; klecker
@@ -175,7 +175,7 @@ women			IN	A	140.211.166.43	; rietz
 			IN	MX	0 .
 www			IN	MX	0 .
 		;300	IN	A	194.109.137.218 ; klecker
-		300	IN	A	192.25.206.10 ; gluck
+		60	IN	A	192.25.206.10 ; gluck
 www-master		IN	A	194.109.137.218 ; klecker
 			IN	MX	10 klecker.debian.org.
 www-mirror		IN	CNAME	www-master.debian.org.
@@ -225,7 +225,7 @@ geo1			IN	A	82.195.75.105				; kvm domain on unger
 			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3905	; kvm domain on unger
 geo2			IN	A	137.82.84.71				; kvm domain on dijkstra
 geo3			IN	A	195.20.242.125				; kvm domain on schumann
-gluck			IN	A	192.25.206.10
+gluck		60	IN	A	192.25.206.10
 goedel			IN	A	213.188.99.214
 goetz			IN	A	193.62.202.26
 handel			IN	A	82.195.75.104
