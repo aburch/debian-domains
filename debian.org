@@ -144,7 +144,6 @@ security.na		IN	MX	0 .
 		300	IN	A	128.31.0.36	; steffani
 		300	IN	A	149.20.20.6	; schein
 		300	IN	A	128.101.240.212	; saens
-stabile			IN	A	137.82.84.72
 svn			IN	A	217.196.43.134	; alioth
 			IN	MX	10 wagner-xen1.debian.org.
 syncproxy.eu		IN	CNAME	ftp.hr.debian.org.
@@ -319,6 +318,7 @@ sperger			IN	A	82.195.75.98
 spohr			IN	A	192.25.206.33
 spohr2			IN	A	192.25.206.38
 spontini		IN	A	137.82.84.65
+stabile			IN	A	137.82.84.72
 steffani		IN	A	128.31.0.36
 tartini			IN	A	82.94.249.158
 tozzi			IN	A	137.82.84.75
