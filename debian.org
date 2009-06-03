@@ -96,7 +96,7 @@ packages		IN	MX	0 powell.debian.org.
 		60	IN	A	87.106.64.223		; powell
 		60	IN	AAAA	2001:8d8:81:1520::1	; powell
 		60	IN	A	128.31.0.49		; rore
-		;60	IN	A	128.31.0.50	; carver
+		60	IN	A	128.31.0.50	; carver
 packages-carver		IN	CNAME	carver
 packages-powell		IN	CNAME	powell
 packages-rore		IN	CNAME	rore
