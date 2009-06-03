@@ -126,7 +126,7 @@ security-master		IN	A	194.109.137.218		; klecker
 security		IN	MX	10 klecker.debian.org.
 		300	IN	A	212.211.132.32	; villa
 		300	IN	A	212.211.132.250	; lobos
-		300	IN	A	128.31.0.36	; steffani
+		;300	IN	A	128.31.0.36	; steffani
 		300	IN	A	130.89.149.225	; kassia (security)
 		300	IN	A	195.20.242.89	; wieck
 		300	IN	A	149.20.20.6	; schein
@@ -143,7 +143,7 @@ security.ipv6		IN	MX	0 .
 		300	IN	AAAA	2001:4f8:8:36::6; schein
 security.us 	300	IN	CNAME	security.na.debian.org.
 security.na		IN	MX	0 .
-		300	IN	A	128.31.0.36	; steffani
+		;300	IN	A	128.31.0.36	; steffani
 		300	IN	A	149.20.20.6	; schein
 		300	IN	A	128.101.240.212	; saens
 svn			IN	A	217.196.43.134	; alioth
