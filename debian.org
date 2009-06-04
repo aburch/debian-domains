@@ -19,7 +19,6 @@ archive			IN	A	194.109.137.218		; klecker
 			IN	AAAA	2001:888:2000:12::2	; klecker
 			IN	MX	0 .
 backup			IN	CNAME	bartok.debian.org.
-bellini			IN	A	137.82.84.79
 bttracker	600	IN	CNAME	bttracker.acc.umu.se.
 bugs			IN	MX	0 rietz.debian.org.
 		150	IN	A	140.211.166.43	; rietz
@@ -44,7 +43,6 @@ cdimage			IN	CNAME	ftp.acc.umu.se.
 us.cdimage		IN	CNAME	debian.hands.com.
 cgi			IN	A	70.103.162.29	; master
 			IN	MX	0 .
-cimarosa		IN	A	137.82.84.80
 cvs		60	IN	A	192.25.206.10	; gluck
 			IN	MX	0 .
 d-i			IN	CNAME	ravel
@@ -211,12 +209,14 @@ ball			IN	A	78.32.9.213
 			IN	HINFO	"mips/Broadcom BCM91250A aka SWARM" "Debian GNU/Linux"
 bartok			IN	A	82.195.75.91
 			IN	AAAA	2001:41b8:202:deb:214:38ff:feee:b676
+bellini			IN	A	137.82.84.79
 brahms			IN	A	137.82.84.74
 caballero		IN	A	193.201.200.200
 carver			IN	A	128.31.0.50
 casals			IN	A	128.31.0.16
 			IN	HINFO	"mips/SGI Indigo2" "Debian GNU/Linux"
 chopin			IN	A	195.20.242.124
+cimarosa		IN	A	137.82.84.80
 crest			IN	A	217.114.76.83
 			IN	HINFO	"m68k" "Debian GNU/Linux"
 dijkstra		IN	A	137.82.84.70
