@@ -22,11 +22,13 @@ backup			IN	CNAME	bartok.debian.org.
 bttracker	600	IN	CNAME	bttracker.acc.umu.se.
 bugs			IN	MX	0 rietz.debian.org.
 		150	IN	A	140.211.166.43	; rietz
-		150	IN	A	137.82.84.77	; duarte
+		;150	IN	A	137.82.84.77	; duarte
+		150	IN	A	128.31.0.50	; carver
 		;;;150	IN	A	193.167.161.225	; piatti
 bugs-rietz		IN	CNAME	rietz
 bugs-master		IN	CNAME	rietz
 ;bugs-piatti		IN	CNAME	piatti
+bugs-carver		IN	CNAME	carver
 bugs-duarte		IN	CNAME	duarte
 bugs-mirror	60	IN	A	192.25.206.16	; merkel
 			IN	MX	0 .
@@ -94,6 +96,8 @@ packages		IN	MX	0 powell.debian.org.
 		60	IN	A	87.106.64.223		; powell
 		60	IN	AAAA	2001:8d8:81:1520::1	; powell
 		60	IN	A	128.31.0.49		; rore
+		60	IN	A	128.31.0.50	; carver
+packages-carver		IN	CNAME	carver
 packages-powell		IN	CNAME	powell
 packages-rore		IN	CNAME	rore
 people			IN	A	137.82.84.66 ; ravel
@@ -205,12 +209,14 @@ ball			IN	A	78.32.9.213
 			IN	HINFO	"mips/Broadcom BCM91250A aka SWARM" "Debian GNU/Linux"
 bartok			IN	A	82.195.75.91
 			IN	AAAA	2001:41b8:202:deb:214:38ff:feee:b676
+bellini			IN	A	137.82.84.79
 brahms			IN	A	137.82.84.74
 caballero		IN	A	193.201.200.200
 carver			IN	A	128.31.0.50
 casals			IN	A	128.31.0.16
 			IN	HINFO	"mips/SGI Indigo2" "Debian GNU/Linux"
 chopin			IN	A	195.20.242.124
+cimarosa		IN	A	137.82.84.80
 crest			IN	A	217.114.76.83
 			IN	HINFO	"m68k" "Debian GNU/Linux"
 dijkstra		IN	A	137.82.84.70
@@ -419,6 +425,7 @@ smetana-sc		IN	A	192.168.0.2
 $ORIGIN debprivate-ubc.debian.org.
 ; iscsi network 
 stabile-iscsi		IN	A	10.0.0.2
+bellini-iscsi		IN	A	10.0.0.3
 giustini-a0-iscsi	IN	A	10.0.0.17
 giustini-a1-iscsi	IN	A	10.0.0.18
 giustini-b0-iscsi	IN	A	10.0.0.19
