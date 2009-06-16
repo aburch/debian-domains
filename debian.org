@@ -223,10 +223,8 @@ dijkstra		IN	A	137.82.84.70
 draghi			IN	A	82.195.75.106
 			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3906
 duarte			IN	A	137.82.84.77
-elara			IN	A	67.210.160.90
 escher			IN	A	213.188.99.215
 			IN	HINFO	"alpha" "Debian GNU/Linux"
-europa			IN	A	67.210.160.89
 geo1			IN	A	82.195.75.105				; kvm domain on unger
 			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3905	; kvm domain on unger
 geo2			IN	A	137.82.84.71				; kvm domain on dijkstra
