@@ -9,7 +9,7 @@ $ORIGIN debian.org.
 
 ; services
 ;=========
-admin		60	IN	MX	10 gluck.debian.org.
+admin		60	IN	MX	10 spohr.debian.org.
 alioth			IN	NS	klecker
 			IN	NS	raff
 			IN	NS	rietz
