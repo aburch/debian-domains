@@ -243,6 +243,8 @@ kassia-ftp		IN	A	130.89.149.226
 			IN	MX	0 .
 kassia4			IN	A	130.89.149.227
 			IN	MX	0 .
+kaufmann		IN	A	82.195.75.107
+			IN	MX	0 .
 klecker			IN	A	194.109.137.218
 			IN	AAAA	2001:888:2000:12::2
 krbtest01		IN	A	82.195.75.103
