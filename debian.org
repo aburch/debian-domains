@@ -566,8 +566,8 @@ $ORIGIN cz.debian.org.
 ;ftp		IN	CNAME	www.debian.cz.
 ftp		IN	A	195.113.161.73
 $ORIGIN de.debian.org.
-;ftp	300	IN	A	141.76.2.4
-ftp	300	IN	CNAME	kassia-ftp.debian.org.
+ftp	300	IN	A	141.76.2.4
+;ftp	300	IN	CNAME	kassia-ftp.debian.org.
 ftp1		IN	CNAME	ftp
 ftp2		IN	A	195.71.9.196
 ;ftp2	300	IN	A	194.8.197.20 ; mirror.netcologne.de
