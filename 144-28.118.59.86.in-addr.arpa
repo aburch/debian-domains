@@ -1,8 +1,10 @@
 ; 144-28.118.59.86.in-addr.arpa zone - reverse zone for 86.59.118.144/28
 
-		IN	NS	raff.debian.org.
-		IN	NS	rietz.debian.org.
-		IN	NS	klecker.debian.org.
+$TTL 24h
+
+		IN	NS	ns1.debian.org.
+		IN	NS	ns2.debian.org.
+		IN	NS	ns3.debian.org.
 
 ;144
 ;145
