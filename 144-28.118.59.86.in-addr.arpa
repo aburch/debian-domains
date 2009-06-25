@@ -1,0 +1,25 @@
+; 144-28.118.59.86.in-addr.arpa zone - reverse zone for 86.59.118.144/28
+
+		IN	NS	raff.debian.org.
+		IN	NS	rietz.debian.org.
+		IN	NS	klecker.debian.org.
+
+;144
+;145
+146	10m	IN	PTR	paulus.noreply.org.
+147	10m	IN	PTR	asterisk.noreply.org.
+148		IN	PTR	squalo.noreply.org.	; weasel, maxx
+149	10m	IN	PTR	bilbao.flexserv.de.
+150	10m	IN	PTR	dbserv.noreply.org.
+;151
+;152		IN	PTR	anguilla.debian.or.at.	; weasel, maxx, rhonda, etc
+153		IN	PTR	asteria.debian.or.at.	; weasel, maxx, rhonda, etc
+154		IN	PTR	orata.noreply.org.	; weasel, maxx, rhonda, etc
+
+;153
+;154
+;155
+;156
+;157
+;158
+;159
