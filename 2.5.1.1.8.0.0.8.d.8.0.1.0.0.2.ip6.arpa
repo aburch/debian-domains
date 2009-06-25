@@ -1,13 +1,5 @@
 ; 2.5.1.1.8.0.0.8.d.8.0.1.0.0.2.ip6.arpa - reverse for 2001:08d8:0081:1520/60
 
-$TTL 8h
-@		IN	SOA	draghi.debian.org. hostmaster.debian.org. (
-			2009010602 ; Serial
-			3h              ; refresh - how often secondaries ask us for updates
-			1h              ; retry - how quickly they retry if the first attempt fails
-			8W              ; expiry - how long they'll keep serving if the master dies
-			12h )           ; minimum - TTL for missed queries (NXDOMAIN responses)
-
 		IN	NS	raff.debian.org.
 		IN	NS	rietz.debian.org.
 		IN	NS	klecker.debian.org.
