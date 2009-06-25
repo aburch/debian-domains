@@ -7,6 +7,14 @@ $ORIGIN debian.org.
 	;60		IN	A	192.25.206.10	; gluck
 	600		IN	A	194.109.137.218	; klecker
 
+; we delegate things to ns[123]
+ns1			IN	A	192.25.206.59
+			IN	TXT	"raff"
+ns2			IN	A	140.211.166.43
+			IN	TXT	"rietz"
+ns3			IN	A	194.109.137.218
+			IN	TXT	"klecker"
+
 ; services
 ;=========
 admin		60	IN	MX	10 spohr.debian.org.
