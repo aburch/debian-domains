@@ -650,7 +650,8 @@ $ORIGIN ru.debian.org.
 ftp		IN	CNAME	ftp.chg.ru.
 www		IN	A	82.179.191.68
 $ORIGIN se.debian.org.
-ftp		IN	CNAME	ftp.acc.umu.se.
+;ftp		IN	CNAME	ftp.acc.umu.se.
+ftp	60	IN	CNAME	kassia-ftp.debian.org.
 $ORIGIN si.debian.org.
 ftp		IN	A	164.8.6.249
 $ORIGIN sk.debian.org.
