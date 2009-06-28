@@ -58,7 +58,7 @@ dsa			IN	CNAME	draghi
 darcs			IN	A	217.196.43.134	; alioth
 			IN	MX	10 wagner-xen1.debian.org.
 db			IN	A	82.195.75.106	; draghi
-		;XXXmandav6down 	IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3906	; draghi
+			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3906	; draghi
 			IN	MX	10 draghi.debian.org.
 geo			IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
@@ -198,7 +198,7 @@ albeniz			IN	A	193.62.202.27
 agnesi			IN	A	65.173.90.83
 			IN	HINFO	"arm/armv5tel" "Debian GNU/Linux"
 agricola		IN	A	82.195.75.86
-			;XXXmandav6down IN	AAAA	2001:41b8:202:deb:214:fdff:fe30:1ce8
+			IN	AAAA	2001:41b8:202:deb:214:fdff:fe30:1ce8
 			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
 allegri			IN	A	157.193.39.233
 			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
@@ -207,14 +207,14 @@ ancina			IN	A	157.193.39.13
 			IN	MX	0 spohr.debian.org.
 			IN	HINFO	"armel/Marvell development board" "Debian GNU/Linux"
 arcadelt		IN	A	82.195.75.87
-			;XXXmandav6down IN	AAAA	2001:41b8:202:deb:214:fdff:fe30:1a98
+			IN	AAAA	2001:41b8:202:deb:214:fdff:fe30:1a98
 			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
 argento			IN	A	93.94.130.160
 			IN	HINFO	"armel/Thecus N2100" "Debian GNU/Linux"
 ball			IN	A	78.32.9.213
 			IN	HINFO	"mips/Broadcom BCM91250A aka SWARM" "Debian GNU/Linux"
 bartok			IN	A	82.195.75.91
-			;XXXmandav6down IN	AAAA	2001:41b8:202:deb:214:38ff:feee:b676
+			IN	AAAA	2001:41b8:202:deb:214:38ff:feee:b676
 bellini			IN	A	137.82.84.79
 brahms			IN	A	137.82.84.74
 caballero		IN	A	193.201.200.200
@@ -228,20 +228,20 @@ crest			IN	A	217.114.76.83
 			IN	HINFO	"m68k" "Debian GNU/Linux"
 dijkstra		IN	A	137.82.84.70
 draghi			IN	A	82.195.75.106
-			;XXXmandav6down IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3906
+			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3906
 duarte			IN	A	137.82.84.77
 gabrielli		IN	A	137.82.84.87
 escher			IN	A	213.188.99.215
 			IN	HINFO	"alpha" "Debian GNU/Linux"
 geo1			IN	A	82.195.75.105				; kvm domain on unger
-			;XXXmandav6down IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3905	; kvm domain on unger
+			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3905	; kvm domain on unger
 geo2			IN	A	137.82.84.71				; kvm domain on dijkstra
 geo3			IN	A	195.20.242.125				; kvm domain on schumann
 gluck		300	IN	A	192.25.206.10
 goedel			IN	A	213.188.99.214
 goetz			IN	A	193.62.202.26
 handel			IN	A	82.195.75.104
-			;XXXmandav6down IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3902
+			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3902
 kassia			IN	A	130.89.149.224
 			IN	AAAA	2001:610:1908:a000:21b:78ff:fe75:3d46
 			IN	MX	0 spohr.debian.org.
@@ -258,7 +258,7 @@ kaufmann		IN	A	82.195.75.107
 klecker			IN	A	194.109.137.218
 			IN	AAAA	2001:888:2000:12::2
 krbtest01		IN	A	82.195.75.103
-			;XXXmandav6down IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3901
+			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3901
 kullervo		IN	A	217.114.76.82
 lafayette		IN	A	147.215.7.160
 lebrun			IN	A	193.198.184.10
@@ -266,7 +266,7 @@ lebrun			IN	A	193.198.184.10
 leisner			IN	A	209.251.101.202
 			IN	HINFO	"arm" "Debian GNU/Linux"
 liszt			IN	A	82.195.75.100
-			;XXXmandav6down IN	AAAA	2001:41b8:202:deb:213:21ff:fe20:1426
+			IN	AAAA	2001:41b8:202:deb:213:21ff:fe20:1426
 lobos			IN	A	212.211.132.250
 			IN	AAAA	2001:a78::1a
 lucatelli		IN	A	137.82.84.88
@@ -284,7 +284,7 @@ merkel2			IN	A	192.25.206.71
 merulo			IN	A	192.25.206.58
 			IN	HINFO	"ia64" "Debian GNU/Linux"
 morales			IN	A	82.195.75.97
-			;XXXmandav6down ;IN	AAAA	2001:41b8:202:deb:210:e0ff:fe00:3bca
+			;IN	AAAA	2001:41b8:202:deb:210:e0ff:fe00:3bca
 			IN	HINFO	"mipsel/Cobalt Raq2" "Debian GNU/Linux"
 morricone		IN	A	137.82.84.81
 mundy			IN	A	192.25.206.62
@@ -342,7 +342,7 @@ tartini			IN	A	82.94.249.158
 torelli			IN	A	137.82.84.85
 tozzi			IN	A	137.82.84.75
 unger			IN	A	82.195.75.102
-			;XXXmandav6down IN	AAAA	2001:41b8:202:deb:222:64ff:fe08:fe6
+			IN	AAAA	2001:41b8:202:deb:222:64ff:fe08:fe6
 valente			IN	A	137.82.84.76
 vaughan			IN	A	128.30.28.47
 			IN	HINFO	"Cobalt RaQ2" "Debian GNU/Linux"
