@@ -633,8 +633,8 @@ ftp		IN	CNAME	nisamox.fciencias.unam.mx.
 $ORIGIN nc.debian.org.
 ftp     	IN      A       61.5.210.7
 $ORIGIN nl.debian.org.
-; ftp		IN	A	130.89.149.21
-ftp		IN	A	130.89.149.226
+ftp		IN	A	130.89.149.21 ; debian.snt.utwente.nl
+; ftp		IN	A	130.89.149.226 ; kassia.debian.org
 www		IN	CNAME	www.debian.org.
 $ORIGIN no.debian.org.
 ftp		IN	CNAME	spheniscus.uninett.no.
