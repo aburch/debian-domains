@@ -186,9 +186,9 @@ women			IN	A	140.211.166.43	; rietz
 ; www			IN	MX	0 .
 ; 		300	IN	A	194.109.137.218	; klecker
 ; 		;60	IN	A	128.31.0.51	; senfl
-www		60	IN	NS	geo1.debian.org.
-		60	IN	NS	geo2.debian.org.
-		60	IN	NS	geo3.debian.org.
+www		300	IN	NS	geo1.debian.org.
+		300	IN	NS	geo2.debian.org.
+		300	IN	NS	geo3.debian.org.
 www-master		IN	A	194.109.137.218	; klecker
 			IN	MX	10 klecker.debian.org.
 www-mirror		IN	CNAME	www-master.debian.org.
