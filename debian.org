@@ -683,4 +683,5 @@ ftp		IN	CNAME	debian.egr.msu.edu.
 $ORIGIN za.debian.org.
 www		IN	CNAME	www.leg.uct.ac.za.
 
+; SSH FP
 $INCLUDE "/var/lib/misc/draghi.debian.org/dns-sshfp"
