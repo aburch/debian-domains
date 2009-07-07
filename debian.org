@@ -480,6 +480,8 @@ luchesi-iscsi		IN	CNAME	strozzi-db7-iscsi
 dijkstra-mnt		IN	CNAME	strozzi-db8-mnt
 dijkstra-ilo		IN	CNAME	strozzi-db8-ilo
 dijkstra-iscsi		IN	CNAME	strozzi-db8-iscsi
+; remotely managable power distribution units
+k3035-pdu01		IN	A	192.168.2.99
 
 ; strozzi is an HP BladeSystem c3000 enclosure
 ; oaN = onboard assistant N
