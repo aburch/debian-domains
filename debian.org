@@ -465,6 +465,16 @@ ravel-console		IN	CNAME	kais-console
 giustini-mnt		IN	A	192.168.2.6
 ;ravel-ilo		IN	A	192.168.2.7	; FIXME
 ;lux-mnt		IN	A	192.168.2.8	; lux.oftc.net <noc@oftc.net>
+morricone-mnt		IN	A	192.168.2.9
+paganini-mnt		IN	A	192.168.2.10
+respighi-mnt		IN	A	192.168.2.11
+vivaldi-mnt		IN	A	192.168.2.12
+bellini-mnt		IN	A	192.168.2.13
+cimarosa-mnt		IN	A	192.168.2.14
+lucatelli-mnt		IN	A	192.168.2.15
+corelli-mnt		IN	A	192.168.2.16
+gabrielli-mnt		IN	A	192.168.2.17
+torelli-mnt		IN	A	192.168.2.18
 ; luchesi is a BL460c G5 blade in device bay 7 of strozzi
 luchesi-mnt		IN	CNAME	strozzi-db7-mnt
 luchesi-ilo		IN	CNAME	strozzi-db7-ilo
