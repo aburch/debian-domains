@@ -108,7 +108,6 @@ packages-rore		IN	CNAME	rore
 people			IN	A	137.82.84.66 ; ravel
 			IN	MX	0 .
 newpeople		IN	CNAME	ravel.debian.org.
-oldpeople	60	IN	CNAME	gluck.debian.org.
 piuparts		IN	CNAME	piatti
 planet			IN	A	128.31.0.51	; senfl
 			IN	MX	0 .
@@ -238,7 +237,8 @@ geo1			IN	A	82.195.75.105				; kvm domain on unger
 			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3905	; kvm domain on unger
 geo2			IN	A	137.82.84.71				; kvm domain on dijkstra
 geo3			IN	A	195.20.242.125				; kvm domain on schumann
-gluck		300	IN	A	192.25.206.10
+gluck			IN	A	150.203.164.38
+			IN	AAAA	2001:388:1034:2900::26
 goedel			IN	A	213.188.99.214
 goetz			IN	A	193.62.202.26
 handel			IN	A	82.195.75.104
@@ -379,9 +379,6 @@ alkman			IN	A	192.168.2.11
 alkman-console		IN	A	192.168.2.111
 alkman-mp		IN	A	192.168.2.211
 console			IN	A	192.168.2.254
-gluck			IN	A	192.168.2.3
-gluck-console		IN	A	192.168.2.103
-gluck-ilo		IN	A	192.168.2.217
 gounod			IN	A	192.168.2.9
 gounod-ilo		IN	A	192.168.2.209
 hydra			IN	A	192.168.2.21
@@ -535,7 +532,8 @@ $ORIGIN debprivate-csail.debian.org.
 carver-ilo		IN	A	192.168.0.100
 rore-ilo		IN	A	192.168.0.101
 
-
+$ORIGIN debprivate-cecsit.debian.org
+gluck-ilo		IN	A	172.17.4.2
 
 ; countries
 ;==========
