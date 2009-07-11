@@ -331,7 +331,7 @@ schumann		IN	A	212.227.126.54
 senfl			IN	A	128.31.0.51
 smetana			IN	A	193.62.202.29
 			IN	HINFO	"sparc/v210" "Debian GNU/Linux"
-sperger			IN	A	82.195.75.98
+sperger			IN	A	82.195.75.34
 			;IN	AAAA	2001:41b8:202:deb:a00:20ff:fea9:23bd
 			IN	HINFO	"sparc/Ultra60" "Debian GNU/Linux"
 spohr			IN	A	192.25.206.33
