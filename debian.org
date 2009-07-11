@@ -233,6 +233,7 @@ duarte			IN	A	137.82.84.77
 gabrielli		IN	A	137.82.84.87
 escher			IN	A	213.188.99.215
 			IN	HINFO	"alpha" "Debian GNU/Linux"
+frescobaldi		IN	A	137.82.84.90
 geo1			IN	A	82.195.75.105				; kvm domain on unger
 			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3905	; kvm domain on unger
 geo2			IN	A	137.82.84.71				; kvm domain on dijkstra
@@ -270,6 +271,7 @@ liszt			IN	A	82.195.75.100
 			IN	AAAA	2001:41b8:202:deb:213:21ff:fe20:1426
 lobos			IN	A	212.211.132.250
 			IN	AAAA	2001:a78::1a
+lombardini		IN	A	137.82.84.91
 lucatelli		IN	A	137.82.84.88
 luchesi			IN	A	137.82.84.78
 malo			IN	A	140.211.166.27
@@ -360,6 +362,7 @@ wagner-xen2		IN	A	217.196.43.135
 wagner-xen3		IN	A	217.196.43.136
 widor			IN	A	93.94.130.161
 wieck			IN	A	195.20.242.89
+wolkenstein		IN	A	137.82.84.89
 zelenka			IN	A	80.245.147.40
 			IN	HINFO	"s390" "Debian GNU/Linux"
 
@@ -480,6 +483,9 @@ luchesi-iscsi		IN	CNAME	strozzi-db7-iscsi
 dijkstra-mnt		IN	CNAME	strozzi-db8-mnt
 dijkstra-ilo		IN	CNAME	strozzi-db8-ilo
 dijkstra-iscsi		IN	CNAME	strozzi-db8-iscsi
+; remotely managable power distribution units
+kais-pdu02		IN	A	192.168.2.98
+kais-pdu01		IN	A	192.168.2.99
 
 ; strozzi is an HP BladeSystem c3000 enclosure
 ; oaN = onboard assistant N
