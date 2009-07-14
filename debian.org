@@ -170,7 +170,7 @@ ftp.eu.upload	60	IN	CNAME	kassia.debian.org.
 ;ftp.eu.upload	60	IN	CNAME	ftp-master.debian.org.
 ;ftp.eu.upload	60	IN	CNAME	ravel.debian.org.
 volatile-master	60	IN	A	192.54.42.193	; verdi
-		60	IN	MX	0 spohr.debian.org.
+			IN	MX	0 .
 volatile	60	IN	A	192.54.42.193	; verdi
 ; volatile	180	IN	A	82.195.75.82	; durin.farm.ftbfs.de - zobel
 		60	IN	MX	0 spohr.debian.org.
