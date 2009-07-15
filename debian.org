@@ -172,8 +172,8 @@ ftp.eu.upload	60	IN	CNAME	kassia.debian.org.
 volatile-master		IN	A	137.82.84.76	; valente
 			IN	MX	0 .
 volatile		IN	MX	0 valente.debian.org.
-		60	IN	A	192.54.42.193	; verdi
-		;60	IN	A	82.195.75.82	; durin.farm.ftbfs.de - zobel
+		;60	IN	A	192.54.42.193	; verdi
+		60	IN	A	82.195.75.82	; durin.farm.ftbfs.de - zobel
 vote			IN	A	70.103.162.29	; master
 			IN	MX	0 master.debian.org.
 wiki			IN	A	93.94.130.161	; widor
