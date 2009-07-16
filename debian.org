@@ -687,7 +687,7 @@ $ORIGIN uk.debian.org.
 ftp		IN	CNAME	debian.hands.com.
 www		IN	CNAME	debian.hands.com.
 $ORIGIN us.debian.org.
-;ftp	300	IN	A	64.50.236.52	; ftp-chi.osuosl.org
+ftp	300	IN	A	64.50.236.52	; ftp-chi.osuosl.org
 ftp	300	IN	A	64.50.238.52	; ftp-atl.osuosl.org
 ftp	300	IN	A	35.9.37.225	; ike.egr.msu.edu
 ftp	300	IN	A	128.30.2.36	; debian.lcs.mit.edu
