@@ -78,9 +78,8 @@ incoming		IN	A	128.148.34.103	; ries
 irc			IN	CNAME	irc.geo.oftc.net.
 irc6			IN	CNAME	irc6.geo.oftc.net.
 irc.ipv6		IN	CNAME	irc6.geo.oftc.net.
-keyring			IN	A	82.195.75.107	; kaufmann
+keyring			IN	CNAME	kaufmann
 ;			IN	A	192.25.206.59   ; raff
-			IN	MX	0 .
 lintian			IN	A	137.82.84.79	; bellini
 			IN	MX	0 .
 lists			IN	A	82.195.75.100	; liszt
