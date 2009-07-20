@@ -638,7 +638,6 @@ $ORIGIN is.debian.org.
 ftp		IN	CNAME	ftp.acc.umu.se.
 $ORIGIN it.debian.org.
 ftp		IN	CNAME	ftp.bofh.it.
-ftp2		IN	CNAME	ftp
 $ORIGIN jp.debian.org.
 ftp		IN	CNAME	cdn.debian.or.jp.
 ftp2		IN	A	210.157.158.33
