@@ -191,6 +191,9 @@ www-master		IN	A	194.109.137.218	; klecker
 			IN	MX	10 klecker.debian.org.
 www-mirror		IN	CNAME	www-master.debian.org.
 
+video.debconf	300	IN	NS	geo1.debian.org.
+		300	IN	NS	geo2.debian.org.
+		300	IN	NS	geo3.debian.org.
 
 ; hosts
 ;======
