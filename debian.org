@@ -263,6 +263,7 @@ kassia-volatile		IN	A	130.89.149.227
 			IN	AAAA	2001:610:1908:a000::149:227 ; kassia
 			IN	MX	0 .
 kaufmann		IN	A	82.195.75.107
+			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3907
 			IN	MX	0 .
 klecker			IN	A	194.109.137.218
 			IN	AAAA	2001:888:2000:12::2
