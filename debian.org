@@ -4,7 +4,7 @@ $ORIGIN debian.org.
 			IN	NS	rietz.debian.org.
 			IN	NS	klecker.debian.org.
 			IN	MX	0 master.debian.org.
-	;600		IN	A	128.31.0.51	; senfl
+	600		IN	A	128.31.0.51	; senfl
 	600		IN	A	194.109.137.218	; klecker
 
 ; we delegate things to ns[123]
@@ -26,12 +26,14 @@ arch			IN	A	217.196.43.134	; alioth
 archive			IN	A	194.109.137.218		; klecker
 			IN	AAAA	2001:888:2000:12::2	; klecker
 			IN	MX	0 .
+backports		IN	MX	10 morricone
+backports-master	IN	CNAME	morricone
 backup			IN	CNAME	bartok.debian.org.
 bttracker	600	IN	CNAME	bttracker.acc.umu.se.
 bugs			IN	MX	0 rietz.debian.org.
 		150	IN	A	140.211.166.43	; rietz
 		150	IN	A	137.82.84.77	; duarte
-		150	IN	A	128.31.0.50	; carver
+		;150	IN	A	128.31.0.50	; carver
 bugs-rietz		IN	CNAME	rietz
 bugs-master		IN	CNAME	rietz
 bugs-carver		IN	CNAME	carver
@@ -127,7 +129,15 @@ search			IN	A	128.31.0.51 ; senfl
 			IN	MX	0 .
 security-master		IN	A	194.109.137.218		; klecker
 			IN	AAAA	2001:888:2000:12::2	; klecker
-security		IN	MX	10 klecker.debian.org.
+
+security		IN	NS	geo1.debian.org.
+			IN	NS	geo2.debian.org.
+			IN	NS	geo3.debian.org.
+security.eu	300	IN	CNAME	security.debian.org.
+security.na	300	IN	CNAME	security.debian.org.
+security.us	300	IN	CNAME	security.debian.org.
+security.ipv6	300	IN	CNAME	security.debian.org.
+security-nagios		IN	MX	0 .
 		300	IN	A	212.211.132.32	; villa
 		300	IN	A	212.211.132.250	; lobos
 		300	IN	A	128.31.0.36	; steffani
@@ -135,21 +145,31 @@ security		IN	MX	10 klecker.debian.org.
 		300	IN	A	195.20.242.89	; wieck
 		300	IN	A	149.20.20.6	; schein
 		300	IN	A	128.101.240.212	; saens
-security.eu		IN	MX	0 .
-		300	IN	A	212.211.132.32	; villa
-		300	IN	A	212.211.132.250	; lobos
-		300	IN	A	130.89.149.225	; kassia (security)
-		300	IN	A	195.20.242.89	; wieck
-security.ipv6		IN	MX	0 .
-		300	IN	AAAA	2001:a78::16	; villa
-		300	IN	AAAA	2001:a78::1a	; lobos
-		300	IN	AAAA	2001:610:1908:a000::149:225 ; kassia (security)
-		300	IN	AAAA	2001:4f8:8:36::6; schein
-security.us 	300	IN	CNAME	security.na.debian.org.
-security.na		IN	MX	0 .
-		300	IN	A	128.31.0.36	; steffani
-		300	IN	A	149.20.20.6	; schein
-		;300	IN	A	128.101.240.212	; saens
+		300	IN	A	150.203.164.38	; gluck
+; Disabled by zobel for geodns
+; security		IN	MX	10 klecker.debian.org.
+; 		300	IN	A	212.211.132.32	; villa
+; 		300	IN	A	212.211.132.250	; lobos
+; 		300	IN	A	128.31.0.36	; steffani
+; 		300	IN	A	130.89.149.225	; kassia (security)
+; 		300	IN	A	195.20.242.89	; wieck
+; 		300	IN	A	149.20.20.6	; schein
+; 		300	IN	A	128.101.240.212	; saens
+; security.eu		IN	MX	0 .
+; 		300	IN	A	212.211.132.32	; villa
+; 		300	IN	A	212.211.132.250	; lobos
+; 		300	IN	A	130.89.149.225	; kassia (security)
+; 		300	IN	A	195.20.242.89	; wieck
+; security.ipv6		IN	MX	0 .
+; 		300	IN	AAAA	2001:a78::16	; villa
+; 		300	IN	AAAA	2001:a78::1a	; lobos
+; 		300	IN	AAAA	2001:610:1908:a000::149:225 ; kassia (security)
+; 		300	IN	AAAA	2001:4f8:8:36::6; schein
+; security.us 	300	IN	CNAME	security.na.debian.org.
+; security.na		IN	MX	0 .
+; 		300	IN	A	128.31.0.36	; steffani
+; 		300	IN	A	149.20.20.6	; schein
+; 		;300	IN	A	128.101.240.212	; saens
 svn			IN	A	217.196.43.134	; alioth
 			IN	MX	10 wagner-xen1.debian.org.
 syncproxy.eu		IN	CNAME	ftp.hr.debian.org.
@@ -595,7 +615,8 @@ ftp		IN	CNAME	debian.ethz.ch.
 $ORIGIN cl.debian.org.
 ;ftp		IN	CNAME	debian.ciencias.uchile.cl.
 ;ftp	60	IN	CNAME	ftp.osuosl.org.
-ftp		IN	CNAME	debian.c3sl.ufpr.br. ; ftp.br.debian.org
+;ftp		IN	CNAME	debian.c3sl.ufpr.br. ; ftp.br.debian.org
+ftp		IN	CNAME	debian.netlinux.cl.
 $ORIGIN cn.debian.org.
 ;www		IN	CNAME	debian.linuxforum.net.
 www		IN	CNAME	www.debian.org.
