@@ -18,9 +18,9 @@ ns3			IN	A	194.109.137.218
 ; services
 ;=========
 admin			IN	MX	10 spohr.debian.org.
-;alioth			IN	NS	klecker
-;			IN	NS	raff
-;			IN	NS	rietz
+alioth			IN	NS	klecker
+			IN	NS	raff
+			IN	NS	rietz
 arch			IN	A	217.196.43.134	; alioth
 			IN	MX	10 wagner-xen1.debian.org.
 archive			IN	A	194.109.137.218		; klecker
