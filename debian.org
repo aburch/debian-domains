@@ -18,9 +18,9 @@ ns3			IN	A	194.109.137.218
 ; services
 ;=========
 admin			IN	MX	10 spohr.debian.org.
-alioth			IN	NS	klecker
-			IN	NS	raff
-			IN	NS	rietz
+;alioth			IN	NS	klecker
+;			IN	NS	raff
+;			IN	NS	rietz
 arch			IN	A	217.196.43.134	; alioth
 			IN	MX	10 wagner-xen1.debian.org.
 archive			IN	A	194.109.137.218		; klecker
@@ -62,6 +62,7 @@ db			IN	A	82.195.75.106	; draghi
 			IN	MX	10 draghi.debian.org.
 geo			IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
+			IN	NS	geo3.debian.org.
 git			IN	A	217.196.43.134	; alioth
 			IN	MX	10 wagner-xen1.debian.org.
 ftp		600	IN	A	130.89.149.226  ; kassia
