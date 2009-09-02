@@ -109,6 +109,7 @@ packages-rore		IN	CNAME	rore
 people			IN	A	137.82.84.66 ; ravel
 			IN	MX	0 .
 newpeople		IN	CNAME	ravel.debian.org.
+patch-tracker		IN	CNAME	respighi
 piuparts		IN	CNAME	piatti
 planet			IN	A	128.31.0.51	; senfl
 			IN	MX	0 .
