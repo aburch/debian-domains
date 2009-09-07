@@ -672,8 +672,7 @@ www		IN	A	202.221.179.45
 $ORIGIN kr.debian.org.
 ftp		IN	CNAME	ftp.kaist.ac.kr.
 $ORIGIN mx.debian.org.
-;ftp		IN	CNAME	nisamox.fciencias.unam.mx.
-ftp		IN	CNAME	ftp.us.debian.org.
+ftp		IN	CNAME	nisamox.fciencias.unam.mx.
 $ORIGIN nc.debian.org.
 ftp     	IN      A       61.5.210.7
 $ORIGIN nl.debian.org.
