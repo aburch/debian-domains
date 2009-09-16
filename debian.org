@@ -5,7 +5,7 @@ $ORIGIN debian.org.
 			IN	NS	klecker.debian.org.
 			IN	MX	0 master.debian.org.
 	600		IN	A	128.31.0.51	; senfl
-	;600		IN	A	194.109.137.218	; klecker
+	600		IN	A	194.109.137.218	; klecker
 
 ; we delegate things to ns[123]
 ns1			IN	A	192.25.206.59
