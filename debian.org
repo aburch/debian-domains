@@ -30,8 +30,6 @@ backports		IN	MX	10 morricone
 backports-master	IN	CNAME	morricone
 backup			IN	CNAME	bartok.debian.org.
 bttracker	600	IN	CNAME	bttracker.acc.umu.se.
-			IN	MX	0 .
-
 bugs			IN	MX	0 rietz.debian.org.
 		150	IN	A	140.211.166.43	; rietz
 		150	IN	A	137.82.84.77	; duarte
