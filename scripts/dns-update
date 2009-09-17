@@ -53,9 +53,10 @@ sub do_update {
 		next if ( -l "$INDIR/$file" ); # ignore symlinks
 		next if ( $file =~ m#/# ); # ignore files not in the repository's /
 		next unless ( -f "$INDIR/$file" );
-		print "Updating $file ... ";
+		print "Updating $file ...\n";
 		system($update_command, $file);
-		print "done\n";
+		warn("$update_command $file returned non-zero exit status ".($CHILD_ERROR >> 8).".\n") if ($CHILD_ERROR >> 8 != 0);
+		print "done.\n";
 	}
 
 	opendir (D, $INDIR) or die "Can't opendir $INDIR: $!\n";
@@ -79,10 +80,10 @@ zone "$file" {
 
 EOF
 		unless (-f "$OUTDIR/$file") {
-			print "Updating $file (missing) ... ";
+			print "Updating $file (missing) ...\n";
 			system($update_command, $file);
 			warn("$update_command $file returned non-zero exit status ".($CHILD_ERROR >> 8).".\n") if ($CHILD_ERROR >> 8 != 0);
-			print "done\n";
+			print "done.\n";
 		}
 	}
 
