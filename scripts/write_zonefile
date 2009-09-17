@@ -26,6 +26,7 @@ use strict;
 use warnings;
 use POSIX qw(strftime);
 use File::Temp qw(tempfile);
+use English;
 
 our $INDIR = '/var/cache/bind/git/domains';
 our $OUTDIR = '/var/cache/bind/generated/';
