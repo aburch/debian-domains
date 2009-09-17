@@ -51,6 +51,7 @@ sub do_update {
 	
 	for my $file (@changes)  {
 		next if ( -l "$INDIR/$file" ); # ignore symlinks
+		next if ( $file =~ m#/# ); # ignore files not in the repository's /
 		next unless ( -f "$INDIR/$file" );
 		print "Updating $file ... ";
 		system($update_command, $file);
