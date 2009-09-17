@@ -93,4 +93,7 @@ print $fd $_ while (<INFILE>);
 close $fd;
 close INFILE;
 chmod(0664, $filename);
+
+system("/usr/sbin/named-checkzone -k fail -n fail -S fail -i full -m fail -M fail $file $filename");
+die("ERROR: checkzone returned errors on zone $file - not updated.\n") if ($CHILD_ERROR >> 8 != 0);
 rename $filename, "$OUTDIR/$file";
