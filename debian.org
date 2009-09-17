@@ -175,9 +175,9 @@ wiki			IN	A	93.94.130.161	; widor
 			IN	MX	0 .
 women			IN	A	140.211.166.43	; rietz
 			IN	MX	0 .
-www		300	IN	NS	geo1.debian.org.
-		300	IN	NS	geo2.debian.org.
-		300	IN	NS	geo3.debian.org.
+www			IN	NS	geo1.debian.org.
+			IN	NS	geo2.debian.org.
+			IN	NS	geo3.debian.org.
 www.geo			IN	NS	geo1.debian.org. ; zobel, is this zone needed?  -- weasel
 			IN	NS	geo2.debian.org. ; zobel, is this zone needed?  -- weasel
 			IN	NS	geo3.debian.org. ; zobel, is this zone needed?  -- weasel
