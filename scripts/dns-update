@@ -24,6 +24,7 @@
 
 use strict;
 use warnings;
+use English;
 use File::Temp qw(tempfile);
 
 our $INDIR = '/var/cache/bind/git/domains';
@@ -79,6 +80,7 @@ EOF
 		unless (-f "$OUTDIR/$file") {
 			print "Updating $file (missing) ... ";
 			system($update_command, $file);
+			warn("$update_command $file returned non-zero exit status ".($CHILD_ERROR >> 8).".\n") if ($CHILD_ERROR >> 8 != 0);
 			print "done\n";
 		}
 	}
