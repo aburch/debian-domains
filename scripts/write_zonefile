@@ -1,0 +1,96 @@
+#!/usr/bin/perl
+# vim:set ai noet sts=8 ts=8 sw=8 tw=0:
+# Local Variables:
+# mode:cperl
+# cperl-indent-level:4
+# End:
+
+# Copyright © Stephen Gran 2009
+#
+# Author: Stephen Gran <steve@lobefin.net>
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, under version 2 of the License.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+use strict;
+use warnings;
+use POSIX qw(strftime);
+use File::Temp qw(tempfile);
+
+our $INDIR = '/var/cache/bind/git/domains';
+our $OUTDIR = '/var/cache/bind/generated/';
+our @postcommand = qw(sudo /etc/init.d/bind9 reload);
+our %vars = (
+	minttl     => '1h',
+	refresh    => '3h',
+	retry      => '1h',
+	expire     => '7d',
+	negttl     => '1h',
+	origin     => 'draghi.debian.org',
+	hostmaster => 'hostmaster.debian.org',
+);
+
+sub newserial {
+	my $file = shift;
+	$file .= '.serial';
+	my $serial;
+	my $newserial;
+	my $today = strftime "%Y%m%d01", gmtime();
+	
+	if (-f "$OUTDIR/$file") {
+		open (SERIAL, "<", "$OUTDIR/$file") or die "Cannot open $file for reading: $!";
+		$serial = <SERIAL>;
+		defined $serial or die "Cannot read serial $file: $!";
+		close SERIAL;
+		chomp $serial;
+	}
+	
+	if ((defined $serial) && ($serial >= $today)) {
+        	$newserial = $serial + 1;
+	} else {
+        	$newserial = $today;
+	}
+
+	open SERIAL, ">", "$OUTDIR/$file" or die "Cannot open $file for writing: $!";
+	print SERIAL "$newserial\n";
+	close SERIAL or die "Closing $file failed: $!";
+	return $newserial;
+}
+
+my $file = shift @ARGV;
+die "Need filename\n" unless length($file);
+
+if (defined $ARGV[0] && length($ARGV[0])) {
+	require $ARGV[0];
+}
+
+my $serial = newserial($file);
+my ($fd, $filename) = tempfile(DIR => $OUTDIR);
+open(INFILE, '<', "$INDIR/$file") or die "Can't open $INDIR/$file: $!\n";
+
+print $fd <<EOF;
+\$TTL   $vars{minttl}   ; time to live
+@	IN      SOA     $vars{origin}. $vars{hostmaster}. (
+	$serial ; serial number
+	$vars{refresh}  ; refresh
+	$vars{retry}    ; retry
+	$vars{expire}   ; expire
+	$vars{negttl} ) ; negative cache time-to-live
+
+EOF
+
+print $fd $_ while (<INFILE>);
+close $fd;
+close INFILE;
+chmod(0664, $filename);
+rename $filename, "$OUTDIR/$file";
