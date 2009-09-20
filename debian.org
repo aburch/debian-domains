@@ -22,7 +22,7 @@ alioth			IN	NS	klecker
 			IN	NS	raff
 			IN	NS	rietz
 arch			IN	A	217.196.43.134	; alioth
-			IN	MX	10 wagner-xen1.debian.org.
+			IN	MX	0 .
 archive			IN	A	194.109.137.218		; klecker
 			IN	AAAA	2001:888:2000:12::2	; klecker
 			IN	MX	0 .
@@ -43,7 +43,7 @@ buildd			IN	A	137.82.84.80	; cimarosa
 			IN	MX	10 cimarosa.debian.org.
 logs.buildd		IN	CNAME	cimarosa
 bzr			IN	A	217.196.43.134	; alioth
-			IN	MX	10 wagner-xen1.debian.org.
+			IN	MX	0 .
 ca			IN	CNAME	draghi
 cdimage			IN	CNAME	ftp.acc.umu.se.
 us.cdimage		IN	CNAME	debian.hands.com.
@@ -54,12 +54,12 @@ cvs		60	IN	A	217.196.43.134	; alioth
 d-i			IN	CNAME	ravel
 dsa			IN	CNAME	draghi
 darcs			IN	A	217.196.43.134	; alioth
-			IN	MX	10 wagner-xen1.debian.org.
+			IN	MX	0 .
 db			IN	A	82.195.75.106	; draghi
 			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3906	; draghi
 			IN	MX	10 draghi.debian.org.
 git			IN	A	217.196.43.134	; alioth
-			IN	MX	10 wagner-xen1.debian.org.
+			IN	MX	0 .
 ftp		600	IN	A	130.89.149.226  ; kassia
 			IN	MX	0 .
 ;ftp		60	IN	A	64.50.236.52	; ftp-chi.osuosl.org
@@ -70,7 +70,7 @@ ftp.ipv6	600	IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
 ftp-master		IN	A	128.148.34.103	; ries
                         IN	MX	10 ries.debian.org.
 hg			IN	A	217.196.43.134	; alioth
-			IN	MX	10 wagner-xen1.debian.org.
+			IN	MX	0 .
 incoming		IN	A	128.148.34.103	; ries
 			IN	MX	0 .
 irc			IN	CNAME	irc.geo.oftc.net.
@@ -145,7 +145,7 @@ security-nagios		IN	MX	0 .
 		300	IN	A	128.101.240.212	; saens
 		300	IN	A	150.203.164.38	; gluck
 svn			IN	A	217.196.43.134	; alioth
-			IN	MX	10 wagner-xen1.debian.org.
+			IN	MX	0 .
 syncproxy.eu		IN	CNAME	ftp.hr.debian.org.
 syncproxy2.eu		IN	CNAME	farbror.acc.umu.se.
 syncproxy.wna	300	IN	A	140.211.166.44	; rietz
