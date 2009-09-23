@@ -474,7 +474,8 @@ ftp		IN	A	161.53.160.11
 $ORIGIN hu.debian.org.
 ftp		IN	CNAME	ftp.fsn.hu.
 $ORIGIN id.debian.org.
-www		IN	CNAME	kambing.vLSM.org.
+www		IN	CNAME	kambing.ui.ac.id.
+;www		IN	CNAME	kambing.vLSM.org.
 $ORIGIN ie.debian.org.
 ftp		IN	CNAME	debian.heanet.ie.  ; Colm MacCarthaigh <colm.maccarthaigh@heanet.ie>
 $ORIGIN is.debian.org.
