@@ -173,7 +173,7 @@ vote			IN	A	70.103.162.29	; master
 wiki			IN	A	93.94.130.161	; widor
 			IN	MX	0 .
 women			IN	A	140.211.166.43	; rietz
-			IN	MX	0 .
+			IN	MX	10 ravel
 www			IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
@@ -474,7 +474,8 @@ ftp		IN	A	161.53.160.11
 $ORIGIN hu.debian.org.
 ftp		IN	CNAME	ftp.fsn.hu.
 $ORIGIN id.debian.org.
-www		IN	CNAME	kambing.vLSM.org.
+www		IN	CNAME	kambing.ui.ac.id.
+;www		IN	CNAME	kambing.vLSM.org.
 $ORIGIN ie.debian.org.
 ftp		IN	CNAME	debian.heanet.ie.  ; Colm MacCarthaigh <colm.maccarthaigh@heanet.ie>
 $ORIGIN is.debian.org.
