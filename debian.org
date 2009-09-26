@@ -29,9 +29,9 @@ backports		IN	MX	10 morricone
 backports-master	IN	CNAME	morricone
 backup			IN	CNAME	bartok.debian.org.
 bttracker	600	IN	CNAME	bttracker.acc.umu.se.
-bugs			IN	MX	0 rietz.debian.org.
-		150	IN	A	140.211.166.43	; rietz
-		150	IN	A	137.82.84.77	; duarte
+bugs		300	IN	NS	geo1.debian.org.
+		300	IN	NS	geo2.debian.org.
+		300	IN	NS	geo3.debian.org.
 bugs-rietz		IN	CNAME	rietz
 bugs-master		IN	CNAME	rietz
 bugs-carver		IN	CNAME	carver
@@ -172,7 +172,7 @@ vote			IN	A	70.103.162.29	; master
 wiki			IN	A	93.94.130.161	; widor
 			IN	MX	0 .
 women			IN	A	140.211.166.43	; rietz
-			IN	MX	0 .
+			IN	MX	10 ravel
 www			IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
