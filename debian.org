@@ -154,6 +154,7 @@ small-teams		IN	A	82.195.75.100	; liszt
 			IN	MX	10 liszt.debian.org.
 teams			IN	A	82.195.75.100	; liszt
 			IN	MX	10 liszt.debian.org.
+testing-security	IN	CNAME	soler
 ssh-delayed.upload	IN	CNAME	ravel.debian.org.
 ssh.upload	600	IN	CNAME	ravel.debian.org.
 ftp.upload	60	IN	CNAME	ftp-master.debian.org.	; ries
