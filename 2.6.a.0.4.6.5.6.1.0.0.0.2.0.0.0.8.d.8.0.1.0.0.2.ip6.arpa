@@ -14,3 +14,4 @@ $TTL 8h
 2.0.0.0.0.0.0.0	IN	PTR	wieck.debian.org.
 3.0.0.0.0.0.0.0	IN	PTR	chopin.debian.org.
 4.0.0.0.0.0.0.0	IN	PTR	geo3.debian.org.
+5.0.0.0.0.0.0.0	IN	PTR	soler.debian.org.
