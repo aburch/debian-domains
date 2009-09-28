@@ -204,7 +204,6 @@ kassia-volatile		IN	A	130.89.149.227
 			IN	MX	0 .
 lombardini		IN	A	137.82.84.91
 lucatelli		IN	A	137.82.84.88
-luchesi			IN	A	137.82.84.78
 merkel2			IN	A	192.25.206.71
 oldmaster		IN	A	70.103.162.30
 schein-ilo		IN	A	149.20.20.194
