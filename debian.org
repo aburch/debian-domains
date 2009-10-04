@@ -86,6 +86,7 @@ lists-test		IN	MX	0 liszt.debian.org.
 mirror			IN	A	194.109.137.218	; klecker
 			IN	MX	0 .
 mailout			IN	A	192.25.206.33	; spohr
+			IN	MX	0 spohr.debian.org.
 munin			IN	CNAME	spohr.debian.org.
 nagios			IN	CNAME	spohr2
 nm			IN	A	192.25.206.71	; merkel2
