@@ -148,6 +148,7 @@ security-nagios		IN	MX	0 .
 		300	IN	A	149.20.20.6	; schein
 		300	IN	A	128.101.240.212	; saens
 		300	IN	A	150.203.164.38	; gluck
+security-tracker	IN	CNAME	soler
 svn			IN	A	217.196.43.134	; alioth
 			IN	MX	0 .
 syncproxy.eu		IN	CNAME	ftp.hr.debian.org.
@@ -158,7 +159,6 @@ small-teams		IN	A	82.195.75.100	; liszt
 			IN	MX	10 liszt.debian.org.
 teams			IN	A	82.195.75.100	; liszt
 			IN	MX	10 liszt.debian.org.
-testing-security	IN	CNAME	soler
 ssh-delayed.upload	IN	CNAME	ravel.debian.org.
 ssh.upload	600	IN	CNAME	ravel.debian.org.
 ftp.upload	60	IN	CNAME	ftp-master.debian.org.	; ries
