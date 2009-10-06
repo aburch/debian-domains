@@ -115,6 +115,7 @@ popcon			IN	A	137.82.84.79    ; bellini
 puppet			IN	CNAME	handel
 qa		300	IN	A	192.25.206.16	; merkel
 			IN	MX	10 merkel.debian.org.
+qa-test		300	IN	CNAME	merkel2
 bugs.qa			IN	A	192.25.206.71	; merkel2
 			IN	MX	10 merkel.debian.org.
 packages.qa		IN	A	70.103.162.29	; master
