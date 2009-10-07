@@ -66,7 +66,7 @@ ftp		600	IN	A	130.89.149.226  ; kassia
 ;ftp		60	IN	CNAME	ftp.acc.umu.se.
 ftp.ipv6	600	IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
 		600	IN	AAAA	2001:610:1908:a000::149:226 ; kassia
-		600	IN	AAAA	2001:b68:e212::3 ; Josip Rodin <joy@debian.org>
+		600	IN	AAAA	2001:b68:ff:1::11 ; Josip Rodin <joy@debian.org>
 ftp-master		IN	A	128.148.34.103	; ries
                         IN	MX	10 ries.debian.org.
 hg			IN	A	217.196.43.134	; alioth
@@ -475,7 +475,7 @@ ftp		IN	A	202.134.73.139 ; Anthony Wong <ypwong@debian.org>
 www		IN	A	202.134.73.139 ; Anthony Wong <ypwong@debian.org>
 $ORIGIN hr.debian.org.
 ftp		IN	A	161.53.160.11
-		IN	AAAA	2001:b68:e212::3
+		IN	AAAA	2001:b68:ff:1::11
 $ORIGIN hu.debian.org.
 ftp		IN	CNAME	ftp.fsn.hu.
 $ORIGIN id.debian.org.
