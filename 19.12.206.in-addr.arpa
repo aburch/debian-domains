@@ -1,0 +1,22 @@
+; 19.12.206.in-addr.arpa zone - reverse zone for 206.12.19/24 - debian at UBC/ECE
+
+$TTL 24h
+
+		IN	NS	ns1.debian.org.
+		IN	NS	ns2.debian.org.
+		IN	NS	ns3.debian.org.
+
+; useable is 1-251
+; 252/253 are for hsrp; 254 is gateway
+; hsrp - for when we are dual-homed
+
+; let's keep the addressed synced up with our maintainance network,
+; i.e. if 192.168.1.*5* is ravel-mnt, then 206.12.19.*5* is ravel
+; and maybe 192.168.2.5 is ravel-ilo  -  we are not there yet,
+; for one we only have a single /24 as a mnt network, and if we change
+; that we might as well move to a more unique network.
+
+; keep real hosts below 100 [including kvm domains]
+; keep virtual hosts and/or services above 100
+
+5		IN	PTR	ravel.debian.org.
