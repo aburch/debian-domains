@@ -244,9 +244,7 @@ merulo-console		IN	A	192.168.2.105
 merulo-mp		IN	A	192.168.2.205
 mundy			IN	A	192.168.2.12
 mundy-console		IN	A	192.168.2.112
-paer			IN	A	192.168.2.10
-paer-console		IN	A	192.168.2.102
-paer-gsp		IN	A	192.168.2.202
+paer-console		IN	A	192.168.2.110
 peri			IN	A	192.168.2.8
 peri-console		IN	A	192.168.2.108
 peri-gsp		IN	A	192.168.2.208
