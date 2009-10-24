@@ -20,3 +20,6 @@ $TTL 24h
 ; keep virtual hosts and/or services above 100
 
 5		IN	PTR	ravel.debian.org.
+110		IN	PTR	fano.debian.org.
+111		IN	PTR	finzi.debian.org.
+214		IN	PTR	luchesi.debian.org.
