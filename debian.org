@@ -128,9 +128,8 @@ rt			IN	A	192.25.206.33	; spohr
 			IN	MX	10 spohr.debian.org.
 search			IN	A	128.31.0.51 ; senfl
 			IN	MX	0 .
-security-master		IN	A	194.109.137.218		; klecker
-			IN	AAAA	2001:888:2000:12::2	; klecker
-
+security-master		IN	A	195.20.242.124            ; chopin
+			IN	AAAA	2001:8d8:2:1:6564:a62:0:3 ; chopin
 security		IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
