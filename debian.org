@@ -189,6 +189,7 @@ www.geo			IN	NS	geo1.debian.org. ; zobel, is this zone needed?  -- weasel
 www-master		IN	A	194.109.137.218	; klecker
 			IN	MX	10 klecker.debian.org.
 www-mirror		IN	CNAME	www-master.debian.org.
+www.gluck		IN	CNAME	gluck
 
 video.debconf	300	IN	NS	geo1.debian.org.
 		300	IN	NS	geo2.debian.org.
