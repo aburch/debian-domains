@@ -183,9 +183,6 @@ women			IN	A	140.211.166.43	; rietz
 www			IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
-www.geo			IN	NS	geo1.debian.org. ; zobel, is this zone needed?  -- weasel
-			IN	NS	geo2.debian.org. ; zobel, is this zone needed?  -- weasel
-			IN	NS	geo3.debian.org. ; zobel, is this zone needed?  -- weasel
 www-master		IN	A	194.109.137.218	; klecker
 			IN	MX	10 klecker.debian.org.
 www-mirror		IN	CNAME	www-master.debian.org.
