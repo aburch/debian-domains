@@ -389,13 +389,13 @@ gluck-ilo		IN	A	172.17.4.2
 ;==========
 
 $ORIGIN at.debian.org.
-;ftp	600	IN	CNAME	ftp.debian.at.
-ftp	300	IN	CNAME	kassia-ftp.debian.org.
+ftp	600	IN	CNAME	ftp.debian.at.
+;ftp	300	IN	CNAME	kassia-ftp.debian.org.
 http	300	IN	CNAME	ftp
-;cdimage	600	IN	CNAME	cdimage.debian.at.
-cdimage	300	IN	CNAME	cdimage.debian.org.
-;www	600	IN	CNAME	www.debian.at.
-www	300	IN	CNAME	www.debian.org.
+cdimage	600	IN	CNAME	cdimage.debian.at.
+;cdimage	300	IN	CNAME	cdimage.debian.org.
+www	600	IN	CNAME	www.debian.at.
+;www	300	IN	CNAME	www.debian.org.
 $ORIGIN au.debian.org.
 ;ftp	10m	IN	CNAME	ftp.planetmirror.com.
 ftp		IN	CNAME	mirror.linux.org.au.
