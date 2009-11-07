@@ -400,7 +400,7 @@ $ORIGIN au.debian.org.
 ;ftp	10m	IN	CNAME	ftp.planetmirror.com.
 ftp		IN	CNAME	mirror.linux.org.au.
 www		IN	CNAME	gluck.debian.org.
-;www		IN	CNAME	www.debian.org.
+www		IN	CNAME	www.debian.org.
 ftp.wa		IN	A	218.100.43.30
 ;ftp.wa		IN	CNAME	mirror.linux.org.au.
 $ORIGIN ba.debian.org.
