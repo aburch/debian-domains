@@ -461,7 +461,7 @@ ftp		IN	A	130.230.54.99
 $ORIGIN fr.debian.org.
 ftp		IN	A	212.27.32.66
 ftp2		IN	CNAME	ftp.oleane.net.
-www		IN	A	194.109.137.218
+www		IN	CNAME	www.debian.org.
 $ORIGIN gr.debian.org.
 ftp		IN	CNAME	patroklos.noc.ntua.gr.
 $ORIGIN hk.debian.org.
