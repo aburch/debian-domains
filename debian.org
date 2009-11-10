@@ -31,7 +31,7 @@ backports-master	IN	CNAME	morricone
 backup			IN	CNAME	bartok.debian.org.
 bttracker	600	IN	CNAME	bttracker.acc.umu.se.
 bugs		300	IN	NS	geo1.debian.org.
-		;300	IN	NS	geo2.debian.org.
+		300	IN	NS	geo2.debian.org.
 		300	IN	NS	geo3.debian.org.
 bugs-rietz		IN	CNAME	rietz
 bugs-master		IN	A	140.211.166.43	; rietz
@@ -99,7 +99,7 @@ nm			IN	A	192.25.206.71	; merkel2
 other			IN	A	82.195.75.100	; liszt
 			IN	MX	0 liszt.debian.org.
 packages		IN	NS	geo1.debian.org.
-			;IN	NS	geo2.debian.org.
+			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
 packages-carver		IN	CNAME	carver
 packages-powell		IN	CNAME	powell
@@ -131,10 +131,10 @@ search			IN	A	128.31.0.51 ; senfl
 security-master		IN	A	195.20.242.124            ; chopin
 			IN	AAAA	2001:8d8:2:1:6564:a62:0:3 ; chopin
 security		IN	NS	geo1.debian.org.
-			;IN	NS	geo2.debian.org.
+			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
 security.geo		IN	NS	geo1.debian.org. ; was published for a while, during geodns testing.
-			;IN	NS	geo2.debian.org.
+			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
 security.eu	300	IN	CNAME	security.debian.org.
 security.na	300	IN	CNAME	security.debian.org.
@@ -181,7 +181,7 @@ wiki			IN	A	93.94.130.161	; widor
 women			IN	A	140.211.166.43	; rietz
 			IN	MX	10 ravel
 www			IN	NS	geo1.debian.org.
-			;IN	NS	geo2.debian.org.
+			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
 www-master		IN	A	194.109.137.218	; klecker
 			IN	MX	10 klecker.debian.org.
