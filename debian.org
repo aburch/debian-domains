@@ -479,8 +479,8 @@ ftp		IN	CNAME	ftp.acc.umu.se.
 $ORIGIN it.debian.org.
 ftp		IN	CNAME	ftp.bofh.it.
 $ORIGIN jp.debian.org.
-ftp		IN	CNAME	cdn.debian.or.jp.
-ftp2		IN	CNAME	cdn.debian.or.jp.
+ftp		IN	CNAME	debian.linux.org.tw.
+ftp2		IN	CNAME	ftp
 www		IN	A	202.221.179.45
 $ORIGIN kr.debian.org.
 ftp		IN	CNAME	ftp.kaist.ac.kr.
