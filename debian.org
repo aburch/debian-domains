@@ -279,8 +279,8 @@ smetana-sc		IN	A	192.168.0.2
 
 $ORIGIN debprivate-ubc.debian.org.
 ; iscsi network 
-stabile-iscsi		IN	A	10.0.0.2
-bellini-iscsi		IN	A	10.0.0.3
+stabile-iscsi		IN	A	10.0.0.2	; FIXME: remove after deconfiguring interface on stabile
+bellini-iscsi		IN	A	10.0.0.3	; FIXME: remove after deconfiguring interface on bellini
 giustini-a0-iscsi	IN	A	10.0.0.17
 giustini-a1-iscsi	IN	A	10.0.0.18
 giustini-b0-iscsi	IN	A	10.0.0.19
@@ -296,14 +296,14 @@ strozzi-db8-iscsi	IN	A	10.0.0.218
 
 ; management network
 mcld-console		IN	A	192.168.2.1	; OpenGear CM4008
-kais-console		IN	A	192.168.2.2	; OpenGear CM4008
+kais-console		IN	A	192.168.2.2	; OpenGear CM4148
 ;positron-mnt		IN	A	192.168.2.3	; positron.oftc.net <noc@oftc.net>
 spontini-mnt		IN	A	192.168.2.4
 spontini-console	IN	CNAME	mcld-console
 ravel-mnt		IN	A	192.168.2.5
 ravel-console		IN	CNAME	kais-console
 giustini-mnt		IN	A	192.168.2.6
-;ravel-ilo		IN	A	192.168.2.7	; FIXME
+;ravel-ilo		IN	A	192.168.2.7	; FIXME (pedantism)
 ;lux-mnt		IN	A	192.168.2.8	; lux.oftc.net <noc@oftc.net>
 morricone-mnt		IN	A	192.168.2.9
 paganini-mnt		IN	A	192.168.2.10
@@ -323,6 +323,8 @@ luchesi-iscsi		IN	CNAME	strozzi-db4-iscsi
 dijkstra-mnt		IN	CNAME	strozzi-db8-mnt
 dijkstra-ilo		IN	CNAME	strozzi-db8-ilo
 dijkstra-iscsi		IN	CNAME	strozzi-db8-iscsi
+; switch
+kais-switch		IN	A	192.168.2.97	; NetGear GS748T
 ; remotely managable power distribution units
 kais-pdu02		IN	A	192.168.2.98
 kais-pdu01		IN	A	192.168.2.99
@@ -344,7 +346,7 @@ strozzi-db6-mnt		IN	A	192.168.2.216
 strozzi-db7-mnt		IN	A	192.168.2.217
 strozzi-db8-mnt		IN	A	192.168.2.218
 strozzi-oa1		IN	A	192.168.2.219
-ravel-ilo		IN	A	192.168.2.220	; FIXME should be strozzi-oa2
+ravel-ilo		IN	A	192.168.2.220	; FIXME: should be strozzi-oa2 (pedantism)
 strozzi-db1-ilo		IN	A	192.168.2.221
 strozzi-db2-ilo		IN	A	192.168.2.222
 strozzi-db3-ilo		IN	A	192.168.2.223
