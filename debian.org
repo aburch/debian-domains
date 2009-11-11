@@ -297,24 +297,27 @@ strozzi-db8-iscsi	IN	A	10.0.0.218
 ; management network
 mcld-console		IN	A	192.168.2.1	; OpenGear CM4008
 kais-console		IN	A	192.168.2.2	; OpenGear CM4148
-;positron-mnt		IN	A	192.168.2.3	; positron.oftc.net <noc@oftc.net>
+;ravel-ilo		IN	A	192.168.2.3	; FIXME (pedantism)
 spontini-mnt		IN	A	192.168.2.4
 spontini-console	IN	CNAME	mcld-console
 ravel-mnt		IN	A	192.168.2.5
 ravel-console		IN	CNAME	kais-console
 giustini-mnt		IN	A	192.168.2.6
-;ravel-ilo		IN	A	192.168.2.7	; FIXME (pedantism)
-;lux-mnt		IN	A	192.168.2.8	; lux.oftc.net <noc@oftc.net>
+bellini-mnt		IN	A	192.168.2.7
+cimarosa-mnt		IN	A	192.168.2.8
 morricone-mnt		IN	A	192.168.2.9
 paganini-mnt		IN	A	192.168.2.10
 respighi-mnt		IN	A	192.168.2.11
 vivaldi-mnt		IN	A	192.168.2.12
-bellini-mnt		IN	A	192.168.2.13
-cimarosa-mnt		IN	A	192.168.2.14
+
 lucatelli-mnt		IN	A	192.168.2.15
 corelli-mnt		IN	A	192.168.2.16
 gabrielli-mnt		IN	A	192.168.2.17
 torelli-mnt		IN	A	192.168.2.18
+
+positron-mnt		IN	A	192.168.2.232	; positron.oftc.net <noc@oftc.net>
+lux-mnt			IN	A	192.168.2.233	; lux.oftc.net <noc@oftc.net>
+
 ; luchesi is a BL460c G5 blade in device bay 4 of strozzi
 luchesi-mnt		IN	CNAME	strozzi-db4-mnt
 luchesi-ilo		IN	CNAME	strozzi-db4-ilo
