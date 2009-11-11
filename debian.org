@@ -280,7 +280,6 @@ smetana-sc		IN	A	192.168.0.2
 $ORIGIN debprivate-ubc.debian.org.
 ; iscsi network 
 stabile-iscsi		IN	A	10.0.0.2	; FIXME: remove after deconfiguring interface on stabile
-bellini-iscsi		IN	A	10.0.0.3	; FIXME: remove after deconfiguring interface on bellini
 giustini-a0-iscsi	IN	A	10.0.0.17
 giustini-a1-iscsi	IN	A	10.0.0.18
 giustini-b0-iscsi	IN	A	10.0.0.19
