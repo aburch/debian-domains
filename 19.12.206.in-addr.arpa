@@ -21,6 +21,13 @@ $TTL 24h
 
 5		IN	PTR	ravel.debian.org.
 
+7		IN	PTR	bellini.debian.org.
+8		IN	PTR	cimarosa.debian.org.
+9		IN	PTR	morricone.debian.org.
+10		IN	PTR	paganini.debian.org.
+11		IN	PTR	respighi.debian.org.
+12		IN	PTR	vivaldi.debian.org.
+
 110		IN	PTR	fano.debian.org.
 111		IN	PTR	finzi.debian.org.
 112		IN	PTR	valente.debian.org.
