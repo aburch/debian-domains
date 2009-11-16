@@ -431,8 +431,7 @@ ftp		IN	CNAME	debian.ethz.ch.
 $ORIGIN cl.debian.org.
 ;ftp		IN	CNAME	debian.ciencias.uchile.cl.
 ;ftp	60	IN	CNAME	ftp.osuosl.org.
-;ftp		IN	CNAME	debian.c3sl.ufpr.br. ; ftp.br.debian.org
-ftp		IN	CNAME	debian.netlinux.cl.
+ftp		IN	CNAME	debian.c3sl.ufpr.br. ; ftp.br.debian.org
 $ORIGIN cn.debian.org.
 ;www		IN	CNAME	debian.linuxforum.net.
 www		IN	CNAME	www.debian.org.
