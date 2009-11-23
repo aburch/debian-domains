@@ -1,19 +1,19 @@
 $TTL 1800
 $ORIGIN debian.org.
-			IN	NS	ns1.debian.org.
-			IN	NS	ns2.debian.org.
-			IN	NS	ns3.debian.org.
+		8h	IN	NS	ns1.debian.org.
+		8h	IN	NS	ns2.debian.org.
+		8h	IN	NS	ns3.debian.org.
 			IN	MX	0 master.debian.org.
 	600		IN	A	128.31.0.51	; senfl
 	600		IN	A	194.109.137.218	; klecker
 
 ; we delegate things to ns[123]
-ns1			IN	A	192.25.206.59
-			IN	TXT	"raff"
-ns2			IN	A	140.211.166.43
-			IN	TXT	"rietz"
-ns3			IN	A	194.109.137.218
-			IN	TXT	"klecker"
+ns1		8h	IN	A	192.25.206.59
+		8h	IN	TXT	"raff"
+ns2		8h	IN	A	140.211.166.43
+		8h	IN	TXT	"rietz"
+ns3		8h	IN	A	194.109.137.218
+		8h	IN	TXT	"klecker"
 
 ; services
 ;=========
