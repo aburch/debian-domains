@@ -66,8 +66,10 @@ sub do_update {
 	my ($zonefd, $zonefile) = tempfile(DIR => $OUTDIR);
 
 	for my $file (@zones) {
+		my $zonename = $file 
+		$zonename =~ s/\@/\//;
 		print $zonefd <<EOF;
-zone "$file" {
+zone "$zonename" {
 	type master;
 	file "generated/$file";
 	allow-query { any; };
