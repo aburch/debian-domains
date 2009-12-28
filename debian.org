@@ -31,8 +31,8 @@ backports		IN	MX	10 morricone
 backports-master	IN	CNAME	morricone
 backup			IN	CNAME	bartok.debian.org.
 bttracker		IN	CNAME	bttracker.acc.umu.se.
-;bugs			IN	NS	geo1.debian.org.
-bugs			IN	NS	geo2.debian.org.
+bugs			IN	NS	geo1.debian.org.
+			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
 bugs-rietz		IN	CNAME	rietz
 bugs-master		IN	A	140.211.166.43	; rietz
@@ -63,8 +63,8 @@ db			IN	A	82.195.75.106	; draghi
 			IN	MX	10 draghi.debian.org.
 git			IN	A	217.196.43.134	; alioth
 			IN	MX	0 .
-;ftp		600	IN	NS	geo1.debian.org.
-ftp		600	IN	NS	geo2.debian.org.
+ftp		600	IN	NS	geo1.debian.org.
+		600	IN	NS	geo2.debian.org.
 		600	IN	NS	geo3.debian.org.
 ftp.ipv6	600	IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
 		600	IN	AAAA	2001:610:1908:a000::149:226 ; kassia
@@ -98,8 +98,8 @@ nm			IN	A	192.25.206.71	; merkel2
 			IN	MX	10 merkel.debian.org.
 other			IN	A	82.195.75.100	; liszt
 			IN	MX	0 liszt.debian.org.
-;packages		IN	NS	geo1.debian.org.
-packages		IN	NS	geo2.debian.org.
+packages		IN	NS	geo1.debian.org.
+			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
 packages-carver		IN	CNAME	carver
 packages-powell		IN	CNAME	powell
@@ -130,11 +130,11 @@ search			IN	A	128.31.0.51 ; senfl
 			IN	MX	0 .
 security-master		IN	A	195.20.242.124            ; chopin
 			IN	AAAA	2001:8d8:2:1:6564:a62:0:3 ; chopin
-;security		IN	NS	geo1.debian.org.
-security		IN	NS	geo2.debian.org.
+security		IN	NS	geo1.debian.org.
+			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
-;security.geo		IN	NS	geo1.debian.org. ; was published for a while, during geodns testing.
-security.geo		IN	NS	geo2.debian.org. ; was published for a while, during geodns testing.
+security.geo		IN	NS	geo1.debian.org. ; was published for a while, during geodns testing.
+			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
 security.eu		IN	CNAME	security.debian.org.
 security.na		IN	CNAME	security.debian.org.
@@ -170,8 +170,8 @@ ftp.eu.upload	60	IN	CNAME	kassia.debian.org.
 ;ftp.eu.upload	60	IN	CNAME	ravel.debian.org.
 volatile-master		IN	A	206.12.19.112	; valente
 			IN	MX	0 .
-;volatile	300	IN	NS	geo1.debian.org.
-volatile	300	IN	NS	geo2.debian.org.
+volatile	300	IN	NS	geo1.debian.org.
+		300	IN	NS	geo2.debian.org.
 		300	IN	NS	geo3.debian.org.
 vote			IN	A	70.103.162.29	; master
 			IN	MX	0 master.debian.org.
@@ -179,8 +179,8 @@ wiki			IN	A	93.94.130.161	; widor
 			IN	MX	0 .
 women			IN	A	140.211.166.43	; rietz
 			IN	MX	10 ravel
-;www			IN	NS	geo1.debian.org.
-www			IN	NS	geo2.debian.org.
+www			IN	NS	geo1.debian.org.
+			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
 www-master		IN	A	194.109.137.218	; klecker
 			IN	MX	10 klecker.debian.org.
