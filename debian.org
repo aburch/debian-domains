@@ -8,8 +8,8 @@ $ORIGIN debian.org.
 	600		IN	A	194.109.137.218	; klecker
 
 ; we delegate things to ns[123]
-ns1		8h	IN	A	192.25.206.59
-		8h	IN	TXT	"raff"
+ns1		8h	IN	A	206.12.19.5
+		8h	IN	TXT	"ravel"
 ns2		8h	IN	A	140.211.166.43
 		8h	IN	TXT	"rietz"
 ns3		8h	IN	A	194.109.137.218
