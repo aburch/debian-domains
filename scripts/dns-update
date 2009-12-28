@@ -82,7 +82,7 @@ zone "$zonename" {
 	};
 	also-notify {
 		128.31.0.51; // senfl
-		206.12.19.5; // ravel
+		192.25.206.59; // raff
 	};
 };
 
