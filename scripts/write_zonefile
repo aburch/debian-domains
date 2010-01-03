@@ -71,10 +71,6 @@ sub newserial {
 my $file = shift @ARGV;
 die "Need filename\n" unless length($file);
 
-if (defined $ARGV[0] && length($ARGV[0])) {
-	require $ARGV[0];
-}
-
 my $serial = newserial($file);
 my ($fd, $filename) = tempfile(DIR => $OUTDIR);
 open(INFILE, '<', "$INDIR/$file") or die "Can't open $INDIR/$file: $!\n";
