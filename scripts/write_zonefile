@@ -72,8 +72,8 @@ my $file = shift @ARGV;
 die "Need filename\n" unless length($file);
 
 my $serial = newserial($file);
-my ($fd, $filename) = tempfile(DIR => $OUTDIR);
 open(INFILE, '<', "$INDIR/$file") or die "Can't open $INDIR/$file: $!\n";
+my ($fd, $filename) = tempfile(DIR => $OUTDIR);
 
 print $fd <<EOF;
 \$TTL   $vars{minttl}   ; time to live
@@ -92,5 +92,8 @@ close INFILE;
 chmod(0664, $filename);
 
 system(qw{/usr/sbin/named-checkzone -k fail -n fail -S fail -i full -m fail -M fail}, $file, $filename);
-die("ERROR: checkzone returned errors on zone $file - not updated.\n") if ($CHILD_ERROR >> 8 != 0);
+if ($CHILD_ERROR >> 8 != 0) {
+	unlink $filename;
+	die("ERROR: checkzone returned errors on zone $file - not updated.\n");
+}
 rename $filename, "$OUTDIR/$file";
