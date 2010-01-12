@@ -12,7 +12,4 @@ mirror		IN	NS	ns1.debian.org.
 		IN	NS	ns2.debian.org.
 		IN	NS	ns3.debian.org.
 
-geoip		IN	NS	ned.snow-crash.org.
-		IN	NS	ruprecht.snow-crash.org.
-
 $INCLUDE "/var/lib/misc/draghi.debian.org/dns-zone"
