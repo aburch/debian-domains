@@ -77,6 +77,12 @@ zone "$zonename" {
 		key draghi.debian.org-klecker.debian.org. ;
 		key draghi.debian.org-raff.debian.org. ;
 		key draghi.debian.org-rietz.debian.org. ;
+		key draghi.debian.org-senfl.debian.org. ;
+		key draghi.debian.org-ravel.debian.org. ;
+	};
+	also-notify {
+		128.31.0.51; // senfl
+		192.25.206.59; // raff
 	};
 };
 
