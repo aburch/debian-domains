@@ -1,0 +1,18 @@
+$TTL 3600
+
+$ORIGIN debian.net.
+		IN	NS	ns1.debian.org.
+		IN	NS	ns2.debian.org.
+		IN	NS	ns3.debian.org.
+		IN	MX	10 master.debian.org.
+	3h	IN	A	128.31.0.51	; senfl
+	3h	IN	A	194.109.137.218	; klecer
+
+mirror		IN	NS	ns1.debian.org.
+		IN	NS	ns2.debian.org.
+		IN	NS	ns3.debian.org.
+
+geoip		IN	NS	ned.snow-crash.org.
+		IN	NS	ruprecht.snow-crash.org.
+
+$INCLUDE "/var/lib/misc/draghi.debian.org/dns-zone"
