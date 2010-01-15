@@ -13,8 +13,8 @@ $TTL 24h
 ; 196
 ; 197
 ; 198
-; 199
-; 200
+199	3600	IN	PTR	rautavaara.debian.org.
+200	3600	IN	PTR	grieg.debian.org.
 ; 201
 ; 202
 ; 203
