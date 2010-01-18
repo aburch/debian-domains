@@ -404,8 +404,8 @@ blade9			IN	A	172.22.3.209
 blade0			IN	A	172.22.3.210
 rautavaara-drac		IN	A	172.22.3.11
 grieg-drac		IN	A	172.22.3.12
-blade-drac		IN	A	172.22.3.13
-blade-kvm		IN	A	172.22.3.14
+holst-drac		IN	A	172.22.3.13
+holst-kvm		IN	A	172.22.3.14
 switch-1		IN	A	172.22.4.20 ; different network
 switch-2		IN	A	172.22.3.21
 
