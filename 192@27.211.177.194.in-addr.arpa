@@ -13,18 +13,18 @@ $TTL 24h
 ; 196
 ; 197
 ; 198
-; 199
-; 200
-; 201
-; 202
-; 203
-; 204
+199	3600	IN	PTR	rautavaara.debian.org.
+200	3600	IN	PTR	grieg.debian.org.
+201		IN	PTR	fasch.debian.org.
+202		IN	PTR	field.debian.org.
+203		IN	PTR	barber.debian.org.
+204		IN	PTR	biber.debian.org.
 ; 205
 ; 206
 ; 207
 ; 208
 ; 209
-; 210
+210		IN	PTR	orff.debian.org.
 ; 211
 ; 212
 ; 213
