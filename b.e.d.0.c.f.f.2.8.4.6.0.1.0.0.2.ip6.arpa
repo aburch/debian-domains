@@ -12,5 +12,11 @@ $TTL 8h
 a.f.1.0.4.7.e.f.f.f.2.2.4.1.2.0	IN	PTR	grieg.debian.org.
 6.0.2.0.4.7.e.f.f.f.2.2.4.1.2.0	IN	PTR	rautavaara.debian.org.
 
+8.e.7.1.2.b.e.f.f.f.2.2.4.1.2.0	IN	PTR	holter.debian.org.	; blade2
 0.7.3.2.2.b.e.f.f.f.2.2.4.1.2.0	IN	PTR	barber.debian.org.	; blade3
 8.6.2.1.2.b.e.f.f.f.2.2.4.1.2.0	IN	PTR	biber.debian.org.	; blade4
+4.c.1.1.2.b.e.f.f.f.2.2.4.1.2.0	IN	PTR	cilea.debian.org.	; blade5
+c.2.2.1.2.b.e.f.f.f.2.2.4.1.2.0	IN	PTR	vitry.debian.org.	; blade6
+6.5.f.f.1.b.e.f.f.f.2.2.4.1.2.0	IN	PTR	krenek.debian.org.	; blade7
+0.e.7.1.2.b.e.f.f.f.2.2.4.1.2.0	IN	PTR	scelsi.debian.org.	; blade8
+8.8.1.e.9.6.e.f.f.f.2.7.3.1.2.0	IN	PTR	orff.debian.org.	; blade9
