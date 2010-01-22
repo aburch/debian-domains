@@ -17,14 +17,14 @@ $TTL 24h
 200	3600	IN	PTR	grieg.debian.org.
 
 201		IN	PTR	fasch.debian.org.	; blade1
-;202		IN	PTR	XXX.debian.org.	; blade2
+202		IN	PTR	holter.debian.org.	; blade2
 203		IN	PTR	barber.debian.org.	; blade3
 204		IN	PTR	biber.debian.org.	; blade4
-; 205
-; 206
-; 207
-; 208
-; 209
+205		IN	PTR	lamb.debian.org.	; blade5
+206		IN	PTR	vitry.debian.org.	; blade6
+207		IN	PTR	krenek.debian.org.	; blade7
+208		IN	PTR	reich.debian.org.	; blade8
+209		IN	PTR	orff.debian.org.	; blade9
 210		IN	PTR	field.debian.org.	; blade10
 ; 211
 ; 212
