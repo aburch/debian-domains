@@ -1,4 +1,4 @@
-$TTL 1800
+$TTL 1h
 $ORIGIN debian.org.
 		8h	IN	NS	ns1.debian.org.
 		8h	IN	NS	ns2.debian.org.
