@@ -3,6 +3,7 @@ $ORIGIN debian.org.
 		8h	IN	NS	ns1.debian.org.
 		8h	IN	NS	ns2.debian.org.
 		8h	IN	NS	ns3.debian.org.
+		8h	IN	NS	ns4.debian.com.
 			IN	MX	0 master.debian.org.
 	600		IN	A	128.31.0.51	; senfl
 	600		IN	A	194.109.137.218	; klecker
