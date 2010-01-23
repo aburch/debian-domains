@@ -102,7 +102,7 @@ other			IN	A	82.195.75.100	; liszt
 packages		IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
-packages-carver		IN	CNAME	carver
+packages-holter		IN	CNAME	holter
 packages-powell		IN	CNAME	powell
 packages-powell-stats	IN	CNAME	powell
 packages-rore		IN	CNAME	rore
