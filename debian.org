@@ -1,12 +1,12 @@
-$TTL 1800
+$TTL 1h
 $ORIGIN debian.org.
 		8h	IN	NS	ns1.debian.org.
 		8h	IN	NS	ns2.debian.org.
 		8h	IN	NS	ns3.debian.org.
 		8h	IN	NS	ns4.debian.com.
 			IN	MX	0 master.debian.org.
-	600		IN	A	128.31.0.51	; senfl
-	600		IN	A	194.109.137.218	; klecker
+			IN	A	128.31.0.51	; senfl
+			IN	A	194.109.137.218	; klecker
 
 ; we delegate things to ns[123]
 ns1		8h	IN	A	206.12.19.5
@@ -69,9 +69,9 @@ git			IN	A	217.196.43.134	; alioth
 ftp		600	IN	NS	geo1.debian.org.
 		600	IN	NS	geo2.debian.org.
 		600	IN	NS	geo3.debian.org.
-ftp.ipv6	600	IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
-		600	IN	AAAA	2001:610:1908:a000::149:226 ; kassia
-		600	IN	AAAA	2001:b68:ff:1::11 ; Josip Rodin <joy@debian.org>
+ftp.ipv6		IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
+			IN	AAAA	2001:610:1908:a000::149:226 ; kassia
+			IN	AAAA	2001:b68:ff:1::11 ; Josip Rodin <joy@debian.org>
 ftp-master		IN	A	128.148.34.103	; ries
                         IN	MX	10 ries.debian.org.
 hg			IN	A	217.196.43.134	; alioth
@@ -83,7 +83,7 @@ irc6			IN	CNAME	irc6.geo.oftc.net.
 irc.ipv6		IN	CNAME	irc6.geo.oftc.net.
 keyring			IN	CNAME	kaufmann
 ;			IN	A	192.25.206.59   ; raff
-lintian		60	IN	A	137.82.84.79	; bellini
+lintian			IN	A	137.82.84.79	; bellini
 			IN	MX	0 .
 lists			IN	A	82.195.75.100	; liszt
 			IN	MX	0 liszt.debian.org.
@@ -115,7 +115,7 @@ patch-tracker		IN	CNAME	respighi
 piuparts		IN	CNAME	piatti
 planet			IN	A	128.31.0.51	; senfl
 			IN	MX	0 .
-popcon		60	IN	A	137.82.84.79    ; bellini
+popcon			IN	A	137.82.84.79    ; bellini
 			IN	MX	10 bellini.debian.org.
 puppet			IN	CNAME	handel
 qa			IN	A	192.25.206.71	; merkel2
@@ -144,14 +144,14 @@ security.na		IN	CNAME	security.debian.org.
 security.us		IN	CNAME	security.debian.org.
 security.ipv6		IN	CNAME	security.debian.org.
 security-nagios		IN	MX	0 .
-		300	IN	A	212.211.132.32	; villa
-		300	IN	A	212.211.132.250	; lobos
-		300	IN	A	128.31.0.36	; steffani
-		300	IN	A	130.89.149.225	; kassia (security)
-		300	IN	A	195.20.242.89	; wieck
-		300	IN	A	149.20.20.6	; schein
-		300	IN	A	128.101.240.212	; saens
-		300	IN	A	150.203.164.38	; gluck
+			IN	A	212.211.132.32	; villa
+			IN	A	212.211.132.250	; lobos
+			IN	A	128.31.0.36	; steffani
+			IN	A	130.89.149.225	; kassia (security)
+			IN	A	195.20.242.89	; wieck
+			IN	A	149.20.20.6	; schein
+			IN	A	128.101.240.212	; saens
+			IN	A	150.203.164.38	; gluck
 security-tracker	IN	CNAME	soler
 svn			IN	A	217.196.43.134	; alioth
 			IN	MX	0 .
@@ -164,7 +164,7 @@ small-teams		IN	A	82.195.75.100	; liszt
 teams			IN	A	82.195.75.100	; liszt
 			IN	MX	10 liszt.debian.org.
 ssh-delayed.upload	IN	CNAME	ravel.debian.org.
-ssh.upload	600	IN	CNAME	ravel.debian.org.
+ssh.upload		IN	CNAME	ravel.debian.org.
 ftp.upload	60	IN	CNAME	ftp-master.debian.org.	; ries
 ;ftp.upload	60	IN	CNAME	ravel.debian.org.
 ;ftp.upload	60	IN	CNAME	kassia.debian.org.
@@ -173,9 +173,9 @@ ftp.eu.upload	60	IN	CNAME	kassia.debian.org.
 ;ftp.eu.upload	60	IN	CNAME	ravel.debian.org.
 volatile-master		IN	A	206.12.19.112	; valente
 			IN	MX	0 .
-volatile	300	IN	NS	geo1.debian.org.
-		300	IN	NS	geo2.debian.org.
-		300	IN	NS	geo3.debian.org.
+volatile		IN	NS	geo1.debian.org.
+			IN	NS	geo2.debian.org.
+			IN	NS	geo3.debian.org.
 vote			IN	A	70.103.162.29	; master
 			IN	MX	0 master.debian.org.
 wiki			IN	A	93.94.130.161	; widor
@@ -416,12 +416,12 @@ switch-2		IN	A	172.22.3.21
 ;==========
 
 $ORIGIN at.debian.org.
-ftp	600	IN	CNAME	ftp.debian.at.
+ftp		IN	CNAME	ftp.debian.at.
 ;ftp	300	IN	CNAME	kassia-ftp.debian.org.
-http	300	IN	CNAME	ftp
-cdimage	600	IN	CNAME	cdimage.debian.at.
+http		IN	CNAME	ftp
+cdimage		IN	CNAME	cdimage.debian.at.
 ;cdimage	300	IN	CNAME	cdimage.debian.org.
-www	600	IN	CNAME	www.debian.at.
+www		IN	CNAME	www.debian.at.
 ;www	300	IN	CNAME	www.debian.org.
 $ORIGIN au.debian.org.
 ;ftp	10m	IN	CNAME	ftp.planetmirror.com.
@@ -469,13 +469,13 @@ $ORIGIN cz.debian.org.
 ;ftp		IN	CNAME	www.debian.cz.
 ftp		IN	A	195.113.161.73
 $ORIGIN de.debian.org.
-ftp	300	IN	A	141.76.2.4
+ftp		IN	A	141.76.2.4
 ;ftp	300	IN	CNAME	kassia-ftp.debian.org.
 ftp1		IN	CNAME	ftp
 ftp2		IN	CNAME	source.rfc822.org.
 ;ftp2	300	IN	A	194.8.197.20 ; mirror.netcologne.de
 upload		IN	A	131.188.3.71
-www	300	IN	A	141.76.2.5
+www		IN	A	141.76.2.5
 $ORIGIN dk.debian.org.
 ftp		IN	CNAME	mirrors.dotsrc.org.
 $ORIGIN ee.debian.org.
