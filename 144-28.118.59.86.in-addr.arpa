@@ -6,7 +6,7 @@ $TTL 24h
 		IN	NS	ns2.debian.org.
 		IN	NS	ns3.debian.org.
 
-;144
+144		IN	PTR	beethoven.debian.org.
 ;145
 ;146
 ;147
