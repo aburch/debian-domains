@@ -412,6 +412,18 @@ holst-kvm		IN	A	172.22.3.14
 switch-1		IN	A	172.22.4.20 ; different network
 switch-2		IN	A	172.22.3.21
 
+$ORIGIN debprivate-sil.debian.org.
+console			IN	A	172.22.127.5
+front			IN	A	172.22.127.6 ; switch
+rear			IN	A	172.22.127.7 ; switch
+cisco1			IN	A	172.22.127.8 ; switch
+
+asteria-mnt		IN	A	172.22.127.10
+anguilla-drac		IN	A	172.22.127.21
+anguilla-mnt		IN	A	172.22.127.22
+beethoven-ilo		IN	A	172.22.127.102
+beethoven-mnt		IN	A	172.22.127.146
+
 ; countries
 ;==========
 
