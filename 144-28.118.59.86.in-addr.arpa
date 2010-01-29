@@ -6,18 +6,17 @@ $TTL 24h
 		IN	NS	ns2.debian.org.
 		IN	NS	ns3.debian.org.
 
-;144
-;145
-146	10m	IN	PTR	paulus.noreply.org.
-147	10m	IN	PTR	asterisk.noreply.org.
-148		IN	PTR	squalo.noreply.org.	; weasel, maxx
-149	10m	IN	PTR	bilbao.flexserv.de.
-150	10m	IN	PTR	dbserv.noreply.org.
+;144 NETWORK
+;145 GATEWAY
+146		IN	PTR	beethoven.debian.org.
+;147
+;148
+;149
+;150
 ;151
 ;152		IN	PTR	anguilla.debian.or.at.	; weasel, maxx, rhonda, etc
 153		IN	PTR	asteria.debian.or.at.	; weasel, maxx, rhonda, etc
 154		IN	PTR	orata.noreply.org.	; weasel, maxx, rhonda, etc
-
 ;153
 ;154
 ;155
@@ -25,3 +24,5 @@ $TTL 24h
 ;157
 ;158
 ;159
+
+; vim:syn=dns
