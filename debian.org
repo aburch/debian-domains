@@ -96,8 +96,7 @@ mailout			IN	A	192.25.206.33	; spohr
 			IN	MX	0 spohr.debian.org.
 			IN	MX	0 draghi.debian.org.
 munin			IN	CNAME	spohr.debian.org.
-nagios			IN	CNAME	spohr2
-nagios2			IN	CNAME	tchaikovsky
+nagios			IN	CNAME	tchaikovsky
 nm			IN	A	192.25.206.71	; merkel2
 			IN	MX	10 merkel.debian.org.
 other			IN	A	82.195.75.100	; liszt
