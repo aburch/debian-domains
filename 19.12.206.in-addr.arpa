@@ -36,6 +36,7 @@ $TTL 24h
 115		IN	PTR	brahms.debian.org.
 116		IN	PTR	wolkenstein.debian.org.
 117		IN	PTR	alioth-test.debian.org.
+118		IN	PTR	tchaikovsky.debian.org.
 
 214		IN	PTR	luchesi.debian.org.
 218		IN	PTR	dijkstra.debian.org.
