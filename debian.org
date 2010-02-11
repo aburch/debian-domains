@@ -321,7 +321,7 @@ corelli-mnt		IN	A	192.168.2.16
 gabrielli-mnt		IN	A	192.168.2.17
 torelli-mnt		IN	A	192.168.2.18
 
-positron-mnt		IN	A	192.168.2.232	; positron.oftc.net <noc@oftc.net>
+positron-mnt		IN	A	192.168.2.241	; positron.oftc.net <noc@oftc.net>
 lux-mnt			IN	A	192.168.2.233	; lux.oftc.net <noc@oftc.net>
 
 ; luchesi is a BL460c G5 blade in device bay 4 of strozzi
