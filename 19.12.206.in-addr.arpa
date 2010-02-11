@@ -40,3 +40,5 @@ $TTL 24h
 
 214		IN	PTR	luchesi.debian.org.
 218		IN	PTR	dijkstra.debian.org.
+
+241		IN	PTR	positron.oftc.net.
