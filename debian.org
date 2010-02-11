@@ -208,7 +208,6 @@ lucatelli		IN	A	137.82.84.88
 merkel2			IN	A	192.25.206.71
 oldmaster		IN	A	70.103.162.30
 schein-ilo		IN	A	149.20.20.194
-spohr2			IN	A	192.25.206.38
 torelli			IN	A	137.82.84.85
 tozzi			IN	A	137.82.84.75
 gw-grnet		IN	A	194.177.211.193
