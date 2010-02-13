@@ -314,6 +314,7 @@ morricone-mnt		IN	A	192.168.2.9
 paganini-mnt		IN	A	192.168.2.10
 respighi-mnt		IN	A	192.168.2.11
 vivaldi-mnt		IN	A	192.168.2.12
+stabile-mnt		IN	A	192.168.2.13
 
 lucatelli-mnt		IN	A	192.168.2.15
 corelli-mnt		IN	A	192.168.2.16
