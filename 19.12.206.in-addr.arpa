@@ -19,8 +19,12 @@ $TTL 24h
 ; keep real hosts below 100 [including kvm domains]
 ; keep virtual hosts and/or services above 100
 
+; 1 reserved (mcld-console)
+; 2 reserved (kais-console)
+; 3
+; 4
 5		IN	PTR	ravel.debian.org.
-
+; 6 reserved (giustini-mnt)
 7		IN	PTR	bellini.debian.org.
 8		IN	PTR	cimarosa.debian.org.
 9		IN	PTR	morricone.debian.org.
@@ -29,6 +33,10 @@ $TTL 24h
 12		IN	PTR	vivaldi.debian.org.
 13		IN	PTR	stabile.debian.org.
 14		IN	PTR	spontini.debian.org.
+; 15 lucatelli
+; 16 corelli
+; 17 gabrielli
+; 18 torelli
 
 110		IN	PTR	fano.debian.org.
 111		IN	PTR	finzi.debian.org.
