@@ -303,7 +303,6 @@ strozzi-db8-iscsi	IN	A	10.0.0.218
 mcld-console		IN	A	192.168.2.1	; OpenGear CM4008
 kais-console		IN	A	192.168.2.2	; OpenGear CM4148
 ;ravel-ilo		IN	A	192.168.2.3	; FIXME (pedantism)
-spontini-mnt		IN	A	192.168.2.4
 spontini-console	IN	CNAME	mcld-console
 ravel-mnt		IN	A	192.168.2.5
 ravel-console		IN	CNAME	kais-console
@@ -315,6 +314,7 @@ paganini-mnt		IN	A	192.168.2.10
 respighi-mnt		IN	A	192.168.2.11
 vivaldi-mnt		IN	A	192.168.2.12
 stabile-mnt		IN	A	192.168.2.13
+spontini-mnt		IN	A	192.168.2.14
 
 lucatelli-mnt		IN	A	192.168.2.15
 corelli-mnt		IN	A	192.168.2.16
