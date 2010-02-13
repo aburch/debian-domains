@@ -192,8 +192,6 @@ www.gluck		IN	CNAME	gluck
 
 ; hosts
 ;======
-gabrielli		IN	A	137.82.84.87
-frescobaldi		IN	A	137.82.84.90
 kassia-sec		IN	A	130.89.149.225
 			IN	AAAA	2001:610:1908:a000::149:225
 			IN	MX	0 .
@@ -203,13 +201,9 @@ kassia-ftp		IN	A	130.89.149.226
 kassia-volatile		IN	A	130.89.149.227
 			IN	AAAA	2001:610:1908:a000::149:227 ; kassia
 			IN	MX	0 .
-lombardini		IN	A	137.82.84.91
-lucatelli		IN	A	137.82.84.88
 merkel2			IN	A	192.25.206.71
 oldmaster		IN	A	70.103.162.30
 schein-ilo		IN	A	149.20.20.194
-torelli			IN	A	137.82.84.85
-tozzi			IN	A	137.82.84.75
 gw-grnet		IN	A	194.177.211.193
 			IN	AAAA	2001:648:2ffc:deb::1
 
@@ -218,6 +212,13 @@ wagner-xen2		IN	A	217.196.43.135
 wagner-xen3		IN	A	217.196.43.136
 
 
+; mispen at luca's.  Not yet set up - IP addresses no longer valid
+; gabrielli		IN	A	137.82.84.87
+; frescobaldi		IN	A	137.82.84.90
+; lombardini		IN	A	137.82.84.91
+; lucatelli		IN	A	137.82.84.88
+; torelli			IN	A	137.82.84.85
+; tozzi			IN	A	137.82.84.75
 
 ; mgmt networks
 ;==============
