@@ -11,8 +11,10 @@ $ORIGIN debian.org.
 ; we delegate things to ns[123]
 ns1		8h	IN	A	206.12.19.5
 		8h	IN	TXT	"ravel"
-ns2		8h	IN	A	140.211.166.43
-		8h	IN	TXT	"rietz"
+;ns2		8h	IN	A	140.211.166.43
+;		8h	IN	TXT	"rietz"
+ns2		8h	IN	A	128.31.0.51
+		8h	IN	TXT	"senfl"
 ns3		8h	IN	A	194.109.137.218
 		8h	IN	AAAA	2001:888:2000:12::2
 		8h	IN	TXT	"klecker"
