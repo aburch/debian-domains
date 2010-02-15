@@ -155,6 +155,7 @@ security-nagios		IN	MX	0 .
 			IN	A	128.101.240.212	; saens
 			IN	A	150.203.164.38	; gluck
 security-tracker	IN	CNAME	soler
+snapshot-dev		IN	CNAME	stabile
 svn			IN	A	217.196.43.134	; alioth
 			IN	MX	0 .
 syncproxy.eu		IN	CNAME	ftp.hr.debian.org.
