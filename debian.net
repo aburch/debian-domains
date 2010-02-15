@@ -1,4 +1,4 @@
-$TTL 8h
+; wzf: dnssec = 1
 
 $ORIGIN debian.net.
 		IN	NS	ns1.debian.org.
