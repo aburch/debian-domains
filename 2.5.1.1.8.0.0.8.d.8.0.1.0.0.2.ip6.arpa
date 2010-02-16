@@ -1,3 +1,5 @@
+; wzf: dnssec = 1
+
 ; 2.5.1.1.8.0.0.8.d.8.0.1.0.0.2.ip6.arpa - reverse for 2001:08d8:0081:1520/60
 
 		IN	NS	ns1.debian.org.
