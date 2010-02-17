@@ -1,6 +1,7 @@
 ; 192-27.211.177.194.in-addr.arpa zone - reverse zone for 194.177.211.192/27
+; wzf: dnssec = 1
 
-$TTL 24h
+$TTL 12h
 
 		IN	NS	ns1.debian.org.
 		IN	NS	ns2.debian.org.
