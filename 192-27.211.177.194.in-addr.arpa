@@ -2,8 +2,6 @@
 ; wzf: dnssec = 1
 ; dlv-submit = yes
 
-dlv.192-27.211.177.194.in-addr.arpa. 0 IN TXT "DLV:1:vjkhfzceuyjw"
-
 $TTL 12h
 
 @		IN	NS	ns1.debian.org.
