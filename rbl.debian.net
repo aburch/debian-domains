@@ -1,8 +1,13 @@
+
 $ORIGIN rbl.debian.net.
-	3600	IN	NS	samosa.debian.org.
-	3600	IN	NS	master.debian.org.
-	3600	IN	NS	murphy.debian.org.
-	3600	IN	NS	spohr.debian.org.
+
+@	8h	IN	NS	ns1.debian.org.
+@	8h	IN	NS	ns2.debian.org.
+@	8h	IN	NS	ns3.debian.org.
+@	8h	IN	NS	ns4.debian.com.
+
+$TTL 2h
+
 korea.com       IN      TXT     "registration required [05/11/09 RM]"
                 IN      A       127.0.0.2
 naver.com       IN      TXT     "your spam is not wanted here [05/11/09 RM]"
