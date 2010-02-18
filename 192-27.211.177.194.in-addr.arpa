@@ -2,12 +2,14 @@
 ; wzf: dnssec = 1
 ; dlv-submit = yes
 
+192-27.211.177.194.in-addr.arpa. 0 IN TXT "DLV:1:achwzchsgpge"
+
 $TTL 12h
 
-		IN	NS	ns1.debian.org.
-		IN	NS	ns2.debian.org.
-		IN	NS	ns3.debian.org.
-		IN	NS	ns4.debian.com.
+@		IN	NS	ns1.debian.org.
+@		IN	NS	ns2.debian.org.
+@		IN	NS	ns3.debian.org.
+@		IN	NS	ns4.debian.com.
 
 ; 192	NOT USABLE
 193	3600	IN	PTR	gw-grnet.debian.org.
@@ -42,3 +44,5 @@ $TTL 12h
 ; 221
 ; 222
 ; 223	NOT USABLE
+
+; vim:syn=dns

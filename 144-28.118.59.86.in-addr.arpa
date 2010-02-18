@@ -1,13 +1,14 @@
+; 144-28.118.59.86.in-addr.arpa zone - reverse zone for 86.59.118.144/28
 ; wzf: dnssec = 1
 ; dlv-submit = yes
 
-; 144-28.118.59.86.in-addr.arpa zone - reverse zone for 86.59.118.144/28
+144-28.118.59.86.in-addr.arpa. 0 IN TXT "DLV:1:jroanpqkeiww"
 
 $TTL 24h
 
-		IN	NS	ns1.debian.org.
-		IN	NS	ns2.debian.org.
-		IN	NS	ns3.debian.org.
+@		IN	NS	ns1.debian.org.
+@		IN	NS	ns2.debian.org.
+@		IN	NS	ns3.debian.org.
 
 ;144 NETWORK
 ;145 GATEWAY
