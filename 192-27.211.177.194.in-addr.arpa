@@ -2,7 +2,7 @@
 ; wzf: dnssec = 1
 ; dlv-submit = yes
 
-192-27.211.177.194.in-addr.arpa. 0 IN TXT "DLV:1:vjkhfzceuyjw"
+192-27.211.177.194.in-addr.arpa. 30 IN TXT "DLV:1:vjkhfzceuyjw"
 
 $TTL 12h
 

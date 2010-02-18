@@ -2,7 +2,7 @@
 ; wzf: dnssec = 1
 ; dlv-submit = yes
 
-144-28.118.59.86.in-addr.arpa. 0 IN TXT "DLV:1:qrftwhvrnxlf"
+144-28.118.59.86.in-addr.arpa. 30 IN TXT "DLV:1:qrftwhvrnxlf"
 
 $TTL 24h
 
