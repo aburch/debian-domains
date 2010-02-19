@@ -24,6 +24,4 @@ c.2.2.1.2.b.e.f.f.f.2.2.4.1.2.0	IN	PTR	vitry.debian.org.	; blade6
 0.e.7.1.2.b.e.f.f.f.2.2.4.1.2.0	IN	PTR	scelsi.debian.org.	; blade8
 8.8.1.e.9.6.e.f.f.f.2.7.3.1.2.0	IN	PTR	orff.debian.org.	; blade9
 
-$INCLUDE "/srv/dns.debian.org/dlv-sync/cookies"
-
 ; vim:syn=dns

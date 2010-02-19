@@ -12,6 +12,5 @@ $TTL 8h
 ; 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		IN PTR	klecker-gw.debian.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		IN PTR	klecker.debian.org.
 
-$INCLUDE "/srv/dns.debian.org/dlv-sync/cookies"
 
 ; vim:set syn=dns:
