@@ -1,4 +1,5 @@
 ; wzf: dnssec = 1
+; dlv-submit = yes
 
 $ORIGIN debian.com.
 @		IN	NS	ns1.debian.org.

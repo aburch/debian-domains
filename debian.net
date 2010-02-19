@@ -1,4 +1,5 @@
 ; wzf: dnssec = 1
+; dlv-submit = yes
 
 $TTL 8h
 $ORIGIN debian.net.
