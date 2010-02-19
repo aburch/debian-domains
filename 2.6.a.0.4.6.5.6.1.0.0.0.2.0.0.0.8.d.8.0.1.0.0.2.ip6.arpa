@@ -19,4 +19,6 @@ $TTL 8h
 4.0.0.0.0.0.0.0	IN	PTR	geo3.debian.org.
 5.0.0.0.0.0.0.0	IN	PTR	soler.debian.org.
 
+$INCLUDE "/srv/dns.debian.org/dlv-sync/cookies"
+
 ; vim:syn=dns

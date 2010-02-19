@@ -9,4 +9,6 @@
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN PTR	powell.debian.org.
 
+$INCLUDE "/srv/dns.debian.org/dlv-sync/cookies"
+
 ; vim:syn=dns
