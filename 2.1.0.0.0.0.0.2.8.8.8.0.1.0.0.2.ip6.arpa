@@ -1,6 +1,7 @@
 ; 2.1.0.0.0.0.0.2.8.8.8.0.1.0.0.2.ip6.arpa - reverse for 2001:888:2000:12::/64 at klecker.debian.org
 
 ; wzf: dnssec = 1
+; dlv-submit = yes
 
 $TTL 8h
 

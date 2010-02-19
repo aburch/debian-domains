@@ -3,6 +3,7 @@
 ; addresses out of 2001:8d8:2:1:6564:0a62::/96 at will.
 
 ; wzf: dnssec = 1
+; dlv-submit = yes
 
 $TTL 24h
 

@@ -1,6 +1,7 @@
 ; b.e.d.0.c.f.f.2.8.4.6.0.1.0.0.2.ip6.arpa - reverse for 2001:648:2ffc:deb::/64 at grnet in athene
 
 ; wzf: dnssec = 1
+; dlv-submit = yes
 
 $TTL 24h
 
