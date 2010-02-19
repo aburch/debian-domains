@@ -1,4 +1,5 @@
 ; wzf: dnssec = 1
+; ds-in-parent = yes
 
 $ORIGIN rbl.debian.net.
 
