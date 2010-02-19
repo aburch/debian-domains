@@ -1,8 +1,6 @@
 ; wzf: dnssec = 1
 ; dlv-submit = yes
 
-dlv.debian.com. 0 IN TXT "DLV:1:guigyjdgabns"
-
 $ORIGIN debian.com.
 @		IN	NS	ns1.debian.org.
 @		IN	NS	ns2.debian.org.
