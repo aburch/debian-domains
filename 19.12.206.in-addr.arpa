@@ -1,4 +1,5 @@
 ; wzf: dnssec = 1
+; dlv-submit = yes
 
 ; 19.12.206.in-addr.arpa zone - reverse zone for 206.12.19/24 - debian at UBC/ECE
 
@@ -56,3 +57,5 @@ $TTL 24h
 241		IN	PTR	positron.oftc.net.
 242		IN	PTR	irc.geo.oftc.net. ; on positron
 243		IN	PTR	lux.oftc.net.
+
+; vim:syn=dns
