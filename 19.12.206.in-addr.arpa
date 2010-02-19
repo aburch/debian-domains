@@ -7,6 +7,7 @@ $TTL 24h
 @		IN	NS	ns1.debian.org.
 @		IN	NS	ns2.debian.org.
 @		IN	NS	ns3.debian.org.
+@		IN	NS	ns4.debian.com.
 
 ; useable is 1-251
 ; 252/253 are for hsrp; 254 is gateway
