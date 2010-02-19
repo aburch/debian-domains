@@ -5,9 +5,9 @@
 
 $TTL 8h
 
-		IN	NS	ns1.debian.org.
-		IN	NS	ns2.debian.org.
-		IN	NS	ns3.debian.org.
+@		IN	NS	ns1.debian.org.
+@		IN	NS	ns2.debian.org.
+@		IN	NS	ns3.debian.org.
 
 ; 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		IN PTR	klecker-gw.debian.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		IN PTR	klecker.debian.org.

@@ -1,12 +1,12 @@
 $TTL 1h
 $ORIGIN debian.org.
-		8h	IN	NS	ns1.debian.org.
-		8h	IN	NS	ns2.debian.org.
-		8h	IN	NS	ns3.debian.org.
-		8h	IN	NS	ns4.debian.com.
-			IN	MX	0 master.debian.org.
-			IN	A	128.31.0.51	; senfl
-			IN	A	194.109.137.218	; klecker
+@		8h	IN	NS	ns1.debian.org.
+@		8h	IN	NS	ns2.debian.org.
+@		8h	IN	NS	ns3.debian.org.
+@		8h	IN	NS	ns4.debian.com.
+@			IN	MX	0 master.debian.org.
+@			IN	A	128.31.0.51	; senfl
+@			IN	A	194.109.137.218	; klecker
 
 ; we delegate things to ns[123]
 ns1		8h	IN	A	206.12.19.5

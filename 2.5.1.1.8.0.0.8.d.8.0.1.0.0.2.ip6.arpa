@@ -3,9 +3,9 @@
 ; wzf: dnssec = 1
 ; dlv-submit = yes
 
-		IN	NS	ns1.debian.org.
-		IN	NS	ns2.debian.org.
-		IN	NS	ns3.debian.org.
+@		IN	NS	ns1.debian.org.
+@		IN	NS	ns2.debian.org.
+@		IN	NS	ns3.debian.org.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN PTR	powell.debian.org.
 
