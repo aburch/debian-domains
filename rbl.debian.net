@@ -1,3 +1,4 @@
+; wzf: dnssec = 1
 
 $ORIGIN rbl.debian.net.
 
