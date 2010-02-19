@@ -16,3 +16,5 @@ www		IN	CNAME	www.debian.org.
 ns4		IN	A	194.177.211.209
 		IN	AAAA	2001:648:2ffc:deb:213:72ff:fe69:e188
 		IN	TXT	"orff"
+
+; vim:syn=dns

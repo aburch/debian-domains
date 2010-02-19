@@ -23,3 +23,5 @@ $INCLUDE "dsset-rbl.debian.net."
 
 $TTL 1h
 $INCLUDE "/var/lib/misc/draghi.debian.org/dns-zone"
+
+; vim:syn=dns

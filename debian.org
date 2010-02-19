@@ -597,3 +597,5 @@ www		IN	CNAME	www.leg.uct.ac.za.
 
 ; SSH FP
 $INCLUDE "/var/lib/misc/draghi.debian.org/dns-sshfp"
+
+; vim:syn=dns
