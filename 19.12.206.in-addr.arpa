@@ -1,9 +1,6 @@
+; 19.12.206.in-addr.arpa zone - reverse zone for 206.12.19/24 - debian at UBC/ECE
 ; wzf: dnssec = 1
 ; dlv-submit = yes
-
-dlv.19.12.206.in-addr.arpa. 0 IN TXT "DLV:1:bryxfbnzrnew"
-
-; 19.12.206.in-addr.arpa zone - reverse zone for 206.12.19/24 - debian at UBC/ECE
 
 $TTL 24h
 
