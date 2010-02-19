@@ -7,9 +7,9 @@ dlv.19.12.206.in-addr.arpa. 0 IN TXT "DLV:1:bryxfbnzrnew"
 
 $TTL 24h
 
-		IN	NS	ns1.debian.org.
-		IN	NS	ns2.debian.org.
-		IN	NS	ns3.debian.org.
+@		IN	NS	ns1.debian.org.
+@		IN	NS	ns2.debian.org.
+@		IN	NS	ns3.debian.org.
 
 ; useable is 1-251
 ; 252/253 are for hsrp; 254 is gateway
