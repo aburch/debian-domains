@@ -3,7 +3,7 @@ $ORIGIN debian.org.
 @		8h	IN	NS	ns1.debian.org.
 @		8h	IN	NS	ns2.debian.org.
 @		8h	IN	NS	ns3.debian.org.
-@		8h	IN	NS	ns4.debian.com.
+@		8h	IN	NS	ns4.debian.com. ; orff
 @			IN	MX	0 master.debian.org.
 @			IN	A	128.31.0.51	; senfl
 @			IN	A	194.109.137.218	; klecker
@@ -11,8 +11,6 @@ $ORIGIN debian.org.
 ; we delegate things to ns[123]
 ns1		8h	IN	A	206.12.19.5
 		8h	IN	TXT	"ravel"
-;ns2		8h	IN	A	140.211.166.43
-;		8h	IN	TXT	"rietz"
 ns2		8h	IN	A	128.31.0.51
 		8h	IN	TXT	"senfl"
 ns3		8h	IN	A	194.109.137.218
@@ -293,7 +291,7 @@ smetana-sc		IN	A	192.168.0.2
 
 
 $ORIGIN debprivate-ubc.debian.org.
-; iscsi network 
+; iscsi network
 stabile-iscsi		IN	A	10.0.0.2	; FIXME: remove after deconfiguring interface on stabile
 giustini-a0-iscsi	IN	A	10.0.0.17
 giustini-a1-iscsi	IN	A	10.0.0.18
