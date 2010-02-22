@@ -435,6 +435,10 @@ anguilla-mnt		IN	A	172.22.127.22
 beethoven-ilo		IN	A	172.22.127.102
 beethoven-mnt		IN	A	172.22.127.146
 
+$ORIGIN debprivate-accumu.debian.org.
+praetorius-mnt		IN	A	172.21.101.1
+pettersson-ilo		IN	A	172.21.101.10
+
 ; countries
 ;==========
 
