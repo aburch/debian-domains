@@ -2,6 +2,10 @@
 ; wzf: dnssec = 1
 ; dlv-submit = yes
 
+
+dlv.debian.org. 0 IN TXT "DLV:1:icanerzurcaa"
+
+
 $TTL 1h
 $ORIGIN debian.org.
 @		8h	IN	NS	ns1.debian.org.
