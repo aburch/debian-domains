@@ -158,7 +158,7 @@ security-nagios		IN	MX	0 .
 			IN	A	128.101.240.212	; saens
 			IN	A	150.203.164.38	; gluck
 security-tracker	IN	CNAME	soler
-snapshot-dev		IN	A	206.12.19.13	; stabile
+;snapshot-dev		IN	A	206.12.19.13	; stabile
 snapshot-dev		IN	A	193.62.202.28	; sibelius
 snapshot-master		IN	CNAME	stabile
 snapshot-stabile	IN	CNAME	stabile
