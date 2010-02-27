@@ -1,7 +1,4 @@
 ; debian.org zone
-
-dlv.debian.org. 0 IN TXT "DLV:1:hlbnfjoodefa"
-
 ; wzf: dnssec = 1
 ; dlv-submit = yes
 
