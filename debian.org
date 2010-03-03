@@ -247,8 +247,8 @@ alkman-mp		IN	A	192.168.2.211
 console			IN	A	192.168.2.254
 gounod			IN	A	192.168.2.9
 gounod-ilo		IN	A	192.168.2.209
-hydra			IN	A	192.168.2.21
-hydra-ilo		IN	A	192.168.2.221
+hydra			IN	A	192.168.2.21	; joeyh
+hydra-ilo		IN	A	192.168.2.221	; joeyh
 merkel			IN	A	192.168.2.4
 merkel-console		IN	A	192.168.2.104
 merkel-mp		IN	A	192.168.2.204
