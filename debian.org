@@ -1,18 +1,20 @@
+; debian.org zone
+; wzf: dnssec = 1
+; dlv-submit = yes
+
 $TTL 1h
 $ORIGIN debian.org.
-		8h	IN	NS	ns1.debian.org.
-		8h	IN	NS	ns2.debian.org.
-		8h	IN	NS	ns3.debian.org.
-		8h	IN	NS	ns4.debian.com.
-			IN	MX	0 master.debian.org.
-			IN	A	128.31.0.51	; senfl
-			IN	A	194.109.137.218	; klecker
+@		8h	IN	NS	ns1.debian.org.
+@		8h	IN	NS	ns2.debian.org.
+@		8h	IN	NS	ns3.debian.org.
+@		8h	IN	NS	ns4.debian.com. ; orff
+@			IN	MX	0 master.debian.org.
+@			IN	A	128.31.0.51	; senfl
+@			IN	A	194.109.137.218	; klecker
 
 ; we delegate things to ns[123]
 ns1		8h	IN	A	206.12.19.5
 		8h	IN	TXT	"ravel"
-;ns2		8h	IN	A	140.211.166.43
-;		8h	IN	TXT	"rietz"
 ns2		8h	IN	A	128.31.0.51
 		8h	IN	TXT	"senfl"
 ns3		8h	IN	A	194.109.137.218
@@ -53,6 +55,7 @@ buildd			IN	A	206.12.19.8	; cimarosa
 bzr			IN	A	217.196.43.134	; alioth
 			IN	MX	0 .
 ca			IN	CNAME	draghi
+cdbuilder		IN	CNAME	pettersson
 cdimage			IN	CNAME	ftp.acc.umu.se.
 us.cdimage		IN	CNAME	debian.hands.com.
 cgi			IN	A	70.103.162.29	; master
@@ -155,8 +158,11 @@ security-nagios		IN	MX	0 .
 			IN	A	128.101.240.212	; saens
 			IN	A	150.203.164.38	; gluck
 security-tracker	IN	CNAME	soler
-snapshot-dev		IN	CNAME	stabile
+;snapshot-dev		IN	A	206.12.19.13	; stabile
+snapshot-dev		IN	A	193.62.202.28	; sibelius
 snapshot-master		IN	CNAME	stabile
+snapshot-stabile	IN	CNAME	stabile
+snapshot-sibelius	IN	CNAME	sibelius
 svn			IN	A	217.196.43.134	; alioth
 			IN	MX	0 .
 syncproxy.eu		IN	CNAME	ftp.hr.debian.org.
@@ -169,8 +175,8 @@ teams			IN	A	82.195.75.100	; liszt
 			IN	MX	10 liszt.debian.org.
 ssh-delayed.upload	IN	CNAME	ravel.debian.org.
 ssh.upload		IN	CNAME	ravel.debian.org.
-ftp.upload	60	IN	CNAME	ftp-master.debian.org.	; ries
-;ftp.upload	60	IN	CNAME	ravel.debian.org.
+;ftp.upload	60	IN	CNAME	ftp-master.debian.org.	; ries
+ftp.upload	60	IN	CNAME	ravel.debian.org.
 ;ftp.upload	60	IN	CNAME	kassia.debian.org.
 ftp.eu.upload	60	IN	CNAME	kassia.debian.org.
 ;ftp.eu.upload	60	IN	CNAME	ftp-master.debian.org.
@@ -216,13 +222,15 @@ wagner-xen2		IN	A	217.196.43.135
 wagner-xen3		IN	A	217.196.43.136
 
 
-; mispen at luca's.  Not yet set up - IP addresses no longer valid
-; gabrielli		IN	A	137.82.84.87
+; itanium boxen at UBC ECE (Luca); IP addresses no longer valid
 ; frescobaldi		IN	A	137.82.84.90
 ; lombardini		IN	A	137.82.84.91
-; lucatelli		IN	A	137.82.84.88
-; torelli			IN	A	137.82.84.85
-; tozzi			IN	A	137.82.84.75
+
+; mips/mipsen boxen at UBC ECE (Luca);  IP addresses no longer valid
+; lucatelli		IN	A	137.82.84.85
+; corelli		IN	A	137.82.84.86
+; gabrielli		IN	A	137.82.84.87
+; torelli		IN	A	137.82.84.88
 
 ; mgmt networks
 ;==============
@@ -239,8 +247,8 @@ alkman-mp		IN	A	192.168.2.211
 console			IN	A	192.168.2.254
 gounod			IN	A	192.168.2.9
 gounod-ilo		IN	A	192.168.2.209
-hydra			IN	A	192.168.2.21
-hydra-ilo		IN	A	192.168.2.221
+hydra			IN	A	192.168.2.21	; joeyh
+hydra-ilo		IN	A	192.168.2.221	; joeyh
 merkel			IN	A	192.168.2.4
 merkel-console		IN	A	192.168.2.104
 merkel-mp		IN	A	192.168.2.204
@@ -289,7 +297,7 @@ smetana-sc		IN	A	192.168.0.2
 
 
 $ORIGIN debprivate-ubc.debian.org.
-; iscsi network 
+; iscsi network
 stabile-iscsi		IN	A	10.0.0.2	; FIXME: remove after deconfiguring interface on stabile
 giustini-a0-iscsi	IN	A	10.0.0.17
 giustini-a1-iscsi	IN	A	10.0.0.18
@@ -428,6 +436,10 @@ anguilla-drac		IN	A	172.22.127.21
 anguilla-mnt		IN	A	172.22.127.22
 beethoven-ilo		IN	A	172.22.127.102
 beethoven-mnt		IN	A	172.22.127.146
+
+$ORIGIN debprivate-accumu.debian.org.
+praetorius-mnt		IN	A	172.21.101.1
+pettersson-ilo		IN	A	172.21.101.10
 
 ; countries
 ;==========
@@ -593,3 +605,5 @@ www		IN	CNAME	www.leg.uct.ac.za.
 
 ; SSH FP
 $INCLUDE "/var/lib/misc/draghi.debian.org/dns-sshfp"
+
+; vim:syn=dns

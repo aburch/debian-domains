@@ -1,14 +1,15 @@
-; wzf: dnssec = 1
+; 2.6.a.0.4.6.5.6.1.0.0.0.2.0.0.0.8.d.8.0.1.0.0.2.ip6.arpa - reverse
+; for hosts at 1&1 - they live in 2001:8d8:2:1::/64 and we can assign
+; addresses out of 2001:8d8:2:1:6564:0a62::/96 at will.
 
-; 2.6.a.0.4.6.5.6.1.0.0.0.2.0.0.0.8.d.8.0.1.0.0.2.ip6.arpa - reverse for hosts at 1&1
-; they live in 2001:8d8:2:1::/64
-; we can assign addresses out of 2001:8d8:2:1:6564:0a62::/96 at will.
+; wzf: dnssec = 1
+; dlv-submit = yes
 
 $TTL 24h
 
-		IN	NS	ns1.debian.org.
-		IN	NS	ns2.debian.org.
-		IN	NS	ns3.debian.org.
+@		IN	NS	ns1.debian.org.
+@		IN	NS	ns2.debian.org.
+@		IN	NS	ns3.debian.org.
 
 $TTL 8h
 
@@ -17,3 +18,5 @@ $TTL 8h
 3.0.0.0.0.0.0.0	IN	PTR	chopin.debian.org.
 4.0.0.0.0.0.0.0	IN	PTR	geo3.debian.org.
 5.0.0.0.0.0.0.0	IN	PTR	soler.debian.org.
+
+; vim:syn=dns

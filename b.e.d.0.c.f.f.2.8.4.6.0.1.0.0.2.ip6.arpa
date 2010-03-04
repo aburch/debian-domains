@@ -1,12 +1,13 @@
-; wzf: dnssec = 1
-
 ; b.e.d.0.c.f.f.2.8.4.6.0.1.0.0.2.ip6.arpa - reverse for 2001:648:2ffc:deb::/64 at grnet in athene
+
+; wzf: dnssec = 1
+; dlv-submit = yes
 
 $TTL 24h
 
-		IN	NS	ns1.debian.org.
-		IN	NS	ns2.debian.org.
-		IN	NS	ns3.debian.org.
+@		IN	NS	ns1.debian.org.
+@		IN	NS	ns2.debian.org.
+@		IN	NS	ns3.debian.org.
 
 $TTL 8h
 
@@ -22,3 +23,5 @@ c.2.2.1.2.b.e.f.f.f.2.2.4.1.2.0	IN	PTR	vitry.debian.org.	; blade6
 6.5.f.f.1.b.e.f.f.f.2.2.4.1.2.0	IN	PTR	krenek.debian.org.	; blade7
 0.e.7.1.2.b.e.f.f.f.2.2.4.1.2.0	IN	PTR	scelsi.debian.org.	; blade8
 8.8.1.e.9.6.e.f.f.f.2.7.3.1.2.0	IN	PTR	orff.debian.org.	; blade9
+
+; vim:syn=dns
