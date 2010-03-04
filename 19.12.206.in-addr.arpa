@@ -36,7 +36,7 @@ $TTL 24h
 13		IN	PTR	stabile.debian.org.
 14		IN	PTR	spontini.debian.org.
 ; 15 lucatelli
-; 16 corelli
+16 		IN	PTR	corelli.debian.org.
 ; 17 gabrielli
 ; 18 torelli
 
