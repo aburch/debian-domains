@@ -504,7 +504,6 @@ ftp		IN	A	141.30.3.84 ; hyperion tu-dresden
 ftp1		IN	CNAME	ftp
 ftp2		IN	CNAME	source.rfc822.org.
 ;ftp2	300	IN	A	194.8.197.20 ; mirror.netcologne.de
-upload		IN	A	131.188.3.71
 ;www		IN	A	141.76.2.5
 www		IN	CNAME	www.debian.org.
 $ORIGIN dk.debian.org.
