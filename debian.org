@@ -158,7 +158,7 @@ security-nagios		IN	MX	0 .
 			IN	A	128.101.240.212	; saens
 			IN	A	150.203.164.38	; gluck
 security-tracker	IN	CNAME	soler
-;snapshot-dev		IN	A	206.12.19.13	; stabile
+snapshot-dev		IN	A	206.12.19.13	; stabile
 snapshot-dev		IN	A	193.62.202.28	; sibelius
 snapshot-master		IN	CNAME	stabile
 snapshot-stabile	IN	CNAME	stabile
@@ -499,11 +499,9 @@ $ORIGIN cz.debian.org.
 ftp		IN	A	195.113.161.73
 $ORIGIN de.debian.org.
 ftp		IN	A	141.76.2.4
-;ftp	300	IN	CNAME	kassia-ftp.debian.org.
 ftp1		IN	CNAME	ftp
 ftp2		IN	CNAME	source.rfc822.org.
 ;ftp2	300	IN	A	194.8.197.20 ; mirror.netcologne.de
-upload		IN	A	131.188.3.71
 www		IN	A	141.76.2.5
 $ORIGIN dk.debian.org.
 ftp		IN	CNAME	mirrors.dotsrc.org.
