@@ -39,7 +39,7 @@ $TTL 24h
 14		IN	PTR	spontini.debian.org.
 ; 15 lucatelli
 16 		IN	PTR	corelli.debian.org.
-; 17 gabrielli
+17		IN	PTR	gabrielli.debian.org.
 ; 18 torelli
 
 110		IN	PTR	fano.debian.org.
