@@ -51,6 +51,7 @@ bugs-mirror		IN	A	192.25.206.16	; merkel
 bugs-search		IN	CNAME	merkel2
 buildd			IN	A	206.12.19.8	; cimarosa
 			IN	MX	10 cimarosa.debian.org.
+buildd-grieg		IN	CNAME	grieg
 ;logs.buildd		IN	CNAME	cimarosa
 bzr			IN	A	217.196.43.134	; alioth
 			IN	MX	0 .
