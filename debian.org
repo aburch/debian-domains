@@ -436,6 +436,9 @@ asteria-mnt		IN	A	172.22.127.10
 anguilla-drac		IN	A	172.22.127.21
 anguilla-mnt		IN	A	172.22.127.22
 beethoven-ilo		IN	A	172.22.127.102
+merikanto-ilo		IN	A	172.22.127.103
+englund-drac		IN	A	172.22.127.104
+lindberg-drac		IN	A	172.22.127.105
 beethoven-mnt		IN	A	172.22.127.146
 
 $ORIGIN debprivate-accumu.debian.org.
