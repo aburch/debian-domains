@@ -12,9 +12,9 @@ $TTL 24h
 ;144 NETWORK
 ;145 GATEWAY
 146		IN	PTR	beethoven.debian.org.
-;147
-;148
-;149
+147		IN	PTR	merikanto.debian.org.
+148		IN	PTR	englund.debian.org.
+149		IN	PTR	lindberg.debian.org.
 ;150
 ;151
 ;152		IN	PTR	anguilla.debian.or.at.	; weasel, maxx, rhonda, etc
