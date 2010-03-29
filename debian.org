@@ -42,7 +42,7 @@ bugs			IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
 bugs-rietz		IN	CNAME	rietz
-bugs-master	300	IN	A	140.211.166.43	; rietz
+bugs-master	300	IN	A	140.211.15.34	; busoni
 			IN	MX	0 bugs-master
 bugs-busoni		IN	CNAME	busoni
 bugs-duarte		IN	CNAME	duarte
@@ -132,7 +132,7 @@ packages.qa		IN	A	70.103.162.29	; master
 			IN	MX	0 master.debian.org.
 release		60	IN	A	128.148.34.103	; ries
 		60	IN	MX	10 ries.debian.org.
-reportbug		IN	CNAME	rietz.debian.org.
+reportbug		IN	CNAME	busoni.debian.org.
 rt			IN	A	192.25.206.33	; spohr
 			IN	MX	10 spohr.debian.org.
 search			IN	A	128.31.0.51 ; senfl
