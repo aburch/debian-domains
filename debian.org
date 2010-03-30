@@ -191,7 +191,7 @@ vote			IN	A	70.103.162.29	; master
 			IN	MX	0 master.debian.org.
 wiki			IN	A	93.94.130.161	; widor
 			IN	MX	0 .
-women			IN	A	140.211.166.43	; rietz
+women			IN	A	128.31.0.51 ; senfl
 			IN	MX	10 ravel
 www			IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
