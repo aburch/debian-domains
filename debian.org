@@ -571,8 +571,7 @@ $ORIGIN ro.debian.org.
 ;ftp		IN	A	192.129.4.120 ; Subredu Manuel <diablo@iasi.roedu.net>
 ftp		IN	A	81.180.250.146 ; 
 $ORIGIN ru.debian.org.
-;ftp		IN	CNAME	ftp.chg.ru.
-ftp		IN	CNAME	ftp.debian.org.
+ftp		IN	CNAME	ftp.chg.ru.
 www		IN	A	82.179.191.68
 $ORIGIN se.debian.org.
 ftp		IN	CNAME	ftp.acc.umu.se.
