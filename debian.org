@@ -97,8 +97,8 @@ lists-test		IN	MX	0 liszt.debian.org.
 mirror			IN	A	194.109.137.218	; klecker
 			IN	MX	0 .
 mailout			IN	A	192.25.206.33	; spohr
-			IN	A	86.59.118.147	; merikanto
-			IN	AAAA	2001:858:2:2:216:35ff:fec4:a49a	; merikanto
+			IN	A	82.195.75.106   ; draghi
+			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3906 ; draghi
 			IN	MX	0 spohr.debian.org.
 			IN	MX	0 draghi.debian.org.
 munin			IN	CNAME	spohr.debian.org.
