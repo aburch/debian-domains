@@ -49,8 +49,8 @@ bugs-duarte		IN	CNAME	duarte
 bugs-mirror		IN	A	192.25.206.16	; merkel
 			IN	MX	0 .
 bugs-search		IN	CNAME	merkel2
-buildd		60	IN	A	194.177.211.200	; grieg
-		60	IN	MX	10 grieg.debian.org.
+buildd			IN	A	194.177.211.200	; grieg
+			IN	MX	10 grieg.debian.org.
 buildd-grieg		IN	CNAME	grieg
 ;logs.buildd		IN	CNAME	cimarosa
 bzr			IN	A	217.196.43.134	; alioth
@@ -78,12 +78,12 @@ ftp			IN	NS	geo1.debian.org.
 ftp.ipv6		IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
 			IN	AAAA	2001:610:1908:a000::149:226 ; kassia
 			IN	AAAA	2001:b68:ff:1::11 ; Josip Rodin <joy@debian.org>
-ftp-master	60	IN	A	128.148.34.103	; ries
-                60      IN	MX	10 ries.debian.org.
+ftp-master		IN	A	128.148.34.103	; ries
+                        IN	MX	10 ries.debian.org.
 hg			IN	A	217.196.43.134	; alioth
 			IN	MX	0 .
-incoming	60	IN	A	128.148.34.103	; ries
-		60	IN	MX	0 .
+incoming		IN	A	128.148.34.103	; ries
+			IN	MX	0 .
 irc			IN	CNAME	irc.geo.oftc.net.
 irc6			IN	CNAME	irc6.geo.oftc.net.
 irc.ipv6		IN	CNAME	irc6.geo.oftc.net.
@@ -130,8 +130,8 @@ bugs.qa			IN	A	192.25.206.71	; merkel2
 			IN	MX	10 merkel.debian.org.
 packages.qa		IN	A	70.103.162.29	; master
 			IN	MX	0 master.debian.org.
-release		60	IN	A	128.148.34.103	; ries
-		60	IN	MX	10 ries.debian.org.
+release			IN	A	128.148.34.103	; ries
+			IN	MX	10 ries.debian.org.
 reportbug		IN	CNAME	busoni.debian.org.
 rt			IN	A	192.25.206.33	; spohr
 			IN	MX	10 spohr.debian.org.
