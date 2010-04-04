@@ -549,7 +549,8 @@ $ORIGIN kr.debian.org.
 ftp		IN	CNAME	ftp.kaist.ac.kr.
 ;ftp		IN	CNAME	ftp.tw.debian.org.
 $ORIGIN mx.debian.org.
-ftp		IN	CNAME	nisamox.fciencias.unam.mx.
+;ftp		IN	CNAME	nisamox.fciencias.unam.mx.
+ftp		IN	CNAME	ftp.us.debian.org.
 $ORIGIN nc.debian.org.
 ftp     	IN      A       61.5.210.7
 $ORIGIN nl.debian.org.
