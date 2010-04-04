@@ -41,11 +41,11 @@ bttracker		IN	CNAME	bttracker.acc.umu.se.
 bugs			IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
-bugs-rietz		IN	CNAME	rietz
 bugs-master	300	IN	A	140.211.15.34	; busoni
 			IN	MX	0 bugs-master
 bugs-busoni		IN	CNAME	busoni
 bugs-duarte		IN	CNAME	duarte
+bugs-lindberg		IN	CNAME	lindberg
 bugs-mirror		IN	A	192.25.206.16	; merkel
 			IN	MX	0 .
 bugs-search		IN	CNAME	merkel2
