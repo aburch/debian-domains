@@ -584,7 +584,8 @@ ftp		IN	CNAME	debian.prunk.si.
 $ORIGIN sk.debian.org.
 ftp		IN	CNAME	mirrors.nextra.sk.
 $ORIGIN th.debian.org.
-ftp		IN	CNAME	ftp.coe.psu.ac.th.
+;ftp		IN	CNAME	ftp.coe.psu.ac.th.
+ftp		IN	CNAME	debian.linux.org.tw.
 $ORIGIN tr.debian.org.
 ftp		IN	CNAME	debian.ankara.edu.tr.
 ; Andrew Lee <andrew@linux.org.tw>
