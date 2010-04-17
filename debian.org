@@ -52,7 +52,6 @@ bugs-search		IN	CNAME	merkel2
 buildd			IN	A	194.177.211.200	; grieg
 			IN	AAAA	2001:648:2ffc:deb:214:22ff:fe74:1fa	; grieg
 			IN	MX	10 grieg.debian.org.
-buildd-grieg		IN	CNAME	grieg
 ;logs.buildd		IN	CNAME	cimarosa
 bzr			IN	A	217.196.43.134	; alioth
 			IN	MX	0 .
