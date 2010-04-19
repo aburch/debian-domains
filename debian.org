@@ -569,8 +569,7 @@ $ORIGIN pt.debian.org.
 ftp		IN	CNAME	debian.uevora.pt.  ; Tiago Fernandes
 $ORIGIN ro.debian.org.
 ;ftp		IN	A	192.129.4.120 ; Subredu Manuel <diablo@iasi.roedu.net>
-;ftp		IN	A	81.180.250.146 ;
-ftp		IN	CNAME	ftp.debian.org.
+ftp		IN	A	81.180.250.146 ;
 $ORIGIN ru.debian.org.
 ftp		IN	CNAME	ftp.chg.ru.
 www		IN	A	82.179.191.68
