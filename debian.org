@@ -177,8 +177,8 @@ teams			IN	A	82.195.75.100	; liszt
 			IN	MX	10 liszt.debian.org.
 ssh-delayed.upload	IN	CNAME	ravel.debian.org.
 ssh.upload		IN	CNAME	ravel.debian.org.
-;ftp.upload	60	IN	CNAME	ftp-master.debian.org.	; ries
-ftp.upload	60	IN	CNAME	ravel.debian.org.
+ftp.upload	60	IN	CNAME	ftp-master.debian.org.	; ries
+;ftp.upload	60	IN	CNAME	ravel.debian.org.
 ;ftp.upload	60	IN	CNAME	kassia.debian.org.
 ftp.eu.upload	60	IN	CNAME	kassia.debian.org.
 ;ftp.eu.upload	60	IN	CNAME	ftp-master.debian.org.
