@@ -560,8 +560,7 @@ www		IN	CNAME	www.debian.org.
 $ORIGIN no.debian.org.
 ftp		IN	CNAME	spheniscus.uninett.no.
 $ORIGIN nz.debian.org.
-;ftp		IN	CNAME	ftp.citylink.co.nz.
-ftp		IN	CNAME	mirror.linux.org.au.
+ftp		IN	CNAME	ftp.citylink.co.nz.
 $ORIGIN pl.debian.org.
 ftp		IN	A	153.19.251.221 ; Michal Bialoskorski <skorka@task.gda.pl>
 www		IN	CNAME	www.debian.org.
