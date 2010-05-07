@@ -170,6 +170,7 @@ svn			IN	A	217.196.43.134	; alioth
 			IN	MX	0 .
 syncproxy.eu		IN	CNAME	ftp.hr.debian.org.
 syncproxy2.eu		IN	CNAME	farbror.acc.umu.se.
+syncproxy3.eu		IN	A	86.59.118.150	; merikanto
 syncproxy.wna		IN	A	140.211.166.44	; rietz
 udd			IN	CNAME	samosa
 small-teams		IN	A	82.195.75.100	; liszt
