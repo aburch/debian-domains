@@ -593,10 +593,8 @@ $ORIGIN ua.debian.org.
 ftp		IN	CNAME	ftp.debian.org.ua.
 www		IN	CNAME	www.debian.org.ua.
 $ORIGIN uk.debian.org.
-;ftp		IN	CNAME	debian.hands.com.
-;www		IN	CNAME	debian.hands.com.
-ftp		IN	CNAME	ftp.fr.debian.org.
-www		IN	CNAME	www.debian.org.
+ftp		IN	CNAME	debian.hands.com.
+www		IN	CNAME	debian.hands.com.
 $ORIGIN us.debian.org.
 ftp	300	IN	A	64.50.236.52	; ftp-chi.osuosl.org
 ftp	300	IN	A	35.9.37.225	; ike.egr.msu.edu
