@@ -226,6 +226,7 @@ wagner-xen2		IN	A	217.196.43.135
 wagner-xen3		IN	A	217.196.43.136
 
 kokkonen		IN	A	82.195.75.97
+nielsen			IN	A	82.195.75.99
 
 ; itanium boxen at UBC ECE (Luca); IP addresses no longer valid
 ; frescobaldi		IN	A	137.82.84.90
