@@ -154,7 +154,6 @@ security-nagios		IN	MX	0 .
 			IN	A	212.211.132.32	; villa
 			IN	A	212.211.132.250	; lobos
 			IN	A	128.31.0.36	; steffani
-			IN	A	130.89.149.225	; kassia (security)
 			IN	A	195.20.242.89	; wieck
 			IN	A	149.20.20.6	; schein
 			IN	A	128.101.240.212	; saens
