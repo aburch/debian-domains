@@ -10,8 +10,8 @@ $ORIGIN debian.com.
 @		IN	NS	ns4.debian.com.
 @		IN	MX	10 master.debian.org.
 
-@	1h	IN	A	128.31.0.51
-@	1h	IN	A	194.109.137.218
+@	2h	IN	A	128.31.0.51
+@	2h	IN	A	194.109.137.218
 
 ftp		IN	CNAME	ftp.debian.org.
 www		IN	CNAME	www.debian.org.
