@@ -194,7 +194,7 @@ volatile-master		IN	A	206.12.19.112	; valente
 volatile		IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
-$INCLUDE "/srv/dns.debian.org/var/dssets/dsset-volatile.debian.org."
+; $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-volatile.debian.org."
 vote			IN	A	70.103.162.29	; master
 			IN	MX	0 master.debian.org.
 wiki			IN	A	93.94.130.161	; widor
