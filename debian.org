@@ -41,6 +41,7 @@ bttracker		IN	CNAME	bttracker.acc.umu.se.
 bugs			IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
+$INCLUDE "/srv/dns.debian.org/var/dssets/dsset-bugs.debian.org."
 bugs-master	300	IN	A	140.211.15.34	; busoni
 			IN	MX	0 bugs-master
 bugs-busoni		IN	CNAME	busoni
@@ -74,6 +75,7 @@ git			IN	A	217.196.43.134	; alioth
 ftp			IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
+$INCLUDE "/srv/dns.debian.org/var/dssets/dsset-ftp.debian.org."
 ftp.ipv6		IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
 			IN	AAAA	2001:610:1908:a000::149:226 ; kassia
 			IN	AAAA	2001:b68:ff:1::11 ; Josip Rodin <joy@debian.org>
@@ -111,6 +113,7 @@ other			IN	A	82.195.75.100	; liszt
 packages		IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
+$INCLUDE "/srv/dns.debian.org/var/dssets/dsset-packages.debian.org."
 packages-holter		IN	CNAME	holter
 packages-powell		IN	CNAME	powell
 packages-powell-stats	IN	CNAME	powell
@@ -143,6 +146,7 @@ security-master		IN	A	195.20.242.124            ; chopin
 security		IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
+$INCLUDE "/srv/dns.debian.org/var/dssets/dsset-security.debian.org."
 security.geo		IN	NS	geo1.debian.org. ; was published for a while, during geodns testing.
 			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
@@ -190,6 +194,7 @@ volatile-master		IN	A	206.12.19.112	; valente
 volatile		IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
+$INCLUDE "/srv/dns.debian.org/var/dssets/dsset-volatile.debian.org."
 vote			IN	A	70.103.162.29	; master
 			IN	MX	0 master.debian.org.
 wiki			IN	A	93.94.130.161	; widor
