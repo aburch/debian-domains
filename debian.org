@@ -147,7 +147,7 @@ security		IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-security.debian.org."
-security.geo		IN	CNAME	security.debian.org.	; was published for a while, during geodns testing.
+security.geo		IN	CNAME	ravel.debian.org.         ; was published for a while, during geodns testing.
 security.eu		IN	CNAME	security.debian.org.
 security.na		IN	CNAME	security.debian.org.
 security.us		IN	CNAME	security.debian.org.
