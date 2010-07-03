@@ -79,11 +79,11 @@ $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-ftp.debian.org."
 ftp.ipv6		IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
 			IN	AAAA	2001:610:1908:a000::149:226 ; kassia
 			IN	AAAA	2001:b68:ff:1::11 ; Josip Rodin <joy@debian.org>
-ftp-master		IN	A	128.148.34.103	; ries
-			IN	MX	10 ries.debian.org.
+ftp-master		IN	A	128.148.34.3 ; franck
+			IN	MX	10 franck.debian.org.
 hg			IN	A	217.196.43.134	; alioth
 			IN	MX	0 .
-incoming		IN	A	128.148.34.103	; ries
+incoming		IN	A	128.148.34.3 ; franck
 			IN	MX	0 .
 irc			IN	CNAME	irc.geo.oftc.net.
 irc6			IN	CNAME	irc6.geo.oftc.net.
@@ -134,8 +134,8 @@ bugs.qa			IN	A	192.25.206.71	; merkel2
 			IN	MX	10 merkel.debian.org.
 packages.qa		IN	A	70.103.162.29	; master
 			IN	MX	0 master.debian.org.
-release			IN	A	128.148.34.103	; ries
-			IN	MX	10 ries.debian.org.
+release			IN	A	128.148.34.3 ; franck
+			IN	MX	10 franck.debian.org.
 reportbug		IN	CNAME	busoni.debian.org.
 rt			IN	A	192.25.206.33	; spohr
 			IN	MX	10 spohr.debian.org.
@@ -181,7 +181,7 @@ teams			IN	A	82.195.75.100	; liszt
 			IN	MX	10 liszt.debian.org.
 ssh-delayed.upload	IN	CNAME	ravel.debian.org.
 ssh.upload		IN	CNAME	ravel.debian.org.
-ftp.upload	60	IN	CNAME	ftp-master.debian.org.	; ries
+ftp.upload	60	IN	CNAME	ftp-master.debian.org.	; franck
 ;ftp.upload	60	IN	CNAME	ravel.debian.org.
 ;ftp.upload	60	IN	CNAME	kassia.debian.org.
 ftp.eu.upload	60	IN	CNAME	kassia.debian.org.
