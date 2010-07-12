@@ -616,3 +616,6 @@ www		IN	CNAME	www.leg.uct.ac.za.
 $INCLUDE "/var/lib/misc/draghi.debian.org/dns-sshfp"
 
 ; vim:syn=dns
+
+
+dlv.debian.org. 0 IN TXT "DLV:1:mroltogscbsu"
