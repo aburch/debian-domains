@@ -460,8 +460,8 @@ ftp	300	IN	CNAME	kassia-ftp.debian.org.
 http		IN	CNAME	ftp
 ;cdimage		IN	CNAME	cdimage.debian.at.
 cdimage	300	IN	CNAME	cdimage.debian.org.
-www		IN	CNAME	www.debian.at.
-;www	300	IN	CNAME	www.debian.org.
+;www		IN	CNAME	www.debian.at.
+www	300	IN	CNAME	www.debian.org.
 $ORIGIN au.debian.org.
 ;ftp	10m	IN	CNAME	ftp.planetmirror.com.
 ftp		IN	CNAME	mirror.linux.org.au.
