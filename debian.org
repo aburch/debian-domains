@@ -318,6 +318,7 @@ strozzi-db5-iscsi	IN	A	10.0.0.215
 strozzi-db6-iscsi	IN	A	10.0.0.216
 strozzi-db7-iscsi	IN	A	10.0.0.217
 strozzi-db8-iscsi	IN	A	10.0.0.218
+vivaldi-iscsi		IN	A	10.0.0.12
 
 ; management network
 mcld-console		IN	A	192.168.2.1	; OpenGear CM4008
