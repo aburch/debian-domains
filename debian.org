@@ -164,7 +164,7 @@ snapshot		IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-snapshot.debian.org."
-snapshot-master		IN	CNAME	stabile
+snapshot-master		IN	CNAME	sibelius
 snapshot-stabile	IN	CNAME	stabile
 snapshot-sibelius	IN	CNAME	sibelius
 svn			IN	A	217.196.43.134	; alioth
