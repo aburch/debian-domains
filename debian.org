@@ -552,8 +552,7 @@ www		IN	CNAME	kambing.ui.ac.id.
 $ORIGIN ie.debian.org.
 ftp		IN	CNAME	debian.heanet.ie.  ; Colm MacCarthaigh <colm.maccarthaigh@heanet.ie>
 $ORIGIN is.debian.org.
-;ftp		IN	CNAME	draupnir.rhnet.is.
-ftp		IN	CNAME	ftp.acc.umu.se.
+ftp		IN	CNAME	draupnir.rhnet.is.
 $ORIGIN it.debian.org.
 ftp		IN	CNAME	ftp.bofh.it.
 $ORIGIN jp.debian.org.
