@@ -1,0 +1,19 @@
+; 0.0.0.4.0.1.6.0.0.f.8.f.7.0.6.2.ip6.arpa - reverse
+; hosts at ubcece - 2607:f8f0:0610:4000::/64
+; ::1 - ::f are reserved for ubc infra
+
+; wzf: dnssec = 0
+; dlv-submit = no
+
+$TTL 24h
+
+@		IN	NS	ns1.debian.org.
+@		IN	NS	ns2.debian.org.
+@		IN	NS	ns3.debian.org.
+@		IN	NS	ns4.debian.com.
+
+$TTL 8h
+
+; 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	gw
+
+; vim:syn=dns
