@@ -221,6 +221,7 @@ kassia-volatile		IN	A	130.89.149.227
 merkel2			IN	A	192.25.206.71
 oldmaster		IN	A	70.103.162.30
 schein-ilo		IN	A	149.20.20.194
+stabile2		IN	A	206.12.19.150
 gw-grnet		IN	A	194.177.211.193
 			IN	AAAA	2001:648:2ffc:deb::1
 
