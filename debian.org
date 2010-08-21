@@ -567,6 +567,7 @@ $ORIGIN nz.debian.org.
 ftp		IN	CNAME	ftp.citylink.co.nz.
 $ORIGIN pl.debian.org.
 ftp		IN	A	153.19.251.221 ; Michal Bialoskorski <skorka@task.gda.pl>
+ftp		IN	AAAA	2001:4070:1::fafb ; Michal Bialoskorski <skorka@task.gda.pl>
 www		IN	CNAME	www.debian.org.
 $ORIGIN pt.debian.org.
 ;ftp		IN	CNAME	info.uevora.pt.  ; Miguel Ramos <miguel@uevora.pt>
