@@ -527,8 +527,7 @@ ftp		IN	A	212.27.32.66
 ftp2		IN	CNAME	ftp.oleane.net.
 www		IN	CNAME	www.debian.org.
 $ORIGIN gr.debian.org.
-; ftp		IN	CNAME	patroklos.noc.ntua.gr. ; OUT OF DATE, removed by zobel
-ftp		IN	A	130.89.149.226
+ftp		IN	CNAME	patroklos.noc.ntua.gr.
 $ORIGIN hk.debian.org.
 ftp		IN	A	202.134.73.139 ; Anthony Wong <ypwong@debian.org>
 www		IN	A	202.134.73.139 ; Anthony Wong <ypwong@debian.org>
