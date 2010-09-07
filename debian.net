@@ -23,6 +23,6 @@ rbl		IN	NS	ns1.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-rbl.debian.net."
 
 $TTL 1h
-$INCLUDE "/var/lib/misc/draghi.debian.org/dns-zone"
+$INCLUDE "/var/lib/misc/thishost/dns-zone"
 
 ; vim:syn=dns
