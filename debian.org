@@ -615,6 +615,6 @@ $ORIGIN za.debian.org.
 www		IN	CNAME	www.leg.uct.ac.za.
 
 ; SSH FP
-$INCLUDE "/var/lib/misc/draghi.debian.org/dns-sshfp"
+$INCLUDE "/var/lib/misc/thishost/dns-sshfp"
 
 ; vim:syn=dns
