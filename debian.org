@@ -73,8 +73,6 @@ darcs			IN	A	217.196.43.134	; alioth
 db			IN	A	82.195.75.106	; draghi
 			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3906	; draghi
 			IN	MX	10 draghi.debian.org.
-git			IN	A	217.196.43.134	; alioth
-			IN	MX	0 .
 ftp			IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
@@ -84,6 +82,8 @@ ftp.ipv6		IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
 			IN	AAAA	2001:b68:ff:1::11 ; Josip Rodin <joy@debian.org>
 ftp-master		IN	A	128.148.34.3 ; franck
 			IN	MX	10 franck.debian.org.
+git			IN	A	217.196.43.134	; alioth
+			IN	MX	0 .
 hg			IN	A	217.196.43.134	; alioth
 			IN	MX	0 .
 incoming		IN	A	128.148.34.3 ; franck
