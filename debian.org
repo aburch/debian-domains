@@ -73,6 +73,7 @@ darcs			IN	A	217.196.43.134	; alioth
 db			IN	A	82.195.75.106	; draghi
 			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3906	; draghi
 			IN	MX	10 draghi.debian.org.
+dns			IN	CNAME	orff
 ftp			IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
