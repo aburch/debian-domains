@@ -485,6 +485,8 @@ $ORIGIN br.debian.org.
 ftp		IN	CNAME	debian.c3sl.ufpr.br.  ; Marcos Castilho <marcos@inf.ufpr.br>
 ;www		IN	CNAME	www.debian.org.br.
 www		IN	CNAME	www.debian.org.
+$ORIGIN by.debian.org.
+ftp		IN	CNAME	ftp.mgts.by. ; Evgeniy Kozhuhovskiy  <ftpadm@mgts.by>
 $ORIGIN ca.debian.org.
 ;ftp		A	206.167.141.10	; ftp1.ca
 ftp		A	70.38.0.135	; ftp2.ca
