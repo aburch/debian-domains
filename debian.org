@@ -22,6 +22,26 @@ ns3		8h	IN	A	194.109.137.218
 		8h	IN	AAAA	2001:888:2000:12::2
 		8h	IN	TXT	"klecker"
 
+_kerberos		10m	IN	TXT	"DEBIAN.ORG"	; krb realm
+_kerberos._udp		10m	IN	SRV	0 0 88 byrd
+			10m	IN	SRV	0 0 88 schuetz
+_kerberos._tcp		10m	IN	SRV	0 0 88 byrd
+			10m	IN	SRV	0 0 88 schuetz
+_kerberos-master._udp	10m	IN	SRV	0 0 88 byrd
+_kerberos-adm._tcp	10m	IN	SRV	0 0 749 byrd
+_kpasswd._udp		10m	IN	SRV	0 0 464 byrd
+
+
+@			10m	IN	AFSDB	1 lamb
+			10m	IN	AFSDB	1 locke
+			10m	IN	AFSDB	1 rautavaara
+_afs3-vlserver._udp	10m	IN	SRV	0 0 7003 lamb
+			10m	IN	SRV	0 0 7003 locke
+			10m	IN	SRV	0 0 7003 rautavaara
+_afs3-prserver._udp	10m	IN	SRV	0 0 7002 lamb
+			10m	IN	SRV	0 0 7002 locke
+			10m	IN	SRV	0 0 7002 rautavaara
+
 ; services
 ;=========
 admin			IN	MX	10 spohr.debian.org.
