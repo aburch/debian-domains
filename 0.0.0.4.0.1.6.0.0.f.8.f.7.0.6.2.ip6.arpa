@@ -2,7 +2,7 @@
 ; hosts at ubcece - 2607:f8f0:0610:4000::/64
 ; ::1 - ::f are reserved for ubc infra
 
-; wzf: dnssec = 0
+; wzf: dnssec = 1
 ; dlv-submit = no
 
 $TTL 24h
