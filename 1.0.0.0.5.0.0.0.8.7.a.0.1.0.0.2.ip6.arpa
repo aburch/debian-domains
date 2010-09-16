@@ -1,0 +1,17 @@
+; 1.0.0.0.5.0.0.0.8.7.a.0.1.0.0.2.ip6.arpa - reverse for 2001:a78:5:1::/64 (lobos)
+
+; wzf: dnssec = 1
+; dlv-submit = no
+
+$TTL 24h
+
+@		IN	NS	ns1.debian.org.
+@		IN	NS	ns2.debian.org.
+@		IN	NS	ns3.debian.org.
+@		IN	NS	ns4.debian.com.
+
+$TTL 8h
+
+b.e.c.6.f.7.e.f.f.f.5.3.6.1.2.0	IN	PTR	lobos.debian.org.
+
+; vim:syn=dns
