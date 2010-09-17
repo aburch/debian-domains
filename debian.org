@@ -359,6 +359,8 @@ rossini-mnt		IN	A	192.168.2.19
 salieri-mnt		IN	A	192.168.2.20
 traetta-mnt		IN	A	192.168.2.21
 
+quantz-mnt		IN	A	192.168.2.72
+
 rossini-ilo		IN	A	192.168.2.119
 salieri-ilo		IN	A	192.168.2.120
 traetta-ilo		IN	A	192.168.2.121
