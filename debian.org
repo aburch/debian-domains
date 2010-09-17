@@ -156,7 +156,7 @@ popcon			IN	A	206.12.19.7	; bellini
 			IN	MX	10 bellini.debian.org.
 puppet			IN	CNAME	handel
 qa		30	IN	A	206.12.19.122	; quantz
-		30	IN	A	2607:f8f0:610:4000:216:36ff:fe40:3860	; quantz
+		30	IN	AAAA	2607:f8f0:610:4000:216:36ff:fe40:3860	; quantz
 		30	IN	MX	10 quantz
 bugs.qa		30	IN	A	192.25.206.71	; merkel2
 		30	IN	MX	10 merkel.debian.org.
