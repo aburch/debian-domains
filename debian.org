@@ -533,8 +533,7 @@ www		IN	CNAME	www.debian.org.
 $ORIGIN cz.debian.org.
 ; Dan Ohnesorg <Dan@ohnesorg.cz>
 ;ftp		IN	CNAME	www.debian.cz.
-;ftp		IN	A	195.113.161.73
-ftp		IN	A	161.53.160.11 ; ftp.hr as fallback
+ftp		IN	A	195.113.161.73
 $ORIGIN de.debian.org.
 ftp		IN	A	141.76.2.4
 ftp1		IN	CNAME	ftp
