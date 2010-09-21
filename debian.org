@@ -101,9 +101,8 @@ lists			IN	A	82.195.75.100	; liszt
 lists-test		IN	MX	0 liszt.debian.org.
 mirror			IN	A	194.109.137.218	; klecker
 			IN	MX	0 .
-mailout			IN	A	192.25.206.33	; spohr
-			IN	A	82.195.75.106	; draghi
-			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3906	; draghi
+mailout			IN	A	82.195.75.97	; kokkonen
+			IN	AAAA	2001:41b8:202:deb:216:35ff:fec4:6340	; kokkonen
 			IN	A	86.59.118.147	; merikanto
 			IN	AAAA	2001:858:2:2:216:35ff:fec4:a49a	; merikanto
 			IN	MX	0 spohr.debian.org. ; outgoing mail relay uses by MX routing on mailout
