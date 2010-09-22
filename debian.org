@@ -614,8 +614,7 @@ ftp		IN	CNAME	mirrors.nextra.sk.
 $ORIGIN th.debian.org.
 ftp		IN	CNAME	ftp.coe.psu.ac.th.
 $ORIGIN tr.debian.org.
-; ftp		IN	CNAME	debian.lyildirim.net.	; Levent YILDIRIM <levent@lyildirim.net>
-ftp		IN	CNAME	ftp.linux.org.tr.
+ftp		IN	CNAME	debian.lyildirim.net.	; Levent YILDIRIM <levent@lyildirim.net>
 ; Andrew Lee <andrew@linux.org.tw>
 $ORIGIN tw.debian.org.
 ftp		IN	CNAME	debian.linux.org.tw.
