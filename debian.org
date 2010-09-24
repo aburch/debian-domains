@@ -576,8 +576,8 @@ ftp		IN	CNAME	cdn.debian.or.jp.
 ftp2		IN	CNAME	cdn.debian.or.jp.
 www		IN	A	202.221.179.45
 $ORIGIN kr.debian.org.
-ftp		IN	CNAME	ftp.kaist.ac.kr.
-;ftp		IN	CNAME	ftp.tw.debian.org.
+;ftp		IN	CNAME	ftp.kaist.ac.kr.
+ftp		IN	CNAME	ftp.tw.debian.org.
 $ORIGIN mx.debian.org.
 ftp		IN	CNAME	nisamox.fciencias.unam.mx.
 $ORIGIN nc.debian.org.
