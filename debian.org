@@ -587,7 +587,7 @@ ftp		IN	A	130.89.149.21 ; debian.snt.utwente.nl
 ; ftp		IN	A	130.89.149.226 ; kassia.debian.org
 www		IN	CNAME	www.debian.org.
 $ORIGIN no.debian.org.
-ftp		IN	CNAME	spheniscus.uninett.no.
+ftp		IN	CNAME	ftp1.uninett.no.
 $ORIGIN nz.debian.org.
 ftp		IN	CNAME	ftp.citylink.co.nz.
 $ORIGIN pl.debian.org.
