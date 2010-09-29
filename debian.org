@@ -129,8 +129,9 @@ mailout			IN	A	82.195.75.97	; kokkonen
 			IN	MX	0 merikanto.debian.org.
 munin			IN	CNAME	spohr.debian.org.
 nagios			IN	CNAME	tchaikovsky
-nm		30	IN	A	192.25.206.71	; merkel2
-		30	IN	MX	10 merkel.debian.org.
+nm		90	IN	A	206.12.19.123	; nono
+		90	IN	AAAA	2607:F8F0:610:4000:216:36FF:FE40:3861	; nono
+		90	IN	MX	10 nono.debian.org.
 other			IN	A	82.195.75.100	; liszt
 			IN	MX	0 liszt.debian.org.
 packages		IN	NS	geo1.debian.org.
