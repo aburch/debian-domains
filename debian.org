@@ -550,8 +550,7 @@ $ORIGIN fi.debian.org.
 ftp		IN	A	130.230.54.99
 		IN	AAAA	2001:708:310:54::99
 $ORIGIN fr.debian.org.
-;ftp		IN	A	212.27.32.66
-ftp		IN	CNAME	debian.advalem.net.
+ftp		IN	A	212.27.32.66
 ftp2		IN	CNAME	ftp.oleane.net.
 www		IN	CNAME	www.debian.org.
 $ORIGIN gr.debian.org.
