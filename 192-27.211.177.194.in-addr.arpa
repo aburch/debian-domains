@@ -5,10 +5,10 @@
 
 $TTL 12h
 
-@		IN	NS	ns1.debian.org.
-@		IN	NS	ns2.debian.org.
-@		IN	NS	ns3.debian.org.
-@		IN	NS	ns4.debian.com.
+@		IN	NS	ns1.debian.org. ; ravel
+@		IN	NS	ns2.debian.org. ; senfl
+;@		IN	NS	ns3.debian.org. ; klecker
+@		IN	NS	ns4.debian.com. ; orff
 
 ; 192	NOT USABLE
 193	3600	IN	PTR	gw-grnet.debian.org.

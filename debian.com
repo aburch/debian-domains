@@ -4,14 +4,15 @@
 $TTL 24h
 
 $ORIGIN debian.com.
-@		IN	NS	ns1.debian.org.
-@		IN	NS	ns2.debian.org.
-@		IN	NS	ns3.debian.org.
-@		IN	NS	ns4.debian.com.
+@		IN	NS	ns1.debian.org. ; ravel
+@		IN	NS	ns2.debian.org. ; senfl
+;@		IN	NS	ns3.debian.org. ; klecker
+@		IN	NS	ns4.debian.com. ; orff
 @		IN	MX	10 master.debian.org.
 
-@	2h	IN	A	128.31.0.51
-@	2h	IN	A	194.109.137.218
+@	2h	IN	A	128.31.0.51	; senfl
+;@	2h	IN	A	194.109.137.218 ; klecker
+@	2h	IN	A	206.12.19.7	; bellini
 
 ftp		IN	CNAME	ftp.debian.org.
 www		IN	CNAME	www.debian.org.

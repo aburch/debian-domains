@@ -5,10 +5,10 @@
 
 $TTL 24h
 
-@		IN	NS	ns1.debian.org.
-@		IN	NS	ns2.debian.org.
-@		IN	NS	ns3.debian.org.
-@		IN	NS	ns4.debian.com.
+@		IN	NS	ns1.debian.org. ; ravel
+@		IN	NS	ns2.debian.org. ; senfl
+;@		IN	NS	ns3.debian.org. ; klecker
+@		IN	NS	ns4.debian.com. ; orff
 
 ; useable is 1-251
 ; 252/253 are for hsrp; 254 is gateway

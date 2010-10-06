@@ -3,10 +3,10 @@
 
 $ORIGIN rbl.debian.net.
 
-@	8h	IN	NS	ns1.debian.org.
-@	8h	IN	NS	ns2.debian.org.
-@	8h	IN	NS	ns3.debian.org.
-@	8h	IN	NS	ns4.debian.com.
+@	8h	IN	NS	ns1.debian.org. ; ravel
+@	8h	IN	NS	ns2.debian.org. ; senfl
+; @	8h	IN	NS	ns3.debian.org. ; klecker
+@	8h	IN	NS	ns4.debian.com. ; orff
 
 $TTL 2h
 
