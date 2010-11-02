@@ -12,6 +12,9 @@ $TTL 24h
 $TTL 8h
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	gw-grnet.debian.org.
+
+0.1.0.0.0.1.0.0.0.0.0.0.0.0.0.0	IN	PTR	orff-ns.debian.org.
+
 a.f.1.0.4.7.e.f.f.f.2.2.4.1.2.0	IN	PTR	grieg.debian.org.
 6.0.2.0.4.7.e.f.f.f.2.2.4.1.2.0	IN	PTR	rautavaara.debian.org.
 

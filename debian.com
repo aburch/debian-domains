@@ -18,7 +18,7 @@ ftp		IN	CNAME	ftp.debian.org.
 www		IN	CNAME	www.debian.org.
 
 ns4	8h	IN	A	194.177.211.209
-	8h	IN	AAAA	2001:648:2ffc:deb:213:72ff:fe69:e188
+	8h	IN	AAAA	2001:648:2ffc:deb::10:10
 	8h	IN	TXT	"orff"
 
 ; vim:syn=dns
