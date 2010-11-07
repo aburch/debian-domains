@@ -44,7 +44,7 @@ _afs3-prserver._udp	10m	IN	SRV	0 0 7002 lamb
 
 ; services
 ;=========
-admin			IN	MX	10 spohr.debian.org.
+admin		60	IN	MX	10 spohr.debian.org.
 alioth			IN	NS	ns1
 			IN	NS	ns2
 ;			IN	NS	ns3
@@ -127,7 +127,7 @@ mailout			IN	A	82.195.75.97	; kokkonen
 			IN	AAAA	2001:858:2:2:216:35ff:fec4:a49a	; merikanto
 			IN	MX	0 kokkonen.debian.org. ; outgoing mail relay uses by MX routing on mailout
 			IN	MX	0 merikanto.debian.org.
-munin			IN	CNAME	spohr.debian.org.
+munin		60	IN	CNAME	spohr.debian.org.
 nagios			IN	CNAME	tchaikovsky
 nm		90	IN	A	206.12.19.123	; nono
 		90	IN	AAAA	2607:F8F0:610:4000:216:36FF:FE40:3861	; nono
@@ -162,8 +162,8 @@ packages.qa		IN	A	70.103.162.29	; master
 release			IN	A	128.148.34.3 ; franck
 			IN	MX	10 franck.debian.org.
 reportbug		IN	CNAME	busoni.debian.org.
-rt			IN	A	192.25.206.33	; spohr
-			IN	MX	10 spohr.debian.org.
+rt		60	IN	A	192.25.206.33	; spohr
+		60	IN	MX	10 spohr.debian.org.
 search			IN	A	128.31.0.51 ; senfl
 			IN	MX	0 .
 security-master		IN	A	195.20.242.124            ; chopin
