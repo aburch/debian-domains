@@ -602,8 +602,7 @@ ftp		IN	A	153.19.251.221 ; Michal Bialoskorski <skorka@task.gda.pl>
 www		IN	CNAME	www.debian.org.
 $ORIGIN pt.debian.org.
 ;ftp		IN	CNAME	info.uevora.pt.  ; Miguel Ramos <miguel@uevora.pt>
-; ftp		IN	CNAME	debian.uevora.pt.  ; Tiago Fernandes
-ftp		IN	A	82.194.78.250 ; ulises.hostalia.com <jfs@debian.org> FIXME temporally redirect
+ftp		IN	CNAME	debian.uevora.pt.  ; Tiago Fernandes
 $ORIGIN ro.debian.org.
 ;ftp		IN	A	192.129.4.120 ; Subredu Manuel <diablo@iasi.roedu.net>
 ftp		IN	A	81.180.250.146 ;
