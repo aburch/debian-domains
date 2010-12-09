@@ -316,6 +316,7 @@ schumann-ilo		IN	A	192.168.253.2
 
 $ORIGIN debprivate-sanger.debian.org.
 smetana-sc		IN	A	192.168.0.2
+semtana-alom		IN	CNAME	smetana-sc
 sibelius-ilo		IN	A	192.168.0.4
 
 $ORIGIN debprivate-ubc.debian.org.
