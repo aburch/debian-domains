@@ -195,7 +195,7 @@ snapshot-sibelius	IN	CNAME	sibelius
 svn			IN	A	217.196.43.134	; alioth
 			IN	MX	0 .
 syncproxy.eu		IN	CNAME	ftp.hr.debian.org.
-syncproxy2.eu		IN	CNAME	farbror.acc.umu.se.
+syncproxy2.eu		IN	CNAME	kassia
 syncproxy3.eu		IN	A	86.59.118.150	; merikanto
 syncproxy.wna		IN	A	140.211.166.44	; rietz
 udd			IN	CNAME	samosa
@@ -316,6 +316,8 @@ schumann-ilo		IN	A	192.168.253.2
 
 $ORIGIN debprivate-sanger.debian.org.
 smetana-sc		IN	A	192.168.0.2
+semtana-alom		IN	CNAME	smetana-sc
+sibelius-ilo		IN	A	192.168.0.4
 
 $ORIGIN debprivate-ubc.debian.org.
 ; iscsi network
@@ -546,13 +548,14 @@ $ORIGIN ee.debian.org.
 ftp		IN	CNAME	ftp.aso.ee.
 $ORIGIN es.debian.org.
 ; ftp		IN	A	163.117.156.54 ; ftp.gul(.uc3m).es
-ftp		IN	A	130.206.1.5 ; ftp.rediris.es
+; ftp		IN	A	130.206.1.5 ; ftp.rediris.es
+ftp		IN	A	82.194.78.250 ; ulises.hostalia.com <jfs@debian.org>
 www		IN	CNAME	debian.ci.uv.es.
 $ORIGIN fi.debian.org.
 ftp		IN	A	130.230.54.99
 		IN	AAAA	2001:708:310:54::99
 $ORIGIN fr.debian.org.
-ftp		IN	A	212.27.32.66
+ftp		IN	CNAME	debian.proxad.net.
 ftp2		IN	CNAME	ftp.oleane.net.
 www		IN	CNAME	www.debian.org.
 $ORIGIN gr.debian.org.
@@ -584,7 +587,8 @@ ftp		IN	CNAME	ftp.kaist.ac.kr.
 $ORIGIN lt.debian.org.
 ftp		IN	CNAME	debian.mirror.vu.lt. ; Arnoldas Sareckis <hostmaster@vu.lt>
 $ORIGIN mx.debian.org.
-ftp		IN	CNAME	nisamox.fciencias.unam.mx.
+;ftp		IN	CNAME	nisamox.fciencias.unam.mx.
+ftp		IN	CNAME	ftp.us.debian.org.
 $ORIGIN nc.debian.org.
 ftp     	IN      A       61.5.210.7
 $ORIGIN nl.debian.org.
@@ -630,11 +634,11 @@ $ORIGIN uk.debian.org.
 ftp		IN	CNAME	debian.hands.com.
 www		IN	CNAME	debian.hands.com.
 $ORIGIN us.debian.org.
-ftp	300	IN	A	64.50.236.52	; ftp-chi.osuosl.org
+; ftp	300	IN	A	64.50.236.52	; ftp-chi.osuosl.org ; FIXME
 ftp	300	IN	A	64.50.233.100	; ftp-nyc.osuosl.org
 ftp	300	IN	A	35.9.37.225	; ike.egr.msu.edu
 ftp	300	IN	A	128.30.2.36	; debian.lcs.mit.edu
-;ftp	300	IN	A	149.20.20.135	; mirrors1.kernel.org
+ftp	300	IN	A	149.20.20.135	; mirrors1.kernel.org
 ftp	300	IN	A	204.152.191.39	; mirrors2.kernel.org
 http		IN	CNAME	ftp.us.debian.org.
 www		IN	CNAME	www.debian.org.
