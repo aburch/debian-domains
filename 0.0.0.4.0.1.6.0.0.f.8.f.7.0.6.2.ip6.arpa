@@ -43,5 +43,6 @@ a.0.8.3.0.4.e.f.f.f.6.3.6.1.2.0		IN	PTR	schuetz.debian.org.
 4.0.8.3.0.4.e.f.f.f.6.3.6.1.2.0		IN	PTR	valente.debian.org.
 2.8.a.5.4.c.e.f.f.f.5.2.1.1.2.0		IN	PTR	vivaldi.debian.org.
 6.0.8.3.0.4.e.f.f.f.6.3.6.1.2.0		IN	PTR	wolkenstein.debian.org.
-
+2.6.8.3.0.4.e.f.f.f.6.3.6.1.2.0		IN	PTR	reger.debian.org.
+c.4.8.3.0.4.e.f.f.f.6.3.6.1.2.0		IN	PTR	danzi.debian.org.
 ; vim:syn=dns
