@@ -59,7 +59,7 @@ backports		IN	MX	10 morricone
 			IN	A	206.12.19.9
 			IN	AAAA	2607:f8f0:610:4000:211:25ff:fec4:59ae
 backports-master	IN	CNAME	morricone
-backup			IN	CNAME	bartok.debian.org.
+backup			IN	CNAME	beethoven.debian.org.
 bttracker		IN	CNAME	bttracker.acc.umu.se.
 bugs			IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
@@ -298,13 +298,11 @@ spohr-ilo		IN	A	192.168.2.213
 switch			IN	A	192.168.2.253
 
 $ORIGIN debprivate-darmstadt.debian.org.
-bartok-int		IN	A	192.168.43.1
 wiggum-int		IN	A	192.168.43.2
 liszt-int		IN	A	192.168.43.3
 babylon5-int		IN	A	192.168.43.4
 sperger-int		IN	A	192.168.43.5
 urd-int			IN	A	192.168.43.6
-bartok-ilo		IN	A	192.168.43.129
 unger-ilo		IN	A	192.168.43.130
 liszt-ilo		IN	A	192.168.43.131
 urd-ilo			IN	A	192.168.43.134
