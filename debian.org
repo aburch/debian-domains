@@ -344,7 +344,6 @@ ravel-mnt		IN	A	192.168.2.5
 ravel-console		IN	CNAME	kais-console
 giustini-mnt		IN	A	192.168.2.6
 bellini-mnt		IN	A	192.168.2.7
-cimarosa-mnt		IN	A	192.168.2.8
 morricone-mnt		IN	A	192.168.2.9
 paganini-mnt		IN	A	192.168.2.10
 respighi-mnt		IN	A	192.168.2.11
