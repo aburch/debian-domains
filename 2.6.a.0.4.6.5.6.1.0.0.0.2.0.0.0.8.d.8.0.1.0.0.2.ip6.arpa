@@ -9,7 +9,7 @@ $TTL 24h
 
 @		IN	NS	ns1.debian.org.
 @		IN	NS	ns2.debian.org.
-@		IN	NS	ns3.debian.org.
+;@		IN	NS	ns3.debian.org.
 
 $TTL 8h
 
