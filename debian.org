@@ -119,7 +119,7 @@ lintian			IN	A	206.12.19.7	; bellini
 lists			IN	A	82.195.75.100	; liszt
 			IN	MX	0 liszt.debian.org.
 lists-test		IN	MX	0 liszt.debian.org.
-mirror			IN	A	194.109.137.218	; klecker
+mirror			IN	CNAME	bellini
 			IN	MX	0 .
 mailout			IN	A	82.195.75.97	; kokkonen
 			IN	AAAA	2001:41b8:202:deb:216:35ff:fec4:6340	; kokkonen
