@@ -587,8 +587,8 @@ ftp		IN	CNAME	nisamox.fciencias.unam.mx.
 $ORIGIN nc.debian.org.
 ftp     	IN      A       61.5.210.7
 $ORIGIN nl.debian.org.
-ftp		IN	A	130.89.149.21 ; debian.snt.utwente.nl
-; ftp		IN	A	130.89.149.226 ; kassia.debian.org
+;ftp		IN	A	130.89.149.21 ; debian.snt.utwente.nl
+ftp		IN	CNAME	kassia-ftp.debian.org.
 www		IN	CNAME	www.debian.org.
 $ORIGIN no.debian.org.
 ftp		IN	CNAME	debianmirror.uio.no.
@@ -629,8 +629,8 @@ $ORIGIN uk.debian.org.
 ftp		IN	CNAME	debian.hands.com.
 www		IN	CNAME	debian.hands.com.
 $ORIGIN us.debian.org.
-; ftp	300	IN	A	64.50.236.52	; ftp-chi.osuosl.org ; FIXME
-; ftp	300	IN	A	64.50.233.100	; ftp-nyc.osuosl.org ; FIXME
+ftp	300	IN	A	64.50.236.52	; ftp-chi.osuosl.org
+ftp	300	IN	A	64.50.233.100	; ftp-nyc.osuosl.org
 ftp	300	IN	A	35.9.37.225	; ike.egr.msu.edu
 ftp	300	IN	A	128.30.2.36	; debian.lcs.mit.edu
 ftp	300	IN	A	149.20.20.135	; mirrors1.kernel.org
