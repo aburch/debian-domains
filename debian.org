@@ -52,8 +52,8 @@ alioth			IN	NS	ns1
 alioth-test		IN	A	206.12.19.117 ; ravel
 arch			IN	A	217.196.43.134	; alioth
 			IN	MX	0 .
-archive			IN	A	194.109.137.218		; klecker
-			IN	AAAA	2001:888:2000:12::2	; klecker
+archive			IN	A	206.12.19.13		; stabile
+			IN	AAAA	2607:f8f0:610:4000:2e0:81ff:fe5a:71ce	; stabile
 			IN	MX	0 .
 backports		IN	MX	10 morricone
 			IN	A	206.12.19.9
