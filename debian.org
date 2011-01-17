@@ -614,9 +614,7 @@ $ORIGIN se.debian.org.
 ftp		IN	CNAME	ftp.acc.umu.se.
 ;ftp	60	IN	CNAME	kassia-ftp.debian.org.
 $ORIGIN si.debian.org.
-ftp		IN	A	161.53.160.11
-		IN	AAAA	2001:b68:ff:1::11
-; ftp		IN	CNAME	debian.prunk.si. ; FIXME HTTP
+ftp		IN	CNAME	debian.prunk.si.
 $ORIGIN sk.debian.org.
 ftp		IN	CNAME	mirrors.nextra.sk.
 $ORIGIN th.debian.org.
