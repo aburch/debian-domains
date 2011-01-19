@@ -2,7 +2,7 @@
 
 $TTL 1h
 
-$ORIGIN delegation-test1.debian.org.
+$ORIGIN delegation-test2.debian.org.
 @		8h	IN	NS	ns4.debian.com. ; orff
 @			IN	TXT	"it works"
 
