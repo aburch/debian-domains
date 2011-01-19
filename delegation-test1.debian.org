@@ -7,4 +7,7 @@ $ORIGIN delegation-test1.debian.org.
 @			IN	TXT	"it works"
 @			IN	TXT	"DS in debian.org + DLV"
 
+
+dlv.delegation-test1.debian.org. 0 IN TXT "DLV:1:lntgtnujssmf"
+
 ; vim:syn=dns
