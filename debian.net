@@ -1,5 +1,5 @@
 ; wzf: dnssec = 1
-; dlv-submit = yes
+; ds-in-parent = yes
 
 $TTL 8h
 $ORIGIN debian.net.
