@@ -1,0 +1,10 @@
+; wzf: dnssec = 1
+
+$TTL 1h
+
+$ORIGIN delegation-test2.debian.org.
+@		8h	IN	NS	ns4.debian.com. ; orff
+@			IN	TXT	"it works"
+@			IN	TXT	"DS in debian.org + not in DLV"
+
+; vim:syn=dns

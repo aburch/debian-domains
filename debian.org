@@ -42,6 +42,19 @@ _afs3-prserver._udp	10m	IN	SRV	0 0 7002 lamb
 			10m	IN	SRV	0 0 7002 locke
 			10m	IN	SRV	0 0 7002 rautavaara
 
+
+; test
+; ====
+
+
+delegation-test1	IN	NS	ns4.debian.com.
+$INCLUDE "/srv/dns.debian.org/var/dssets/dsset-delegation-test1.debian.org."
+
+delegation-test2	IN	NS	ns4.debian.com.
+$INCLUDE "/srv/dns.debian.org/var/dssets/dsset-delegation-test2.debian.org."
+
+delegation-test3	IN	NS	ns4.debian.com.
+
 ; services
 ;=========
 admin		60	IN	MX	10 spohr.debian.org.
@@ -52,9 +65,10 @@ alioth			IN	NS	ns1
 alioth-test		IN	A	206.12.19.117 ; ravel
 arch			IN	A	217.196.43.134	; alioth
 			IN	MX	0 .
-archive			IN	A	206.12.19.13		; stabile
-			IN	AAAA	2607:f8f0:610:4000:2e0:81ff:fe5a:71ce	; stabile
-			IN	MX	0 .
+archive			IN	NS	geo1.debian.org.
+			IN	NS	geo2.debian.org.
+			IN	NS	geo3.debian.org.
+$INCLUDE "/srv/dns.debian.org/var/dssets/dsset-archive.debian.org."
 backports		IN	MX	10 morricone
 			IN	A	206.12.19.9
 			IN	AAAA	2607:f8f0:610:4000:211:25ff:fec4:59ae
@@ -190,8 +204,8 @@ snapshot		IN	NS	geo1.debian.org.
 			IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-snapshot.debian.org."
 snapshot-master		IN	CNAME	sibelius
-snapshot-stabile	IN	CNAME	stabile
-snapshot-sibelius	IN	CNAME	sibelius
+snapshot-stabile	IN	CNAME	stabile2
+snapshot-sibelius	IN	CNAME	sibelius2
 svn			IN	A	217.196.43.134	; alioth
 			IN	MX	0 .
 syncproxy.eu		IN	CNAME	ftp.hr.debian.org.
@@ -251,6 +265,7 @@ kassia-volatile		IN	A	130.89.149.227
 merkel2			IN	A	192.25.206.71
 oldmaster		IN	A	70.103.162.30
 schein-ilo		IN	A	149.20.20.194
+sibelius2		IN	A	193.62.202.30
 stabile2		IN	A	206.12.19.150
 gw-grnet		IN	A	194.177.211.193
 			IN	AAAA	2001:648:2ffc:deb::1
@@ -538,6 +553,7 @@ $ORIGIN de.debian.org.
 ftp		IN	A	141.76.2.4
 ftp1		IN	CNAME	ftp
 ftp2		IN	A	137.226.34.42 ; ftp.halifax.rwth-aachen.de
+;ftp2		IN	CNAME	source.rfc822.org.
 ;ftp2	300	IN	A	194.8.197.20 ; mirror.netcologne.de
 www		IN	A	141.76.2.5
 $ORIGIN dk.debian.org.
@@ -589,8 +605,9 @@ ftp		IN	CNAME	nisamox.fciencias.unam.mx.
 $ORIGIN nc.debian.org.
 ftp     	IN      A       61.5.210.7
 $ORIGIN nl.debian.org.
-;ftp		IN	A	130.89.149.21 ; debian.snt.utwente.nl
-ftp		IN	CNAME	kassia-ftp.debian.org.
+ftp		IN	A	130.89.149.21 ; debian.snt.utwente.nl
+		IN	AAAA	2001:610:1908:a000::149:21 ; debian.snt.utwente.nl
+;ftp		IN	CNAME	kassia-ftp.debian.org.
 www		IN	CNAME	www.debian.org.
 $ORIGIN no.debian.org.
 ftp		IN	CNAME	debianmirror.uio.no.
@@ -607,8 +624,8 @@ $ORIGIN ro.debian.org.
 ;ftp		IN	A	192.129.4.120 ; Subredu Manuel <diablo@iasi.roedu.net>
 ftp		IN	A	81.180.250.146 ;
 $ORIGIN ru.debian.org.
-ftp		IN	CNAME	ftp.chg.ru.
-; ftp		IN	CNAME	debian.mirror.vu.lt. ;
+; ftp		IN	CNAME	ftp.chg.ru.
+ftp		IN	CNAME	debian.mirror.vu.lt. ;
 www		IN	A	82.179.191.68
 $ORIGIN se.debian.org.
 ftp		IN	CNAME	ftp.acc.umu.se.
@@ -629,14 +646,14 @@ ftp		IN	CNAME	ftp.debian.org.ua.
 www		IN	CNAME	www.debian.org.ua.
 $ORIGIN uk.debian.org.
 ftp		IN	CNAME	debian.hands.com.
-www		IN	CNAME	debian.hands.com.
+www		IN	CNAME	www.debian.org.
 $ORIGIN us.debian.org.
 ftp	300	IN	A	64.50.236.52	; ftp-chi.osuosl.org
 ftp	300	IN	A	64.50.233.100	; ftp-nyc.osuosl.org
 ftp	300	IN	A	35.9.37.225	; ike.egr.msu.edu
 ftp	300	IN	A	128.30.2.36	; debian.lcs.mit.edu
-;ftp	300	IN	A	149.20.20.135	; mirrors1.kernel.org
-ftp	300	IN	A	204.152.191.39	; mirrors2.kernel.org
+ftp	300	IN	A	149.20.20.135	; mirrors1.kernel.org
+;ftp	300	IN	A	204.152.191.39	; mirrors2.kernel.org
 http		IN	CNAME	ftp.us.debian.org.
 www		IN	CNAME	www.debian.org.
 $ORIGIN mi.us.debian.org.
