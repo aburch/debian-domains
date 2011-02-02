@@ -227,6 +227,8 @@ women			IN	A	128.31.0.51 ; senfl
 www			IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
+www-staging		IN	A	206.12.19.116
+www-broken-layout	IN	A	206.12.19.116
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-www.debian.org."
 www-master		IN	A	206.12.19.116	; wolkenstein
 			IN	MX	10 wolkenstein.debian.org.
