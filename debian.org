@@ -647,8 +647,7 @@ $ORIGIN tr.debian.org.
 ftp		IN	CNAME	debian.lyildirim.net.	; Levent YILDIRIM <levent@lyildirim.net>
 ; Andrew Lee <andrew@linux.org.tw>
 $ORIGIN tw.debian.org.
-;ftp		IN	CNAME	debian.linux.org.tw.
-ftp		IN	CNAME	ftp.kr.debian.org. ; FIXME temporarily redirect
+ftp		IN	CNAME	debian.linux.org.tw.
 $ORIGIN ua.debian.org.
 ftp		IN	CNAME	ftp.debian.org.ua.
 ;www		IN	CNAME	www.debian.org.ua.
