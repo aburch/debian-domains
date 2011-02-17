@@ -12,6 +12,7 @@ $TTL 24h
 $TTL 8h
 
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	asteria.debian.or.at.
+2.0.c.9.e.4.e.f.f.f.c.0.e.0.2.0	IN	PTR	nova.noreply.org.
 6.7.8.8.e.c.e.f.f.f.8.4.0.3.2.0	IN	PTR	beethoven.debian.org.
 a.9.4.a.4.c.e.f.f.f.5.3.6.1.2.0	IN	PTR	merikanto.debian.org.
 7.1.7.7.d.0.e.f.f.f.2.2.4.1.2.0	IN	PTR	englund.debian.org.
