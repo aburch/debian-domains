@@ -496,8 +496,8 @@ pettersson-ilo		IN	A	172.21.101.10
 ;==========
 
 $ORIGIN at.debian.org.
-ftp		IN	CNAME	ftp.debian.at.
-;ftp	300	IN	CNAME	kassia-ftp.debian.org.
+;ftp		IN	CNAME	ftp.debian.at.
+ftp	300	IN	CNAME	kassia-ftp.debian.org.
 http		IN	CNAME	ftp
 cdimage		IN	CNAME	cdimage.debian.at.
 ;cdimage	300	IN	CNAME	cdimage.debian.org.
