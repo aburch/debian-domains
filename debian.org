@@ -94,7 +94,11 @@ bzr			IN	A	217.196.43.134	; alioth
 			IN	MX	0 .
 ca			IN	CNAME	draghi
 cdbuilder		IN	CNAME	pettersson
-cdimage			IN	CNAME	ftp.acc.umu.se.
+;cdimage			IN	CNAME	ftp.acc.umu.se.
+cdimage		900	IN	A	130.239.18.163 ; ftp.acc.umu.se, part 1
+cdimage		900	IN	A	130.239.18.173 ; ftp.acc.umu.se, part 2
+cdimage		900	IN	AAAA	2001:6b0:e:2018::163 ; ftp.acc.umu.se, part 1
+cdimage		900	IN	AAAA	2001:6b0:e:2018::173 ; ftp.acc.umu.se, part 2
 us.cdimage		IN	CNAME	debian.hands.com.
 cgi			IN	A	70.103.162.29	; master
 			IN	MX	0 .
@@ -250,6 +254,11 @@ www-master		IN	A	206.12.19.116	; wolkenstein
 ;			IN	MX	10 klecker.debian.org.
 www-mirror		IN	CNAME	www-master.debian.org.
 www.gluck		IN	CNAME	gluck
+
+
+; restricted services
+; ubc
+mirror-ubc		IN	CNAME	ravel
 
 ; hosts
 ;======
@@ -635,7 +644,11 @@ ftp		IN	CNAME	debian.mirror.vu.lt. ;
 ;www		IN	A	82.179.191.68
 www		IN	CNAME	www.debian.org.
 $ORIGIN se.debian.org.
-ftp		IN	CNAME	ftp.acc.umu.se.
+;ftp		IN	CNAME	ftp.acc.umu.se.
+ftp	900	IN	A	130.239.18.163 ; ftp.acc.umu.se, part 1
+ftp	900	IN	A	130.239.18.173 ; ftp.acc.umu.se, part 2
+ftp	900	IN	AAAA	2001:6b0:e:2018::163 ; ftp.acc.umu.se, part 1
+ftp	900	IN	AAAA	2001:6b0:e:2018::173 ; ftp.acc.umu.se, part 2
 ;ftp	60	IN	CNAME	kassia-ftp.debian.org.
 $ORIGIN si.debian.org.
 ftp		IN	CNAME	debian.prunk.si.
@@ -647,7 +660,8 @@ $ORIGIN tr.debian.org.
 ftp		IN	CNAME	debian.lyildirim.net.	; Levent YILDIRIM <levent@lyildirim.net>
 ; Andrew Lee <andrew@linux.org.tw>
 $ORIGIN tw.debian.org.
-ftp		IN	CNAME	debian.linux.org.tw.
+;ftp		IN	CNAME	debian.linux.org.tw.
+ftp		IN	CNAME	ftp.kr.debian.org. ; FIXME temporarily redirect
 $ORIGIN ua.debian.org.
 ftp		IN	CNAME	ftp.debian.org.ua.
 ;www		IN	CNAME	www.debian.org.ua.
