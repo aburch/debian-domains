@@ -16,12 +16,6 @@ mirror		IN	NS	ns1.debian.org.
 ;		IN	NS	ns3.debian.org.
 		IN	NS	ns4.debian.com.
 
-;rbl		IN	NS	ns1.debian.org.
-;		IN	NS	ns2.debian.org.
-;		IN	NS	ns3.debian.org.
-;		IN	NS	ns4.debian.com.
-; $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-rbl.debian.net."
-
 $TTL 1h
 $INCLUDE "/var/lib/misc/thishost/dns-zone"
 
