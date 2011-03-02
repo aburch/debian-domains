@@ -57,7 +57,7 @@ delegation-test3	IN	NS	ns4.debian.com.
 
 ; services
 ;=========
-admin		60	IN	MX	10 spohr.debian.org.
+admin			IN	MX	10 spohr.debian.org.
 alioth			IN	NS	ns1
 			IN	NS	ns2
 ;			IN	NS	ns3
@@ -79,7 +79,7 @@ bugs			IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-bugs.debian.org."
-bugs-master	300	IN	A	140.211.15.34	; busoni
+bugs-master		IN	A	140.211.15.34	; busoni
 			IN	MX	0 bugs-master
 bugs-busoni		IN	CNAME	busoni
 bugs-duarte		IN	CNAME	duarte
@@ -94,11 +94,7 @@ bzr			IN	A	217.196.43.134	; alioth
 			IN	MX	0 .
 ca			IN	CNAME	draghi
 cdbuilder		IN	CNAME	pettersson
-;cdimage			IN	CNAME	ftp.acc.umu.se.
-cdimage		900	IN	A	130.239.18.163 ; ftp.acc.umu.se, part 1
-cdimage		900	IN	A	130.239.18.173 ; ftp.acc.umu.se, part 2
-cdimage		900	IN	AAAA	2001:6b0:e:2018::163 ; ftp.acc.umu.se, part 1
-cdimage		900	IN	AAAA	2001:6b0:e:2018::173 ; ftp.acc.umu.se, part 2
+cdimage			IN	CNAME	ftp.acc.umu.se.
 us.cdimage		IN	CNAME	debian.hands.com.
 cgi			IN	A	70.103.162.29	; master
 			IN	MX	0 .
@@ -144,11 +140,11 @@ mailout			IN	A	82.195.75.97	; kokkonen
 			IN	AAAA	2001:858:2:2:216:35ff:fec4:a49a	; merikanto
 			IN	MX	0 kokkonen.debian.org. ; outgoing mail relay uses by MX routing on mailout
 			IN	MX	0 merikanto.debian.org.
-munin		60	IN	CNAME	spohr.debian.org.
+munin			IN	CNAME	spohr.debian.org.
 nagios			IN	CNAME	tchaikovsky
-nm		90	IN	A	206.12.19.123	; nono
-		90	IN	AAAA	2607:F8F0:610:4000:216:36FF:FE40:3861	; nono
-		90	IN	MX	10 nono.debian.org.
+nm			IN	A	206.12.19.123	; nono
+			IN	AAAA	2607:F8F0:610:4000:216:36FF:FE40:3861	; nono
+			IN	MX	10 nono.debian.org.
 other			IN	A	82.195.75.100	; liszt
 			IN	MX	0 liszt.debian.org.
 packages		IN	NS	geo1.debian.org.
@@ -595,7 +591,8 @@ $ORIGIN hr.debian.org.
 ftp		IN	A	161.53.160.11
 		IN	AAAA	2001:b68:ff:1::11
 $ORIGIN hu.debian.org.
-ftp		IN	CNAME	ftp.fsn.hu.
+;ftp		IN	CNAME	ftp.fsn.hu.
+ftp		IN	CNAME	ftp.hr.debian.org. ; FIXME
 $ORIGIN id.debian.org.
 ;www		IN	CNAME	kambing.ui.ac.id.
 ;www		IN	CNAME	kambing.vLSM.org.
@@ -645,11 +642,7 @@ ftp		IN	CNAME	debian.mirror.vu.lt. ;
 ;www		IN	A	82.179.191.68
 www		IN	CNAME	www.debian.org.
 $ORIGIN se.debian.org.
-;ftp		IN	CNAME	ftp.acc.umu.se.
-ftp	900	IN	A	130.239.18.163 ; ftp.acc.umu.se, part 1
-ftp	900	IN	A	130.239.18.173 ; ftp.acc.umu.se, part 2
-ftp	900	IN	AAAA	2001:6b0:e:2018::163 ; ftp.acc.umu.se, part 1
-ftp	900	IN	AAAA	2001:6b0:e:2018::173 ; ftp.acc.umu.se, part 2
+ftp		IN	CNAME	ftp.acc.umu.se.
 ;ftp	60	IN	CNAME	kassia-ftp.debian.org.
 $ORIGIN si.debian.org.
 ftp		IN	CNAME	debian.prunk.si.
@@ -661,8 +654,7 @@ $ORIGIN tr.debian.org.
 ftp		IN	CNAME	debian.lyildirim.net.	; Levent YILDIRIM <levent@lyildirim.net>
 ; Andrew Lee <andrew@linux.org.tw>
 $ORIGIN tw.debian.org.
-;ftp		IN	CNAME	debian.linux.org.tw.
-ftp		IN	CNAME	ftp.kr.debian.org. ; FIXME temporarily redirect
+ftp		IN	CNAME	debian.linux.org.tw.
 $ORIGIN ua.debian.org.
 ftp		IN	CNAME	ftp.debian.org.ua.
 ;www		IN	CNAME	www.debian.org.ua.
