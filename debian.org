@@ -69,6 +69,7 @@ archive			IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-archive.debian.org."
+auto-beta		IN	CNAME	orff
 backports		IN	MX	10 morricone
 			IN	A	206.12.19.9
 			IN	AAAA	2607:f8f0:610:4000:211:25ff:fec4:59ae
