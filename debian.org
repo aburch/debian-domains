@@ -69,6 +69,7 @@ archive			IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
 			IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-archive.debian.org."
+auto-beta		IN	CNAME	orff
 backports		IN	MX	10 morricone
 			IN	A	206.12.19.9
 			IN	AAAA	2607:f8f0:610:4000:211:25ff:fec4:59ae
@@ -565,7 +566,8 @@ ftp2		IN	A	137.226.34.42 ; ftp.halifax.rwth-aachen.de
 ;www		IN	A	141.76.2.5
 www		IN	CNAME	www.debian.org.
 $ORIGIN dk.debian.org.
-ftp		IN	CNAME	mirrors.dotsrc.org.
+;ftp		IN	CNAME	mirrors.dotsrc.org.
+ftp		IN	A	130.89.149.21 ; debian.snt.utwente.nl FIXME
 $ORIGIN ee.debian.org.
 ftp		IN	CNAME	ftp.aso.ee.
 $ORIGIN es.debian.org.
