@@ -135,6 +135,7 @@ lists			IN	A	82.195.75.100	; liszt
 			IN	MX	0 liszt.debian.org.
 lists-test		IN	MX	0 liszt.debian.org.
 mirror			IN	CNAME	bellini
+mirror-master		IN	CNAME	bellini
 mailout			IN	A	82.195.75.97	; kokkonen
 			IN	AAAA	2001:41b8:202:deb:216:35ff:fec4:6340	; kokkonen
 			IN	A	86.59.118.147	; merikanto
