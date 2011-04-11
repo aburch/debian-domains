@@ -351,13 +351,13 @@ giustini-b1-iscsi	IN	A	10.0.0.20
 strozzi-db1-iscsi	IN	A	10.0.0.211
 strozzi-db2-iscsi	IN	A	10.0.0.212
 strozzi-db3-iscsi	IN	A	10.0.0.213
-strozzi-db4-iscsi	IN	CNAME	luchesi-iscsi
-luchesi-iscsi		IN	A	10.0.0.214
+strozzi-db4-iscsi	IN	A	10.0.0.214
 strozzi-db5-iscsi	IN	A	10.0.0.215
 strozzi-db6-iscsi	IN	A	10.0.0.216
 strozzi-db7-iscsi	IN	A	10.0.0.217
-strozzi-db8-iscsi	IN	CNAME	dijkstra-iscsi
-dijkstra-iscsi		IN	A	10.0.0.218
+strozzi-db8-iscsi	IN	A	10.0.0.218
+luchesi-iscsi		IN	CNAME	strozzi-db4-iscsi
+dijkstra-iscsi		IN	CNAME	strozzi-db8-iscsi
 
 vivaldi-iscsi		IN	A	10.0.0.12
 salieri-iscsi		IN	A	10.0.0.241
@@ -400,11 +400,9 @@ lux-mnt			IN	A	192.168.2.243	; lux.oftc.net <noc@oftc.net>
 ; luchesi is a BL460c G5 blade in device bay 4 of strozzi
 luchesi-mnt		IN	CNAME	strozzi-db4-mnt
 luchesi-ilo		IN	CNAME	strozzi-db4-ilo
-luchesi-iscsi		IN	CNAME	strozzi-db4-iscsi
 ; dijkstra is a BL460c G5 blade in device bay 8 of strozzi
 dijkstra-mnt		IN	CNAME	strozzi-db8-mnt
 dijkstra-ilo		IN	CNAME	strozzi-db8-ilo
-dijkstra-iscsi		IN	CNAME	strozzi-db8-iscsi
 ; switch
 kais-switch		IN	A	192.168.2.97	; NetGear GS748T
 ; remotely managable power distribution units
