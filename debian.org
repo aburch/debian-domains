@@ -344,7 +344,6 @@ sibelius-ilo		IN	A	192.168.0.4
 
 $ORIGIN debprivate-ubc.debian.org.
 ; iscsi network
-stabile-iscsi		IN	A	10.0.0.2	; FIXME: remove after deconfiguring interface on stabile
 giustini-a0-iscsi	IN	A	10.0.0.17
 giustini-a1-iscsi	IN	A	10.0.0.18
 giustini-b0-iscsi	IN	A	10.0.0.19
@@ -352,12 +351,17 @@ giustini-b1-iscsi	IN	A	10.0.0.20
 strozzi-db1-iscsi	IN	A	10.0.0.211
 strozzi-db2-iscsi	IN	A	10.0.0.212
 strozzi-db3-iscsi	IN	A	10.0.0.213
-strozzi-db4-iscsi	IN	A	10.0.0.214
+strozzi-db4-iscsi	IN	CNAME	luchesi-iscsi
+luchesi-iscsi		IN	A	10.0.0.214
 strozzi-db5-iscsi	IN	A	10.0.0.215
 strozzi-db6-iscsi	IN	A	10.0.0.216
 strozzi-db7-iscsi	IN	A	10.0.0.217
-strozzi-db8-iscsi	IN	A	10.0.0.218
+strozzi-db8-iscsi	IN	CNAME	dijkstra-iscsi
+dijkstra-iscsi		IN	A	10.0.0.218
+
 vivaldi-iscsi		IN	A	10.0.0.12
+salieri-iscsi		IN	A	10.0.0.241
+traetta-iscsi		IN	A	10.0.0.242
 
 ; management network
 mcld-console		IN	A	192.168.2.1	; OpenGear CM4008
