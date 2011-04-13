@@ -96,6 +96,7 @@ bzr			IN	A	217.196.43.134	; alioth
 ca			IN	CNAME	draghi
 cdbuilder		IN	CNAME	pettersson
 cdimage			IN	CNAME	ftp.acc.umu.se.
+cdimage-search		IN	CNAME	glinka
 us.cdimage		IN	CNAME	debian.hands.com.
 cgi			IN	A	70.103.162.29	; master
 			IN	MX	0 .
