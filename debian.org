@@ -18,9 +18,12 @@ ns1		8h	IN	A	206.12.19.5
 		8h	IN	TXT	"ravel"
 ns2		8h	IN	A	128.31.0.51
 		8h	IN	TXT	"senfl"
-ns3		8h	IN	A	194.109.137.218
-		8h	IN	AAAA	2001:888:2000:12::2
-		8h	IN	TXT	"klecker"
+;ns3		8h	IN	A	194.109.137.218
+;		8h	IN	AAAA	2001:888:2000:12::2
+;		8h	IN	TXT	"klecker"
+ns3		8h	IN	A	82.195.75.108
+		8h	IN	AAAA	2001:41b8:202:deb:1a1a:0:52c3:4b6c
+		8h	IN	TXT	"diamond"
 
 _kerberos		10m	IN	TXT	"DEBIAN.ORG"	; krb realm
 _kerberos._udp		10m	IN	SRV	0 0 88 byrd
