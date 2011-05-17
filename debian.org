@@ -611,7 +611,7 @@ ftp		IN	CNAME	debian.heanet.ie.  ; Colm MacCarthaigh <colm.maccarthaigh@heanet.i
 $ORIGIN is.debian.org.
 ftp		IN	CNAME	draupnir.rhnet.is.
 $ORIGIN it.debian.org.
-ftp		IN	CNAME	korolyov.fastweb.it.
+ftp		IN	CNAME	ftp.bofh.it.
 $ORIGIN jp.debian.org.
 ftp		IN	CNAME	cdn.debian.or.jp.
 ftp2		IN	CNAME	cdn.debian.or.jp.
