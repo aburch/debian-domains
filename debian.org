@@ -15,7 +15,7 @@ $ORIGIN debian.org.
 
 ; we delegate things to ns[123]
 ns1		8h	IN	A	206.12.19.5
-		;8h	IN	AAAA	2607:f8f0:610:4000:214:38ff:feee:b65a
+		8h	IN	AAAA	2607:f8f0:610:4000:214:38ff:feee:b65a
 		8h	IN	TXT	"ravel"
 ns2		8h	IN	A	128.31.0.51
 		8h	IN	TXT	"senfl"
@@ -76,7 +76,7 @@ $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-archive.debian.org."
 auto-beta		IN	CNAME	orff
 backports		IN	MX	10 morricone
 			IN	A	206.12.19.9
-			;IN	AAAA	2607:f8f0:610:4000:211:25ff:fec4:59ae
+			IN	AAAA	2607:f8f0:610:4000:211:25ff:fec4:59ae
 backports-master	IN	CNAME	morricone
 backup			IN	CNAME	beethoven.debian.org.
 bttracker		IN	CNAME	bttracker.acc.umu.se.
@@ -133,7 +133,7 @@ irc6			IN	CNAME	irc6.geo.oftc.net.
 irc.ipv6		IN	CNAME	irc6.geo.oftc.net.
 keyring			IN	CNAME	kaufmann
 lintian			IN	A	206.12.19.7	; bellini
-			;IN	AAAA	2607:f8f0:610:4000:211:25ff:fec4:5b28 ; bellini
+			IN	AAAA	2607:f8f0:610:4000:211:25ff:fec4:5b28 ; bellini
 			IN	MX	0 .
 lists			IN	A	82.195.75.100	; liszt
 			IN	MX	0 liszt.debian.org.
@@ -149,7 +149,7 @@ mailout			IN	A	82.195.75.97	; kokkonen
 munin			IN	CNAME	spohr.debian.org.
 nagios			IN	CNAME	tchaikovsky
 nm			IN	A	206.12.19.123	; nono
-			;IN	AAAA	2607:F8F0:610:4000:216:36FF:FE40:3861	; nono
+			IN	AAAA	2607:F8F0:610:4000:216:36FF:FE40:3861	; nono
 			IN	MX	10 nono.debian.org.
 other			IN	A	82.195.75.100	; liszt
 			IN	MX	0 liszt.debian.org.
@@ -162,7 +162,7 @@ packages-powell		IN	CNAME	powell
 packages-powell-stats	IN	CNAME	powell
 packages-rore		IN	CNAME	rore
 people			IN	A	206.12.19.5 ; ravel
-			;IN	AAAA	2607:f8f0:610:4000:214:38ff:feee:b65a ; ravel
+			IN	AAAA	2607:f8f0:610:4000:214:38ff:feee:b65a ; ravel
 			IN	MX	0 .
 newpeople		IN	CNAME	ravel.debian.org.
 patch-tracker		IN	CNAME	respighi
@@ -170,11 +170,11 @@ piuparts		IN	CNAME	piatti
 planet			IN	A	128.31.0.51	; senfl
 			IN	MX	0 .
 popcon			IN	A	206.12.19.7	; bellini
-			;IN	AAAA	2607:f8f0:610:4000:211:25ff:fec4:5b28 ; bellini
+			IN	AAAA	2607:f8f0:610:4000:211:25ff:fec4:5b28 ; bellini
 			IN	MX	10 bellini.debian.org.
 puppet			IN	CNAME	handel
 qa			IN	A	206.12.19.122	; quantz
-			;IN	AAAA	2607:f8f0:610:4000:216:36ff:fe40:3860	; quantz
+			IN	AAAA	2607:f8f0:610:4000:216:36ff:fe40:3860	; quantz
 			IN	MX	10 quantz
 packages.qa		IN	A	70.103.162.29	; master
 			IN	MX	0 master.debian.org.
@@ -182,7 +182,7 @@ release			IN	A	128.148.34.3 ; franck
 			IN	MX	10 franck.debian.org.
 reportbug		IN	CNAME	busoni.debian.org.
 rt			IN	A	206.12.19.124   ; reger
-			;IN	AAAA	2607:f8f0:610:4000:216:36ff:fe40:3862 ; reger
+			IN	AAAA	2607:f8f0:610:4000:216:36ff:fe40:3862 ; reger
 			IN	MX	10 reger.debian.org.
 search			IN	A	128.31.0.51 ; senfl
 			IN	MX	0 .
@@ -232,7 +232,7 @@ ftp.eu.upload	60	IN	CNAME	kassia.debian.org.
 ;ftp.eu.upload	60	IN	CNAME	ftp-master.debian.org.
 ;ftp.eu.upload	60	IN	CNAME	ravel.debian.org.
 volatile-master		IN	A	206.12.19.112	; valente
-			;IN	AAAA	2607:f8f0:610:4000:216:36ff:fe40:3804 ; valente
+			IN	AAAA	2607:f8f0:610:4000:216:36ff:fe40:3804 ; valente
 			IN	MX	0 .
 volatile		IN	NS	geo1.debian.org.
 			IN	NS	geo2.debian.org.
