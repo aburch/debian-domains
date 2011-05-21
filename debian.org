@@ -66,7 +66,7 @@ alioth			IN	NS	ns1
 			IN	NS	ns2
 ;			IN	NS	ns3
 			IN	NS	ns4.debian.com.
-anonscm			IN	A	217.196.43.140	; alioth
+anonscm			IN	A	217.196.43.132	; wagner
 arch			IN	A	217.196.43.140	; alioth
 			IN	MX	0 .
 archive			IN	NS	geo1.debian.org.
