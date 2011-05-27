@@ -620,8 +620,8 @@ ftp2		IN	CNAME	cdn.debian.or.jp.
 ;www		IN	A	202.221.179.45
 www		IN	CNAME	www.debian.org.
 $ORIGIN kr.debian.org.
-ftp		IN	CNAME	ftp.kaist.ac.kr.
-;ftp		IN	CNAME	ftp.tw.debian.org.
+;ftp		IN	CNAME	ftp.kaist.ac.kr.
+ftp		IN	CNAME	ftp.tw.debian.org. ; FIXME
 $ORIGIN lt.debian.org.
 ftp		IN	CNAME	debian.mirror.vu.lt. ; Arnoldas Sareckis <hostmaster@vu.lt>
 $ORIGIN mx.debian.org.
