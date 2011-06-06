@@ -1,0 +1,23 @@
+; 0.0.0.4.6.0.2.0.0.3.6.0.1.0.0.2.ip6.arpa - reverse
+; hosts at sanger - 2001:630:206:4000::/64
+; ::0, ::1 and ::ffff:ffff:ffff:ffff are reserved for sanger infra
+
+; wzf: dnssec = 1
+; dlv-submit = no
+
+$TTL 24h
+
+@		IN	NS	ns1.debian.org. ; ravel
+@		IN	NS	ns2.debian.org. ; senfl
+@		IN	NS	ns3.debian.org. ; diamond
+@		IN	NS	ns4.debian.com. ; orff
+
+$TTL 8h
+
+; 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		IN	PTR	gw
+a.1.a.c.e.3.1.c.0.0.0.0.a.1.a.1		IN	PTR	goetz.debian.org.
+b.1.a.c.e.3.1.c.0.0.0.0.a.1.a.1		IN	PTR	albeniz.debian.org.
+c.1.a.c.e.3.1.c.0.0.0.0.a.1.a.1		IN	PTR	sibelius.debian.org.
+d.1.a.c.e.3.1.c.0.0.0.0.a.1.a.1		IN	PTR	smetana.debian.org.
+
+; vim:syn=dns
