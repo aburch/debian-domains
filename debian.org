@@ -70,21 +70,21 @@ anonscm			IN	A	217.196.43.132	; wagner
 arch			IN	A	217.196.43.140	; alioth
 			IN	SSHFP	1 1 4963261A154CB25B867A2F5F3BE0741D30229DA5
 			IN	MX	0 .
-archive			IN	NS	geo1.debian.org.
-			IN	NS	geo2.debian.org.
-			IN	NS	geo3.debian.org.
+archive		8h	IN	NS	geo1.debian.org.
+		8h	IN	NS	geo2.debian.org.
+		8h	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-archive.debian.org."
 auto-beta		IN	CNAME	orff
-backports	5m	IN	NS	geo1.debian.org.
-		5m	IN	NS	geo2.debian.org.
-		5m	IN	NS	geo3.debian.org.
+backports	8h	IN	NS	geo1.debian.org.
+		8h	IN	NS	geo2.debian.org.
+		8h	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-backports.debian.org."
 backports-master	IN	CNAME	morricone
 backup			IN	CNAME	beethoven.debian.org.
 bttracker		IN	CNAME	bttracker.acc.umu.se.
-bugs			IN	NS	geo1.debian.org.
-			IN	NS	geo2.debian.org.
-			IN	NS	geo3.debian.org.
+bugs		8h	IN	NS	geo1.debian.org.
+		8h	IN	NS	geo2.debian.org.
+		8h	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-bugs.debian.org."
 bugs-master		IN	A	140.211.15.34	; busoni
 			IN	MX	0 bugs-master
@@ -118,9 +118,9 @@ db			IN	A	82.195.75.106	; draghi
 			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3906	; draghi
 			IN	MX	10 draghi.debian.org.
 dns			IN	CNAME	orff
-ftp			IN	NS	geo1.debian.org.
-			IN	NS	geo2.debian.org.
-			IN	NS	geo3.debian.org.
+ftp		8h	IN	NS	geo1.debian.org.
+		8h	IN	NS	geo2.debian.org.
+		8h	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-ftp.debian.org."
 ftp.ipv6		IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
 			IN	AAAA	2001:610:1908:a000::149:226 ; kassia
@@ -160,9 +160,9 @@ nm			IN	A	206.12.19.123	; nono
 			IN	MX	10 nono.debian.org.
 other			IN	A	82.195.75.100	; liszt
 			IN	MX	0 liszt.debian.org.
-packages		IN	NS	geo1.debian.org.
-			IN	NS	geo2.debian.org.
-			IN	NS	geo3.debian.org.
+packages	8h	IN	NS	geo1.debian.org.
+		8h	IN	NS	geo2.debian.org.
+		8h	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-packages.debian.org."
 packages-holter		IN	CNAME	holter
 packages-powell		IN	CNAME	powell
@@ -194,9 +194,9 @@ rt			IN	A	206.12.19.124   ; reger
 search			IN	A	128.31.0.51 ; senfl
 			IN	MX	0 .
 security-master		IN	CNAME	chopin
-security		IN	NS	geo1.debian.org.
-			IN	NS	geo2.debian.org.
-			IN	NS	geo3.debian.org.
+security	8h	IN	NS	geo1.debian.org.
+		8h	IN	NS	geo2.debian.org.
+		8h	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-security.debian.org."
 security.eu		IN	CNAME	security.debian.org.
 security.na		IN	CNAME	security.debian.org.
@@ -211,9 +211,9 @@ security-nagios		IN	MX	0 .
 			IN	A	150.203.164.38	; gluck
 			IN	A	200.17.202.197	; santoro
 security-tracker	IN	CNAME	soler
-snapshot		IN	NS	geo1.debian.org.
-			IN	NS	geo2.debian.org.
-			IN	NS	geo3.debian.org.
+snapshot	8h	IN	NS	geo1.debian.org.
+		8h	IN	NS	geo2.debian.org.
+		8h	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-snapshot.debian.org."
 snapshot-master		IN	CNAME	sibelius
 snapshot-stabile	IN	CNAME	stabile2
@@ -241,9 +241,9 @@ ftp.eu.upload	60	IN	CNAME	kassia.debian.org.
 volatile-master		IN	A	206.12.19.112	; valente
 			IN	AAAA	2607:f8f0:610:4000:216:36ff:fe40:3804 ; valente
 			IN	MX	0 .
-volatile		IN	NS	geo1.debian.org.
-			IN	NS	geo2.debian.org.
-			IN	NS	geo3.debian.org.
+volatile	8h	IN	NS	geo1.debian.org.
+		8h	IN	NS	geo2.debian.org.
+		8h	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-volatile.debian.org."
 vote			IN	A	70.103.162.29	; master
 			IN	MX	0 master.debian.org.
@@ -251,9 +251,9 @@ wiki			IN	A	93.94.130.161	; widor
 			IN	MX	0 .
 women			IN	A	128.31.0.51 ; senfl
 			IN	MX	10 ravel
-www			IN	NS	geo1.debian.org.
-			IN	NS	geo2.debian.org.
-			IN	NS	geo3.debian.org.
+www		8h	IN	NS	geo1.debian.org.
+		8h	IN	NS	geo2.debian.org.
+		8h	IN	NS	geo3.debian.org.
 www-staging		IN	A	206.12.19.116
 www-broken-layout	IN	A	206.12.19.116
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-www.debian.org."
