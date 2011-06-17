@@ -1,6 +1,6 @@
 ; debian.org zone
 ; wzf: dnssec = 1
-; dlv-submit = yes
+; ds-in-parent = yes
 
 $TTL 1h
 $ORIGIN debian.org.
