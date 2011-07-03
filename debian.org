@@ -524,8 +524,8 @@ cdimage		IN	CNAME	cdimage.debian.at.
 ;www		IN	CNAME	www.debian.at.
 www	300	IN	CNAME	www.debian.org.
 $ORIGIN au.debian.org.
-;ftp	10m	IN	CNAME	ftp.planetmirror.com.
-ftp		IN	CNAME	mirror.linux.org.au.
+ftp	10m	IN	CNAME	ftp.planetmirror.com.
+;ftp		IN	CNAME	mirror.linux.org.au.
 ;www		IN	A	203.8.116.111
 www		IN	CNAME	www.debian.org.
 ftp.wa		IN	A	218.100.43.30
