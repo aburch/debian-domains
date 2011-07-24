@@ -399,6 +399,8 @@ traetta-mnt		IN	A	192.168.2.21
 duarte-mnt		IN	A	192.168.2.64
 quantz-mnt		IN	A	192.168.2.72
 glinka-mnt		IN	A	192.168.2.76
+dukas-mnt		IN	A	192.168.2.78
+tye-mnt			IN	A	192.168.2.79
 
 rossini-ilo		IN	A	192.168.2.119
 salieri-ilo		IN	A	192.168.2.120
