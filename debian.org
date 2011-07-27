@@ -523,12 +523,10 @@ ftp		IN	CNAME	ftp.debian.at.
 http		IN	CNAME	ftp
 cdimage		IN	CNAME	cdimage.debian.at.
 ;cdimage	300	IN	CNAME	cdimage.debian.org.
-;www		IN	CNAME	www.debian.at.
 www	300	IN	CNAME	www.debian.org.
 $ORIGIN au.debian.org.
 ;ftp	10m	IN	CNAME	ftp.planetmirror.com.
 ftp		IN	CNAME	mirror.linux.org.au.
-;www		IN	A	203.8.116.111
 www		IN	CNAME	www.debian.org.
 ftp.wa		IN	A	218.100.43.30
 ;ftp.wa		IN	CNAME	mirror.linux.org.au.
@@ -541,11 +539,9 @@ ftp		IN	A       77.243.184.65   ; mirror.be.gbxs.net
 ftp		IN	AAAA    2a01:300:11:4:2e0:81ff:fe63:cdb2 ; mirror.be.gbxs.net
 $ORIGIN bg.debian.org.
 ftp		IN	CNAME	debian.spnet.net.
-;www		IN	CNAME	debian.spnet.net.
 www		IN	CNAME	www.debian.org.
 $ORIGIN br.debian.org.
 ftp		IN	CNAME	debian.c3sl.ufpr.br.  ; Marcos Castilho <marcos@inf.ufpr.br>
-;www		IN	CNAME	www.debian.org.br.
 www		IN	CNAME	www.debian.org.
 $ORIGIN by.debian.org.
 ftp		IN	CNAME	ftp.mgts.by. ; Evgeniy Kozhuhovskiy  <ftpadm@mgts.by>
@@ -570,7 +566,6 @@ ftp1		IN	CNAME	debian.netlinux.cl.
 ftp2		IN	CNAME	debian.nod.cl.	; Ricardo Yanez <ricardo.yanez@calel.org>
 $ORIGIN cn.debian.org.
 ftp		IN	CNAME	mirrors.ustc.edu.cn. ; mirrors@ustc.edu.cn
-;www		IN	CNAME	debian.linuxforum.net.
 www		IN	CNAME	www.debian.org.
 $ORIGIN cz.debian.org.
 ; Dan Ohnesorg <Dan@ohnesorg.cz>
@@ -581,7 +576,6 @@ ftp1		IN	CNAME	ftp
 ftp2		IN	A	137.226.34.42 ; ftp.halifax.rwth-aachen.de
 ;ftp2		IN	CNAME	source.rfc822.org.
 ;ftp2	300	IN	A	194.8.197.20 ; mirror.netcologne.de
-;www		IN	A	141.76.2.5
 www		IN	CNAME	www.debian.org.
 $ORIGIN dk.debian.org.
 ftp		IN	CNAME	mirrors.dotsrc.org.
@@ -591,7 +585,6 @@ $ORIGIN es.debian.org.
 ; ftp		IN	A	163.117.156.54 ; ftp.gul(.uc3m).es
 ; ftp		IN	A	130.206.1.5 ; ftp.rediris.es
 ftp		IN	A	82.194.78.250 ; ulises.hostalia.com <jfs@debian.org>
-;www		IN	CNAME	debian.ci.uv.es.
 www		IN	CNAME	www.debian.org.
 $ORIGIN fi.debian.org.
 ftp		IN	A	130.230.54.99
@@ -604,7 +597,6 @@ $ORIGIN gr.debian.org.
 ftp		IN	CNAME	patroklos.noc.ntua.gr.
 $ORIGIN hk.debian.org.
 ftp		IN	A	202.134.73.139 ; Anthony Wong <ypwong@debian.org>
-;www		IN	A	202.134.73.139 ; Anthony Wong <ypwong@debian.org>
 www		IN	CNAME	www.debian.org.
 $ORIGIN hr.debian.org.
 ftp		IN	A	161.53.160.11
@@ -612,8 +604,6 @@ ftp		IN	A	161.53.160.11
 $ORIGIN hu.debian.org.
 ftp		IN	CNAME	ftp.fsn.hu.
 $ORIGIN id.debian.org.
-;www		IN	CNAME	kambing.ui.ac.id.
-;www		IN	CNAME	kambing.vLSM.org.
 www		IN	CNAME	www.debian.org.
 $ORIGIN ie.debian.org.
 ftp		IN	CNAME	debian.heanet.ie.  ; Colm MacCarthaigh <colm.maccarthaigh@heanet.ie>
@@ -624,7 +614,6 @@ ftp		IN	CNAME	ftp.bofh.it.
 $ORIGIN jp.debian.org.
 ftp		IN	CNAME	cdn.debian.or.jp.
 ftp2		IN	CNAME	cdn.debian.or.jp.
-;www		IN	A	202.221.179.45
 www		IN	CNAME	www.debian.org.
 $ORIGIN kr.debian.org.
 ftp		IN	CNAME	ftp.kaist.ac.kr.
@@ -657,7 +646,6 @@ ftp		IN	A	81.180.250.146 ;
 $ORIGIN ru.debian.org.
 ; ftp		IN	CNAME	ftp.chg.ru.
 ftp		IN	CNAME	debian.mirror.vu.lt. ;
-;www		IN	A	82.179.191.68
 www		IN	CNAME	www.debian.org.
 $ORIGIN se.debian.org.
 ftp		IN	CNAME	ftp.acc.umu.se.
@@ -675,7 +663,6 @@ $ORIGIN tw.debian.org.
 ftp		IN	CNAME	debian.linux.org.tw.
 $ORIGIN ua.debian.org.
 ftp		IN	CNAME	ftp.debian.org.ua.
-;www		IN	CNAME	www.debian.org.ua.
 www		IN	CNAME	www.debian.org.
 $ORIGIN uk.debian.org.
 ;ftp		IN	CNAME	debian.hands.com.
@@ -695,7 +682,6 @@ www		IN	CNAME	www.debian.org.
 $ORIGIN mi.us.debian.org.
 ftp		IN	CNAME	debian.egr.msu.edu.
 $ORIGIN za.debian.org.
-;www		IN	CNAME	www.leg.uct.ac.za.
 www		IN	CNAME	www.debian.org.
 
 ; SSH FP
