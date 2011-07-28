@@ -110,7 +110,9 @@ cvs			IN	A	217.196.43.140	; alioth
 			IN	SSHFP	1 1 4963261A154CB25B867A2F5F3BE0741D30229DA5
 			IN	MX	0 .
 d-i			IN	CNAME	ravel
-ddtp			IN	CNAME	dukas
+ddtp			IN	A	206.12.19.128	; dukas
+			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1380	; dukas
+			IN	MX	0 dukas
 dsa			IN	CNAME	draghi
 darcs			IN	A	217.196.43.140	; alioth
 			IN	SSHFP	1 1 4963261A154CB25B867A2F5F3BE0741D30229DA5
@@ -134,7 +136,9 @@ git			IN	A	217.196.43.140	; alioth
 hg			IN	A	217.196.43.140	; alioth
 			IN	SSHFP	1 1 4963261A154CB25B867A2F5F3BE0741D30229DA5
 			IN	MX	0 .
-i18n			IN	CNAME	tye
+i18n			IN	A	206.12.19.129	; tye
+			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1381	; tye
+			IN	MX	0 tye
 incoming		IN	A	128.148.34.3 ; franck
 			IN	MX	0 .
 irc			IN	CNAME	irc.geo.oftc.net.
