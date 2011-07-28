@@ -63,6 +63,7 @@ $TTL 24h
 127		IN	PTR	leda.debian.net.
 128		IN	PTR	dukas.debian.org.
 129		IN	PTR	tye.debian.org.
+130		IN	PTR	edgar.debian.org.
 
 150		IN	PTR	stabile2.debian.org.
 
