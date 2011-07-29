@@ -47,18 +47,6 @@ _afs3-prserver._udp		IN	SRV	0 0 7002 lamb
 				IN	SRV	0 0 7002 rautavaara
 
 
-; test
-; ====
-
-
-delegation-test1	IN	NS	ns4.debian.com.
-$INCLUDE "/srv/dns.debian.org/var/dssets/dsset-delegation-test1.debian.org."
-
-delegation-test2	IN	NS	ns4.debian.com.
-$INCLUDE "/srv/dns.debian.org/var/dssets/dsset-delegation-test2.debian.org."
-
-delegation-test3	IN	NS	ns4.debian.com.
-
 ; services
 ;=========
 admin			IN	MX	10 spohr.debian.org.
