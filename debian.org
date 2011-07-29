@@ -195,7 +195,7 @@ release			IN	A	128.148.34.3 ; franck
 			IN	MX	10 franck.debian.org.
 reportbug		IN	CNAME	busoni.debian.org.
 rt			IN	A	206.12.19.124   ; reger
-			IN	AAAA	2607:f8f0:610:4000:216:36ff:fe40:3862 ; reger
+			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137c ; reger
 			IN	MX	10 reger.debian.org.
 search			IN	A	128.31.0.51 ; senfl
 			IN	MX	0 .
