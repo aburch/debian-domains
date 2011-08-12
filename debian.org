@@ -559,7 +559,7 @@ ftp		IN	CNAME	debian.ethz.ch.
 $ORIGIN cl.debian.org.
 ;ftp		IN	CNAME	debian.c3sl.ufpr.br. ; ftp.br.debian.org
 ftp		A	200.75.30.181	; debian.netlinux.cl.
-ftp		A	201.238.222.20	; debian.nod.cl.
+; ftp		A	201.238.222.20	; debian.nod.cl.
 ftp1		IN	CNAME	debian.netlinux.cl.
 ftp2		IN	CNAME	debian.nod.cl.	; Ricardo Yanez <ricardo.yanez@calel.org>
 $ORIGIN cn.debian.org.
