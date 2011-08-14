@@ -278,7 +278,6 @@ kassia-ftp		IN	A	130.89.149.226
 kassia-volatile		IN	A	130.89.149.227
 			IN	AAAA	2001:610:1908:a000::149:227 ; kassia
 			IN	MX	0 .
-merkel2			IN	A	192.25.206.71
 oldmaster		IN	A	70.103.162.30
 schein-ilo		IN	A	149.20.20.194
 sibelius2		IN	A	193.62.202.30
@@ -303,9 +302,6 @@ gounod			IN	A	192.168.2.9
 gounod-ilo		IN	A	192.168.2.209
 hydra			IN	A	192.168.2.21	; joeyh
 hydra-ilo		IN	A	192.168.2.221	; joeyh
-merkel			IN	A	192.168.2.4
-merkel-console		IN	A	192.168.2.104
-merkel-mp		IN	A	192.168.2.204
 merulo			IN	A	192.168.2.5
 merulo-console		IN	A	192.168.2.105
 merulo-mp		IN	A	192.168.2.205
