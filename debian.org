@@ -533,11 +533,11 @@ $ORIGIN ca.debian.org.
 ;ftp		A	206.167.141.10	; ftp1.ca
 ftp		A	70.38.0.135	; debian.mirror.iweb.ca.
 ftp		AAAA	2607:f748:10:12::deb:1	; debian.mirror.iweb.ca.
-;ftp		A	132.246.2.23	; ftp3.ca
+ftp		A	132.246.2.23	; ftp3.ca
 ftp		A	24.215.0.24	; ftp4.ca
 ftp1		IN	CNAME	gulus.usherbrooke.ca.
 ftp2		IN	CNAME	debian.mirror.iweb.ca.
-;ftp3		IN	CNAME	ftp3.nrc.ca.
+ftp3		IN	CNAME	ftp3.nrc.ca.
 ftp4		IN	CNAME	debian.mirror.rafal.ca.
 $ORIGIN ch.debian.org.
 ftp		IN	CNAME	debian.ethz.ch.
