@@ -17,8 +17,8 @@ $TTL 24h
 148		IN	PTR	englund.debian.org.
 149		IN	PTR	lindberg.debian.org.
 150		IN	PTR	syncproxy3.eu.debian.org.
-;151
-;152		IN	PTR	anguilla.debian.or.at.	; weasel, maxx, rhonda, etc
+151		IN	PTR	eder.debian.org.
+152		IN	PTR	eysler.debian.org.
 153		IN	PTR	asteria.debian.or.at.	; weasel, maxx, rhonda, etc
 154		IN	PTR	orata.noreply.org.	; weasel, maxx, rhonda, etc
 ;153
