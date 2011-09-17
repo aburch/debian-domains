@@ -355,6 +355,7 @@ dijkstra-iscsi		IN	CNAME	strozzi-db8-iscsi
 vivaldi-iscsi		IN	A	10.0.0.12
 salieri-iscsi		IN	A	10.0.0.241
 traetta-iscsi		IN	A	10.0.0.242
+rossini-iscsi		IN	A	10.0.0.243
 
 ; management network
 mcld-console		IN	A	192.168.2.1	; OpenGear CM4008
