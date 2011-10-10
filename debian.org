@@ -606,7 +606,8 @@ ftp		IN	CNAME	ftp.kaist.ac.kr.
 $ORIGIN lt.debian.org.
 ftp		IN	CNAME	debian.mirror.vu.lt. ; Arnoldas Sareckis <hostmaster@vu.lt>
 $ORIGIN mx.debian.org.
-ftp		IN	CNAME	nisamox.fciencias.unam.mx.
+;ftp		IN	CNAME	nisamox.fciencias.unam.mx.
+ftp		IN	CNAME	http.us.debian.org.
 $ORIGIN nc.debian.org.
 ftp     	IN      A       115.126.160.7
 ftp		IN	AAAA	2404:e400::7
