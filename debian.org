@@ -559,9 +559,9 @@ ftp		IN	CNAME	debiancz.debian.cz.
 $ORIGIN de.debian.org.
 ftp		IN	A	141.76.2.4
 ftp1		IN	CNAME	ftp
-ftp2		IN	A	137.226.34.42 ; ftp.halifax.rwth-aachen.de
+;ftp2		IN	A	137.226.34.42 ; ftp.halifax.rwth-aachen.de
 ;ftp2		IN	CNAME	source.rfc822.org.
-;ftp2	300	IN	A	194.8.197.20 ; mirror.netcologne.de
+ftp2	300	IN	A	194.8.197.20 ; mirror.netcologne.de
 www		IN	CNAME	www.debian.org.
 $ORIGIN dk.debian.org.
 ftp		IN	CNAME	mirrors.dotsrc.org.
