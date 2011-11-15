@@ -561,7 +561,7 @@ ftp		IN	A	141.76.2.4
 ftp1		IN	CNAME	ftp
 ftp2		IN	A	137.226.34.42 ; ftp.halifax.rwth-aachen.de
 ;ftp2		IN	CNAME	source.rfc822.org.
-;ftp2	300	IN	A	194.8.197.20 ; mirror.netcologne.de
+;ftp2	300	IN	A	194.8.197.22 ; mirror.netcologne.de
 www		IN	CNAME	www.debian.org.
 $ORIGIN dk.debian.org.
 ftp		IN	CNAME	mirrors.dotsrc.org.
@@ -606,8 +606,7 @@ ftp		IN	CNAME	ftp.kaist.ac.kr.
 $ORIGIN lt.debian.org.
 ftp		IN	CNAME	debian.mirror.vu.lt. ; Arnoldas Sareckis <hostmaster@vu.lt>
 $ORIGIN mx.debian.org.
-;ftp		IN	CNAME	nisamox.fciencias.unam.mx.
-ftp		IN	CNAME	http.us.debian.org.
+ftp		IN	CNAME	nisamox.fciencias.unam.mx.
 $ORIGIN nc.debian.org.
 ftp     	IN      A       115.126.160.7
 ftp		IN	AAAA	2404:e400::7
@@ -658,12 +657,17 @@ ftp		IN	CNAME	debian.hands.com.
 www		IN	CNAME	www.debian.org.
 $ORIGIN us.debian.org.
 ftp	300	IN	A	64.50.236.52		; ftp-chi.osuosl.org
+ftp1	300	IN	A	64.50.236.52		; ftp-chi.osuosl.org
 ftp	300	IN	A	64.50.233.100		; ftp-nyc.osuosl.org
+ftp2	300	IN	A	64.50.233.100		; ftp-nyc.osuosl.org
 ftp	300	IN	A	35.9.37.225		; ike.egr.msu.edu
+ftp3	300	IN	A	35.9.37.225		; ike.egr.msu.edu
 ftp	300	IN	A	128.30.2.36		; debian.lcs.mit.edu
+ftp4	300	IN	A	128.30.2.36		; debian.lcs.mit.edu
 ;ftp	300	IN	A	149.20.20.135		; mirrors1.kernel.org
 ;ftp	300	IN	A	204.152.191.39		; mirrors2.kernel.org  # not responding
 ftp	300	IN	A	199.6.12.70		; mirror.mycre.ws (ISC, edmonds@debian.org)
+ftp5	300	IN	A	199.6.12.70		; mirror.mycre.ws (ISC, edmonds@debian.org)
 ftp	300	IN	AAAA	2001:500:61:28::70	; mirror.mycre.ws (ISC, edmonds@debian.org)
 http		IN	CNAME	ftp.us.debian.org.
 www		IN	CNAME	www.debian.org.
