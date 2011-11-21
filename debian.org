@@ -170,7 +170,8 @@ puppet			IN	CNAME	handel
 qa			IN	A	206.12.19.122	; quantz
 			IN	AAAA	2607:f8f0:610:4000:216:36ff:fe40:3860	; quantz
 			IN	MX	10 quantz
-packages.qa	300	IN	A	70.103.162.29	; master
+packages.qa	300	IN	A	206.12.19.122	; quantz
+			300 IN	AAAA	2607:f8f0:610:4000:216:36ff:fe40:3860	; quantz
 		300	IN	MX	0 quantz.debian.org.
 release			IN	A	128.148.34.3 ; franck
 			IN	MX	10 franck.debian.org.
