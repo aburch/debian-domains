@@ -324,6 +324,7 @@ urd-int			IN	A	192.168.43.6
 unger-ilo		IN	A	192.168.43.130
 liszt-ilo		IN	A	192.168.43.131
 urd-ilo			IN	A	192.168.43.134
+czerny-ilo      IN  A   192.168.43.137
 
 $ORIGIN debprivate-oneandone.debian.org.
 wieck-drac		IN	A	192.168.253.2
