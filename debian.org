@@ -675,9 +675,9 @@ ftp	300	IN	A	128.30.2.36		; debian.lcs.mit.edu
 ftp4	300	IN	A	128.30.2.36		; debian.lcs.mit.edu
 ;ftp	300	IN	A	149.20.20.135		; mirrors1.kernel.org
 ;ftp	300	IN	A	204.152.191.39		; mirrors2.kernel.org  # not responding
-;ftp	300	IN	A	199.6.12.70		; mirror.mycre.ws (ISC, edmonds@debian.org)
+ftp	300	IN	A	199.6.12.70		; mirror.mycre.ws (ISC, edmonds@debian.org)
 ftp5	300	IN	A	199.6.12.70		; mirror.mycre.ws (ISC, edmonds@debian.org)
-;ftp	300	IN	AAAA	2001:500:61:28::70	; mirror.mycre.ws (ISC, edmonds@debian.org)
+ftp	300	IN	AAAA	2001:500:61:28::70	; mirror.mycre.ws (ISC, edmonds@debian.org)
 http		IN	CNAME	ftp.us.debian.org.
 www		IN	CNAME	www.debian.org.
 $ORIGIN mi.us.debian.org.
