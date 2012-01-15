@@ -107,7 +107,7 @@ ftp-upcoming	8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-ftp-upcoming.debian.org."
 ftp.ipv6		IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
-			IN	AAAA	2001:610:1908:a000::149:226 ; kassia
+			IN	AAAA	2001:610:1908:b000::148:12 ; klecker
 			IN	AAAA	2001:b68:ff:1::11 ; Josip Rodin <joy@debian.org>
 ftp-master		IN	A	128.148.34.3 ; franck
 			IN	MX	10 franck.debian.org.
@@ -223,9 +223,8 @@ ssh-delayed.upload	IN	CNAME	ravel.debian.org.
 ssh.upload		IN	CNAME	ravel.debian.org.
 ftp.upload	60	IN	CNAME	ftp-master.debian.org.	; franck
 ;ftp.upload	60	IN	CNAME	ravel.debian.org.
-;ftp.upload	60	IN	CNAME	kassia.debian.org.
-ftp.eu.upload	60	IN	CNAME	kassia.debian.org.
-;ftp.eu.upload	60	IN	CNAME	ftp-master.debian.org.
+;ftp.eu.upload	60	IN	CNAME	XXXXXX.debian.org. XXX
+ftp.eu.upload	60	IN	CNAME	ftp-master.debian.org.
 ;ftp.eu.upload	60	IN	CNAME	ravel.debian.org.
 volatile-master		IN	A	206.12.19.112	; valente
 			IN	AAAA	2607:f8f0:610:4000:216:36ff:fe40:3804 ; valente
@@ -256,22 +255,25 @@ gobby			IN	CNAME	gombert
 
 
 ; restricted services
-; ubc
+;; ubc
 mirror-ubc		IN	CNAME	ravel
 
 ; hosts
 ;======
-kassia-sec		IN	A	130.89.149.225
-			IN	AAAA	2001:610:1908:a000::149:225
-			IN	MX	0 .
-kassia-ftp		IN	A	130.89.149.226
-			IN	AAAA	2001:610:1908:a000::149:226 ; kassia
-			IN	MX	0 .
+;kassia-sec		IN	A	130.89.149.225
+;			IN	AAAA	2001:610:1908:a000::149:225
+;			IN	MX	0 .
+;kassia-ftp		IN	A	130.89.149.226
+;			IN	AAAA	2001:610:1908:a000::149:226 ; kassia
+;			IN	MX	0 .
+;kassia-volatile		IN	A	130.89.149.227
+;			IN	AAAA	2001:610:1908:a000::149:227 ; kassia
+;			IN	MX	0 .
 klecker-ftp		IN	A	130.89.148.12			; klecker
 			IN	AAAA	2001:610:1908:b000::148:12	; klecker
 			IN	MX	0 .
-kassia-volatile		IN	A	130.89.149.227
-			IN	AAAA	2001:610:1908:a000::149:227 ; kassia
+klecker-volatile	IN	A	130.89.148.13			; klecker
+			IN	AAAA	2001:610:1908:b000::148:13	; klecker
 			IN	MX	0 .
 oldmaster		IN	A	70.103.162.30
 schein-ilo		IN	A	149.20.20.194
@@ -510,7 +512,7 @@ pettersson-ilo		IN	A	172.21.101.10
 
 $ORIGIN at.debian.org.
 ftp		IN	CNAME	ftp.debian.at.
-;ftp	300	IN	CNAME	kassia-ftp.debian.org.
+;ftp	300	IN	CNAME	klecker-ftp.debian.org.
 http		IN	CNAME	ftp
 cdimage		IN	CNAME	cdimage.debian.at.
 ;cdimage	300	IN	CNAME	cdimage.debian.org.
@@ -619,7 +621,7 @@ ftp		IN	AAAA	2404:e400::7
 $ORIGIN nl.debian.org.
 ftp		IN	A	130.89.149.21 ; debian.snt.utwente.nl
 		IN	AAAA	2001:610:1908:a000::149:21 ; debian.snt.utwente.nl
-;ftp		IN	CNAME	kassia-ftp.debian.org.
+;ftp		IN	CNAME	klecker-ftp.debian.org.
 www		IN	CNAME	www.debian.org.
 $ORIGIN no.debian.org.
 ftp		IN	CNAME	debianmirror.uio.no.
@@ -641,7 +643,7 @@ ftp		IN	CNAME	debian.mirror.vu.lt. ;
 www		IN	CNAME	www.debian.org.
 $ORIGIN se.debian.org.
 ftp		IN	CNAME	ftp.acc.umu.se.
-;ftp	60	IN	CNAME	kassia-ftp.debian.org.
+;ftp	60	IN	CNAME	klecker-ftp.debian.org.
 $ORIGIN si.debian.org.
 ftp		IN	CNAME	debian.prunk.si.
 $ORIGIN sk.debian.org.
