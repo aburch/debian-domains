@@ -673,7 +673,7 @@ ftp1	300	IN	A	64.50.236.52		; ftp-chi.osuosl.org
 ftp2	300	IN	A	64.50.233.100		; ftp-nyc.osuosl.org
 ftp	300	IN	A	35.9.37.225		; ike.egr.msu.edu
 ftp3	300	IN	A	35.9.37.225		; ike.egr.msu.edu
-ftp	300	IN	A	128.30.2.36		; debian.lcs.mit.edu
+;ftp	300	IN	A	128.30.2.36		; debian.lcs.mit.edu
 ftp4	300	IN	A	128.30.2.36		; debian.lcs.mit.edu
 ;ftp	300	IN	A	149.20.20.135		; mirrors1.kernel.org
 ;ftp	300	IN	A	204.152.191.39		; mirrors2.kernel.org  # not responding
