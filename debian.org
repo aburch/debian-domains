@@ -208,6 +208,7 @@ $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-snapshot.debian.org."
 snapshot-master		IN	CNAME	sibelius
 snapshot-stabile	IN	CNAME	stabile2
 snapshot-sibelius	IN	CNAME	sibelius2
+sso         1h      IN  CNAME   diabelli
 svn			IN	A	217.196.43.140	; alioth
 			IN	SSHFP	1 1 4963261A154CB25B867A2F5F3BE0741D30229DA5
 			IN	MX	0 .
