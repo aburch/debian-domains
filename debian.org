@@ -115,7 +115,9 @@ ftp-master		IN	A	128.148.34.3 ; franck
 git			IN	A	217.196.43.140	; alioth
 			IN	SSHFP	1 1 4963261A154CB25B867A2F5F3BE0741D30229DA5
 			IN	MX	0 .
-gobby			IN	CNAME	gombert
+gobby			IN	A	206.12.19.132 ; gombert
+			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1384 ; gombert
+			IN	MX	10 gombert.debian.org.
 hg			IN	A	217.196.43.140	; alioth
 			IN	SSHFP	1 1 4963261A154CB25B867A2F5F3BE0741D30229DA5
 			IN	MX	0 .
