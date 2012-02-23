@@ -160,11 +160,11 @@ packages-holter		IN	CNAME	holter
 packages-powell		IN	CNAME	powell
 packages-powell-stats	IN	CNAME	powell
 packages-rore		IN	CNAME	rore
+patch-tracker		IN	CNAME	respighi
 people			IN	A	206.12.19.5 ; ravel
 			IN	AAAA	2607:f8f0:610:4000:214:38ff:feee:b65a ; ravel
 			IN	MX	0 .
 newpeople		IN	CNAME	ravel.debian.org.
-patch-tracker		IN	CNAME	respighi
 piuparts		IN	CNAME	piatti
 planet			IN	A	128.31.0.51	; senfl
 			IN	MX	0 .
