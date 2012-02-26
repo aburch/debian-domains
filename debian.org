@@ -262,7 +262,7 @@ www.gluck		IN	CNAME	gluck
 
 ; restricted services
 ;; ubc
-mirror-ubc		IN	CNAME	ravel
+mirror-ubc		IN	CNAME	stabile
 
 ; hosts
 ;======
