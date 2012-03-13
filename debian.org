@@ -112,6 +112,7 @@ ftp.ipv6		IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
 			IN	AAAA	2001:b68:ff:1::11 ; Josip Rodin <joy@debian.org>
 ftp-master		IN	A	128.148.34.3 ; franck
 			IN	MX	10 franck.debian.org.
+_git._tcp.git		IN	SRV	0 0 9418 wagner
 git			IN	A	217.196.43.140	; alioth
 			IN	SSHFP	1 1 4963261A154CB25B867A2F5F3BE0741D30229DA5
 			IN	MX	0 .
@@ -159,11 +160,12 @@ packages-holter		IN	CNAME	holter
 packages-powell		IN	CNAME	powell
 packages-powell-stats	IN	CNAME	powell
 packages-rore		IN	CNAME	rore
+patch-tracker		IN	CNAME	respighi
 people			IN	A	206.12.19.5 ; ravel
 			IN	AAAA	2607:f8f0:610:4000:214:38ff:feee:b65a ; ravel
 			IN	MX	0 .
 newpeople		IN	CNAME	ravel.debian.org.
-patch-tracker		IN	CNAME	respighi
+pg-ubcece		IN	CNAME	danzi
 piuparts		IN	CNAME	piatti
 planet			IN	A	128.31.0.51	; senfl
 			IN	MX	0 .
@@ -175,7 +177,7 @@ qa			IN	A	206.12.19.122	; quantz
 			IN	AAAA	2607:f8f0:610:4000:216:36ff:fe40:3860	; quantz
 			IN	MX	10 quantz
 packages.qa	300	IN	A	206.12.19.122	; quantz
-			300 IN	AAAA	2607:f8f0:610:4000:216:36ff:fe40:3860	; quantz
+		300	IN	AAAA	2607:f8f0:610:4000:216:36ff:fe40:3860	; quantz
 		300	IN	MX	0 quantz.debian.org.
 release			IN	A	128.148.34.3 ; franck
 			IN	MX	10 franck.debian.org.
@@ -210,7 +212,7 @@ $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-snapshot.debian.org."
 snapshot-master		IN	CNAME	sibelius
 snapshot-stabile	IN	CNAME	stabile2
 snapshot-sibelius	IN	CNAME	sibelius2
-sso		1h      IN	CNAME	diabelli
+sso			IN	CNAME	diabelli
 svn			IN	A	217.196.43.140	; alioth
 			IN	SSHFP	1 1 4963261A154CB25B867A2F5F3BE0741D30229DA5
 			IN	MX	0 .
@@ -260,7 +262,7 @@ www.gluck		IN	CNAME	gluck
 
 ; restricted services
 ;; ubc
-mirror-ubc		IN	CNAME	ravel
+mirror-ubc		IN	CNAME	stabile
 
 ; hosts
 ;======
@@ -333,7 +335,7 @@ urd-int			IN	A	192.168.43.6
 unger-ilo		IN	A	192.168.43.130
 liszt-ilo		IN	A	192.168.43.131
 urd-ilo			IN	A	192.168.43.134
-czerny-ilo      IN  A   192.168.43.137
+czerny-ilo		IN	A	192.168.43.137
 
 $ORIGIN debprivate-oneandone.debian.org.
 wieck-drac		IN	A	192.168.253.2
@@ -524,8 +526,8 @@ cdimage		IN	CNAME	cdimage.debian.at.
 www	300	IN	CNAME	www.debian.org.
 $ORIGIN au.debian.org.
 ;ftp		IN	CNAME	mirror.linux.org.au. ; FIXME
-ftp     	IN      A       115.126.160.7	; debian.nautile.nc / ftp.nc.d.o
-ftp		IN	AAAA	2404:e400::7	; debian.nautile.nc / ftp.nc.d.o 
+ftp		IN	A	115.126.160.7	; debian.nautile.nc / ftp.nc.d.o
+ftp		IN	AAAA	2404:e400::7	; debian.nautile.nc / ftp.nc.d.o
 www		IN	CNAME	www.debian.org.
 ftp.wa		IN	A	218.100.43.30	; mirror.waia.asn.au.
 ;ftp.wa		IN	CNAME	mirror.linux.org.au.
@@ -534,8 +536,8 @@ ftp		IN	CNAME	mirror.debian.com.ba.
 $ORIGIN be.debian.org.
 ;ftp		IN	CNAME	ftp.belnet.be.  ; Bernard Grymonpon <ftpmaint@belnet.be>
 ;ftp		IN	CNAME	ftp.nl.debian.org.
-ftp		IN	A       77.243.184.65   ; mirror.be.gbxs.net
-ftp		IN	AAAA    2a01:300:11:4:2e0:81ff:fe63:cdb2 ; mirror.be.gbxs.net
+ftp		IN	A	77.243.184.65   ; mirror.be.gbxs.net
+ftp		IN	AAAA	2a01:300:11:4:2e0:81ff:fe63:cdb2 ; mirror.be.gbxs.net
 $ORIGIN bg.debian.org.
 ftp		IN	CNAME	debian.spnet.net.
 www		IN	CNAME	www.debian.org.
@@ -545,11 +547,11 @@ www		IN	CNAME	www.debian.org.
 $ORIGIN by.debian.org.
 ftp		IN	CNAME	ftp.mgts.by. ; Evgeniy Kozhuhovskiy  <ftpadm@mgts.by>
 $ORIGIN ca.debian.org.
-;ftp		A	206.167.141.10	; ftp1.ca
-ftp		A	70.38.0.135	; debian.mirror.iweb.ca.
-ftp		AAAA	2607:f748:10:12::deb:1	; debian.mirror.iweb.ca.
-;ftp		A	132.246.2.23	; ftp3.ca
-ftp		A	24.215.0.24	; ftp4.ca
+;ftp		IN	A	206.167.141.10	; ftp1.ca
+ftp		IN	A	70.38.0.135	; debian.mirror.iweb.ca.
+ftp		IN	AAAA	2607:f748:10:12::deb:1	; debian.mirror.iweb.ca.
+;ftp		IN	A	132.246.2.23	; ftp3.ca
+ftp		IN	A	24.215.0.24	; ftp4.ca
 ftp1		IN	CNAME	gulus.usherbrooke.ca.
 ftp2		IN	CNAME	debian.mirror.iweb.ca.
 ftp3		IN	CNAME	ftp3.nrc.ca.
@@ -559,8 +561,8 @@ $ORIGIN ch.debian.org.
 ftp	60	IN	CNAME	mirror.switch.ch.
 $ORIGIN cl.debian.org.
 ;ftp		IN	CNAME	debian.c3sl.ufpr.br. ; ftp.br.debian.org
-ftp		A	200.75.30.181	; debian.netlinux.cl.
-; ftp		A	201.238.222.20	; debian.nod.cl.
+ftp		IN	A	200.75.30.181	; debian.netlinux.cl.
+; ftp		IN	A	201.238.222.20	; debian.nod.cl.
 ftp1		IN	CNAME	debian.netlinux.cl.
 ftp2		IN	CNAME	debian.nod.cl.	; Ricardo Yanez <ricardo.yanez@calel.org>
 $ORIGIN cn.debian.org.
@@ -621,7 +623,7 @@ ftp		IN	CNAME	debian.mirror.vu.lt. ; Arnoldas Sareckis <hostmaster@vu.lt>
 $ORIGIN mx.debian.org.
 ftp		IN	CNAME	nisamox.fciencias.unam.mx.
 $ORIGIN nc.debian.org.
-ftp     	IN      A       115.126.160.7
+ftp		IN	A	115.126.160.7
 ftp		IN	AAAA	2404:e400::7
 $ORIGIN nl.debian.org.
 ftp		IN	A	130.89.149.21 ; debian.snt.utwente.nl
