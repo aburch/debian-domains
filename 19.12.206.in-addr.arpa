@@ -53,7 +53,7 @@ $TTL 24h
 115		IN	PTR	brahms.debian.org.
 116		IN	PTR	wolkenstein.debian.org.
 118		IN	PTR	tchaikovsky.debian.org.
-119		IN	PTR	schuetz.debian.org.
+;119		IN	PTR
 120		IN	PTR	locke.debian.org.
 121		IN	PTR	lotti.debian.org.
 122		IN	PTR	quantz.debian.org.
