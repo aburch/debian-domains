@@ -351,7 +351,9 @@ strozzi-db5-iscsi	IN	A	10.0.0.215
 strozzi-db6-iscsi	IN	A	10.0.0.216
 strozzi-db7-iscsi	IN	A	10.0.0.217
 strozzi-db8-iscsi	IN	A	10.0.0.218
+tristano-iscsi		IN	CNAME	strozzi-db3-iscsi
 luchesi-iscsi		IN	CNAME	strozzi-db4-iscsi
+pasquini-iscsi		IN	CNAME	strozzi-db7-iscsi
 dijkstra-iscsi		IN	CNAME	strozzi-db8-iscsi
 
 vivaldi-iscsi		IN	A	10.0.0.12
@@ -398,9 +400,15 @@ traetta-ilo		IN	A	192.168.2.121
 positron-mnt		IN	A	192.168.2.241	; positron.oftc.net <noc@oftc.net>
 lux-mnt			IN	A	192.168.2.243	; lux.oftc.net <noc@oftc.net>
 
+; tristano is a BL460c G7 blade in device bay 3 of strozzi
+tristano-mnt		IN	CNAME	strozzi-db3-mnt
+tristano-ilo		IN	CNAME	strozzi-db3-ilo
 ; luchesi is a BL460c G5 blade in device bay 4 of strozzi
 luchesi-mnt		IN	CNAME	strozzi-db4-mnt
 luchesi-ilo		IN	CNAME	strozzi-db4-ilo
+; pasquini is a BL460c G7 blade in device bay 7 of strozzi
+pasquini-mnt		IN	CNAME	strozzi-db7-mnt
+pasquini-ilo		IN	CNAME	strozzi-db7-ilo
 ; dijkstra is a BL460c G5 blade in device bay 8 of strozzi
 dijkstra-mnt		IN	CNAME	strozzi-db8-mnt
 dijkstra-ilo		IN	CNAME	strozzi-db8-ilo
