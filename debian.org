@@ -391,7 +391,6 @@ traetta-mnt		IN	A	192.168.2.21
 
 ; rule seems to be that the last octet is (host's real address - 50)
 duarte-mnt		IN	A	192.168.2.64
-popov-mnt		IN	A	192.168.2.69
 quantz-mnt		IN	A	192.168.2.72
 glinka-mnt		IN	A	192.168.2.76
 dukas-mnt		IN	A	192.168.2.78
