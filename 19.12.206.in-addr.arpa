@@ -44,6 +44,7 @@ $TTL 24h
 20		IN	PTR	salieri.debian.org.
 21		IN	PTR	traetta.debian.org.
 22		IN	PTR	ubcece.debian.org.
+23		IN	PTR	ganeti2.debian.org.
 
 110		IN	PTR	fano.debian.org.
 111		IN	PTR	finzi.debian.org.

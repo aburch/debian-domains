@@ -215,6 +215,7 @@ syncproxy2.eu		IN	A	130.89.148.10 	; klecker
 syncproxy3.eu		IN	A	86.59.118.150	; merikanto
 syncproxy.wna		IN	A	140.211.166.44	; rietz
 ubcece			IN	A	206.12.19.22	; rossini VIP for ganeti
+ganeti2			IN	A	206.12.19.23	; pasquini/tristano ganeti vip
 udd			IN	CNAME	samosa
 small-teams		IN	A	82.195.75.100	; liszt
 			IN	MX	10 liszt.debian.org.
@@ -391,6 +392,8 @@ torelli-mnt		IN	A	192.168.2.18
 rossini-mnt		IN	A	192.168.2.19
 salieri-mnt		IN	A	192.168.2.20
 traetta-mnt		IN	A	192.168.2.21
+ganeti1-mnt		IN	A	192.168.2.22
+ganeti2-mnt		IN	A	192.168.2.23
 
 ; rule seems to be that the last octet is (host's real address - 50)
 duarte-mnt		IN	A	192.168.2.64
