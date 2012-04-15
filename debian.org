@@ -120,10 +120,10 @@ irc			IN	CNAME	irc.geo.oftc.net.
 irc6			IN	CNAME	irc6.geo.oftc.net.
 irc.ipv6		IN	CNAME	irc6.geo.oftc.net.
 keyring			IN	CNAME	kaufmann
-lintian			IN	A	206.12.19.7	; bellini
-			IN	AAAA	2607:f8f0:610:4000:211:25ff:fec4:5b28 ; bellini
+lintian			IN	A	206.12.19.138 ; lilburn
+			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:138a ; lilburn
 			IN	MX	0 .
-lintian2		IN	CNAME	lilburn
+;lintian2		IN	CNAME	lilburn
 lists			IN	A	82.195.75.100	; liszt
 			IN	MX	0 liszt.debian.org.
 lists-test		IN	MX	0 liszt.debian.org.
