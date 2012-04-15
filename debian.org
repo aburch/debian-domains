@@ -159,12 +159,9 @@ pg-ubcece		IN	CNAME	danzi
 piuparts		IN	CNAME	piatti
 planet			IN	A	128.31.0.51	; senfl
 			IN	MX	0 .
-popcon			IN	A	206.12.19.7	; bellini
-			IN	AAAA	2607:f8f0:610:4000:211:25ff:fec4:5b28 ; bellini
-			IN	MX	10 bellini.debian.org.
-popcon2			IN	A	206.12.19.119	; popov
+popcon			IN	A	206.12.19.119	; popov
 			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1377	; popov
-;			IN	MX	10 popov.debian.org.
+			IN	MX	10 popov.debian.org.
 puppet			IN	CNAME	handel
 puppet-dashboard	IN	CNAME	handel
 qa			IN	A	206.12.19.122	; quantz
