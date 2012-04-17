@@ -241,7 +241,7 @@ www-staging		IN	A	206.12.19.116
 www-broken-layout	IN	A	206.12.19.116
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-www.debian.org."
 www-master		IN	A	206.12.19.116	; wolkenstein
-			IN	MX	10 wolkenstein.debian.org.
+			IN	MX	0 mailout.debian.org.
 ; www-master		IN	A	194.109.137.218	; klecker
 ;			IN	MX	10 klecker.debian.org.
 www-mirror		IN	CNAME	www-master.debian.org.
