@@ -605,8 +605,7 @@ ftp		IN	CNAME	ftp.fsn.hu.
 $ORIGIN id.debian.org.
 www		IN	CNAME	www.debian.org.
 $ORIGIN ie.debian.org.
-;ftp		IN	CNAME	debian.heanet.ie.  ; Colm MacCarthaigh <colm.maccarthaigh@heanet.ie> FIXME
-ftp		IN	CNAME	mirror.carnet.hr.	; syncproxy.eu
+ftp		IN	CNAME	debian.heanet.ie.  ; Colm MacCarthaigh <colm.maccarthaigh@heanet.ie>
 $ORIGIN is.debian.org.
 ftp		IN	CNAME	debian.simnet.is.
 $ORIGIN it.debian.org.
