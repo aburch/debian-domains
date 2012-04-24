@@ -221,13 +221,6 @@ ftp.eu.upload	60	IN	CNAME	ftp-master.debian.org.
 ;ftp.eu.upload	60	IN	CNAME	ravel.debian.org.
 volatile-master		IN	CNAME	www.debian.org.
 volatile		IN	CNAME	www.debian.org.
-;volatile-master		IN	A	206.12.19.112	; valente
-;			IN	AAAA	2607:f8f0:610:4000:216:36ff:fe40:3804 ; valente
-;			IN	MX	0 .
-;volatile	8h	IN	NS	geo1.debian.org.
-;		8h	IN	NS	geo2.debian.org.
-;		8h	IN	NS	geo3.debian.org.
-;$INCLUDE "/srv/dns.debian.org/var/dssets/dsset-volatile.debian.org."
 vote			IN	A	70.103.162.29	; master
 			IN	MX	0 master.debian.org.
 wiki			IN	A	93.94.130.161	; widor
