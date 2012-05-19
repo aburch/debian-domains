@@ -49,6 +49,7 @@ $TTL 24h
 
 110		IN	PTR	fano.debian.org.
 111		IN	PTR	finzi.debian.org.
+112		IN	PTR	fischer.debian.org.
 113		IN	PTR	geo2.debian.org.
 114		IN	PTR	duarte.debian.org.
 115		IN	PTR	brahms.debian.org.
