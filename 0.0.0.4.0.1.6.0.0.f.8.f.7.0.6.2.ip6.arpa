@@ -56,5 +56,6 @@ f.7.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	leda.debian.net.
 8.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	diabelli.debian.org.
 9.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	bizet.debian.org.
 a.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	lilburn.debian.org.
+b.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	dinis.debian.org.
 
 ; vim:syn=dns
