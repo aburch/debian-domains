@@ -65,6 +65,8 @@ $TTL 24h
 125		IN	PTR	danzi.debian.org.
 126		IN	PTR	glinka.debian.org.
 127		IN	PTR	leda.debian.net.
+128		IN	PTR	dukas.debian.org.
+129		IN	PTR	tye.debian.org.
 130		IN	PTR	elgar.debian.org.
 131		IN	PTR	berlioz.debian.org.
 132		IN	PTR	gombert.debian.org.
