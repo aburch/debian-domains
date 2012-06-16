@@ -1,5 +1,5 @@
 ; debconf13.ch zone
-; wzf: dnssec = 0
+; wzf: dnssec = 1
 ; ds-in-parent = no
 
 $TTL 8h
