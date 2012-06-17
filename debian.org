@@ -500,6 +500,9 @@ merikanto-ilo		IN	A	172.22.127.103
 englund-drac		IN	A	172.22.127.104
 lindberg-drac		IN	A	172.22.127.105
 beethoven-mnt		IN	A	172.22.127.146
+merikanto-mnt		IN	A	172.22.127.147
+englund-mnt		IN	A	172.22.127.148
+lindberg-mnt		IN	A	127.22.127.149
 
 $ORIGIN debprivate-accumu.debian.org.
 praetorius-mnt		IN	A	172.21.101.1
