@@ -77,6 +77,9 @@ cvs			IN	A	217.196.43.140	; alioth
 			IN	SSHFP	1 1 4963261A154CB25B867A2F5F3BE0741D30229DA5
 			IN	MX	0 .
 d-i			IN	CNAME	ravel
+ddtp			IN	A	206.12.19.128	; dukas
+			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1380	; dukas
+			IN	MX	0 dukas
 dsa			IN	CNAME	draghi
 darcs			IN	A	217.196.43.140	; alioth
 			IN	SSHFP	1 1 4963261A154CB25B867A2F5F3BE0741D30229DA5
@@ -108,19 +111,25 @@ gobby			IN	A	206.12.19.132 ; gombert
 hg			IN	A	217.196.43.140	; alioth
 			IN	SSHFP	1 1 4963261A154CB25B867A2F5F3BE0741D30229DA5
 			IN	MX	0 .
+i18n			IN	A	206.12.19.129	; tye
+			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1381	; tye
+			IN	MX	0 tye
 incoming		IN	A	128.148.34.3 ; franck
 			IN	MX	0 .
 irc			IN	CNAME	irc.geo.oftc.net.
 irc6			IN	CNAME	irc6.geo.oftc.net.
 irc.ipv6		IN	CNAME	irc6.geo.oftc.net.
 keyring			IN	CNAME	kaufmann
+l10n			IN	A	206.12.19.129	; tye
+			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1381	; tye
+			IN	MX	0 tye
 lintian			IN	A	206.12.19.138 ; lilburn
 			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:138a ; lilburn
 			IN	MX	0 .
 ;lintian2		IN	CNAME	lilburn
-lists		60	IN	A	82.195.75.100	; bendel
-		60	IN	MX	0 bendel.debian.org.
-lists-test	60	IN	MX	0 bendel.debian.org.
+lists			IN	A	82.195.75.100	; bendel
+			IN	MX	0 bendel.debian.org.
+lists-test		IN	MX	0 bendel.debian.org.
 mirror			IN	CNAME	glinka
 mirror-master		IN	CNAME	glinka
 mailout			IN	A	82.195.75.97	; kokkonen
@@ -134,8 +143,8 @@ nagios			IN	CNAME	tchaikovsky
 nm			IN	A	206.12.19.123	; nono
 			IN	AAAA	2607:F8F0:610:4000:216:36FF:FE40:3861	; nono
 			IN	MX	10 nono.debian.org.
-other		60	IN	A	82.195.75.100	; bendel
-		60	IN	MX	0 bendel.debian.org.
+other			IN	A	82.195.75.100	; bendel
+			IN	MX	0 bendel.debian.org.
 packages	8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo2.debian.org.
 		8h	IN	NS	geo3.debian.org.
@@ -208,10 +217,10 @@ syncproxy.wna		IN	A	140.211.166.44	; rietz
 ubcece			IN	A	206.12.19.22	; rossini VIP for ganeti
 ganeti2			IN	A	206.12.19.23	; pasquini/tristano ganeti vip
 udd			IN	CNAME	samosa
-small-teams	60	IN	A	82.195.75.100	; bendel
-		60	IN	MX	10 bendel.debian.org.
-teams		60	IN	A	82.195.75.100	; bendel
-		60	IN	MX	10 bendel.debian.org.
+small-teams		IN	A	82.195.75.100	; bendel
+			IN	MX	10 bendel.debian.org.
+teams			IN	A	82.195.75.100	; bendel
+			IN	MX	10 bendel.debian.org.
 ssh-delayed.upload	IN	CNAME	ravel.debian.org.
 ssh.upload		IN	CNAME	ravel.debian.org.
 ftp.upload	60	IN	CNAME	ftp-master.debian.org.	; franck
@@ -342,8 +351,10 @@ strozzi-db5-iscsi	IN	A	10.0.0.215
 strozzi-db6-iscsi	IN	A	10.0.0.216
 strozzi-db7-iscsi	IN	A	10.0.0.217
 strozzi-db8-iscsi	IN	A	10.0.0.218
+bertali-iscsi		IN	CNAME	strozzi-db2-iscsi
 tristano-iscsi		IN	CNAME	strozzi-db3-iscsi
 luchesi-iscsi		IN	CNAME	strozzi-db4-iscsi
+boito-iscsi		IN	CNAME	strozzi-db6-iscsi
 pasquini-iscsi		IN	CNAME	strozzi-db7-iscsi
 dijkstra-iscsi		IN	CNAME	strozzi-db8-iscsi
 
@@ -384,6 +395,8 @@ duarte-mnt		IN	A	192.168.2.64
 popov-mnt		IN	A	192.168.2.69
 quantz-mnt		IN	A	192.168.2.72
 glinka-mnt		IN	A	192.168.2.76
+dukas-mnt		IN	A	192.168.2.78
+tye-mnt			IN	A	192.168.2.79
 blavet-mnt		IN	A	192.168.2.84
 lilburn-mnt		IN	A	192.168.2.88
 
@@ -394,12 +407,18 @@ traetta-ilo		IN	A	192.168.2.121
 positron-mnt		IN	A	192.168.2.241	; positron.oftc.net <noc@oftc.net>
 lux-mnt			IN	A	192.168.2.243	; lux.oftc.net <noc@oftc.net>
 
+; bertali is a BL460c G7 blade in device bay 2 of strozzi
+bertali-mnt		IN	CNAME	strozzi-db2-mnt
+bertali-ilo		IN	CNAME	strozzi-db2-ilo
 ; tristano is a BL460c G7 blade in device bay 3 of strozzi
 tristano-mnt		IN	CNAME	strozzi-db3-mnt
 tristano-ilo		IN	CNAME	strozzi-db3-ilo
 ; luchesi is a BL460c G5 blade in device bay 4 of strozzi
 luchesi-mnt		IN	CNAME	strozzi-db4-mnt
 luchesi-ilo		IN	CNAME	strozzi-db4-ilo
+; boito is a BL460c G7 blade in device bay 6 of strozzi
+boito-mnt		IN	CNAME	strozzi-db6-mnt
+boito-ilo		IN	CNAME	strozzi-db6-ilo
 ; pasquini is a BL460c G7 blade in device bay 7 of strozzi
 pasquini-mnt		IN	CNAME	strozzi-db7-mnt
 pasquini-ilo		IN	CNAME	strozzi-db7-ilo
@@ -539,7 +558,8 @@ $ORIGIN br.debian.org.
 ftp		IN	CNAME	debian.c3sl.ufpr.br.  ; Marcos Castilho <marcos@inf.ufpr.br>
 www		IN	CNAME	www.debian.org.
 $ORIGIN by.debian.org.
-ftp		IN	CNAME	ftp.mgts.by. ; Evgeniy Kozhuhovskiy  <ftpadm@mgts.by>
+; ftp		IN	CNAME	ftp.mgts.by. ; Evgeniy Kozhuhovskiy  <ftpadm@mgts.by> ; FIXME
+ftp		IN	CNAME	mirror.datacenter.by. ; Mitry Matyushkov <ftp@mgts.by>
 $ORIGIN ca.debian.org.
 ;ftp		IN	A	206.167.141.10	; ftp1.ca
 ftp		IN	A	70.38.0.135	; debian.mirror.iweb.ca.
@@ -605,7 +625,7 @@ ftp		IN	CNAME	debian.heanet.ie.  ; Colm MacCarthaigh <colm.maccarthaigh@heanet.i
 $ORIGIN is.debian.org.
 ftp		IN	CNAME	debian.simnet.is.
 $ORIGIN it.debian.org.
-ftp		IN	CNAME	ftp.bofh.it.
+ftp		IN	CNAME	debian.ftp.bofh.it.
 $ORIGIN jp.debian.org.
 ftp		IN	CNAME	cdn.debian.or.jp.
 ftp2		IN	CNAME	cdn.debian.or.jp.
@@ -616,6 +636,8 @@ $ORIGIN lt.debian.org.
 ftp		IN	CNAME	debian.mirror.vu.lt. ; Arnoldas Sareckis <hostmaster@vu.lt>
 $ORIGIN mx.debian.org.
 ftp		IN	CNAME	nisamox.fciencias.unam.mx.
+ftp1		IN	CNAME	nisamox.fciencias.unam.mx.
+ftp2		IN	CNAME	mmc.geofisica.unam.mx.
 $ORIGIN nc.debian.org.
 ftp		IN	A	115.126.160.7
 ftp		IN	AAAA	2404:e400::7
