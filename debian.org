@@ -351,8 +351,10 @@ strozzi-db5-iscsi	IN	A	10.0.0.215
 strozzi-db6-iscsi	IN	A	10.0.0.216
 strozzi-db7-iscsi	IN	A	10.0.0.217
 strozzi-db8-iscsi	IN	A	10.0.0.218
+bertali-iscsi		IN	CNAME	strozzi-db2-iscsi
 tristano-iscsi		IN	CNAME	strozzi-db3-iscsi
 luchesi-iscsi		IN	CNAME	strozzi-db4-iscsi
+boito-iscsi		IN	CNAME	strozzi-db6-iscsi
 pasquini-iscsi		IN	CNAME	strozzi-db7-iscsi
 dijkstra-iscsi		IN	CNAME	strozzi-db8-iscsi
 
@@ -405,12 +407,18 @@ traetta-ilo		IN	A	192.168.2.121
 positron-mnt		IN	A	192.168.2.241	; positron.oftc.net <noc@oftc.net>
 lux-mnt			IN	A	192.168.2.243	; lux.oftc.net <noc@oftc.net>
 
+; bertali is a BL460c G7 blade in device bay 2 of strozzi
+bertali-mnt		IN	CNAME	strozzi-db2-mnt
+bertali-ilo		IN	CNAME	strozzi-db2-ilo
 ; tristano is a BL460c G7 blade in device bay 3 of strozzi
 tristano-mnt		IN	CNAME	strozzi-db3-mnt
 tristano-ilo		IN	CNAME	strozzi-db3-ilo
 ; luchesi is a BL460c G5 blade in device bay 4 of strozzi
 luchesi-mnt		IN	CNAME	strozzi-db4-mnt
 luchesi-ilo		IN	CNAME	strozzi-db4-ilo
+; boito is a BL460c G7 blade in device bay 6 of strozzi
+boito-mnt		IN	CNAME	strozzi-db6-mnt
+boito-ilo		IN	CNAME	strozzi-db6-ilo
 ; pasquini is a BL460c G7 blade in device bay 7 of strozzi
 pasquini-mnt		IN	CNAME	strozzi-db7-mnt
 pasquini-ilo		IN	CNAME	strozzi-db7-ilo
@@ -577,10 +585,9 @@ ftp		IN	CNAME	debiancz.debian.cz.
 $ORIGIN de.debian.org.
 ftp		IN	A	141.76.2.4
 ftp1		IN	CNAME	ftp
-;ftp2		IN	A	137.226.34.42 ; ftp.halifax.rwth-aachen.de
+ftp2		IN	A	137.226.34.42 ; ftp.halifax.rwth-aachen.de
 ;ftp2		IN	CNAME	source.rfc822.org.
 ;ftp2	300	IN	A	194.8.197.22 ; mirror.netcologne.de
-ftp2	300	IN	A	82.195.75.73 ; mirror.ayous.org, man-da
 www		IN	CNAME	www.debian.org.
 $ORIGIN dk.debian.org.
 ftp		IN	CNAME	mirrors.dotsrc.org.
