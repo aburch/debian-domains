@@ -399,6 +399,7 @@ dukas-mnt		IN	A	192.168.2.78
 tye-mnt			IN	A	192.168.2.79
 blavet-mnt		IN	A	192.168.2.84
 lilburn-mnt		IN	A	192.168.2.88
+beach-mnt		IN	A	192.168.2.90
 
 rossini-ilo		IN	A	192.168.2.119
 salieri-ilo		IN	A	192.168.2.120
