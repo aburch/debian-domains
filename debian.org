@@ -229,8 +229,7 @@ ftp.upload	60	IN	CNAME	ftp-master.debian.org.	; franck
 ftp.eu.upload	60	IN	CNAME	ftp-master.debian.org.
 ;ftp.eu.upload	60	IN	CNAME	ravel.debian.org.
 _sip._udp.voip		IN	SRV	0 65535 5060 cilea.debian.org.
-voip			IN	A	194.177.211.205 ; cilea
-			IN	AAAA	2001:648:2ffc:deb:214:22ff:feb2:11c4 ; cilea
+voip			IN	CNAME	cilea.debian.org.
 volatile-master		IN	CNAME	www.debian.org.
 volatile		IN	CNAME	www.debian.org.
 vote			IN	A	70.103.162.29	; master
