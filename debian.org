@@ -58,7 +58,7 @@ bugs-beach		IN	CNAME	beach
 bugs-busoni		IN	CNAME	busoni
 bugs-duarte		IN	CNAME	duarte
 bugs-lindberg		IN	CNAME	lindberg
-bugs-mirror		IN	CNAME	glinka
+bugs-mirror		IN	CNAME	beach	; rsync service, not web
 bugs-search		IN	CNAME	glinka
 buildd			IN	A	194.177.211.200	; grieg
 			IN	AAAA	2001:648:2ffc:deb:214:22ff:fe74:1fa	; grieg
