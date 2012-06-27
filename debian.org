@@ -531,6 +531,11 @@ $ORIGIN debprivate-accumu.debian.org.
 praetorius-mnt		IN	A	172.21.101.1
 pettersson-ilo		IN	A	172.21.101.10
 
+$ORIGIN debprivate-osl.debian.org.
+busoni-ilo		IN	A	10.0.0.203
+byrd-ilo		IN	A	10.0.0.22
+rietz-ilo		IN	A	10.0.0.12
+
 ; countries
 ;==========
 
