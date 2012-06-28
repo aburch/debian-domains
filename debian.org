@@ -678,7 +678,8 @@ ftp		IN	CNAME	ftp.acc.umu.se.
 $ORIGIN si.debian.org.
 ftp		IN	CNAME	debmirror.amis.net.	; debian-mirrors@amis.si
 $ORIGIN sk.debian.org.
-ftp		IN	CNAME	mirrors.nextra.sk.
+ftp		IN	CNAME	mirrors.gts.sk.
+; ftp		IN	CNAME	mirrors.nextra.sk. ; FIXME
 $ORIGIN sv.debian.org.
 ftp		IN	A	190.5.145.84	; debian.salud.gob.sv <mirror@salud.gob.sv>
 $ORIGIN th.debian.org.
