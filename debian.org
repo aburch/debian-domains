@@ -52,10 +52,12 @@ bugs		8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo2.debian.org.
 		8h	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-bugs.debian.org."
-bugs-master		IN	A	140.211.15.34	; busoni
-			IN	MX	0 bugs-master
+;bugs-master	60	IN	A	140.211.15.34	; busoni
+bugs-master	60	IN	A	140.211.166.26	; buxtehude
+		60	IN	MX	0 .
 bugs-beach		IN	CNAME	beach
 bugs-busoni		IN	CNAME	busoni
+bugs-buxtehude		IN	CNAME	buxtehude
 bugs-duarte		IN	CNAME	duarte
 bugs-lindberg		IN	CNAME	lindberg
 bugs-mirror		IN	CNAME	beach	; rsync service, not web
@@ -216,7 +218,8 @@ syncproxy2.eu		IN	A	130.89.148.10 	; klecker
 syncproxy3.eu		IN	A	86.59.118.150	; merikanto
 syncproxy.wna		IN	A	140.211.166.44	; rietz
 ubcece			IN	A	206.12.19.22	; rossini VIP for ganeti
-ganeti2			IN	A	206.12.19.23	; pasquini/tristano ganeti vip
+ganeti2			IN	A	206.12.19.23	; pasquini/tristano/bertali/boito ganeti vip
+ganeti-osuosl		IN	A	140.211.166.30	; byrd
 udd			IN	CNAME	ullmann
 small-teams		IN	A	82.195.75.100	; bendel
 			IN	MX	10 bendel.debian.org.
@@ -669,8 +672,7 @@ $ORIGIN ro.debian.org.
 ;ftp		IN	A	192.129.4.120 ; Subredu Manuel <diablo@iasi.roedu.net>
 ftp		IN	A	81.180.250.146 ;
 $ORIGIN ru.debian.org.
-; ftp		IN	CNAME	ftp.chg.ru.
-ftp		IN	CNAME	debian.mirror.vu.lt. ;
+ftp		IN	CNAME	mirror.mephi.ru. ; Andrew Savchenko <aasavchenko@mephi.ru>
 www		IN	CNAME	www.debian.org.
 $ORIGIN se.debian.org.
 ftp		IN	CNAME	ftp.acc.umu.se.
