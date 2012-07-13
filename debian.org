@@ -52,8 +52,8 @@ bugs		8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo2.debian.org.
 		8h	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-bugs.debian.org."
-bugs-master		IN	A	140.211.15.34	; busoni
-			IN	MX	0 bugs-master
+bugs-master	60	IN	A	140.211.15.34	; busoni
+		60	IN	MX	0 bugs-master
 bugs-beach		IN	CNAME	beach
 bugs-busoni		IN	CNAME	busoni
 bugs-buxtehude		IN	CNAME	buxtehude
