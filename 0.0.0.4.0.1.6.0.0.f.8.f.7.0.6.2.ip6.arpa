@@ -62,5 +62,6 @@ b.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	dinis.debian.org.
 c.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	beach.debian.org.
 4.d.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	bertali.debian.org.
 8.d.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	boito.debian.org.
+e.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	sonntag.debian.org.
 
 ; vim:syn=dns
