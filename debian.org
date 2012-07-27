@@ -364,7 +364,7 @@ boito-iscsi		IN	CNAME	strozzi-db6-iscsi
 pasquini-iscsi		IN	CNAME	strozzi-db7-iscsi
 dijkstra-iscsi		IN	CNAME	strozzi-db8-iscsi
 
-vivaldi-iscsi		IN	A	10.0.0.12
+;vivaldi-iscsi		IN	A	10.0.0.12
 salieri-iscsi		IN	A	10.0.0.241
 traetta-iscsi		IN	A	10.0.0.242
 rossini-iscsi		IN	A	10.0.0.243
@@ -381,7 +381,7 @@ bellini-mnt		IN	A	192.168.2.7
 morricone-mnt		IN	A	192.168.2.9
 paganini-mnt		IN	A	192.168.2.10
 respighi-mnt		IN	A	192.168.2.11
-vivaldi-mnt		IN	A	192.168.2.12
+;vivaldi-mnt		IN	A	192.168.2.12
 stabile-mnt		IN	A	192.168.2.13
 spontini-mnt		IN	A	192.168.2.14
 
