@@ -13,7 +13,7 @@ $ORIGIN debian.org.
 @			IN	A	128.31.0.51	; senfl
 ;@			IN	A	206.12.19.7	; bellini
 @			IN	A	86.59.118.148	; englund
-@			IN	A	82.195.75.97	; kokkonen
+;@			IN	A	82.195.75.97	; kokkonen
 
 ; we delegate things to ns[123]
 ns1		8h	IN	A	206.12.19.5
@@ -135,12 +135,12 @@ lists			IN	A	82.195.75.100	; bendel
 lists-test		IN	MX	0 bendel.debian.org.
 mirror			IN	CNAME	glinka
 mirror-master		IN	CNAME	glinka
-mailout			IN	A	82.195.75.97	; kokkonen
-			IN	AAAA	2001:41b8:202:deb:216:35ff:fec4:6340	; kokkonen
-			IN	A	86.59.118.147	; merikanto
-			IN	AAAA	2001:858:2:2:216:35ff:fec4:a49a	; merikanto
-			IN	MX	0 kokkonen.debian.org. ; outgoing mail relay uses by MX routing on mailout
-			IN	MX	0 merikanto.debian.org.
+;mailout			IN	A	82.195.75.97	; kokkonen
+;mailout			IN	AAAA	2001:41b8:202:deb:216:35ff:fec4:6340	; kokkonen
+;mailout			IN	MX	0 kokkonen.debian.org. ; outgoing mail relay uses by MX routing on mailout
+mailout			IN	A	86.59.118.147	; merikanto
+mailout			IN	AAAA	2001:858:2:2:216:35ff:fec4:a49a	; merikanto
+mailout			IN	MX	0 merikanto.debian.org.
 munin			IN	CNAME	spohr.debian.org.
 nagios			IN	CNAME	tchaikovsky
 nm			IN	A	206.12.19.123	; nono
