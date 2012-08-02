@@ -33,7 +33,7 @@ $TTL 24h
 9		IN	PTR	morricone.debian.org.
 10		IN	PTR	paganini.debian.org.
 11		IN	PTR	respighi.debian.org.
-12		IN	PTR	vivaldi.debian.org.
+; 12		IN	PTR	vivaldi.debian.org.
 13		IN	PTR	stabile.debian.org.
 14		IN	PTR	spontini.debian.org.
 15 		IN	PTR	lucatelli.debian.org.

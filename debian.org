@@ -13,7 +13,7 @@ $ORIGIN debian.org.
 @			IN	A	128.31.0.51	; senfl
 ;@			IN	A	206.12.19.7	; bellini
 @			IN	A	86.59.118.148	; englund
-@			IN	A	82.195.75.97	; kokkonen
+;@			IN	A	82.195.75.97	; kokkonen
 
 ; we delegate things to ns[123]
 ns1		8h	IN	A	206.12.19.5
@@ -135,12 +135,12 @@ lists			IN	A	82.195.75.100	; bendel
 lists-test		IN	MX	0 bendel.debian.org.
 mirror			IN	CNAME	glinka
 mirror-master		IN	CNAME	glinka
-mailout			IN	A	82.195.75.97	; kokkonen
-			IN	AAAA	2001:41b8:202:deb:216:35ff:fec4:6340	; kokkonen
-			IN	A	86.59.118.147	; merikanto
-			IN	AAAA	2001:858:2:2:216:35ff:fec4:a49a	; merikanto
-			IN	MX	0 kokkonen.debian.org. ; outgoing mail relay uses by MX routing on mailout
-			IN	MX	0 merikanto.debian.org.
+;mailout			IN	A	82.195.75.97	; kokkonen
+;mailout			IN	AAAA	2001:41b8:202:deb:216:35ff:fec4:6340	; kokkonen
+;mailout			IN	MX	0 kokkonen.debian.org. ; outgoing mail relay uses by MX routing on mailout
+mailout			IN	A	86.59.118.147	; merikanto
+mailout			IN	AAAA	2001:858:2:2:216:35ff:fec4:a49a	; merikanto
+mailout			IN	MX	0 merikanto.debian.org.
 munin			IN	CNAME	spohr.debian.org.
 nagios			IN	CNAME	tchaikovsky
 nm			IN	A	206.12.19.123	; nono
@@ -365,10 +365,13 @@ boito-iscsi		IN	CNAME	strozzi-db6-iscsi
 pasquini-iscsi		IN	CNAME	strozzi-db7-iscsi
 dijkstra-iscsi		IN	CNAME	strozzi-db8-iscsi
 
-vivaldi-iscsi		IN	A	10.0.0.12
+;vivaldi-iscsi		IN	A	10.0.0.12
 salieri-iscsi		IN	A	10.0.0.241
 traetta-iscsi		IN	A	10.0.0.242
 rossini-iscsi		IN	A	10.0.0.243
+
+; rule seems to be that the last octet is host's real address' last octet
+bizet-iscsi		IN	A	10.0.0.137
 
 ; management network
 mcld-console		IN	A	192.168.2.1	; OpenGear CM4008
@@ -382,7 +385,7 @@ bellini-mnt		IN	A	192.168.2.7
 morricone-mnt		IN	A	192.168.2.9
 paganini-mnt		IN	A	192.168.2.10
 respighi-mnt		IN	A	192.168.2.11
-vivaldi-mnt		IN	A	192.168.2.12
+;vivaldi-mnt		IN	A	192.168.2.12
 stabile-mnt		IN	A	192.168.2.13
 spontini-mnt		IN	A	192.168.2.14
 
@@ -563,9 +566,9 @@ $ORIGIN ba.debian.org.
 ftp		IN	CNAME	mirror.debian.com.ba.
 $ORIGIN be.debian.org.
 ;ftp		IN	CNAME	ftp.belnet.be.  ; Bernard Grymonpon <ftpmaint@belnet.be>
-ftp		IN	CNAME	ftp.nl.debian.org.
-;ftp		IN	A	77.243.184.65   ; mirror.be.gbxs.net
-;ftp		IN	AAAA	2a01:300:11:4:2e0:81ff:fe63:cdb2 ; mirror.be.gbxs.net
+;ftp		IN	CNAME	ftp.nl.debian.org.
+ftp		IN	A	77.243.184.65   ; mirror.be.gbxs.net
+ftp		IN	AAAA	2a01:300:11:4:2e0:81ff:fe63:cdb2 ; mirror.be.gbxs.net
 $ORIGIN bg.debian.org.
 ftp		IN	CNAME	debian.spnet.net.
 www		IN	CNAME	www.debian.org.
