@@ -576,8 +576,7 @@ $ORIGIN br.debian.org.
 ftp		IN	CNAME	debian.c3sl.ufpr.br.  ; Marcos Castilho <marcos@inf.ufpr.br>
 www		IN	CNAME	www.debian.org.
 $ORIGIN by.debian.org.
-; ftp		IN	CNAME	ftp.mgts.by. ; Evgeniy Kozhuhovskiy  <ftpadm@mgts.by> ; FIXME
-ftp		IN	CNAME	mirror.datacenter.by. ; Mitry Matyushkov <ftp@mgts.by>
+ftp		IN	CNAME	ftp.mgts.by. ; Evgeniy Kozhuhovskiy  <ftpadm@mgts.by>
 $ORIGIN ca.debian.org.
 ;ftp		IN	A	206.167.141.10	; ftp1.ca
 ftp		IN	A	70.38.0.135	; debian.mirror.iweb.ca.
