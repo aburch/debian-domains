@@ -588,8 +588,9 @@ ftp2		IN	CNAME	debian.mirror.iweb.ca.
 ftp3		IN	CNAME	ftp3.nrc.ca.
 ftp4		IN	CNAME	debian.mirror.rafal.ca.
 $ORIGIN ch.debian.org.
-ftp		IN	CNAME	debian.ethz.ch.
+;ftp		IN	CNAME	debian.ethz.ch.
 ;ftp	60	IN	CNAME	mirror.switch.ch.
+ftp	60	IN	CNAME	mirror.ayous.org.
 $ORIGIN cl.debian.org.
 ;ftp		IN	CNAME	debian.c3sl.ufpr.br. ; ftp.br.debian.org
 ftp		IN	A	200.75.30.181	; debian.netlinux.cl.
