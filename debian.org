@@ -332,6 +332,7 @@ liszt-ilo		IN	A	192.168.43.131
 urd-ilo			IN	A	192.168.43.134
 czerny-ilo		IN	A	192.168.43.137
 clementi-ilo		IN	A	192.168.43.138
+gw-manda		IN	A	192.168.43.139
 
 $ORIGIN debprivate-oneandone.debian.org.
 wieck-drac		IN	A	192.168.253.2
