@@ -219,6 +219,7 @@ syncproxy3.eu		IN	A	86.59.118.150	; merikanto
 syncproxy.wna		IN	A	140.211.166.44	; rietz
 ubcece			IN	A	206.12.19.22	; rossini VIP for ganeti
 ganeti2			IN	A	206.12.19.23	; pasquini/tristano/bertali/boito ganeti vip
+ganeti3			IN	A	82.195.75.111	; czerny/clementi
 ganeti-osuosl		IN	A	140.211.166.30	; byrd
 udd			IN	CNAME	ullmann
 small-teams		IN	A	82.195.75.100	; bendel
