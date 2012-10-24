@@ -1,5 +1,5 @@
 ; debian.li zone
-; wzf: dnssec = 0
+; wzf: dnssec = 1
 ; ds-in-parent = no
 
 $TTL 8h
@@ -11,6 +11,8 @@ $ORIGIN debian.li.
 
 @		IN	A	193.246.120.51
 @		IN	AAAA	2a02:cd8:abac:27::33
+
+@		IN	MX	0 .
 
 www		IN	CNAME	buzz.debian.ch.
 

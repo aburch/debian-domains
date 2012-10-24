@@ -13,7 +13,7 @@ $ORIGIN debian.org.
 @			IN	A	128.31.0.51	; senfl
 ;@			IN	A	206.12.19.7	; bellini
 @			IN	A	86.59.118.148	; englund
-@			IN	A	82.195.75.97	; kokkonen
+;@			IN	A	82.195.75.97	; kokkonen
 
 ; we delegate things to ns[123]
 ns1		8h	IN	A	206.12.19.5
@@ -52,12 +52,15 @@ bugs		8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo2.debian.org.
 		8h	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-bugs.debian.org."
-bugs-master		IN	A	140.211.15.34	; busoni
-			IN	MX	0 bugs-master
+;bugs-master	60	IN	A	140.211.15.34	; busoni
+bugs-master	60	IN	A	140.211.166.26	; buxtehude
+		60	IN	MX	0 .
+bugs-beach		IN	CNAME	beach
 bugs-busoni		IN	CNAME	busoni
+bugs-buxtehude		IN	CNAME	buxtehude
 bugs-duarte		IN	CNAME	duarte
 bugs-lindberg		IN	CNAME	lindberg
-bugs-mirror		IN	CNAME	glinka
+bugs-mirror		IN	CNAME	beach	; rsync service, not web
 bugs-search		IN	CNAME	glinka
 buildd			IN	A	194.177.211.200	; grieg
 			IN	AAAA	2001:648:2ffc:deb:214:22ff:fe74:1fa	; grieg
@@ -120,21 +123,24 @@ irc			IN	CNAME	irc.geo.oftc.net.
 irc6			IN	CNAME	irc6.geo.oftc.net.
 irc.ipv6		IN	CNAME	irc6.geo.oftc.net.
 keyring			IN	CNAME	kaufmann
+l10n			IN	A	206.12.19.129	; tye
+			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1381	; tye
+			IN	MX	0 tye
 lintian			IN	A	206.12.19.138 ; lilburn
 			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:138a ; lilburn
 			IN	MX	0 .
-;lintian2		IN	CNAME	lilburn
 lists			IN	A	82.195.75.100	; bendel
+			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:4002 ; bendel
 			IN	MX	0 bendel.debian.org.
 lists-test		IN	MX	0 bendel.debian.org.
 mirror			IN	CNAME	glinka
 mirror-master		IN	CNAME	glinka
-mailout			IN	A	82.195.75.97	; kokkonen
-			IN	AAAA	2001:41b8:202:deb:216:35ff:fec4:6340	; kokkonen
-			IN	A	86.59.118.147	; merikanto
-			IN	AAAA	2001:858:2:2:216:35ff:fec4:a49a	; merikanto
-			IN	MX	0 kokkonen.debian.org. ; outgoing mail relay uses by MX routing on mailout
-			IN	MX	0 merikanto.debian.org.
+;mailout			IN	A	82.195.75.97	; kokkonen
+;mailout			IN	AAAA	2001:41b8:202:deb:216:35ff:fec4:6340	; kokkonen
+;mailout			IN	MX	0 kokkonen.debian.org. ; outgoing mail relay uses by MX routing on mailout
+mailout			IN	A	86.59.118.147	; merikanto
+mailout			IN	AAAA	2001:858:2:2:216:35ff:fec4:a49a	; merikanto
+mailout			IN	MX	0 merikanto.debian.org.
 munin			IN	CNAME	spohr.debian.org.
 nagios			IN	CNAME	tchaikovsky
 nm			IN	A	206.12.19.123	; nono
@@ -172,7 +178,7 @@ packages.qa	300	IN	A	206.12.19.122	; quantz
 		300	IN	MX	0 quantz.debian.org.
 release			IN	A	128.148.34.3 ; franck
 			IN	MX	10 franck.debian.org.
-reportbug		IN	CNAME	busoni.debian.org.
+reportbug		IN	CNAME	buxtehude.debian.org.
 rt			IN	A	206.12.19.124   ; reger
 			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137c ; reger
 			IN	MX	10 reger.debian.org.
@@ -212,8 +218,10 @@ syncproxy2.eu		IN	A	130.89.148.10 	; klecker
 syncproxy3.eu		IN	A	86.59.118.150	; merikanto
 syncproxy.wna		IN	A	140.211.166.44	; rietz
 ubcece			IN	A	206.12.19.22	; rossini VIP for ganeti
-ganeti2			IN	A	206.12.19.23	; pasquini/tristano ganeti vip
-udd			IN	CNAME	samosa
+ganeti2			IN	A	206.12.19.23	; pasquini/tristano/bertali/boito ganeti vip
+ganeti3			IN	A	82.195.75.111	; czerny/clementi
+ganeti-osuosl		IN	A	140.211.166.30	; byrd
+udd			IN	CNAME	ullmann
 small-teams		IN	A	82.195.75.100	; bendel
 			IN	MX	10 bendel.debian.org.
 teams			IN	A	82.195.75.100	; bendel
@@ -225,6 +233,8 @@ ftp.upload	60	IN	CNAME	ftp-master.debian.org.	; franck
 ;ftp.eu.upload	60	IN	CNAME	XXXXXX.debian.org. XXX
 ftp.eu.upload	60	IN	CNAME	ftp-master.debian.org.
 ;ftp.eu.upload	60	IN	CNAME	ravel.debian.org.
+_sip._udp.voip		IN	SRV	0 65535 5060 cilea.debian.org.
+voip			IN	CNAME	cilea.debian.org.
 volatile-master		IN	CNAME	www.debian.org.
 volatile		IN	CNAME	www.debian.org.
 vote			IN	A	70.103.162.29	; master
@@ -245,6 +255,24 @@ www-master		IN	A	206.12.19.116	; wolkenstein
 ;			IN	MX	10 klecker.debian.org.
 www-mirror		IN	CNAME	www-master.debian.org.
 www.gluck		IN	CNAME	gluck
+
+
+
+; our HTTPS services
+;_443._tcp.blog-master		IN TYPE52 \# 67 030102533a338f5de19c7c01e17c17477f7808fbe18abe9a1e8d089ceb957b367d8a0f324e54f8161907b587a7e873aa4d0f2b19e1e857ba2befe5cd145290694ffb96
+_443._tcp.buildd		IN TYPE52 \# 67 0301022e5a38c4458275ccb5953880d6a8966b8bc95707f8c6cc03d4bdff783773e1d04eae52513b406449b9dacbc552e2aabf1cbdd9d17283c0dc833041112320ee98
+_443._tcp.db			IN TYPE52 \# 67 0301020279beb0573cf5db64dda2f213d0392bc13072f772c277a522ce2f4e7de8a6c3e3cb132347c7dbbc45c3829efb34f94aa07e8bbca1989c06dd39850d6b12e997
+_443._tcp.ddtp			IN TYPE52 \# 67 030102674d0f51b56f9d87e9eccd393de291ca6990768f604c553b5d91718f7595cf3beda3dabfeae320d04e68e57f2dad8c3780fe2496fb41bb456ce562033f6c0ab5
+_443._tcp.ftp-master		IN TYPE52 \# 67 0301024826aa33648f11fd19cfa899bf8f689b6e5686c251f7ec383eb7f4ce3928a3046eb3649e92943200551f4cefbc1fefe1a5aa285c8045292eb6d5b6a99e4a9ee3
+_443._tcp.lists			IN TYPE52 \# 67 03010299f764a0c80408e832505412e2cf91f6daab0f6ba070106144d7bf0281a4af439c9203e27ebf5d601c44b67c0417477af8e10ba2ee8a36fb0054c9dd9a81316f
+_443._tcp.munin			IN TYPE52 \# 67 03010248a6953206a4aea8b21e9ff4bc9a16b822b32791e3105c18324949623a8398296db7e80feaedc8b8bbf6c7882f0993cc97be53ecbfc0466d114f9504b3b863e9
+_443._tcp.nagios		IN TYPE52 \# 67 030102de8d391cce55dd99add8b793b8c63af6d7a0abd11d2233d4f65ee179b5508c770ecd5863f2daf4391b46320b9a88a1895aa538dca19980028aacb0f23def6eb2
+_443._tcp.nm			IN TYPE52 \# 67 030102e4dc4ba7b26e6c70342f83d4596abeb3a37053c1795c8b71d98e48dab0060b3b1011790ed52e2d556305fee885e3e4ad034dd19913c958d9b9444055726e0dc4
+_443._tcp.puppet-dashboard	IN TYPE52 \# 67 03010219d4363e3a65b596eb76126903b1f57ef3e50b0333413fa2de81ecc17e6edefdf25ea337d13fbc1acd69f94f0ef8cd2020e6565d5100d4d14e1fb58b11ee00f9
+_443._tcp.rt			IN TYPE52 \# 67 0301028effbd5053ac846e0fb99e2b42eac7916d77904e2e0511a7713a11358c537b161bad2a7d3a17a30aeae9d428488cbbdead18a42d821b754d32c375dd82618363
+_443._tcp.security-master	IN TYPE52 \# 67 030102a5cd448c90d723310e1483e424114702a3a9d99f2b1cd4d2ab5028c531f761199e26c58f37d2c520bd01f03b6d50ccb21bdbb381fa1e7762dea3c0708620e3a3
+_443._tcp.sso			IN TYPE52 \# 67 030102c908d6c4f986f1eb4e14f3a0cfede5f07a5411b97e7748fec6e5ecd7665b4c85aecc89a397fad6c0d9e5fd91a98b78277a51df3b546f0df0f7d461e0b15adcb8
+_443._tcp.wiki			IN TYPE52 \# 67 030102b6f378a0b1dac449ec3e3c54236995dd36b9c3ab73b434ced1d0d5a6552d2dabc1dfadee5445400479ebf173ee2f12cac9842e058af4edd2cd8137791e60fe99
 
 
 ; restricted services
@@ -322,6 +350,8 @@ unger-ilo		IN	A	192.168.43.130
 liszt-ilo		IN	A	192.168.43.131
 urd-ilo			IN	A	192.168.43.134
 czerny-ilo		IN	A	192.168.43.137
+clementi-ilo		IN	A	192.168.43.138
+gw-manda-ilo		IN	A	192.168.43.139
 
 $ORIGIN debprivate-oneandone.debian.org.
 wieck-drac		IN	A	192.168.253.2
@@ -355,10 +385,13 @@ boito-iscsi		IN	CNAME	strozzi-db6-iscsi
 pasquini-iscsi		IN	CNAME	strozzi-db7-iscsi
 dijkstra-iscsi		IN	CNAME	strozzi-db8-iscsi
 
-vivaldi-iscsi		IN	A	10.0.0.12
+;vivaldi-iscsi		IN	A	10.0.0.12
 salieri-iscsi		IN	A	10.0.0.241
 traetta-iscsi		IN	A	10.0.0.242
 rossini-iscsi		IN	A	10.0.0.243
+
+; rule seems to be that the last octet is host's real address' last octet
+bizet-iscsi		IN	A	10.0.0.137
 
 ; management network
 mcld-console		IN	A	192.168.2.1	; OpenGear CM4008
@@ -372,7 +405,7 @@ bellini-mnt		IN	A	192.168.2.7
 morricone-mnt		IN	A	192.168.2.9
 paganini-mnt		IN	A	192.168.2.10
 respighi-mnt		IN	A	192.168.2.11
-vivaldi-mnt		IN	A	192.168.2.12
+;vivaldi-mnt		IN	A	192.168.2.12
 stabile-mnt		IN	A	192.168.2.13
 spontini-mnt		IN	A	192.168.2.14
 
@@ -396,6 +429,9 @@ dukas-mnt		IN	A	192.168.2.78
 tye-mnt			IN	A	192.168.2.79
 blavet-mnt		IN	A	192.168.2.84
 lilburn-mnt		IN	A	192.168.2.88
+beach-mnt		IN	A	192.168.2.90
+ullman-mnt		IN	A	192.168.2.91
+sonntag-mnt		IN	A	192.168.2.92
 
 rossini-ilo		IN	A	192.168.2.119
 salieri-ilo		IN	A	192.168.2.120
@@ -516,10 +552,18 @@ merikanto-ilo		IN	A	172.22.127.103
 englund-drac		IN	A	172.22.127.104
 lindberg-drac		IN	A	172.22.127.105
 beethoven-mnt		IN	A	172.22.127.146
+merikanto-mnt		IN	A	172.22.127.147
+englund-mnt		IN	A	172.22.127.148
+lindberg-mnt		IN	A	127.22.127.149
 
 $ORIGIN debprivate-accumu.debian.org.
 praetorius-mnt		IN	A	172.21.101.1
 pettersson-ilo		IN	A	172.21.101.10
+
+$ORIGIN debprivate-osl.debian.org.
+busoni-ilo		IN	A	10.0.0.203
+byrd-ilo		IN	A	10.0.0.22
+rietz-ilo		IN	A	10.0.0.12
 
 ; countries
 ;==========
@@ -552,8 +596,7 @@ $ORIGIN br.debian.org.
 ftp		IN	CNAME	debian.c3sl.ufpr.br.  ; Marcos Castilho <marcos@inf.ufpr.br>
 www		IN	CNAME	www.debian.org.
 $ORIGIN by.debian.org.
-; ftp		IN	CNAME	ftp.mgts.by. ; Evgeniy Kozhuhovskiy  <ftpadm@mgts.by> ; FIXME
-ftp		IN	CNAME	mirror.datacenter.by. ; Mitry Matyushkov <ftp@mgts.by>
+ftp		IN	CNAME	ftp.mgts.by. ; Evgeniy Kozhuhovskiy  <ftpadm@mgts.by>
 $ORIGIN ca.debian.org.
 ;ftp		IN	A	206.167.141.10	; ftp1.ca
 ftp		IN	A	70.38.0.135	; debian.mirror.iweb.ca.
@@ -630,8 +673,6 @@ $ORIGIN lt.debian.org.
 ftp		IN	CNAME	debian.mirror.vu.lt. ; Arnoldas Sareckis <hostmaster@vu.lt>
 $ORIGIN mx.debian.org.
 ftp		IN	CNAME	nisamox.fciencias.unam.mx.
-ftp1		IN	CNAME	nisamox.fciencias.unam.mx.
-ftp2		IN	CNAME	mmc.geofisica.unam.mx.
 $ORIGIN nc.debian.org.
 ftp		IN	A	115.126.160.7
 ftp		IN	AAAA	2404:e400::7
@@ -653,10 +694,10 @@ $ORIGIN pt.debian.org.
 ftp		IN	CNAME	debian.uevora.pt.  ; Tiago Fernandes
 $ORIGIN ro.debian.org.
 ;ftp		IN	A	192.129.4.120 ; Subredu Manuel <diablo@iasi.roedu.net>
-ftp		IN	A	81.180.250.146 ;
+; ftp		IN	A	81.180.250.146 ; FIXME
+ftp		IN	CNAME	ftp.hu.debian.org.
 $ORIGIN ru.debian.org.
-; ftp		IN	CNAME	ftp.chg.ru.
-ftp		IN	CNAME	debian.mirror.vu.lt. ;
+ftp		IN	CNAME	mirror.mephi.ru. ; Andrew Savchenko <aasavchenko@mephi.ru>
 www		IN	CNAME	www.debian.org.
 $ORIGIN se.debian.org.
 ftp		IN	CNAME	ftp.acc.umu.se.
@@ -664,7 +705,8 @@ ftp		IN	CNAME	ftp.acc.umu.se.
 $ORIGIN si.debian.org.
 ftp		IN	CNAME	debmirror.amis.net.	; debian-mirrors@amis.si
 $ORIGIN sk.debian.org.
-ftp		IN	CNAME	mirrors.nextra.sk.
+ftp		IN	CNAME	mirrors.gts.sk.
+; ftp		IN	CNAME	mirrors.nextra.sk. ; FIXME
 $ORIGIN sv.debian.org.
 ftp		IN	A	190.5.145.84	; debian.salud.gob.sv <mirror@salud.gob.sv>
 $ORIGIN th.debian.org.
@@ -692,9 +734,10 @@ ftp	300	IN	A	128.30.2.36		; debian.lcs.mit.edu
 ftp4	300	IN	A	128.30.2.36		; debian.lcs.mit.edu
 ;ftp	300	IN	A	149.20.20.135		; mirrors1.kernel.org
 ;ftp	300	IN	A	204.152.191.39		; mirrors2.kernel.org  # not responding
-ftp	300	IN	A	199.6.12.70		; mirror.mycre.ws (ISC, edmonds@debian.org)
-ftp5	300	IN	A	199.6.12.70		; mirror.mycre.ws (ISC, edmonds@debian.org)
-ftp	300	IN	AAAA	2001:500:61:28::70	; mirror.mycre.ws (ISC, edmonds@debian.org)
+ftp5	300	IN	A	128.30.2.36		; debian.lcs.mit.edu
+; ftp	300	IN	A	199.6.12.70		; mirror.mycre.ws (ISC, edmonds@debian.org) ; FIXME
+; ftp5	300	IN	A	199.6.12.70		; mirror.mycre.ws (ISC, edmonds@debian.org) ; FIXME
+; ftp	300	IN	AAAA	2001:500:61:28::70	; mirror.mycre.ws (ISC, edmonds@debian.org) ; FIXME
 ftp	300	IN	A	128.61.240.89		; debian.gtisc.gatech.edu (edmonds@debian.org)
 ftp6	300	IN	A	128.61.240.89		; debian.gtisc.gatech.edu (edmonds@debian.org)
 ftp	300	IN	AAAA	2610:148:1f10:3::89	; debian.gtisc.gatech.edu (edmonds@debian.org)

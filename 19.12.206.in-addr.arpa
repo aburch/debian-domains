@@ -33,7 +33,7 @@ $TTL 24h
 9		IN	PTR	morricone.debian.org.
 10		IN	PTR	paganini.debian.org.
 11		IN	PTR	respighi.debian.org.
-12		IN	PTR	vivaldi.debian.org.
+; 12		IN	PTR	vivaldi.debian.org.
 13		IN	PTR	stabile.debian.org.
 14		IN	PTR	spontini.debian.org.
 15 		IN	PTR	lucatelli.debian.org.
@@ -51,13 +51,13 @@ $TTL 24h
 111		IN	PTR	finzi.debian.org.
 112		IN	PTR	fischer.debian.org.
 113		IN	PTR	geo2.debian.org.
-114		IN	PTR	duarte.debian.org.
+;114	duarte
 115		IN	PTR	brahms.debian.org.
 116		IN	PTR	wolkenstein.debian.org.
 117		IN	PTR	falla.debian.org.
 118		IN	PTR	tchaikovsky.debian.org.
 119		IN	PTR	popov.debian.org.
-120		IN	PTR	locke.debian.org.
+;120	locke
 121		IN	PTR	lotti.debian.org.
 122		IN	PTR	quantz.debian.org.
 123		IN	PTR	nono.debian.org.
@@ -77,6 +77,10 @@ $TTL 24h
 137		IN	PTR	bizet.debian.org.
 138		IN	PTR	lilburn.debian.org.
 139		IN	PTR	dinis.debian.org.
+140		IN	PTR	beach.debian.org.
+141		IN	PTR	ullmann.debian.org.
+142		IN	PTR	sonntag.debian.org.
+143		IN	PTR	menotti.debian.org.
 
 150		IN	PTR	stabile2.debian.org.
 
