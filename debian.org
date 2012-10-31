@@ -726,7 +726,7 @@ www		IN	CNAME	www.debian.org.
 $ORIGIN us.debian.org.
 ftp	300	IN	A	64.50.236.52		; ftp-chi.osuosl.org
 ftp1	300	IN	A	64.50.236.52		; ftp-chi.osuosl.org
-;ftp	300	IN	A	64.50.233.100		; ftp-nyc.osuosl.org
+ftp	300	IN	A	64.50.233.100		; ftp-nyc.osuosl.org
 ftp2	300	IN	A	64.50.233.100		; ftp-nyc.osuosl.org
 ftp	300	IN	A	35.9.37.225		; ike.egr.msu.edu
 ftp3	300	IN	A	35.9.37.225		; ike.egr.msu.edu
