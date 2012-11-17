@@ -392,6 +392,7 @@ rossini-iscsi		IN	A	10.0.0.243
 
 ; rule seems to be that the last octet is host's real address' last octet
 bizet-iscsi		IN	A	10.0.0.137
+coincy-iscsi		IN	A	10.0.0.144
 
 ; management network
 mcld-console		IN	A	192.168.2.1	; OpenGear CM4008
