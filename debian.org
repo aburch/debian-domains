@@ -325,7 +325,6 @@ merulo-mp		IN	A	192.168.2.205
 mundy			IN	A	192.168.2.12
 mundy-console		IN	A	192.168.2.112
 paer-console		IN	A	192.168.2.110
-penalosa-console	IN	A	192.168.2.108
 raff			IN	A	192.168.2.7
 raff-console		IN	A	192.168.2.107
 raff-ilo		IN	A	192.168.2.207
