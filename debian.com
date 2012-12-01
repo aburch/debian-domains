@@ -12,8 +12,9 @@ $ORIGIN debian.com.
 @		IN	MX	10 master.debian.org.
 
 @	2h	IN	A	128.31.0.51	; senfl
-;@	2h	IN	A	194.109.137.218 ; klecker
-@	2h	IN	A	206.12.19.7	; bellini
+@	2h	IN	A	200.17.202.197	; santoro
+@	2h	IN	A	86.59.118.148	; englund
+@	2h	IN	AAAA	2001:858:2:2:214:22ff:fe0d:7717 ; englund
 
 ftp		IN	CNAME	ftp.debian.org.
 www		IN	CNAME	www.debian.org.
