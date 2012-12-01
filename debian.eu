@@ -1,0 +1,19 @@
+; wzf: dnssec = 0
+; dlv-submit = no
+
+$TTL 24h
+
+$ORIGIN debian.eu.
+@		IN	NS	ns1.debian.org. ; ravel
+@		IN	NS	ns2.debian.org. ; senfl
+@		IN	NS	ns3.debian.org. ; diamond
+@		IN	NS	ns4.debian.com. ; orff
+
+@		IN	MX	10 master.debian.org.
+
+@	2h	IN	A	128.31.0.51	; senfl
+@	2h	IN	A	206.12.19.7	; bellini
+
+www		IN	CNAME	www.debian.org.
+
+; vim:syn=dns
