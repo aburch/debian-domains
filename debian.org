@@ -593,7 +593,8 @@ $ORIGIN bg.debian.org.
 ftp		IN	CNAME	debian.spnet.net.
 www		IN	CNAME	www.debian.org.
 $ORIGIN br.debian.org.
-ftp		IN	CNAME	debian.c3sl.ufpr.br.  ; Marcos Castilho <marcos@inf.ufpr.br>
+;ftp		IN	CNAME	debian.c3sl.ufpr.br.  ; Marcos Castilho <marcos@inf.ufpr.br>
+ftp		IN	CNAME	ftp.us.debian.org.
 www		IN	CNAME	www.debian.org.
 $ORIGIN by.debian.org.
 ftp		IN	CNAME	ftp.mgts.by. ; Evgeniy Kozhuhovskiy  <ftpadm@mgts.by>
