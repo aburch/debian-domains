@@ -228,6 +228,10 @@ teams			IN	A	82.195.75.100	; bendel
 			IN	MX	10 bendel.debian.org.
 ssh-delayed.upload	IN	CNAME	ravel.debian.org.
 ssh.upload		IN	CNAME	ravel.debian.org.
+static		8h	IN	NS	geo1.debian.org.
+		8h	IN	NS	geo2.debian.org.
+		8h	IN	NS	geo3.debian.org.
+$INCLUDE "/srv/dns.debian.org/var/dssets/dsset-static.debian.org."
 ftp.upload	60	IN	CNAME	ftp-master.debian.org.	; franck
 ;ftp.upload	60	IN	CNAME	ravel.debian.org.
 ;ftp.eu.upload	60	IN	CNAME	XXXXXX.debian.org. XXX
