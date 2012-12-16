@@ -1,5 +1,6 @@
 ; 2.0.0.0.2.0.0.0.8.5.8.0.1.0.0.2.ip6.arpa - reverse for 2001:858:2:2::/64 at sil.at in vienna
 
+
 ; wzf: dnssec = 1
 ; dlv-submit = yes
 
@@ -20,7 +21,7 @@ a.9.4.a.4.c.e.f.f.f.5.3.6.1.2.0	IN	PTR	merikanto.debian.org.
 e.9.c.a.1.1.e.f.f.f.2.2.4.1.2.0	IN	PTR	lindberg.debian.org.
 
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	asteria.debian.or.at.
-2.0.c.9.e.4.e.f.f.f.c.0.e.0.2.0	IN	PTR	nova.noreply.org.
 6.2.e.1.b.3.6.5.0.0.0.0.b.b.a.a	IN	PTR	odyssey.noreply.org.
 7.2.e.1.b.3.6.5.0.0.0.0.b.b.a.a	IN	PTR	galaxy.noreply.org.
+8.2.e.1.b.3.6.5.0.0.0.0.b.b.a.a IN	PTR	nova.torproject.org.
 ; vim:syn=dns

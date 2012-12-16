@@ -11,6 +11,7 @@ $ORIGIN debconf13.ch.
 
 @		IN	A	193.246.120.51
 @		IN	AAAA	2a02:cd8:abac:27::33
+@		IN	MX	10 buzz.debian.ch.
 
 www		IN	CNAME	buzz.debian.ch.
 

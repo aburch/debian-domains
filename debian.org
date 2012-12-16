@@ -228,6 +228,10 @@ teams			IN	A	82.195.75.100	; bendel
 			IN	MX	10 bendel.debian.org.
 ssh-delayed.upload	IN	CNAME	ravel.debian.org.
 ssh.upload		IN	CNAME	ravel.debian.org.
+static		8h	IN	NS	geo1.debian.org.
+		8h	IN	NS	geo2.debian.org.
+		8h	IN	NS	geo3.debian.org.
+$INCLUDE "/srv/dns.debian.org/var/dssets/dsset-static.debian.org."
 ftp.upload	60	IN	CNAME	ftp-master.debian.org.	; franck
 ;ftp.upload	60	IN	CNAME	ravel.debian.org.
 ;ftp.eu.upload	60	IN	CNAME	XXXXXX.debian.org. XXX
@@ -246,9 +250,9 @@ women			IN	A	128.31.0.51 ; senfl
 www		8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo2.debian.org.
 		8h	IN	NS	geo3.debian.org.
+$INCLUDE "/srv/dns.debian.org/var/dssets/dsset-www.debian.org."
 www-staging		IN	A	206.12.19.116
 www-broken-layout	IN	A	206.12.19.116
-$INCLUDE "/srv/dns.debian.org/var/dssets/dsset-www.debian.org."
 www-master		IN	A	206.12.19.116	; wolkenstein
 			IN	MX	0 mailout.debian.org.
 ; www-master		IN	A	194.109.137.218	; klecker
@@ -271,6 +275,7 @@ _443._tcp.nm			IN TYPE52 \# 67 030102e4dc4ba7b26e6c70342f83d4596abeb3a37053c1795
 _443._tcp.puppet-dashboard	IN TYPE52 \# 67 03010219d4363e3a65b596eb76126903b1f57ef3e50b0333413fa2de81ecc17e6edefdf25ea337d13fbc1acd69f94f0ef8cd2020e6565d5100d4d14e1fb58b11ee00f9
 _443._tcp.rt			IN TYPE52 \# 67 0301028effbd5053ac846e0fb99e2b42eac7916d77904e2e0511a7713a11358c537b161bad2a7d3a17a30aeae9d428488cbbdead18a42d821b754d32c375dd82618363
 _443._tcp.security-master	IN TYPE52 \# 67 030102a5cd448c90d723310e1483e424114702a3a9d99f2b1cd4d2ab5028c531f761199e26c58f37d2c520bd01f03b6d50ccb21bdbb381fa1e7762dea3c0708620e3a3
+_443._tcp.security-tracker	IN TYPE52 \# 67 030102cdcbb78c57561bde65b8551a8c1c4502d08e5c30089d559cdc4f6a7bd13fb1fddd140d7df2beffe6acae62c437df25fe85ced9501097516dba028ed9ae70ee3c
 _443._tcp.sso			IN TYPE52 \# 67 030102c908d6c4f986f1eb4e14f3a0cfede5f07a5411b97e7748fec6e5ecd7665b4c85aecc89a397fad6c0d9e5fd91a98b78277a51df3b546f0df0f7d461e0b15adcb8
 _443._tcp.wiki			IN TYPE52 \# 67 030102b6f378a0b1dac449ec3e3c54236995dd36b9c3ab73b434ced1d0d5a6552d2dabc1dfadee5445400479ebf173ee2f12cac9842e058af4edd2cd8137791e60fe99
 
@@ -316,7 +321,6 @@ merulo-mp		IN	A	192.168.2.205
 mundy			IN	A	192.168.2.12
 mundy-console		IN	A	192.168.2.112
 paer-console		IN	A	192.168.2.110
-penalosa-console	IN	A	192.168.2.108
 raff			IN	A	192.168.2.7
 raff-console		IN	A	192.168.2.107
 raff-ilo		IN	A	192.168.2.207
@@ -383,6 +387,8 @@ rossini-iscsi		IN	A	10.0.0.243
 
 ; rule seems to be that the last octet is host's real address' last octet
 bizet-iscsi		IN	A	10.0.0.137
+coincy-iscsi		IN	A	10.0.0.144
+stanley-iscsi		IN	A	10.0.0.145
 
 ; management network
 mcld-console		IN	A	192.168.2.1	; OpenGear CM4008
