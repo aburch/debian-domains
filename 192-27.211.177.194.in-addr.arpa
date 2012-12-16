@@ -27,7 +27,6 @@ $TTL 12h
 205		IN	PTR	cilea.debian.org.	; blade5
 206		IN	PTR	vitry.debian.org.	; blade6
 207		IN	PTR	krenek.debian.org.	; blade7
-208		IN	PTR	scelsi.debian.org.	; blade8
 209		IN	PTR	orff.debian.org.	; blade9
 210		IN	PTR	field.debian.org.	; blade10
 ; 211
