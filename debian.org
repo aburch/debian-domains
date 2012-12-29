@@ -243,7 +243,7 @@ volatile-master		IN	CNAME	www.debian.org.
 volatile		IN	CNAME	www.debian.org.
 vote			IN	A	70.103.162.29	; master
 			IN	MX	0 master.debian.org.
-wiki			IN	A	93.94.130.161	; widor
+wiki		60	IN	A	93.94.130.161	; widor
 			IN	MX	0 .
 women			IN	A	128.31.0.51 ; senfl
 			IN	MX	10 ravel
