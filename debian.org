@@ -565,8 +565,8 @@ rietz-ilo		IN	A	10.0.0.12
 ;==========
 
 $ORIGIN at.debian.org.
-ftp		IN	CNAME	ftp.debian.at.
-;ftp	300	IN	CNAME	klecker-ftp.debian.org.
+;ftp		IN	CNAME	ftp.debian.at.
+ftp	300	IN	CNAME	klecker-ftp.debian.org.
 http		IN	CNAME	ftp
 cdimage		IN	CNAME	cdimage.debian.at.
 ;cdimage	300	IN	CNAME	cdimage.debian.org.
