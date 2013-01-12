@@ -696,8 +696,8 @@ $ORIGIN ru.debian.org.
 ftp		IN	CNAME	mirror.mephi.ru. ; Andrew Savchenko <aasavchenko@mephi.ru>
 www		IN	CNAME	www.debian.org.
 $ORIGIN se.debian.org.
-;ftp		IN	CNAME	ftp.acc.umu.se.
-ftp	60	IN	CNAME	klecker-ftp.debian.org.
+ftp		IN	CNAME	ftp.acc.umu.se.
+;ftp	60	IN	CNAME	klecker-ftp.debian.org.
 $ORIGIN si.debian.org.
 ftp		IN	CNAME	debmirror.amis.net.	; debian-mirrors@amis.si
 $ORIGIN sk.debian.org.
