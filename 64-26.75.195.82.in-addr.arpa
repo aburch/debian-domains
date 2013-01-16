@@ -1,0 +1,75 @@
+; 64-26.75.195.82.in-addr.arpa zone - reverse zone for 82.195.75.64/26 - debian at MAN-DA
+
+; wzf: dnssec = 1
+; dlv-submit = yes
+
+$TTL 24h
+
+@		IN	NS	ns1.debian.org. ; ravel
+@		IN	NS	ns2.debian.org. ; senfl
+@		IN	NS	ns3.debian.org. ; diamond
+@		IN	NS	ns4.debian.com. ; orff
+
+; 65
+; 66      
+; 67
+68      IN      PTR     rem.debian.org.
+; 69
+70      IN      PTR     ball.debian.org.
+71      IN      PTR     babylon5.farm.ftbfs.de.
+; 72
+73      IN      PTR     sinclair.farm.ftbfs.de.
+74      IN      PTR     apu.debconf.org.
+; 75
+76      IN      PTR     smithers.debconf.org.
+; 77
+; 78
+79	IN	PTR	heiner.dalug.org.
+80	IN	PTR     heiner01.dalug.org.
+81      IN      PTR     vidar.ayous.org.
+; 82
+83      IN      PTR     aietes.turmzimmer.net.
+84	IN	PTR	nott.ayous.org.
+85      IN      PTR     thallo.turmzimmer.net.
+86	IN	PTR	agricola.debian.org.
+87	IN	PTR	arcadelt.debian.org.
+88      IN      PTR     eccles.debian.org.
+89	IN	PTR	fils.debian.org.
+90      IN      PTR     wiggum.debconf.org.
+91      IN      PTR     bartok.debian.org.
+; 92
+; 93
+; 94
+; 95
+; 96
+; 97
+98	IN	PTR	vento.debian.org.
+99 	IN	PTR	lully.debian.org.
+100	IN	PTR	bendel.debian.org.
+101	IN	PTR	listera.torproject.org. ; formerly liszt.debian.org
+102	IN	PTR	unger.debian.org.
+103	IN	PTR	clementi.debian.org.
+104	IN	PTR	handel.debian.org.
+105	IN	PTR	geo1.debian.org.
+106	IN	PTR	draghi.debian.org.
+107	IN	PTR	kaufmann.debian.org.
+108	IN	PTR	diamond.debian.org.
+109 	IN	PTR 	czerny.debian.org.
+110	IN	PTR	new-master.debian.org.
+111	IN	PTR	ganeti3.debian.org.
+112	IN	PTR	wilder.debian.org.
+; 113
+; 114
+; 115
+116	IN	PTR	magnetism.oftc.net.
+; 117
+118	IN	PTR	dvalin.ayous.org.
+; 119
+; 120
+; 121
+122	IN	PTR	urd.ayous.org.
+; 123 DO NOT USE - urd-ssh
+124	IN	PTR	vlan26.gw01-manda.debian.org.
+125	IN	PTR	vlan25.gw02-manda.debian.org.
+126     IN      PTR     carp26.gw-manda.debian.org.
+; 127
