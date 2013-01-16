@@ -14,8 +14,6 @@ $TTL 24h
 $TTL 8h
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.b.e.d.0		IN	PTR	fw01-da.ayous.org.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.f.f.f.f         IN      PTR     fw01-da-gre.ayous.org.
-
 
 2.0.0.1.0.0.e.f.f.f.0.0.0.0.2.4.b.e.d.0		IN	PTR	aietes.turmzimmer.net.
 7.6.6.6.0.0.0.0.0.0.0.0.0.0.0.0.b.e.d.0		IN	PTR	magnetism.oftc.net.
