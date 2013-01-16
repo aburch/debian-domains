@@ -70,6 +70,6 @@ $TTL 24h
 122	IN	PTR	urd.ayous.org.
 ; 123 DO NOT USE - urd-ssh
 124	IN	PTR	vlan26.gw01-manda.debian.org.
-125	IN	PTR	vlan25.gw02-manda.debian.org.
+125	IN	PTR	vlan26.gw02-manda.debian.org.
 126     IN      PTR     carp26.gw-manda.debian.org.
 ; 127
