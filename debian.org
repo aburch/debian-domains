@@ -241,8 +241,9 @@ _sip._udp.voip		IN	SRV	0 65535 5060 cilea.debian.org.
 voip			IN	CNAME	cilea.debian.org.
 volatile-master		IN	CNAME	www.debian.org.
 volatile		IN	CNAME	www.debian.org.
-vote			IN	A	70.103.162.29	; master
-			IN	MX	0 master.debian.org.
+vote			IN	A	82.195.75.98
+			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:4005
+			IN	MX	0 vento.debian.org.
 wiki		60	IN	CNAME	wilder
 women			IN	A	128.31.0.51 ; senfl
 			IN	MX	10 ravel
