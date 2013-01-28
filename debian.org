@@ -9,11 +9,9 @@ $ORIGIN debian.org.
 @		8h	IN	NS	ns3.debian.org. ; diamond
 @		8h	IN	NS	ns4.debian.com. ; orff
 
-@			IN	MX	0 master.debian.org.
+@		60	IN	MX	0 master.debian.org.
 @			IN	A	128.31.0.51	; senfl
-;@			IN	A	206.12.19.7	; bellini
 @			IN	A	86.59.118.148	; englund
-;@			IN	A	82.195.75.97	; kokkonen
 
 ; we delegate things to ns[123]
 ns1		8h	IN	A	206.12.19.5
