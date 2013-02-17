@@ -54,7 +54,7 @@ $TTL 24h
 107	IN	PTR	kaufmann.debian.org.
 108	IN	PTR	diamond.debian.org.
 109 	IN	PTR 	czerny.debian.org.
-110	IN	PTR	new-master.debian.org.
+110	IN	PTR	master.debian.org.
 111	IN	PTR	ganeti3.debian.org.
 112	IN	PTR	wilder.debian.org.
 113	IN	PTR	vieuxtemps.debian.org
