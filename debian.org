@@ -347,6 +347,8 @@ clementi-ilo		IN	A	192.168.43.138
 gw-manda-ilo		IN	A	192.168.43.139
 epdu01			IN	A	192.168.43.160
 epdu02			IN	A	192.168.43.161
+eups01			IN	A	192.168.43.162
+eups02			IN	A	192.168.43.163
 
 $ORIGIN debprivate-oneandone.debian.org.
 wieck-drac		IN	A	192.168.253.2
