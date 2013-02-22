@@ -117,7 +117,7 @@ i18n			IN	A	206.12.19.129	; tye
 			IN	MX	0 tye
 incoming		IN	A	128.148.34.3 ; franck
 			IN	MX	0 .
-irc			IN	CNAME	irc.geo.oftc.net.
+irc			IN	CNAME	irc6.geo.oftc.net.
 irc6			IN	CNAME	irc6.geo.oftc.net.
 irc.ipv6		IN	CNAME	irc6.geo.oftc.net.
 keyring			IN	CNAME	kaufmann
