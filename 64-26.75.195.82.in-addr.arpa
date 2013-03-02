@@ -15,12 +15,12 @@ $TTL 24h
 68      IN      PTR     rem.debian.org.
 ; 69
 70      IN      PTR     ball.debian.org.
-; 71      IN      PTR     babylon5.farm.ftbfs.de. ; does not ping any more, waiting for feedback from Ganneff
+; 71
 ; 72
-; 73      IN      PTR     sinclair.farm.ftbfs.de. ; does not ping any more, waiting for feedback from Ganneff
-; 74      IN      PTR     apu.debconf.org.        ; does not ping any more, waiting for feedback from Ganneff
+; 73
+; 74
 ; 75
-; 76      IN      PTR     smithers.debconf.org.   ; does not ping any more, waiting for feedback from Ganneff
+; 76
 ; 77
 ; 78
 79	IN	PTR	heiner.dalug.org.
