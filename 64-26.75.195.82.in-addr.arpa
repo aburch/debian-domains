@@ -15,12 +15,12 @@ $TTL 24h
 68      IN      PTR     rem.debian.org.
 ; 69
 70      IN      PTR     ball.debian.org.
-71      IN      PTR     babylon5.farm.ftbfs.de.
+; 71      IN      PTR     babylon5.farm.ftbfs.de. ; does not ping any more, waiting for feedback from Ganneff
 ; 72
-73      IN      PTR     sinclair.farm.ftbfs.de.
-74      IN      PTR     apu.debconf.org.
+; 73      IN      PTR     sinclair.farm.ftbfs.de. ; does not ping any more, waiting for feedback from Ganneff
+; 74      IN      PTR     apu.debconf.org.        ; does not ping any more, waiting for feedback from Ganneff
 ; 75
-76      IN      PTR     smithers.debconf.org.
+; 76      IN      PTR     smithers.debconf.org.   ; does not ping any more, waiting for feedback from Ganneff
 ; 77
 ; 78
 79	IN	PTR	heiner.dalug.org.
@@ -35,7 +35,7 @@ $TTL 24h
 88      IN      PTR     eccles.debian.org.
 89	IN	PTR	fils.debian.org.
 90      IN      PTR     wiggum.debconf.org.
-91      IN      PTR     bartok.debian.org.
+; 91 
 ; 92
 ; 93
 ; 94
@@ -57,8 +57,8 @@ $TTL 24h
 110	IN	PTR	master.debian.org.
 111	IN	PTR	ganeti3.debian.org.
 112	IN	PTR	wilder.debian.org.
-113	IN	PTR	vieuxtemps.debian.org
-; 114
+113	IN	PTR	vieuxtemps.debian.org.
+114	IN	PTR	mailly.debian.org.
 ; 115
 116	IN	PTR	magnetism.oftc.net.
 ; 117
