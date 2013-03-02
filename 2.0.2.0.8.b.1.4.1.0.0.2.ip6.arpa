@@ -40,6 +40,7 @@ d.b.3.2.9.a.e.f.f.f.0.2.0.0.a.0.2.b.e.d		IN	PTR	sperger.debian.org.
 3.6.b.4.3.c.2.5.2.6.a.0.4.6.5.6.b.e.d.0		IN	PTR	lully.debian.org.
 7.6.b.4.3.c.2.5.2.6.a.0.4.6.5.6.b.e.d.0		IN	PTR	clementi.debian.org.
 0.7.b.4.3.c.2.5.2.6.a.0.4.6.5.6.b.e.d.0		IN	PTR	wilder.debian.org.
+2.7.b.4.3.c.2.5.2.6.a.0.4.6.5.6.b.e.d.0		IN	PTR	mailly.debian.org.
 
 a.4.b.4.3.c.2.5.0.0.0.0.5.b.a.b.b.e.d.0		IN	PTR	apu.debconf.org.
 9.4.b.4.3.c.2.5.0.0.0.0.5.b.a.b.b.e.d.0		IN	PTR	sinclair.farm.ftbfs.de.
