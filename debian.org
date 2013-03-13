@@ -45,6 +45,7 @@ backports	8h	IN	NS	geo1.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-backports.debian.org."
 backports-master	IN	CNAME	morricone
 backup			IN	CNAME	beethoven.debian.org.
+bits			IN	CNAME	static
 bttracker		IN	CNAME	bttracker.acc.umu.se.
 bugs		8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo2.debian.org.
