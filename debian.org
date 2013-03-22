@@ -284,7 +284,8 @@ _443._tcp.wiki			IN TYPE52 \# 67 030102b6f378a0b1dac449ec3e3c54236995dd36b9c3ab7
 
 ; restricted services
 ;; ubc
-mirror-ubc		IN	CNAME	stabile
+;mirror-ubc		IN	CNAME	stabile
+mirror-ubc		IN	CNAME	klecker-ftp.debian.org.
 
 ; hosts
 ;======
