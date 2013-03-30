@@ -87,7 +87,7 @@ darcs			IN	A	217.196.43.140	; alioth
 			IN	SSHFP	1 1 4963261A154CB25B867A2F5F3BE0741D30229DA5
 			IN	MX	0 .
 db			IN	A	82.195.75.106	; draghi
-			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3906	; draghi
+			IN	AAAA	2001:41b8:202:deb:1a1a:0:52c3:4b6a	; draghi
 			IN	MX	10 draghi.debian.org.
 dns			IN	CNAME	orff
 ftp		8h	IN	NS	geo1.debian.org.
