@@ -39,8 +39,8 @@ archive		8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-archive.debian.org."
 auto-beta		IN	CNAME	orff
-backports	5m	IN	CNAME	static
-backports-master 5m	IN	CNAME	morricone
+backports		IN	CNAME	static
+backports-master	IN	CNAME	ftp-master
 backup			IN	CNAME	beethoven.debian.org.
 bits			IN	CNAME	static
 bttracker		IN	CNAME	bttracker.acc.umu.se.
