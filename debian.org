@@ -39,12 +39,10 @@ archive		8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-archive.debian.org."
 auto-beta		IN	CNAME	orff
-backports	8h	IN	NS	geo1.debian.org.
-		8h	IN	NS	geo2.debian.org.
-		8h	IN	NS	geo3.debian.org.
-$INCLUDE "/srv/dns.debian.org/var/dssets/dsset-backports.debian.org."
-backports-master	IN	CNAME	morricone
+backports		IN	CNAME	static
+backports-master	IN	CNAME	ftp-master
 backup			IN	CNAME	beethoven.debian.org.
+bits			IN	CNAME	static
 bttracker		IN	CNAME	bttracker.acc.umu.se.
 bugs		8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo2.debian.org.
@@ -86,7 +84,7 @@ darcs			IN	A	217.196.43.140	; alioth
 			IN	SSHFP	1 1 4963261A154CB25B867A2F5F3BE0741D30229DA5
 			IN	MX	0 .
 db			IN	A	82.195.75.106	; draghi
-			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:3906	; draghi
+			IN	AAAA	2001:41b8:202:deb:1a1a:0:52c3:4b6a	; draghi
 			IN	MX	10 draghi.debian.org.
 dns			IN	CNAME	orff
 ftp		8h	IN	NS	geo1.debian.org.
@@ -283,7 +281,9 @@ _443._tcp.wiki			IN TYPE52 \# 67 030102b6f378a0b1dac449ec3e3c54236995dd36b9c3ab7
 
 ; restricted services
 ;; ubc
-mirror-ubc		IN	CNAME	stabile
+;mirror-ubc		IN	CNAME	stabile
+mirror-ubc		IN	CNAME	glinka
+;mirror-ubc		IN	CNAME	klecker-ftp.debian.org.
 
 ; hosts
 ;======
