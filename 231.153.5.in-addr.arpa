@@ -1,0 +1,16 @@
+; 231.153.5.in-addr.arpa zone - reverse zone for 5.153.231.0/24 - debian at bytemark
+
+$TTL 24h
+
+@		IN	NS	ns1.debian.org. ; ravel
+@		IN	NS	ns2.debian.org. ; senfl
+@		IN	NS	ns3.debian.org. ; diamond
+@		IN	NS	ns4.debian.com. ; orff
+
+1		IN	PTR	bruckner.debian.org.
+
+$GENERATE 2-251 $ IN 	PTR 	unconfigured-$.231.153.5.debian.org.
+
+252		IN	PTR	gw01-bytemark.debian.org.
+253		IN	PTR	gw02-bytemark.debian.org.
+254		IN	PTR	gw-bytemark.debian.org.
