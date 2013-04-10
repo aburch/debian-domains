@@ -10,7 +10,7 @@ $TTL 24h
 $GENERATE 1-9	IN	PTR	bm-bl$.debian.org.
 $GENERATE 10-16	IN	PTR	bm-bl$.debian.org.
 
-$GENERATE 2-251 $ IN 	PTR 	unconfigured-$.231.153.5.debian.org.
+$GENERATE 17-251 $ IN 	PTR 	unconfigured-$.231.153.5.debian.org.
 
 252		IN	PTR	gw01-bytemark.debian.org.
 253		IN	PTR	gw02-bytemark.debian.org.
