@@ -7,11 +7,7 @@ $TTL 24h
 @		IN	NS	ns3.debian.org. ; diamond
 @		IN	NS	ns4.debian.com. ; orff
 
-$GENERATE 1-9	$ IN	PTR	bm-bl$.debian.org.
-$GENERATE 10-16	$ IN	PTR	bm-bl$.debian.org.
 
-$GENERATE 17-251 $ IN 	PTR 	unconfigured-$.231.153.5.debian.org.
+;$GENERATE 17-251 $ IN 	PTR 	unconfigured-$.231.153.5.debian.org.
 
-252		IN	PTR	gw01-bytemark.debian.org.
-253		IN	PTR	gw02-bytemark.debian.org.
-254		IN	PTR	gw-bytemark.debian.org.
+$GENERATE 1-14 $ IN 	PTR 	bm-bl${+240,0,d}.debian.org.
