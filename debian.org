@@ -578,8 +578,8 @@ vlan19-gw		IN	A	172.29.120.19
 bl1-ext			IN	A	89.16.160.116
 bl2-ext			IN	A	89.16.160.117
 
-bl1-vrrp.priv		IN	A	10.10.2.1
-bl2-vrrp.priv		IN	A	10.10.2.2
+bl1-vrrp.priv		IN	A	172.29.102.1
+bl2-vrrp.priv		IN	A	172.29.102.2
 
 $GENERATE 1-14 bm-bl$-backend.priv	IN A	172.29.121.$
 milanollo-backend.priv	IN	A	172.29.122.2
