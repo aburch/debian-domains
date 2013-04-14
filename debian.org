@@ -220,7 +220,7 @@ ubcece			IN	A	206.12.19.22	; rossini VIP for ganeti
 ganeti2			IN	A	206.12.19.23	; pasquini/tristano/bertali/boito ganeti vip
 ganeti3			IN	A	82.195.75.111	; czerny/clementi
 ganeti-osuosl		IN	A	140.211.166.30	; byrd
-ganeti-bm	5m	IN	A	172.29.121.100
+ganeti-bm	5m	IN	A	172.29.120.100
 udd			IN	CNAME	ullmann
 small-teams		IN	A	82.195.75.100	; bendel
 			IN	MX	10 bendel.debian.org.
@@ -582,7 +582,7 @@ bl2-ext			IN	A	89.16.160.117
 bl1-vrrp.priv		IN	A	172.29.102.1
 bl2-vrrp.priv		IN	A	172.29.102.2
 
-$GENERATE 1-14 bm-bl$-backend.priv	IN A	172.29.121.$
+$GENERATE 1-14 bm-bl$-backend.priv	IN A	172.29.120.$
 milanollo-backend.priv	IN	A	172.29.122.2
 picconi-backend.priv	IN	A	172.29.122.3
 
