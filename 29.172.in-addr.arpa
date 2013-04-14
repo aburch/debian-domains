@@ -1,0 +1,32 @@
+; reverse zone for 172.29/16
+;   various debian rfc1918 networks
+
+
+$TTL 24h
+
+@		IN	NS	ns1.debian.org. ; ravel
+@		IN	NS	ns2.debian.org. ; senfl
+@		IN	NS	ns3.debian.org. ; diamond
+@		IN	NS	ns4.debian.com. ; orff
+
+;;#####
+;; VPN
+;;#####
+1.201			IN	PTR	gw.manda.vpn.debian.org.
+$GENERATE 2-255 $.201	IN	PTR	client-$i.manda.vpn.debian.org.
+
+;;##########
+;; BYTEMARK
+;;##########
+; default GWs
+
+19.120			IN	PTR	vlan19-gw.bm.debian.org.
+
+; vlan 20
+$GENERATE 1-14 $.121	IN	PTR	bm-bl$-backend.priv.debian.org.
+
+; vlan 21
+2.122			IN	PTR	milanollo-backend.priv.debian.org.
+3.122			IN	PTR	picconi-backend.priv.debian.org.
+
+

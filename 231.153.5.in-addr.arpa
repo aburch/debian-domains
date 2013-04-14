@@ -10,4 +10,11 @@ $TTL 24h
 
 ;$GENERATE 17-251 $ IN 	PTR 	unconfigured-$.231.153.5.debian.org.
 
+1	IN	PTR	vm-gw.bm.debian.org.
+2	IN	PTR	milanollo.debian.org.
+3	IN	PTR	picconi.debian.org.
+
+125	IN	PTR	vm-gw-bl1.bm.debian.org.
+126	IN	PTR	vm-gw-bl2.bm.debian.org.
+
 $GENERATE 1-14 ${+240,0,d}	IN 	PTR 	bm-bl$.debian.org.

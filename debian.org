@@ -568,6 +568,29 @@ busoni-ilo		IN	A	10.0.0.203
 byrd-ilo		IN	A	10.0.0.22
 rietz-ilo		IN	A	10.0.0.12
 
+$ORIGIN bm.debian.org.
+vm-gw			IN	A	5.153.231.1
+bl1-vm-gw		IN	A	5.153.231.125
+bl2-vm-gw		IN	A	5.153.231.126
+
+vlan19-gw		IN	A	172.29.120.19
+
+bl1-ext			IN	A	89.16.160.116
+bl2-ext			IN	A	89.16.160.117
+
+bl1-vrrp.priv		IN	A	10.10.2.1
+bl2-vrrp.priv		IN	A	10.10.2.2
+
+$GENERATE 1-14 bm-bl$-backend.priv	IN A	172.29.121.$
+milanollo-backend.priv	IN	A	172.29.122.2
+picconi-backend.priv	IN	A	172.29.122.3
+
+
+$ORIGIN vpn.debian.org.
+gw.manda		IN	A	172.29.201.1
+$GENERATE 2-255 client-$i.manda	IN A	172.29.201.$
+
+
 ; countries
 ;==========
 
