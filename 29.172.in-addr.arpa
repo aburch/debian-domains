@@ -25,8 +25,6 @@ $GENERATE 2-255 $.201	IN	PTR	client-$i.manda.vpn.debian.org.
 ; vlan 20
 $GENERATE 1-14 $.121	IN	PTR	bm-bl$-backend.priv.debian.org.
 
-; vlan 21
+; vlan 22
 2.122			IN	PTR	milanollo-backend.priv.debian.org.
 3.122			IN	PTR	picconi-backend.priv.debian.org.
-
-
