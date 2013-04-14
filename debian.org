@@ -573,7 +573,8 @@ vm-gw			IN	A	5.153.231.1
 bl1-vm-gw		IN	A	5.153.231.125
 bl2-vm-gw		IN	A	5.153.231.126
 
-vlan19-gw		IN	A	172.29.120.19
+vlan19-gw		IN	A	172.29.115.19
+vlan20-gw		IN	A	172.29.115.20
 
 bl1-ext			IN	A	89.16.160.116
 bl2-ext			IN	A	89.16.160.117

@@ -23,8 +23,9 @@ $GENERATE 2-255 $.201	IN	PTR	client-$i.manda.vpn.debian.org.
 1.102			IN	PTR	bl1-vrrp.priv.debian.org.
 2.102			IN	PTR	bl2-vrrp.priv.debian.org.
 
-; default GWs - 192.29.120/24
-19.120			IN	PTR	vlan19-gw.bm.debian.org.
+; default GWs - 192.29.115/24
+19.115			IN	PTR	vlan19-gw.bm.debian.org.
+20.115			IN	PTR	vlan20-gw.bm.debian.org.
 
 ; vlan 20 - 192.29.121/24
 $GENERATE 1-14 $.121	IN	PTR	bm-bl$-backend.priv.debian.org.
