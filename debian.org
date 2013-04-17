@@ -152,9 +152,7 @@ packages	8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-packages.debian.org."
 packages-holter		IN	CNAME	holter
-packages-powell		IN	CNAME	powell
-packages-powell-stats	IN	CNAME	powell
-packages-rore		IN	CNAME	rore
+packages-picconi	IN	CNAME	picconi
 patch-tracker		IN	CNAME	respighi
 people			IN	A	206.12.19.5 ; ravel
 			IN	AAAA	2607:f8f0:610:4000:214:38ff:feee:b65a ; ravel
