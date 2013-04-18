@@ -1,7 +1,7 @@
 ; 0.0.0.1.8.c.1.4.1.0.0.2.ip6.arpa - reverse
 ; hosts at bytemark - 2001:41c8:1000::/48
 
-; XXX: dnssec = 1
+; wzf: dnssec = 1
 ; dlv-submit = no
 
 $TTL 24h

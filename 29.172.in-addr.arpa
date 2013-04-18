@@ -1,6 +1,8 @@
 ; reverse zone for 172.29/16
 ;   various debian rfc1918 networks
 
+; wzf: dnssec = 1
+; dlv-submit = no
 
 $TTL 24h
 

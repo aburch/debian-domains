@@ -1,5 +1,8 @@
 ; 231.153.5.in-addr.arpa zone - reverse zone for 5.153.231.0/24 - debian at bytemark
 
+; wzf: dnssec = 1
+; dlv-submit = no
+
 $TTL 24h
 
 @		IN	NS	ns1.debian.org. ; ravel
