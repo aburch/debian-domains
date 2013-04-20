@@ -153,6 +153,7 @@ packages	8h	IN	NS	geo1.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-packages.debian.org."
 packages-holter		IN	CNAME	holter
 packages-picconi	IN	CNAME	picconi
+packages-1and1		IN	CNAME	pkgmirror-1and1
 patch-tracker		IN	CNAME	respighi
 people			IN	A	206.12.19.5 ; ravel
 			IN	AAAA	2607:f8f0:610:4000:214:38ff:feee:b65a ; ravel
