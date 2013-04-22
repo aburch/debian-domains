@@ -152,9 +152,8 @@ packages	8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-packages.debian.org."
 packages-holter		IN	CNAME	holter
-packages-powell		IN	CNAME	powell
-packages-powell-stats	IN	CNAME	powell
-packages-rore		IN	CNAME	rore
+packages-picconi	IN	CNAME	picconi
+packages-1and1		IN	CNAME	pkgmirror-1and1
 patch-tracker		IN	CNAME	respighi
 people			IN	A	206.12.19.5 ; ravel
 			IN	AAAA	2607:f8f0:610:4000:214:38ff:feee:b65a ; ravel
@@ -220,6 +219,7 @@ ubcece			IN	A	206.12.19.22	; rossini VIP for ganeti
 ganeti2			IN	A	206.12.19.23	; pasquini/tristano/bertali/boito ganeti vip
 ganeti3			IN	A	82.195.75.111	; czerny/clementi
 ganeti-osuosl		IN	A	140.211.166.30	; byrd
+ganeti-1and1		IN	A	172.29.150.100	; powell
 udd			IN	CNAME	ullmann
 small-teams		IN	A	82.195.75.100	; bendel
 			IN	MX	10 bendel.debian.org.

@@ -1,6 +1,8 @@
 ; reverse zone for 172.29/16
 ;   various debian rfc1918 networks
 
+; wzf: dnssec = 1
+; dlv-submit = no
 
 $TTL 24h
 
@@ -10,10 +12,9 @@ $TTL 24h
 @		IN	NS	ns4.debian.com. ; orff
 
 ;;#####
-;; VPN
+;; 1&1 - powell
 ;;#####
-1.201			IN	PTR	gw.manda.vpn.debian.org.
-$GENERATE 2-255 $.201	IN	PTR	client-$i.manda.vpn.debian.org.
+100.150			IN	PTR	ganeti-1and1.debian.org.
 
 ;;##########
 ;; BYTEMARK
@@ -29,8 +30,14 @@ $GENERATE 2-255 $.201	IN	PTR	client-$i.manda.vpn.debian.org.
 
 ; vlan 20 - 192.29.120/24
 $GENERATE 1-14 $.120	IN	PTR	bm-bl$-backend.priv.bm.debian.org.
-100			IN	PTR	ganeti-bm.debian.org.
+100			IN	PTR	ganeti.bm.debian.org.
 
 ; vlan 22 - 192.29.122/24
 2.122			IN	PTR	milanollo-backend.priv.bm.debian.org.
 3.122			IN	PTR	picconi-backend.priv.bm.debian.org.
+
+;;#####
+;; VPN
+;;#####
+1.201			IN	PTR	gw.manda.vpn.debian.org.
+$GENERATE 2-255 $.201	IN	PTR	client-$i.manda.vpn.debian.org.

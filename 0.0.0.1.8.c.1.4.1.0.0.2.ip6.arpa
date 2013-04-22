@@ -1,0 +1,26 @@
+; 0.0.0.1.8.c.1.4.1.0.0.2.ip6.arpa - reverse
+; hosts at bytemark - 2001:41c8:1000::/48
+
+; wzf: dnssec = 1
+; dlv-submit = no
+
+$TTL 24h
+
+@		IN	NS	ns1.debian.org. ; ravel
+@		IN	NS	ns2.debian.org. ; senfl
+@		IN	NS	ns3.debian.org. ; diamond
+@		IN	NS	ns4.debian.com. ; orff
+
+$TTL 8h
+
+; vlan20
+$GENERATE 1-9 $.4.2.0.0.2.0.0.0.0.0.0.0.0.0.0.0.2.0.0			IN	PTR	bm-bl$.debian.org.
+$GENERATE 0-4 $.5.2.0.0.2.0.0.0.0.0.0.0.0.0.0.0.2.0.0			IN	PTR	bm-bl1$.debian.org.
+
+; vlan21
+2.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	milanollo.debian.org.
+3.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	picconi.debian.org.
+4.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	senfter.debian.org.
+5.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	adayevskaya.debian.org.
+
+; vim:syn=dns
