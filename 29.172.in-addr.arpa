@@ -3,6 +3,7 @@
 
 ; wzf: dnssec = 1
 ; dlv-submit = no
+; check-initial-refs = ns1.debian.org,ns2.debian.org,ns3.debian.org,ns4.debian.com
 
 $TTL 24h
 
