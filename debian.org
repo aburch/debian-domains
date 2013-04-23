@@ -25,7 +25,7 @@ ns3		8h	IN	A	82.195.75.108
 
 ; services
 ;=========
-admin			IN	MX	10 spohr.debian.org.
+admin			IN	MX	10 mailout.debian.org.
 alioth			IN	NS	ns1
 			IN	NS	ns2
 ;			IN	NS	ns3
