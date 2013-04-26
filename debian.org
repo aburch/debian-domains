@@ -54,7 +54,6 @@ bugs-beach		IN	CNAME	beach
 bugs-busoni		IN	CNAME	busoni
 bugs-buxtehude		IN	CNAME	buxtehude
 bugs-duarte		IN	CNAME	duarte
-bugs-lindberg		IN	CNAME	lindberg
 bugs-mirror		IN	CNAME	beach	; rsync service, not web
 bugs-search		IN	CNAME	glinka
 buildd			IN	A	194.177.211.200	; grieg
@@ -551,10 +550,8 @@ anguilla-drac		IN	A	172.22.127.21
 anguilla-mnt		IN	A	172.22.127.22
 beethoven-ilo		IN	A	172.22.127.102
 merikanto-ilo		IN	A	172.22.127.103
-lindberg-drac		IN	A	172.22.127.105
 beethoven-mnt		IN	A	172.22.127.146
 merikanto-mnt		IN	A	172.22.127.147
-lindberg-mnt		IN	A	127.22.127.149
 
 $ORIGIN debprivate-accumu.debian.org.
 praetorius-mnt		IN	A	172.21.101.1
