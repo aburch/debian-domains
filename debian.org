@@ -11,7 +11,6 @@ $ORIGIN debian.org.
 
 @		60	IN	MX	0 master.debian.org.
 @			IN	A	128.31.0.51	; senfl
-@			IN	A	86.59.118.148	; englund
 
 ; we delegate things to ns[123]
 ns1		8h	IN	A	206.12.19.5
@@ -552,11 +551,9 @@ anguilla-drac		IN	A	172.22.127.21
 anguilla-mnt		IN	A	172.22.127.22
 beethoven-ilo		IN	A	172.22.127.102
 merikanto-ilo		IN	A	172.22.127.103
-englund-drac		IN	A	172.22.127.104
 lindberg-drac		IN	A	172.22.127.105
 beethoven-mnt		IN	A	172.22.127.146
 merikanto-mnt		IN	A	172.22.127.147
-englund-mnt		IN	A	172.22.127.148
 lindberg-mnt		IN	A	127.22.127.149
 
 $ORIGIN debprivate-accumu.debian.org.
