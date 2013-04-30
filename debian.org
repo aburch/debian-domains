@@ -301,6 +301,10 @@ gw-grnet		IN	A	194.177.211.193
 			IN	AAAA	2001:648:2ffc:deb::1
 orff-ns			IN	AAAA	2001:648:2ffc:deb::10:10 ; orff
 
+; brown
+franck-ilo		IN	A	128.148.32.22
+ries-ilo		IN	A	128.148.32.5
+
 $ORIGIN debprivate-brainfood.debian.org.
 murphy-int		IN	A	192.168.1.1
 murphy-ilo		IN	A	192.168.1.2
