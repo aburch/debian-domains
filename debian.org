@@ -615,9 +615,9 @@ $ORIGIN ba.debian.org.
 ftp		IN	CNAME	mirror.debian.com.ba.
 $ORIGIN be.debian.org.
 ;ftp		IN	CNAME	ftp.belnet.be.  ; Bernard Grymonpon <ftpmaint@belnet.be>
-ftp		IN	CNAME	ftp.nl.debian.org.
-;ftp		IN	A	77.243.184.65   ; mirror.be.gbxs.net
-;ftp		IN	AAAA	2a01:300:11:4:2e0:81ff:fe63:cdb2 ; mirror.be.gbxs.net
+;ftp		IN	CNAME	ftp.nl.debian.org.
+ftp		IN	A	77.243.184.65   ; mirror.be.gbxs.net
+ftp		IN	AAAA	2a01:300:11:4:2e0:81ff:fe63:cdb2 ; mirror.be.gbxs.net
 $ORIGIN bg.debian.org.
 ftp		IN	CNAME	debian.spnet.net.
 www		IN	CNAME	www.debian.org.
