@@ -24,4 +24,7 @@ $TTL 24h
 125	IN	PTR	vm-gw-bl1.bm.debian.org.
 126	IN	PTR	vm-gw-bl2.bm.debian.org.
 
+$GENERATE 1-7  ${+224,0,d}      IN      CNAME   rev-$.debconf.org.
+$GENERATE 1-7  ${+231,0,d}      IN      CNAME   rev-$.spi-inc.org.
+
 $GENERATE 1-14 ${+240,0,d}	IN 	PTR 	bm-bl$.debian.org.
