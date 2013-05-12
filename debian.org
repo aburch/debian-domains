@@ -11,7 +11,6 @@ $ORIGIN debian.org.
 
 @		60	IN	MX	0 master.debian.org.
 @			IN	A	128.31.0.51	; senfl
-@			IN	A	86.59.118.148	; englund
 
 ; we delegate things to ns[123]
 ns1		8h	IN	A	206.12.19.5
@@ -25,7 +24,7 @@ ns3		8h	IN	A	82.195.75.108
 
 ; services
 ;=========
-admin			IN	MX	10 spohr.debian.org.
+admin			IN	MX	10 mailout.debian.org.
 alioth			IN	NS	ns1
 			IN	NS	ns2
 ;			IN	NS	ns3
@@ -55,7 +54,6 @@ bugs-beach		IN	CNAME	beach
 bugs-busoni		IN	CNAME	busoni
 bugs-buxtehude		IN	CNAME	buxtehude
 bugs-duarte		IN	CNAME	duarte
-bugs-lindberg		IN	CNAME	lindberg
 bugs-mirror		IN	CNAME	beach	; rsync service, not web
 bugs-search		IN	CNAME	glinka
 buildd			IN	A	194.177.211.200	; grieg
@@ -98,8 +96,9 @@ $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-ftp-upcoming.debian.org."
 ftp.ipv6		IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
 			IN	AAAA	2001:610:1908:b000::148:12 ; klecker
 			IN	AAAA	2001:b68:ff:1::11 ; Josip Rodin <joy@debian.org>
-ftp-master		IN	A	128.148.34.3 ; franck
+ftp-master	60	IN	A	138.16.160.12 ; franck
 			IN	MX	10 franck.debian.org.
+ftp-master.metadata	IN	CNAME	static
 _git._tcp.git		IN	SRV	0 0 9418 wagner
 git			IN	A	217.196.43.140	; alioth
 			IN	SSHFP	1 1 4963261A154CB25B867A2F5F3BE0741D30229DA5
@@ -113,7 +112,7 @@ hg			IN	A	217.196.43.140	; alioth
 i18n			IN	A	206.12.19.129	; tye
 			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1381	; tye
 			IN	MX	0 tye
-incoming		IN	A	128.148.34.3 ; franck
+incoming	60	IN	A	138.16.160.12 ; franck
 			IN	MX	0 .
 irc			IN	CNAME	irc6.geo.oftc.net.
 irc6			IN	CNAME	irc6.geo.oftc.net.
@@ -174,7 +173,7 @@ qa			IN	A	206.12.19.122	; quantz
 packages.qa	300	IN	A	206.12.19.122	; quantz
 		300	IN	AAAA	2607:f8f0:610:4000:216:36ff:fe40:3860	; quantz
 		300	IN	MX	0 quantz.debian.org.
-release			IN	A	128.148.34.3 ; franck
+release		60	IN	A	138.16.160.12 ; franck
 			IN	MX	10 franck.debian.org.
 reportbug		IN	CNAME	buxtehude.debian.org.
 rt			IN	A	206.12.19.124   ; reger
@@ -301,6 +300,10 @@ stabile2		IN	A	206.12.19.150
 gw-grnet		IN	A	194.177.211.193
 			IN	AAAA	2001:648:2ffc:deb::1
 orff-ns			IN	AAAA	2001:648:2ffc:deb::10:10 ; orff
+
+; brown
+franck-ilo		IN	A	128.148.32.22
+ries-ilo		IN	A	128.148.32.5
 
 $ORIGIN debprivate-brainfood.debian.org.
 murphy-int		IN	A	192.168.1.1
@@ -551,12 +554,8 @@ anguilla-drac		IN	A	172.22.127.21
 anguilla-mnt		IN	A	172.22.127.22
 beethoven-ilo		IN	A	172.22.127.102
 merikanto-ilo		IN	A	172.22.127.103
-englund-drac		IN	A	172.22.127.104
-lindberg-drac		IN	A	172.22.127.105
 beethoven-mnt		IN	A	172.22.127.146
 merikanto-mnt		IN	A	172.22.127.147
-englund-mnt		IN	A	172.22.127.148
-lindberg-mnt		IN	A	127.22.127.149
 
 $ORIGIN debprivate-accumu.debian.org.
 praetorius-mnt		IN	A	172.21.101.1
@@ -709,7 +708,7 @@ ftp		IN	A	115.126.160.7
 ftp		IN	AAAA	2404:e400::7
 $ORIGIN nl.debian.org.
 ftp		IN	A	130.89.149.21 ; debian.snt.utwente.nl
-		IN	AAAA	2001:610:1908:a000::149:21 ; debian.snt.utwente.nl
+		IN	AAAA	2001:67c:2564:a120::21 ; debian.snt.utwente.nl
 ;ftp		IN	CNAME	klecker-ftp.debian.org.
 www		IN	CNAME	www.debian.org.
 $ORIGIN no.debian.org.
