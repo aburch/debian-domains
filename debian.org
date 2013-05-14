@@ -159,7 +159,7 @@ people			IN	A	206.12.19.5 ; ravel
 			IN	MX	0 .
 newpeople		IN	CNAME	ravel.debian.org.
 pg-ubcece		IN	CNAME	danzi
-piuparts		IN	CNAME	piatti
+piuparts		IN	CNAME	pejacevic
 planet			IN	CNAME	static
 planet-search		IN	CNAME	senfl
 popcon			IN	A	206.12.19.119	; popov
