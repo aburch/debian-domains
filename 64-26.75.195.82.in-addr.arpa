@@ -26,7 +26,7 @@ $TTL 24h
 79	IN	PTR	heiner.dalug.org.
 80	IN	PTR     heiner01.dalug.org.
 81      IN      PTR     vidar.ayous.org.
-; 82
+82	IN	PTR	fayrfax.debian.org.
 83      IN      PTR     aietes.turmzimmer.net.
 84	IN	PTR	nott.ayous.org.
 85      IN      PTR     thallo.turmzimmer.net.
