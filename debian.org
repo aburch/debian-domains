@@ -780,5 +780,6 @@ www		IN	CNAME	www.debian.org.
 
 ; SSH FP
 $INCLUDE "/var/lib/misc/thishost/dns-sshfp"
+$INCLUDE "/srv/dns.debian.org/puppet-extra/include-debian.org"
 
 ; vim:syn=dns
