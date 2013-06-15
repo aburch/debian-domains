@@ -182,6 +182,7 @@ rt			IN	A	206.12.19.124   ; reger
 			IN	MX	10 reger.debian.org.
 search			IN	A	128.31.0.51 ; senfl
 			IN	MX	0 .
+security-origin	60	IN	CNAME	security-master
 security-master		IN	CNAME	chopin
 security	8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo2.debian.org.
