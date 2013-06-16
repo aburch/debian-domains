@@ -184,9 +184,9 @@ search			IN	A	128.31.0.51 ; senfl
 			IN	MX	0 .
 security-fastly 60	IN	CNAME	global.prod.fastly.net.
 security-master		IN	CNAME	chopin
-security	8h	IN	NS	geo1.debian.org.
-		8h	IN	NS	geo2.debian.org.
-		8h	IN	NS	geo3.debian.org.
+security	30m	IN	NS	geo1.debian.org.
+		30m	IN	NS	geo2.debian.org.
+		30m	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-security.debian.org."
 security.eu		IN	CNAME	security.debian.org.
 security.na		IN	CNAME	security.debian.org.
@@ -247,9 +247,9 @@ vote			IN	A	82.195.75.98
 wiki		60	IN	CNAME	wilder
 women			IN	A	128.31.0.51 ; senfl
 			IN	MX	10 ravel
-www		8h	IN	NS	geo1.debian.org.
-		8h	IN	NS	geo2.debian.org.
-		8h	IN	NS	geo3.debian.org.
+www		30m	IN	NS	geo1.debian.org.
+		30m	IN	NS	geo2.debian.org.
+		30m	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-www.debian.org."
 www-staging		IN	A	206.12.19.116
 www-broken-layout	IN	A	206.12.19.116
