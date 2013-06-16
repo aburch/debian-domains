@@ -184,6 +184,7 @@ search			IN	A	128.31.0.51 ; senfl
 			IN	MX	0 .
 security-fastly 60	IN	CNAME	global.prod.fastly.net.
 security-master		IN	CNAME	chopin
+cdn.security	60	IN	CNAME	global.prod.fastly.net.
 security	30m	IN	NS	geo1.debian.org.
 		30m	IN	NS	geo2.debian.org.
 		30m	IN	NS	geo3.debian.org.
