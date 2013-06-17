@@ -87,6 +87,7 @@ dns			IN	CNAME	orff
 ftp		8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo2.debian.org.
 		8h	IN	NS	geo3.debian.org.
+$INCLUDE "/srv/dns.debian.org/var/dssets/dsset-ftp.debian.org."
 ftp.ipv6		IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
 			IN	AAAA	2001:610:1908:b000::148:12 ; klecker
 			IN	AAAA	2001:b68:ff:1::11 ; Josip Rodin <joy@debian.org>
