@@ -572,8 +572,12 @@ mirror			IN	CNAME	milanollo.debian.org.
 vlan19-gw		IN	A	172.29.115.19
 vlan20-gw		IN	A	172.29.115.20
 
+gw-ext			IN	A	89.16.160.116
+			IN	AAAA	2001:41c8:61::4
 bl1-ext			IN	A	89.16.160.117
+			IN	AAAA	2001:41c8:61::5
 bl2-ext			IN	A	89.16.160.118
+			IN	AAAA	2001:41c8:61::6
 
 bl1-vrrp.priv		IN	A	172.29.102.1
 bl2-vrrp.priv		IN	A	172.29.102.2
