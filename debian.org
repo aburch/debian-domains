@@ -131,7 +131,7 @@ mailout			IN	A	82.195.75.114	; mailly
 			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1392	; muffat
 			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
-munin			IN	CNAME	spohr.debian.org.
+munin			IN	CNAME	menotti.debian.org.
 munin2			IN	CNAME	menotti.debian.org.
 nagios			IN	CNAME	tchaikovsky
 nm			IN	A	206.12.19.123	; nono
