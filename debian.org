@@ -586,6 +586,11 @@ milanollo-backend.priv	IN	A	172.29.122.2
 picconi-backend.priv	IN	A	172.29.122.3
 
 
+$ORIGIN manda.debian.org.
+nut1			IN	CNAME	clementi.debian.org.
+nut2			IN	CNAME	czerny.debian.org.
+
+
 $ORIGIN vpn.debian.org.
 gw.manda		IN	A	172.29.201.1
 $GENERATE 2-255 client-$i.manda	IN A	172.29.201.$
