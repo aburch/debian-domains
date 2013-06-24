@@ -21,6 +21,7 @@ $TTL 24h
 6	IN	PTR	pejacevic.debian.org.
 7	IN	PTR	piu-slave-bm-a.debian.org.
 8	IN	PTR	binet.debian.org.
+9	IN	PTR	syncproxy3.eu.debian.org.
 
 125	IN	PTR	vm-gw-bl1.bm.debian.org.
 126	IN	PTR	vm-gw-bl2.bm.debian.org.
