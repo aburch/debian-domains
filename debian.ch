@@ -16,6 +16,9 @@ $ORIGIN debian.ch.
 buzz		IN	A	193.246.120.51
 buzz		IN	AAAA	2a02:cd8:abac:27::33
 
+buzz2		IN	A	193.246.120.52
+buzz2		IN	AAAA	2a02:cd8:abac:27::34
+
 www		IN	CNAME	buzz
 
 lists		IN	MX	10 buzz
