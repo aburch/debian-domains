@@ -32,7 +32,7 @@ a.5.6.b.e.e.e.f.f.f.8.3.4.1.2.0		IN	PTR	ravel.debian.org.
 a.b.a.5.4.c.e.f.f.f.5.2.1.1.2.0		IN	PTR	respighi.debian.org.
 4.c.e.2.6.7.e.f.f.f.e.f.8.1.2.0		IN	PTR	rossini.debian.org.
 0.d.e.2.6.7.e.f.f.f.e.f.8.1.2.0		IN	PTR	salieri.debian.org.
-b.8.1.9.0.a.e.f.f.f.0.2.0.0.a.0		IN	PTR	spontini.debian.org.
+e.0.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	spontini.debian.org.
 e.c.1.7.a.5.e.f.f.f.1.8.0.e.2.0		IN	PTR	stabile.debian.org. ; OLD - XXX - REMOVEME
 d.0.3.1.c.0.e.c.0.0.0.0.a.1.a.1		IN	PTR	stabile.debian.org.
 6.9.3.1.c.0.e.c.0.0.0.0.a.1.a.1		IN	PTR	stabile2.debian.org.
