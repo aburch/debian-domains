@@ -91,7 +91,7 @@ $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-ftp.debian.org."
 ftp.ipv6		IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
 			IN	AAAA	2001:610:1908:b000::148:12 ; klecker
 			IN	AAAA	2001:b68:ff:1::11 ; Josip Rodin <joy@debian.org>
-ftp-master	60	IN	A	138.16.160.12 ; franck
+ftp-master		IN	A	138.16.160.12 ; franck
 			IN	MX	10 franck.debian.org.
 ftp-master.metadata	IN	CNAME	static
 _git._tcp.git		IN	SRV	0 0 9418 wagner
@@ -107,7 +107,7 @@ hg			IN	A	217.196.43.140	; alioth
 i18n			IN	A	206.12.19.129	; tye
 			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1381	; tye
 			IN	MX	0 tye
-incoming	60	IN	A	138.16.160.12 ; franck
+incoming		IN	A	138.16.160.12 ; franck
 			IN	MX	0 .
 irc			IN	CNAME	irc6.geo.oftc.net.
 irc6			IN	CNAME	irc6.geo.oftc.net.
@@ -165,7 +165,7 @@ qa			IN	A	206.12.19.122	; quantz
 packages.qa	300	IN	A	206.12.19.122	; quantz
 		300	IN	AAAA	2607:f8f0:610:4000:216:36ff:fe40:3860	; quantz
 		300	IN	MX	0 quantz.debian.org.
-release		60	IN	A	138.16.160.12 ; franck
+release			IN	A	138.16.160.12 ; franck
 			IN	MX	10 franck.debian.org.
 reportbug		IN	CNAME	buxtehude.debian.org.
 rt			IN	A	206.12.19.124   ; reger
@@ -225,11 +225,11 @@ static		8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo2.debian.org.
 		8h	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-static.debian.org."
-ftp.upload	60	IN	CNAME	ftp-master.debian.org.	; franck
-;ftp.upload	60	IN	CNAME	ravel.debian.org.
-;ftp.eu.upload	60	IN	CNAME	XXXXXX.debian.org. XXX
-ftp.eu.upload	60	IN	CNAME	ftp-master.debian.org.
-;ftp.eu.upload	60	IN	CNAME	ravel.debian.org.
+ftp.upload	300	IN	CNAME	ftp-master.debian.org.	; franck
+;ftp.upload	300	IN	CNAME	ravel.debian.org.
+;ftp.eu.upload	300	IN	CNAME	XXXXXX.debian.org. XXX
+ftp.eu.upload	300	IN	CNAME	ftp-master.debian.org.
+;ftp.eu.upload	300	IN	CNAME	ravel.debian.org.
 _sip._udp.voip		IN	SRV	0 65535 5060 cilea.debian.org.
 voip			IN	CNAME	cilea.debian.org.
 volatile-master		IN	CNAME	www.debian.org.
@@ -237,7 +237,7 @@ volatile		IN	CNAME	www.debian.org.
 vote			IN	A	82.195.75.98
 			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:4005
 			IN	MX	0 vento.debian.org.
-wiki		60	IN	CNAME	wilder
+wiki			IN	CNAME	wilder
 women			IN	A	128.31.0.51 ; senfl
 			IN	MX	10 ravel
 www		30m	IN	NS	geo1.debian.org.
