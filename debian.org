@@ -381,7 +381,6 @@ boito-iscsi		IN	CNAME	strozzi-db6-iscsi
 pasquini-iscsi		IN	CNAME	strozzi-db7-iscsi
 dijkstra-iscsi		IN	CNAME	strozzi-db8-iscsi
 
-;vivaldi-iscsi		IN	A	10.0.0.12
 salieri-iscsi		IN	A	10.0.0.241
 traetta-iscsi		IN	A	10.0.0.242
 rossini-iscsi		IN	A	10.0.0.243
@@ -395,15 +394,14 @@ stanley-iscsi		IN	A	10.0.0.145
 mcld-console		IN	A	192.168.2.1	; OpenGear CM4008
 kais-console		IN	A	192.168.2.2	; OpenGear CM4148
 ;ravel-ilo		IN	A	192.168.2.3	; FIXME (pedantism)
+polymer-ipmi		IN	A	192.168.2.4	; polymer.oftc.net <noc@oftc.net>
 spontini-console	IN	CNAME	mcld-console
 ravel-mnt		IN	A	192.168.2.5
 ravel-console		IN	CNAME	kais-console
 giustini-mnt		IN	A	192.168.2.6
-bellini-mnt		IN	A	192.168.2.7
-morricone-mnt		IN	A	192.168.2.9
+polymer-mnt		IN	A	192.168.2.8	; polymer.oftc.net <noc@oftc.net>
 paganini-mnt		IN	A	192.168.2.10
 respighi-mnt		IN	A	192.168.2.11
-;vivaldi-mnt		IN	A	192.168.2.12
 stabile-mnt		IN	A	192.168.2.13
 spontini-mnt		IN	A	192.168.2.14
 
