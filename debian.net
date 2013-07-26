@@ -10,7 +10,6 @@ $ORIGIN debian.net.
 
 @		IN	MX	10 master.debian.org.
 @		IN	A	128.31.0.51	; senfl
-@		IN	A	206.12.19.7	; bellini
 
 mirror		IN	NS	ns1.debian.org.
 		IN	NS	ns2.debian.org.
