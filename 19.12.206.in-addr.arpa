@@ -31,7 +31,6 @@ $TTL 24h
 ; 6 reserved (giustini-mnt)
 7		IN	PTR	bellini.debian.org.
 8		IN	PTR	polymer.oftc.net.
-9		IN	PTR	morricone.debian.org.
 10		IN	PTR	paganini.debian.org.
 11		IN	PTR	respighi.debian.org.
 ; 12		IN	PTR	vivaldi.debian.org.
