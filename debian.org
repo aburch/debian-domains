@@ -784,4 +784,7 @@ www		IN	CNAME	www.debian.org.
 $INCLUDE "/var/lib/misc/thishost/dns-sshfp"
 $INCLUDE "/srv/dns.debian.org/puppet-extra/include-debian.org"
 
+; gandi validation stuff
+60BE7B80A4CE0AD91905D8611560E4AE.wiki.debian.org. 10800 IN CNAME 20C10AA30507B835277559352DA7F660B93ACD3D.comodoca.com.
+
 ; vim:syn=dns
