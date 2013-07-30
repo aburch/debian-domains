@@ -206,7 +206,6 @@ svn			IN	A	217.196.43.140	; alioth
 			IN	MX	0 .
 syncproxy.eu		IN	CNAME	ftp.hr.debian.org.
 syncproxy2.eu		IN	A	130.89.148.10 	; klecker
-;syncproxy3.eu		IN	A	86.59.118.150	; merikanto
 syncproxy3.eu		IN	A	5.153.231.9		; milanollo
 			IN	AAAA	2001:41c8:1000:21::21:9	; milanollo
 syncproxy.wna		IN	A	140.211.166.44	; rietz
@@ -544,9 +543,7 @@ asteria-mnt		IN	A	172.22.127.10
 anguilla-drac		IN	A	172.22.127.21
 anguilla-mnt		IN	A	172.22.127.22
 beethoven-ilo		IN	A	172.22.127.102
-merikanto-ilo		IN	A	172.22.127.103
 beethoven-mnt		IN	A	172.22.127.146
-merikanto-mnt		IN	A	172.22.127.147
 eder-mnt		IN	A	172.22.127.151
 eysler-mnt		IN	A	172.22.127.152
 

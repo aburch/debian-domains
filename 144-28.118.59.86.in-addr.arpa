@@ -13,7 +13,6 @@ $TTL 24h
 ;144 NETWORK
 ;145 GATEWAY
 146		IN	PTR	beethoven.debian.org.
-147		IN	PTR	merikanto.debian.org.
 150		IN	PTR	syncproxy3.eu.debian.org.
 151		IN	PTR	eder.debian.org.
 152		IN	PTR	eysler.debian.org.
