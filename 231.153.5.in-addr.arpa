@@ -25,6 +25,7 @@ $TTL 24h
 10	IN	PTR	bmdb1.debian.org.
 11	IN	PTR	coccia.debian.org.
 12	IN	PTR	backuphost.debian.org.
+13	IN	PTR	philp.debian.org.
 
 125	IN	PTR	vm-gw-bl1.bm.debian.org.
 126	IN	PTR	vm-gw-bl2.bm.debian.org.
