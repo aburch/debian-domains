@@ -598,11 +598,11 @@ $GENERATE 2-255 client-$i.manda	IN A	172.29.201.$
 ;==========
 
 $ORIGIN at.debian.org.
-;ftp		IN	CNAME	ftp.debian.at.
-ftp	300	IN	CNAME	klecker-ftp.debian.org.
+ftp		IN	CNAME	ftp.debian.at.
+;ftp	300	IN	CNAME	klecker-ftp.debian.org.
 http		IN	CNAME	ftp
-;cdimage		IN	CNAME	cdimage.debian.at.
-cdimage	300	IN	CNAME	cdimage.debian.org.
+cdimage		IN	CNAME	cdimage.debian.at.
+;cdimage	300	IN	CNAME	cdimage.debian.org.
 www	300	IN	CNAME	www.debian.org.
 $ORIGIN au.debian.org.
 ; ftp		IN	CNAME	mirror.linux.org.au. ; FIXME
