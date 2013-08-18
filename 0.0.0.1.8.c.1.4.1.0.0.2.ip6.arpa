@@ -29,5 +29,6 @@ a.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	bmdb1.debian.org.
 b.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	coccia.debian.org.
 c.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	backuphost.debian.org.
 d.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	philp.debian.org.
+e.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	couper.debian.org.
 
 ; vim:syn=dns
