@@ -27,6 +27,9 @@ $TTL 24h
 12	IN	PTR	backuphost.debian.org.
 13	IN	PTR	philp.debian.org.
 14	IN	PTR	couper.debian.org.
+15	IN	PTR	rapoport.debian.org.
+16	IN	PTR	rainier.debian.org.
+
 
 125	IN	PTR	vm-gw-bl1.bm.debian.org.
 126	IN	PTR	vm-gw-bl2.bm.debian.org.

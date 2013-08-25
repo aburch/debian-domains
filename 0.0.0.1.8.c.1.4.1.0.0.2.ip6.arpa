@@ -30,5 +30,7 @@ b.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	coccia.debian.org.
 c.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	backuphost.debian.org.
 d.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	philp.debian.org.
 e.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	couper.debian.org.
+f.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	rapoport.debian.org.
+0.1.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	rainier.debian.org.
 
 ; vim:syn=dns
