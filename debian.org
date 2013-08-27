@@ -227,11 +227,11 @@ static		8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo2.debian.org.
 		8h	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-static.debian.org."
-ftp.upload	300	IN	CNAME	ftp-master.debian.org.	; franck
-;ftp.upload	300	IN	CNAME	ravel.debian.org.
+;ftp.upload	300	IN	CNAME	ftp-master.debian.org.	; franck
+ftp.upload	300	IN	CNAME	ravel.debian.org.
 ;ftp.eu.upload	300	IN	CNAME	XXXXXX.debian.org. XXX
-ftp.eu.upload	300	IN	CNAME	ftp-master.debian.org.
-;ftp.eu.upload	300	IN	CNAME	ravel.debian.org.
+;ftp.eu.upload	300	IN	CNAME	ftp-master.debian.org.
+ftp.eu.upload	300	IN	CNAME	ravel.debian.org.
 _sip._udp.voip		IN	SRV	0 65535 5060 cilea.debian.org.
 voip			IN	CNAME	cilea.debian.org.
 volatile-master		IN	CNAME	www.debian.org.
