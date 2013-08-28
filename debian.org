@@ -143,7 +143,6 @@ packages	8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo2.debian.org.
 		8h	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-packages.debian.org."
-packages-holter		IN	CNAME	holter
 packages-picconi	IN	CNAME	picconi
 packages-1and1		IN	CNAME	pkgmirror-1and1
 patch-tracker		IN	CNAME	respighi
