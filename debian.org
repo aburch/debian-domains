@@ -643,8 +643,8 @@ ftp		IN	CNAME	debian.ethz.ch.
 ;ftp	60	IN	CNAME	mirror.switch.ch.
 ;ftp	60	IN	CNAME	klecker-ftp.debian.org.
 $ORIGIN cl.debian.org.
-ftp		IN	CNAME	debian.c3sl.ufpr.br. ; ftp.br.debian.org	; FIXME
-;ftp		IN	A	200.75.30.181	; debian.netlinux.cl.		; FIXME
+;ftp		IN	CNAME	debian.c3sl.ufpr.br. ; ftp.br.debian.org.
+ftp		IN	A	200.75.30.181	; debian.netlinux.cl.
 ftp1		IN	CNAME	debian.netlinux.cl.
 ftp2		IN	CNAME	ftp1
 $ORIGIN cn.debian.org.
