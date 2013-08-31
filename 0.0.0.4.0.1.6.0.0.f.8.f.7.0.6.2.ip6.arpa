@@ -38,8 +38,8 @@ d.0.3.1.c.0.e.c.0.0.0.0.a.1.a.1		IN	PTR	stabile.debian.org.
 0.9.8.e.5.e.e.f.f.f.4.c.c.1.2.0		IN	PTR	traetta.debian.org.
 5.d.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	tristano.debian.org.
 6.0.8.3.0.4.e.f.f.f.6.3.6.1.2.0		IN	PTR	wolkenstein.debian.org.
-2.6.8.3.0.4.e.f.f.f.6.3.6.1.2.0		IN	PTR	reger.debian.org.
 c.4.8.3.0.4.e.f.f.f.6.3.6.1.2.0		IN	PTR	danzi.debian.org.
+c.7.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	reger.debian.org.
 e.7.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	glinka.debian.org.
 f.7.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	leda.debian.net.
 0.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	dukas.debian.org.
