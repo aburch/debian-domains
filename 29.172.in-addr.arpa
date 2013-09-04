@@ -5,6 +5,15 @@
 ; dlv-submit = no
 ; check-initial-refs = ns1.debian.org,ns2.debian.org,ns3.debian.org,ns4.debian.com
 
+; 102		bytemark vrrp
+; 115		bytemark default gws
+; 120		bytemark vlan 20
+; 122		bytemark vlan 22
+; 150		1&1 ganeti
+; 160		sil mnt vlan
+; 201		VPN manda
+; 202		VPN sil
+
 $TTL 24h
 
 @		IN	NS	ns1.debian.org. ; ravel
@@ -16,6 +25,15 @@ $TTL 24h
 ;; 1&1 - powell
 ;;#####
 100.150			IN	PTR	ganeti-1and1.debian.org.
+
+;;#####
+;; sil
+;;#####
+10.160			IN	PTR	cisco.priv.sil.debian.org.
+50.160			IN	PTR	eder-mnt.priv.sil.debian.org.
+51.160			IN	PTR	eysler-mnt.priv.sil.debian.org.
+100.160			IN	PTR	console.priv.sil.debian.org.
+240.160			IN	PTR	anguilla-mnt.priv.sil.debian.org.
 
 ;;##########
 ;; BYTEMARK
@@ -42,3 +60,8 @@ $GENERATE 1-14 $.120	IN	PTR	bm-bl$-backend.priv.bm.debian.org.
 ;;#####
 1.201			IN	PTR	gw.manda.vpn.debian.org.
 $GENERATE 2-255 $.201	IN	PTR	client-$i.manda.vpn.debian.org.
+
+1.202			IN	PTR	gw.sil.vpn.debian.org.
+$GENERATE 2-255 $.202	IN	PTR	client-$i.sil.vpn.debian.org.
+
+; vim:syn=dns
