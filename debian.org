@@ -543,7 +543,7 @@ cisco			IN	A	172.29.160.10
 eder-mnt		IN	A	172.29.160.50
 eysler-mnt		IN	A	172.29.160.51
 console			IN	A	172.29.160.100
-$GENERATE 1-48 console-$	IN A	172.29.160.{+100,0,d}
+$GENERATE 1-48 console-$	IN A	172.29.160.${+100,0,d}
 eder-console		IN	CNAME	console-1
 eysler-console		IN	CNAME	console-2
 cisco-console		IN	CNAME	console-3
