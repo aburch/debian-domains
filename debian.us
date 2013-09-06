@@ -1,4 +1,4 @@
-; wzf: dnssec = 1
+; wzf: dnssec = 0
 ; dlv-submit = no
 
 $TTL 24h
