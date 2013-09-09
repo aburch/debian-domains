@@ -667,9 +667,9 @@ ftp		IN	CNAME	mirrors.dotsrc.org.
 $ORIGIN ee.debian.org.
 ftp		IN	CNAME	ftp.aso.ee.
 $ORIGIN es.debian.org.
-; ftp		IN	A	163.117.156.54 ; ftp.gul(.uc3m).es
+ftp		IN	A	163.117.156.54 ; ftp.gul(.uc3m).es ; FIXME
 ; ftp		IN	A	130.206.1.5 ; ftp.rediris.es
-ftp		IN	A	82.194.78.250 ; ulises.hostalia.com <jfs@debian.org>
+; ftp		IN	A	82.194.78.250 ; ulises.hostalia.com <jfs@debian.org> ; FIXME
 www		IN	CNAME	www.debian.org.
 $ORIGIN fi.debian.org.
 ftp		IN	A	130.230.54.99
