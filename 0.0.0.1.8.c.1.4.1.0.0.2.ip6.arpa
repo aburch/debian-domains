@@ -33,5 +33,6 @@ e.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	couper.debian.org.
 f.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	rapoport.debian.org.
 0.1.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	rainier.debian.org.
 1.1.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	delfin.debian.org.
+2.1.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	wuiet.debian.org.
 
 ; vim:syn=dns
