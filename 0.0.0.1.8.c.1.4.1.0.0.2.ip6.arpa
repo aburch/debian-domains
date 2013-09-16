@@ -25,15 +25,16 @@ $GENERATE 0-4 $.5.2.0.0.2.0.0.0.0.0.0.0.0.0.0.0.2.0.0			IN	PTR	bm-bl1$.debian.or
 6.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	pejacevic.debian.org.
 7.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	piu-slave-bm-a.debian.org.
 8.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	binet.debian.org.
-a.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	bmdb1.debian.org.
-b.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	coccia.debian.org.
-c.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	backuphost.debian.org.
-d.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	philp.debian.org.
-e.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	couper.debian.org.
-f.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	rapoport.debian.org.
-0.1.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	rainier.debian.org.
-1.1.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	delfin.debian.org.
-2.1.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	wuiet.debian.org.
-3.1.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	dinis.debian.org.
+; 9.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0
+0.1.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	bmdb1.debian.org.
+1.1.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	coccia.debian.org.
+2.1.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	backuphost.debian.org.
+3.1.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	philp.debian.org.
+4.1.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	couper.debian.org.
+5.1.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	rapoport.debian.org.
+6.1.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	rainier.debian.org.
+7.1.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	delfin.debian.org.
+8.1.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	wuiet.debian.org.
+9.1.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	dinis.debian.org.
 
 ; vim:syn=dns
