@@ -31,6 +31,7 @@ $TTL 24h
 16	IN	PTR	rainier.debian.org.
 17	IN	PTR	delfin.debian.org.
 18	IN	PTR	wuiet.debian.org.
+19	IN	PTR	dinis.debian.org.
 
 
 125	IN	PTR	vm-gw-bl1.bm.debian.org.
