@@ -539,6 +539,7 @@ switch-2		IN	A	172.22.3.21
 
 $ORIGIN priv.sil.debian.org.
 cisco			IN	A	172.29.160.10
+beethoven-ilo		IN	A	172.29.160.40
 eder-mnt		IN	A	172.29.160.50
 eysler-mnt		IN	A	172.29.160.51
 console			IN	A	172.29.160.100
