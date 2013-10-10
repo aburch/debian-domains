@@ -612,10 +612,11 @@ cdimage		IN	CNAME	cdimage.debian.at.
 www	300	IN	CNAME	www.debian.org.
 $ORIGIN au.debian.org.
 ; ftp		IN	CNAME	mirror.linux.org.au. ; FIXME
-ftp		IN	CNAME	mirror.aarnet.edu.au. ; FIXME
+; ftp		IN	CNAME	mirror.aarnet.edu.au. ; FIXME
 ;ftp		IN	A	115.126.160.7	; debian.nautile.nc / ftp.nc.d.o
 ;ftp		IN	AAAA	2404:e400::7	; debian.nautile.nc / ftp.nc.d.o
 www		IN	CNAME	www.debian.org.
+ftp		IN	A	218.100.43.30	; mirror.waia.asn.au.
 ftp.wa		IN	A	218.100.43.30	; mirror.waia.asn.au.
 ;ftp.wa		IN	CNAME	mirror.linux.org.au.
 $ORIGIN ba.debian.org.
