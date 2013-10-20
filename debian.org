@@ -41,9 +41,12 @@ archive		8h	IN	NS	geo1.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-archive.debian.org."
 auto-beta		IN	CNAME	orff
 backports		IN	CNAME	static
+backports-backend	IN	CNAME	backports-master
 backports-master	IN	CNAME	ftp-master
 backup			IN	CNAME	beethoven.debian.org.
 bits			IN	CNAME	static
+bits-backend		IN	CNAME	bits-master
+bits-master		IN	CNAME	master
 bttracker		IN	CNAME	bttracker.acc.umu.se.
 bugs		8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo2.debian.org.
@@ -96,6 +99,8 @@ ftp.ipv6		IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
 ftp-master		IN	A	138.16.160.12 ; franck
 			IN	MX	10 franck.debian.org.
 ftp-master.metadata	IN	CNAME	static
+ftp-master.metadata-backend	IN	CNAME	ftp-master.metadata-master
+ftp-master.metadata-master	IN	CNAME	ftp-master
 _git._tcp.git		IN	SRV	0 0 9418 wagner
 git			IN	A	217.196.43.140	; alioth
 			IN	SSHFP	1 1 4963261A154CB25B867A2F5F3BE0741D30229DA5
@@ -155,6 +160,8 @@ newpeople		IN	CNAME	ravel.debian.org.
 pg-ubcece		IN	CNAME	danzi
 piuparts		IN	CNAME	pejacevic
 planet			IN	CNAME	static
+planet-backend		IN	CNAME	planet-master
+planet-master		IN	CNAME	philp
 planet-search		IN	CNAME	philp
 popcon			IN	A	206.12.19.119	; popov
 			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1377	; popov
