@@ -32,6 +32,7 @@ $TTL 24h
 17	IN	PTR	delfin.debian.org.
 18	IN	PTR	wuiet.debian.org.
 19	IN	PTR	dinis.debian.org.
+20	IN	PTR	donizetti.debian.org.
 
 
 125	IN	PTR	vm-gw-bl1.bm.debian.org.
