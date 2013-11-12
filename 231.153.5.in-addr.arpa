@@ -34,6 +34,7 @@ $TTL 24h
 19	IN	PTR	dinis.debian.org.
 20	IN	PTR	donizetti.debian.org.
 21	IN	PTR	moszumansaka.debian.org.
+22	IN	PTR	dillon.debian.org.
 
 
 125	IN	PTR	vm-gw-bl1.bm.debian.org.
