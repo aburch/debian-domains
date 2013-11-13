@@ -142,6 +142,8 @@ mailout			IN	A	82.195.75.114	; mailly
 			IN	MX	0 muffat.debian.org.
 munin			IN	CNAME	menotti.debian.org.
 nagios			IN	CNAME	tchaikovsky
+network-test		IN	CNAME	static
+network-test-backend	IN	CNAME	static
 nm			IN	A	206.12.19.123	; nono
 			IN	AAAA	2607:F8F0:610:4000:216:36FF:FE40:3861	; nono
 			IN	MX	10 nono.debian.org.
