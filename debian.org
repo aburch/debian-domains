@@ -701,8 +701,9 @@ $ORIGIN hk.debian.org.
 ftp		IN	CNAME	debian.linux.org.tw. ; FIXME
 www		IN	CNAME	www.debian.org.
 $ORIGIN hr.debian.org.
-ftp		IN	A	161.53.160.11
-		IN	AAAA	2001:b68:ff:1::11
+ftp		IN	CNAME	ftp.debian.at.
+;ftp		IN	A	161.53.160.11
+;		IN	AAAA	2001:b68:ff:1::11
 $ORIGIN hu.debian.org.
 ftp		IN	CNAME	ftp.fsn.hu.
 $ORIGIN id.debian.org.
