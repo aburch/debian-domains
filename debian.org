@@ -242,6 +242,8 @@ static		8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo2.debian.org.
 		8h	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/dssets/dsset-static.debian.org."
+tracker			IN	A	5.153.231.23			; ticharich.debian.org
+			IN	AAAA	2001:41c8:1000:21::21:23	; ticharich.debian.org
 ftp.upload	300	IN	CNAME	ftp-master.debian.org.	; franck
 ;ftp.upload	300	IN	CNAME	ravel.debian.org.
 ;ftp.eu.upload	300	IN	CNAME	XXXXXX.debian.org. XXX
