@@ -746,9 +746,8 @@ $ORIGIN pt.debian.org.
 ;ftp		IN	CNAME	info.uevora.pt.  ; Miguel Ramos <miguel@uevora.pt>
 ftp		IN	CNAME	debian.uevora.pt.  ; Tiago Fernandes
 $ORIGIN ro.debian.org.
-;ftp		IN	A	192.129.4.120 ; Subredu Manuel <diablo@iasi.roedu.net>
-; ftp		IN	A	81.180.250.146 ; FIXME
-ftp		IN	CNAME	ftp.hu.debian.org.
+ftp		IN	A	81.180.250.146 ; ftpadmin@iasi.roedu.net
+ftp		IN	AAAA	2001:b30:1::146
 $ORIGIN ru.debian.org.
 ftp		IN	CNAME	mirror.mephi.ru. ; Andrew Savchenko <aasavchenko@mephi.ru>
 www		IN	CNAME	www.debian.org.
