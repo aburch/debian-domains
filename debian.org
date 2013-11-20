@@ -29,7 +29,7 @@ admin			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
 alioth			IN	NS	ns1
 			IN	NS	ns2
-;			IN	NS	ns3
+			IN	NS	ns3
 			IN	NS	ns4.debian.com.
 anonscm			IN	A	5.153.231.21	; alioth - moszumanska
 arch			IN	A	5.153.231.21	; alioth - moszumanska
