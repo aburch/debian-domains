@@ -635,7 +635,8 @@ ftp		IN	A	218.100.43.30	; mirror.waia.asn.au.
 ftp.wa		IN	A	218.100.43.30	; mirror.waia.asn.au.
 ;ftp.wa		IN	CNAME	mirror.linux.org.au.
 $ORIGIN ba.debian.org.
-ftp		IN	CNAME	mirror.debian.com.ba.
+;ftp		IN	CNAME	mirror.debian.com.ba.	; FIXME
+ftp		IN	CNAME	ftp.si.debian.org.	; backup 
 $ORIGIN be.debian.org.
 ;ftp		IN	CNAME	ftp.nl.debian.org.
 ftp		IN	A	195.234.45.114   ; mirror.as35701.net
