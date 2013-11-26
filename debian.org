@@ -102,6 +102,7 @@ ftp-master		IN	A	138.16.160.12 ; franck
 ftp-master.metadata	IN	CNAME	static
 ftp-master.metadata-backend	IN	CNAME	ftp-master.metadata-master
 ftp-master.metadata-master	IN	CNAME	ftp-master
+mirror.ftp-master	IN	CNAME	coccia
 _git._tcp.git		IN	SRV	0 0 9418 moszumanska
 git			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
