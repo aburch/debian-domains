@@ -35,7 +35,7 @@ $TTL 24h
 88      IN      PTR     eccles.debian.org.
 89	IN	PTR	fils.debian.org.
 90      IN      PTR     wiggum.debconf.org.
-; 91 
+91	IN	PTR	denis.debian.org.
 ; 92
 ; 93
 ; 94
