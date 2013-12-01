@@ -47,6 +47,8 @@ backup			IN	CNAME	beethoven.debian.org.
 bits			IN	CNAME	static
 bits-backend		IN	CNAME	bits-master
 bits-master		IN	CNAME	master
+blends			IN	CNAME	static
+blends-backend		IN	CNAME	static
 bttracker		IN	CNAME	bttracker.acc.umu.se.
 bugs		8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo2.debian.org.
@@ -258,6 +260,7 @@ vote			IN	A	82.195.75.98
 			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:4005
 			IN	MX	0 vento.debian.org.
 wiki			IN	CNAME	wilder
+wnpp-by-tags-backend	IN	CNAME	static
 women			IN	A	128.31.0.51 ; senfl
 			IN	MX	10 ravel
 www		30m	IN	NS	geo1.debian.org.
