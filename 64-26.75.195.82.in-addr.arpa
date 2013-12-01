@@ -52,7 +52,7 @@ $TTL 24h
 105	IN	PTR	geo1.debian.org.
 106	IN	PTR	draghi.debian.org.
 107	IN	PTR	kaufmann.debian.org.
-108	IN	PTR	diamond.debian.org.
+; 108	IN	PTR
 109 	IN	PTR 	czerny.debian.org.
 110	IN	PTR	master.debian.org.
 111	IN	PTR	ganeti3.debian.org.
