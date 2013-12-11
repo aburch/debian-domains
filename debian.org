@@ -226,6 +226,7 @@ svn			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	MX	0 .
 syncproxy.eu		IN	CNAME	ftp.hr.debian.org.
 syncproxy2.eu		IN	A	130.89.148.10 	; klecker
+			IN	AAAA	2001:610:1908:b000::148:10	; klecker
 syncproxy3.eu		IN	A	5.153.231.9		; milanollo
 			IN	AAAA	2001:41c8:1000:21::21:9	; milanollo
 syncproxy.wna		IN	A	140.211.166.44	; rietz
