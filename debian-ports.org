@@ -1,0 +1,45 @@
+$ORIGIN debian-ports.org.
+$TTL 3600	; 1 hour
+
+@			NS	ns1.debian.org.
+			NS	ns2.debian.org.
+			NS	ns3.debian.org.
+			NS	ns2.debian.com.
+			
+@			A	206.12.19.127
+			AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+			MX	10 leda.debian.net.
+
+archive			A	206.12.19.127
+archive			AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+
+buildd			A	206.12.19.127
+buildd			AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+buildd			MX	10 leda.debian.net.
+
+cdimage			A	206.12.19.127
+cdimage			AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+
+ftp			A	206.12.19.127
+ftp			AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+
+git			A	206.12.19.127
+git			AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+
+http			A	206.12.19.127
+http			AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+
+incoming		A	206.12.19.127
+incoming		AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+
+pop			A	206.12.19.127
+pop			AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+
+rsync			A	206.12.19.127
+rsync			AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+
+transitions		A	206.12.19.127
+transitions		AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+
+www			A	206.12.19.127
+www			AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
