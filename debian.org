@@ -175,7 +175,6 @@ popcon			IN	A	206.12.19.119	; popov
 			IN	MX	10 popov.debian.org.
 ports			IN	CNAME	static
 www.ports		IN	CNAME	static
-ports-backend		IN	CNAME	static
 www.ports-backend	IN	CNAME	static
 pubsub01		IN	CNAME	rainier
 pubsub02		IN	CNAME	rapoport
