@@ -41,5 +41,4 @@ rsync			AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
 transitions		A	206.12.19.127
 transitions		AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
 
-www			A	206.12.19.127
-www			AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+www			CNAME	www.ports.debian.org.
