@@ -370,6 +370,8 @@ liszt-int		IN	A	192.168.43.3
 babylon5-int		IN	A	192.168.43.4
 sperger-int		IN	A	192.168.43.5
 urd-int			IN	A	192.168.43.6
+sw01-net-da		IN	A	192.168.43.44
+sw02-net-da		IN	A	192.168.43.45
 unger-ilo		IN	A	192.168.43.130
 liszt-ilo		IN	A	192.168.43.131
 urd-ilo			IN	A	192.168.43.134
