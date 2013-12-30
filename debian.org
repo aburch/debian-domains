@@ -828,6 +828,6 @@ $INCLUDE "/srv/dns.debian.org/puppet-extra/include-debian.org"
 A3CE5E602B92E8ADB2EE5B9DDF87D30A.lists.debian.org. 10800 IN CNAME 130D7CEEF821D5BD5D403EE48DCAC5CED3FC93C4.comodoca.com.	; temp entry for SSL Cert validation
 73DB5D6B9A82E36F710EB5855F48AA97.udd.debian.org. 10800 IN CNAME FC0946348C2BBD0CAD46086250803CF40DBAE76B.comodoca.com.		; temp entry for SSL Cert validation
 60BE7B80A4CE0AD91905D8611560E4AE.wiki.debian.org. 10800 IN CNAME 20C10AA30507B835277559352DA7F660B93ACD3D.comodoca.com.
-weaseltest.debian.org. IN TXT "foo"
+weaseltest.debian.org. IN TXT "foobar"
 
 ; vim:syn=dns
