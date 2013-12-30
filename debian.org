@@ -136,6 +136,7 @@ lintian			IN	A	206.12.19.138 ; lilburn
 lists			IN	A	82.195.75.100	; bendel
 			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:4002 ; bendel
 			IN	MX	0 bendel.debian.org.
+A3CE5E602B92E8ADB2EE5B9DDF87D30A.lists.debian.org. 10800 IN CNAME 130D7CEEF821D5BD5D403EE48DCAC5CED3FC93C4.comodoca.com.	; temp entry for SSL Cert validation
 lists-test		IN	MX	0 bendel.debian.org.
 manpages		IN	CNAME	glinka
 mirror			IN	CNAME	glinka
