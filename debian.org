@@ -137,7 +137,6 @@ lintian			IN	A	206.12.19.138 ; lilburn
 lists			IN	A	82.195.75.100	; bendel
 			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:4002 ; bendel
 			IN	MX	0 bendel.debian.org.
-A3CE5E602B92E8ADB2EE5B9DDF87D30A.lists.debian.org. 10800 IN CNAME 130D7CEEF821D5BD5D403EE48DCAC5CED3FC93C4.comodoca.com.	; temp entry for SSL Cert validation
 lists-test		IN	MX	0 bendel.debian.org.
 manpages		IN	CNAME	glinka
 mirror			IN	CNAME	glinka
@@ -247,7 +246,6 @@ ganeti3			IN	A	82.195.75.111	; czerny/clementi
 ganeti-osuosl		IN	A	140.211.166.30	; byrd
 ganeti-1and1		IN	A	172.29.150.100	; powell
 udd			IN	CNAME	ullmann
-73DB5D6B9A82E36F710EB5855F48AA97.udd.debian.org. 10800 IN CNAME FC0946348C2BBD0CAD46086250803CF40DBAE76B.comodoca.com.		; temp entry for SSL Cert validation
 small-teams		IN	A	82.195.75.100	; bendel
 			IN	MX	10 bendel.debian.org.
 teams			IN	A	82.195.75.100	; bendel
@@ -827,6 +825,8 @@ $INCLUDE "/var/lib/misc/thishost/dns-sshfp"
 $INCLUDE "/srv/dns.debian.org/puppet-extra/include-debian.org"
 
 ; gandi validation stuff
+A3CE5E602B92E8ADB2EE5B9DDF87D30A.lists.debian.org. 10800 IN CNAME 130D7CEEF821D5BD5D403EE48DCAC5CED3FC93C4.comodoca.com.	; temp entry for SSL Cert validation
+73DB5D6B9A82E36F710EB5855F48AA97.udd.debian.org. 10800 IN CNAME FC0946348C2BBD0CAD46086250803CF40DBAE76B.comodoca.com.		; temp entry for SSL Cert validation
 60BE7B80A4CE0AD91905D8611560E4AE.wiki.debian.org. 10800 IN CNAME 20C10AA30507B835277559352DA7F660B93ACD3D.comodoca.com.
 
 ; vim:syn=dns
