@@ -2,7 +2,6 @@
 ; hosts at sanger - 2001:630:206:4000::/64
 ; ::0, ::1 and ::ffff:ffff:ffff:ffff are reserved for sanger infra
 
-
 $TTL 24h
 
 @		IN	NS	ns1.debian.org. ; ravel

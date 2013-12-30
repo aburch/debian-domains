@@ -2,7 +2,6 @@
 ; hosts at ubcece - 2607:f8f0:0610:4000::/64
 ; ::1 - ::f are reserved for ubc infra
 
-
 $TTL 24h
 
 @		IN	NS	ns1.debian.org. ; ravel

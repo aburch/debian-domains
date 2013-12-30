@@ -1,7 +1,6 @@
 ; 2.0.2.0.8.B.1.4.1.0.0.2.ip6.arpa - reverse
 ; hosts at MAN-DA - 2001:41B8:202::/48
 
-
 $TTL 24h
 
 @		IN	NS	ns1.debian.org. ; ravel
@@ -48,3 +47,5 @@ a.4.b.4.3.c.2.5.0.0.0.0.5.b.a.b.b.e.d.0		IN	PTR	apu.debconf.org.
 9.4.b.4.3.c.2.5.0.0.0.0.5.b.a.b.b.e.d.0		IN	PTR	sinclair.farm.ftbfs.de.
 c.4.b.4.3.c.2.5.0.0.0.0.5.b.a.b.b.e.d.0		IN	PTR	smithers.debconf.org.
 7.4.b.4.3.c.2.5.0.0.0.0.5.b.a.b.b.e.d.0		IN	PTR	babylon5.farm.ftbfs.de.
+
+; vim:syn=dns

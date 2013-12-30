@@ -1,7 +1,5 @@
 ; 2.0.0.0.2.0.0.0.8.5.8.0.1.0.0.2.ip6.arpa - reverse for 2001:858:2:2::/64 at sil.at in vienna
 
-
-
 $TTL 24h
 
 @		IN	NS	ns1.debian.org. ; ravel
