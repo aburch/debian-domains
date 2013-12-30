@@ -246,6 +246,7 @@ ganeti3			IN	A	82.195.75.111	; czerny/clementi
 ganeti-osuosl		IN	A	140.211.166.30	; byrd
 ganeti-1and1		IN	A	172.29.150.100	; powell
 udd			IN	CNAME	ullmann
+73DB5D6B9A82E36F710EB5855F48AA97.udd.debian.org. 10800 IN CNAME FC0946348C2BBD0CAD46086250803CF40DBAE76B.comodoca.com.		; temp entry for SSL Cert validation
 small-teams		IN	A	82.195.75.100	; bendel
 			IN	MX	10 bendel.debian.org.
 teams			IN	A	82.195.75.100	; bendel
