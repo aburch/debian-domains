@@ -2,8 +2,6 @@
 ; for hosts at 1&1 - they live in 2001:8d8:0580:0400::/64 and we can assign
 ; addresses out of 2001:8d8:0580:0400:6564:0a62::/96 at will.
 
-; wzf: dnssec = 1
-; dlv-submit = yes
 
 $TTL 24h
 

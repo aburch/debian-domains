@@ -1,8 +1,6 @@
 ; 2.0.2.0.8.B.1.4.1.0.0.2.ip6.arpa - reverse
 ; hosts at MAN-DA - 2001:41B8:202::/48
 
-; wzf: dnssec = 1
-; dlv-submit = no
 
 $TTL 24h
 

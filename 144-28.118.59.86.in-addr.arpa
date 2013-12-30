@@ -1,7 +1,5 @@
 ; 144-28.118.59.86.in-addr.arpa zone - reverse zone for 86.59.118.144/28
 
-; wzf: dnssec = 1
-; dlv-submit = yes
 
 $TTL 24h
 
