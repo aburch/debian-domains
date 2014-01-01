@@ -85,7 +85,7 @@ d-i-master		IN	CNAME	dillon
 ddtp			IN	A	206.12.19.128	; dukas
 			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1380	; dukas
 			IN	MX	0 dukas
-dsa			IN	CNAME	draghi
+dsa			IN	CNAME	static
 darcs			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
 			IN	MX	0 .
