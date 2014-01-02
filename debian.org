@@ -742,8 +742,7 @@ $ORIGIN lt.debian.org.
 ftp		IN	CNAME	debian.mirror.vu.lt. ; Arnoldas Sareckis <hostmaster@vu.lt>
 $ORIGIN mx.debian.org.
 ;ftp		IN	CNAME	nisamox.fciencias.unam.mx. ; FIXME
-;ftp		IN	CNAME	mmc.geofisica.unam.mx. ; FIXME
-ftp		IN	CNAME	debian.gtisc.gatech.edu. ; backup
+ftp		IN	CNAME	mmc.geofisica.unam.mx. ; FIXME
 $ORIGIN nc.debian.org.
 ftp		IN	A	115.126.160.7
 ftp		IN	AAAA	2404:e400::7
