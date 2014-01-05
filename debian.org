@@ -811,6 +811,8 @@ ftp		IN	CNAME	debian.egr.msu.edu.
 $ORIGIN za.debian.org.
 www		IN	CNAME	www.debian.org.
 
+$INCLUDE "/srv/dns.debian.org/var/services-auto/ftp-test.debian.org"
+
 ; SSH FP
 $INCLUDE "/var/lib/misc/thishost/dns-sshfp"
 $INCLUDE "/srv/dns.debian.org/puppet-extra/include-debian.org"
