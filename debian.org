@@ -35,11 +35,6 @@ anonscm			IN	A	5.153.231.21	; alioth - moszumanska
 arch			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
 			IN	MX	0 .
-archive		5m	IN	NS	geo1.debian.org.
-		5m	IN	NS	geo2.debian.org.
-		5m	IN	NS	geo3.debian.org.
-		5m	IN	DS	24589 5 1 98FC4200AF8273B919EC5E1F5951DEDEB3B7EA3E
-		5m	IN	DS	24589 5 2 1454EADFA0B1435598F46D5280365628E003CB3F338616CEEA9DE23E BA9ED21C
 auto-beta		IN	CNAME	orff
 backports		IN	CNAME	static
 backports-backend	IN	CNAME	backports-master
