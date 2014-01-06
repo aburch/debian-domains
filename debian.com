@@ -9,8 +9,8 @@ $ORIGIN debian.com.
 
 @		IN	MX	10 master.debian.org.
 
-@	2h	IN	A	128.31.0.51	; senfl
-@	2h	IN	A	200.17.202.197	; santoro
+; A records for @, from www
+$INCLUDE "/srv/dns.debian.org/var/services-auto/all"
 
 ftp		IN	CNAME	ftp.debian.org.
 www		IN	CNAME	www.debian.org.
