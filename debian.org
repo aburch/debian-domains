@@ -24,6 +24,8 @@ ns3		8h	IN	A	5.153.231.24
 
 ; services
 ;=========
+$INCLUDE "/srv/dns.debian.org/var/services-auto/all"
+
 admin			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
 alioth			IN	NS	ns1
@@ -812,8 +814,6 @@ $ORIGIN mi.us.debian.org.
 ftp		IN	CNAME	debian.egr.msu.edu.
 $ORIGIN za.debian.org.
 www		IN	CNAME	www.debian.org.
-
-$INCLUDE "/srv/dns.debian.org/var/services-auto/ftp-test.debian.org"
 
 ; SSH FP
 $INCLUDE "/var/lib/misc/thishost/dns-sshfp"
