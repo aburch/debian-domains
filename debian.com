@@ -1,7 +1,5 @@
-
 $TTL 24h
 
-$ORIGIN debian.com.
 @		IN	NS	ns1.debian.org. ; ravel
 @		IN	NS	ns2.debian.org. ; senfl
 @		IN	NS	ns3.debian.org. ; diamond

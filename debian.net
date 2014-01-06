@@ -1,14 +1,14 @@
-; ds-in-parent = yes
+$TTL 24h
 
-$TTL 8h
-$ORIGIN debian.net.
 @		IN	NS	ns1.debian.org. ; ravel
 @		IN	NS	ns2.debian.org. ; senfl
 @		IN	NS	ns3.debian.org. ; diamond
 @		IN	NS	ns4.debian.com. ; orff
 
 @		IN	MX	10 master.debian.org.
-@		IN	A	128.31.0.51	; senfl
+
+; A records for @, from www
+$INCLUDE "/srv/dns.debian.org/var/services-auto/all"
 
 mirror		IN	NS	ns1.debian.org.
 		IN	NS	ns2.debian.org.
