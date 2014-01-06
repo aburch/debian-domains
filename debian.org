@@ -204,11 +204,11 @@ search			IN	A	128.31.0.51 ; senfl
 			IN	MX	0 .
 security-master		IN	CNAME	chopin
 security-cdn	60	IN	CNAME	global.prod.fastly.net.
-security	30m	IN	NS	geo1.debian.org.
-		30m	IN	NS	geo2.debian.org.
-		30m	IN	NS	geo3.debian.org.
-		30m	IN	DS	15106 5 1 832B74DBFFEF32850EF1D9395A382C9ECF066764
-		30m	IN	DS	15106 5 2 0C976452316744CCB73A492E134A221DD241AC252A90B2233F86E276 02136A0E
+security	8h	IN	NS	geo1.debian.org.
+		8h	IN	NS	geo2.debian.org.
+		8h	IN	NS	geo3.debian.org.
+		8h	IN	DS	15106 5 1 832B74DBFFEF32850EF1D9395A382C9ECF066764
+		8h	IN	DS	15106 5 2 0C976452316744CCB73A492E134A221DD241AC252A90B2233F86E276 02136A0E
 security.eu		IN	CNAME	security.debian.org.
 security.na		IN	CNAME	security.debian.org.
 security.us		IN	CNAME	security.debian.org.
@@ -278,11 +278,11 @@ wiki			IN	CNAME	wilder
 wnpp-by-tags-backend	IN	CNAME	static
 women			IN	A	128.31.0.51 ; senfl
 			IN	MX	10 ravel
-www		30m	IN	NS	geo1.debian.org.
-		30m	IN	NS	geo2.debian.org.
-		30m	IN	NS	geo3.debian.org.
-		30m	IN	DS	64618 5 1 C4D8E7D3A32A77ED6A5AA60DCFAAA3586D9A13D1
-		30m	IN	DS	64618 5 2 CE29C83F91F3E6E2366F204311E0F55A16FBE3EDCE2B9B208FABA7A0 69004576
+www		8h	IN	NS	geo1.debian.org.
+		8h	IN	NS	geo2.debian.org.
+		8h	IN	NS	geo3.debian.org.
+		8h	IN	DS	64618 5 1 C4D8E7D3A32A77ED6A5AA60DCFAAA3586D9A13D1
+		8h	IN	DS	64618 5 2 CE29C83F91F3E6E2366F204311E0F55A16FBE3EDCE2B9B208FABA7A0 69004576
 www-staging		IN	A	206.12.19.116
 www-broken-layout	IN	A	206.12.19.116
 www-master		IN	A	206.12.19.116	; wolkenstein
