@@ -8,8 +8,8 @@ $ORIGIN debian.org.
 @		8h	IN	NS	ns3.debian.org. ; diamond
 @		8h	IN	NS	ns4.debian.com. ; orff
 
-@		60	IN	MX	0 mailly.debian.org.
-		60	IN	MX	0 muffat.debian.org.
+@			IN	MX	0 mailly.debian.org.
+			IN	MX	0 muffat.debian.org.
 
 ; we delegate things to ns[123]
 ns1		8h	IN	A	206.12.19.5
