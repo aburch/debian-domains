@@ -52,11 +52,11 @@ bits-master		IN	CNAME	master
 blends			IN	CNAME	static
 blends-backend		IN	CNAME	static
 bttracker		IN	CNAME	bttracker.acc.umu.se.
-bugs		8h	IN	NS	geo1.debian.org.
-		8h	IN	NS	geo2.debian.org.
-		8h	IN	NS	geo3.debian.org.
-		8h	IN	DS	59119 5 1 E156C11FD86467132910B24FE57B0E8A5BC08C0C
-		8h	IN	DS	59119 5 2 9A9F0BA43CA4B3B574216664662D1F44F7CE434175287520C876E490 D9496F2A
+bugs		2h	IN	NS	geo1.debian.org.
+		2h	IN	NS	geo2.debian.org.
+		2h	IN	NS	geo3.debian.org.
+		2h	IN	DS	59119 5 1 E156C11FD86467132910B24FE57B0E8A5BC08C0C
+		2h	IN	DS	59119 5 2 9A9F0BA43CA4B3B574216664662D1F44F7CE434175287520C876E490 D9496F2A
 bugs-master		IN	A	140.211.166.26	; buxtehude
 			IN	MX	0 .
 bugs-beach		IN	CNAME	beach
@@ -97,11 +97,11 @@ db			IN	A	82.195.75.106	; draghi
 			IN	AAAA	2001:41b8:202:deb:1a1a:0:52c3:4b6a	; draghi
 			IN	MX	10 draghi.debian.org.
 dns			IN	CNAME	orff
-ftp		8h	IN	NS	geo1.debian.org.
-		8h	IN	NS	geo2.debian.org.
-		8h	IN	NS	geo3.debian.org.
-		8h	IN	DS	13033 5 1 C64F48C4A0790108876FF94DFBFD4842CD8549E9
-		8h	IN	DS	13033 5 2 97FCAA30C40AC947F92B0D96ED5F5C6055ED63638716BA98B49AD2E7 726C0ED3
+ftp		2h	IN	NS	geo1.debian.org.
+		2h	IN	NS	geo2.debian.org.
+		2h	IN	NS	geo3.debian.org.
+		2h	IN	DS	13033 5 1 C64F48C4A0790108876FF94DFBFD4842CD8549E9
+		2h	IN	DS	13033 5 2 97FCAA30C40AC947F92B0D96ED5F5C6055ED63638716BA98B49AD2E7 726C0ED3
 ftp.ipv6		IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
 			IN	AAAA	2001:610:1908:b000::148:12 ; klecker
 			IN	AAAA	2001:b68:ff:1::11 ; Josip Rodin <joy@debian.org>
@@ -159,11 +159,11 @@ nm			IN	A	206.12.19.123	; nono
 			IN	MX	10 nono.debian.org.
 other			IN	A	82.195.75.100	; bendel
 			IN	MX	0 bendel.debian.org.
-packages	8h	IN	NS	geo1.debian.org.
-		8h	IN	NS	geo2.debian.org.
-		8h	IN	NS	geo3.debian.org.
-		8h	IN	DS	38287 5 1 EC9050DD7DE630D57F9BEC5DC591506BC3637F28
-		8h	IN	DS	38287 5 2 5E0BE90BF9225D8FD60BCD9151102518A4BCCF2AF03499BEB5A92326 D9DA8CB9
+packages	2h	IN	NS	geo1.debian.org.
+		2h	IN	NS	geo2.debian.org.
+		2h	IN	NS	geo3.debian.org.
+		2h	IN	DS	38287 5 1 EC9050DD7DE630D57F9BEC5DC591506BC3637F28
+		2h	IN	DS	38287 5 2 5E0BE90BF9225D8FD60BCD9151102518A4BCCF2AF03499BEB5A92326 D9DA8CB9
 packages-picconi	IN	CNAME	picconi
 packages-1and1		IN	CNAME	pkgmirror-1and1
 packages-vieuxtemps	IN	CNAME	vieuxtemps
@@ -223,11 +223,11 @@ security-nagios		IN	MX	0 .
 			IN	A	150.203.164.38	; gluck
 			IN	A	200.17.202.197	; santoro
 security-tracker	IN	CNAME	soler
-snapshot	8h	IN	NS	geo1.debian.org.
-		8h	IN	NS	geo2.debian.org.
-		8h	IN	NS	geo3.debian.org.
-		8h	IN	DS	60352 5 1 0002C7B0D24DFC60D4B250FF9619C8FD7F14DDBA
-		8h	IN	DS	60352 5 2 60293F2400F96756CBC458BDEB5A45DD0F02C689DA28CDB9547D59BA CB8606CB
+snapshot	2h	IN	NS	geo1.debian.org.
+		2h	IN	NS	geo2.debian.org.
+		2h	IN	NS	geo3.debian.org.
+		2h	IN	DS	60352 5 1 0002C7B0D24DFC60D4B250FF9619C8FD7F14DDBA
+		2h	IN	DS	60352 5 2 60293F2400F96756CBC458BDEB5A45DD0F02C689DA28CDB9547D59BA CB8606CB
 snapshot-master		IN	CNAME	sibelius
 snapshot-stabile	IN	CNAME	stabile2
 snapshot-sibelius	IN	CNAME	sibelius2
@@ -255,11 +255,11 @@ teams			IN	A	82.195.75.100	; bendel
 			IN	MX	10 bendel.debian.org.
 ssh-delayed.upload	IN	CNAME	ravel.debian.org.
 ssh.upload		IN	CNAME	ravel.debian.org.
-static		8h	IN	NS	geo1.debian.org.
-		8h	IN	NS	geo2.debian.org.
-		8h	IN	NS	geo3.debian.org.
-		8h	IN	DS	61732 5 1 7C8B327E0DD05EAD9A1C042DE78CB09BA8A07C3F
-		8h	IN	DS	61732 5 2 4A9B529F78783288E021D851F18E57B1E100F90B353D08990A92BABE 2F47645C
+static		2h	IN	NS	geo1.debian.org.
+		2h	IN	NS	geo2.debian.org.
+		2h	IN	NS	geo3.debian.org.
+		2h	IN	DS	61732 5 1 7C8B327E0DD05EAD9A1C042DE78CB09BA8A07C3F
+		2h	IN	DS	61732 5 2 4A9B529F78783288E021D851F18E57B1E100F90B353D08990A92BABE 2F47645C
 tracker			IN	A	5.153.231.23			; ticharich.debian.org
 			IN	AAAA	2001:41c8:1000:21::21:23	; ticharich.debian.org
 ftp.upload	300	IN	CNAME	ftp-master.debian.org.	; franck
