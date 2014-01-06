@@ -10,7 +10,6 @@ $ORIGIN debian.org.
 
 @		60	IN	MX	0 mailly.debian.org.
 		60	IN	MX	0 muffat.debian.org.
-@			IN	A	128.31.0.51	; senfl
 
 ; we delegate things to ns[123]
 ns1		8h	IN	A	206.12.19.5
