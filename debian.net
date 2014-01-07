@@ -1,3 +1,6 @@
+; because users, you know.
+; wzf: no-integrity-checks = 1
+
 $TTL 24h
 
 @		IN	NS	ns1.debian.org. ; ravel
