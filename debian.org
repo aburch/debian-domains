@@ -194,8 +194,6 @@ security-cdn	60	IN	CNAME	global.prod.fastly.net.
 security	8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo2.debian.org.
 		8h	IN	NS	geo3.debian.org.
-		;5m	IN	DS	15106 5 1 832B74DBFFEF32850EF1D9395A382C9ECF066764
-		;5m	IN	DS	15106 5 2 0C976452316744CCB73A492E134A221DD241AC252A90B2233F86E276 02136A0E
 $INCLUDE "/srv/dns.debian.org/var/keys/security.debian.org/dsset"
 security.eu		IN	CNAME	security.debian.org.
 security.na		IN	CNAME	security.debian.org.
