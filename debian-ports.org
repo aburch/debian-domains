@@ -4,7 +4,7 @@ $TTL 3600	; 1 hour
 @			NS	ns1.debian.org.
 			NS	ns2.debian.org.
 			NS	ns3.debian.org.
-			NS	ns2.debian.com.
+			NS	ns4.debian.com.
 
 @			A	206.12.19.127
 			AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
