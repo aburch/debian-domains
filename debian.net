@@ -2,7 +2,8 @@
 ; wzf: no-integrity-checks = 1
 ; ds-in-parent = yes
 
-$TTL 24h
+;$TTL 24h
+$TTL 1h
 
 @		IN	NS	ns1.debian.org. ; ravel
 @		IN	NS	ns2.debian.org. ; senfl
