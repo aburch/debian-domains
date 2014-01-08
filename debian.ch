@@ -1,5 +1,5 @@
 ; debian.ch zone
-; ds-in-parent = no
+; ds-in-parent = yes
 
 $TTL 8h
 $ORIGIN debian.ch.

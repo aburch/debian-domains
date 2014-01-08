@@ -1,5 +1,6 @@
 ; because users, you know.
 ; wzf: no-integrity-checks = 1
+; ds-in-parent = yes
 
 $TTL 24h
 

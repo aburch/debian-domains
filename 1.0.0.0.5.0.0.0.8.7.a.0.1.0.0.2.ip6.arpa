@@ -1,4 +1,5 @@
 ; 1.0.0.0.5.0.0.0.8.7.a.0.1.0.0.2.ip6.arpa - reverse for 2001:a78:5:1::/64 (lobos)
+; ds-in-parent = yes
 
 $TTL 24h
 
