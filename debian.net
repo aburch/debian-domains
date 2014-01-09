@@ -2,6 +2,8 @@
 ; wzf: no-integrity-checks = 1
 ; ds-in-parent = yes
 
+; wzf: default_ttl = 300
+
 ;$TTL 24h
 $TTL 5m
 
