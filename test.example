@@ -1,0 +1,11 @@
+$TTL 24h
+
+@		IN	NS	ns1.debian.org. ; ravel
+@		IN	NS	ns2.debian.org. ; senfl
+@		IN	NS	ns3.debian.org. ; diamond
+@		IN	NS	ns4.debian.com. ; orff
+
+@		IN	TXT	"testing, one, two, testing"
+www		IN	CNAME	www.debian.org.
+
+; vim:syn=dns
