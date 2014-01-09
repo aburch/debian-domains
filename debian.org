@@ -3,23 +3,23 @@
 
 $TTL 1h
 $ORIGIN debian.org.
-@		8h	IN	NS	ns1.debian.org. ; ravel
-@		8h	IN	NS	ns2.debian.org. ; senfl
-@		8h	IN	NS	ns3.debian.org. ; diamond
-@		8h	IN	NS	ns4.debian.com. ; orff
+@		1h	IN	NS	ns1.debian.org. ; ravel
+@		1h	IN	NS	ns2.debian.org. ; senfl
+@		1h	IN	NS	ns3.debian.org. ; diamond
+@		1h	IN	NS	ns4.debian.com. ; orff
 
 @			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
 
 ; we delegate things to ns[123]
-ns1		8h	IN	A	206.12.19.5
-		8h	IN	AAAA	2607:f8f0:610:4000:214:38ff:feee:b65a
-		8h	IN	TXT	"ravel"
-ns2		8h	IN	A	128.31.0.51
-		8h	IN	TXT	"senfl"
-ns3		8h	IN	A	5.153.231.24
-		8h	IN	AAAA	2001:41c8:1000:21::21:24
-		8h	IN	TXT	"diamond"
+ns1		1h	IN	A	206.12.19.5
+		1h	IN	AAAA	2607:f8f0:610:4000:214:38ff:feee:b65a
+		1h	IN	TXT	"ravel"
+ns2		1h	IN	A	128.31.0.51
+		1h	IN	TXT	"senfl"
+ns3		1h	IN	A	5.153.231.24
+		1h	IN	AAAA	2001:41c8:1000:21::21:24
+		1h	IN	TXT	"diamond"
 
 ; services
 ;=========
@@ -191,9 +191,9 @@ search			IN	A	128.31.0.51 ; senfl
 			IN	MX	0 .
 security-master		IN	CNAME	chopin
 security-cdn	60	IN	CNAME	global.prod.fastly.net.
-security	8h	IN	NS	geo1.debian.org.
-		8h	IN	NS	geo2.debian.org.
-		8h	IN	NS	geo3.debian.org.
+security	1h	IN	NS	geo1.debian.org.
+		1h	IN	NS	geo2.debian.org.
+		1h	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/keys/security.debian.org/dsset"
 security.eu		IN	CNAME	security.debian.org.
 security.na		IN	CNAME	security.debian.org.
@@ -258,9 +258,9 @@ wiki			IN	CNAME	wilder
 wnpp-by-tags-backend	IN	CNAME	static
 women			IN	A	128.31.0.51 ; senfl
 			IN	MX	10 ravel
-www		8h	IN	NS	geo1.debian.org.
-		8h	IN	NS	geo2.debian.org.
-		8h	IN	NS	geo3.debian.org.
+www		1h	IN	NS	geo1.debian.org.
+		1h	IN	NS	geo2.debian.org.
+		1h	IN	NS	geo3.debian.org.
 $INCLUDE "/srv/dns.debian.org/var/keys/www.debian.org/dsset"
 www-staging		IN	A	206.12.19.116
 www-broken-layout	IN	A	206.12.19.116
