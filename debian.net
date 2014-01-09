@@ -5,8 +5,7 @@
 ; wzf: default_ttl = 300
 ; wzf: soa_negttl = 300
 
-;$TTL 24h
-$TTL 5m
+$TTL 24h
 
 @		IN	NS	ns1.debian.org. ; ravel
 @		IN	NS	ns2.debian.org. ; senfl
@@ -24,7 +23,7 @@ mirror		IN	NS	ns1.debian.org.
 		IN	NS	ns4.debian.com.
 $INCLUDE "/srv/dns.debian.org/var/keys/mirror.debian.net/dsset"
 
-; $TTL 1h
+$TTL 1h
 $INCLUDE "/var/lib/misc/thishost/dns-zone"
 
 ; vim:syn=dns
