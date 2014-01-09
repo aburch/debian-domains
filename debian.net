@@ -2,9 +2,6 @@
 ; wzf: no-integrity-checks = 1
 ; ds-in-parent = yes
 
-; wzf: default_ttl = 300
-; wzf: soa_negttl = 300
-
 $TTL 24h
 
 @		IN	NS	ns1.debian.org. ; ravel
