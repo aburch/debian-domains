@@ -261,8 +261,7 @@ women			IN	A	128.31.0.51 ; senfl
 www		8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo2.debian.org.
 		8h	IN	NS	geo3.debian.org.
-		5m	IN	DS	64618 5 1 C4D8E7D3A32A77ED6A5AA60DCFAAA3586D9A13D1
-		5m	IN	DS	64618 5 2 CE29C83F91F3E6E2366F204311E0F55A16FBE3EDCE2B9B208FABA7A0 69004576
+$INCLUDE "/srv/dns.debian.org/var/keys/www.debian.org/dsset"
 www-staging		IN	A	206.12.19.116
 www-broken-layout	IN	A	206.12.19.116
 www-master		IN	A	206.12.19.116	; wolkenstein
