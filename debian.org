@@ -93,9 +93,7 @@ db			IN	A	82.195.75.106	; draghi
 dns			IN	CNAME	denis
 ftp			IN	MX	0 .
 			; A/AAAA records via services-auto
-ftp.ipv6		IN	AAAA	2001:708:310:54::99 ; Heikki Vatiainen <hessu@cs.tut.fi>
-			IN	AAAA	2001:610:1908:b000::148:12 ; klecker
-			IN	AAAA	2001:b68:ff:1::11 ; Josip Rodin <joy@debian.org>
+ftp.ipv6		IN	CNAME	ftp
 ftp-master		IN	A	138.16.160.12 ; franck
 			IN	MX	10 franck.debian.org.
 ftp-master.metadata	IN	CNAME	static
