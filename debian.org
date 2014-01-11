@@ -177,9 +177,9 @@ puppet-dashboard	IN	CNAME	handel
 qa			IN	A	206.12.19.122	; quantz
 			IN	AAAA	2607:f8f0:610:4000:216:36ff:fe40:3860	; quantz
 			IN	MX	10 quantz
-packages.qa	300	IN	A	206.12.19.122	; quantz
-		300	IN	AAAA	2607:f8f0:610:4000:216:36ff:fe40:3860	; quantz
-		300	IN	MX	0 quantz.debian.org.
+packages.qa		IN	A	206.12.19.122	; quantz
+			IN	AAAA	2607:f8f0:610:4000:216:36ff:fe40:3860	; quantz
+			IN	MX	0 quantz.debian.org.
 release			IN	A	138.16.160.12 ; franck
 			IN	MX	10 franck.debian.org.
 reportbug		IN	CNAME	buxtehude.debian.org.
