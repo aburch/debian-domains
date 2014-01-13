@@ -246,7 +246,6 @@ ftp.upload	300	IN	CNAME	ftp-master.debian.org.	; franck
 ;ftp.eu.upload	300	IN	CNAME	XXXXXX.debian.org. XXX
 ftp.eu.upload	300	IN	CNAME	ftp-master.debian.org.
 ;ftp.eu.upload	300	IN	CNAME	ravel.debian.org.
-;_sip._udp.voip		IN	SRV	0 65535 5060 cilea.debian.org.
 ;voip			IN	CNAME	cilea.debian.org.
 volatile-master		IN	CNAME	static
 volatile		IN	CNAME	static
@@ -270,6 +269,8 @@ www-mirror		IN	CNAME	www-master.debian.org.
 www.gluck		IN	CNAME	gluck
 
 ; voip stuff:
+;_sip._udp.voip		IN	SRV	0 65535 5060 cilea.debian.org.
+sip-ws			IN	CNAME	vogler
 _stun._udp		IN	SRV	0 1 3478 vogler
 _stuns._tcp		IN	SRV	0 1 5349 vogler
 _sips._tcp		IN	SRV	0 1 5061 vogler
