@@ -276,6 +276,7 @@ sip-ws			IN	CNAME	vogler
 _stun._udp		IN	SRV	0 1 3478 vogler
 _stuns._tcp		IN	SRV	0 1 5349 vogler
 _sips._tcp		IN	SRV	0 1 5061 vogler
+vogler-ipv4.debian.org	IN	A	82.195.75.92 ; debugging
 
 ; our HTTPS services
 _443._tcp.ddtp			IN TYPE52 \# 67 030102674d0f51b56f9d87e9eccd393de291ca6990768f604c553b5d91718f7595cf3beda3dabfeae320d04e68e57f2dad8c3780fe2496fb41bb456ce562033f6c0ab5
