@@ -15,7 +15,7 @@ $TTL 12h
 ; 197
 ; 198
 199	3600	IN	PTR	rautavaara.debian.org.
-200	3600	IN	PTR	grieg.debian.org.
+; 200	3600	IN	PTR	grieg.debian.org.
 
 201		IN	PTR	fasch.debian.org.	; blade1
 202		IN	PTR	holter.debian.org.	; blade2
