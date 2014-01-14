@@ -96,9 +96,10 @@ ftp			IN	MX	0 .
 ftp.ipv6		IN	CNAME	ftp
 ftp-master		IN	A	138.16.160.12 ; franck
 			IN	MX	10 franck.debian.org.
+metadata.ftp-master	IN	CNAME	static
 ftp-master.metadata	IN	CNAME	static
-ftp-master.metadata-backend	IN	CNAME	ftp-master.metadata-master
-ftp-master.metadata-master	IN	CNAME	ftp-master
+;ftp-master.metadata-backend	IN	CNAME	ftp-master.metadata-master
+;ftp-master.metadata-master	IN	CNAME	ftp-master
 mirror.ftp-master	IN	CNAME	coccia
 _git._tcp.git		IN	SRV	0 0 9418 moszumanska
 git			IN	A	5.153.231.21	; alioth - moszumanska
