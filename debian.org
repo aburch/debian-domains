@@ -247,7 +247,6 @@ ftp.upload	300	IN	CNAME	ftp-master.debian.org.	; franck
 ;ftp.eu.upload	300	IN	CNAME	XXXXXX.debian.org. XXX
 ftp.eu.upload	300	IN	CNAME	ftp-master.debian.org.
 ;ftp.eu.upload	300	IN	CNAME	ravel.debian.org.
-;voip			IN	CNAME	cilea.debian.org.
 volatile-master		IN	CNAME	static
 volatile		IN	CNAME	static
 vote			IN	A	82.195.75.98
@@ -270,6 +269,7 @@ www-mirror		IN	CNAME	www-master.debian.org.
 www.gluck		IN	CNAME	gluck
 
 ; voip stuff:
+;voip			IN	CNAME	cilea.debian.org.
 ;_sip._udp.voip		IN	SRV	0 65535 5060 cilea.debian.org.
 @			IN	NAPTR	10 0 "s" "SIPS+D2T" "" _sips._tcp.debian.org.
 sip-ws			IN	CNAME	vogler
@@ -277,6 +277,9 @@ _stun._udp		IN	SRV	0 1 3478 vogler
 _stuns._tcp		IN	SRV	0 1 5349 vogler
 _sips._tcp		IN	SRV	0 1 5061 vogler
 vogler-ipv4		IN	A	82.195.75.92 ; debugging
+rtc			IN	CNAME	static
+rtc-backend		IN	CNAME	static
+rtc-master		IN	CNAME	dillon
 
 ; our HTTPS services
 _443._tcp.ddtp			IN TYPE52 \# 67 030102674d0f51b56f9d87e9eccd393de291ca6990768f604c553b5d91718f7595cf3beda3dabfeae320d04e68e57f2dad8c3780fe2496fb41bb456ce562033f6c0ab5
