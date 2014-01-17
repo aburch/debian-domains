@@ -272,11 +272,12 @@ www.gluck		IN	CNAME	gluck
 ;voip			IN	CNAME	cilea.debian.org.
 ;_sip._udp.voip		IN	SRV	0 65535 5060 cilea.debian.org.
 @			IN	NAPTR	10 0 "s" "SIPS+D2T" "" _sips._tcp.debian.org.
+turn			IN	CNAME	vogler-ipv4
 sip-ws			IN	CNAME	vogler
-_stun._udp		IN	SRV	0 1 3478 vogler
+_stun._udp		IN	SRV	0 1 3478 vogler-ipv4
 _stuns._tcp		IN	SRV	0 1 5349 vogler
 _sips._tcp		IN	SRV	0 1 5061 vogler
-vogler-ipv4		IN	A	82.195.75.92 ; debugging
+vogler-ipv4		IN	A	82.195.75.92 ; ick
 rtc			IN	CNAME	static
 rtc-backend		IN	CNAME	static
 rtc-master		IN	CNAME	dillon
