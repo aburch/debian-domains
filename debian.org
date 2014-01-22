@@ -162,8 +162,8 @@ people			IN	A	206.12.19.5 ; ravel
 newpeople		IN	CNAME	ravel.debian.org.
 pg-ubcece		IN	CNAME	danzi
 piuparts		IN	CNAME	pejacevic
-planet			IN	CNAME	static
-planet-backend		IN	CNAME	planet-master
+planet		10m	IN	CNAME	static
+planet-backend	10m	IN	CNAME	planet-master
 planet-master		IN	CNAME	philp
 planet-search		IN	CNAME	philp
 popcon			IN	A	206.12.19.119	; popov
