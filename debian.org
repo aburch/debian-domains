@@ -105,6 +105,7 @@ _git._tcp.git		IN	SRV	0 0 9418 moszumanska
 git			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
 			IN	MX	0 .
+ubergit			IN	CNAME	adayevskaya
 git2			IN	CNAME	adayevskaya
 gobby			IN	A	206.12.19.132 ; gombert
 			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1384 ; gombert
