@@ -96,8 +96,8 @@ ftp			IN	MX	0 .
 ftp.ipv6		IN	CNAME	ftp
 ftp-master		IN	A	138.16.160.12 ; franck
 			IN	MX	10 franck.debian.org.
-metadata.ftp-master	300	IN	CNAME	global.prod.fastly.net.
-ftp-master.metadata	300	IN	CNAME	global.prod.fastly.net.
+metadata.ftp-master	IN	CNAME	global.prod.fastly.net.
+ftp-master.metadata	IN	CNAME	global.prod.fastly.net.
 ;ftp-master.metadata-backend	IN	CNAME	ftp-master.metadata-master
 ;ftp-master.metadata-master	IN	CNAME	ftp-master
 mirror.ftp-master	IN	CNAME	coccia
