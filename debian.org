@@ -172,8 +172,12 @@ popcon			IN	A	206.12.19.119	; popov
 ports			IN	CNAME	static
 www.ports		IN	CNAME	static
 www.ports-backend	IN	CNAME	static
-pubsub01		IN	CNAME	rainier
-pubsub02		IN	CNAME	rapoport
+pubsub01		IN	A	5.153.231.16
+			IN	AAAA	2001:41c8:1000:21::21:16
+			IN	MX      0 .
+pubsub02		IN	A	5.153.231.15
+			IN	AAAA	2001:41c8:1000:21::21:15
+			IN	MX      0 .
 puppet			IN	CNAME	handel
 puppet-dashboard	IN	CNAME	handel
 qa			IN	A	206.12.19.122	; quantz
