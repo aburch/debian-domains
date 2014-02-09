@@ -15,7 +15,7 @@ $TTL 24h
 152		IN	PTR	eysler.debian.org.
 153		IN	PTR	asteria.debian.or.at.	; weasel, maxx, rhonda, etc
 154		IN	PTR	orata.noreply.org.	; weasel, maxx, rhonda, etc
-155		IN	PTR	eller.debian.org.
+155		IN	PTR	eberlin.debian.org.
 ;156
 ;157
 ;158
