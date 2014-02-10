@@ -26,7 +26,6 @@ $TTL 24h
 ; 4
 5		IN	PTR	ravel.debian.org.
 ; 6 reserved (giustini-mnt)
-8		IN	PTR	polymer.oftc.net.
 10		IN	PTR	paganini.debian.org.
 11		IN	PTR	respighi.debian.org.
 13		IN	PTR	stabile.debian.org.
