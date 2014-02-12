@@ -424,7 +424,6 @@ ravel-mnt		IN	A	192.168.2.5
 ravel-console		IN	CNAME	kais-console
 giustini-mnt		IN	A	192.168.2.6
 polymer-mnt		IN	A	192.168.2.8	; polymer.oftc.net <noc@oftc.net>
-paganini-mnt		IN	A	192.168.2.10
 respighi-mnt		IN	A	192.168.2.11
 stabile-mnt		IN	A	192.168.2.13
 spontini-mnt		IN	A	192.168.2.14
