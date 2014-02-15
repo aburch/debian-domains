@@ -1,4 +1,4 @@
-; debian.org zone
+/usr/bin/remoteuser-hack ; debian.org zone
 ; wzf: integrity-checks = local
 ; ds-in-parent = yes
 
@@ -221,6 +221,7 @@ snapshot-sibelius	IN	CNAME	sibelius2
 ; common misseppling
 snapshots		IN	CNAME	snapshot
 sso			IN	CNAME	diabelli
+www.sso			IN	CNAME	diabelli
 svn			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
 			IN	MX	0 .
