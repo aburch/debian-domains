@@ -271,7 +271,6 @@ www-master		IN	A	206.12.19.116	; wolkenstein
 			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
 www-mirror		IN	CNAME	www-master.debian.org.
-www.gluck		IN	CNAME	gluck
 
 ; voip stuff:
 ;voip			IN	CNAME	cilea.debian.org.
