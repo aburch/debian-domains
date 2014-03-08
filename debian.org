@@ -3,7 +3,7 @@
 ; ds-in-parent = yes
 ;
 ; dnsu: begin allow_transfer_extra
-; key tsig-denis.debian.org-xfr0.easydns.com ;
+; key 82.195.75.91-key ;
 ; dnsu: end allow_transfer_extra
 ;
 ; dnsu: begin also_notify_extra
