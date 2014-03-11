@@ -16,6 +16,7 @@ $ORIGIN debian.org.
 @		8h	IN	NS	ns2.debian.org. ; senfl
 @		8h	IN	NS	ns3.debian.org. ; diamond
 @		8h	IN	NS	ns4.debian.com. ; orff
+@		30m	IN	NS	dns4.easydns.info. ; easydns
 
 @			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
