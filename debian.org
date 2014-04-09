@@ -300,11 +300,6 @@ rtc			IN	CNAME	static
 rtc-backend		IN	CNAME	static
 rtc-master		IN	CNAME	dillon
 
-; our HTTPS services
-_443._tcp.ddtp			IN TYPE52 \# 67 030102674d0f51b56f9d87e9eccd393de291ca6990768f604c553b5d91718f7595cf3beda3dabfeae320d04e68e57f2dad8c3780fe2496fb41bb456ce562033f6c0ab5
-_443._tcp.puppet-dashboard	IN TYPE52 \# 67 03010219d4363e3a65b596eb76126903b1f57ef3e50b0333413fa2de81ecc17e6edefdf25ea337d13fbc1acd69f94f0ef8cd2020e6565d5100d4d14e1fb58b11ee00f9
-_443._tcp.security-master	IN TYPE52 \# 67 030102a5cd448c90d723310e1483e424114702a3a9d99f2b1cd4d2ab5028c531f761199e26c58f37d2c520bd01f03b6d50ccb21bdbb381fa1e7762dea3c0708620e3a3
-
 
 ; restricted services
 ;; ubc
