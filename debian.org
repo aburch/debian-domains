@@ -577,7 +577,7 @@ eberlin-mnt		IN	A	172.29.160.53
 console			IN	A	172.29.160.100
 			IN	SSHFP	1 1 53002640141d9737fd9291c285bd39c699a732ba
 $GENERATE 1-48 console-$	IN A	172.29.160.${+100,0,d}
-$GENERATE 1-48 console-$	IN SSHFP 1 1 53002640141d9737fd9291c285bd39c699a732ba
+;$GENERATE 1-48 console-$	IN SSHFP 1 1 53002640141d9737fd9291c285bd39c699a732ba
 eder-console		IN	CNAME	console-1
 eysler-console		IN	CNAME	console-2
 cisco-console		IN	CNAME	console-3
