@@ -35,6 +35,7 @@ $TTL 24h
 23	IN	PTR	ticharich.debian.org.
 24	IN	PTR	diamond.debian.org.
 25	IN	PTR	petrova.debian.org.
+26	IN	PTR	oyens.debian.org.
 
 
 125	IN	PTR	vm-gw-bl1.bm.debian.org.
