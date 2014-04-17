@@ -7,6 +7,7 @@
 ; 115		bytemark default gws
 ; 120		bytemark vlan 20
 ; 122		bytemark vlan 22
+; 123		bytemark vlan 23
 ; 150		1&1 ganeti
 ; 160		sil mnt vlan
 ; 201		VPN manda
@@ -41,21 +42,24 @@ $GENERATE 1-48 ${+100,0,d}.160	IN	PTR	console-$.priv.sil.debian.org.
 ;; BYTEMARK
 ;;##########
 
-; vrrp - vlan2 - 192.29.102/24
+; vrrp - vlan2 - 172.29.102/24
 1.102			IN	PTR	bl1-vrrp.priv.bm.debian.org.
 2.102			IN	PTR	bl2-vrrp.priv.bm.debian.org.
 
-; default GWs - 192.29.115/24
+; default GWs - 172.29.115/24
 19.115			IN	PTR	vlan19-gw.bm.debian.org.
 20.115			IN	PTR	vlan20-gw.bm.debian.org.
 
-; vlan 20 - 192.29.120/24
+; vlan 20 - 172.29.120/24
 $GENERATE 1-14 $.120	IN	PTR	bm-bl$-backend.priv.bm.debian.org.
 100			IN	PTR	ganeti.bm.debian.org.
 
-; vlan 22 - 192.29.122/24
+; vlan 22 - 172.29.122/24
 2.122			IN	PTR	milanollo-backend.priv.bm.debian.org.
 3.122			IN	PTR	picconi-backend.priv.bm.debian.org.
+
+; vlan 23 - 172.29.123/24
+$GENERATE 9-12.123	IN	PTR	bm-bl$-backend.priv.bm.debian.org.
 
 ;;#####
 ;; VPN
