@@ -183,7 +183,6 @@ popcon			IN	A	206.12.19.119	; popov
 ports			IN	CNAME	static
 www.ports		IN	CNAME	static
 www.ports-backend	IN	CNAME	static
-openstack.bm		IN	CNAME	oyens
 pubsub01		IN	A	5.153.231.16
 			IN	AAAA	2001:41c8:1000:21::21:16
 			IN	MX      0 .
@@ -651,6 +650,7 @@ $ORIGIN bm.debian.org.
 vm-gw			IN	A	5.153.231.1
 bl1-vm-gw		IN	A	5.153.231.125
 bl2-vm-gw		IN	A	5.153.231.126
+openstack		IN	CNAME	oyens.debian.org.
 
 ganeti			IN	A	172.29.120.100
 mirror			IN	CNAME	milanollo.debian.org.
