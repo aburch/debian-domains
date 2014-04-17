@@ -40,5 +40,6 @@ $GENERATE 0-4 $.5.2.0.0.2.0.0.0.0.0.0.0.0.0.0.0.2.0.0			IN	PTR	bm-bl1$.debian.or
 4.2.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	diamond.debian.org.
 5.2.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	petrova.debian.org.
 6.2.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	oyens.debian.org.
+7.2.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	barriere.debian.org.
 
 ; vim:syn=dns
