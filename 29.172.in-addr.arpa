@@ -59,7 +59,7 @@ $GENERATE 1-14 $.120	IN	PTR	bm-bl$-backend.priv.bm.debian.org.
 3.122			IN	PTR	picconi-backend.priv.bm.debian.org.
 
 ; vlan 23 - 172.29.123/24
-$GENERATE 9-12.123	IN	PTR	bm-bl$-backend.priv.bm.debian.org.
+$GENERATE 1-14.123	IN	PTR	bm-bl$-backend.openstack.bm.debian.org.
 
 ;;#####
 ;; VPN
