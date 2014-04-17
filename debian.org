@@ -672,6 +672,9 @@ $GENERATE 1-14 bm-bl$-backend.priv	IN A	172.29.120.$
 milanollo-backend.priv	IN	A	172.29.122.2
 picconi-backend.priv	IN	A	172.29.122.3
 
+$GENERATE 1-14 bm-bl$-backend.openstack	IN A	172.29.123.$
+oyens-backend.openstack	IN	A	172.29.123.26
+
 
 $ORIGIN manda.debian.org.
 nut1			IN	CNAME	clementi.debian.org.
