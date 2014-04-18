@@ -648,8 +648,10 @@ rietz-ilo		IN	A	10.0.0.12
 
 $ORIGIN bm.debian.org.
 vm-gw			IN	A	5.153.231.1
-bl1-vm-gw		IN	A	5.153.231.125
-bl2-vm-gw		IN	A	5.153.231.126
+vm-gw-bl1		IN	A	5.153.231.125
+vm-gw-bl2		IN	A	5.153.231.126
+vm-gw-bl1.openstack	IN	A	5.153.231.189
+vm-gw-bl2.openstack	IN	A	5.153.231.190
 openstack		IN	CNAME	oyens.debian.org.
 
 ganeti			IN	A	172.29.120.100
@@ -675,6 +677,8 @@ picconi-backend.priv	IN	A	172.29.122.3
 $GENERATE 1-14 bm-bl$-backend.openstack	IN A	172.29.123.$
 oyens-backend.openstack	IN	A	172.29.123.26
 
+
+$GENERATE 1-58 vm-$.openstack	IN A	5.153.231.${+129,0,d}
 
 $ORIGIN manda.debian.org.
 nut1			IN	CNAME	clementi.debian.org.
