@@ -384,6 +384,7 @@ epdu02			IN	A	192.168.43.161
 eups01			IN	A	192.168.43.162
 eups02			IN	A	192.168.43.163
 ts3000-manda		IN	A	192.168.43.164
+			IN	SSHFP	1 1 822031fa3e5fe6b81f289967135739151a54a2d9
 
 $ORIGIN debprivate-oneandone.debian.org.
 wieck-drac		IN	A	192.168.253.2
