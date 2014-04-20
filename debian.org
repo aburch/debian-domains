@@ -105,8 +105,8 @@ ftp			IN	MX	0 .
 ftp.ipv6		IN	CNAME	ftp
 ftp-master		IN	A	138.16.160.12 ; franck
 	;		IN	MX	10 franck.debian.org.
-		60	IN	MX	0 mailly.debian.org.
-		60	IN	MX	0 muffat.debian.org.
+			IN	MX	0 mailly.debian.org.
+			IN	MX	0 muffat.debian.org.
 metadata.ftp-master	IN	CNAME	global.prod.fastly.net.
 ftp-master.metadata	IN	CNAME	global.prod.fastly.net.
 ;ftp-master.metadata-backend	IN	CNAME	ftp-master.metadata-master
