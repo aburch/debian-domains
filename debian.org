@@ -166,7 +166,7 @@ packages		IN	MX	0 picconi
 packages-picconi	IN	CNAME	picconi
 packages-1and1		IN	CNAME	pkgmirror-1and1
 packages-vieuxtemps	IN	CNAME	vieuxtemps
-patch-tracker		IN	CNAME	respighi
+patch-tracker	10m	IN	CNAME	respighi
 people			IN	A	206.12.19.5 ; ravel
 			IN	AAAA	2607:f8f0:610:4000:214:38ff:feee:b65a ; ravel
 			IN	MX	0 .
