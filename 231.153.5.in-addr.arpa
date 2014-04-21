@@ -37,6 +37,7 @@ $TTL 24h
 25	IN	PTR	petrova.debian.org.
 26	IN	PTR	oyens.debian.org.
 27	IN	PTR	barriere.debian.org.
+28	IN	PTR	quantz.debian.org.
 
 
 125	IN	PTR	vm-gw-bl1.bm.debian.org.
