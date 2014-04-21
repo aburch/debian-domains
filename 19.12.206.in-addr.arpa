@@ -66,7 +66,7 @@ $TTL 24h
 132		IN	PTR	gombert.debian.org.
 133		IN	PTR	jenkins.debian.org.
 134		IN	PTR	blavet.debian.org.
-135		IN	PTR	barriere.debian.org.
+;135		IN	PTR
 136		IN	PTR	diabelli.debian.org.
 137		IN	PTR	bizet.debian.org.
 138		IN	PTR	lilburn.debian.org.
