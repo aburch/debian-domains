@@ -45,9 +45,9 @@ $TTL 24h
 ; 127 reserved Broadcast
 ; 128 reserved Network
 129	IN	PTR	vm-gw.openstack.bm.debian.org.
-$GENERATE 1-58 ${+129,0,d} IN      PTR   vm-$.openstack.bm.debian.org.
-189	IN	PTR	vm-gw-bl1.openstack.bm.debian.org.
-190	IN	PTR	vm-gw-bl2.openstack.bm.debian.org.
+$GENERATE 1-60 ${+129,0,d} IN      PTR   vm-$.openstack.bm.debian.org.
+; 191 reserved Broadcast
+; 192 reserved Network
 
 $GENERATE 224-230  $      IN      CNAME   rev-$.debconf.org.
 $GENERATE 231-238  $      IN      CNAME   rev-$.spi-inc.org.
