@@ -191,11 +191,11 @@ pubsub02		IN	A	5.153.231.15
 			IN	MX      0 .
 puppet			IN	CNAME	handel
 puppet-dashboard	IN	CNAME	handel
-qa		60	IN	A	5.153.231.28	; quantz
-		60	IN	AAAA	2001:41c8:1000:21::21:28	; quantz
+qa			IN	A	5.153.231.28	; quantz
+			IN	AAAA	2001:41c8:1000:21::21:28	; quantz
 			IN	MX	10 quantz
-packages.qa	60	IN	A	5.153.231.28	; quantz
-		60	IN	AAAA	2001:41c8:1000:21::21:28	; quantz
+packages.qa		IN	A	5.153.231.28	; quantz
+			IN	AAAA	2001:41c8:1000:21::21:28	; quantz
 			IN	MX	0 quantz.debian.org.
 release			IN	A	138.16.160.12 ; franck
 			IN	MX	10 franck.debian.org.
