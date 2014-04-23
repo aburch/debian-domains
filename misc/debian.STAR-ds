@@ -1,0 +1,4 @@
+; ds-in-parent = yes
+$INCLUDE "debian.STAR"
+
+; vim:syn=dns
