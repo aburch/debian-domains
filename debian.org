@@ -275,7 +275,8 @@ vote			IN	A	82.195.75.98
 wiki			IN	CNAME	wilder
 wnpp-by-tags-backend	IN	CNAME	static
 women			IN	A	128.31.0.51 ; senfl
-			IN	MX	10 ravel
+			IN	MX	0 mailly.debian.org.
+			IN	MX	0 muffat.debian.org.
 www		8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo2.debian.org.
 		8h	IN	NS	geo3.debian.org.
