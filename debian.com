@@ -1,6 +1,6 @@
 ; ds-in-parent = yes
 
-$INCLUDE "misc/debian.STAR"
+$INCLUDE "/srv/dns.debian.org/repositories/domains/misc/debian.STAR"
 
 ftp		IN	CNAME	ftp.debian.org.
 ns4	8h	IN	A	194.177.211.209
