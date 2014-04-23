@@ -131,9 +131,7 @@ irc			IN	CNAME	irc6.geo.oftc.net.
 irc6			IN	CNAME	irc6.geo.oftc.net.
 irc.ipv6		IN	CNAME	irc6.geo.oftc.net.
 keyring			IN	CNAME	kaufmann
-l10n			IN	A	206.12.19.129	; tye
-			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1381	; tye
-			IN	MX	0 tye
+l10n			IN	CNAME	tye
 lintian			IN	A	206.12.19.138 ; lilburn
 			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:138a ; lilburn
 			IN	MX	0 .
