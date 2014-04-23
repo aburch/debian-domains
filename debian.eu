@@ -1,16 +1,1 @@
-$TTL 24h
-; ds-in-parent = yes
-
-@		IN	NS	ns1.debian.org. ; ravel
-@		IN	NS	ns2.debian.org. ; senfl
-@		IN	NS	ns3.debian.org. ; diamond
-@		IN	NS	ns4.debian.com. ; orff
-
-@		IN	MX	10 master.debian.org.
-
-; A records for @, from www
-$INCLUDE "/srv/dns.debian.org/var/services-auto/all"
-
-www		IN	CNAME	www.debian.org.
-
-; vim:syn=dns
+misc/debian.STAR-ds
