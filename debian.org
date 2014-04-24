@@ -18,6 +18,8 @@ $ORIGIN debian.org.
 @		30m	IN	NS	ns4.debian.com. ; orff
 @		30m	IN	NS	dns4.easydns.info. ; easydns
 @		30m	IN	NS	dns3.easydns.org. ; easydns
+@		30m	IN	NS	dns2.easydns.net. ; easydns
+@		30m	IN	NS	dns1.easydns.com. ; easydns
 
 @			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
