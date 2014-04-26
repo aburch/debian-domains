@@ -8,7 +8,24 @@
 ; 64.68.200.91; // xfr0.easydns.com
 ; dnsu: end also_notify_extra
 
-$INCLUDE "/srv/dns.debian.org/repositories/domains/misc/debian.STAR"
+$TTL 24h
+
+@	30m	IN	NS	ns1.debian.org. ; ravel
+@	30m	IN	NS	ns2.debian.org. ; senfl
+@	30m	IN	NS	ns3.debian.org. ; diamond
+@	30m	IN	NS	ns4.debian.com. ; orff
+@	30m	IN	NS	dns4.easydns.info. ; easydns
+@	30m	IN	NS	dns3.easydns.org. ; easydns
+@	30m	IN	NS	dns2.easydns.net. ; easydns
+@	30m	IN	NS	dns1.easydns.com. ; easydns
+
+@		IN	MX	10 mailly.debian.org.
+@		IN	MX	10 muffat.debian.org.
+
+; A records for @, from www
+$INCLUDE "/srv/dns.debian.org/var/services-auto/all"
+
+		IN	CNAME	www.debian.org.
 
 ftp		IN	CNAME	ftp.debian.org.
 ns4	8h	IN	A	194.177.211.209
