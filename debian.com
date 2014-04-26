@@ -25,7 +25,7 @@ $TTL 24h
 ; A records for @, from www
 $INCLUDE "/srv/dns.debian.org/var/services-auto/all"
 
-		IN	CNAME	www.debian.org.
+www		IN	CNAME	www.debian.org.
 
 ftp		IN	CNAME	ftp.debian.org.
 ns4	8h	IN	A	194.177.211.209
