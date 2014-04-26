@@ -27,6 +27,8 @@ $TTL 24h
 ; A records for @, from www
 $INCLUDE "/srv/dns.debian.org/var/services-auto/all"
 
+www		IN	CNAME	www.debian.org.
+
 mirror		IN	NS	ns2.debian.org.
 		IN	NS	ns2.debian.org.
 		IN	NS	ns3.debian.org.
