@@ -55,7 +55,7 @@ $TTL 24h
 110	IN	PTR	master.debian.org.
 111	IN	PTR	ganeti3.debian.org.
 112	IN	PTR	wilder.debian.org.
-113	IN	PTR	vieuxtemps.debian.org.
+; 113
 114	IN	PTR	mailly.debian.org.
 ; 115
 116	IN	PTR	magnetism.oftc.net.
