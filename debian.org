@@ -4,12 +4,10 @@
 ;
 ; dnsu: begin allow_transfer_extra
 ; key 82.195.75.91-key ;
-; 217.70.177.40 ;
 ; dnsu: end allow_transfer_extra
 ;
 ; dnsu: begin also_notify_extra
 ; 64.68.200.91; // xfr0.easydns.com
-; 217.70.177.40; // ns6.gandi.net
 ; dnsu: end also_notify_extra
 
 $TTL 1h
