@@ -8,15 +8,15 @@
 
 $ORIGIN .
 $ORIGIN mirror.debian.net.
-$TTL 3600	; 1 hour
-@	30m		NS	ns1.debian.org.
-@	30m		NS	ns3.debian.org.
-@	30m		NS	ns2.debian.org.
-@	30m		NS	ns4.debian.com.
-@	30m	IN	NS	dns4.easydns.info. ; easydns
-@	30m	IN	NS	dns3.easydns.org. ; easydns
-@	30m	IN	NS	dns2.easydns.net. ; easydns
-@	30m	IN	NS	dns1.easydns.com. ; easydns
+$TTL 1800	; 30 minutes
+@		IN	NS	ns1.debian.org.
+@		IN	NS	ns3.debian.org.
+@		IN	NS	ns2.debian.org.
+@		IN	NS	ns4.debian.com.
+@		IN	NS	dns4.easydns.info. ; easydns
+@		IN	NS	dns3.easydns.org. ; easydns
+@		IN	NS	dns2.easydns.net. ; easydns
+@		IN	NS	dns1.easydns.com. ; easydns
 $TTL 86400	; 1 day
 adm			CNAME	gluck.debian.org.
 admin			CNAME	saens.debian.org.
