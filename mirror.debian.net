@@ -1,10 +1,22 @@
+; dnsu: begin allow_transfer_extra
+; key 82.195.75.91-key ;
+; dnsu: end allow_transfer_extra
+;
+; dnsu: begin also_notify_extra
+; 64.68.200.91; // xfr0.easydns.com
+; dnsu: end also_notify_extra
+
 $ORIGIN .
 $ORIGIN mirror.debian.net.
 $TTL 3600	; 1 hour
-@			NS	ns1.debian.org.
-@			NS	ns3.debian.org.
-@			NS	ns2.debian.org.
-@			NS	ns4.debian.com.
+@	30m		NS	ns1.debian.org.
+@	30m		NS	ns3.debian.org.
+@	30m		NS	ns2.debian.org.
+@	30m		NS	ns4.debian.com.
+@	30m	IN	NS	dns4.easydns.info. ; easydns
+@	30m	IN	NS	dns3.easydns.org. ; easydns
+@	30m	IN	NS	dns2.easydns.net. ; easydns
+@	30m	IN	NS	dns1.easydns.com. ; easydns
 $TTL 86400	; 1 day
 adm			CNAME	gluck.debian.org.
 admin			CNAME	saens.debian.org.
@@ -2598,3 +2610,5 @@ www			A	61.5.210.7
 			A	206.12.19.7
 			A	212.36.0.70
 			A	213.129.232.18
+
+; vim:syn=dns
