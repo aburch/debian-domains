@@ -6,7 +6,6 @@
 ; 64.68.200.91; // xfr0.easydns.com
 ; dnsu: end also_notify_extra
 
-$ORIGIN .
 $ORIGIN mirror.debian.net.
 $TTL 1800	; 30 minutes
 @		IN	NS	ns1.debian.org.
@@ -17,11 +16,14 @@ $TTL 1800	; 30 minutes
 @		IN	NS	dns3.easydns.org. ; easydns
 @		IN	NS	dns2.easydns.net. ; easydns
 @		IN	NS	dns1.easydns.com. ; easydns
+
 $TTL 86400	; 1 day
 adm			CNAME	gluck.debian.org.
 admin			CNAME	saens.debian.org.
+
 $TTL 14400	; 4 hours
 tr.ALL			A	144.122.144.177
+
 $ORIGIN alpha.mirror.debian.net.
 au			A	150.203.164.37
 bd			A	116.193.170.18
@@ -42,6 +44,7 @@ sw			A	130.239.18.151
 tr			A	144.122.144.177
 tw			A	140.121.80.201
 za			A	155.232.191.216
+
 $ORIGIN amd64.mirror.debian.net.
 at			A	81.223.20.37
 			A	83.164.133.195
@@ -248,6 +251,7 @@ us			A	35.9.37.225
 			A	216.165.129.142
 uz			A	217.29.116.204
 za			A	155.232.191.216
+
 $ORIGIN arm.mirror.debian.net.
 au			A	150.203.164.37
 bd			A	116.193.170.18
@@ -269,6 +273,7 @@ sw			A	130.239.18.151
 tr			A	144.122.144.177
 tw			A	140.121.80.201
 za			A	155.232.191.216
+
 $ORIGIN armel.mirror.debian.net.
 at			A	81.223.20.37
 			A	83.164.133.195
@@ -444,6 +449,7 @@ us			A	35.9.37.225
 			A	216.165.129.142
 uz			A	217.29.116.204
 za			A	155.232.191.216
+
 $ORIGIN armhf.mirror.debian.net.
 at			A	81.223.20.37
 			A	83.164.133.195
@@ -637,6 +643,7 @@ us			A	35.9.37.225
 			A	216.165.129.142
 uz			A	217.29.116.204
 za			A	155.232.191.216
+
 $ORIGIN hppa.mirror.debian.net.
 au			A	150.203.164.37
 bd			A	116.193.170.18
@@ -657,6 +664,7 @@ sw			A	130.239.18.151
 tr			A	144.122.144.177
 tw			A	140.121.80.201
 za			A	155.232.191.216
+
 $ORIGIN hurd-i386.mirror.debian.net.
 at			A	83.164.133.195
 			A	213.129.232.18
@@ -824,6 +832,7 @@ us			A	35.9.37.225
 			A	216.165.129.142
 uz			A	217.29.116.204
 za			A	155.232.191.216
+
 $ORIGIN i386.mirror.debian.net.
 at			A	81.223.20.37
 			A	83.164.133.195
@@ -1032,6 +1041,7 @@ us			A	35.9.37.225
 			A	216.165.129.142
 uz			A	217.29.116.204
 za			A	155.232.191.216
+
 $ORIGIN ia64.mirror.debian.net.
 at			A	83.164.133.195
 			A	213.129.232.18
@@ -1206,6 +1216,7 @@ us			A	35.9.37.225
 			A	216.165.129.142
 uz			A	217.29.116.204
 za			A	155.232.191.216
+
 $ORIGIN kfreebsd-amd64.mirror.debian.net.
 at			A	81.223.20.37
 			A	83.164.133.195
@@ -1390,6 +1401,7 @@ us			A	35.9.37.225
 			A	216.165.129.142
 uz			A	217.29.116.204
 za			A	155.232.191.216
+
 $ORIGIN kfreebsd-i386.mirror.debian.net.
 at			A	81.223.20.37
 			A	83.164.133.195
@@ -1573,9 +1585,11 @@ us			A	35.9.37.225
 			A	216.165.129.142
 uz			A	217.29.116.204
 za			A	155.232.191.216
+
 $ORIGIN m68k.mirror.debian.net.
 fr			A	195.220.53.232
 sw			A	130.239.18.151
+
 $ORIGIN mips.mirror.debian.net.
 at			A	83.164.133.195
 			A	213.129.232.18
@@ -1738,6 +1752,7 @@ us			A	35.9.37.225
 			A	216.165.129.142
 uz			A	217.29.116.204
 za			A	155.232.191.216
+
 $ORIGIN mipsel.mirror.debian.net.
 at			A	83.164.133.195
 			A	213.129.232.18
@@ -1899,6 +1914,7 @@ us			A	35.9.37.225
 			A	216.165.129.142
 uz			A	217.29.116.204
 za			A	155.232.191.216
+
 $ORIGIN powerpc.mirror.debian.net.
 at			A	81.223.20.37
 			A	83.164.133.195
@@ -2075,6 +2091,7 @@ us			A	35.9.37.225
 			A	216.165.129.142
 uz			A	217.29.116.204
 za			A	155.232.191.216
+
 $ORIGIN s390.mirror.debian.net.
 at			A	83.164.133.195
 			A	213.129.232.18
@@ -2234,6 +2251,7 @@ us			A	35.9.37.225
 			A	216.165.129.142
 uz			A	217.29.116.204
 za			A	155.232.191.216
+
 $ORIGIN s390x.mirror.debian.net.
 at			A	81.223.20.37
 			A	83.164.133.195
@@ -2424,6 +2442,7 @@ us			A	35.9.37.225
 			A	216.165.129.142
 uz			A	217.29.116.204
 za			A	155.232.191.216
+
 $ORIGIN sparc.mirror.debian.net.
 at			A	81.223.20.37
 			A	83.164.133.195
@@ -2591,6 +2610,7 @@ us			A	35.9.37.225
 			A	216.165.129.142
 uz			A	217.29.116.204
 za			A	155.232.191.216
+
 $ORIGIN mirror.debian.net.
 www			A	61.5.210.7
 			A	62.149.27.59
