@@ -1,4 +1,12 @@
 ; b.e.d.0.c.f.f.2.8.4.6.0.1.0.0.2.ip6.arpa - reverse for 2001:648:2ffc:deb::/64 at grnet in athene
+;
+; dnsu: begin allow_transfer_extra
+; key 82.195.75.91-key ;
+; dnsu: end allow_transfer_extra
+;
+; dnsu: begin also_notify_extra
+; 64.68.200.91; // xfr0.easydns.com
+; dnsu: end also_notify_extra
 
 $TTL 24h
 

@@ -1,5 +1,13 @@
 ; 2.0.2.0.8.B.1.4.1.0.0.2.ip6.arpa - reverse
 ; hosts at MAN-DA - 2001:41B8:202::/48
+;
+; dnsu: begin allow_transfer_extra
+; key 82.195.75.91-key ;
+; dnsu: end allow_transfer_extra
+;
+; dnsu: begin also_notify_extra
+; 64.68.200.91; // xfr0.easydns.com
+; dnsu: end also_notify_extra
 
 $TTL 24h
 

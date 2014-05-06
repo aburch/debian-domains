@@ -1,4 +1,12 @@
 ; 2.0.0.0.2.0.0.0.8.5.8.0.1.0.0.2.ip6.arpa - reverse for 2001:858:2:2::/64 at sil.at in vienna
+;
+; dnsu: begin allow_transfer_extra
+; key 82.195.75.91-key ;
+; dnsu: end allow_transfer_extra
+;
+; dnsu: begin also_notify_extra
+; 64.68.200.91; // xfr0.easydns.com
+; dnsu: end also_notify_extra
 
 $TTL 24h
 

@@ -1,6 +1,14 @@
 ; 0.0.0.4.6.0.2.0.0.3.6.0.1.0.0.2.ip6.arpa - reverse
 ; hosts at sanger - 2001:630:206:4000::/64
 ; ::0, ::1 and ::ffff:ffff:ffff:ffff are reserved for sanger infra
+;
+; dnsu: begin allow_transfer_extra
+; key 82.195.75.91-key ;
+; dnsu: end allow_transfer_extra
+;
+; dnsu: begin also_notify_extra
+; 64.68.200.91; // xfr0.easydns.com
+; dnsu: end also_notify_extra
 
 $TTL 24h
 
