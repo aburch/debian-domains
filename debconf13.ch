@@ -1,5 +1,13 @@
 ; debconf13.ch zone
 ; ds-in-parent = yes
+;
+; dnsu: begin allow_transfer_extra
+; key 82.195.75.91-key ;
+; dnsu: end allow_transfer_extra
+;
+; dnsu: begin also_notify_extra
+; 64.68.200.91; // xfr0.easydns.com
+; dnsu: end also_notify_extra
 
 $TTL 8h
 $ORIGIN debconf13.ch.
