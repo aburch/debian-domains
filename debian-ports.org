@@ -1,3 +1,6 @@
+; debian-ports.org zone
+;
+; ds-in-parent = yes
 ;
 ; dnsu: begin allow_transfer_extra
 ; key 82.195.75.91-key ;
@@ -8,46 +11,55 @@
 ; dnsu: end also_notify_extra
 
 $ORIGIN debian-ports.org.
-$TTL 3600	; 1 hour
 
-@			NS	ns1.debian.org.
-			NS	ns2.debian.org.
-			NS	ns3.debian.org.
-			NS	ns4.debian.com.
+$TTL 30m
 
-@			A	206.12.19.127
-			AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
-			MX	10 leda.debian.net.
+@		IN	NS	ns1.debian.org. ; ravel
+		IN	NS	ns2.debian.org. ; senfl
+		IN	NS	ns3.debian.org. ; diamond
+		IN	NS	ns4.debian.com. ; orff
+		IN	NS	dns4.easydns.info. ; easydns
+		IN	NS	dns3.easydns.org. ; easydns
+		IN	NS	dns2.easydns.net. ; easydns
+		IN	NS	dns1.easydns.com. ; easydns
 
-archive			A	206.12.19.127
-archive			AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+$TTL 1h
 
-buildd			A	206.12.19.127
-buildd			AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
-buildd			MX	10 leda.debian.net.
+@		IN	A	206.12.19.127
+		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+		IN	MX	10 leda.debian.net.
 
-cdimage			A	206.12.19.127
-cdimage			AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+archive		IN	A	206.12.19.127
+		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
 
-ftp			A	206.12.19.127
-ftp			AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+buildd		IN	A	206.12.19.127
+		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+		IN	MX	10 leda.debian.net.
 
-git			A	206.12.19.127
-git			AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+cdimage		IN	A	206.12.19.127
+		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
 
-http			A	206.12.19.127
-http			AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+ftp		IN	A	206.12.19.127
+		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
 
-incoming		A	206.12.19.127
-incoming		AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+git		IN	A	206.12.19.127
+		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
 
-pop			A	206.12.19.127
-pop			AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+http		IN	A	206.12.19.127
+		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
 
-rsync			A	206.12.19.127
-rsync			AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+incoming	IN	A	206.12.19.127
+		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
 
-transitions		A	206.12.19.127
-transitions		AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+pop		IN	A	206.12.19.127
+		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
 
-www			CNAME	static.debian.org.
+rsync		IN	A	206.12.19.127
+		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+
+transitions	IN	A	206.12.19.127
+		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+
+www		IN	CNAME	static.debian.org.
+
+; vim:syn=dns

@@ -1,5 +1,7 @@
 ; debian.org zone
+;
 ; wzf: integrity-checks = local
+;
 ; ds-in-parent = yes
 ;
 ; dnsu: begin allow_transfer_extra
@@ -10,29 +12,31 @@
 ; 64.68.200.91; // xfr0.easydns.com
 ; dnsu: end also_notify_extra
 
-$TTL 1h
 $ORIGIN debian.org.
-;@		30m	IN	NS	ns1.debian.org. ; ravel
-;@		30m	IN	NS	ns2.debian.org. ; senfl
-;@		30m	IN	NS	ns3.debian.org. ; diamond
-;@		30m	IN	NS	ns4.debian.com. ; orff
-@		30m	IN	NS	dns4.easydns.info. ; easydns
-@		30m	IN	NS	dns3.easydns.org. ; easydns
-@		30m	IN	NS	dns2.easydns.net. ; easydns
-@		30m	IN	NS	dns1.easydns.com. ; easydns
+
+$TTL 30m
+
+@			IN	NS	dns4.easydns.info. ; easydns
+			IN	NS	dns3.easydns.org. ; easydns
+			IN	NS	dns2.easydns.net. ; easydns
+			IN	NS	dns1.easydns.com. ; easydns
+
+$TTL 8h
 
 @			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
 
 ; we delegate things to ns[123]
-ns1		8h	IN	A	206.12.19.5
-		8h	IN	AAAA	2607:f8f0:610:4000:214:38ff:feee:b65a
-		8h	IN	TXT	"ravel"
-ns2		8h	IN	A	128.31.0.51
-		8h	IN	TXT	"senfl"
-ns3		8h	IN	A	5.153.231.24
-		8h	IN	AAAA	2001:41c8:1000:21::21:24
-		8h	IN	TXT	"diamond"
+ns1			IN	A	206.12.19.5
+			IN	AAAA	2607:f8f0:610:4000:214:38ff:feee:b65a
+			IN	TXT	"ravel"
+ns2			IN	A	128.31.0.51
+			IN	TXT	"senfl"
+ns3			IN	A	5.153.231.24
+			IN	AAAA	2001:41c8:1000:21::21:24
+			IN	TXT	"diamond"
+
+$TTL 1h
 
 ; services
 ;=========

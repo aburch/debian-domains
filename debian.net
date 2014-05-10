@@ -1,5 +1,7 @@
-; because users, you know.
+; debian.net zone
+;
 ; wzf: integrity-checks = none
+;
 ; ds-in-parent = yes
 ;
 ; dnsu: begin allow_transfer_extra
@@ -10,34 +12,32 @@
 ; 64.68.200.91; // xfr0.easydns.com
 ; dnsu: end also_notify_extra
 
-$TTL 24h
+$ORIGIN debian.net.
 
-;@	30m	IN	NS	ns1.debian.org. ; ravel
-;@	30m	IN	NS	ns2.debian.org. ; senfl
-;@	30m	IN	NS	ns3.debian.org. ; diamond
-;@	30m	IN	NS	ns4.debian.com. ; orff
-@	30m	IN	NS	dns4.easydns.info. ; easydns
-@	30m	IN	NS	dns3.easydns.org. ; easydns
-@	30m	IN	NS	dns2.easydns.net. ; easydns
-@	30m	IN	NS	dns1.easydns.com. ; easydns
+$TTL 30m
+
+@		IN	NS	dns4.easydns.info. ; easydns
+		IN	NS	dns3.easydns.org. ; easydns
+		IN	NS	dns2.easydns.net. ; easydns
+		IN	NS	dns1.easydns.com. ; easydns
+
+$TTL 8h
 
 @		IN	MX	10 mailly.debian.org.
-@		IN	MX	10 muffat.debian.org.
+		IN	MX	10 muffat.debian.org.
 
 ; A records for @, from www
 $INCLUDE "/srv/dns.debian.org/var/services-auto/all"
 
-mirror		IN	NS	ns1.debian.org.
-		IN	NS	ns2.debian.org.
-		IN	NS	ns3.debian.org.
-		IN	NS	ns4.debian.com.
-		IN	NS	dns4.easydns.info. ; easydns
+mirror		IN	NS	dns4.easydns.info. ; easydns
 		IN	NS	dns3.easydns.org. ; easydns
 		IN	NS	dns2.easydns.net. ; easydns
 		IN	NS	dns1.easydns.com. ; easydns
+
 $INCLUDE "/srv/dns.debian.org/var/keys/mirror.debian.net/dsset"
 
 $TTL 1h
+
 $INCLUDE "/var/lib/misc/thishost/dns-zone"
 
 ; vim:syn=dns
