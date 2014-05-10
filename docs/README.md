@@ -46,107 +46,94 @@ of management; then set them to use EasyDNS for secondary NS service.
 ### in progress
 
 * 0.0.0.0.5.0.0.0.8.7.a.0.1.0.0.2.ip6.arpa
-    * pending NS delegation: contact ?
-    * pending NS record insert
-    * pending NS record delete
+    * NS delegation: contact ?
+    * NS record insert
+    * NS record delete
 * 0.0.0.1.8.c.1.4.1.0.0.2.ip6.arpa
-    * pending NS delegation: contact ?
-    * pending NS record insert
-    * pending NS record delete
+    * NS delegation: contact ?
+    * NS record insert
+    * NS record delete
 * 0.0.0.4.0.1.6.0.0.f.8.f.7.0.6.2.ip6.arpa
-    * pending NS delegation: contact ?
-    * pending NS record insert
-    * pending NS record delete
+    * NS delegation: contact ?
+    * NS record insert
+    * NS record delete
 * 0.0.0.4.6.0.2.0.0.3.6.0.1.0.0.2.ip6.arpa
-    * pending NS delegation: contact ?
-    * pending NS record insert
-    * pending NS record delete
+    * NS delegation: contact ?
+    * NS record insert
+    * NS record delete
 * 1.0.0.0.5.0.0.0.8.7.a.0.1.0.0.2.ip6.arpa
-    * pending NS delegation: contact ?
-    * pending NS record insert
-    * pending NS record delete
+    * NS delegation: contact ?
+    * NS record insert
+    * NS record delete
 * 2.0.0.0.2.0.0.0.8.5.8.0.1.0.0.2.ip6.arpa
-    * pending NS delegation: contact ?
-    * pending NS record insert
-    * pending NS record delete
+    * NS delegation: contact ?
+    * NS record insert
+    * NS record delete
 * 2.0.2.0.8.b.1.4.1.0.0.2.ip6.arpa
-    * pending NS delegation: contact ?
-    * pending NS record insert
-    * pending NS record delete
+    * NS delegation: contact ?
+    * NS record insert
+    * NS record delete
 * 2.6.a.0.4.6.5.6.0.0.4.0.0.8.5.0.8.d.8.0.1.0.0.2.ip6.arpa
-    * pending NS delegation: contact ?
-    * pending NS record insert
-    * pending NS record delete
+    * NS delegation: contact ?
+    * NS record insert
+    * NS record delete
 * b.e.d.0.c.f.f.2.8.4.6.0.1.0.0.2.ip6.arpa
-    * pending NS delegation: contact ?
-    * pending NS record insert
-    * pending NS record delete
+    * NS delegation: contact ?
+    * NS record insert
+    * NS record delete
 * 144-28.118.59.86.in-addr.arpa
-    * pending NS delegation: contact ?
-    * pending NS record insert
-    * pending NS record delete
+    * NS delegation: contact ?
+    * NS record insert
+    * NS record delete
 * 19.12.206.in-addr.arpa
-    * pending NS delegation: contact ?
-    * pending NS record insert
-    * pending NS record delete
+    * NS delegation: contact ?
+    * NS record insert
+    * NS record delete
 * 192-27.211.177.194.in-addr.arpa
-    * pending NS delegation: contact ?
-    * pending NS record insert
-    * pending NS record delete
+    * NS delegation: contact ?
+    * NS record insert
+    * NS record delete
 * 231.153.5.in-addr.arpa
-    * pending NS delegation: contact ?
-    * pending NS record insert
-    * pending NS record delete
+    * NS delegation: contact ?
+    * NS record insert
+    * NS record delete
 * 64-26.75.195.82.in-addr.arpa
-    * pending NS delegation: contact ?
-    * pending NS record insert
-    * pending NS record delete
+    * NS delegation: contact ?
+    * NS record insert
+    * NS record delete
 * debian.ch
-    * pending NS delegation
-    * pending NS record insert
-    * pending NS record delete
+    * NS record delete
 * debconf13.ch
-    * pending NS delegation
-    * pending NS record insert
-    * pending NS record delete
+    * NS record delete
 * debian.li
-    * pending NS delegation
-    * pending NS record insert
-    * pending NS record delete
+    * NS record delete
 * debian.es
-    * pending registrar change: in progress
-    * pending AXFR configuration
-    * pending NS delegation
-    * pending NS record insert
-    * pending NS record delete
-    * pending KSK registration
+    * registrar change: in progress
+    * AXFR configuration
+    * NS delegation
+    * NS record insert
+    * NS record delete
+    * KSK registration
 * debian.eu
-    * pending registrar change: Martin Schulze contacted twice
-    * pending AXFR configuration
-    * pending NS delegation
-    * pending NS record insert
-    * pending NS record delete
-    * pending KSK registration
+    * registrar change: Martin Schulze contacted twice
+    * AXFR configuration
+    * NS delegation
+    * NS record insert
+    * NS record delete
+    * KSK registration
 * debian.gr
-    * pending registrar change: in progress
-    * pending AXFR configuration
-    * pending NS delegation
-    * pending NS record insert
-    * pending NS record delete
-    * pending KSK registration
+    * registrar change: in progress
+    * AXFR configuration
+    * NS delegation
+    * NS record insert
+    * NS record delete
+    * KSK registration
 * debian.us
-    * pending AXFR configuration
-    * pending NS delegation
-    * pending NS record insert
-    * pending NS record delete
+    * NS record delete
 * debian-ports.org
-    * pending NS delegation
-    * pending NS record insert
-    * pending NS record delete
-    * pending KSK registration
+    * NS record delete
 * mirror.debian.net
-    * pending NS record insert
-    * pending NS record delete
+    * NS record delete
 
 ### done
 
