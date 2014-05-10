@@ -102,12 +102,10 @@ of management; then set them to use EasyDNS for secondary NS service.
     * pending NS record insert
     * pending NS record delete
 * debian.ch
-    * pending AXFR configuration: in progress
     * pending NS delegation
     * pending NS record insert
     * pending NS record delete
 * debconf13.ch
-    * pending AXFR configuration: in progress
     * pending NS delegation
     * pending NS record insert
     * pending NS record delete
@@ -142,8 +140,6 @@ of management; then set them to use EasyDNS for secondary NS service.
     * pending NS record insert
     * pending NS record delete
 * debian-ports.org
-    * pending registrar change: Aurelien Jarno contacted once
-    * pending AXFR configuration
     * pending NS delegation
     * pending NS record insert
     * pending NS record delete
