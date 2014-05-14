@@ -23,7 +23,7 @@ $TTL 1d
 adm			CNAME	gluck.debian.org.
 admin			CNAME	saens.debian.org.
 
-$TTL 4h
+$TTL 10m
 tr.ALL			A	144.122.144.177
 
 $ORIGIN alpha.mirror.debian.net.
