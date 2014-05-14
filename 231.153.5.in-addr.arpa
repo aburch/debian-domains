@@ -1,4 +1,7 @@
-; 231.153.5.in-addr.arpa zone - reverse zone for 5.153.231.0/24 - debian at bytemark
+; 231.153.5.in-addr.arpa zone
+; reverse for 5.153.231.0/24 - hosts at bytemark
+;
+; ds-in-parent = no
 ;
 ; dnsu: begin allow_transfer_extra
 ; key 82.195.75.91-key ;
@@ -12,12 +15,20 @@
 ; 2A02:850:8::6; // rcode0.net ipv6 ntfy
 ; dnsu: end also_notify_extra
 
-$TTL 24h
+$TTL 30m
 
 @		IN	NS	ns1.debian.org. ; ravel
 @		IN	NS	ns2.debian.org. ; senfl
 @		IN	NS	ns3.debian.org. ; diamond
 @		IN	NS	ns4.debian.com. ; orff
+@		IN	NS	dns1.easydns.com.
+@		IN	NS	dns2.easydns.net.
+@		IN	NS	dns3.easydns.org.
+@		IN	NS	dns4.easydns.info.
+@		IN	NS	sec1.rcode0.net.
+@		IN	NS	sec2.rcode0.net.
+
+$TTL 8h
 
 
 ;$GENERATE 17-251 $ IN 	PTR 	unconfigured-$.231.153.5.debian.org.
@@ -66,3 +77,5 @@ $GENERATE 224-230  $      IN      CNAME   rev-$.debconf.org.
 $GENERATE 231-238  $      IN      CNAME   rev-$.spi-inc.org.
 
 $GENERATE 1-14 ${+240,0,d}	IN 	PTR 	bm-bl$.debian.org.
+
+; vim: syn=dns:

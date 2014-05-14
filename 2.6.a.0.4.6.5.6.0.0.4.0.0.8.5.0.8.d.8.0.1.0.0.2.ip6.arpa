@@ -1,6 +1,8 @@
-; 2.6.a.0.4.6.5.6.0.0.4.0.0.8.5.0.8.d.8.0.1.0.0.2.ip6.arpa - reverse
-; for hosts at 1&1 - they live in 2001:8d8:0580:0400::/64 and we can assign
-; addresses out of 2001:8d8:0580:0400:6564:0a62::/96 at will.
+; 2.6.a.0.4.6.5.6.0.0.4.0.0.8.5.0.8.d.8.0.1.0.0.2.ip6.arpa zone
+; reverse for 2001:8d8:0580:0400::/64 - hosts at 1und1
+; note: assign from 2001:8d8:0580:0400:6564:0a62::/96 at will
+;
+; ds-in-parent = no
 ;
 ; dnsu: begin allow_transfer_extra
 ; key 82.195.75.91-key ;
@@ -14,12 +16,18 @@
 ; 2A02:850:8::6; // rcode0.net ipv6 ntfy
 ; dnsu: end also_notify_extra
 
-$TTL 24h
+$TTL 30m
 
-@		IN	NS	ns1.debian.org.
-@		IN	NS	ns2.debian.org.
-@		IN	NS	ns3.debian.org.
-@		IN	NS	ns4.debian.com.
+@		IN	NS	ns1.debian.org. ; ravel
+@		IN	NS	ns2.debian.org. ; senfl
+@		IN	NS	ns3.debian.org. ; diamond
+@		IN	NS	ns4.debian.com. ; orff
+@		IN	NS	dns1.easydns.com.
+@		IN	NS	dns2.easydns.net.
+@		IN	NS	dns3.easydns.org.
+@		IN	NS	dns4.easydns.info.
+@		IN	NS	sec1.rcode0.net.
+@		IN	NS	sec2.rcode0.net.
 
 $TTL 8h
 

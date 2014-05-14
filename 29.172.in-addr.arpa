@@ -13,12 +13,14 @@
 ; 201		VPN manda
 ; 202		VPN sil
 
-$TTL 24h
+$TTL 8h
 
 @		IN	NS	ns1.debian.org. ; ravel
 @		IN	NS	ns2.debian.org. ; senfl
 @		IN	NS	ns3.debian.org. ; diamond
 @		IN	NS	ns4.debian.com. ; orff
+
+$TTL 8h
 
 ;;#####
 ;; 1&1 - powell
@@ -71,4 +73,4 @@ $GENERATE 2-255 $.201	IN	PTR	client-$i.manda.vpn.debian.org.
 1.202			IN	PTR	gw.sil.vpn.debian.org.
 $GENERATE 2-255 $.202	IN	PTR	client-$i.sil.vpn.debian.org.
 
-; vim:syn=dns
+; vim: syn=dns:
