@@ -35,6 +35,13 @@ $TTL 8h
 ; A records for @, from www
 $INCLUDE "/srv/dns.debian.org/var/services-auto/all"
 
+mirror		IN	NS	ns1.debian.org.
+		IN	NS	ns2.debian.org.
+		IN	NS	ns3.debian.org.
+		IN	NS	ns4.debian.com.
+
+$INCLUDE "/srv/dns.debian.org/var/keys/mirror.debian.net/dsset"
+
 $TTL 1h
 
 $INCLUDE "/var/lib/misc/thishost/dns-zone"
