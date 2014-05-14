@@ -23,7 +23,7 @@ $TTL 30m
 		IN	NS	dns2.easydns.net.
 		IN	NS	dns1.easydns.com.
 		IN	NS	sec1.rcode0.net.
-;		IN	NS	sec2.rcode0.net.
+;		IN	NS	sec2.rcode0.net. ; not available in .com.
 
 $TTL 8h
 
@@ -41,4 +41,4 @@ ns4		IN	A	194.177.211.209
 		IN	AAAA	2001:648:2ffc:deb::10:10
 		IN	TXT	"orff"
 
-; vim:syn=dns
+; vim: syn=dns:

@@ -13,4 +13,4 @@ $INCLUDE "/srv/dns.debian.org/var/services-auto/all"
 
 www		IN	CNAME	www.debian.org.
 
-; vim:syn=dns
+; vim: syn=dns:

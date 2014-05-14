@@ -33,4 +33,4 @@ $TTL 8h
 
 www		IN	CNAME	buzz2.debian.ch.
 
-; vim:syn=dns
+; vim: syn=dns:
