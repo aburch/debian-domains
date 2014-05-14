@@ -20,10 +20,12 @@ $ORIGIN debian.net.
 
 $TTL 30m
 
-@		IN	NS	dns4.easydns.info. ; easydns
-		IN	NS	dns3.easydns.org. ; easydns
-		IN	NS	dns2.easydns.net. ; easydns
-		IN	NS	dns1.easydns.com. ; easydns
+@		IN	NS	dns4.easydns.info.
+		IN	NS	dns3.easydns.org.
+		IN	NS	dns2.easydns.net.
+		IN	NS	dns1.easydns.com.
+;		IN	NS	sec1.rcode0.net.
+;		IN	NS	sec2.rcode0.net.
 
 $TTL 8h
 

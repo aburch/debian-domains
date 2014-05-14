@@ -18,14 +18,12 @@ $ORIGIN debconf13.ch.
 
 $TTL 30m
 
-@		IN	NS	ns1.debian.org. ; ravel
-		IN	NS	ns2.debian.org. ; senfl
-		IN	NS	ns3.debian.org. ; diamond
-		IN	NS	ns4.debian.com. ; orff
-		IN	NS	dns4.easydns.info. ; easydns
-		IN	NS	dns3.easydns.org. ; easydns
-		IN	NS	dns2.easydns.net. ; easydns
-		IN	NS	dns1.easydns.com. ; easydns
+@		IN	NS	dns4.easydns.info.
+		IN	NS	dns3.easydns.org.
+		IN	NS	dns2.easydns.net.
+		IN	NS	dns1.easydns.com.
+		IN	NS	sec1.rcode0.net.
+		IN	NS	sec2.rcode0.net.
 
 $TTL 8h
 
