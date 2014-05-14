@@ -6,7 +6,7 @@
 ;
 ; dnsu: begin allow_transfer_extra
 ; key 82.195.75.91-key ;
-; 83.136.34.7; // api.rcode0.net
+; 83.136.34.0/27; // rcode0.net transfer network
 ; dnsu: end allow_transfer_extra
 ;
 ; dnsu: begin also_notify_extra
