@@ -29,13 +29,6 @@ $TTL 8h
 ; A records for @, from www
 $INCLUDE "/srv/dns.debian.org/var/services-auto/all"
 
-mirror		IN	NS	dns4.easydns.info. ; easydns
-		IN	NS	dns3.easydns.org. ; easydns
-		IN	NS	dns2.easydns.net. ; easydns
-		IN	NS	dns1.easydns.com. ; easydns
-
-$INCLUDE "/srv/dns.debian.org/var/keys/mirror.debian.net/dsset"
-
 $TTL 1h
 
 $INCLUDE "/var/lib/misc/thishost/dns-zone"
