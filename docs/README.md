@@ -48,6 +48,7 @@ service.
 ### not started
 
 * 29.172.in-addr.arpa
+* mirror.debian.net
 
 ### in progress
 
@@ -100,14 +101,14 @@ service.
     * NS record delete
     * KSK registration
 * debian.eu
-    * registrar change: in progress with Martin Schulze
+    * registrar change: in progress with Martin Schulze (blocked on Martin Schulze)
     * AXFR configuration
     * NS delegation
     * NS record insert
     * NS record delete
     * KSK registration
 * debian.gr
-    * registrar change: in progress with Joerg Jaspert
+    * registrar change: in progress with Joerg Jaspert (blocked on Gandi)
     * AXFR configuration
     * NS delegation
     * NS record insert
