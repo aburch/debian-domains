@@ -24,8 +24,8 @@ $TTL 30m
 		IN	NS	dns3.easydns.org.
 		IN	NS	dns2.easydns.net.
 		IN	NS	dns1.easydns.com.
-		IN	NS	ns5.debian.org.
-		IN	NS	ns6.debian.org.
+		IN	NS	sec1.rcode0.net.
+		IN	NS	sec2.rcode0.net.
 
 $TTL 8h
 
