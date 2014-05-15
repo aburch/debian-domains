@@ -24,8 +24,6 @@ $TTL 30m
 			IN	NS	dns3.easydns.org.
 			IN	NS	dns2.easydns.net.
 			IN	NS	dns1.easydns.com.
-			IN	NS	sec1.rcode0.net.
-			IN	NS	sec2.rcode0.net.
 			IN	NS	ns5.debian.org.
 			IN	NS	ns6.debian.org.
 
@@ -49,7 +47,6 @@ ns5			IN	A	192.174.68.100
 ns6			IN	A	176.97.158.100
 			IN	AAAA	2001:67c:10b8::100
 			IN	TXT	"sec2.rcode0.net"
-
 
 $TTL 1h
 
