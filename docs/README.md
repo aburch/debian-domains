@@ -48,7 +48,6 @@ service.
 ### not started
 
 * 29.172.in-addr.arpa
-* mirror.debian.net
 
 ### in progress
 
