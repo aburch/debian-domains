@@ -60,9 +60,6 @@ service.
 * 1.0.0.0.5.0.0.0.8.7.a.0.1.0.0.2.ip6.arpa
     * NS delegation: contact scanplus
     * NS record delete
-* 2.0.2.0.8.b.1.4.1.0.0.2.ip6.arpa
-    * NS delegation: contact man-da
-    * NS record delete
 * b.e.d.0.c.f.f.2.8.4.6.0.1.0.0.2.ip6.arpa
     * NS delegation: contact grnet
     * NS record delete
@@ -71,9 +68,6 @@ service.
     * NS record delete
 * 231.153.5.in-addr.arpa
     * NS delegation: contact bytemark
-    * NS record delete
-* 64-26.75.195.82.in-addr.arpa
-    * NS delegation: contact man-da
     * NS record delete
 * debian.es
     * AXFR configuration
@@ -89,7 +83,6 @@ service.
     * NS record delete
     * KSK registration
 * debian.gr
-    * registrar change: in progress with Joerg Jaspert
     * AXFR configuration
     * NS delegation
     * NS record insert
@@ -107,9 +100,11 @@ service.
 * 0.0.0.4.0.1.6.0.0.f.8.f.7.0.6.2.ip6.arpa
 * 0.0.0.4.6.0.2.0.0.3.6.0.1.0.0.2.ip6.arpa
 * 2.0.0.0.2.0.0.0.8.5.8.0.1.0.0.2.ip6.arpa
+* 2.0.2.0.8.b.1.4.1.0.0.2.ip6.arpa
 * 2.6.a.0.4.6.5.6.0.0.4.0.0.8.5.0.8.d.8.0.1.0.0.2.ip6.arpa
 * 144-28.118.59.86.in-addr.arpa
 * 19.12.206.in-addr.arpa
+* 64-26.75.195.82.in-addr.arpa
 * debian.com
 * debian.net
 * debian.org
