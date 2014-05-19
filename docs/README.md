@@ -51,14 +51,8 @@ service.
 
 ### in progress
 
-* 0.0.0.0.5.0.0.0.8.7.a.0.1.0.0.2.ip6.arpa
-    * NS delegation: contact scanplus
-    * NS record delete
 * 0.0.0.1.8.c.1.4.1.0.0.2.ip6.arpa
     * NS delegation: contact bytemark
-    * NS record delete
-* 1.0.0.0.5.0.0.0.8.7.a.0.1.0.0.2.ip6.arpa
-    * NS delegation: contact scanplus
     * NS record delete
 * 231.153.5.in-addr.arpa
     * NS delegation: contact bytemark
@@ -93,6 +87,8 @@ service.
 
 * 0.0.0.4.0.1.6.0.0.f.8.f.7.0.6.2.ip6.arpa
 * 0.0.0.4.6.0.2.0.0.3.6.0.1.0.0.2.ip6.arpa
+* 0.0.0.0.5.0.0.0.8.7.a.0.1.0.0.2.ip6.arpa
+* 1.0.0.0.5.0.0.0.8.7.a.0.1.0.0.2.ip6.arpa
 * 2.0.0.0.2.0.0.0.8.5.8.0.1.0.0.2.ip6.arpa
 * 2.0.2.0.8.b.1.4.1.0.0.2.ip6.arpa
 * 2.6.a.0.4.6.5.6.0.0.4.0.0.8.5.0.8.d.8.0.1.0.0.2.ip6.arpa
