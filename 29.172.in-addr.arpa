@@ -7,6 +7,13 @@
 ; key tsig-denis.debian.org-geo3.debian.org ;
 ; dnsu: end allow_transfer_extra
 ;
+;
+; Note that notifies are broken, since we serve the zone from VIEW-enabled binds,
+; and only one of the views (the EU one) will see the notify.  The other
+; zones will have to rely on good old re-checks configured by SOA parameters.
+; Thus, we'll lower the refresh-time:
+; wzf: soa_refresh = 1200
+;
 ; dnsu: begin also_notify_extra
 ; 82.195.75.105; // geo1.debian.org
 ; 206.12.19.113; // geo2.debian.org
