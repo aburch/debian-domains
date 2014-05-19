@@ -1,6 +1,18 @@
 ; reverse zone for 172.29/16
 ;   various debian rfc1918 networks
 
+; dnsu: begin allow_transfer_extra
+; key tsig-denis.debian.org-geo1.debian.org ;
+; key tsig-denis.debian.org-geo2.debian.org ;
+; key tsig-denis.debian.org-geo3.debian.org ;
+; dnsu: end allow_transfer_extra
+;
+; dnsu: begin also_notify_extra
+; 82.195.75.105; // geo1.debian.org
+; 206.12.19.113; // geo2.debian.org
+; 195.20.242.125; // geo3.debian.org
+; dnsu: end also_notify_extra
+
 ; check-initial-refs = ns1.debian.org,ns2.debian.org,ns3.debian.org,ns4.debian.com
 
 ; 102		bytemark vrrp
