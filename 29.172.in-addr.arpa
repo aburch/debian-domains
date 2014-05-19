@@ -1,6 +1,25 @@
 ; reverse zone for 172.29/16
 ;   various debian rfc1918 networks
 
+; dnsu: begin allow_transfer_extra
+; key tsig-denis.debian.org-geo1.debian.org ;
+; key tsig-denis.debian.org-geo2.debian.org ;
+; key tsig-denis.debian.org-geo3.debian.org ;
+; dnsu: end allow_transfer_extra
+;
+;
+; Note that notifies are broken, since we serve the zone from VIEW-enabled binds,
+; and only one of the views (the EU one) will see the notify.  The other
+; zones will have to rely on good old re-checks configured by SOA parameters.
+; Thus, we'll lower the refresh-time:
+; wzf: soa_refresh = 1200
+;
+; dnsu: begin also_notify_extra
+; 82.195.75.105; // geo1.debian.org
+; 206.12.19.113; // geo2.debian.org
+; 195.20.242.125; // geo3.debian.org
+; dnsu: end also_notify_extra
+
 ; check-initial-refs = ns1.debian.org,ns2.debian.org,ns3.debian.org,ns4.debian.com
 
 ; 102		bytemark vrrp
@@ -15,10 +34,9 @@
 
 $TTL 8h
 
-@		IN	NS	ns1.debian.org. ; ravel
-@		IN	NS	ns2.debian.org. ; senfl
-@		IN	NS	ns3.debian.org. ; diamond
-@		IN	NS	ns4.debian.com. ; orff
+@		IN	NS	geo1.debian.org.
+@		IN	NS	geo2.debian.org.
+@		IN	NS	geo3.debian.org.
 
 $TTL 8h
 
