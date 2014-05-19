@@ -1,6 +1,6 @@
 ; debian.es zone
 ;
-; ds-in-parent = yes
+; ds-in-parent = no
 ;
 ; dnsu: begin allow_transfer_extra
 ; key 82.195.75.91-key ;
