@@ -27,10 +27,9 @@
 
 $TTL 8h
 
-@		IN	NS	ns1.debian.org. ; ravel
-@		IN	NS	ns2.debian.org. ; senfl
-@		IN	NS	ns3.debian.org. ; diamond
-@		IN	NS	ns4.debian.com. ; orff
+@		IN	NS	geo1.debian.org.
+@		IN	NS	geo2.debian.org.
+@		IN	NS	geo3.debian.org.
 
 $TTL 8h
 
