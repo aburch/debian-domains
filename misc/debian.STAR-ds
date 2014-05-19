@@ -1,4 +1,0 @@
-; ds-in-parent = yes
-$INCLUDE "/srv/dns.debian.org/repositories/domains/misc/debian.STAR"
-
-; vim: syn=dns:
