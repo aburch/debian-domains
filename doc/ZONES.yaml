@@ -1,0 +1,53 @@
+organizations:
+  - { organization: "SPI",  description: "Software in the Public Interest",           trusted: "yes" }
+  - { organization: "FFIS", description: "Förderung Freier Informationen & Software", trusted: "yes" }
+  - { organization: "DCH",  description: "debian.ch",                                 trusted: "yes" }
+handles:
+  - { handle: "AJ205-GANDI",   name: "Aurélien Jarno",       email: "aurelien@aurel32.net" }
+  - { handle: "DH3289-GANDI",  name: "Debian Hostmaster",    email: "hostmaster@debian.org" }
+  - { handle: "FFIS-KNIPP",    name: "Martin Schulze",       email: "joey@infodrom.org" }
+  - { handle: "PH3805-GANDI",  name: "Philipp Hug",          email: "intern@debian.ch" }
+  - { handle: "SH4438-GANDI",  name: "SPI Hostmaster",       email: "hostmaster@spi-inc.org" }
+  - { handle: "SIT25-GANDI",   name: "SPI Hostmaster",       email: "hostmaster@spi-inc.org" }
+  - { handle: "XX10955-GANDI", name: "SPI Hostmaster",       email: "hostmaster@spi-inc.org" }
+  - { handle: "BYTEMARK-NOC",  name: "bytemark support",     email: "support@support.bytemark.co.uk" }
+  - { handle: "DEBIAN-NOC",    name: "debian support",       email: "hostmaster@debian.org" }
+  - { handle: "1UND1-NOC",     name: "1und1 support",        email: "ncc@oneandone.net" }
+  - { handle: "1UND1-MGR",     name: "Jakob-Tobias Winter",  email: "tobias@1und1.de" }
+  - { handle: "GRNET-NOC",     name: "grnet support"         email: "helpdesk@grnet.gr" }
+  - { handle: "GRNET-MGR",     name: "Nikolaos Kostopoulos", email: "nkostopo@ccf.auth.gr" }
+  - { handle: "MANDA-NOC",     name: "man-da support"        email: "noc@man-da.de" }
+  - { handle: "MANDA-MGR",     name: "Marcus Stoegbauer",    email: "ms@man-da.de" }
+  - { handle: "SIL-NOC",       name: "sil support",          email: "housing@sil.at" }
+  - { handle: "BCNET-NOC",     name: "bcnet support",        email: "nmc@bc.net" }
+  - { handle: "SCANPLUS-NOC",  name: "scanplus support",     email: "support@scan-plus.de" }
+  - { handle: "SANGER-MGR",    name: "Dave Holland",         email: "dh3@sanger.ac.uk" }
+zones:
+  forward:
+    - { zone: "debconf13.ch",     registrar: "gandi.net", owner: "PH3805-GANDI",  admin: "PH3805-GANDI", billing: "PH3805-GANDI", technical: "DH3289-GANDI" }
+    - { zone: "debian-ports.org", registrar: "gandi.net", owner: "AJ205-GANDI",   admin: "AJ205-GANDI",  billing: "AJ205-GANDI",  technical: "DH3289-GANDI" }
+    - { zone: "debian.ch",        registrar: "gandi.net", owner: "PH3805-GANDI",  admin: "PH3805-GANDI", billing: "PH3805-GANDI", technical: "DH3289-GANDI" }
+    - { zone: "debian.com",       registrar: "gandi.net", owner: "SH4438-GANDI",  admin: "SH4438-GANDI", billing: "SH4438-GANDI", technical: "DH3289-GANDI" }
+    - { zone: "debian.es",        registrar: "gandi.net", owner: "XX10955-GANDI", admin: "SH4438-GANDI", billing: "SH4438-GANDI", technical: "DH3289-GANDI" }
+    - { zone: "debian.gr",        registrar: "gandi.net", owner: "SIT25-GANDI",   admin: "SH4438-GANDI", billing: "SH4438-GANDI", technical: "DH3289-GANDI" }
+    - { zone: "debian.li",        registrar: "gandi.net", owner: "PH3805-GANDI",  admin: "PH3805-GANDI", billing: "PH3805-GANDI", technical: "DH3289-GANDI" }
+    - { zone: "debian.net",       registrar: "gandi.net", owner: "SH4438-GANDI",  admin: "SH4438-GANDI", billing: "SH4438-GANDI", technical: "DH3289-GANDI" }
+    - { zone: "debian.org",       registrar: "gandi.net", owner: "SH4438-GANDI",  admin: "SH4438-GANDI", billing: "SH4438-GANDI", technical: "DH3289-GANDI" }
+    - { zone: "debian.us",        registrar: "gandi.net", owner: "SH4438-GANDI",  admin: "SH4438-GANDI", billing: "SH4438-GANDI", technical: "DH3289-GANDI" }
+    - { zone: "debian.eu",        registrar: "knipp.de",  owner: "FFIS-KNIPP",    admin: "FFIS-KNIPP",   billing: "FFIS-KNIPP",   technical: "FFIS-KNIPP"   }
+  reverse:
+    - { zone: "2.6.a.0.4.6.5.6.0.0.4.0.0.8.5.0.8.d.8.0.1.0.0.2.ip6.arpa", technical: "1UND1-NOC" }
+    - { zone: "231.153.5.in-addr.arpa",                                   technical: "BYTEMARK-NOC" }
+    - { zone: "0.0.0.1.8.c.1.4.1.0.0.2.ip6.arpa",                         technical: "BYTEMARK-NOC" }
+    - { zone: "192-27.211.177.194.in-addr.arpa",                          technical: "GRNET-NOC" }
+    - { zone: "b.e.d.0.c.f.f.2.8.4.6.0.1.0.0.2.ip6.arpa",                 technical: "GRNET-NOC" }
+    - { zone: "64-26.75.195.82.in-addr.arpa",                             technical: "MANDA-NOC" }
+    - { zone: "2.0.2.0.8.b.1.4.1.0.0.2.ip6.arpa",                         technical: "MANDA-NOC" }
+    - { zone: "0.0.0.4.6.0.2.0.0.3.6.0.1.0.0.2.ip6.arpa",                 technical: "SANGER-MGR" }
+    - { zone: "0.0.0.0.5.0.0.0.8.7.a.0.1.0.0.2.ip6.arpa",                 technical: "SCANPLUS-NOC" }
+    - { zone: "1.0.0.0.5.0.0.0.8.7.a.0.1.0.0.2.ip6.arpa",                 technical: "SCANPLUS-NOC" }
+    - { zone: "2.0.0.0.2.0.0.0.8.5.8.0.1.0.0.2.ip6.arpa",                 technical: "SIL-NOC" }
+    - { zone: "144-28.118.59.86.in-addr.arpa",                            technical: "SIL-NOC" }
+    - { zone: "19.12.206.in-addr.arpa",                                   technical: "BCNET-NOC" }
+    - { zone: "0.0.0.4.0.1.6.0.0.f.8.f.7.0.6.2.ip6.arpa",                 technical: "BCNET-NOC" }
+    - { zone: "29.172.in-addr.arpa",                                      technical: "DEBIAN-NOC" }

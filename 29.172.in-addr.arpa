@@ -1,5 +1,5 @@
-; reverse zone for 172.29/16
-;   various debian rfc1918 networks
+; 29.172.in-addr.arpa zone
+; reverse for 172.29/16 - various debian rfc1918 networks
 
 ; dnsu: begin allow_transfer_extra
 ; key tsig-denis.debian.org-geo1.debian.org ;
