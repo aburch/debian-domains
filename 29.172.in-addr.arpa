@@ -20,7 +20,7 @@
 ; 195.20.242.125; // geo3.debian.org
 ; dnsu: end also_notify_extra
 
-; check-initial-refs = ns1.debian.org,ns2.debian.org,ns3.debian.org,ns4.debian.com
+; check-initial-refs = geo1.debian.org,geo2.debian.org,geo3.debian.org
 
 ; 102		bytemark vrrp
 ; 115		bytemark default gws
