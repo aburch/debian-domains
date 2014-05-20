@@ -5,7 +5,7 @@ organizations:
 handles:
   - { handle: "AJ205-GANDI",   name: "Aurélien Jarno",       email: "aurelien@aurel32.net" }
   - { handle: "DH3289-GANDI",  name: "Debian Hostmaster",    email: "hostmaster@debian.org" }
-  - { handle: "FFIS-KNIPP",    name: "Martin Schulze",       email: "joey@infodrom.org" }
+  - { handle: "LF3571-GANDI",  name: "Luca Filipozzi",       email: "lfilipoz@debian.org" }
   - { handle: "PH3805-GANDI",  name: "Philipp Hug",          email: "intern@debian.ch" }
   - { handle: "SH4438-GANDI",  name: "SPI Hostmaster",       email: "hostmaster@spi-inc.org" }
   - { handle: "SIT25-GANDI",   name: "SPI Hostmaster",       email: "hostmaster@spi-inc.org" }
@@ -34,7 +34,7 @@ zones:
     - { zone: "debian.net",       registrar: "gandi.net", owner: "SH4438-GANDI",  admin: "SH4438-GANDI", billing: "SH4438-GANDI", technical: "DH3289-GANDI" }
     - { zone: "debian.org",       registrar: "gandi.net", owner: "SH4438-GANDI",  admin: "SH4438-GANDI", billing: "SH4438-GANDI", technical: "DH3289-GANDI" }
     - { zone: "debian.us",        registrar: "gandi.net", owner: "SH4438-GANDI",  admin: "SH4438-GANDI", billing: "SH4438-GANDI", technical: "DH3289-GANDI" }
-    - { zone: "debian.eu",        registrar: "knipp.de",  owner: "FFIS-KNIPP",    admin: "FFIS-KNIPP",   billing: "FFIS-KNIPP",   technical: "FFIS-KNIPP"   }
+    - { zone: "debian.eu",        registrar: "gandi.net", owner: "LF3571-GANDI",  admin: "LF3571-GANDI", billing: "LF3571-GANDI", technical: "DN3289-GANDI" }
   reverse:
     - { zone: "2.6.a.0.4.6.5.6.0.0.4.0.0.8.5.0.8.d.8.0.1.0.0.2.ip6.arpa", technical: "1UND1-NOC" }
     - { zone: "231.153.5.in-addr.arpa",                                   technical: "BYTEMARK-NOC" }

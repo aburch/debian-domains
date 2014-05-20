@@ -5,26 +5,26 @@
     * NS delegation: blocked on Bytemark
     * NS record delete
 * debian.es
-    * AXFR configuration: blocked on EasyDNS (Erol Blakely)
-    * NS delegation
-    * NS record insert
-    * NS record delete
     * NB: owner needs correcting: blocked on SPI (Joerg Jaspert)
 * debian.eu
-    * registrar change: blocked on FFIS (Martin Schulze)
-    * AXFR configuration: blocked on EasyDNS (Erol Blakely)
-    * NS delegation
-    * NS record insert
-    * NS record delete
-    * KSK registration
+    * NB: owner needs correcting: blocked on FFIS (Martin Schulze)
 * debian.gr
-    * AXFR configuration: blocked on EasyDNS (Erol Blakely)
-    * NS delegation
-    * NS record insert
-    * NS record delete
     * NB: owner needs correcting: blocked on SPI (Joerg Jaspert)
-* debian.us
-    * AXFR configuration: blocked on EasyDNS (Erol Blakely)
-    * NS delegation
-    * NS record insert
-    * NS record delete
+* debian.org
+    * delete ns{1-3} glue records (gandi)
+    * delete ns{1-3} zone records
+    * decommission ns1.debian.org (ravel)
+        * puppet
+        * nagios
+    * decommission ns2.debian.org (senfl)
+        * puppet
+        * nagios
+    * decommission ns3.debian.org (diamond)
+        * puppet
+        * nagios
+* debian.com
+    * delete ns4 glue record (gandi)
+    * delete ns4 zone record
+    * decommission ns4.debian.com (orff)
+        * puppet
+        * nagios
