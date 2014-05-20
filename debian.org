@@ -114,6 +114,8 @@ db			IN	A	82.195.75.106	; draghi
 dns			IN	CNAME	denis
 ftp			IN	MX	0 .
 			; A/AAAA records via services-auto
+_http._tcp.ftp		IN	SRV	0 1 80 klecker-ftp.debian.org.
+_http._tcp.ftp		IN	SRV	1 1 80 ftp.acc.umu.se.
 ftp.ipv6		IN	CNAME	ftp
 ftp-master		IN	A	138.16.160.12 ; franck
 	;		IN	MX	10 franck.debian.org.
