@@ -4,6 +4,8 @@
 * 231.153.5.in-addr.arpa
     * NS delegation: blocked on Bytemark
     * NS record delete
+* 29.172.in-addr.arpa
+    * update puppet (unbound)
 * debian.es
     * NB: owner needs correcting: blocked on SPI (Joerg Jaspert)
 * debian.eu
@@ -14,13 +16,13 @@
     * delete ns{1-3} glue records (gandi)
     * delete ns{1-3} zone records
     * decommission ns1.debian.org (ravel)
-        * puppet
+        * puppet (named, ferm, unbound)
         * nagios
     * decommission ns2.debian.org (senfl)
-        * puppet
+        * puppet (named, ferm, unbound)
         * nagios
     * decommission ns3.debian.org (diamond)
-        * puppet
+        * puppet (named, ferm, unbound)
         * nagios
 * debian.com
     * delete ns4 glue record (gandi)
@@ -28,3 +30,5 @@
     * decommission ns4.debian.com (orff)
         * puppet
         * nagios
+* all zones:
+    * increase TTL on NS records

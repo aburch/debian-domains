@@ -1,6 +1,6 @@
 ; debian.li zone
 ;
-; ds-in-parent = no
+; ds-in-parent = yes
 ;
 ; dnsu: begin allow_transfer_extra
 ; key 82.195.75.91-key ;
