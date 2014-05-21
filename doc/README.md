@@ -8,8 +8,6 @@
     * update puppet (unbound)
 * debian.es
     * NB: owner needs correcting: blocked on SPI (Joerg Jaspert)
-* debian.eu
-    * NB: owner needs correcting: blocked on FFIS (Martin Schulze)
 * debian.gr
     * NB: owner needs correcting: blocked on SPI (Joerg Jaspert)
 * debian.org
