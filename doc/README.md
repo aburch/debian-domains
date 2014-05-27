@@ -1,9 +1,6 @@
 * 0.0.0.1.8.c.1.4.1.0.0.2.ip6.arpa
     * NS delegation: blocked on Bytemark
     * NS record delete
-* 231.153.5.in-addr.arpa
-    * NS delegation: blocked on Bytemark
-    * NS record delete
 * 29.172.in-addr.arpa
     * update puppet (unbound)
 * debian.es
