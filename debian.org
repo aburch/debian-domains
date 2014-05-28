@@ -182,8 +182,9 @@ people			IN	A	206.12.19.5 ; ravel
 newpeople		IN	CNAME	ravel.debian.org.
 pg-ubcece		IN	CNAME	danzi
 piuparts		IN	CNAME	pejacevic
+planet			IN	CNAME	planet-fastly.debian.org.
 planet-maxcdn		IN	CNAME	planet-0.debian.netdna-cdn.com.
-planet			IN	CNAME	global.prod.fastly.net.
+planet-fastly		IN	CNAME	global.prod.fastly.net.
 planet-backend		IN	CNAME	static
 planet-master		IN	CNAME	philp
 planet-search		IN	CNAME	philp
