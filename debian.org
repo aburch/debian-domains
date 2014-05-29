@@ -50,17 +50,13 @@ $INCLUDE "/srv/dns.debian.org/var/services-auto/all"
 
 admin			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
-alioth			IN	NS	ns1
-			IN	NS	ns2
-			IN	NS	ns3
-			IN	NS	ns4.debian.com.
-;$INCLUDE "/srv/dns.debian.org/var/keys/alioth.debian.org/dsset"
+alioth			IN	NS	sec1.rcode0.net.
+			IN	NS	sec2.rcode0.net.
 ;			IN	NS	dns4.easydns.info.
 ;			IN	NS	dns3.easydns.org.
 ;			IN	NS	dns2.easydns.net.
 ;			IN	NS	dns1.easydns.com.
-;			IN	NS	sec1.rcode0.net.
-;			IN	NS	sec2.rcode0.net.
+;$INCLUDE "/srv/dns.debian.org/var/keys/alioth.debian.org/dsset"
 anonscm			IN	A	5.153.231.21	; alioth - moszumanska
 arch			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
