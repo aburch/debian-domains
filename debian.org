@@ -54,7 +54,7 @@ alioth			IN	NS	ns1
 			IN	NS	ns2
 			IN	NS	ns3
 			IN	NS	ns4.debian.com.
-;			IN 	DS 	49807 8 2 1a447b56985fab9c89690fc9c62d9ee335e898900eae6c70ec34e5c083cc4642
+;$INCLUDE "/srv/dns.debian.org/var/keys/alioth.debian.org/dsset"
 ;			IN	NS	dns4.easydns.info.
 ;			IN	NS	dns3.easydns.org.
 ;			IN	NS	dns2.easydns.net.
