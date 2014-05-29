@@ -1,9 +1,3 @@
-* 29.172.in-addr.arpa
-    * update puppet (unbound)
-* debian.es
-    * NB: owner needs correcting: blocked on SPI (Joerg Jaspert)
-* debian.gr
-    * NB: owner needs correcting: blocked on SPI (Joerg Jaspert)
 * debian.org
     * delete ns{1-3} glue records (gandi)
     * delete ns{1-3} zone records
