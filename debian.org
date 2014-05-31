@@ -44,7 +44,7 @@ alioth			IN	NS	sec1.rcode0.net.
 			IN	NS	sec2.rcode0.net.
 			IN	NS	dns4.easydns.info.
 			IN	NS	dns3.easydns.org.
-			IN	NS	dns2.easydns.net.
+;			IN	NS	dns2.easydns.net.
 			IN	NS	dns1.easydns.com.
 ;$INCLUDE "/srv/dns.debian.org/var/keys/alioth.debian.org/dsset"
 anonscm			IN	A	5.153.231.21	; alioth - moszumanska
