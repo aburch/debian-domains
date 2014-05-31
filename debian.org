@@ -32,16 +32,6 @@ $TTL 8h
 @			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
 
-; we delegate things to ns[12345]
-ns1			IN	A	206.12.19.5
-			IN	AAAA	2607:f8f0:610:4000:214:38ff:feee:b65a
-			IN	TXT	"ravel"
-ns2			IN	A	128.31.0.51
-			IN	TXT	"senfl"
-ns3			IN	A	5.153.231.24
-			IN	AAAA	2001:41c8:1000:21::21:24
-			IN	TXT	"diamond"
-
 $TTL 1h
 
 ; services
