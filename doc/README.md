@@ -1,10 +1,18 @@
+# phase 1
+
 * alioth.debian.org
     * rcode0: done
     * easydns:
         * blocked on easydns approval of zone
-        * configure primary NS and TSGI via webui
+        * configure primary NS and TSIG via webui
         * ask easydns to reconfigure for secondary
-    * waiting for alioth admins to set up AXFR to denis.debian.org
+    * configure in-line pass-through DNSSEC
+* nagios
+    * monitor easydns
+    * monitor rcode0
+
+# phase 2
+
 * debian.org
     * delete ns{1-3} glue records (gandi)
     * delete ns{1-3} zone records

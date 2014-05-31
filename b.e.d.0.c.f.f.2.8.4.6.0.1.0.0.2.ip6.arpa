@@ -28,8 +28,6 @@ $TTL 8h
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	gw-grnet.debian.org.
 
-0.1.0.0.0.1.0.0.0.0.0.0.0.0.0.0	IN	PTR	orff-ns.debian.org.
-
 6.0.2.0.4.7.e.f.f.f.2.2.4.1.2.0	IN	PTR	rautavaara.debian.org.
 
 8.e.7.1.2.b.e.f.f.f.2.2.4.1.2.0	IN	PTR	holter.debian.org.	; blade2

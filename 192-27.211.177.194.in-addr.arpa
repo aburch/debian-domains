@@ -43,7 +43,6 @@ $TTL 8h
 ; 205
 206		IN	PTR	vitry.debian.org.	; blade6
 207		IN	PTR	krenek.debian.org.	; blade7
-209		IN	PTR	orff.debian.org.	; blade9
 ; 211
 ; 212
 ; 213

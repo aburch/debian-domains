@@ -63,7 +63,6 @@ arch			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	MX	0 .
 archive			IN	MX	0 .
 			; A/AAAA records via services-auto
-auto-beta		IN	CNAME	orff
 backports		IN	CNAME	static
 backports-backend	IN	CNAME	backports-master
 backports-master	IN	CNAME	ftp-master
@@ -341,7 +340,6 @@ stabile2		IN	A	206.12.19.150
 			IN	AAAA	2607:f8f0:610:4000:1a1a:0:ce0c:1396
 gw-grnet		IN	A	194.177.211.193
 			IN	AAAA	2001:648:2ffc:deb::1
-orff-ns			IN	AAAA	2001:648:2ffc:deb::10:10 ; orff
 
 ; brown
 franck-ilo		IN	A	128.148.32.22
