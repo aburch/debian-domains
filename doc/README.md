@@ -7,15 +7,5 @@
 * nagios
     * monitor easydns
     * monitor rcode0
-
-# phase 2
-
-* debian.org
-    * decommission ns1.debian.org (ravel)
-        * nagios
-    * decommission ns2.debian.org (senfl)
-        * nagios
-    * decommission ns3.debian.org (diamond)
-        * nagios
 * all zones:
     * increase TTL on NS records
