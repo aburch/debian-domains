@@ -52,7 +52,6 @@ $TTL 8h
 21	IN	PTR	moszumanska.debian.org.
 22	IN	PTR	dillon.debian.org.
 23	IN	PTR	ticharich.debian.org.
-24	IN	PTR	diamond.debian.org.
 25	IN	PTR	petrova.debian.org.
 26	IN	PTR	oyens.debian.org.
 27	IN	PTR	barriere.debian.org.
