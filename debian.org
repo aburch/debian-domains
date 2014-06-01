@@ -38,6 +38,8 @@ $TTL 1h
 ;=========
 $INCLUDE "/srv/dns.debian.org/var/services-auto/all"
 
+_domainkey			60	IN	TXT	"t=y; o=~"
+lfilipoz.user._domainkey	60	IN	TXT	"t=y; s=email; g=lfilipoz; v=DKIM1; h=rsa-sha256; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDqhUu4v4g0OpHY+8QleE2mKIfFLZeFYeCoYDKU0kjWGd/iJxb6zVAkzsk4vh3eJu+AuespCCQTeaedVA4WhlKxO29YWUKYjmzHvPmQXjZkyyxjPbCvr+RcKWuhruHputsYwPxZkDLFjo3qrus2BXrnitpAMDpBYOg9CQJ3WMvEHwIDAQAB"
 admin			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
 alioth			IN	NS	sec1.rcode0.net.
