@@ -962,7 +962,7 @@ CDEE7681F8631697E6335A1378527168.rt.debian.org. 10800 IN CNAME C497A4AAC8F0CB364
 71127A1E2D4C09E6410A2B7329BC5A39.bugs-master.debian.org. 10800 IN CNAME A7DD77197050EFCBF26ED10C6299B97E204DCC73.comodoca.com.		; temp entry for SSL Cert validation
 6BA2B4EE396D85B68D1EBDC7F61AF4A8.piuparts.debian.org. 10800 IN CNAME 417D7913A05F1D21AF7F6EF8C7BF919402B0C41F.comodoca.com.		; temp entry for SSL Cert validation
 
-_domainkey			60	IN	TXT	"t=y; o=~"
-lfilipoz.user._domainkey	60	IN	TXT	( "t=y; s=email; g=lfilipoz; v=DKIM1; h=rsa-sha256; k=rsa;" "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDqhUu4v4g0OpHY+8QleE2mKIfFLZeFYeCoYDKU0kjWGd/iJxb6zVAkzsk4vh3eJu+AuespCCQTeaedVA4WhlKxO29YWUKYjmzHvPmQXjZkyyxjPbCvr+RcKWuhruHputsYwPxZkDLFjo3qrus2BXrnitpAMDpBYOg9CQJ3WMvEHwIDAQAB" )
+_domainkey.debian.org.			60	IN	TXT	"t=y; o=~"
+lfilipoz.user._domainkey.debian.org.	60	IN	TXT	( "t=y; s=email; g=lfilipoz; v=DKIM1; h=rsa-sha256; k=rsa;" "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDqhUu4v4g0OpHY+8QleE2mKIfFLZeFYeCoYDKU0kjWGd/iJxb6zVAkzsk4vh3eJu+AuespCCQTeaedVA4WhlKxO29YWUKYjmzHvPmQXjZkyyxjPbCvr+RcKWuhruHputsYwPxZkDLFjo3qrus2BXrnitpAMDpBYOg9CQJ3WMvEHwIDAQAB" )
 
 ; vim: syn=dns:
