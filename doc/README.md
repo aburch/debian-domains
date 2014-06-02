@@ -1,9 +1,6 @@
 * alioth.debian.org
-    * easydns:
-        * ask easydns to reconfigure for secondary
-    * configure in-line pass-through DNSSEC
-* nagios
-    * monitor easydns
-    * monitor rcode0
+    * await confirmation re dns2.easydns.net
+* debian.org
+    * include dsset for alioth.debian.org
 * all zones:
     * increase TTL on NS records
