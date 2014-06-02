@@ -236,6 +236,7 @@ security-tracker	IN	CNAME	soler
 snapshot		IN	MX	0 .
 			; A/AAAA records via services-auto
 snapshot-master		IN	CNAME	sibelius
+snapshot-lw		IN	CNAME	lw05
 snapshot-stabile	IN	CNAME	stabile2
 snapshot-sibelius	IN	CNAME	sibelius2
 ; common misseppling
