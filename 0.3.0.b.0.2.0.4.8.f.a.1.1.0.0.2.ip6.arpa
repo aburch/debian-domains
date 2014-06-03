@@ -26,6 +26,6 @@ $TTL 30m
 
 $TTL 8h
 
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	gw-leaseweb.debian.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	gw-leaseweb-ipv6.debian.org.
 
 ; vim:syn=dns
