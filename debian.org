@@ -751,6 +751,7 @@ $GENERATE 2-255 client-$i.sil	IN	A	172.29.202.$
 
 storace-qnap.debian.org.	IN	A	93.94.130.165
 storace-ilo.debian.org.		IN	A	93.94.130.163
+gw-leaseweb-ipv6.debian.org.	IN	A	2001:1AF8:4020:B030::1 ; is this what we want?
 
 
 ; countries
