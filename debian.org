@@ -749,6 +749,9 @@ $GENERATE 2-255 client-$i.manda	IN	A	172.29.201.$
 gw.sil				IN	A	172.29.202.1
 $GENERATE 2-255 client-$i.sil	IN	A	172.29.202.$
 
+storace-qnap.debian.org.	IN	A	93.94.130.165
+storace-ilo.debian.org.		IN	A	93.94.130.163
+
 
 ; countries
 ;==========
