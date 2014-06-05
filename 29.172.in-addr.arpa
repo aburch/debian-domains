@@ -29,7 +29,7 @@
 ; 123		bytemark vlan 23
 ; 150		1&1 ganeti
 ; 160		sil mnt vlan
-; 170		dgi nfs vlan
+; 170		dgi nfs net (between storace and storace-qnap)
 ; 201		VPN manda
 ; 202		VPN sil
 
