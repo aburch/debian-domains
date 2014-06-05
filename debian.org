@@ -750,6 +750,10 @@ $GENERATE 2-255 client-$i.manda	IN	A	172.29.201.$
 gw.sil				IN	A	172.29.202.1
 $GENERATE 2-255 client-$i.sil	IN	A	172.29.202.$
 
+$ORIGIN dgi.debian.org.
+storace.nfs			IN	A	172.29.170.1
+storace-qnap.nfs		IN	A	172.29.170.2
+
 storace-qnap.debian.org.	IN	A	93.94.130.165
 storace-ilo.debian.org.		IN	A	93.94.130.163
 gw-leaseweb-ipv6.debian.org.	IN	AAAA	2001:1af8:4020:b030::1 ; is this what we want?
