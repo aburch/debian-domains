@@ -29,6 +29,7 @@
 ; 123		bytemark vlan 23
 ; 150		1&1 ganeti
 ; 160		sil mnt vlan
+; 170		dgi nfs vlan
 ; 201		VPN manda
 ; 202		VPN sil
 
@@ -57,6 +58,12 @@ $TTL 8h
 100.160			IN	PTR	console.priv.sil.debian.org.
 240.160			IN	PTR	anguilla-mnt.priv.sil.debian.org.
 $GENERATE 1-48 ${+100,0,d}.160	IN	PTR	console-$.priv.sil.debian.org.
+
+;;#####
+;; dgi
+;;#####
+1.170			IN	PTR	storace.nfs.dgi.debian.org.
+2.170			IN	PTR	storace-qnap.nfs.dgi.debian.org
 
 ;;##########
 ;; BYTEMARK
