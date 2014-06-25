@@ -57,6 +57,7 @@ $TTL 8h
 27	IN	PTR	barriere.debian.org.
 28	IN	PTR	quantz.debian.org.
 29	IN	PTR	portman.debian.org.
+30	IN	PTR	paradis.debian.org.
 
 
 125	IN	PTR	vm-gw-bl1.bm.debian.org.
