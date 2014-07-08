@@ -33,9 +33,9 @@ $TTL 8h
 ; 69
 70      IN      PTR     ball.debian.org.
 ; 71
-; 72
+72      IN      PTR     mipsel-manda-01.debian.org.
 ; 73
-; 74
+74      IN      PTR     mipsel-manda-02.debian.org.
 ; 75
 ; 76
 ; 77
