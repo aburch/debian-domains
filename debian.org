@@ -445,6 +445,8 @@ sw01-net-da-console	IN	CNAME	console-1
 sw02-net-da-console	IN	CNAME	console-2
 rem-console		IN	CNAME	console-3
 ball-console		IN	CNAME	console-4
+mipsel-manda-01-console	IN	CNAME	console-7
+mipsel-manda-02-console	IN	CNAME	console-8
 
 
 $ORIGIN debprivate-oneandone.debian.org.
