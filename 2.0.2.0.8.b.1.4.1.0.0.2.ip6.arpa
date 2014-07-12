@@ -57,6 +57,8 @@ d.b.3.2.9.a.e.f.f.f.0.2.0.0.a.0.2.b.e.d		IN	PTR	sperger.debian.org.
 2.5.b.4.3.c.2.5.0.0.0.0.a.1.a.1.b.e.d.0		IN	PTR	fayrfax.debian.org.
 5.0.0.4.0.4.e.f.f.f.6.3.6.1.2.0.b.e.d.0		IN	PTR	vento.debian.org.
 
+2.7.0.0.0.0.0.0.0.0.0.0.b.1.b.1.b.e.d.0		IN	PTR	mipsel-manda-01.debian.org.
+4.7.0.0.0.0.0.0.0.0.0.0.b.1.b.1.b.e.d.0		IN	PTR	mipsel-manda-02.debian.org.
 1.9.0.0.0.0.0.0.0.0.0.0.b.1.b.1.b.e.d.0		IN	PTR	denis.debian.org.
 2.9.0.0.0.0.0.0.0.0.0.0.b.1.b.1.b.e.d.0		IN	PTR	vogler.debian.org.
 
