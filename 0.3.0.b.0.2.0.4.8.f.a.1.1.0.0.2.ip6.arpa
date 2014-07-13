@@ -26,6 +26,15 @@ $TTL 30m
 
 $TTL 8h
 
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	gw-leaseweb-ipv6.debian.org.
+1.0.0.0.0.0.0.0.0.0.0.0.b.e.d.0	IN	PTR	gw-leaseweb-ipv6.debian.org.
+
+7.7.1.0.0.0.0.0.0.0.0.0.b.e.d.0	IN	PTR	lw01.debian.org.
+8.7.1.0.0.0.0.0.0.0.0.0.b.e.d.0	IN	PTR	lw02.debian.org.
+9.7.1.0.0.0.0.0.0.0.0.0.b.e.d.0	IN	PTR	lw03.debian.org.
+0.8.1.0.0.0.0.0.0.0.0.0.b.e.d.0	IN	PTR	lw04.debian.org.
+
+5.8.1.0.0.0.0.0.0.0.0.0.b.e.d.0	IN	PTR	lw07-2.debian.org.
+7.8.1.0.0.0.0.0.0.0.0.0.b.e.d.0	IN	PTR	lw07.debian.org.
+9.8.1.0.0.0.0.0.0.0.0.0.b.e.d.0	IN	PTR	lw08.debian.org.
 
 ; vim:syn=dns
