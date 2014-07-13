@@ -326,6 +326,7 @@ klecker-ftp		IN	A	130.89.148.12			; klecker
 klecker-archive		IN	A	130.89.148.13			; klecker
 			IN	AAAA	2001:610:1908:b000::148:13	; klecker
 			IN	MX	0 .
+lw07-2			IN	A	185.17.185.185
 schein-ilo		IN	A	149.20.20.194
 sibelius2		IN	A	193.62.202.30
 			IN	AAAA	2001:630:206:4000:1a1a:0:c13e:ca1e
