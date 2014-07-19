@@ -167,10 +167,9 @@ packages		IN	MX	0 picconi
 			; A/AAAA records via services-auto
 packages-picconi	IN	CNAME	picconi
 packages-1and1		IN	CNAME	pkgmirror-1and1
-people			IN	A	206.12.19.5 ; ravel
-			IN	AAAA	2607:f8f0:610:4000:214:38ff:feee:b65a ; ravel
+people	300		IN	A	206.12.19.5 ; ravel
+	300		IN	AAAA	2607:f8f0:610:4000:214:38ff:feee:b65a ; ravel
 			IN	MX	0 .
-newpeople		IN	CNAME	ravel.debian.org.
 pg-ubcece		IN	CNAME	danzi
 piuparts		IN	CNAME	pejacevic
 planet			IN	CNAME	planet-maxcdn.debian.org.
@@ -264,8 +263,8 @@ small-teams		IN	A	82.195.75.100	; bendel
 			IN	MX	10 bendel.debian.org.
 teams			IN	A	82.195.75.100	; bendel
 			IN	MX	10 bendel.debian.org.
-ssh-delayed.upload	IN	CNAME	ravel.debian.org.
-ssh.upload		IN	CNAME	ravel.debian.org.
+ssh-delayed.upload 300	IN	CNAME	ravel.debian.org.
+ssh.upload	300	IN	CNAME	ravel.debian.org.
 static			IN	MX	0 .
 			; A/AAAA records via services-auto
 tracker			IN	A	5.153.231.23			; ticharich.debian.org
