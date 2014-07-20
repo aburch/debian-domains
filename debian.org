@@ -340,50 +340,12 @@ gw-grnet		IN	A	194.177.211.193
 franck-ilo		IN	A	128.148.32.22
 ries-ilo		IN	A	128.148.32.5
 
-$ORIGIN debprivate-brainfood.debian.org.
-murphy-int		IN	A	192.168.1.1
-murphy-ilo		IN	A	192.168.1.2
-master-int		IN	A	192.168.1.3
-
-$ORIGIN debprivate-ftcollins.debian.org.
-alkman			IN	A	192.168.2.11
-alkman-console		IN	A	192.168.2.111
-alkman-mp		IN	A	192.168.2.211
-console			IN	A	192.168.2.254
-gounod			IN	A	192.168.2.9
-gounod-ilo		IN	A	192.168.2.209
-hydra			IN	A	192.168.2.21	; joeyh
-hydra-ilo		IN	A	192.168.2.221	; joeyh
-merulo			IN	A	192.168.2.5
-merulo-console		IN	A	192.168.2.105
-merulo-mp		IN	A	192.168.2.205
-mundy			IN	A	192.168.2.12
-mundy-console		IN	A	192.168.2.112
-paer-console		IN	A	192.168.2.110
-raff			IN	A	192.168.2.7
-raff-console		IN	A	192.168.2.107
-raff-ilo		IN	A	192.168.2.207
-samosa			IN	A	192.168.2.6
-samosa-console		IN	A	192.168.2.106
-samosa-ilo		IN	A	192.168.2.206
-spi1			IN	A	192.168.2.14
-spi1-ilo		IN	A	192.168.2.214
-spi2			IN	A	192.168.2.15
-spi2-ilo		IN	A	192.168.2.215
-spohr			IN	A	192.168.2.13
-spohr-ilo		IN	A	192.168.2.213
-switch			IN	A	192.168.2.253
-
 $ORIGIN debprivate-darmstadt.debian.org.
-wiggum-int		IN	A	192.168.43.2
-liszt-int		IN	A	192.168.43.3
 babylon5-int		IN	A	192.168.43.4
-sperger-int		IN	A	192.168.43.5
 urd-int			IN	A	192.168.43.6
 sw01-net-da		IN	A	192.168.43.44
 sw02-net-da		IN	A	192.168.43.45
 unger-ilo		IN	A	192.168.43.130
-liszt-ilo		IN	A	192.168.43.131
 urd-ilo			IN	A	192.168.43.134
 czerny-ilo		IN	A	192.168.43.137
 clementi-ilo		IN	A	192.168.43.138
@@ -517,7 +479,6 @@ ganeti1-mnt		IN	A	192.168.2.22
 ganeti2-mnt		IN	A	192.168.2.23
 
 ; rule seems to be that the last octet is (host's real address - 50)
-duarte-mnt		IN	A	192.168.2.64
 popov-mnt		IN	A	192.168.2.69
 quantz-mnt		IN	A	192.168.2.72
 glinka-mnt		IN	A	192.168.2.76
@@ -617,7 +578,6 @@ gluck-ilo		IN	A	172.17.4.2
 
 $ORIGIN debprivate-grnet.debian.org.
 rautavaara		IN	A	172.22.3.199
-; grieg			IN	A	172.22.3.200
 blade1			IN	A	172.22.3.201
 blade2			IN	A	172.22.3.202
 blade3			IN	A	172.22.3.203
@@ -629,9 +589,6 @@ blade8			IN	A	172.22.3.208
 blade9			IN	A	172.22.3.209
 blade0			IN	A	172.22.3.210
 rautavaara-drac		IN	A	172.22.3.11
-grieg-drac		IN	A	172.22.3.12
-holst-drac		IN	A	172.22.3.13
-holst-kvm		IN	A	172.22.3.14
 switch-1		IN	A	172.22.4.20 ; different network
 switch-2		IN	A	172.22.3.21
 
