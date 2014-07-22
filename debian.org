@@ -138,9 +138,7 @@ irc6			IN	CNAME	irc6.geo.oftc.net.
 irc.ipv6		IN	CNAME	irc6.geo.oftc.net.
 keyring			IN	CNAME	kaufmann
 l10n			IN	CNAME	tye
-lintian		60	IN	A	206.12.19.138 ; lilburn
-		60	IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:138a ; lilburn
-		60	IN	MX	0 .
+lintian		60	IN	CNAME	static
 lists			IN	A	82.195.75.100	; bendel
 			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:4002 ; bendel
 			IN	MX	0 bendel.debian.org.
