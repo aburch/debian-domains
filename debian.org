@@ -1,5 +1,3 @@
-; debian.org zone
-;
 ; wzf: integrity-checks = local
 ;
 ; ds-in-parent = yes

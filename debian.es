@@ -1,5 +1,3 @@
-; debian.es zone
-;
 ; ds-in-parent = no
 ;
 ; dnsu: begin allow_transfer_extra

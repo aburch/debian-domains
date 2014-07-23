@@ -1,5 +1,3 @@
-; debconf13.ch zone
-;
 ; ds-in-parent = yes
 ;
 ; dnsu: begin allow_transfer_extra
