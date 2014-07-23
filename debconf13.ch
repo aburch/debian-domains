@@ -16,7 +16,7 @@
 
 $ORIGIN debconf13.ch.
 
-$TTL 30m
+$TTL 8h
 
 @		IN	NS	dns4.easydns.info.
 		IN	NS	dns3.easydns.org.
