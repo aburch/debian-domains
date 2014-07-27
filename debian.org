@@ -164,6 +164,9 @@ packages-1and1		IN	CNAME	pkgmirror-1and1
 people	300		IN	A	5.153.231.30 ; paradis
 	300		IN	AAAA	2001:41c8:1000:21::21:30 ; paradis
 			IN	MX	0 .
+nossl.people		IN	A	5.153.231.30 ; paradis
+	300		IN	AAAA	2001:41c8:1000:21::21:30 ; paradis
+			IN	MX	0 .
 pg-ubcece		IN	CNAME	danzi
 piuparts		IN	CNAME	pejacevic
 planet			IN	CNAME	planet-maxcdn.debian.org.
