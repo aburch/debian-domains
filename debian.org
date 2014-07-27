@@ -239,6 +239,7 @@ snapshot-stabile	IN	CNAME	stabile2
 snapshot-sibelius	IN	CNAME	sibelius2
 ; common misseppling
 snapshots		IN	CNAME	snapshot
+ssh			IN	CNAME	paradis2
 sso			IN	CNAME	diabelli
 www.sso			IN	CNAME	diabelli
 svn			IN	A	5.153.231.21	; alioth - moszumanska
