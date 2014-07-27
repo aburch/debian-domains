@@ -266,10 +266,10 @@ tracker			IN	A	5.153.231.23			; ticharich.debian.org
 			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
 ftp.upload	300	IN	CNAME	ftp-master.debian.org.	; franck
-;ftp.upload	300	IN	CNAME	ravel.debian.org.
+;ftp.upload	300	IN	CNAME	coccia.debian.org.
 ;ftp.eu.upload	300	IN	CNAME	XXXXXX.debian.org. XXX
 ftp.eu.upload	300	IN	CNAME	ftp-master.debian.org.
-;ftp.eu.upload	300	IN	CNAME	ravel.debian.org.
+;ftp.eu.upload	300	IN	CNAME	coccia.debian.org.
 volatile-master		IN	CNAME	static
 volatile		IN	CNAME	static
 vote			IN	A	82.195.75.98
