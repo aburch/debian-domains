@@ -161,12 +161,8 @@ packages		IN	MX	0 picconi
 			; A/AAAA records via services-auto
 packages-picconi	IN	CNAME	picconi
 packages-1and1		IN	CNAME	pkgmirror-1and1
-people	300		IN	A	5.153.231.30 ; paradis
-	300		IN	AAAA	2001:41c8:1000:21::21:30 ; paradis
-			IN	MX	0 .
-nossl.people		IN	A	5.153.231.30 ; paradis
-	300		IN	AAAA	2001:41c8:1000:21::21:30 ; paradis
-			IN	MX	0 .
+people			IN	CNAME	paradis
+nossl.people		IN	CNAME	paradis
 pg-ubcece		IN	CNAME	danzi
 piuparts		IN	CNAME	pejacevic
 planet			IN	CNAME	planet-maxcdn.debian.org.
