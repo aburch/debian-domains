@@ -325,6 +325,8 @@ klecker-archive		IN	A	130.89.148.13			; klecker
 			IN	MX	0 .
 lw07-2			IN	A	185.17.185.185
 			IN	AAAA	2001:1af8:4020:b030:deb::185
+paradis2		IN	A	5.153.231.31
+			IN	AAAA	2001:41c8:1000:21::21:31
 schein-ilo		IN	A	149.20.20.194
 sibelius2		IN	A	193.62.202.30
 			IN	AAAA	2001:630:206:4000:1a1a:0:c13e:ca1e
