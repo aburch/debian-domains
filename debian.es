@@ -16,7 +16,7 @@ $TTL 8h
 
 @		IN	NS	dns4.easydns.info.
 @		IN	NS	dns3.easydns.org.
-@		IN	NS	dns2.easydns.net.
+;@		IN	NS	dns2.easydns.net.
 @		IN	NS	dns1.easydns.com.
 @		IN	NS	sec1.rcode0.net.
 @		IN	NS	sec2.rcode0.net.
