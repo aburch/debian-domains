@@ -339,17 +339,19 @@ franck-ilo		IN	A	128.148.32.22
 ries-ilo		IN	A	128.148.32.5
 
 $ORIGIN debprivate-darmstadt.debian.org.
-babylon5-int		IN	A	192.168.43.4
-urd-int			IN	A	192.168.43.6
-sw01-net-da		IN	A	192.168.43.44
+babylon5-int		IN	A	192.168.43.4		; DEAD?
+urd-int			IN	A	192.168.43.6		; DEAD?
+sw01-net-da		IN	A	192.168.43.44		; OBSOLETE
 			IN	SSHFP	1 2 315e46654c922ca01c4ecbe44b66350f1251521b2b4dd31c02cd172b9ce320e5
 sw02-net-da		IN	A	192.168.43.45
 			IN	SSHFP	1 2 ad3f0ea38a54b3d8c59d770667cc67cdfb2833bb42ea7f2e54bd6dd21070c4f8
-unger-ilo		IN	A	192.168.43.130
-urd-ilo			IN	A	192.168.43.134
+unger-ilo		IN	A	192.168.43.130		; DEAD?
+listera-ilo		IN	A	192.168.43.131
+urd-ilo			IN	A	192.168.43.134		; DEAD?
 czerny-ilo		IN	A	192.168.43.137
 clementi-ilo		IN	A	192.168.43.138
 gw-manda-ilo		IN	A	192.168.43.139
+raritan			IN	A	192.168.43.141
 epdu01			IN	A	192.168.43.160
 epdu02			IN	A	192.168.43.161
 eups01			IN	A	192.168.43.162
