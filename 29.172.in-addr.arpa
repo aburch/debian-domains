@@ -69,7 +69,8 @@ $GENERATE 1-48 ${+100,0,d}.160	IN	PTR	console-$.priv.sil.debian.org.
 ;;#####
 ;; aql
 ;;#####
-1.172			IN	PTR	oob-vpn.aql.debian.org.
+1.172			IN	PTR	oob-vpn.debprivate-aql.debian.org.
+2.172			IN	PTR	switch.debprivate-aql.debian.org.
 
 ;;##########
 ;; BYTEMARK

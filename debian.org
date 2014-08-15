@@ -433,6 +433,10 @@ $ORIGIN rev.debian.org.
 51.0.31.128		IN	PTR	senfl.debian.org.
 
 
+$ORIGIN debprivate-aql.debian.org
+oob-vpn			IN	A	172.29.172.1
+switch			IN	A	172.29.172.2
+
 $ORIGIN debprivate-oneandone.debian.org.
 wieck-drac		IN	A	192.168.253.2
 wieck-ilo		IN	A	192.168.253.2
