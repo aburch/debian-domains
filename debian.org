@@ -527,6 +527,8 @@ traetta-ilo		IN	A	192.168.2.121
 positron-mnt		IN	A	192.168.2.241	; positron.oftc.net <noc@oftc.net>
 lux-mnt			IN	A	192.168.2.243	; lux.oftc.net <noc@oftc.net>
 
+bastion			IN	A	192.168.2.251
+
 ; bertali is a BL460c G7 blade in device bay 2 of strozzi
 bertali-mnt		IN	CNAME	strozzi-db2-mnt
 bertali-ilo		IN	CNAME	strozzi-db2-ilo
