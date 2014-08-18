@@ -415,12 +415,6 @@ ball-console		IN	CNAME	console-4
 mipsel-manda-01-console	IN	CNAME	console-7
 mipsel-manda-02-console	IN	CNAME	console-8
 
-$ORIGIN ubcece.debian.org.
-gateway			IN	A	206.12.19.254
-router1			IN	A	206.12.19.253
-router2			IN	A	206.12.19.252
-bastion			IN	A	206.12.19.251
-
 $ORIGIN rev.debian.org.
 ; AQL
 148.6.170.141		IN	PTR	aql148.debian.org.
@@ -453,6 +447,12 @@ $ORIGIN debprivate-sanger.debian.org.
 smetana-sc		IN	A	192.168.0.2
 semtana-alom		IN	CNAME	smetana-sc
 sibelius-ilo		IN	A	192.168.0.4
+
+$ORIGIN debian.org.
+gateway-ubcece		IN	A	206.12.19.254
+router1-ubcece		IN	A	206.12.19.253
+router2-ubcece		IN	A	206.12.19.252
+bastion-ubcece		IN	A	206.12.19.251
 
 $ORIGIN debprivate-ubc.debian.org.
 ; iscsi network
