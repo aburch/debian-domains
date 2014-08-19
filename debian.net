@@ -35,7 +35,4 @@ $TTL 1h
 
 $INCLUDE "/var/lib/misc/thishost/dns-zone"
 
-$ORIGIN rev.debian.net.
-146.167.106.143		IN	PTR	ppc64el1.debian.org.
-
 ; vim: syn=dns:
