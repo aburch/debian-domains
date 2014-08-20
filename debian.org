@@ -779,7 +779,8 @@ $ORIGIN ba.debian.org.
 ftp		IN	CNAME	mirror.debian.com.ba.
 $ORIGIN be.debian.org.
 ;ftp		IN	CNAME	ftp.nl.debian.org.
-ftp		IN	A	195.234.45.114   ; mirror.as35701.net
+ftp		IN	A	195.234.45.114    ; mirror.as35701.net
+ftp		IN	AAAA	2a01:70:ffff:1::2 ; mirror.as35701.net
 $ORIGIN bg.debian.org.
 ftp		IN	CNAME	debian.spnet.net.
 www		IN	CNAME	www.debian.org.
