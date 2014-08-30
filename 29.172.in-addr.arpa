@@ -26,7 +26,9 @@
 ; 115		bytemark default gws
 ; 120		bytemark vlan 20
 ; 122		bytemark vlan 22
-; 123		bytemark vlan 23
+; 123		bytemark vlan 23 openstack
+; 124		bytemark ---- 24 openstack
+; 127		bytemark vlan 27 openstack
 ; 150		1&1 ganeti
 ; 160		sil mnt vlan
 ; 170		dgi nfs net (between storace and storace-qnap)
