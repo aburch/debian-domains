@@ -33,6 +33,7 @@
 ; 160		sil mnt vlan
 ; 170		dgi nfs net (between storace and storace-qnap)
 ; 172		aql oob
+; 174		grnet oob
 ; 201		VPN manda
 ; 202		VPN sil
 
@@ -73,6 +74,11 @@ $GENERATE 1-48 ${+100,0,d}.160	IN	PTR	console-$.priv.sil.debian.org.
 ;;#####
 1.172			IN	PTR	oob-vpn.debprivate-aql.debian.org.
 2.172			IN	PTR	switch.debprivate-aql.debian.org.
+
+;;#####
+;; grnet
+;;#####
+2.174			IN	PTR	switch.priv.grnet.debian.org.
 
 ;;##########
 ;; BYTEMARK
