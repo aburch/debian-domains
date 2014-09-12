@@ -74,6 +74,9 @@ $GENERATE 1-48 ${+100,0,d}.160	IN	PTR	console-$.priv.sil.debian.org.
 ;;#####
 1.172			IN	PTR	oob-vpn.debprivate-aql.debian.org.
 2.172			IN	PTR	switch.debprivate-aql.debian.org.
+3.172			IN	PTR	console.debprivate-aql.debian.org.
+$GENERATE 1-48 ${+100,0,d}.160  IN      PTR     console-$.debprivate-aql.debian.org.
+
 
 ;;#####
 ;; grnet
