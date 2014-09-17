@@ -606,6 +606,9 @@ strozzi-db8b-ilo	IN	A	192.168.2.248
 $ORIGIN debprivate-csail.debian.org.
 carver-ilo		IN	A	192.168.0.100
 rore-ilo		IN	A	192.168.0.101
+$ORIGIN priv.csail.debian.org
+csail-node-01-ilo	IN	A	172.29.176.11
+csail-node-02-ilo	IN	A	172.29.176.12
 
 $ORIGIN debprivate-cecsit.debian.org.
 gluck-ilo		IN	A	172.17.4.2
