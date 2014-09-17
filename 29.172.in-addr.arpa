@@ -87,8 +87,8 @@ $GENERATE 1-48 ${+100,0,d}.160  IN      PTR     console-$.debprivate-aql.debian.
 ;;#####
 ;; csail
 ;;#####
-11.176			IN	PTR	csail-node-01-ilo.priv.csail.debian.org.
-12.176			IN	PTR	csail-node-02-ilo.priv.csail.debian.org.
+11.176			IN	PTR	csail-node01-ilo.priv.csail.debian.org.
+12.176			IN	PTR	csail-node02-ilo.priv.csail.debian.org.
 
 ;;##########
 ;; BYTEMARK
