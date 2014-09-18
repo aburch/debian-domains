@@ -35,6 +35,7 @@
 ; 172		aql oob
 ; 174		grnet oob
 ; 176		csail oob
+; 178		csail drbd
 ; 201		VPN manda
 ; 202		VPN sil
 
@@ -89,6 +90,12 @@ $GENERATE 1-48 ${+100,0,d}.160  IN      PTR     console-$.debprivate-aql.debian.
 ;;#####
 11.176			IN	PTR	csail-node01-ilo.priv.csail.debian.org.
 12.176			IN	PTR	csail-node02-ilo.priv.csail.debian.org.
+
+31.176			IN	PTR	csail-node01-mgmt.priv.csail.debian.org.
+32.176			IN	PTR	csail-node02-mgmt.priv.csail.debian.org.
+
+31.178			IN	PTR	csail-node01-drbd.priv.csail.debian.org.
+32.178			IN	PTR	csail-node02-drbd.priv.csail.debian.org.
 
 ;;##########
 ;; BYTEMARK
