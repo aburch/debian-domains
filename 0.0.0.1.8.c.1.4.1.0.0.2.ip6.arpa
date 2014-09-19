@@ -62,5 +62,6 @@ $GENERATE 0-4 $.5.2.0.0.2.0.0.0.0.0.0.0.0.0.0.0.2.0.0			IN	PTR	bm-bl1$.debian.or
 1.3.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	paradis2.debian.org.
 2.3.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	x86-bm-01.debian.org.
 3.3.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	fischer.debian.org.
+4.3.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	gideon.debian.org.
 
 ; vim:syn=dns
