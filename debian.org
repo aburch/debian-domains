@@ -611,6 +611,10 @@ ganeti			IN	A	128.31.0.49
 $ORIGIN priv.csail.debian.org.
 csail-node01-ilo	IN	A	172.29.176.11
 csail-node02-ilo	IN	A	172.29.176.12
+csail-node01-mgmt	IN	A	172.29.176.31
+csail-node02-mgmt	IN	A	172.29.176.32
+csail-node01-drbd	IN	A	172.29.178.31
+csail-node02-drbd	IN	A	172.29.178.32
 
 $ORIGIN debprivate-cecsit.debian.org.
 gluck-ilo		IN	A	172.17.4.2
