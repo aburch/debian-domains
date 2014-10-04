@@ -805,6 +805,7 @@ ftp		IN	A	70.38.0.135	; debian.mirror.iweb.ca.
 ftp		IN	AAAA	2607:f748:10:12::deb:1	; debian.mirror.iweb.ca.
 ;ftp		IN	A	132.246.2.23	; ftp3.ca ; ftp3.nrc.ca.
 ftp		IN	A	24.215.0.24	; ftp4.ca ; debian.mirror.rafal.ca.
+ftp		IN	AAAA	2001:470:1d:34b:216:3eff:fec7:3907 ; ftp4.ca ; debian.mirror.rafal.ca.
 ftp1		IN	CNAME	ftp2
 ftp2		IN	CNAME	debian.mirror.iweb.ca.
 ;ftp3		IN	CNAME	ftp3.nrc.ca.
