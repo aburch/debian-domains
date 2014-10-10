@@ -27,22 +27,24 @@ $TTL 8h
 $TTL 8h
 
 ; 192	NOT USABLE
-193	3600	IN	PTR	gw-grnet.debian.org.
-; 194
-; 195
-; 196
+193		IN	PTR	gw-grnet.debian.org.
+194		IN	PTR	ganeti.grnet.debian.org.
+195		IN	PTR	grnet-node01.debian.org.
+196		IN	PTR	grnet-node02.debian.org.
 ; 197
 ; 198
-199	3600	IN	PTR	rautavaara.debian.org.
-; 200	3600	IN	PTR	grieg.debian.org.
-
-201		IN	PTR	fasch.debian.org.	; blade1
-202		IN	PTR	holter.debian.org.	; blade2
-203		IN	PTR	barber.debian.org.	; blade3
-204		IN	PTR	biber.debian.org.	; blade4
+199		IN	PTR	rautavaara.debian.org.
+; 200
+; 201
+; 202
+; 203
+; 204
 ; 205
-206		IN	PTR	vitry.debian.org.	; blade6
-207		IN	PTR	krenek.debian.org.	; blade7
+; 206
+; 207
+; 208
+; 209
+; 210
 ; 211
 ; 212
 ; 213
