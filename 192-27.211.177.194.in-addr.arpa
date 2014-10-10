@@ -27,7 +27,7 @@ $TTL 8h
 $TTL 8h
 
 ; 192	NOT USABLE
-193		IN	PTR	gw-grnet.debian.org.
+193		IN	PTR	gw.grnet.debian.org.
 194		IN	PTR	ganeti.grnet.debian.org.
 195		IN	PTR	grnet-node01.debian.org.
 196		IN	PTR	grnet-node02.debian.org.
