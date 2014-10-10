@@ -635,6 +635,14 @@ blade0			IN	A	172.22.3.210
 rautavaara-drac		IN	A	172.22.3.11
 switch-1		IN	A	172.22.4.20 ; different network
 switch-2		IN	A	172.22.3.21
+$ORIGIN priv.grnet.debian.org.
+switch			IN	A	172.29.174.2
+grnet-node01-ilo	IN	A	172.29.174.11
+grnet-node02-ilo	IN	A	172.29.174.12
+grnet-node01-mgmt	IN	A	172.29.174.31
+grnet-node02-mgmt	IN	A	172.29.174.32
+grnet-node01-drbd	IN	A	172.29.178.31
+grnet-node02-drbd	IN	A	172.29.178.32
 
 $ORIGIN priv.sil.debian.org.
 cisco			IN	A	172.29.160.10
