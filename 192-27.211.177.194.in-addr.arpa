@@ -31,10 +31,10 @@ $TTL 8h
 194		IN	PTR	ganeti.grnet.debian.org.
 195		IN	PTR	grnet-node01.debian.org.
 196		IN	PTR	grnet-node02.debian.org.
-; 197
-; 198
+; 197 -- keep free for IN      PTR     grnet-node03.debian.org.
+; 198 -- keep free for IN      PTR     grnet-node04.debian.org.
 199		IN	PTR	rautavaara.debian.org.
-; 200
+200		IN	PTR	loghost-grnet-01.debian.org.
 ; 201
 ; 202
 ; 203
