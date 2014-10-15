@@ -884,7 +884,7 @@ ftp		IN	CNAME	cdn.debian.or.jp.
 ftp2		IN	CNAME	cdn.debian.or.jp.
 www		IN	CNAME	www.debian.org.
 $ORIGIN kr.debian.org.
-ftp		IN	CNAME	ftp.kaist.ac.kr.
+ftp	300	IN	CNAME	ftp.kaist.ac.kr.
 $ORIGIN lt.debian.org.
 ftp		IN	CNAME	debian.mirror.vu.lt. ; Arnoldas Sareckis <hostmaster@vu.lt>
 $ORIGIN mx.debian.org.
