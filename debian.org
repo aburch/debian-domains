@@ -216,7 +216,7 @@ security.na		IN	CNAME	security.debian.org.
 security.us		IN	CNAME	security.debian.org.
 security.ipv6		IN	CNAME	security.debian.org.
 security-nagios		IN	MX	0 .
-			IN	A	212.211.132.32	; villa
+			;IN	A	212.211.132.32	; villa
 			IN	A	212.211.132.250	; lobos
 			IN	A	128.31.0.36	; steffani
 			IN	A	195.20.242.89	; wieck
