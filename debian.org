@@ -418,10 +418,10 @@ mipsel-manda-02-console	IN	CNAME	console-8
 
 $ORIGIN rev.debian.org.
 ; aql
-148.6.170.141		IN	PTR	aql148.debian.org.
-149.6.170.141		IN	PTR	aql149.debian.org.
-150.6.170.141		IN	PTR	aql150.debian.org.
-151.6.170.141		IN	PTR	aql151.debian.org.
+148.6.170.141		IN	PTR	aql148.debian.org. ; console
+149.6.170.141		IN	PTR	mips-aql-01.debian.org.
+150.6.170.141		IN	PTR	mips-aql-02.debian.org.
+151.6.170.141		IN	PTR	mips-aql-03.debian.org.
 152.6.170.141		IN	PTR	aql152.debian.org.
 153.6.170.141		IN	PTR	aql153.debian.org.
 154.6.170.141		IN	PTR	aql154.debian.org.
@@ -436,9 +436,16 @@ $ORIGIN rev.debian.org.
 146.167.106.143		IN	PTR	ppc64el1.debian.net.
 
 
-$ORIGIN debprivate-aql.debian.org
-oob-vpn			IN	A	172.29.172.1
+$ORIGIN priv.aql.debian.org.
 switch			IN	A	172.29.172.2
+pdu			IN	A	172.29.172.3
+nas			IN	A	172.29.172.4
+console			IN	A	141.170.6.148 ; XXX - fixme
+
+mips-aql-01		IN	A	172.29.172.31
+mips-aql-02		IN	A	172.29.172.32
+mips-aql-03		IN	A	172.29.172.33
+
 
 $ORIGIN debprivate-oneandone.debian.org.
 wieck-drac		IN	A	192.168.253.2
