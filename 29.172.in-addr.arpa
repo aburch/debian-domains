@@ -75,10 +75,14 @@ $GENERATE 1-48 ${+100,0,d}.160	IN	PTR	console-$.priv.sil.debian.org.
 ;;#####
 ;; aql
 ;;#####
-1.172			IN	PTR	oob-vpn.debprivate-aql.debian.org.
-2.172			IN	PTR	switch.debprivate-aql.debian.org.
-3.172			IN	PTR	console.debprivate-aql.debian.org.
-$GENERATE 1-48 ${+100,0,d}.160  IN      PTR     console-$.debprivate-aql.debian.org.
+2.172			IN	PTR	switch.priv.aql.debian.org.
+3.172			IN	PTR	pdu.priv.aql.debian.org.
+4.172			IN	PTR	nas.priv.aql.debian.org.
+; $GENERATE 1-48 ${+100,0,d}.160  IN      PTR     console-$.debprivate-aql.debian.org.
+
+31.172			IN	PTR	mips-aql-01-int.priv.aql.debian.org.
+32.172			IN	PTR	mips-aql-02-int.priv.aql.debian.org.
+33.172			IN	PTR	mips-aql-03-int.priv.aql.debian.org.
 
 
 ;;#####

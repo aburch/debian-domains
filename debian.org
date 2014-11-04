@@ -448,9 +448,9 @@ console			IN	A	141.170.6.148 ; XXX - fixme
 			IN	SSHFP	1 1 822031fa3e5fe6b81f289967135739151a54a2d9
 			IN	SSHFP	1 2 2a858b9ff0032c02dd59e6d64d061e7643ea780437dcdcc8156abe88828507f7
 
-mips-aql-01		IN	A	172.29.172.31
-mips-aql-02		IN	A	172.29.172.32
-mips-aql-03		IN	A	172.29.172.33
+mips-aql-01-int		IN	A	172.29.172.31
+mips-aql-02-int		IN	A	172.29.172.32
+mips-aql-03-int		IN	A	172.29.172.33
 
 
 $ORIGIN debprivate-oneandone.debian.org.
