@@ -438,9 +438,12 @@ $ORIGIN rev.debian.org.
 
 $ORIGIN priv.aql.debian.org.
 switch			IN	A	172.29.172.2
+			IN	SSHFP	1 2 315e46654c922ca01c4ecbe44b66350f1251521b2b4dd31c02cd172b9ce320e5
 pdu			IN	A	172.29.172.3
 nas			IN	A	172.29.172.4
+			IN	SSHFP	1 2 cc124151a1e059fe02759e82002916ff6f42562ecb16dbe3e30175cf19a048ed
 console			IN	A	141.170.6.148 ; XXX - fixme
+			IN	SSHFP	1 2 2a858b9ff0032c02dd59e6d64d061e7643ea780437dcdcc8156abe88828507f7
 
 mips-aql-01		IN	A	172.29.172.31
 mips-aql-02		IN	A	172.29.172.32
