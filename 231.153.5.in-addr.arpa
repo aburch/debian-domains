@@ -63,6 +63,7 @@ $TTL 8h
 33	IN	PTR	fischer.debian.org.
 34	IN	PTR	gideon.debian.org.
 35	IN	PTR	httpredir-bm-01.debian.org.
+36	IN	PTR	lindsay.debian.org.
 
 
 125	IN	PTR	vm-gw-bl1.bm.debian.org.
