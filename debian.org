@@ -110,6 +110,7 @@ ftp-master		IN	A	138.16.160.12 ; franck
 	;		IN	MX	10 franck.debian.org.
 			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
+api.ftp-master		IN	CNAME	coccia
 metadata.ftp-master	IN	CNAME	global.prod.fastly.net.
 ftp-master.metadata	IN	CNAME	global.prod.fastly.net.
 ;ftp-master.metadata-backend	IN	CNAME	ftp-master.metadata-master
