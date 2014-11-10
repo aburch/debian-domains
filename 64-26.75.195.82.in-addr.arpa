@@ -33,7 +33,7 @@ $TTL 8h
 65	IN	PTR	wolkenstein.debian.org.
 ; 66      
 ; 67
-68      IN      PTR     rem.debian.org.
+; 68
 ; 69
 70      IN      PTR     ball.debian.org.
 ; 71
