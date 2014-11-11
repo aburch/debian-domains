@@ -655,6 +655,8 @@ gw			IN	A	194.177.211.193
 ganeti			IN	A	194.177.211.194
 $ORIGIN priv.grnet.debian.org.
 switch			IN	A	172.29.174.2
+			IN	SSHFP	1 1 736fc80e59ce17bcc55f642445df54a346e1c6be
+			IN	SSHFP	1 2 171c4a7ba2434c755efe59fc09c5e22ff13f26707a57ed2ea9aae36acbda73f3
 grnet-node01-ilo	IN	A	172.29.174.11
 grnet-node02-ilo	IN	A	172.29.174.12
 grnet-node01-mgmt	IN	A	172.29.174.31
