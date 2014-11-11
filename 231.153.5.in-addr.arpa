@@ -40,7 +40,7 @@ $TTL 8h
 9	IN	PTR	syncproxy3.eu.debian.org.
 10	IN	PTR	bmdb1.debian.org.
 11	IN	PTR	coccia.debian.org.
-12	IN	PTR	backuphost.debian.org.
+;12
 13	IN	PTR	philp.debian.org.
 14	IN	PTR	couper.debian.org.
 15	IN	PTR	rapoport.debian.org.
