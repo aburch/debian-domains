@@ -26,7 +26,7 @@ $TTL 8h
 
 $TTL 8h
 
-; 65
+65	IN	PTR	wolkenstein.debian.org.
 ; 66      
 ; 67
 68      IN      PTR     rem.debian.org.
