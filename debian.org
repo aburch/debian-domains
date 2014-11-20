@@ -895,6 +895,8 @@ $ORIGIN id.debian.org.
 www		IN	CNAME	www.debian.org.
 $ORIGIN ie.debian.org.
 ftp		IN	CNAME	debian.heanet.ie.  ; Colm MacCarthaigh <colm.maccarthaigh@heanet.ie>
+$ORIGIN ir.debian.org.
+ftp		IN	CNAME	debian.asis.io.	; factoreal@riseup.net
 $ORIGIN is.debian.org.
 ftp		IN	CNAME	debian.simnet.is.
 $ORIGIN it.debian.org.
