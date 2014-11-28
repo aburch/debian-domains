@@ -427,8 +427,8 @@ $ORIGIN rev.debian.org.
 149.6.170.141		IN	PTR	mips-aql-01.debian.org.
 150.6.170.141		IN	PTR	mips-aql-02.debian.org.
 151.6.170.141		IN	PTR	mips-aql-03.debian.org.
-152.6.170.141		IN	PTR	aql152.debian.org.
-153.6.170.141		IN	PTR	aql153.debian.org.
+152.6.170.141		IN	PTR	mipsel-aql-01.debian.org.
+153.6.170.141		IN	PTR	mipsel-aql-02.debian.org.
 154.6.170.141		IN	PTR	aql154.debian.org.
 155.6.170.141		IN	PTR	aql155.debian.org.
 156.6.170.141		IN	PTR	aql156.debian.org.
