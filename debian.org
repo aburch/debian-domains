@@ -229,6 +229,7 @@ security-nagios		IN	MX	0 .
 			IN	A	149.20.20.6	; schein
 			IN	A	150.203.164.38	; gluck
 			IN	A	200.17.202.197	; santoro
+			IN	A	133.242.99.74   ; setoguchi
 ;security-team	60	IN	CNAME	8cb93cf9d8ec5e67cfccbf5aef63e40b.lswcdn.net.
 security-team	60	IN	CNAME	static
 security-team-backend	IN	CNAME	static
