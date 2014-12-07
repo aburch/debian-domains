@@ -39,6 +39,7 @@ $TTL 8h
 ; 198 -- keep free for IN      PTR     grnet-node04.debian.org.
 199		IN	PTR	rautavaara.debian.org.
 200		IN	PTR	loghost-grnet-01.debian.org.
+201		IN	PTR	geo3.debian.org.
 ; 201
 ; 202
 ; 203

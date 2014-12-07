@@ -17,7 +17,7 @@
 ; dnsu: begin also_notify_extra
 ; 82.195.75.105; // geo1.debian.org
 ; 206.12.19.113; // geo2.debian.org
-; 195.20.242.125; // geo3.debian.org
+; 194.177.211.201; // geo3.debian.org
 ; dnsu: end also_notify_extra
 
 ; check-initial-refs = geo1.debian.org,geo2.debian.org,geo3.debian.org
