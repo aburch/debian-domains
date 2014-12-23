@@ -40,7 +40,7 @@ $TTL 8h
 199		IN	PTR	rautavaara.debian.org.
 200		IN	PTR	loghost-grnet-01.debian.org.
 201		IN	PTR	geo3.debian.org.
-202		IN	PTR	search-grnet-01.debian.org.
+202		IN	PTR	cgi-grnet-01.debian.org.
 ; 203
 ; 204
 ; 205

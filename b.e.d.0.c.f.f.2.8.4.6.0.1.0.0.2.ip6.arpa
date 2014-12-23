@@ -35,6 +35,6 @@ $TTL 8h
 6.0.2.0.4.7.e.f.f.f.2.2.4.1.2.0	IN	PTR	rautavaara.debian.org.
 0.0.2.0.1.1.2.0.0.0.0.0.0.0.0.0	IN	PTR	loghost-grnet-01.debian.org.
 1.0.2.0.1.1.2.0.0.0.0.0.0.0.0.0	IN	PTR	geo3.debian.org.
-2.0.2.0.1.1.2.0.0.0.0.0.0.0.0.0	IN	PTR	search-grnet-01.debian.org.
+2.0.2.0.1.1.2.0.0.0.0.0.0.0.0.0	IN	PTR	cgi-grnet-01.debian.org.
 
 ; vim:syn=dns
