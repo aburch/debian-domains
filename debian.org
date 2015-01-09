@@ -94,9 +94,6 @@ cvs			IN	A	5.153.231.21	; alioth - moszumanska
 d-i			IN	CNAME	static
 d-i-backend		IN	CNAME	static
 d-i-master		IN	CNAME	dillon
-ddtp			IN	A	206.12.19.128	; dukas
-			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1380	; dukas
-			IN	MX	0 dukas
 dsa			IN	CNAME	static
 darcs			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
@@ -533,7 +530,6 @@ ganeti2-mnt		IN	A	192.168.2.23
 popov-mnt		IN	A	192.168.2.69
 quantz-mnt		IN	A	192.168.2.72
 glinka-mnt		IN	A	192.168.2.76
-dukas-mnt		IN	A	192.168.2.78
 tye-mnt			IN	A	192.168.2.79
 jenkins-mnt		IN	A	192.168.2.83
 blavet-mnt		IN	A	192.168.2.84
