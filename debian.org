@@ -726,7 +726,7 @@ eder-console		IN	CNAME	console-1
 eysler-console		IN	CNAME	console-2
 cisco-console		IN	CNAME	console-3
 eberlin-console		IN	CNAME	console-4
-pdu-console		IN	CNAME	console-48
+pdu-console		IN	CNAME	console-26
 
 anguilla-mnt		IN	A	172.29.160.240
 nova-console		IN	CNAME	console-25
