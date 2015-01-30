@@ -30,14 +30,14 @@ $TTL 8h
 
 $TTL 8h
 
-6.7.8.8.e.c.e.f.f.f.8.4.0.3.2.0	IN	PTR	beethoven.debian.org.
 7.9.6.7.b.3.6.5.0.0.0.0.a.1.a.1	IN	PTR	eder.debian.org.
 8.9.6.7.b.3.6.5.0.0.0.0.a.1.a.1	IN	PTR	eysler.debian.org.
+b.9.6.7.b.3.a.b.0.0.0.0.a.1.a.1	IN	PTR	eberlin.debian.org.
 
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	asteria.debian.or.at.
 6.2.5.1.b.3.6.5.0.0.0.0.b.b.a.a	IN	PTR	tor.noreply.org.
 6.2.e.1.b.3.6.5.0.0.0.0.b.b.a.a	IN	PTR	odyssey.noreply.org.
 7.2.e.1.b.3.6.5.0.0.0.0.b.b.a.a	IN	PTR	galaxy.noreply.org.
 8.2.e.1.b.3.6.5.0.0.0.0.b.b.a.a IN	PTR	nova.torproject.org.
+2.2.5.1.b.3.6.5.0.0.0.0.b.b.a.a	IN	PTR	grongo.noreply.org.
 
 ; vim:syn=dns
