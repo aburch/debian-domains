@@ -778,6 +778,9 @@ $ORIGIN manda.debian.org.
 nut1			IN	CNAME	clementi.debian.org.
 nut2			IN	CNAME	czerny.debian.org.
 
+$ORIGIN priv.osuosl.debian.org.
+passos-fsp		IN	A	10.0.0.119
+
 
 $ORIGIN vpn.debian.org.
 gw.manda			IN	A	172.29.201.1
