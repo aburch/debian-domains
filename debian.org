@@ -237,7 +237,6 @@ snapshot-master		IN	CNAME	sibelius
 snapshot-lw05		IN	CNAME	lw05
 snapshot-lw06		IN	CNAME	lw06
 snapshot-lw07		IN	CNAME	lw07-2
-snapshot-stabile	IN	CNAME	stabile2
 snapshot-sibelius	IN	CNAME	sibelius2
 ; common misseppling
 snapshots		IN	CNAME	snapshot
@@ -315,7 +314,6 @@ rtc-master		IN	CNAME	dillon
 
 ; restricted services
 ;; ubc
-;mirror-ubc		IN	CNAME	stabile
 mirror-ubc		IN	CNAME	glinka
 ;mirror-ubc		IN	CNAME	klecker-ftp.debian.org.
 
@@ -335,8 +333,6 @@ paradis2		IN	A	5.153.231.31
 schein-ilo		IN	A	149.20.20.194
 sibelius2		IN	A	193.62.202.30
 			IN	AAAA	2001:630:206:4000:1a1a:0:c13e:ca1e
-stabile2		IN	A	206.12.19.150
-			IN	AAAA	2607:f8f0:610:4000:1a1a:0:ce0c:1396
 mirror-csail-security	IN	A	128.31.0.63
 
 ; brown
@@ -474,7 +470,6 @@ bastion-ubcece		IN	A	206.12.19.251
 
 $ORIGIN debprivate-ubc.debian.org.
 ; iscsi network
-stabile-iscsi		IN	A	10.0.0.2
 giustini-a0-iscsi	IN	A	10.0.0.17
 giustini-a1-iscsi	IN	A	10.0.0.18
 giustini-b0-iscsi	IN	A	10.0.0.19
@@ -510,7 +505,6 @@ ravel-mnt		IN	A	192.168.2.5
 ravel-console		IN	CNAME	kais-console
 giustini-mnt		IN	A	192.168.2.6
 polymer-mnt		IN	A	192.168.2.8	; polymer.oftc.net <noc@oftc.net>
-stabile-mnt		IN	A	192.168.2.13
 spontini-mnt		IN	A	192.168.2.14
 
 lucatelli-mnt		IN	A	192.168.2.15
