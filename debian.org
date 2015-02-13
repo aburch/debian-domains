@@ -254,7 +254,7 @@ syncproxy3.eu		IN	A	5.153.231.9		; milanollo
 			IN	AAAA	2001:41c8:1000:21::21:9	; milanollo
 syncproxy.wna		IN	A	140.211.166.44	; rietz
 syncproxy.na		IN	A	128.31.0.64	; mirror-csail
-ubcece			IN	A	206.12.19.22	; rossini VIP for ganeti
+ubcece			IN	A	206.12.19.22	; VIP for ganeti
 ganeti2			IN	A	206.12.19.23	; pasquini/tristano/bertali/boito ganeti vip
 ganeti3			IN	A	82.195.75.111	; czerny/clementi
 ganeti-osuosl		IN	A	140.211.166.30	; byrd
@@ -494,9 +494,7 @@ boito-iscsi		IN	CNAME	strozzi-db6-iscsi
 pasquini-iscsi		IN	CNAME	strozzi-db7-iscsi
 dijkstra-iscsi		IN	CNAME	strozzi-db8-iscsi
 
-salieri-iscsi		IN	A	10.0.0.241
 traetta-iscsi		IN	A	10.0.0.242
-rossini-iscsi		IN	A	10.0.0.243
 
 ; rule seems to be that the last octet is host's real address' last octet
 bizet-iscsi		IN	A	10.0.0.137
@@ -520,8 +518,6 @@ corelli-mnt		IN	A	192.168.2.16
 gabrielli-mnt		IN	A	192.168.2.17
 torelli-mnt		IN	A	192.168.2.18
 
-rossini-mnt		IN	A	192.168.2.19
-salieri-mnt		IN	A	192.168.2.20
 traetta-mnt		IN	A	192.168.2.21
 ganeti1-mnt		IN	A	192.168.2.22
 ganeti2-mnt		IN	A	192.168.2.23
@@ -538,8 +534,6 @@ beach-mnt		IN	A	192.168.2.90
 ullman-mnt		IN	A	192.168.2.91
 sonntag-mnt		IN	A	192.168.2.92
 
-rossini-ilo		IN	A	192.168.2.119
-salieri-ilo		IN	A	192.168.2.120
 traetta-ilo		IN	A	192.168.2.121
 
 positron-mnt		IN	A	192.168.2.241	; positron.oftc.net <noc@oftc.net>
