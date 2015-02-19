@@ -130,6 +130,16 @@ $GENERATE 1-14 $.120	IN	PTR	bm-bl$-backend.priv.bm.debian.org.
 ; vlan 22 - 172.29.122/24
 2.122			IN	PTR	milanollo-backend.priv.bm.debian.org.
 3.122			IN	PTR	picconi-backend.priv.bm.debian.org.
+6.122			IN	PTR	pejacevic-backend.priv.bm.debian.org.
+7.122			IN	PTR	piu-slave-bm-a-backend.priv.bm.debian.org.
+11.122			IN	PTR	coccia-backend.priv.bm.debian.org.
+14.122			IN	PTR	couper-backend.priv.bm.debian.org.
+17.122			IN	PTR	delfin-backend.priv.bm.debian.org.
+20.122			IN	PTR	donizetti-backend.priv.bm.debian.org.
+22.122			IN	PTR	dillon-backend.priv.bm.debian.org.
+23.122			IN	PTR	ticharich-backend.priv.bm.debian.org.
+28.122			IN	PTR	quantz-backend.priv.bm.debian.org.
+36.122			IN	PTR	lindsay-backend.priv.bm.debian.org.
 
 ; vlan 23 - 172.29.123/24
 $GENERATE 1-14 $.123	IN	PTR	bm-bl$-backend.openstack.bm.debian.org.
