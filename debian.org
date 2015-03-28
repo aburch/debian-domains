@@ -523,7 +523,6 @@ glinka-mnt		IN	A	192.168.2.76
 tye-mnt			IN	A	192.168.2.79
 jenkins-mnt		IN	A	192.168.2.83
 blavet-mnt		IN	A	192.168.2.84
-lilburn-mnt		IN	A	192.168.2.88
 beach-mnt		IN	A	192.168.2.90
 ullman-mnt		IN	A	192.168.2.91
 sonntag-mnt		IN	A	192.168.2.92
