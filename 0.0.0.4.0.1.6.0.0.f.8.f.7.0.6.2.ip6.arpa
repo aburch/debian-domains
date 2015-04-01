@@ -62,7 +62,6 @@ f.7.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	leda.debian.net.
 ;7.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR
 8.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	diabelli.debian.org.
 9.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	bizet.debian.org.
-a.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	lilburn.debian.org.
 ; b.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR
 c.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	beach.debian.org.
 d.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	ullmann.debian.org.

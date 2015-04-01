@@ -41,7 +41,7 @@ $TTL 8h
 200		IN	PTR	loghost-grnet-01.debian.org.
 201		IN	PTR	geo3.debian.org.
 202		IN	PTR	cgi-grnet-01.debian.org.
-; 203
+203		IN	PTR	x86-grnet-01.debian.org.
 ; 204
 ; 205
 ; 206

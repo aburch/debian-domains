@@ -223,7 +223,7 @@ security-nagios		IN	MX	0 .
 			IN	A	212.211.132.250	; lobos
 			IN	A	128.31.0.63	; mirror-csail-security
 			IN	A	195.20.242.89	; wieck
-			IN	A	128.101.240.212	; saens
+			;IN	A	128.101.240.212	; saens
 			IN	A	149.20.20.6	; schein
 			IN	A	150.203.164.38	; gluck
 			IN	A	200.17.202.197	; santoro
@@ -430,7 +430,6 @@ $ORIGIN rev.debian.org.
 158.6.170.141		IN	PTR	aql158.debian.org.
 ; csail
 36.0.31.128		IN	PTR	steffani.debian.org.
-51.0.31.128		IN	PTR	senfl.debian.org.
 ; unicamp
 146.167.106.143		IN	PTR	ppc64el1.debian.net.
 
@@ -524,7 +523,6 @@ glinka-mnt		IN	A	192.168.2.76
 tye-mnt			IN	A	192.168.2.79
 jenkins-mnt		IN	A	192.168.2.83
 blavet-mnt		IN	A	192.168.2.84
-lilburn-mnt		IN	A	192.168.2.88
 beach-mnt		IN	A	192.168.2.90
 ullman-mnt		IN	A	192.168.2.91
 sonntag-mnt		IN	A	192.168.2.92
@@ -882,7 +880,8 @@ www		IN	CNAME	www.debian.org.
 $ORIGIN gr.debian.org.
 ftp		IN	CNAME	patroklos.noc.ntua.gr.
 $ORIGIN hk.debian.org.
-ftp		IN	A	202.134.73.139 ; Anthony Wong <ypwong@debian.org>
+;ftp		IN	A	202.134.73.139 ; Anthony Wong <ypwong@debian.org>
+ftp		IN	CNAME	ftp.jaist.ac.jp. ; ftp.jp.debian.org.
 www		IN	CNAME	www.debian.org.
 $ORIGIN hr.debian.org.
 ftp		IN	A	161.53.160.11
