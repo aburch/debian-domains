@@ -960,8 +960,9 @@ ftp	300	IN	CNAME	debian.hands.com.
 ;ftp	300	IN	CNAME	mirror.bytemark.co.uk.	; backup
 www		IN	CNAME	www.debian.org.
 $ORIGIN us.debian.org.
-ftp	300	IN	A	64.50.236.52		; ftp-chi.osuosl.org
-ftp1	300	IN	A	64.50.236.52		; ftp-chi.osuosl.org
+;ftp	300	IN	A	64.50.236.52		; ftp-chi.osuosl.org
+;ftp1	300	IN	A	64.50.236.52		; ftp-chi.osuosl.org
+ftp1	300	IN	CNAME ftp
 ftp	300	IN	A	64.50.233.100		; ftp-nyc.osuosl.org
 ftp2	300	IN	A	64.50.233.100		; ftp-nyc.osuosl.org
 ftp3	300	IN	A	128.61.240.89		; debian.gtisc.gatech.edu (edmonds@debian.org)
