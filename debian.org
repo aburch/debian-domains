@@ -127,7 +127,8 @@ gobby			IN	CNAME	gombert
 hg			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
 			IN	MX	0 .
-httpredir	30	IN	A	5.153.231.35
+httpredir		IN	MX	0 .
+			; A/AAAA records via services-auto
 i18n			IN	A	206.12.19.129	; tye
 			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1381	; tye
 			IN	MX	0 tye
