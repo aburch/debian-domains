@@ -895,8 +895,7 @@ $ORIGIN ie.debian.org.
 ftp		IN	CNAME	debian.heanet.ie.  ; Colm MacCarthaigh <colm.maccarthaigh@heanet.ie>
 $ORIGIN ir.debian.org.
 ;ftp		IN	CNAME	debian.asis.io.	; factoreal@riseup.net
-ftp		IN	A	79.127.125.148 ; part of debian.asis.io
-ftp		IN	A	79.127.125.149
+ftp		IN	A	94.182.227.31 ; part of debian.asis.io
 $ORIGIN is.debian.org.
 ftp		IN	CNAME	debian.simnet.is.
 $ORIGIN it.debian.org.
