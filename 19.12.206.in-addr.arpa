@@ -47,7 +47,7 @@ $TTL 8h
 ; 2 reserved (kais-console)
 ; 3
 ; 4
-5		IN	PTR	ravel.debian.org.
+; 5
 ; 6 reserved (giustini-mnt)
 14		IN	PTR	spontini.debian.org.
 15 		IN	PTR	lucatelli.debian.org.

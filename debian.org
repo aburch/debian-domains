@@ -127,7 +127,8 @@ gobby			IN	CNAME	gombert
 hg			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
 			IN	MX	0 .
-httpredir		IN	CNAME	httpredir-bm-01
+httpredir		IN	MX	0 .
+			; A/AAAA records via services-auto
 i18n			IN	A	206.12.19.129	; tye
 			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1381	; tye
 			IN	MX	0 tye
@@ -498,11 +499,8 @@ coincy-iscsi		IN	A	10.0.0.144
 ; management network
 mcld-console		IN	A	192.168.2.1	; OpenGear CM4008
 kais-console		IN	A	192.168.2.2	; OpenGear CM4148
-;ravel-ilo		IN	A	192.168.2.3	; FIXME (pedantism)
 polymer-ipmi		IN	A	192.168.2.4	; polymer.oftc.net <noc@oftc.net>
 spontini-console	IN	CNAME	mcld-console
-ravel-mnt		IN	A	192.168.2.5
-ravel-console		IN	CNAME	kais-console
 giustini-mnt		IN	A	192.168.2.6
 polymer-mnt		IN	A	192.168.2.8	; polymer.oftc.net <noc@oftc.net>
 spontini-mnt		IN	A	192.168.2.14
@@ -575,7 +573,7 @@ strozzi-db6-mnt		IN	A	192.168.2.216
 strozzi-db7-mnt		IN	A	192.168.2.217
 strozzi-db8-mnt		IN	A	192.168.2.218
 strozzi-oa1		IN	A	192.168.2.219
-ravel-ilo		IN	A	192.168.2.220	; FIXME: should be strozzi-oa2 (pedantism)
+; ravel-ilo		IN	A	192.168.2.220	; FIXME: should be strozzi-oa2 (pedantism)
 strozzi-db1-ilo		IN	A	192.168.2.221
 strozzi-db2-ilo		IN	A	192.168.2.222
 strozzi-db3-ilo		IN	A	192.168.2.223
@@ -893,7 +891,8 @@ www		IN	CNAME	www.debian.org.
 $ORIGIN ie.debian.org.
 ftp		IN	CNAME	debian.heanet.ie.  ; Colm MacCarthaigh <colm.maccarthaigh@heanet.ie>
 $ORIGIN ir.debian.org.
-ftp		IN	CNAME	debian.asis.io.	; factoreal@riseup.net
+;ftp		IN	CNAME	debian.asis.io.	; factoreal@riseup.net
+ftp		IN	A	94.182.227.31 ; part of debian.asis.io
 $ORIGIN is.debian.org.
 ftp		IN	CNAME	debian.simnet.is.
 $ORIGIN it.debian.org.
@@ -950,8 +949,7 @@ $ORIGIN tr.debian.org.
 ftp		IN	CNAME	debian.lyildirim.net.	; Levent YILDIRIM <levent@lyildirim.net>
 ; Andrew Lee <andrew@linux.org.tw>
 $ORIGIN tw.debian.org.
-;ftp		IN	CNAME	debian.linux.org.tw.
-ftp		IN	CNAME	ftp.jp.debian.org.
+ftp		IN	CNAME	debian.linux.org.tw.
 $ORIGIN ua.debian.org.
 ftp		IN	CNAME	ftp.debian.org.ua.
 www		IN	CNAME	www.debian.org.
@@ -960,8 +958,9 @@ ftp	300	IN	CNAME	debian.hands.com.
 ;ftp	300	IN	CNAME	mirror.bytemark.co.uk.	; backup
 www		IN	CNAME	www.debian.org.
 $ORIGIN us.debian.org.
-ftp	300	IN	A	64.50.236.52		; ftp-chi.osuosl.org
-ftp1	300	IN	A	64.50.236.52		; ftp-chi.osuosl.org
+;ftp	300	IN	A	64.50.236.52		; ftp-chi.osuosl.org
+;ftp1	300	IN	A	64.50.236.52		; ftp-chi.osuosl.org
+ftp1	300	IN	CNAME ftp
 ftp	300	IN	A	64.50.233.100		; ftp-nyc.osuosl.org
 ftp2	300	IN	A	64.50.233.100		; ftp-nyc.osuosl.org
 ftp3	300	IN	A	128.61.240.89		; debian.gtisc.gatech.edu (edmonds@debian.org)
@@ -1028,6 +1027,7 @@ CDEE7681F8631697E6335A1378527168.rt.debian.org. 10800 IN CNAME C497A4AAC8F0CB364
 10CF5A6B716422EC0F9051E959FE028B.hg.debian.org. 10800 IN CNAME 0C5A0298B3132EF80014D53779478F1840BB71AD.comodoca.com.
 10CF5A6B716422EC0F9051E959FE028B.scm.debian.org. 10800 IN CNAME 0C5A0298B3132EF80014D53779478F1840BB71AD.comodoca.com.
 10CF5A6B716422EC0F9051E959FE028B.svn.debian.org. 10800 IN CNAME 0C5A0298B3132EF80014D53779478F1840BB71AD.comodoca.com.
+ED17BEB411E6631FACAAF70D0EC72E23.gobby.debian.org. 10800 IN CNAME 0325D208BD2608FFF4ADA481E2692AF0862A01ED.comodoca.com.		; temp entry for SSL Cert validation
 
 _domainkey.debian.org.			60	IN	TXT	( "t=y;" "o=~;" )
 lfilipoz.user._domainkey.debian.org.	60	IN	TXT	( "t=y;" "v=DKIM1;" "k=rsa;" "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrtt9E+Samg9B14Dm6/ehktir/fEzvzWR0fvsPci0ITmeHwFwD+jTZaPKnNR/wHK/nQzq53DR3M5D/Klc4Tpg3IR3917tjradvoQVP1QmmFWKB+UQERDiY59PXW1qsacbQMGdQa318WLYevTVIsOGwOvQLFi1QGmT1j+qSmsjBgQIDAQAB;" ) ;
