@@ -100,7 +100,7 @@ $TTL 8h
 214		IN	PTR	luchesi.debian.org.
 216		IN	PTR	boito.debian.org.
 217		IN	PTR	pasquini.debian.org.
-218		IN	PTR	dijkstra.debian.org.
+218		IN	PTR	ubc-bl8.debian.org.
 
 240		IN	PTR	polymer.oftc.net.
 241		IN	PTR	positron.oftc.net.
