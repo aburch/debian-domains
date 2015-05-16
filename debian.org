@@ -256,7 +256,7 @@ syncproxy3.eu		IN	A	5.153.231.9		; milanollo
 syncproxy.wna		IN	A	140.211.166.44	; rietz
 syncproxy.na		IN	A	128.31.0.64	; mirror-csail
 ubcece			IN	A	206.12.19.22	; VIP for ganeti
-ganeti2			IN	A	206.12.19.23	; pasquini/tristano/bertali/boito ganeti vip
+ganeti2			IN	A	206.12.19.23	; pasquini/tristano/ubc-bl2/boito ganeti vip
 ganeti3			IN	A	82.195.75.111	; czerny/clementi
 ganeti-osuosl		IN	A	140.211.166.30	; byrd
 ganeti-1and1		IN	A	172.29.150.100	; powell
@@ -483,7 +483,7 @@ strozzi-db5-iscsi	IN	A	10.0.0.215
 strozzi-db6-iscsi	IN	A	10.0.0.216
 strozzi-db7-iscsi	IN	A	10.0.0.217
 strozzi-db8-iscsi	IN	A	10.0.0.218
-bertali-iscsi		IN	CNAME	strozzi-db2-iscsi
+ubc-bl2-iscsi		IN	CNAME	strozzi-db2-iscsi
 tristano-iscsi		IN	CNAME	strozzi-db3-iscsi
 luchesi-iscsi		IN	CNAME	strozzi-db4-iscsi
 boito-iscsi		IN	CNAME	strozzi-db6-iscsi
@@ -532,9 +532,9 @@ lux-mnt			IN	A	192.168.2.243	; lux.oftc.net <noc@oftc.net>
 
 bastion			IN	A	192.168.2.251
 
-; bertali is a BL460c G7 blade in device bay 2 of strozzi
-bertali-mnt		IN	CNAME	strozzi-db2-mnt
-bertali-ilo		IN	CNAME	strozzi-db2-ilo
+; ubc-bl2 is a BL460c G7 blade in device bay 2 of strozzi
+ubc-bl2-mnt		IN	CNAME	strozzi-db2-mnt
+ubc-bl2-ilo		IN	CNAME	strozzi-db2-ilo
 ; tristano is a BL460c G7 blade in device bay 3 of strozzi
 tristano-mnt		IN	CNAME	strozzi-db3-mnt
 tristano-ilo		IN	CNAME	strozzi-db3-ilo
