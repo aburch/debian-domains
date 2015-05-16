@@ -488,7 +488,7 @@ tristano-iscsi		IN	CNAME	strozzi-db3-iscsi
 luchesi-iscsi		IN	CNAME	strozzi-db4-iscsi
 boito-iscsi		IN	CNAME	strozzi-db6-iscsi
 pasquini-iscsi		IN	CNAME	strozzi-db7-iscsi
-dijkstra-iscsi		IN	CNAME	strozzi-db8-iscsi
+ubc-bl8-iscsi		IN	CNAME	strozzi-db8-iscsi
 
 traetta-iscsi		IN	A	10.0.0.242
 
@@ -547,9 +547,9 @@ boito-ilo		IN	CNAME	strozzi-db6-ilo
 ; pasquini is a BL460c G7 blade in device bay 7 of strozzi
 pasquini-mnt		IN	CNAME	strozzi-db7-mnt
 pasquini-ilo		IN	CNAME	strozzi-db7-ilo
-; dijkstra is a BL460c G5 blade in device bay 8 of strozzi
-dijkstra-mnt		IN	CNAME	strozzi-db8-mnt
-dijkstra-ilo		IN	CNAME	strozzi-db8-ilo
+; ubc-bl8 is a BL460c G5 blade in device bay 8 of strozzi
+ubc-bl8-mnt		IN	CNAME	strozzi-db8-mnt
+ubc-bl8-ilo		IN	CNAME	strozzi-db8-ilo
 ; switch
 kais-switch		IN	A	192.168.2.97	; NetGear GS748T
 ; remotely managable power distribution units
