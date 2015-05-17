@@ -256,7 +256,7 @@ syncproxy3.eu		IN	A	5.153.231.9		; milanollo
 syncproxy.wna		IN	A	140.211.166.44	; rietz
 syncproxy.na		IN	A	128.31.0.64	; mirror-csail
 ubcece			IN	A	206.12.19.22	; VIP for ganeti
-ganeti2			IN	A	206.12.19.23	; pasquini/ubc-bl3/ubc-bl2/ubc-bl6 ganeti vip
+ganeti2			IN	A	206.12.19.23	; ubc-bl7/ubc-bl3/ubc-bl2/ubc-bl6 ganeti vip
 ganeti3			IN	A	82.195.75.111	; czerny/clementi
 ganeti-osuosl		IN	A	140.211.166.30	; byrd
 ganeti-1and1		IN	A	172.29.150.100	; powell
@@ -487,7 +487,7 @@ ubc-bl2-iscsi		IN	CNAME	strozzi-db2-iscsi
 ubc-bl3-iscsi		IN	CNAME	strozzi-db3-iscsi
 luchesi-iscsi		IN	CNAME	strozzi-db4-iscsi
 ubc-bl6-iscsi		IN	CNAME	strozzi-db6-iscsi
-pasquini-iscsi		IN	CNAME	strozzi-db7-iscsi
+ubc-bl7-iscsi		IN	CNAME	strozzi-db7-iscsi
 ubc-bl8-iscsi		IN	CNAME	strozzi-db8-iscsi
 
 traetta-iscsi		IN	A	10.0.0.242
@@ -544,9 +544,9 @@ luchesi-ilo		IN	CNAME	strozzi-db4-ilo
 ; ubc-bl6 is a BL460c G7 blade in device bay 6 of strozzi
 ubc-bl6-mnt		IN	CNAME	strozzi-db6-mnt
 ubc-bl6-ilo		IN	CNAME	strozzi-db6-ilo
-; pasquini is a BL460c G7 blade in device bay 7 of strozzi
-pasquini-mnt		IN	CNAME	strozzi-db7-mnt
-pasquini-ilo		IN	CNAME	strozzi-db7-ilo
+; ubc-bl7 is a BL460c G7 blade in device bay 7 of strozzi
+ubc-bl7-mnt		IN	CNAME	strozzi-db7-mnt
+ubc-bl7-ilo		IN	CNAME	strozzi-db7-ilo
 ; ubc-bl8 is a BL460c G5 blade in device bay 8 of strozzi
 ubc-bl8-mnt		IN	CNAME	strozzi-db8-mnt
 ubc-bl8-ilo		IN	CNAME	strozzi-db8-ilo

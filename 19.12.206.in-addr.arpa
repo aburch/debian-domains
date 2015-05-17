@@ -99,7 +99,7 @@ $TTL 8h
 213		IN	PTR	ubc-bl3.debian.org.
 214		IN	PTR	luchesi.debian.org.
 216		IN	PTR	ubc-bl6.debian.org.
-217		IN	PTR	pasquini.debian.org.
+217		IN	PTR	ubc-bl7.debian.org.
 218		IN	PTR	ubc-bl8.debian.org.
 
 240		IN	PTR	polymer.oftc.net.
