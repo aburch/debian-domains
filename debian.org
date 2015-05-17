@@ -485,7 +485,7 @@ strozzi-db7-iscsi	IN	A	10.0.0.217
 strozzi-db8-iscsi	IN	A	10.0.0.218
 ubc-bl2-iscsi		IN	CNAME	strozzi-db2-iscsi
 ubc-bl3-iscsi		IN	CNAME	strozzi-db3-iscsi
-luchesi-iscsi		IN	CNAME	strozzi-db4-iscsi
+ubc-bl4-iscsi		IN	CNAME	strozzi-db4-iscsi
 ubc-bl6-iscsi		IN	CNAME	strozzi-db6-iscsi
 ubc-bl7-iscsi		IN	CNAME	strozzi-db7-iscsi
 ubc-bl8-iscsi		IN	CNAME	strozzi-db8-iscsi
@@ -538,9 +538,9 @@ ubc-bl2-ilo		IN	CNAME	strozzi-db2-ilo
 ; ubc-bl3 is a BL460c G7 blade in device bay 3 of strozzi
 ubc-bl3-mnt		IN	CNAME	strozzi-db3-mnt
 ubc-bl3-ilo		IN	CNAME	strozzi-db3-ilo
-; luchesi is a BL460c G5 blade in device bay 4 of strozzi
-luchesi-mnt		IN	CNAME	strozzi-db4-mnt
-luchesi-ilo		IN	CNAME	strozzi-db4-ilo
+; ubc-bl4 is a BL460c G5 blade in device bay 4 of strozzi
+ubc-bl4-mnt		IN	CNAME	strozzi-db4-mnt
+ubc-bl4-ilo		IN	CNAME	strozzi-db4-ilo
 ; ubc-bl6 is a BL460c G7 blade in device bay 6 of strozzi
 ubc-bl6-mnt		IN	CNAME	strozzi-db6-mnt
 ubc-bl6-ilo		IN	CNAME	strozzi-db6-ilo

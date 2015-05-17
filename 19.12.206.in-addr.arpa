@@ -97,7 +97,7 @@ $TTL 8h
 
 212		IN	PTR	ubc-bl2.debian.org.
 213		IN	PTR	ubc-bl3.debian.org.
-214		IN	PTR	luchesi.debian.org.
+214		IN	PTR	ubc-bl4.debian.org.
 216		IN	PTR	ubc-bl6.debian.org.
 217		IN	PTR	ubc-bl7.debian.org.
 218		IN	PTR	ubc-bl8.debian.org.
