@@ -944,7 +944,8 @@ ftp		IN	CNAME	mirrors.gts.sk.
 $ORIGIN sv.debian.org.
 ftp		IN	A	190.86.138.212		; debian.salud.gob.sv <mirror@salud.gob.sv>
 $ORIGIN th.debian.org.
-ftp		IN	CNAME	ftp.coe.psu.ac.th.
+; ftp		IN	CNAME	ftp.coe.psu.ac.th.
+ftp		IN	CNAME	ftp.jaist.ac.jp. ; ftp.jp.debian.org.
 $ORIGIN tr.debian.org.
 ftp		IN	CNAME	debian.lyildirim.net.	; Levent YILDIRIM <levent@lyildirim.net>
 ; Andrew Lee <andrew@linux.org.tw>
