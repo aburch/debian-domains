@@ -57,6 +57,7 @@ $TTL 8h
 ;; sil
 ;;#####
 10.160			IN	PTR	cisco.priv.sil.debian.org.
+11.160			IN	PTR	pdu.priv.sil.debian.org.
 50.160			IN	PTR	eder-mnt.priv.sil.debian.org.
 51.160			IN	PTR	eysler-mnt.priv.sil.debian.org.
 53.160			IN	PTR	eberlin-mnt.priv.sil.debian.org.

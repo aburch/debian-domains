@@ -651,6 +651,7 @@ grnet-node02-drbd	IN	A	172.29.178.32
 
 $ORIGIN priv.sil.debian.org.
 cisco			IN	A	172.29.160.10
+pdu			IN	A	172.29.160.11
 eder-mnt		IN	A	172.29.160.50
 eysler-mnt		IN	A	172.29.160.51
 eberlin-mnt		IN	A	172.29.160.53
