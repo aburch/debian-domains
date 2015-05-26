@@ -57,10 +57,8 @@ $TTL 8h
 ;; sil
 ;;#####
 10.160			IN	PTR	cisco.priv.sil.debian.org.
-40.160			IN	PTR	beethoven-ilo.priv.sil.debian.org.
 50.160			IN	PTR	eder-mnt.priv.sil.debian.org.
 51.160			IN	PTR	eysler-mnt.priv.sil.debian.org.
-52.160			IN	PTR	beethoven-mnt.priv.sil.debian.org.
 53.160			IN	PTR	eberlin-mnt.priv.sil.debian.org.
 100.160			IN	PTR	console.priv.sil.debian.org.
 240.160			IN	PTR	anguilla-mnt.priv.sil.debian.org.

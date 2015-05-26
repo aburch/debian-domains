@@ -651,10 +651,8 @@ grnet-node02-drbd	IN	A	172.29.178.32
 
 $ORIGIN priv.sil.debian.org.
 cisco			IN	A	172.29.160.10
-beethoven-ilo		IN	A	172.29.160.40
 eder-mnt		IN	A	172.29.160.50
 eysler-mnt		IN	A	172.29.160.51
-beethoven-mnt		IN	A	172.29.160.52
 eberlin-mnt		IN	A	172.29.160.53
 console			IN	A	172.29.160.100
 			IN	SSHFP	1 1 53002640141d9737fd9291c285bd39c699a732ba
