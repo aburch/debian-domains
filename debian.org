@@ -987,6 +987,7 @@ www		IN	CNAME	www.debian.org.
 $INCLUDE "/var/lib/misc/thishost/dns-sshfp"
 $INCLUDE "/srv/dns.debian.org/puppet-extra/include-debian.org"
 
+
 ; gandi validation stuff
 0E2423B85BD99FC7CD67C045B6F69377.debian.org. 10800 IN CNAME FB7542951F3C645930D3FAE40D68C609CF19629A.comodoca.com.			; temp entry for SSL Cert validation
 D5878BB142F0A1E6E143677001927948.bugs.debian.org. 10800 IN CNAME 7D06D1EF346E5DC0DC36D5FB5FA14DE25ABF0435.comodoca.com.			; temp entry for SSL Cert validation
