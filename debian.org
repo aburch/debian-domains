@@ -761,6 +761,7 @@ dillon-backend.priv			IN	A	172.29.122.22
 ticharich-backend.priv			IN	A	172.29.122.23
 quantz-backend.priv			IN	A	172.29.122.28
 lindsay-backend.priv			IN	A	172.29.122.36
+mekeel-backend.priv			IN	A	172.29.122.40
 
 $GENERATE 1-14 bm-bl$-backend.openstack	IN A	172.29.123.$
 oyens-backend.openstack	IN	A	172.29.123.26

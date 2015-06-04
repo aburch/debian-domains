@@ -139,6 +139,7 @@ $GENERATE 1-14 $.120	IN	PTR	bm-bl$-backend.priv.bm.debian.org.
 23.122			IN	PTR	ticharich-backend.priv.bm.debian.org.
 28.122			IN	PTR	quantz-backend.priv.bm.debian.org.
 36.122			IN	PTR	lindsay-backend.priv.bm.debian.org.
+40.122			IN	PTR	mekeel-backend.priv.bm.debian.org.
 
 ; vlan 23 - 172.29.123/24
 $GENERATE 1-14 $.123	IN	PTR	bm-bl$-backend.openstack.bm.debian.org.
