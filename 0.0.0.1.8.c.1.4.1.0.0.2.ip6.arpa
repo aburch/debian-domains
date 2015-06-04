@@ -72,5 +72,7 @@ $GENERATE 0-4 $.5.2.0.0.2.0.0.0.0.0.0.0.0.0.0.0.2.0.0			IN	PTR	bm-bl1$.debian.or
 7.3.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	fede.debian.org.
 8.3.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	sor.debian.org.
 9.3.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	jerea.debian.org.
+0.4.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	mekeel.debian.org.
+1.4.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	pittar.debian.org.
 
 ; vim:syn=dns

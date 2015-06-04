@@ -71,6 +71,8 @@ $TTL 8h
 37	IN	PTR	fede.debian.org.
 38	IN	PTR	sor.debian.org.
 39	IN	PTR	jerea.debian.org.
+40	IN	PTR	mekeel.debian.org.
+41	IN	PTR	pittar.debian.org.
 
 
 125	IN	PTR	vm-gw-bl1.bm.debian.org.
