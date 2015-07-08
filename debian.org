@@ -412,7 +412,6 @@ console-47		IN	SSHFP	1 1 822031fa3e5fe6b81f289967135739151a54a2d9
 console-48		IN	SSHFP	1 1 822031fa3e5fe6b81f289967135739151a54a2d9
 sw01-net-da-console	IN	CNAME	console-1
 sw02-net-da-console	IN	CNAME	console-2
-ball-console		IN	CNAME	console-4
 mipsel-manda-01-console	IN	CNAME	console-7
 mipsel-manda-02-console	IN	CNAME	console-8
 
