@@ -177,9 +177,9 @@ planet-fastly		IN	CNAME	global.prod.fastly.net.
 planet-backend		IN	CNAME	static
 planet-master		IN	CNAME	philp
 planet-search		IN	CNAME	philp
-popcon			IN	A	206.12.19.119	; popov
-			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1377	; popov
-			IN	MX	10 popov.debian.org.
+popcon		60	IN	A	206.12.19.119	; popov
+		60	IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1377	; popov
+		60	IN	MX	10 popov.debian.org.
 ports			IN	CNAME	static
 www.ports		IN	CNAME	static
 www.ports-backend	IN	CNAME	static
