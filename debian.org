@@ -101,6 +101,7 @@ darcs			IN	A	5.153.231.21	; alioth - moszumanska
 db			IN	A	82.195.75.106	; draghi
 			IN	AAAA	2001:41b8:202:deb:1a1a:0:52c3:4b6a	; draghi
 			IN	MX	10 draghi.debian.org.
+browse.dgit		IN	CNAME	cgi-grnet-01
 dns			IN	CNAME	denis
 ftp			IN	MX	0 .
 			; A/AAAA records via services-auto
