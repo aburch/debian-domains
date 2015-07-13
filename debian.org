@@ -49,6 +49,7 @@ alioth			IN	NS	sec1.rcode0.net.
 			IN	NS	dns1.easydns.com.
 $INCLUDE "/srv/dns.debian.org/var/keys/alioth.debian.org/dsset"
 anonscm			IN	A	5.153.231.21	; alioth - moszumanska
+appstream		IN	CNAME	static
 arch			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
 			IN	MX	0 .
