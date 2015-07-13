@@ -104,6 +104,7 @@ db			IN	A	82.195.75.106	; draghi
 			IN	MX	10 draghi.debian.org.
 browse.dgit		IN	CNAME	cgi-grnet-01
 git.dgit		IN	CNAME	cgi-grnet-01
+push.dgit		IN	CNAME	gideon
 dns			IN	CNAME	denis
 ftp			IN	MX	0 .
 			; A/AAAA records via services-auto
