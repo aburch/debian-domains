@@ -787,6 +787,7 @@ nut2			IN	CNAME	czerny.debian.org.
 
 $ORIGIN priv.osuosl.debian.org.
 passos-fsp		IN	A	10.0.0.119
+pieta-fsp		IN	A	10.0.0.167
 
 
 $ORIGIN vpn.debian.org.
