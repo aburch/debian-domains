@@ -438,6 +438,7 @@ $ORIGIN rev.debian.org.
 146.167.106.143		IN	PTR	ppc64el1.debian.net.
 ; osuosl - 140.211.166.192/27
 195.166.211.140		IN	PTR	pieta.debian.org.
+196.166.211.140		IN	PTR	ppc64el-osuosl-01.debian.org.
 
 
 $ORIGIN priv.aql.debian.org.
