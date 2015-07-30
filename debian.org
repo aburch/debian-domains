@@ -437,9 +437,12 @@ $ORIGIN rev.debian.org.
 ; unicamp
 146.167.106.143		IN	PTR	ppc64el1.debian.net.
 ; osuosl - 140.211.166.192/27
+; 194	.. passos (power7)
 195.166.211.140		IN	PTR	pieta.debian.org.
 196.166.211.140		IN	PTR	ppc64el-osuosl-01.debian.org.
-
+197.166.211.140		IN	PTR	powerpc-osuosl-01.debian.org.
+; ...
+; 223 .. broadcast
 
 $ORIGIN priv.aql.debian.org.
 switch			IN	A	172.29.172.2
