@@ -230,6 +230,7 @@ security-nagios		IN	MX	0 .
 			IN	A	195.20.242.89	; wieck
 			;IN	A	128.101.240.212	; saens
 			IN	A	149.20.20.6	; schein
+			IN	A	128.61.240.73	; sechter
 			IN	A	150.203.164.38	; gluck
 			IN	A	200.17.202.197	; santoro
 			IN	A	133.242.99.74   ; setoguchi
