@@ -237,7 +237,7 @@ security-nagios		IN	MX	0 .
 ;security-team	60	IN	CNAME	8cb93cf9d8ec5e67cfccbf5aef63e40b.lswcdn.net.
 security-team		IN	CNAME	static
 security-team-backend	IN	CNAME	static
-security-tracker	IN	CNAME	soler
+security-tracker 60	IN	CNAME	soler
 snapshot		IN	MX	0 .
 			; A/AAAA records via services-auto
 snapshot-master		IN	CNAME	sibelius
