@@ -67,7 +67,6 @@ $TTL 8h
 99 	IN	PTR	lully.debian.org.
 100	IN	PTR	bendel.debian.org.
 101	IN	PTR	listera.torproject.org. ; formerly liszt.debian.org
-102	IN	PTR	unger.debian.org.
 103	IN	PTR	clementi.debian.org.
 104	IN	PTR	handel.debian.org.
 105	IN	PTR	geo1.debian.org.
