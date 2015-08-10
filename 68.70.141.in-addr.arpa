@@ -28,10 +28,10 @@ $TTL 10m
 227	IN	PTR	AP-d46d-50f3-7a27.dc15.debconf.org.
 228	IN	PTR	AP-d46d-50f3-7b47.dc15.debconf.org.
 229	IN	PTR	AP-d46d-50f3-7ba3.dc15.debconf.org.
-230	IN	PTR	AP-a0ec-f952-44bc.dc15.debconf.org.
-231	IN	PTR	AP-e02f-6da3-735f.dc15.debconf.org.
-232	IN	PTR	AP-10f3-11c2-46e2.dc15.debconf.org.
-233	IN	PTR	AP-e02f-6da3-68d2.dc15.debconf.org.
+230	IN	PTR	AP-a0ec-f952-44bc.dc15.debconf.org. ; Wien
+231	IN	PTR	AP-e02f-6da3-735f.dc15.debconf.org. ; Stockholm
+232	IN	PTR	AP-10f3-11c2-46e2.dc15.debconf.org. ; Hacklab
+233	IN	PTR	AP-e02f-6da3-68d2.dc15.debconf.org. ; Hacklab
 234	IN	PTR	AP-a0ec-f952-1357.dc15.debconf.org. ; Athen
 235	IN	PTR	AP-4c4e-353d-913e.dc15.debconf.org. ; Helsinki
 236	IN	PTR	AP-a0ec-f9c2-f3c5.dc15.debconf.org. ; Madrid
