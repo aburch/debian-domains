@@ -31,7 +31,7 @@ sw5.bs			IN	A	10.15.2.5
 sw5			IN	CNAME	sw5.bs
 
 infra1			IN	CNAME	infra1-72
-infra1-11		IN	A	10.15.2.31
+infra1-11		IN	A	10.15.15.254
 infra1-65		IN	A	141.70.65.1
 			IN	AAAA	2001:7c0:cafe:65::1
 infra1-66		IN	A	141.70.66.1
