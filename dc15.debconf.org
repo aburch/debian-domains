@@ -32,10 +32,10 @@ infra1-681		IN	A	141.70.68.129
 infra2			IN	A	141.70.66.220
 homer			IN	CNAME	infra2
 
-encoding1		IN	A	141.70.67.220
-encoding2		IN	A	141.70.67.221
-storage1		IN	A	141.70.67.222
-storage2		IN	A	141.70.67.223
+encoding1		IN	A	141.70.65.220
+encoding2		IN	A	141.70.65.221
+storage1		IN	A	141.70.65.222
+storage2		IN	A	141.70.65.223
 
 wifi-ctrl-left		IN	A	141.70.68.253
 wifi-ctrl-right		IN	A	141.70.68.254
