@@ -36,6 +36,7 @@ $TTL 10m
 235	IN	PTR	AP-4c4e-353d-913e.dc15.debconf.org. ; Helsinki
 236	IN	PTR	AP-a0ec-f9c2-f3c5.dc15.debconf.org. ; Madrid
 237	IN	PTR	AP-10f3-11c2-3071.dc15.debconf.org. ; Zuerich
+238	IN	PTR	AP-78da-6e59-a690.dc15.debconf.org. ; ?
 
 253	IN	PTR	wifi-ctrl-left.dc15.debconf.org.
 254	IN	PTR	wifi-ctrl-right.dc16.debconf.org.
