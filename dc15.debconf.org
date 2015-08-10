@@ -22,6 +22,8 @@ infra1			IN	CNAME	infra1-72
 infra1-65		IN	A	141.70.65.1
 infra1-66		IN	A	141.70.66.1
 infra1-67		IN	A	141.70.67.42
+infra1-70		IN	A	141.70.70.1
+infra1-71		IN	A	141.70.71.1
 infra1-72		IN	A	141.70.72.1
 infra1-681		IN	A	141.70.68.129
 
