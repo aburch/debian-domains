@@ -25,8 +25,10 @@ sw2.dv01		IN	A	10.15.2.2
 sw2			IN	CNAME	sw2.dv01
 sw3.dv01		IN	A	10.15.2.3
 sw3			IN	CNAME	sw03.dv0
-sw4			IN	A	10.15.2.4
-sw5			IN	A	10.15.2.5
+sw4.bs			IN	A	10.15.2.4
+sw4			IN	CNAME	bs4.bs
+sw5.bs			IN	A	10.15.2.5
+sw5			IN	CNAME	bs5.bs
 
 infra1			IN	CNAME	infra1-72
 infra1-11		IN	A	10.15.2.31
