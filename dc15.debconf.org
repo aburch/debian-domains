@@ -60,6 +60,8 @@ veyepar                 IN      CNAME   encoding2
 wifi-ctrl-left		IN	A	141.70.68.253
 wifi-ctrl-right		IN	A	141.70.68.254
 
+wifi-ctrl-left-681	IN	A	141.70.68.125
+wifi-ctrl-right-681	IN	A	141.70.68.126
 wifi-ctrl-left-70	IN	A	141.70.70.253
 wifi-ctrl-right-70	IN	A	141.70.70.254
 wifi-ctrl-left-71	IN	A	141.70.71.253
