@@ -18,7 +18,8 @@ $TTL 10m
 
 cr1.dv01		IN	A	141.70.67.1
 
-sw1.dv02		IN	A	141.70.67.2
+sw1-67.dv02		IN	A	141.70.67.2
+sw1.dv02		IN	A	10.15.2.1
 sw1			IN	CNAME	sw1.dv02
 sw2			IN	A	10.15.2.2
 sw3			IN	A	10.15.2.3
