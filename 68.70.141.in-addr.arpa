@@ -28,6 +28,12 @@ $TTL 10m
 227	IN	PTR	AP-d46d-50f3-7a27.dc15.debconf.org.
 228	IN	PTR	AP-d46d-50f3-7b47.dc15.debconf.org.
 229	IN	PTR	AP-d46d-50f3-7ba3.dc15.debconf.org.
+230	IN	PTR	AP-a0ec-f952-44bc.dc15.debconf.org.
+231	IN	PTR	AP-e02f-6da3-735f.dc15.debconf.org.
+232	IN	PTR	AP-10f3-11c2-46e2.dc15.debconf.org.
+233	IN	PTR	AP-e02f-6da3-68d2.dc15.debconf.org.
+234	IN	PTR	AP-a0ec-f952-1357.dc15.debconf.org.
+235	IN	PTR	AP-4c4e-353d-913e.dc15.debconf.org.
 
 253	IN	PTR	wifi-ctrl-left.dc15.debconf.org.
 254	IN	PTR	wifi-ctrl-right.dc16.debconf.org.
