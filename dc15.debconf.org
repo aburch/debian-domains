@@ -77,4 +77,16 @@ r3dvswitch		IN	A	141.70.65.30
 r3grab1			IN	A	141.70.65.31
 r3grab2			IN	A	141.70.65.32
 
+
+AP-10f3-119c-fa2e.dc15.debconf.org.	IN	A	141.70.68.220
+AP-10f3-11c2-30bb.dc15.debconf.org.	IN	A	141.70.68.221
+AP-10f3-11c2-3585.dc15.debconf.org.	IN	A	141.70.68.222
+AP-a0ec-f952-1350.dc15.debconf.org.	IN	A	141.70.68.223
+AP-a0ec-f952-1375.dc15.debconf.org.	IN	A	141.70.68.224
+AP-a0ec-f9c2-f486.dc15.debconf.org.	IN	A	141.70.68.225
+AP-a0ec-f9d4-5106.dc15.debconf.org.	IN	A	141.70.68.226
+AP-d46d-50f3-7a27.dc15.debconf.org.	IN	A	141.70.68.227
+AP-d46d-50f3-7b47.dc15.debconf.org.	IN	A	141.70.68.228
+AP-d46d-50f3-7ba3.dc15.debconf.org.	IN	A	141.70.68.229
+
 ; vim: syn=dns:
