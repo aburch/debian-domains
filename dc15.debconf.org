@@ -61,4 +61,15 @@ wifi-ctrl-right-71	IN	A	141.70.71.254
 wifi-ctrl-left-72	IN	A	141.70.72.253
 wifi-ctrl-right-72	IN	A	141.70.72.254
 
+
+r1dvswitch		IN	A	141.70.65.10
+r1grab1			IN	A	141.70.65.11
+r1grab2			IN	A	141.70.65.12
+r2dvswitch		IN	A	141.70.65.20
+r2grab1			IN	A	141.70.65.21
+r2grab2			IN	A	141.70.65.22
+r3dvswitch		IN	A	141.70.65.30
+r3grab1			IN	A	141.70.65.31
+r3grab2			IN	A	141.70.65.32
+
 ; vim: syn=dns:

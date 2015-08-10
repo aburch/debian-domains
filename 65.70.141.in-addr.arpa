@@ -18,6 +18,16 @@ $TTL 10m
 
 1	IN	PTR	infra1-65.dc15.debconf.org.
 
+10	IN	PTR	r1dvswitch.dc15.debconf.org.
+11	IN	PTR	r1grab1.dc15.debconf.org.
+12	IN	PTR	r1grab2.dc15.debconf.org.
+20	IN	PTR	r2dvswitch.dc15.debconf.org.
+21	IN	PTR	r2grab1.dc15.debconf.org.
+22	IN	PTR	r2grab2.dc15.debconf.org.
+30	IN	PTR	r3dvswitch.dc15.debconf.org.
+31	IN	PTR	r3grab1.dc15.debconf.org.
+32	IN	PTR	r3grab2.dc15.debconf.org.
+
 220	IN	PTR	encoding1.dc15.debconf.org.
 221	IN	PTR	encoding2.dc15.debconf.org.
 222	IN	PTR	storage1.dc15.debconf.org.
