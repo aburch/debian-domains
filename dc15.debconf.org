@@ -54,7 +54,7 @@ storage1		IN	A	141.70.65.222
 storage2		IN	A	141.70.65.223
 hiresencoder1           IN      CNAME   storage1
 localstream1            IN      CNAME   storage1
-veyepar                 IN      CNAME   storage2
+veyepar                 IN      CNAME   encoding2
 
 wifi-ctrl-left		IN	A	141.70.68.253
 wifi-ctrl-right		IN	A	141.70.68.254
