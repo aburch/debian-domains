@@ -16,4 +16,24 @@ $TTL 30m
 
 $TTL 10m
 
+cr1.dv01		IN	A	 141.70.67.1
+
+infra1			IN	CNAME	infra1
+infra1-65		IN	A	141.70.65.1
+infra1-66		IN	A	141.70.66.1
+infra1-67		IN	A	141.70.67.42
+infra1-72		IN	A	141.70.72.42
+infra1-681		IN	A	141.70.68.129
+
+infra2			IN	A	141.70.66.220
+homer			IN	CNAME	infra2
+
+encoding1		IN	A	141.70.67.220
+encoding2		IN	A	141.70.67.221
+storage1		IN	A	141.70.67.222
+storage2		IN	A	141.70.67.223
+
+wifi-ctrl-left		IN	A	141.70.68.253
+wifi-ctrl-right		IN	A	141.70.68.254
+
 ; vim: syn=dns:

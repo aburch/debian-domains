@@ -16,4 +16,9 @@ $TTL 30m
 
 $TTL 10m
 
+129	IN	PTR	infra1-681.dc15.debconf.org.
+
+253	IN	PTR	wifi-ctrl-left.dc15.debconf.org.
+254	IN	PTR	wifi-ctrl-right.dc16.debconf.org.
+
 ; vim: syn=dns:
