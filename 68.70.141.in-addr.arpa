@@ -32,9 +32,10 @@ $TTL 10m
 231	IN	PTR	AP-e02f-6da3-735f.dc15.debconf.org.
 232	IN	PTR	AP-10f3-11c2-46e2.dc15.debconf.org.
 233	IN	PTR	AP-e02f-6da3-68d2.dc15.debconf.org.
-234	IN	PTR	AP-a0ec-f952-1357.dc15.debconf.org.
-235	IN	PTR	AP-4c4e-353d-913e.dc15.debconf.org.
-236	IN	PTR	AP-a0ec-f9c2-f3c5.dc15.debconf.org.
+234	IN	PTR	AP-a0ec-f952-1357.dc15.debconf.org. ; Athen
+235	IN	PTR	AP-4c4e-353d-913e.dc15.debconf.org. ; Helsinki
+236	IN	PTR	AP-a0ec-f9c2-f3c5.dc15.debconf.org. ; Madrid
+237	IN	PTR	AP-10f3-11c2-3071.dc15.debconf.org. ; Zuerich
 
 253	IN	PTR	wifi-ctrl-left.dc15.debconf.org.
 254	IN	PTR	wifi-ctrl-right.dc16.debconf.org.
