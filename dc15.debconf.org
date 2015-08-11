@@ -85,7 +85,7 @@ r3grab2			IN	A	141.70.65.32
 
 
 AP-10f3-119c-fa2e	IN	A	141.70.68.220
-			IN	TXT	"Tagungsbuero"
+			IN	TXT	"Interior Access Point - Tagungsbuero"
 AP-10f3-11c2-30bb	IN	A	141.70.68.221
 AP-10f3-11c2-3585	IN	A	141.70.68.222
 AP-a0ec-f952-1350	IN	A	141.70.68.223
@@ -96,22 +96,24 @@ AP-d46d-50f3-7a27	IN	A	141.70.68.227
 AP-d46d-50f3-7b47	IN	A	141.70.68.228
 AP-d46d-50f3-7ba3	IN	A	141.70.68.229
 AP-a0ec-f952-44bc	IN	A	141.70.68.230
-			IN	TXT	"Wien"
+			IN	TXT	"Interior Access Point - Wien"
 AP-e02f-6da3-735f	IN	A	141.70.68.231
-			IN	TXT	"Stockholm"
+			IN	TXT	"Interior Access Point - Stockholm"
 AP-10f3-11c2-36e2	IN	A	141.70.68.232
-			IN	TXT	"Hacklab"
-AP-e02f-6da3-68d2	IN	A	141.70.68.233
-			IN	TXT	"Hacklab"
+			IN	TXT	"Interior Access Point - HackLab"
+;AP-e02f-6da3-68d2	IN	A	141.70.68.233 ; BROKEN - DO NOT DEPLOY
+;			IN	TXT	"Interior Access Point - BROKEN"
 AP-a0ec-f952-1357	IN	A	141.70.68.234
-			IN	TXT	"Athen"
+			IN	TXT	"Interior Access Point - HackLab"
 AP-4c4e-353d-913e	IN	A	141.70.68.235
-			IN	TXT	"Helsinki"
+			IN	TXT	"Interior Access Point - Helsinki"
 AP-a0ec-f9c2-f3c5	IN	A	141.70.68.236
-			IN	TXT	"Madrid"
+			IN	TXT	"Interior Access Point - Madrid"
 AP-10f3-11c2-3071	IN	A	141.70.68.237
-			IN	TXT	"Zuerich"
+			IN	TXT	"Interior Access Point - Zuerich"
 AP-78da-6e59-a690	IN	A	141.70.68.238
-			IN	TXT	"Outdoor Access Point"
+			IN	TXT	"Exterior Access Point - Berlin"
+AP-d46d-50f3-7bf1	IN	A	141.70.68.239
+			IN	TXT	"Interior Access Point - B126"
 
 ; vim: syn=dns:
