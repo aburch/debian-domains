@@ -31,10 +31,10 @@ sw4.bs			IN	A	10.15.2.4
 sw4			IN	CNAME	sw4.bs
 sw5.bs			IN	A	10.15.2.5
 sw5			IN	CNAME	sw5.bs
-sw6.clean		IN	A	10.16.2.6
+sw6.clean		IN	A	10.15.2.6
 			IN	TXT	"uplink switch - HP"
 sw6			IN	CNAME	sw6.clean
-sw7.clean		IN	A	10.16.2.7
+sw7.clean		IN	A	10.15.2.7
 			IN	TXT	"access switch - Cisco"
 sw7			IN	CNAME	sw7.clean
 
