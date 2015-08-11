@@ -440,6 +440,7 @@ $ORIGIN rev.debian.org.
 195.166.211.140		IN	PTR	pieta.debian.org.
 196.166.211.140		IN	PTR	ppc64el-osuosl-01.debian.org.
 197.166.211.140		IN	PTR	powerpc-osuosl-01.debian.org.
+198.166.211.140		IN	PTR	pizzetti.debian.org.
 ; ...
 ; 223 .. broadcast
 
