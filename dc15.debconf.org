@@ -17,6 +17,7 @@ $TTL 30m
 $TTL 10m
 
 cr1.dv01		IN	A	141.70.67.1
+			IN	AAAA	2001:7c0:dc15:67::1
 cr1			IN	CNAME	cr1.dv01
 
 sw1-67.dv02		IN	A	141.70.67.2
@@ -46,6 +47,9 @@ infra1-71		IN	A	141.70.71.1
 infra1-72		IN	A	141.70.72.1
 			IN	AAAA	2001:7c0:dc15:72::1
 infra1-681		IN	A	141.70.68.129
+			IN	AAAA	2001:7c0:dc15:681::1
+infra1-73		IN	A	10.15.16.1
+infra1-74		IN	A	10.15.32.1
 
 infra2			IN	A	141.70.66.220
 homer			IN	CNAME	infra2

@@ -20,9 +20,11 @@ $TTL 10m
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.5.6.0.0		IN PTR	infra1-65.dc15.debconf.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.6.6.0.0		IN PTR	infra1-66.dc15.debconf.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.7.6.0.0		IN PTR	cr1.dv01.dc15.debconf.org.
 2.4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.7.6.0.0		IN PTR	infra1-67.dc15.debconf.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.7.0.0		IN PTR	infra1-70.dc15.debconf.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.7.0.0		IN PTR	infra1-71.dc15.debconf.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.7.0.0		IN PTR	infra1-72.dc15.debconf.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.8.6.0		IN PTR	infra1-681.dc15.debconf.org.
 
 ; vim: syn=dns:
