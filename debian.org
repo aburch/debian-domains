@@ -148,6 +148,7 @@ lintian			IN	CNAME	static
 lists			IN	A	82.195.75.100	; bendel
 			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:4002 ; bendel
 			IN	MX	0 bendel.debian.org.
+			IN	TXT	google-site-verification=U9lf1kSARJPHZGTtxX92ZWUp3Lk2geoDPn69fbBGb3M
 lists-test		IN	MX	0 bendel.debian.org.
 manpages		IN	CNAME	glinka
 mirror			IN	CNAME	glinka
