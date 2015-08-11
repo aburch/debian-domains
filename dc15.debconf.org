@@ -47,7 +47,6 @@ infra1-71		IN	A	141.70.71.1
 infra1-72		IN	A	141.70.72.1
 			IN	AAAA	2001:7c0:dc15:72::1
 infra1-681		IN	A	141.70.68.129
-			IN	AAAA	2001:7c0:dc15:681::1
 infra1-73		IN	A	10.15.16.1
 infra1-74		IN	A	10.15.32.1
 
