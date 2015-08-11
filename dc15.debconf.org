@@ -58,6 +58,7 @@ jugendherberge		IN	A	141.70.67.74
 
 encoding1		IN	A	141.70.65.220
 encoding2		IN	A	141.70.65.221
+04db91c5c9d7336c55a84720dfa9d65d.encoding2	IN	CNAME	b77924327e9ccd51ec2755c32ab0afd0fb4fa5cb.comodoca.com.
 storage1		IN	A	141.70.65.222
 storage2		IN	A	141.70.65.223
 hiresencoder1           IN      CNAME   storage1
