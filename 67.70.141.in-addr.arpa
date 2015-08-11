@@ -19,5 +19,7 @@ $TTL 10m
 1	IN	PTR	cr1.dv01.dc15.debconf.org.
 2	IN	PTR	sw1-67.dv02.dc15.debconf.org.
 42	IN	PTR	infra1-67.dc15.debconf.org.
+73	IN	PTR	client-nat.dc15.debconf.org.
+74	IN	PTR	jugendherberge.dc15.debconf.org.
 
 ; vim: syn=dns:

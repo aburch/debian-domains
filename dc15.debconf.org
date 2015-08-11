@@ -49,6 +49,9 @@ infra1-681		IN	A	141.70.68.129
 infra2			IN	A	141.70.66.220
 homer			IN	CNAME	infra2
 
+client-nat		IN	A	141.70.67.73
+jugendherberge		IN	A	141.70.67.74
+
 encoding1		IN	A	141.70.65.220
 encoding2		IN	A	141.70.65.221
 storage1		IN	A	141.70.65.222
