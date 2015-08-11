@@ -119,7 +119,7 @@ AP-78da-6e59-a690	IN	A	141.70.68.238
 			IN	TXT	"Exterior Access Point - Berlin"
 AP-d46d-50f3-7bf1	IN	A	141.70.68.239
 			IN	TXT	"Interior Access Point - B126"
-AP-adec-f9d4-44bc	IN	A	141.70.68.240
+AP-a0ec-f9d4-44b6	IN	A	141.70.68.240
 			IN	TXT	"Interior Access Point - Stockholm"
 
 ; vim: syn=dns:
