@@ -112,5 +112,6 @@ AP-a0ec-f9c2-f3c5	IN	A	141.70.68.236
 AP-10f3-11c2-3071	IN	A	141.70.68.237
 			IN	TXT	"Zuerich"
 AP-78da-6e59-a690	IN	A	141.70.68.238
+			IN	TXT	"Outdoor Access Point"
 
 ; vim: syn=dns:
