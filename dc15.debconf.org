@@ -99,40 +99,51 @@ r3grab2			IN	A	141.70.65.32
 
 
 AP220-10f3-119c-fa2e	IN	A	141.70.68.220
-			IN	TXT	"Interior Access Point - Tagungsbuero"
+			IN	TXT	"Interior Access Point - Tagungsbuero (NOC)"
 AP221-10f3-11c2-30bb	IN	A	141.70.68.221
+			IN	TXT	"Interior Access Point - Berlin (A017 North)"
 AP222-10f3-11c2-3585	IN	A	141.70.68.222
+			IN	TXT	"Interior Access Point - Heidelberg I (North)"
 AP223-a0ec-f952-1350	IN	A	141.70.68.223
+			IN	TXT	"Interior Access Point - Courtyard (East)"
 AP224-a0ec-f952-1375	IN	A	141.70.68.224
+			IN	TXT	"Interior Access Point - Heidelberg Tief (West)"
 AP225-a0ec-f9c2-f486	IN	A	141.70.68.225
+			IN	TXT	"Interior Access Point - Beer Garden (North)"
 AP226-a0ec-f9d4-5106	IN	A	141.70.68.226
+			IN	TXT	"Interior Access Point - Heidelberg III (FIXME) - needs to be labeled"
 AP227-d46d-50f3-7a27	IN	A	141.70.68.227
+			IN	TXT	"Interior Access Point - Heidelberg II (Fridge)"
 AP228-d46d-50f3-7b47	IN	A	141.70.68.228
+			IN	TXT	"Interior Access Point - Heidelberg I (South)"
 AP229-d46d-50f3-7ba3	IN	A	141.70.68.229
+			IN	TXT	"Interior Access Point - Courtyard (West)"
 AP230-a0ec-f952-44bc	IN	A	141.70.68.230
-			IN	TXT	"Interior Access Point - Wien"
-AP231-e02f-6da3-735f	IN	A	141.70.68.231
-			IN	TXT	"Interior Access Point - Stockholm"
+			IN	TXT	"Interior Access Point - Wien (FIXME) - offline"
+;AP231-e02f-6da3-735f	IN	A	141.70.68.231 ; BROKEN
+;			IN	TXT	"Interior Access Point - DO NOT DEPLOY"
 AP232-10f3-11c2-36e2	IN	A	141.70.68.232
-			IN	TXT	"Interior Access Point - HackLab"
-;AP-e02f-6da3-68d2	IN	A	141.70.68.233 ; BROKEN - DO NOT DEPLOY
-;			IN	TXT	"Interior Access Point - BROKEN"
+			IN	TXT	"Interior Access Point - Heidelberg Tief (East)"
+;AP233-e02f-6da3-68d2	IN	A	141.70.68.233 ; BROKEN
+;			IN	TXT	"Interior Access Point - DO NOT DEPLOY"
 AP234-a0ec-f952-1357	IN	A	141.70.68.234
-			IN	TXT	"Interior Access Point - HackLab"
+			IN	TXT	"Interior Access Point - Athens (A314)"
 AP235-4c4e-353d-913e	IN	A	141.70.68.235
-			IN	TXT	"Interior Access Point - Helsinki"
+			IN	TXT	"Interior Access Point - Helsinki (A114)"
 AP236-a0ec-f9c2-f3c5	IN	A	141.70.68.236
-			IN	TXT	"Interior Access Point - Madrid"
+			IN	TXT	"Interior Access Point - Madrid (A214)"
 AP237-10f3-11c2-3071	IN	A	141.70.68.237
-			IN	TXT	"Interior Access Point - Zuerich"
+			IN	TXT	"Interior Access Point - Zuerich (A318)"
 AP238-78da-6e59-a690	IN	A	141.70.68.238
-			IN	TXT	"Exterior Access Point - Berlin"
+			IN	TXT	"Exterior Access Point - Berlin (A017 South) - broken?"
 AP239-d46d-50f3-7bf1	IN	A	141.70.68.239
-			IN	TXT	"Interior Access Point - B126"
+			IN	TXT	"Interior Access Point - Amsterdam (B123)"
 AP240-a0ec-f9d4-44b6	IN	A	141.70.68.240
-			IN	TXT	"Interior Access Point - Stockholm"
-AP241-e02f-6da3-68a6	IN	A	141.70.68.241
-			IN	TXT	"Interior Access Point - zobel trying to fix"
+			IN	TXT	"Interior Access Point - Stockholm (A118)"
+;AP241-e02f-6da3-68a6	IN	A	141.70.68.241 ; BROKEN
+;			IN	TXT	"Interior Access Point - DO NOT DEPLOY"
+;AP242-e02f-6da3-7f4d	IN	A	141.70.68.242 ; BROKEN
+;			IN	TXT	"Interior Access Point - DO NOT DEPLOY"
 
 AP220	IN CNAME AP220-10f3-119c-fa2e
 AP221	IN CNAME AP221-10f3-11c2-30bb
@@ -145,9 +156,9 @@ AP227	IN CNAME AP227-d46d-50f3-7a27
 AP228	IN CNAME AP228-d46d-50f3-7b47
 AP229	IN CNAME AP229-d46d-50f3-7ba3
 AP230	IN CNAME AP230-a0ec-f952-44bc
-AP231	IN CNAME AP231-e02f-6da3-735f
+;AP231	IN CNAME AP231-e02f-6da3-735f
 AP232	IN CNAME AP232-10f3-11c2-36e2
-;AP233	IN CNAME xxx
+;AP233	IN CNAME AP233-e02f-6da3-68d2
 AP234	IN CNAME AP234-a0ec-f952-1357
 AP235	IN CNAME AP235-4c4e-353d-913e
 AP236	IN CNAME AP236-a0ec-f9c2-f3c5
@@ -155,6 +166,7 @@ AP237	IN CNAME AP237-10f3-11c2-3071
 AP238	IN CNAME AP238-78da-6e59-a690
 AP239	IN CNAME AP239-d46d-50f3-7bf1
 AP240	IN CNAME AP240-a0ec-f9d4-44b6
-AP241	IN CNAME AP241-e02f-6da3-68a6
+;AP241	IN CNAME AP241-e02f-6da3-68a6
+;AP242	IN CNAME AP242-e02f-6da3-7f4d
 
 ; vim: syn=dns:
