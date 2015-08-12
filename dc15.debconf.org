@@ -59,6 +59,7 @@ infra1-74		IN	A	10.15.32.1
 mirror			IN	CNAME	infra1
 
 infra2			IN	A	141.70.66.220
+			IN	AAAA	2001:7c0:dc15:66::220
 homer			IN	CNAME	infra2
 
 client-nat		IN	A	141.70.67.73
