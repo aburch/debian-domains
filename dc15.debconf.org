@@ -118,8 +118,8 @@ AP228-d46d-50f3-7b47	IN	A	141.70.68.228
 			IN	TXT	"Interior Access Point - Heidelberg I (South)"
 AP229-d46d-50f3-7ba3	IN	A	141.70.68.229
 			IN	TXT	"Interior Access Point - Courtyard (West)"
-AP230-a0ec-f952-44bc	IN	A	141.70.68.230
-			IN	TXT	"Interior Access Point - Wien (FIXME) - offline"
+;AP230-a0ec-f952-44bc	IN	A	141.70.68.230 ; NEVER EXISTED
+;			IN	TXT	"Interior Access Point - CAN NOT BE DEPLOYED"
 ;AP231-e02f-6da3-735f	IN	A	141.70.68.231 ; BROKEN
 ;			IN	TXT	"Interior Access Point - DO NOT DEPLOY"
 AP232-10f3-11c2-36e2	IN	A	141.70.68.232
@@ -135,7 +135,7 @@ AP236-a0ec-f9c2-f3c5	IN	A	141.70.68.236
 AP237-10f3-11c2-3071	IN	A	141.70.68.237
 			IN	TXT	"Interior Access Point - Zuerich (A318)"
 AP238-78da-6e59-a690	IN	A	141.70.68.238
-			IN	TXT	"Exterior Access Point - Berlin (A017 South) - broken?"
+			IN	TXT	"Exterior Access Point - Berlin (A017 South)"
 AP239-d46d-50f3-7bf1	IN	A	141.70.68.239
 			IN	TXT	"Interior Access Point - Amsterdam (B123)"
 AP240-a0ec-f9d4-44b6	IN	A	141.70.68.240
@@ -155,7 +155,7 @@ AP226	IN CNAME AP226-a0ec-f9d4-5106
 AP227	IN CNAME AP227-d46d-50f3-7a27
 AP228	IN CNAME AP228-d46d-50f3-7b47
 AP229	IN CNAME AP229-d46d-50f3-7ba3
-AP230	IN CNAME AP230-a0ec-f952-44bc
+;AP230	IN CNAME AP230-a0ec-f952-44bc
 ;AP231	IN CNAME AP231-e02f-6da3-735f
 AP232	IN CNAME AP232-10f3-11c2-36e2
 ;AP233	IN CNAME AP233-e02f-6da3-68d2
