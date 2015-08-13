@@ -58,6 +58,7 @@ infra1-74		IN	A	10.15.32.1
 
 mirror			IN	CNAME	infra1
 librenms		IN	CNAME	infra1
+cab6f06921f3b7f38ae578b9a528af87.librenms	IN	CNAME	cc8cd021a64970e7864500de26a3472628283352.comodoca.com.
 
 infra2			IN	A	141.70.66.220
 			IN	AAAA	2001:7c0:dc15:66::220
