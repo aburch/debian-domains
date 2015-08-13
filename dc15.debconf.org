@@ -130,9 +130,9 @@ AP224-a0ec-f952-1375	IN	A	141.70.68.224
 AP225-a0ec-f9c2-f486	IN	A	141.70.68.225
 			IN	TXT	"Interior Access Point - Beer Garden (North)"
 AP226-a0ec-f9d4-5106	IN	A	141.70.68.226
-			IN	TXT	"Interior Access Point - Heidelberg III (FIXME) - needs to be labeled"
+			IN	TXT	"Interior Access Point - Heidelberg III (South)"
 AP227-d46d-50f3-7a27	IN	A	141.70.68.227
-			IN	TXT	"Interior Access Point - Heidelberg II (Fridge)"
+			IN	TXT	"Interior Access Point - Heidelberg II (South)"
 AP228-d46d-50f3-7b47	IN	A	141.70.68.228
 			IN	TXT	"Interior Access Point - Heidelberg I (South)"
 AP229-d46d-50f3-7ba3	IN	A	141.70.68.229
