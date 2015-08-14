@@ -83,6 +83,8 @@ cab6f06921f3b7f38ae578b9a528af87.librenms	IN	CNAME	cc8cd021a64970e7864500de26a34
 infra2			IN	A	141.70.66.220
 			IN	AAAA	2001:7c0:dc15:66::220
 homer			IN	CNAME	infra2
+tvaz			IN	A	141.70.66.221
+			IN	AAAA	2001:7c0:dc15:66::221
 
 client-nat		IN	A	141.70.67.73
 jugendherberge		IN	A	141.70.67.74
