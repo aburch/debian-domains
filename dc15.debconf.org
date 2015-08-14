@@ -138,6 +138,7 @@ r3grab2			IN	A	141.70.65.32
 
 
 AP200-1005-ca68-3ae7	IN	A	141.70.68.200 ; peter 01 - okay
+			IN	TXT	"Interior Access Point - Patio"
 AP201-7cad-7440-526a	IN	A	141.70.68.201 ; peter 02 - okay
 AP202-1005-ca5e-4e9e	IN	A	141.70.68.202 ; peter 03 - okay
 			IN	TXT	"Interior Access Point - Heidelberg Tief (North)"
