@@ -32,11 +32,29 @@ sw4			IN	CNAME	sw4.bs
 sw5.bs			IN	A	10.15.2.5
 sw5			IN	CNAME	sw5.bs
 sw6.clean		IN	A	10.15.2.6
-			IN	TXT	"uplink switch - HP"
 sw6			IN	CNAME	sw6.clean
 sw7.clean		IN	A	10.15.2.7
-			IN	TXT	"access switch - Cisco"
 sw7			IN	CNAME	sw7.clean
+sw20.fd			IN	A	10.15.2.20
+sw20			IN	CNAME	sw20.fd
+sw21.lowerhd		IN	A	10.15.2.21
+sw21			IN	CNAME	sw21.lowerhd
+sw22.lowerhd		IN	A	10.15.2.22
+sw22			IN	CNAME	sw22.lowerhd
+sw23.fixme		IN	A	10.15.2.23
+sw23			IN	CNAME	sw23.fixme
+sw24.fixme		IN	A	10.15.2.24
+sw24			IN	CNAME	sw24.fixme
+sw25.fixme		IN	A	10.15.2.25
+sw25			IN	CNAME	sw25.fixme
+sw26.fixme		IN	A	10.15.2.26
+sw26			IN	CNAME	sw26.fixme
+sw27.fixme		IN	A	10.15.2.27
+sw27			IN	CNAME	sw27.fixme
+sw28.fixme		IN	A	10.15.2.28
+sw28			IN	CNAME	sw28.fixme
+sw29.fixme		IN	A	10.15.2.29
+sw29			IN	CNAME	sw29.fixme
 
 infra1			IN	CNAME	infra1-72
 infra1-11		IN	A	10.15.15.254
