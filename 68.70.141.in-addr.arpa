@@ -31,7 +31,7 @@ $TTL 10m
 210	IN	PTR	AP210-10f3-11e3-ee34.dc15.debconf.org.
 211	IN	PTR	AP211-1005-ca5e-4ed8.dc15.debconf.org.
 212	IN	PTR	AP212-10f3-119c-e8a6.dc15.debconf.org.
-;213
+213	IN	PTR	AP213-e4c7-22e0-62a7.dc15.debconf.org.
 214	IN	PTR	AP214-1005-cae8-3a42.dc15.debconf.org.
 
 220	IN	PTR	AP220-10f3-119c-fa2e.dc15.debconf.org.

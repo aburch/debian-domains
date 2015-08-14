@@ -155,7 +155,7 @@ AP209-4403-a739-79f9	IN	A	141.70.68.209 ; peter 10 - okay
 AP210-10f3-11e3-ee34	IN	A	141.70.68.210 ; peter 11 - okay
 AP211-1005-ca5e-4ed8	IN	A	141.70.68.211 ; peter 12 - okay
 AP212-10f3-119c-e8a6	IN	A	141.70.68.212 ; peter 13 - okay
-;AP213-e4c7-22e0-62a7	IN	A	141.70.68.213 ; peter 14 - fubar
+AP213-e4c7-22e0-62a7	IN	A	141.70.68.213 ; peter 14 - okay
 AP214-1005-cae8-3a42	IN	A	141.70.68.214 ; peter 15 - okay
 
 AP200	IN	CNAME	AP200-1005-ca68-3ae7
