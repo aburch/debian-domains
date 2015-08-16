@@ -20,5 +20,6 @@ $TTL 10m
 
 220	IN	PTR	infra2.dc15.debconf.org.
 221	IN	PTR	tvaz.dc15.debconf.org.
+222	IN	PTR	printer.dc15.debconf.org.
 
 ; vim: syn=dns:
