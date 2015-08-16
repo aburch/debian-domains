@@ -85,8 +85,8 @@ infra2			IN	A	141.70.66.220
 homer			IN	CNAME	infra2
 tvaz			IN	A	141.70.66.221
 			IN	AAAA	2001:7c0:dc15:66::221
-printer			IN	A	141.70.66.223
-;			IN	AAAA	2001:7c0:dc15:66::223
+printer			IN	A	141.70.66.222
+;			IN	AAAA	2001:7c0:dc15:66::222
 
 client-nat		IN	A	141.70.67.73
 jugendherberge		IN	A	141.70.67.74
