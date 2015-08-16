@@ -64,7 +64,7 @@ $TTL 8h
 30	IN	PTR	paradis.debian.org.
 31	IN	PTR	paradis2.debian.org.
 32	IN	PTR	x86-bm-01.debian.org.
-33	IN	PTR	fischer.debian.org.
+;33
 34	IN	PTR	gideon.debian.org.
 35	IN	PTR	httpredir-bm-01.debian.org.
 36	IN	PTR	lindsay.debian.org.
