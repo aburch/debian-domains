@@ -312,6 +312,8 @@ sip-ws			IN	CNAME	vogler
 _stun._udp		IN	SRV	0 1 3478 vogler-ipv4
 _stuns._tcp		IN	SRV	0 1 5349 vogler
 _sips._tcp		IN	SRV	0 1 5061 vogler
+_xmpp-client._tcp	IN	SRV	5 0 5222 vogler
+_xmpp-server._tcp	IN	SRV	5 0 5269 vogler
 vogler-ipv4		IN	A	82.195.75.92 ; ick
 rtc			IN	CNAME	static
 rtc-backend		IN	CNAME	static
