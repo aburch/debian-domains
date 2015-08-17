@@ -56,9 +56,9 @@ sw28			IN	CNAME	sw28.fixme
 sw29.fixme		IN	A	10.15.2.29
 sw29			IN	CNAME	sw29.fixme
 
-infra1			IN	CNAME	infra1-72
+infra1			IN	CNAME	infra1-66
 infra1-11		IN	A	10.15.15.254
-infra1-67		IN	A	141.70.67.42
+infra1-66		IN	A	141.70.66.225
 			IN	AAAA	2001:7c0:deb:67::2
 infra1-72		IN	A	141.70.79.250
 			IN	AAAA	2001:7c0:dc15:72::250
@@ -75,8 +75,8 @@ tvaz			IN	A	141.70.66.221
 fdlpr			IN	A	141.70.66.222
 ;			IN	AAAA	2001:7c0:dc15:66::222
 
-client-nat		IN	A	141.70.67.73
-jugendherberge		IN	A	141.70.67.74
+client-nat		IN	A	141.70.66.223
+jugendherberge		IN	A	141.70.66.224
 
 encoding1		IN	A	141.70.65.220
 encoding2		IN	A	141.70.65.221
