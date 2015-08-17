@@ -58,23 +58,10 @@ sw29			IN	CNAME	sw29.fixme
 
 infra1			IN	CNAME	infra1-72
 infra1-11		IN	A	10.15.15.254
-infra1-65		IN	A	141.70.65.1
-			IN	AAAA	2001:7c0:dc15:65::1
-infra1-66		IN	A	141.70.66.1
-			IN	AAAA	2001:7c0:dc15:66::1
 infra1-67		IN	A	141.70.67.42
 			IN	AAAA	2001:7c0:deb:67::2
-infra1-70		IN	A	141.70.70.1
-			IN	AAAA	2001:7c0:dc15:70::1
-infra1-71		IN	A	141.70.71.1
-			IN	AAAA	2001:7c0:dc15:71::1
 infra1-72		IN	A	141.70.79.250
 			IN	AAAA	2001:7c0:dc15:72::250
-infra1-681		IN	A	141.70.68.129
-infra1-73		IN	A	10.15.16.1
-infra1-74		IN	A	10.15.32.1
-infra1-96		IN	A	193.197.96.1
-			IN	AAAA	2001:7c0:dc15:96::1
 
 mirror			IN	CNAME	infra1
 librenms		IN	CNAME	infra1
