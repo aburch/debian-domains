@@ -16,10 +16,13 @@ $TTL 30m
 
 $TTL 10m
 
-1	IN	PTR	infra1-66.dc15.debconf.org.
+1	IN	PTR	cr1-66.dc15.debconf.org.
 
-220	IN	PTR	infra2.dc15.debconf.org.
+220	IN	PTR	infra2-66.dc15.debconf.org.
 221	IN	PTR	tvaz.dc15.debconf.org.
 222	IN	PTR	fdlpr.dc15.debconf.org.
+223	IN	PTR	client-nat.dc15.debconf.org.
+224	IN	PTR	jugendherberge.dc15.debconf.org.
+225	IN	PTR	infra1-66.dc15.debconf.org.
 
 ; vim: syn=dns:

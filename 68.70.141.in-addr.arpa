@@ -16,7 +16,7 @@ $TTL 30m
 
 $TTL 10m
 
-129	IN	PTR	infra1-681.dc15.debconf.org.
+129	IN	PTR	infra2-681.dc15.debconf.org.
 
 200	IN	PTR	AP200-1005-ca68-3ae7.dc15.debconf.org.
 201	IN	PTR	AP201-7cad-7440-526a.dc15.debconf.org.

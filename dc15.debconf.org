@@ -16,11 +16,17 @@ $TTL 30m
 
 $TTL 10m
 
-cr1.dv01		IN	A	141.70.67.1
-			IN	AAAA	2001:7c0:deb:67::1
+cr1.dv01		IN	A	129.143.79.194
 cr1			IN	CNAME	cr1.dv01
+cr1-11			IN	A	10.15.0.1
+cr1-65			IN	A	141.70.65.1
+cr1-66			IN	A	141.70.66.1
+cr1-70			IN	A	141.70.70.1
+cr1-71			IN	A	141.70.71.1
+cr1-72			IN	A	141.70.72.1
+cr1-96			IN	A	193.197.96.1
+cr1-680			IN	A	141.70.68.1
 
-sw1-67.dv02		IN	A	141.70.67.2
 sw1.dv02		IN	A	10.15.2.1
 sw1			IN	CNAME	sw1.dv02
 sw2.dv01		IN	A	10.15.2.2
@@ -59,16 +65,17 @@ sw29			IN	CNAME	sw29.fixme
 infra1			IN	CNAME	infra1-66
 infra1-11		IN	A	10.15.15.254
 infra1-66		IN	A	141.70.66.225
-			IN	AAAA	2001:7c0:deb:67::2
-infra1-72		IN	A	141.70.79.250
-			IN	AAAA	2001:7c0:dc15:72::250
+			IN	AAAA	2001:7c0:dc15:66::225
 
 mirror			IN	CNAME	infra1
 librenms		IN	CNAME	infra1
 cab6f06921f3b7f38ae578b9a528af87.librenms	IN	CNAME	cc8cd021a64970e7864500de26a3472628283352.comodoca.com.
 
-infra2			IN	A	141.70.66.220
+infra2			IN	CNAME	infra2-66
+infra2-66		IN	A	141.70.66.220
 			IN	AAAA	2001:7c0:dc15:66::220
+infra2-680		IN	A	141.70.68.121
+infra2-681		IN	A 	141.70.68.129
 homer			IN	CNAME	infra2
 tvaz			IN	A	141.70.66.221
 			IN	AAAA	2001:7c0:dc15:66::221
@@ -79,7 +86,10 @@ client-nat		IN	A	141.70.66.223
 jugendherberge		IN	A	141.70.66.224
 
 encoding1		IN	A	141.70.65.220
-encoding2		IN	A	141.70.65.221
+encoding2-65		IN	A	141.70.65.221
+			IN	AAAA	2001:7c0:dc15:65::221
+encoding2		IN	CNAME	encoding2-65
+encoding2-680		IN	A	141.70.68.122
 04db91c5c9d7336c55a84720dfa9d65d.encoding2	IN	CNAME	b77924327e9ccd51ec2755c32ab0afd0fb4fa5cb.comodoca.com.
 storage1		IN	A	141.70.65.222
 storage2		IN	A	141.70.65.223

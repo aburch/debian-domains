@@ -16,7 +16,7 @@ $TTL 30m
 
 $TTL 10m
 
-1	IN	PTR	infra1-70.dc15.debconf.org.
+1	IN	PTR	cr1-70.dc15.debconf.org.
 
 253	IN	PTR	wifi-ctrl-left-70.dc15.debconf.org.
 254	IN	PTR	wifi-ctrl-right-70.dc15.debconf.org.
