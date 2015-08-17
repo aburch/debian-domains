@@ -67,7 +67,6 @@ infra1-11		IN	A	10.15.15.254
 infra1-66		IN	A	141.70.66.225
 			IN	AAAA	2001:7c0:dc15:66::225
 
-mirror			IN	CNAME	infra1
 librenms		IN	CNAME	infra1
 cab6f06921f3b7f38ae578b9a528af87.librenms	IN	CNAME	cc8cd021a64970e7864500de26a3472628283352.comodoca.com.
 
@@ -77,6 +76,7 @@ infra2-66		IN	A	141.70.66.220
 infra2-680		IN	A	141.70.68.121
 infra2-681		IN	A 	141.70.68.129
 homer			IN	CNAME	infra2
+mirror			IN	CNAME	infra2
 tvaz			IN	A	141.70.66.221
 			IN	AAAA	2001:7c0:dc15:66::221
 fdlpr			IN	A	141.70.66.222
