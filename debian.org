@@ -421,6 +421,12 @@ mipsel-manda-01-console	IN	CNAME	console-7
 mipsel-manda-02-console	IN	CNAME	console-8
 
 $ORIGIN rev.debian.org.
+; csail
+
+$ORIGIN debian.org.
+csail-vm04		IN	PTR	x86-csail-02.debian.org.
+
+$ORIGIN rev.debian.org.
 ; aql
 148.6.170.141		IN	PTR	aql148.debian.org. ; console
 149.6.170.141		IN	PTR	mips-aql-01.debian.org.
