@@ -75,7 +75,7 @@ infra2-66		IN	A	141.70.66.220
 infra2-680		IN	A	141.70.68.121
 infra2-681		IN	A 	141.70.68.129
 homer			IN	CNAME	infra2
-mirror		2m	IN	CNAME	infra2
+mirror		4m	IN	CNAME	infra2
 tvaz			IN	A	141.70.66.221
 			IN	AAAA	2001:7c0:dc15:66::221
 fdlpr			IN	A	141.70.66.222
