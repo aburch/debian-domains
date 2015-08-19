@@ -58,7 +58,7 @@ $TTL 8h
 90      IN      PTR     wiggum.debconf.org.
 91	IN	PTR	denis.debian.org.
 92	IN	PTR	vogler.debian.org.
-; 93
+93	IN	PTR	seger.debian.org.
 ; 94
 ; 95
 ; 96
