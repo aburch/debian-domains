@@ -40,4 +40,9 @@ $TTL 1h
 
 $INCLUDE "/var/lib/misc/thishost/dns-zone"
 
+; manually added by weasel 20150820,
+; per request of paulproteus.
+*.storm.debian.net.	IN	CNAME	debstorm.org.
+
+
 ; vim: syn=dns:
