@@ -1008,6 +1008,10 @@ ftp	300	IN	AAAA	2610:148:1f10:3::89	; debian.gtisc.gatech.edu (edmonds@debian.or
 ftp6	300	IN	AAAA	2610:148:1f10:3::89	; debian.gtisc.gatech.edu (edmonds@debian.org)
 http		IN	CNAME	ftp.us.debian.org.
 www		IN	CNAME	www.debian.org.
+
+_http._tcp.ftp		IN	SRV	0 1 80 ftp-chi.osuosl.org.
+_http._tcp.ftp		IN	SRV	0 2 80 ftp-nyc.osuosl.org.
+_http._tcp.ftp		IN	SRV	0 1 80 debian.gtisc.gatech.edu.
 $ORIGIN mi.us.debian.org.
 ftp		IN	CNAME	debian.egr.msu.edu.
 $ORIGIN za.debian.org.
