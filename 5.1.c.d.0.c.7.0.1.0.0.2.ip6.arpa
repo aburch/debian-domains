@@ -19,6 +19,8 @@ $TTL 30m
 $TTL 10m
 
 1.2.2.0.0.0.0.0.0.0.0.0.0.0.0.0.5.6.0.0		IN PTR	encoding2-65.dc15.debconf.org.
+2.2.2.0.0.0.0.0.0.0.0.0.0.0.0.0.5.6.0.0		IN PTR	storage1.dc15.debconf.org.
+3.2.2.0.0.0.0.0.0.0.0.0.0.0.0.0.5.6.0.0		IN PTR	storage2.dc15.debconf.org.
 
 0.2.2.0.0.0.0.0.0.0.0.0.0.0.0.0.6.6.0.0		IN PTR	infra2-66.dc15.debconf.org.
 1.2.2.0.0.0.0.0.0.0.0.0.0.0.0.0.6.6.0.0		IN PTR	tvaz.dc15.debconf.org.
