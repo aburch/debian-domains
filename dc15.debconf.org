@@ -90,7 +90,9 @@ encoding2-65		IN	A	141.70.65.221
 encoding2		IN	CNAME	encoding2-65
 encoding2-680		IN	A	141.70.68.122
 storage1		IN	A	141.70.65.222
+			IN	AAAA	2001:7c0:dc15:65::222
 storage2		IN	A	141.70.65.223
+			IN	AAAA	2001:7c0:dc15:65::223
 hiresencoder1           IN      CNAME   storage1
 localstream1            IN      CNAME   storage1
 veyepar                 IN      CNAME   encoding2
