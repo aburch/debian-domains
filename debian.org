@@ -121,7 +121,6 @@ ftp-master.metadata	IN	CNAME	global.prod.fastly.net.
 ;ftp-master.metadata-backend	IN	CNAME	ftp-master.metadata-master
 ;ftp-master.metadata-master	IN	CNAME	ftp-master
 mirror.ftp-master	IN	CNAME	coccia
-debug.mirrors		IN	CNAME	klecker-misc
 get			IN	CNAME	ftp.acc.umu.se.
 _git._tcp.git		IN	SRV	0 0 9418 moszumanska
 git			IN	A	5.153.231.21	; alioth - moszumanska
@@ -155,6 +154,7 @@ lists-test		IN	MX	0 bendel.debian.org.
 manpages		IN	CNAME	glinka
 mirror			IN	CNAME	glinka
 mirror-master		IN	CNAME	glinka
+debug.mirrors		IN	CNAME	klecker-misc
 mailout			IN	A	82.195.75.114	; mailly
 			IN	A	206.12.19.146	; muffat
 			IN	AAAA	2001:41b8:202:deb:6564:a62:52c3:4b72	; mailly
