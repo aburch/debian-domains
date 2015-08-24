@@ -121,6 +121,7 @@ ftp-master.metadata	IN	CNAME	global.prod.fastly.net.
 ;ftp-master.metadata-backend	IN	CNAME	ftp-master.metadata-master
 ;ftp-master.metadata-master	IN	CNAME	ftp-master
 mirror.ftp-master	IN	CNAME	coccia
+debug.mirrors		IN	CNAME	klecker-misc
 get			IN	CNAME	ftp.acc.umu.se.
 _git._tcp.git		IN	SRV	0 0 9418 moszumanska
 git			IN	A	5.153.231.21	; alioth - moszumanska
