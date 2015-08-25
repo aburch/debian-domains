@@ -897,7 +897,8 @@ ftp		IN	CNAME	ftp.aso.ee.
 $ORIGIN es.debian.org.
 ; ftp		IN	A	163.117.156.54 ; ftp.gul(.uc3m).es
 ; ftp		IN	A	130.206.1.5 ; ftp.rediris.es
-ftp		IN	A	82.194.78.250 ; ulises.hostalia.com <jfs@debian.org>
+;ftp		IN	A	82.194.78.250 ; ulises.hostalia.com <jfs@debian.org>
+ftp		IN      A	212.27.32.66 ; temp. redirect to fr.d.o during upgrade
 www		IN	CNAME	www.debian.org.
 $ORIGIN fi.debian.org.
 ftp		IN	A	130.230.54.99
