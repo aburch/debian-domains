@@ -1,0 +1,41 @@
+; -*- zone -*-
+
+; dnsu: begin allow_transfer_extra
+; 83.136.34.0/27;  // rcode0.net ipv4 axfr
+; 2A02:850:8::/47; // rcode0.net ipv6 axfr
+; dnsu: end allow_transfer_extra
+;
+; dnsu: begin also_notify_extra
+; 83.136.34.7;   // rcode0.net ipv4 ntfy
+; 2A02:850:8::6; // rcode0.net ipv6 ntfy
+; dnsu: end also_notify_extra
+
+$TTL 30m
+
+@                       IN      NS      sec1.rcode0.net.
+@                       IN      NS      sec2.rcode0.net.
+@                       IN      TXT     "Debconf.net  Yearly Debian Conference"
+@                       IN      A       46.43.39.193
+@                       IN      AAAA    2001:41c8:134:193::42
+@                       IN      MX      mail
+@                       IN      MX      smithers
+
+$TTL 8h
+
+cmburns              60 IN      A       89.16.166.49
+                        IN      SSHFP   1 1 6796642e40e9891a2b221eb96d8dda48a658c0cb
+                        IN      TXT     "Charles Montgomery (Monty) Burns"
+                        IN      TXT     "http://en.wikipedia.org/wiki/Montgomery_Burns"
+
+mail                 60 IN      A       89.16.166.49
+www                     IN      A       89.16.166.49
+
+smithers                IN      A       217.111.138.124
+                        IN      AAAA    2001:1620:fd1:124::42
+                        IN      TXT     "Waylon (J) Smithers"
+                        IN      TXT     "http://en.wikipedia.org/wiki/Waylon_Smithers"
+lists                   IN      A       217.111.138.124
+                        IN      AAAA    2001:1620:fd1:124::42
+                        IN      MX      10 smithers
+
+; vim: syn=dns:
