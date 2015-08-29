@@ -18,8 +18,8 @@ $TTL 8h
 
 $TTL 30m
 
-@                       IN      MX      mail
-@                       IN      MX      smithers
+@                       IN      MX      10 mail.debconf.org.
+@                       IN      MX      20 smithers.debconf.org.
 
 $TTL 8h
 
