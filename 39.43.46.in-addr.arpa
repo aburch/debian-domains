@@ -10,7 +10,6 @@
 ; 2A02:850:8::6; // rcode0.net ipv6 ntfy
 ; dnsu: end also_notify_extra
 
-$ORIGIN 39.43.46.in-addr.arpa.
 $TTL 8h
 
 @               IN      NS      sec1.rcode0.net.
