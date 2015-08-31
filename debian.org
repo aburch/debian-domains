@@ -143,6 +143,7 @@ incoming	5m	IN	CNAME	static
 irc			IN	CNAME	irc6.geo.oftc.net.
 irc6			IN	CNAME	irc6.geo.oftc.net.
 irc.ipv6		IN	CNAME	irc6.geo.oftc.net.
+jenkins			IN	CNAME	jerea
 keyring			IN	CNAME	kaufmann
 l10n			IN	CNAME	tye
 lintian			IN	CNAME	static
