@@ -989,8 +989,8 @@ $ORIGIN ua.debian.org.
 ftp		IN	CNAME	ftp.debian.org.ua.
 www		IN	CNAME	www.debian.org.
 $ORIGIN uk.debian.org.
-;ftp	300	IN	CNAME	debian.hands.com.
-ftp	300	IN	CNAME	mirror.bytemark.co.uk.	; backup
+ftp	300	IN	CNAME	debian.hands.com.
+;ftp	300	IN	CNAME	mirror.bytemark.co.uk.	; backup
 www		IN	CNAME	www.debian.org.
 $ORIGIN us.debian.org.
 ftp	300	IN	A	64.50.236.52		; ftp-chi.osuosl.org
