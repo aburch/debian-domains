@@ -43,7 +43,7 @@ $TTL 8h
 202		IN	PTR	cgi-grnet-01.debian.org.
 203		IN	PTR	x86-grnet-01.debian.org.
 204		IN	PTR	gigault.debian.org.
-; 205
+205		IN	PTR	vittoria.debian.org.
 ; 206
 ; 207
 ; 208
