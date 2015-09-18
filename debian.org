@@ -684,7 +684,6 @@ $ORIGIN priv.sil.debian.org.
 cisco			IN	A	172.29.160.10
 pdu			IN	A	172.29.160.11
 eder-mnt		IN	A	172.29.160.50
-eysler-mnt		IN	A	172.29.160.51
 eberlin-mnt		IN	A	172.29.160.53
 console			IN	A	172.29.160.100
 			IN	SSHFP	1 1 53002640141d9737fd9291c285bd39c699a732ba
@@ -738,7 +737,6 @@ console-46		IN	SSHFP	1 1 53002640141d9737fd9291c285bd39c699a732ba
 console-47		IN	SSHFP	1 1 53002640141d9737fd9291c285bd39c699a732ba
 console-48		IN	SSHFP	1 1 53002640141d9737fd9291c285bd39c699a732ba
 eder-console		IN	CNAME	console-1
-eysler-console		IN	CNAME	console-2
 cisco-console		IN	CNAME	console-3
 eberlin-console		IN	CNAME	console-4
 pdu-console		IN	CNAME	console-26
