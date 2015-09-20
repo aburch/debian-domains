@@ -684,7 +684,6 @@ $ORIGIN priv.sil.debian.org.
 cisco			IN	A	172.29.160.10
 pdu			IN	A	172.29.160.11
 eder-mnt		IN	A	172.29.160.50
-eysler-mnt		IN	A	172.29.160.51
 eberlin-mnt		IN	A	172.29.160.53
 console			IN	A	172.29.160.100
 			IN	SSHFP	1 1 53002640141d9737fd9291c285bd39c699a732ba
@@ -738,7 +737,6 @@ console-46		IN	SSHFP	1 1 53002640141d9737fd9291c285bd39c699a732ba
 console-47		IN	SSHFP	1 1 53002640141d9737fd9291c285bd39c699a732ba
 console-48		IN	SSHFP	1 1 53002640141d9737fd9291c285bd39c699a732ba
 eder-console		IN	CNAME	console-1
-eysler-console		IN	CNAME	console-2
 cisco-console		IN	CNAME	console-3
 eberlin-console		IN	CNAME	console-4
 pdu-console		IN	CNAME	console-26
@@ -899,12 +897,13 @@ ftp		IN	CNAME	ftp.aso.ee.
 $ORIGIN es.debian.org.
 ; ftp		IN	A	163.117.156.54 ; ftp.gul(.uc3m).es
 ; ftp		IN	A	130.206.1.5 ; ftp.rediris.es
-;ftp		IN	A	82.194.78.250 ; ulises.hostalia.com <jfs@debian.org>
-ftp		IN      A	212.27.32.66 ; temp. redirect to fr.d.o during upgrade
+ftp		IN	A	82.194.78.250 ; ulises.hostalia.com <jfs@debian.org>
+
 www		IN	CNAME	www.debian.org.
 $ORIGIN fi.debian.org.
-ftp		IN	A	130.230.54.99
-		IN	AAAA	2001:708:310:54::99
+;ftp		IN	A	130.230.54.99
+;		IN	AAAA	2001:708:310:54::99
+ftp		IN	CNAME	ftp.se.debian.org. ; temp. redirect disk crash. <ice-mirror@cs.tut.fi>
 $ORIGIN fr.debian.org.
 ftp		IN	CNAME	debian.proxad.net.
 ftp2		IN	CNAME	ftp.oleane.net.
