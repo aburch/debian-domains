@@ -52,7 +52,6 @@ $TTL 8h
 14		IN	PTR	spontini.debian.org.
 15 		IN	PTR	lucatelli.debian.org.
 16 		IN	PTR	corelli.debian.org.
-17		IN	PTR	gabrielli.debian.org.
 21		IN	PTR	traetta.debian.org.
 22		IN	PTR	ubcece.debian.org.
 23		IN	PTR	ganeti2.debian.org.

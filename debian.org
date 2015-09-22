@@ -538,7 +538,6 @@ spontini-mnt		IN	A	192.168.2.14
 
 lucatelli-mnt		IN	A	192.168.2.15
 corelli-mnt		IN	A	192.168.2.16
-gabrielli-mnt		IN	A	192.168.2.17
 torelli-mnt		IN	A	192.168.2.18
 
 traetta-mnt		IN	A	192.168.2.21
