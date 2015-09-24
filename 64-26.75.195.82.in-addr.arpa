@@ -51,7 +51,6 @@ $TTL 8h
 83      IN      PTR     aietes.turmzimmer.net.
 84	IN	PTR	nott.ayous.org.
 85      IN      PTR     thallo.turmzimmer.net.
-87	IN	PTR	arcadelt.debian.org.
 88      IN      PTR     eccles.debian.org.
 89	IN	PTR	fils.debian.org.
 90      IN      PTR     wiggum.debconf.org.
