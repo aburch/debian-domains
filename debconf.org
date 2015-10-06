@@ -224,7 +224,7 @@ rev-224                 IN      PTR     duffman.debconf.org.
 rev-225                 IN      PTR     apu.debconf.org.
 rev-226                 IN      PTR     hutz.debconf.org.
 rev-227                 IN      PTR     willie.debconf.org.
-rev-228                 IN      PTR     duffman.debconf.org.
+rev-228                 IN      PTR     scratchy.debconf.org.
 rev-229                 IN      PTR     duffman.debconf.org.
 
 ; apu, video team storage
@@ -254,6 +254,12 @@ willie                  IN      A       5.153.231.227
 annex                   IN      A       5.153.231.227
                         IN      AAAA    2001:41c8:1000:19::227:2
                         IN      SSHFP   1 1 fea74b53b289556765e9a48a795ca966efceff1b
+
+; wafer
+scratchy                IN      A       5.153.231.228
+                        IN      AAAA    2001:41c8:1000:19::228:2
+                        IN      TXT     "hapless threadbare black cat, Scratchy"
+                        IN      TXT "https://en.wikipedia.org/wiki/The_Itchy_%26_Scratchy_Show"
 
 ; Machine sponsored from oriented.net
 ned                     IN      A       217.111.138.123
