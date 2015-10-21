@@ -312,6 +312,8 @@ www-mirror		IN	CNAME	www-master.debian.org.
 @			IN	NAPTR	10 0 "s" "SIPS+D2T" "" _sips._tcp.debian.org.
 turn			IN	CNAME	vogler-ipv4
 sip-ws			IN	CNAME	vogler
+_turn._udp		IN	SRV	0 1 3478 vogler-ipv4
+_turns._tcp		IN	SRV	0 1 5349 vogler
 _stun._udp		IN	SRV	0 1 3478 vogler-ipv4
 _stuns._tcp		IN	SRV	0 1 5349 vogler
 _sips._tcp		IN	SRV	0 1 5061 vogler
