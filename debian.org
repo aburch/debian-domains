@@ -900,9 +900,9 @@ ftp		IN	A	82.194.78.250 ; ulises.hostalia.com <jfs@debian.org>
 
 www		IN	CNAME	www.debian.org.
 $ORIGIN fi.debian.org.
-;ftp		IN	A	130.230.54.99
-;		IN	AAAA	2001:708:310:54::99
-ftp		IN	CNAME	ftp.se.debian.org. ; temp. redirect disk crash. <ice-mirror@cs.tut.fi>
+ftp		IN	A	130.230.54.99
+		IN	AAAA	2001:708:310:54::99
+
 $ORIGIN fr.debian.org.
 ftp		IN	CNAME	debian.proxad.net.
 ftp2		IN	CNAME	ftp.oleane.net.
