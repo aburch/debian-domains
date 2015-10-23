@@ -443,7 +443,7 @@ $ORIGIN rev.debian.org.
 153.6.170.141		IN	PTR	mipsel-aql-02.debian.org.
 154.6.170.141		IN	PTR	mips-aql-04.debian.org.
 155.6.170.141		IN	PTR	mips-aql-05.debian.org.
-;156.6.170.141		IN	PTR	aql156.debian.org.
+156.6.170.141		IN	PTR	etler.debian.org.
 ;157.6.170.141		IN	PTR	aql157.debian.org.
 ;158.6.170.141		IN	PTR	aql158.debian.org.
 ; csail
