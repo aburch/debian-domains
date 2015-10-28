@@ -6,22 +6,17 @@
 ; dnsu: begin allow_transfer_extra
 ; 83.136.34.0/27;  // rcode0.net ipv4 axfr
 ; 2A02:850:8::/47; // rcode0.net ipv6 axfr
-; 192.36.144.222; // zork-b.sth.dnsnode.net
-; 192.36.144.218; // zork-c.sth.dnsnode.net
 ; dnsu: end allow_transfer_extra
 ;
 ; dnsu: begin also_notify_extra
 ; 83.136.34.7;   // rcode0.net ipv4 ntfy
 ; 2A02:850:8::6; // rcode0.net ipv6 ntfy
-; 192.36.144.222; // zork-b.sth.dnsnode.net
-; 192.36.144.218; // zork-c.sth.dnsnode.net
 ; dnsu: end also_notify_extra
 
 $TTL 8h
 
 @		IN	NS	sec1.rcode0.net.
 @		IN	NS	sec2.rcode0.net.
-@		IN	NS	debian1.dnsnode.net.
 
 $TTL 8h
 
