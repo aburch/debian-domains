@@ -1,4 +1,4 @@
-; ds-in-parent = yes
+; ds-in-parent = no
 ;
 ; dnsu: begin allow_transfer_extra
 ; 83.136.34.0/27;  // rcode0.net ipv4 axfr
