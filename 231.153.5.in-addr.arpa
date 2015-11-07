@@ -74,6 +74,7 @@ $TTL 8h
 40	IN	PTR	mekeel.debian.org.
 41	IN	PTR	pittar.debian.org.
 42	IN	PTR	pinel.debian.org.
+43	IN	PTR	rusca.debian.org.
 
 
 125	IN	PTR	vm-gw-bl1.bm.debian.org.
