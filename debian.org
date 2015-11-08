@@ -215,7 +215,7 @@ rt			IN	A	206.12.19.124   ; reger
 search			IN	A	194.177.211.202 ; cgi-grnet-01
 			IN	AAAA	2001:648:2ffc:deb::211:202 ; cgi-grnet-01
 			IN	MX	0 .
-security-master	60	IN	CNAME	chopin
+security-master	60	IN	CNAME	seger
 security-cdn	60	IN	CNAME	security-cdn1.debian.org.
 security-cdn1	60	IN	CNAME	global.prod.fastly.net.
 security-cdn2	60	IN	CNAME	8cb93cf9d8ec5e67cfccbf5aef63e40b.lswcdn.net.
