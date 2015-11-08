@@ -285,6 +285,7 @@ ftp.upload	300	IN	CNAME	ftp-master.debian.org.	; franck
 ;ftp.eu.upload	300	IN	CNAME	XXXXXX.debian.org. XXX
 ;ftp.eu.upload	300	IN	CNAME	ftp-master.debian.org.
 ftp.eu.upload	300	IN	CNAME	coccia.debian.org.
+veyepar			IN	CNAME	vittoria
 volatile-master		IN	CNAME	static
 volatile		IN	CNAME	static
 vote			IN	A	82.195.75.98
