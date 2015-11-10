@@ -77,9 +77,9 @@ $TTL 8h
 112	IN	PTR	wilder.debian.org.
 ; 113
 114	IN	PTR	mailly.debian.org.
-; 115
+; 115 -- oftc
 116	IN	PTR	magnetism.oftc.net.
-; 117
+117	IN	PTR	gns3.oftc.net.
 118	IN	PTR	dvalin.ayous.org.
 ; 119
 ; 120
