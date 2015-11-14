@@ -30,7 +30,6 @@ $TTL 8h
 
 $TTL 8h
 
-7.9.6.7.b.3.6.5.0.0.0.0.a.1.a.1	IN	PTR	eder.debian.org.
 b.9.6.7.b.3.a.b.0.0.0.0.a.1.a.1	IN	PTR	eberlin.debian.org.
 
 6.2.5.1.b.3.6.5.0.0.0.0.b.b.a.a	IN	PTR	tor.noreply.org.
