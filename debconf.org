@@ -260,6 +260,8 @@ scratchy                IN      A       5.153.231.228
                         IN      AAAA    2001:41c8:1000:19::228:2
                         IN      TXT     "hapless threadbare black cat, Scratchy"
                         IN      TXT "https://en.wikipedia.org/wiki/The_Itchy_%26_Scratchy_Show"
+wafertest               IN      A       5.153.231.228
+                        IN      AAAA    2001:41c8:1000:19::228:2
 
 ; Machine sponsored from oriented.net
 ned                     IN      A       217.111.138.123
