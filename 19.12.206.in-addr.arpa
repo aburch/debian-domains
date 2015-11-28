@@ -78,7 +78,7 @@ $TTL 8h
 ;131		IN	PTR
 132		IN	PTR	gombert.debian.org.
 133		IN	PTR	jenkins.debian.org.
-134		IN	PTR	blavet.debian.org.
+;134		IN	PTR
 ;135		IN	PTR
 136		IN	PTR	diabelli.debian.org.
 137		IN	PTR	bizet.debian.org.
