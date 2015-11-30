@@ -116,8 +116,8 @@ ftp-master		IN	A	138.16.160.12 ; franck
 			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
 api.ftp-master		IN	CNAME	coccia
-metadata.ftp-master	IN	CNAME	global.prod.fastly.net.
-ftp-master.metadata	IN	CNAME	global.prod.fastly.net.
+metadata.ftp-master	IN	CNAME	dualstack.map.fastly.net.
+ftp-master.metadata	IN	CNAME	dualstack.map.fastly.net.
 ;ftp-master.metadata-backend	IN	CNAME	ftp-master.metadata-master
 ;ftp-master.metadata-master	IN	CNAME	ftp-master
 mirror.ftp-master	IN	CNAME	coccia
@@ -181,7 +181,7 @@ pg-ubcece		IN	CNAME	danzi
 piuparts		IN	CNAME	pejacevic
 planet			IN	CNAME	planet-maxcdn.debian.org.
 planet-maxcdn		IN	CNAME	planet-0.debian.netdna-cdn.com.
-planet-fastly		IN	CNAME	global.prod.fastly.net.
+planet-fastly		IN	CNAME	dualstack.map.fastly.net.
 planet-backend		IN	CNAME	static
 planet-master		IN	CNAME	philp
 planet-search		IN	CNAME	philp
