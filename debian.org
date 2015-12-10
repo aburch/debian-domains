@@ -881,8 +881,7 @@ $ORIGIN cz.debian.org.
 ; Dan Ohnesorg <Dan@ohnesorg.cz>
 ftp		IN	CNAME	debiancz.debian.cz.
 $ORIGIN de.debian.org.
-;ftp		IN	A	141.76.2.4
-ftp	300	IN	A	194.8.197.22 ; mirror.netcologne.de
+ftp		IN	A	141.76.2.4
 ftp1		IN	CNAME	ftp
 ftp2	300	IN	A	137.226.34.42 ; ftp.halifax.rwth-aachen.de
 ;ftp2	300	IN	A	194.8.197.22 ; mirror.netcologne.de
