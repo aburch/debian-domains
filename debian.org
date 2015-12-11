@@ -920,11 +920,9 @@ $ORIGIN id.debian.org.
 www		IN	CNAME	www.debian.org.
 $ORIGIN ie.debian.org.
 ftp		IN	CNAME	debian.heanet.ie.  ; Colm MacCarthaigh <colm.maccarthaigh@heanet.ie>
-
 $ORIGIN ir.debian.org.
-;ftp		IN	CNAME	debian.asis.io.	; Restored per factoreal@asis.io
+ftp		IN	CNAME	debian.asis.io.	; Restored per factoreal@asis.io
 ;ftp		IN	A	217.218.48.81 ; part of debian.asis.io
-ftp 		IN 	CNAME	ftp.linux.org.tr. ; asis.io DC down...again perfer factorealriseup.net
 
 $ORIGIN is.debian.org.
 ftp		IN	CNAME	debian.simnet.is.
