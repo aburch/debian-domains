@@ -92,6 +92,10 @@ contributors		IN	CNAME	nono
 cvs			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
 			IN	MX	0 .
+deb			IN	MX	0 .
+_http._tcp.deb		IN	SRV	0 1 80 dualstack.map.fastly.net.
+cdn-fastly.deb		IN	CNAME	dualstack.map.fastly.net.
+
 d-i			IN	CNAME	static
 d-i-backend		IN	CNAME	static
 d-i-master		IN	CNAME	dillon
