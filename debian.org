@@ -563,7 +563,7 @@ jenko-mnt		IN	A	192.168.2.83
 beach-mnt		IN	A	192.168.2.90
 ullman-mnt		IN	A	192.168.2.91
 sonntag-mnt		IN	A	192.168.2.92
-buxtehude-mnt		IN	A	192.168.2.97
+buxtehude-mnt		IN	A	192.168.2.96 ; 97 conflicts with netgear
 
 traetta-ilo		IN	A	192.168.2.121
 
