@@ -68,6 +68,8 @@ f.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	menotti.debian.org.
 0.1.1.0.9.1.0.0.2.6.a.0.4.6.5.6		IN	PTR	fano.debian.org.
 1.1.1.0.9.1.0.0.2.6.a.0.4.6.5.6		IN	PTR	finzi.debian.org.
 
+7.4.1.0.0.0.0.0.2.1.0.0.5.1.0.2		IN	PTR	buxtehude.debian.org.
+
 4.d.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	ubc-bl2.debian.org.
 8.d.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	ubc-bl6.debian.org.
 
