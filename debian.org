@@ -67,8 +67,8 @@ blends-backend		IN	CNAME	static
 bttracker		IN	CNAME	bttracker.acc.umu.se.
 bugs			IN	MX	10 buxtehude
 			; A/AAAA records via services-auto
-bugs-master		IN	A	140.211.166.26	; buxtehude
-			IN	MX	0 .
+bugs-master	60	IN	A	140.211.166.26	; buxtehude
+		60	IN	MX	0 .
 bugs-beach		IN	CNAME	beach
 bugs-buxtehude		IN	CNAME	buxtehude
 bugs-mirror		IN	CNAME	beach	; rsync service, not web
