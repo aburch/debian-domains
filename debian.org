@@ -561,7 +561,6 @@ quantz-mnt		IN	A	192.168.2.72
 glinka-mnt		IN	A	192.168.2.76
 tye-mnt			IN	A	192.168.2.79
 jenko-mnt		IN	A	192.168.2.83
-beach-mnt		IN	A	192.168.2.90
 ullman-mnt		IN	A	192.168.2.91
 sonntag-mnt		IN	A	192.168.2.92
 buxtehude-mnt		IN	A	192.168.2.96 ; 97 conflicts with netgear
