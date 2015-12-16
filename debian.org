@@ -67,9 +67,9 @@ blends-backend		IN	CNAME	static
 bttracker		IN	CNAME	bttracker.acc.umu.se.
 bugs			IN	MX	10 buxtehude
 			; A/AAAA records via services-auto
-bugs-master	60	IN	A	206.12.19.147			; buxtehude
-		60	IN	AAAA	2607:f8f0:610:4000:2015:12::147	; buxtehude
-		60	IN	MX	0 .
+bugs-master		IN	A	206.12.19.147			; buxtehude
+			IN	AAAA	2607:f8f0:610:4000:2015:12::147	; buxtehude
+			IN	MX	0 .
 bugs-beach		IN	CNAME	beach
 bugs-buxtehude		IN	CNAME	buxtehude
 bugs-mirror		IN	CNAME	beach	; rsync service, not web
@@ -144,7 +144,7 @@ i18n			IN	A	206.12.19.129	; tye
 			IN	MX	0 tye
 ;incoming	5m	IN	A	138.16.160.12 ; franck
 			;IN	MX	0 .
-incoming	5m	IN	CNAME	static
+incoming		IN	CNAME	static
 irc			IN	CNAME	irc6.geo.oftc.net.
 irc6			IN	CNAME	irc6.geo.oftc.net.
 irc.ipv6		IN	CNAME	irc6.geo.oftc.net.
