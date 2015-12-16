@@ -270,7 +270,7 @@ syncproxy.na		IN	A	128.31.0.64	; mirror-csail
 ubcece			IN	A	206.12.19.22	; VIP for ganeti
 ganeti2			IN	A	206.12.19.23	; ubc-bl7/ubc-bl3/ubc-bl2/ubc-bl6 ganeti vip
 ganeti3			IN	A	82.195.75.111	; czerny/clementi
-ganeti-osuosl		IN	A	140.211.166.30	; byrd
+ganeti-osuosl	60	IN	A	140.211.166.30	; byrd
 ganeti-1and1		IN	A	172.29.150.100	; powell
 udd			IN	CNAME	ullmann
 small-teams		IN	A	82.195.75.100	; bendel
