@@ -1,5 +1,3 @@
-; ds-in-parent = no
-;
 ; dnsu: begin allow_transfer_extra
 ; key 82.195.75.91-key ;
 ; 83.136.34.0/27;  // rcode0.net ipv4 axfr
