@@ -24,7 +24,7 @@ $TTL 30m
 ;@                       IN      MX      10 mail
 ;@                       IN      MX      20 smithers
 
-$TTL 8h
+$TTL 1h
 
 
 cmburns              60 IN   A          89.16.166.49
