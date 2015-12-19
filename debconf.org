@@ -102,10 +102,8 @@ www                     IN      A       46.43.39.193
                         IN      AAAA    2001:41c8:134:193::42
 wiki                    IN      A       46.43.39.193
                         IN      AAAA    2001:41c8:134:193::42
-es                1m    IN      A       46.43.39.193
-                  1m    IN      AAAA    2001:41c8:134:193::42
-fr                1m    IN      A       46.43.39.193
-                  1m    IN      AAAA    2001:41c8:134:193::42
+es                1m    IN      CNAME   static.debian.org.
+fr                1m    IN      CNAME   static.debian.org.
 debconf16               IN      A       46.43.39.193
                         IN      AAAA    2001:41c8:134:193::42
 debconf15               IN      A       46.43.39.193
@@ -124,24 +122,15 @@ debconf9                IN      A       46.43.39.193
                         IN      AAAA    2001:41c8:134:193::42
 debconf8                IN      A       46.43.39.193
                         IN      AAAA    2001:41c8:134:193::42
-debconf7          1m    IN      A       46.43.39.193
-                  1m    IN      AAAA    2001:41c8:134:193::42
-debconf6          1m    IN      A       46.43.39.193
-                  1m    IN      AAAA    2001:41c8:134:193::42
-debconf5          1m    IN      A       46.43.39.193
-                  1m    IN      AAAA    2001:41c8:134:193::42
-debconf4          1m    IN      A       46.43.39.193
-                  1m    IN      AAAA    2001:41c8:134:193::42
-debconf3          1m    IN      A       46.43.39.193
-                  1m    IN      AAAA    2001:41c8:134:193::42
-debconf2          1m    IN      A       46.43.39.193
-                  1m    IN      AAAA    2001:41c8:134:193::42
-debconf1          1m    IN      A       46.43.39.193
-                  1m    IN      AAAA    2001:41c8:134:193::42
-debconf0          1m    IN      A       46.43.39.193
-                  1m    IN      AAAA    2001:41c8:134:193::42
-10years           1m    IN      A       46.43.39.193
-                  1m    IN      AAAA    2001:41c8:134:193::42
+debconf7          1m    IN      CNAME   static.debian.org.
+debconf6          1m    IN      CNAME   static.debian.org.
+debconf5          1m    IN      CNAME   static.debian.org.
+debconf4          1m    IN      CNAME   static.debian.org.
+debconf3          1m    IN      CNAME   static.debian.org.
+debconf2          1m    IN      CNAME   static.debian.org.
+debconf1          1m    IN      CNAME   static.debian.org.
+debconf0          1m    IN      CNAME   static.debian.org.
+10years           1m    IN      CNAME   static.debian.org.
 media                   IN      A       46.43.39.193
                         IN      AAAA    2001:41c8:134:193::42
 in2010.mini             IN      A       46.43.39.193
@@ -168,8 +157,7 @@ nz2015.mini             IN      A       46.43.39.193
                         IN      MX 90   smithers
 mini                    IN      A       46.43.39.193
                         IN      AAAA    2001:41c8:134:193::42
-miniconf10         1m   IN      A       46.43.39.193
-                   1m   IN      AAAA    2001:41c8:134:193::42
+miniconf10         1m   IN      CNAME   static.debian.org.
 bucharest2015.mini      IN      A       46.43.39.193
                         IN      AAAA    2001:41c8:134:193::42
                         IN      MX 10   mail
