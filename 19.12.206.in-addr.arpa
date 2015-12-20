@@ -81,7 +81,7 @@ $TTL 8h
 ;134		IN	PTR
 ;135		IN	PTR
 136		IN	PTR	diabelli.debian.org.
-137		IN	PTR	bizet.debian.org.
+; 137		IN	PTR
 ; 138		IN	PTR
 ; 139		IN	PTR
 ; 140		IN	PTR
