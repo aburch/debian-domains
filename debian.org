@@ -356,9 +356,12 @@ sibelius2		IN	A	193.62.202.30
 			IN	AAAA	2001:630:206:4000:1a1a:0:c13e:ca1e
 mirror-csail-security	IN	A	128.31.0.63
 
-mirror-isc2		IN	AAAA	2001:4f8:8:36:deb:2015::2 ; mirror-isc:
-mirror-isc3		IN	AAAA	2001:4f8:8:36:deb:2015::3 ; mirror-isc:
-syncproxy.wna2		IN	AAAA	2001:4f8:8:36:deb:2015::4 ; mirror-isc:
+mirror-isc2		IN	AAAA	2001:4f8:8:36::1deb:19 ; mirror-isc:
+			IN	A	149.20.20.19
+mirror-isc3		IN	AAAA	2001:4f8:8:36::1deb:20 ; mirror-isc:
+			IN	A	149.20.20.20
+syncproxy.wna2		IN	AAAA	2001:4f8:8:36::1deb:21 ; mirror-isc:
+			IN	A	149.20.20.21
 
 ; brown
 franck-ilo		IN	A	128.148.32.22
