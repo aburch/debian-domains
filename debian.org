@@ -160,7 +160,7 @@ lists-test		IN	MX	0 bendel.debian.org.
 manpages		IN	CNAME	glinka
 mirror			IN	CNAME	glinka
 mirror-master		IN	CNAME	glinka
-debug.mirrors		IN	CNAME	klecker-misc
+debug.mirrors		IN	A	130.89.148.14
 mailout			IN	A	82.195.75.114	; mailly
 			IN	A	206.12.19.146	; muffat
 			IN	AAAA	2001:41b8:202:deb:6564:a62:52c3:4b72	; mailly
