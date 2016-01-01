@@ -20,9 +20,9 @@ $TTL 30m
 
 @                       IN      A       46.43.39.193
 @                       IN      AAAA    2001:41c8:134:193::42
-@                   300 IN      MX      5 domine.madduck.net.
-;@                       IN      MX      10 mail
-;@                       IN      MX      20 smithers
+;@                   300 IN      MX      5 domine.madduck.net.
+@                       IN      MX      10 mail
+@                       IN      MX      20 smithers
 
 $TTL 1h
 
