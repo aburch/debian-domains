@@ -373,7 +373,7 @@ mirror-umn3		IN	A	128.101.240.216
 			IN	AAAA	2607:ea00:101:3c0b::1deb:216
 mirror-umn4		IN	A	128.101.240.217
 			IN	AAAA	2607:ea00:101:3c0b::1deb:217
-syncproxy.wna3		IN	CNAME	mirror-umn3
+syncproxy.cna		IN	CNAME	mirror-umn3
 
 ; brown
 franck-ilo		IN	A	128.148.32.22
