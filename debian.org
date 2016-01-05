@@ -965,6 +965,8 @@ $ORIGIN kr.debian.org.
 ftp	300	IN	CNAME	ftp.kaist.ac.kr.
 $ORIGIN lt.debian.org.
 ftp		IN	CNAME	debian.mirror.vu.lt. ; Arnoldas Sareckis <hostmaster@vu.lt>
+$ORIGIN md.debian.org.
+ftp	300	IN	CNAME	mirror.as43289.net. ; Sven Wiese <s.wiese@trabia.com>
 $ORIGIN mx.debian.org.
 ;ftp		IN	CNAME	nisamox.fciencias.unam.mx. ; FIXME
 ftp		IN	CNAME	mmc.geofisica.unam.mx. ; FIXME
