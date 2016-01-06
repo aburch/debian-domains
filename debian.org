@@ -367,7 +367,7 @@ mirror-isc3		IN	AAAA	2001:4f8:8:36::1deb:20 ; mirror-isc:
 			IN	A	149.20.20.20
 syncproxy2.wna		IN	AAAA	2001:4f8:8:36::1deb:21 ; mirror-isc:
 			IN	A	149.20.20.21
-syncproxy.wna2		IN	CNAME	syncproxy.wna2
+syncproxy.wna2		IN	CNAME	syncproxy2.wna
 
 mirror-umn2		IN	A	128.101.240.215
 			IN	AAAA	2607:ea00:101:3c0b::1deb:215
