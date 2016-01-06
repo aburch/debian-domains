@@ -1054,6 +1054,7 @@ ftp		IN	CNAME	debian.egr.msu.edu.
 $ORIGIN za.debian.org.
 www		IN	CNAME	www.debian.org.
 
+$ORIGIN debian.org.
 ; SSH FP
 $INCLUDE "/var/lib/misc/thishost/dns-sshfp"
 $INCLUDE "/srv/dns.debian.org/puppet-extra/include-debian.org"
@@ -1065,5 +1066,8 @@ D90A534B0F00790278E74E8A21112E8C.d-i.debian.org. 10800 IN CNAME 926DB2FCEA734185
 
 _domainkey.debian.org.			60	IN	TXT	( "t=y;" "o=~;" )
 lfilipoz.user._domainkey.debian.org.	60	IN	TXT	( "t=y;" "v=DKIM1;" "k=rsa;" "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrtt9E+Samg9B14Dm6/ehktir/fEzvzWR0fvsPci0ITmeHwFwD+jTZaPKnNR/wHK/nQzq53DR3M5D/Klc4Tpg3IR3917tjradvoQVP1QmmFWKB+UQERDiY59PXW1qsacbQMGdQa318WLYevTVIsOGwOvQLFi1QGmT1j+qSmsjBgQIDAQAB;" ) ;
+
+; weasel, 20160106 for rcode0
+cname-test	IN CNAME cname-test
 
 ; vim: syn=dns:
