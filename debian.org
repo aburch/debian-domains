@@ -263,12 +263,15 @@ www.sso			IN	CNAME	diabelli
 svn			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
 			IN	MX	0 .
+syncproxy.au		IN	CNAME	mirror-anu
 syncproxy.eu		IN	CNAME	ftp.hr.debian.org.
 syncproxy2.eu		IN	A	130.89.148.10 	; klecker
 			IN	AAAA	2001:610:1908:b000::148:10	; klecker
 syncproxy3.eu		IN	A	5.153.231.9		; milanollo
 			IN	AAAA	2001:41c8:1000:21::21:9	; milanollo
+syncproxy.cna		IN	CNAME	mirror-umn3
 syncproxy.wna		IN	A	140.211.166.44	; rietz
+; syncproxy2.wna is down in the hosts block
 syncproxy.na		IN	A	128.31.0.64	; mirror-csail
 ubcece			IN	A	206.12.19.22	; VIP for ganeti
 ganeti2			IN	A	206.12.19.23	; ubc-bl7/ubc-bl3/ubc-bl2/ubc-bl6 ganeti vip
@@ -370,11 +373,10 @@ syncproxy2.wna		IN	AAAA	2001:4f8:8:36::1deb:21 ; mirror-isc:
 
 mirror-umn2		IN	A	128.101.240.215
 			IN	AAAA	2607:ea00:101:3c0b::1deb:215
-mirror-umn3		IN	A	128.101.240.216
+mirror-umn3		IN	A	128.101.240.216 ; syncproxy.cna
 			IN	AAAA	2607:ea00:101:3c0b::1deb:216
 mirror-umn4		IN	A	128.101.240.217
 			IN	AAAA	2607:ea00:101:3c0b::1deb:217
-syncproxy.cna		IN	CNAME	mirror-umn3
 
 ; brown
 franck-ilo		IN	A	128.148.32.22
