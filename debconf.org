@@ -155,6 +155,8 @@ bcn2014.mini            IN      A       46.43.39.193
                         IN      AAAA    2001:41c8:134:193::42
 br2016.mini             IN      A       46.43.39.193
                         IN      AAAA    2001:41c8:134:193::42
+                        IN      MX 10   mail
+                        IN      MX 90   smithers
 nz2015.mini             IN      A       46.43.39.193
                         IN      AAAA    2001:41c8:134:193::42
                         IN      MX 10   mail
