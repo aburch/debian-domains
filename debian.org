@@ -1040,9 +1040,9 @@ ftp5	300	IN	CNAME ftp
 ; ftp	300	IN	A	199.6.12.70		; mirror.mycre.ws (ISC, edmonds@debian.org) ; FIXME
 ; ftp5	300	IN	A	199.6.12.70		; mirror.mycre.ws (ISC, edmonds@debian.org) ; FIXME
 ; ftp	300	IN	AAAA	2001:500:61:28::70	; mirror.mycre.ws (ISC, edmonds@debian.org) ; FIXME
-ftp	300	IN	A	128.61.240.89		; debian.gtisc.gatech.edu (edmonds@debian.org)
+;ftp	300	IN	A	128.61.240.89		; debian.gtisc.gatech.edu (edmonds@debian.org)
 ftp6	300	IN	A	128.61.240.89		; debian.gtisc.gatech.edu (edmonds@debian.org)
-ftp	300	IN	AAAA	2610:148:1f10:3::89	; debian.gtisc.gatech.edu (edmonds@debian.org)
+;ftp	300	IN	AAAA	2610:148:1f10:3::89	; debian.gtisc.gatech.edu (edmonds@debian.org)
 ftp6	300	IN	AAAA	2610:148:1f10:3::89	; debian.gtisc.gatech.edu (edmonds@debian.org)
 http		IN	CNAME	ftp.us.debian.org.
 www		IN	CNAME	www.debian.org.
