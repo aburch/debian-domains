@@ -1033,24 +1033,24 @@ ftp	300	IN	CNAME	debian.hands.com.
 www		IN	CNAME	www.debian.org.
 $ORIGIN us.debian.org.
 ftp	300	IN	A	64.50.236.52		; ftp-chi.osuosl.org
-ftp1	300	IN	A	64.50.236.52		; ftp-chi.osuosl.org
+ftp1		IN	A	64.50.236.52		; ftp-chi.osuosl.org
 ftp	300	IN	A	64.50.233.100		; ftp-nyc.osuosl.org
-ftp2	300	IN	A	64.50.233.100		; ftp-nyc.osuosl.org
-ftp3	300	IN	A	128.61.240.89		; debian.gtisc.gatech.edu (edmonds@debian.org)
+ftp2		IN	A	64.50.233.100		; ftp-nyc.osuosl.org
+ftp3		IN	CNAME	ftp6		; debian.gtisc.gatech.edu (edmonds@debian.org)
 ; ftp	300	IN	A	128.30.2.36		; debian.csail.mit.edu
 ; ftp4	300	IN	A	128.30.2.36		; debian.csail.mit.edu
 ;ftp	300	IN	A	149.20.20.135		; mirrors1.kernel.org
 ;ftp	300	IN	A	204.152.191.39		; mirrors2.kernel.org  # not responding
 ;ftp5	300	IN	A	128.30.2.36		; debian.csail.mit.edu
 ; ftp5	300	IN	A	64.50.233.100		; ftp-nyc.osuosl.org
-ftp5	300	IN	CNAME ftp
+ftp5		IN	CNAME	ftp
 ; ftp	300	IN	A	199.6.12.70		; mirror.mycre.ws (ISC, edmonds@debian.org) ; FIXME
 ; ftp5	300	IN	A	199.6.12.70		; mirror.mycre.ws (ISC, edmonds@debian.org) ; FIXME
 ; ftp	300	IN	AAAA	2001:500:61:28::70	; mirror.mycre.ws (ISC, edmonds@debian.org) ; FIXME
 ftp	300	IN	A	128.61.240.89		; debian.gtisc.gatech.edu (edmonds@debian.org)
-ftp6	300	IN	A	128.61.240.89		; debian.gtisc.gatech.edu (edmonds@debian.org)
+ftp6		IN	A	128.61.240.89		; debian.gtisc.gatech.edu (edmonds@debian.org)
 ftp	300	IN	AAAA	2610:148:1f10:3::89	; debian.gtisc.gatech.edu (edmonds@debian.org)
-ftp6	300	IN	AAAA	2610:148:1f10:3::89	; debian.gtisc.gatech.edu (edmonds@debian.org)
+ftp6		IN	AAAA	2610:148:1f10:3::89	; debian.gtisc.gatech.edu (edmonds@debian.org)
 http		IN	CNAME	ftp.us.debian.org.
 www		IN	CNAME	www.debian.org.
 
