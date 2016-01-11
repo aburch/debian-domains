@@ -32,16 +32,6 @@ $TTL 1h
 		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
 		IN	MX	10 leda.debian.net.
 
-archive		IN	A	206.12.19.127
-		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
-
-buildd		IN	A	206.12.19.127
-		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
-		IN	MX	10 leda.debian.net.
-
-cdimage		IN	A	206.12.19.127
-		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
-
 ftp		IN	A	206.12.19.127
 		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
 
@@ -55,9 +45,6 @@ pop		IN	A	206.12.19.127
 		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
 
 rsync		IN	A	206.12.19.127
-		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
-
-transitions	IN	A	206.12.19.127
 		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
 
 www		IN	CNAME	static.debian.org.
