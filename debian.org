@@ -263,7 +263,7 @@ www.sso			IN	CNAME	diabelli
 svn			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
 			IN	MX	0 .
-syncproxy.au		IN	CNAME	mirror-anu
+syncproxy.au		IN	CNAME	mirror-anu2
 syncproxy.eu		IN	CNAME	ftp.hr.debian.org.
 syncproxy2.eu		IN	A	130.89.148.10 	; klecker
 			IN	AAAA	2001:610:1908:b000::148:10	; klecker
@@ -377,6 +377,13 @@ mirror-umn3		IN	A	128.101.240.216 ; syncproxy.cna
 			IN	AAAA	2607:ea00:101:3c0b::1deb:216
 mirror-umn4		IN	A	128.101.240.217
 			IN	AAAA	2607:ea00:101:3c0b::1deb:217
+
+mirror-anu2		IN	A	150.203.164.60
+			IN	AAAA	2001:388:1034:2900::3c
+mirror-anu3		IN	A	150.203.164.61
+			IN	AAAA	2001:388:1034:2900::3d
+mirror-anu4		IN	A	150.203.164.62
+			IN	AAAA	2001:388:1034:2900::3e
 
 ; brown
 franck-ilo		IN	A	128.148.32.22
