@@ -1043,9 +1043,6 @@ ftp4		IN	A	128.30.2.26		; debian.csail.mit.edu
 ;ftp	300	IN	A	204.152.191.39		; mirrors2.kernel.org  # not responding
 ; ftp5	300	IN	A	64.50.233.100		; ftp-nyc.osuosl.org
 ftp5		IN	CNAME	ftp
-; ftp	300	IN	A	199.6.12.70		; mirror.mycre.ws (ISC, edmonds@debian.org) ; FIXME
-; ftp5	300	IN	A	199.6.12.70		; mirror.mycre.ws (ISC, edmonds@debian.org) ; FIXME
-; ftp	300	IN	AAAA	2001:500:61:28::70	; mirror.mycre.ws (ISC, edmonds@debian.org) ; FIXME
 ftp	300	IN	A	128.61.240.89		; debian.gtisc.gatech.edu (edmonds@debian.org)
 ftp6		IN	A	128.61.240.89		; debian.gtisc.gatech.edu (edmonds@debian.org)
 ftp	300	IN	AAAA	2610:148:1f10:3::89	; debian.gtisc.gatech.edu (edmonds@debian.org)
