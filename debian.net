@@ -1,5 +1,9 @@
 ; wzf: integrity-checks = none
 ;
+; wzf: soa_refresh = 30m
+; wzf: soa_retry = 10m
+; wzf: soa_negttl = 10m
+;
 ; ds-in-parent = yes
 ;
 ; dnsu: begin allow_transfer_extra
