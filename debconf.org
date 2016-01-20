@@ -263,7 +263,7 @@ itchy                   IN      A       5.153.231.229
                         IN      AAAA    2001:41c8:1000:19::229:2
                         IN      TXT     "the sadistic mouse, Scratchy"
                         IN      TXT "https://en.wikipedia.org/wiki/The_Itchy_%26_Scratchy_Show"
-debconf16               IN      A       5.153.231.229
+wafer                   IN      A       5.153.231.229
                         IN      AAAA    2001:41c8:1000:19::229:2
 
 ; Machine sponsored from oriented.net
