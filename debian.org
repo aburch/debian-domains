@@ -1040,7 +1040,7 @@ ftp	300	IN	A	64.50.236.52		; ftp-chi.osuosl.org
 ftp1		IN	A	64.50.236.52		; ftp-chi.osuosl.org
 ftp	300	IN	A	64.50.233.100		; ftp-nyc.osuosl.org
 ftp2		IN	A	64.50.233.100		; ftp-nyc.osuosl.org
-ftp3		IN	CNAME	ftp6		; debian.gtisc.gatech.edu (edmonds@debian.org)
+ftp3		IN	CNAME	ftp6			; debian.gtisc.gatech.edu (edmonds@debian.org)
 ftp	300	IN	A	128.30.2.26		; debian.csail.mit.edu
 ftp4		IN	A	128.30.2.26		; debian.csail.mit.edu
 ;ftp	300	IN	A	149.20.20.135		; mirrors1.kernel.org
