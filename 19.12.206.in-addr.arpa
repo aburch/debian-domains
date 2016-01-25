@@ -106,6 +106,7 @@ $TTL 8h
 243		IN	PTR	lux.oftc.net.
 245		IN	PTR	mole.oftc.net.
 246		IN	PTR	planck.oftc.net.
+247		IN	PTR	mosaic.oftc.net.
 
 251		IN	PTR	bastion-ubcece.debian.org.
 252		IN	PTR	router2-ubcece.debian.org.
