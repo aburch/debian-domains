@@ -72,4 +72,12 @@ f.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	menotti.debian.org.
 4.d.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	ubc-bl2.debian.org.
 8.d.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	ubc-bl6.debian.org.
 
+; OFTC hosts
+3.e.3.7.d.f.e.f.f.f.8.4.0.3.2.0		IN	PTR	polymer.oftc.net.
+5.0.0.9.3.5.e.f.f.f.f.0.6.1.2.0		IN	PTR	positron.oftc.net.
+6.e.b.e.d.4.e.f.f.f.f.0.6.1.2.0		IN	PTR	lux.oftc.net.
+b.b.2.7.9.8.e.f.f.f.f.0.6.1.2.0		IN	PTR	mole.oftc.net.
+b.3.7.f.8.2.e.f.f.f.f.0.6.1.2.0		IN	PTR	planck.oftc.net.
+a.8.9.f.b.3.e.f.f.f.f.0.6.1.2.0		IN	PTR	mosaic.oftc.net.
+
 ; vim:syn=dns
