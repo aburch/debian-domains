@@ -53,8 +53,10 @@ alioth			IN	NS	sec1.rcode0.net.
 			IN	NS	dns1.easydns.com.
 $INCLUDE "/srv/dns.debian.org/var/keys/alioth.debian.org/dsset"
 anonscm			IN	A	5.153.231.21	; alioth - moszumanska
+			IN	AAAA	2001:41c8:1000:21::21:21
 appstream		IN	CNAME	static
 arch			IN	A	5.153.231.21	; alioth - moszumanska
+			IN	AAAA	2001:41c8:1000:21::21:21
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
 			IN	MX	0 .
 archive			IN	MX	0 .
@@ -82,6 +84,7 @@ buildd			IN	A	5.153.231.18 ; wuiet
 			IN	AAAA	2001:41c8:1000:21::21:18 ; wuiet
 			IN	MX	10 wuiet.debian.org.
 bzr			IN	A	5.153.231.21	; alioth - moszumanska
+			IN	AAAA	2001:41c8:1000:21::21:21
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
 			IN	MX	0 .
 ca			IN	CNAME	draghi
@@ -95,6 +98,7 @@ cgi			IN	A	82.195.75.65	; wolkenstein
 			IN	MX	0 .
 contributors		IN	CNAME	nono
 cvs			IN	A	5.153.231.21	; alioth - moszumanska
+			IN	AAAA	2001:41c8:1000:21::21:21
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
 			IN	MX	0 .
 deb			IN	CNAME	static
@@ -106,6 +110,7 @@ d-i-backend		IN	CNAME	static
 d-i-master		IN	CNAME	dillon
 dsa			IN	CNAME	static
 darcs			IN	A	5.153.231.21	; alioth - moszumanska
+			IN	AAAA	2001:41c8:1000:21::21:21
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
 			IN	MX	0 .
 db			IN	A	82.195.75.106	; draghi
@@ -133,12 +138,14 @@ mirror.ftp-master	IN	CNAME	coccia
 get			IN	CNAME	ftp.acc.umu.se.
 _git._tcp.git		IN	SRV	0 0 9418 moszumanska
 git			IN	A	5.153.231.21	; alioth - moszumanska
+			IN	AAAA	2001:41c8:1000:21::21:21
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
 			IN	MX	0 .
 ubergit			IN	CNAME	adayevskaya
 git2			IN	CNAME	adayevskaya
 gobby			IN	CNAME	gombert
 hg			IN	A	5.153.231.21	; alioth - moszumanska
+			IN	AAAA	2001:41c8:1000:21::21:21
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
 			IN	MX	0 .
 httpredir		IN	MX	0 .
@@ -265,6 +272,7 @@ ssh			IN	CNAME	paradis2
 sso			IN	CNAME	diabelli
 www.sso			IN	CNAME	diabelli
 svn			IN	A	5.153.231.21	; alioth - moszumanska
+			IN	AAAA	2001:41c8:1000:21::21:21
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
 			IN	MX	0 .
 syncproxy.au		IN	CNAME	mirror-anu2
