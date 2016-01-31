@@ -105,6 +105,7 @@ deb			IN	CNAME	static
 _http._tcp.deb		IN	SRV	0 1 80 dualstack.map.fastly.net.
 cdn-fastly.deb		IN	CNAME	dualstack.map.fastly.net.
 
+debtags			IN	CNAME	tate
 d-i			IN	CNAME	static
 d-i-backend		IN	CNAME	static
 d-i-master		IN	CNAME	dillon
