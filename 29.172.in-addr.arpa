@@ -138,6 +138,7 @@ $GENERATE 1-14 $.120	IN	PTR	bm-bl$-backend.priv.bm.debian.org.
 22.122			IN	PTR	dillon-backend.priv.bm.debian.org.
 23.122			IN	PTR	ticharich-backend.priv.bm.debian.org.
 28.122			IN	PTR	quantz-backend.priv.bm.debian.org.
+33.122			IN	PTR	tate-backend.priv.bm.debian.org.
 36.122			IN	PTR	lindsay-backend.priv.bm.debian.org.
 40.122			IN	PTR	mekeel-backend.priv.bm.debian.org.
 
