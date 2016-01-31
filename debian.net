@@ -43,6 +43,7 @@ $INCLUDE "/srv/dns.debian.org/var/services-auto/all"
 $TTL 1h
 
 $INCLUDE "/var/lib/misc/thishost/dns-zone"
+$INCLUDE "/srv/letsencrypt.debian.org/var/hook/snippet"
 
 ; manually added by weasel 20150820,
 ; per request of paulproteus.
