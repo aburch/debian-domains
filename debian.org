@@ -1074,7 +1074,7 @@ $ORIGIN debian.org.
 ; SSH FP
 $INCLUDE "/var/lib/misc/thishost/dns-sshfp"
 $INCLUDE "/srv/dns.debian.org/puppet-extra/include-debian.org"
-$INCLUDE "/home/letsencrypt/var/hook/snippet"
+$INCLUDE "/srv/letsencrypt.debian.org/var/hook/snippet"
 
 
 ; gandi validation stuff
