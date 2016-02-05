@@ -957,7 +957,8 @@ ftp		IN	CNAME	debian.proxad.net.
 ftp2		IN	CNAME	ftp.oleane.net.
 www		IN	CNAME	www.debian.org.
 $ORIGIN gr.debian.org.
-ftp		IN	CNAME	patroklos.noc.ntua.gr.
+;ftp		IN	CNAME	patroklos.noc.ntua.gr.
+ftp		IN	CNAME	klecker-ftp.debian.org.
 $ORIGIN hk.debian.org.
 ;ftp		IN	A	202.134.73.139 ; Anthony Wong <ypwong@debian.org>
 ftp		IN	CNAME	ftp.jaist.ac.jp. ; ftp.jp.debian.org.
