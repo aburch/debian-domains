@@ -42,7 +42,7 @@ $GENERATE 0-4 $.5.2.0.0.2.0.0.0.0.0.0.0.0.0.0.0.2.0.0			IN	PTR	bm-bl1$.debian.or
 6.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	pejacevic.debian.org.
 7.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	piu-slave-bm-a.debian.org.
 8.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	binet.debian.org.
-; 9.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0
+9.0.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	syncproxy3.eu.debian.org.
 0.1.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	bmdb1.debian.org.
 1.1.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	coccia.debian.org.
 2.1.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	backuphost.debian.org.
