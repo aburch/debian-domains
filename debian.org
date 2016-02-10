@@ -1030,7 +1030,7 @@ $ORIGIN sk.debian.org.
 ftp		IN	CNAME	mirrors.gts.sk.
 ; ftp		IN	CNAME	mirrors.nextra.sk. ; FIXME
 $ORIGIN sv.debian.org.
-ftp		IN	A	190.86.138.212		; debian.salud.gob.sv <mirror@salud.gob.sv>
+ftp		IN	CNAME	mirror.salud.gob.sv.	; mirror@salud.gob.sv; Adolfo Maltez <fmaltez@salud.gob.sv>
 $ORIGIN th.debian.org.
 ftp		IN	CNAME	ftp.coe.psu.ac.th.
 $ORIGIN tr.debian.org.
