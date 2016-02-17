@@ -250,12 +250,10 @@ security-nagios		IN	MX	0 .
 			IN	A	212.211.132.250	; lobos
 			IN	A	128.31.0.63	; mirror-csail-security
 			IN	A	195.20.242.89	; wieck
-			;IN	A	128.101.240.212	; saens
-			;IN	A	149.20.20.6	; schein
 			IN	A	128.61.240.73	; sechter
-			IN	A	150.203.164.38	; gluck
 			IN	A	200.17.202.197	; santoro
 			IN	A	133.242.99.74	; setoguchi
+			IN	A	150.203.164.61	; mirror-anu
 			IN	A	149.20.20.19	; mirror-isc
 			IN	A	128.101.240.215	; mirror-umn
 ;security-team	60	IN	CNAME	8cb93cf9d8ec5e67cfccbf5aef63e40b.lswcdn.net.
