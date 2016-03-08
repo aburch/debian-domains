@@ -44,7 +44,7 @@ $TTL 8h
 203		IN	PTR	x86-grnet-01.debian.org.
 204		IN	PTR	gigault.debian.org.
 205		IN	PTR	vittoria.debian.org.
-; 206
+206		IN	PTR	boott.debian.org.
 ; 207
 ; 208
 ; 209
