@@ -281,8 +281,7 @@ syncproxy2.eu		IN	A	130.89.148.10 	; klecker
 			IN	AAAA	2001:610:1908:b000::148:10	; klecker
 syncproxy3.eu		IN	A	5.153.231.9		; milanollo
 			IN	AAAA	2001:41c8:1000:21::21:9	; milanollo
-;syncproxy.cna		IN	CNAME	mirror-umn3
-syncproxy.cna	60	IN	CNAME	syncproxy2.wna
+syncproxy.cna		IN	CNAME	mirror-umn3
 syncproxy.wna		IN	A	140.211.166.44	; rietz
 ; syncproxy2.wna is down in the hosts block
 syncproxy.na		IN	A	128.31.0.64	; mirror-csail
