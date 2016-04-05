@@ -29,5 +29,6 @@ $TTL 8h
 4.5.1.0.0.0.0.0.0.0.0.0.0.0.0.0		IN	PTR	mips-aql-04.debian.org.
 5.5.1.0.0.0.0.0.0.0.0.0.0.0.0.0		IN	PTR	mips-aql-05.debian.org.
 6.5.1.0.0.0.0.0.0.0.0.0.0.0.0.0		IN	PTR	etler.debian.org.
+7.5.1.0.0.0.0.0.0.0.0.0.0.0.0.0		IN	PTR	mips-aql-06.debian.org.
 
 ; vim:syn=dns
