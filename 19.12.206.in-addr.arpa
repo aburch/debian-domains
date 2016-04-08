@@ -60,7 +60,7 @@ $TTL 8h
 111		IN	PTR	finzi.debian.org.
 113		IN	PTR	geo2.debian.org.
 ;114	duarte
-116		IN	PTR	wolkenstein.debian.org.
+;116
 ;117
 118		IN	PTR	tchaikovsky.debian.org.
 119		IN	PTR	popov.debian.org.
