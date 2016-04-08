@@ -58,14 +58,14 @@ $TTL 8h
 110		IN	PTR	fano.debian.org.
 111		IN	PTR	finzi.debian.org.
 113		IN	PTR	geo2.debian.org.
-;114	duarte
+;114
 ;116
 ;117
 118		IN	PTR	tchaikovsky.debian.org.
 119		IN	PTR	popov.debian.org.
-;120	locke
+;120
 121		IN	PTR	lotti.debian.org.
-122		IN	PTR	quantz.debian.org.
+;122
 123		IN	PTR	nono.debian.org.
 124		IN	PTR	reger.debian.org.
 125		IN	PTR	danzi.debian.org.
