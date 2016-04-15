@@ -170,7 +170,7 @@ lists			IN	A	82.195.75.100	; bendel
 			IN	MX	0 bendel.debian.org.
 			IN	TXT	google-site-verification=qmr9wDHZI7J8N5E44Ic9yahfsWEK3NLGFs91aXMcJNc
 lists-test		IN	MX	0 bendel.debian.org.
-manpages		IN	CNAME	glinka
+manpages	60	IN	CNAME	glinka
 mirror			IN	CNAME	glinka
 mirror-master		IN	CNAME	glinka
 debug.mirrors		IN	MX	0 .
