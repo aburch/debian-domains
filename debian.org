@@ -103,8 +103,10 @@ cvs			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
 			IN	MX	0 .
 deb			IN	CNAME	static
-_http._tcp.deb		IN	SRV	0 1 80 dualstack.map.fastly.net.
-cdn-fastly.deb		IN	CNAME	dualstack.map.fastly.net.
+_http._tcp.deb		IN	SRV	0 10 80 dualstack.map.fastly.net.
+_http._tcp.deb		IN	SRV	0 1 80 global-nossl.fastly.net.
+cdn-fastly.deb		IN	CNAME	global-nossl.fastly.net.
+cdn-fastly-v6.deb	IN	CNAME	dualstack.map.fastly.net.
 
 debtags			IN	CNAME	tate
 d-i			IN	CNAME	static
