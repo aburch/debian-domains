@@ -45,7 +45,7 @@ $TTL 8h
 204		IN	PTR	gigault.debian.org.
 205		IN	PTR	vittoria.debian.org.
 206		IN	PTR	boott.debian.org.
-; 207
+207		IN	PTR	porta.debian.org.
 ; 208
 ; 209
 ; 210

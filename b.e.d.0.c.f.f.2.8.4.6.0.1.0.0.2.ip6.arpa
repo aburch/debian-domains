@@ -40,5 +40,6 @@ $TTL 8h
 4.0.2.0.1.1.2.0.0.0.0.0.0.0.0.0	IN	PTR	gigault.debian.org.
 5.0.2.0.1.1.2.0.0.0.0.0.0.0.0.0	IN	PTR	vittoria.debian.org.
 6.0.2.0.1.1.2.0.0.0.0.0.0.0.0.0	IN	PTR	boott.debian.org.
+7.0.2.0.1.1.2.0.0.0.0.0.0.0.0.0	IN	PTR	porta.debian.org.
 
 ; vim:syn=dns
