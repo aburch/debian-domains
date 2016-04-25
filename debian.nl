@@ -25,4 +25,8 @@ $INCLUDE "/srv/dns.debian.org/var/services-auto/all"
 
 www		IN	CNAME	www.debian.org.
 
+; Temporary: until ftp.debian.nl is not used by the d-i mirror list
+ftp		IN	CNAME	ftp.debian.xs4all.net.
+archive		IN	CNAME	archive.debian.xs4all.net.
+
 ; vim: syn=dns:
