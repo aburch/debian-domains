@@ -496,8 +496,6 @@ $ORIGIN rev.debian.org.
 158.6.170.141		IN	PTR	mipsel-aql-03.debian.org.
 ; csail
 36.0.31.128		IN	PTR	steffani.debian.org.
-; unicamp
-146.167.106.143		IN	PTR	ppc64el1.debian.net.
 ; osuosl - 140.211.166.192/27
 ; 194	.. passos (power7)
 195.166.211.140		IN	PTR	pieta.debian.org.
