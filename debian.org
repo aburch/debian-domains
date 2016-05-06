@@ -237,7 +237,7 @@ search			IN	A	194.177.211.202 ; cgi-grnet-01
 			IN	AAAA	2001:648:2ffc:deb::211:202 ; cgi-grnet-01
 			IN	MX	0 .
 security-master		IN	CNAME	seger
-security-cdn	300	IN	CNAME	security-cdn1.debian.org.
+security-cdn	300	IN	CNAME	dualstack.map.fastly.net.
 security-cdn1		IN	CNAME	dualstack.map.fastly.net.
 security-cdn2		IN	CNAME	8cb93cf9d8ec5e67cfccbf5aef63e40b.lswcdn.net.
 security	8h	IN	NS	geo1.debian.org.
