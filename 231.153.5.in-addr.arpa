@@ -60,7 +60,7 @@ $TTL 8h
 26	IN	PTR	oyens.debian.org.
 27	IN	PTR	barriere.debian.org.
 28	IN	PTR	quantz.debian.org.
-;29
+29	IN	PTR	respighi.debian.org.
 30	IN	PTR	paradis.debian.org.
 31	IN	PTR	paradis2.debian.org.
 32	IN	PTR	x86-bm-01.debian.org.
