@@ -217,6 +217,7 @@ ports-master		IN	A	194.177.211.207	; porta
 ports			IN	CNAME	static
 www.ports		IN	CNAME	static
 www.ports-backend	IN	CNAME	static
+; ftp.ports A/AAAA records via services-auto
 pubsub01		IN	A	5.153.231.16
 			IN	AAAA	2001:41c8:1000:21::21:16
 			IN	MX      0 .
