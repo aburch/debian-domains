@@ -160,7 +160,6 @@ i18n			IN	A	206.12.19.129	; tye
 ;incoming	5m	IN	A	138.16.160.12 ; franck
 			;IN	MX	0 .
 incoming		IN	CNAME	static
-incoming.ports		IN	CNAME	static
 irc			IN	CNAME	irc6.geo.oftc.net.
 irc6			IN	CNAME	irc6.geo.oftc.net.
 irc.ipv6		IN	CNAME	irc6.geo.oftc.net.
@@ -215,9 +214,10 @@ ports-master		IN	A	194.177.211.207	; porta
 			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
 ports			IN	CNAME	static
+; ftp.ports A/AAAA records via services-auto
+incoming.ports		IN	CNAME	static
 www.ports		IN	CNAME	static
 www.ports-backend	IN	CNAME	static
-; ftp.ports A/AAAA records via services-auto
 pubsub01		IN	A	5.153.231.16
 			IN	AAAA	2001:41c8:1000:21::21:16
 			IN	MX      0 .
