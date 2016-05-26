@@ -284,7 +284,6 @@ syncproxy2.eu		IN	A	130.89.148.10 	; klecker
 syncproxy3.eu		IN	A	5.153.231.9		; milanollo
 			IN	AAAA	2001:41c8:1000:21::21:9	; milanollo
 syncproxy.cna		IN	CNAME	mirror-umn3
-syncproxy.wna		IN	A	140.211.166.44	; rietz
 ; syncproxy2.wna is down in the hosts block
 syncproxy.na		IN	A	128.31.0.64	; mirror-csail
 ubcece			IN	A	206.12.19.22	; VIP for ganeti
@@ -798,7 +797,6 @@ pettersson-ilo		IN	A	172.21.101.10
 $ORIGIN debprivate-osl.debian.org.
 busoni-ilo		IN	A	10.0.0.203
 byrd-ilo		IN	A	10.0.0.22
-rietz-ilo		IN	A	10.0.0.12
 
 $ORIGIN bm.debian.org.
 vm-gw			IN	A	5.153.231.1
