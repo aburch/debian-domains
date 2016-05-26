@@ -209,6 +209,10 @@ planet-search		IN	CNAME	philp
 popcon			IN	A	5.153.231.42	; pinel
 			IN	AAAA	2001:41c8:1000:21::21:42	; pinel
 			IN	MX	10 pinel.debian.org.
+ports-master		IN	A	194.177.211.207	; porta
+			IN	AAAA	2001:648:2ffc:deb::211:207	; porta
+			IN	MX	0 mailly.debian.org.
+			IN	MX	0 muffat.debian.org.
 ports			IN	CNAME	static
 www.ports		IN	CNAME	static
 www.ports-backend	IN	CNAME	static
