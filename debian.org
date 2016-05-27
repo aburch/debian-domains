@@ -62,6 +62,9 @@ arch			IN	A	5.153.231.21	; alioth - moszumanska
 archive			IN	MX	0 .
 			; A/AAAA records via services-auto
 archive-master		IN	CNAME	sibelius
+archive-glinka		IN	CNAME	glinka
+archive-klecker		IN	CNAME	klecker-archive
+archive-sibelius	IN	CNAME	sibelius
 backports		IN	CNAME	static
 backports-backend	IN	CNAME	backports-master
 backports-master	IN	CNAME	ftp-master
