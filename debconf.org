@@ -505,6 +505,8 @@ video.as             60 IN   A       117.121.241.229                 ; lovejoy
 dc15                   IN    NS      SEC1.RCODE0.NET.
 dc15                   IN    NS      SEC2.RCODE0.NET.
 
+storage1.dc16          IN     A      137.158.82.54
+
 $INCLUDE "/srv/dns.debian.org/puppet-extra/include-debian.org"
 $INCLUDE "/srv/letsencrypt.debian.org/var/hook/snippet"
 
