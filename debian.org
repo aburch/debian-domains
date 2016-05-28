@@ -581,8 +581,6 @@ ubc-bl6-iscsi		IN	CNAME	strozzi-db6-iscsi
 ubc-bl7-iscsi		IN	CNAME	strozzi-db7-iscsi
 ubc-bl8-iscsi		IN	CNAME	strozzi-db8-iscsi
 
-traetta-iscsi		IN	A	10.0.0.242
-
 ; rule seems to be that the last octet is host's real address' last octet
 bizet-iscsi		IN	A	10.0.0.137
 coincy-iscsi		IN	A	10.0.0.144
@@ -599,7 +597,6 @@ spontini-mnt		IN	A	192.168.2.14
 lucatelli-mnt		IN	A	192.168.2.15
 torelli-mnt		IN	A	192.168.2.18
 
-traetta-mnt		IN	A	192.168.2.21
 ganeti1-mnt		IN	A	192.168.2.22
 ganeti2-mnt		IN	A	192.168.2.23
 
@@ -612,8 +609,6 @@ jenko-mnt		IN	A	192.168.2.83
 ullman-mnt		IN	A	192.168.2.91
 sonntag-mnt		IN	A	192.168.2.92
 buxtehude-mnt		IN	A	192.168.2.96 ; 97 conflicts with netgear
-
-traetta-ilo		IN	A	192.168.2.121
 
 positron-mnt		IN	A	192.168.2.241	; positron.oftc.net <noc@oftc.net>
 lux-mnt			IN	A	192.168.2.243	; lux.oftc.net <noc@oftc.net>
