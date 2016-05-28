@@ -834,6 +834,7 @@ bl2-vrrp.priv		IN	A	172.29.102.2
 $GENERATE 1-14 bm-bl$-backend.priv	IN	A	172.29.120.$
 milanollo-backend.priv			IN	A	172.29.122.2
 picconi-backend.priv			IN	A	172.29.122.3
+senfter-backend.priv			IN	A	172.29.122.4
 pejacevic-backend.priv			IN	A	172.29.122.6
 piu-slave-bm-a-backend.priv		IN	A	172.29.122.7
 coccia-backend.priv			IN	A	172.29.122.11
@@ -843,6 +844,7 @@ donizetti-backend.priv			IN	A	172.29.122.20
 dillon-backend.priv			IN	A	172.29.122.22
 ticharich-backend.priv			IN	A	172.29.122.23
 quantz-backend.priv			IN	A	172.29.122.28
+respighi-backend.priv			IN	A	172.29.122.29
 tate-backend.priv			IN	A	172.29.122.33
 lindsay-backend.priv			IN	A	172.29.122.36
 mekeel-backend.priv			IN	A	172.29.122.40
