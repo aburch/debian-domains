@@ -46,7 +46,7 @@ e.0.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	spontini.debian.org.
 c.4.8.3.0.4.e.f.f.f.6.3.6.1.2.0		IN	PTR	danzi.debian.org.
 c.7.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	reger.debian.org.
 e.7.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	glinka.debian.org.
-f.7.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	leda.debian.net.
+;f.7.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR
 1.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	tye.debian.org.
 2.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	elgar.debian.org.
 ;3.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR

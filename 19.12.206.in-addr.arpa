@@ -70,7 +70,7 @@ $TTL 8h
 124		IN	PTR	reger.debian.org.
 125		IN	PTR	danzi.debian.org.
 126		IN	PTR	glinka.debian.org.
-127		IN	PTR	leda.debian.net.
+;127		IN	PTR
 ;128		IN	PTR
 129		IN	PTR	tye.debian.org.
 130		IN	PTR	elgar.debian.org.
