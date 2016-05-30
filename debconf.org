@@ -98,6 +98,7 @@ kent                    IN      A       46.43.39.193
                         IN      MX 90   smithers
 blog                    IN      A       46.43.39.193
                         IN      AAAA    2001:41c8:134:193::42
+F82F42D35889FAC107AC8ACF5FECA7A8.www 10800 IN CNAME 039DA11D329A4D093B4BDDCC3C2EBB6F57932ADB.comodoca.com.
 www                     IN      A       46.43.39.193
                         IN      AAAA    2001:41c8:134:193::42
 wiki                    IN      A       46.43.39.193
@@ -129,6 +130,7 @@ debconf2                IN      CNAME   static.debian.org.
 debconf1                IN      CNAME   static.debian.org.
 debconf0                IN      CNAME   static.debian.org.
 10years                 IN      CNAME   static.debian.org.
+9936E5EB61E26E6C7CC7560B4C05A753.media 10800 IN CNAME 50DF392DBDD262B7213E896503751A028CF0DE88.comodoca.com.
 media                   IN      A       46.43.39.193
                         IN      AAAA    2001:41c8:134:193::42
 in2010.mini             IN      A       46.43.39.193
