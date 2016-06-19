@@ -73,7 +73,6 @@ bits			IN	CNAME	static
 bits-backend		IN	CNAME	bits-master
 bits-master		IN	CNAME	master
 blends			IN	CNAME	static
-blends-backend		IN	CNAME	static
 bttracker		IN	CNAME	bttracker.acc.umu.se.
 bugs			IN	MX	10 buxtehude
 			; A/AAAA records via services-auto
@@ -270,7 +269,6 @@ security-nagios		IN	MX	0 .
 			IN	A	128.101.240.215	; mirror-umn
 ;security-team	60	IN	CNAME	8cb93cf9d8ec5e67cfccbf5aef63e40b.lswcdn.net.
 security-team		IN	CNAME	static
-security-team-backend	IN	CNAME	static
 security-tracker	IN	CNAME	soriano
 snapshot		IN	MX	0 .
 			; A/AAAA records via services-auto
@@ -325,7 +323,6 @@ vote			IN	A	82.195.75.98
 			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:4005
 			IN	MX	0 vento.debian.org.
 wiki			IN	CNAME	wilder
-wnpp-by-tags-backend	IN	CNAME	static
 women			IN	MX	0 mailly.debian.org.
 women			IN	MX	0 muffat.debian.org.
 			; A/AAAA records via services-auto
