@@ -784,6 +784,8 @@ console-45		IN	SSHFP	1 1 53002640141d9737fd9291c285bd39c699a732ba
 console-46		IN	SSHFP	1 1 53002640141d9737fd9291c285bd39c699a732ba
 console-47		IN	SSHFP	1 1 53002640141d9737fd9291c285bd39c699a732ba
 console-48		IN	SSHFP	1 1 53002640141d9737fd9291c285bd39c699a732ba
+mips-sil-01-console	IN	CNAME	console-1
+mipsel-sil-01-console	IN	CNAME	console-2
 cisco-console		IN	CNAME	console-3
 eberlin-console		IN	CNAME	console-4
 pdu-console		IN	CNAME	console-26
