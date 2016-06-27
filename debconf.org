@@ -401,7 +401,8 @@ stu                     IN      A       78.129.196.107
                         IN      MX 90   smithers
 
 ; node 3324, vps         in paris
-eddie                   IN      A       87.98.215.229
+eddie                   IN      A       117.121.245.158
+                        IN      AAAA    2403:cc00:a000:0:200:20ff:fe33:2409
                         IN      SSHFP   1 1 05f59fba2513c5a25f4673511560ee5b9a11f8df
                         IN      TXT     "Springfield police officer"
                         IN      TXT     "http://en.wikipedia.org/wiki/List_of_recurring_characters_in_The_Simpsons#Eddie_and_Lou"
@@ -489,13 +490,17 @@ video.as             60 IN   A       106.187.92.155                  ; moe
                      60 IN   AAAA    2400:8900::f03c:91ff:feae:fac8  ; moe
 
 
-; ;video               60 IN   A       87.98.215.229                   ; eddie
+; ;video               60 IN   A       117.121.245.158 ; ;; eddie
+; ;                    60 IN   AAAA    2403:cc00:a000:0:200:20ff:fe33:2409
+
 ; ;video                60 IN   A       182.54.233.19                   ; chalmers
 ; ;                     60 IN   AAAA    2403:cc00:6000:0:200:20ff:fe44:114 ; chalmers
 ; video                60 IN   A       67.192.254.200                  ; flotow
 ; ;video                60 IN   A       85.214.73.140                   ; phiala (youam)
 
-; ;video.eu            60 IN   A       87.98.215.229                   ; eddie
+; ;video.eu               60 IN   A       117.121.245.158 ; ;; eddie
+; ;                    60 IN   AAAA    2403:cc00:a000:0:200:20ff:fe33:2409
+
 ; ;video.eu             60 IN   A       182.54.233.19                   ; chalmers
 ; ;                     60 IN   AAAA    2403:cc00:6000:0:200:20ff:fe44:114 ; chalmers
 ; ;video.eu             60 IN   A       85.214.73.140                   ; phiala (youam)
