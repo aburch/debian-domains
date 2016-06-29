@@ -928,6 +928,7 @@ ftp1		IN	CNAME	debian.netlinux.cl.
 ftp2		IN	CNAME	ftp1
 $ORIGIN cn.debian.org.
 ftp		IN	CNAME	mirrors.ustc.edu.cn. ; mirrors@ustc.edu.cn
+ftp2		IN      CNAME	mirrors.tuna.tsinghua.edu.cn.
 www		IN	CNAME	www.debian.org.
 $ORIGIN cz.debian.org.
 ; Dan Ohnesorg <Dan@ohnesorg.cz>
