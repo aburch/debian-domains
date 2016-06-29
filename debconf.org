@@ -511,7 +511,9 @@ video.as             60 IN   A       106.187.92.155                  ; moe
 
 
 mirror.dc16			CNAME	storage1.dc16.debconf.org.
-storage1.dc16          60 IN     A      137.158.82.4
+storage1.dc16		60 IN	A	137.158.82.4
+encoder1.dc16		60 IN	A	137.158.82.5
+video.dc16			CNAME	encoder1.dc16.debconf.org.
 
 $INCLUDE "/srv/dns.debian.org/puppet-extra/include-debian.org"
 $INCLUDE "/srv/letsencrypt.debian.org/var/hook/snippet"
