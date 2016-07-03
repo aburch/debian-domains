@@ -24,10 +24,10 @@
 
 $TTL 8h
 
-@			IN	NS	dns4.easydns.info.
+;@			IN	NS	dns4.easydns.info.
 ;@			IN	NS	dns3.easydns.org. ; broken
 ;@			IN	NS	dns2.easydns.net. ; broken
-@			IN	NS	dns1.easydns.com.
+;@			IN	NS	dns1.easydns.com.
 @			IN	NS	sec1.rcode0.net.
 @			IN	NS	sec2.rcode0.net.
 @			IN	NS	debian1.dnsnode.net.
@@ -62,6 +62,9 @@ arch			IN	A	5.153.231.21	; alioth - moszumanska
 archive			IN	MX	0 .
 			; A/AAAA records via services-auto
 archive-master		IN	CNAME	sibelius
+archive-glinka		IN	CNAME	glinka
+archive-klecker		IN	CNAME	klecker-archive
+archive-sibelius	IN	CNAME	sibelius
 backports		IN	CNAME	static
 backports-backend	IN	CNAME	backports-master
 backports-master	IN	CNAME	ftp-master
@@ -70,7 +73,6 @@ bits			IN	CNAME	static
 bits-backend		IN	CNAME	bits-master
 bits-master		IN	CNAME	master
 blends			IN	CNAME	static
-blends-backend		IN	CNAME	static
 bttracker		IN	CNAME	bttracker.acc.umu.se.
 bugs			IN	MX	10 buxtehude
 			; A/AAAA records via services-auto
@@ -172,7 +174,7 @@ lists			IN	A	82.195.75.100	; bendel
 			IN	MX	0 bendel.debian.org.
 			IN	TXT	google-site-verification=qmr9wDHZI7J8N5E44Ic9yahfsWEK3NLGFs91aXMcJNc
 lists-test		IN	MX	0 bendel.debian.org.
-manpages	60	IN	CNAME	glinka
+manpages	120	IN	CNAME	glinka
 mirror			IN	CNAME	glinka
 mirror-master		IN	CNAME	glinka
 debug.mirrors		IN	MX	0 .
@@ -209,7 +211,13 @@ planet-search		IN	CNAME	philp
 popcon			IN	A	5.153.231.42	; pinel
 			IN	AAAA	2001:41c8:1000:21::21:42	; pinel
 			IN	MX	10 pinel.debian.org.
+ports-master		IN	A	194.177.211.207	; porta
+			IN	AAAA	2001:648:2ffc:deb::211:207	; porta
+			IN	MX	0 mailly.debian.org.
+			IN	MX	0 muffat.debian.org.
 ports			IN	CNAME	static
+; ftp.ports A/AAAA records via services-auto
+incoming.ports		IN	CNAME	static
 www.ports		IN	CNAME	static
 www.ports-backend	IN	CNAME	static
 pubsub01		IN	A	5.153.231.16
@@ -236,10 +244,10 @@ rt			IN	A	206.12.19.124   ; reger
 search			IN	A	194.177.211.202 ; cgi-grnet-01
 			IN	AAAA	2001:648:2ffc:deb::211:202 ; cgi-grnet-01
 			IN	MX	0 .
-security-master	60	IN	CNAME	seger
-security-cdn	300	IN	CNAME	security-cdn1.debian.org.
-security-cdn1	300	IN	CNAME	dualstack.map.fastly.net.
-security-cdn2	300	IN	CNAME	8cb93cf9d8ec5e67cfccbf5aef63e40b.lswcdn.net.
+security-master		IN	CNAME	seger
+security-cdn	300	IN	CNAME	dualstack.map.fastly.net.
+security-cdn1		IN	CNAME	dualstack.map.fastly.net.
+security-cdn2		IN	CNAME	8cb93cf9d8ec5e67cfccbf5aef63e40b.lswcdn.net.
 security	8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo2.debian.org.
 		8h	IN	NS	geo3.debian.org.
@@ -261,8 +269,7 @@ security-nagios		IN	MX	0 .
 			IN	A	128.101.240.215	; mirror-umn
 ;security-team	60	IN	CNAME	8cb93cf9d8ec5e67cfccbf5aef63e40b.lswcdn.net.
 security-team		IN	CNAME	static
-security-team-backend	IN	CNAME	static
-security-tracker 60	IN	CNAME	soriano
+security-tracker	IN	CNAME	soriano
 snapshot		IN	MX	0 .
 			; A/AAAA records via services-auto
 snapshot-master		IN	CNAME	sibelius
@@ -284,7 +291,6 @@ syncproxy2.eu		IN	A	130.89.148.10 	; klecker
 syncproxy3.eu		IN	A	5.153.231.9		; milanollo
 			IN	AAAA	2001:41c8:1000:21::21:9	; milanollo
 syncproxy.cna		IN	CNAME	mirror-umn3
-syncproxy.wna		IN	A	140.211.166.44	; rietz
 ; syncproxy2.wna is down in the hosts block
 syncproxy.na		IN	A	128.31.0.64	; mirror-csail
 ubcece			IN	A	206.12.19.22	; VIP for ganeti
@@ -317,7 +323,6 @@ vote			IN	A	82.195.75.98
 			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:4005
 			IN	MX	0 vento.debian.org.
 wiki			IN	CNAME	wilder
-wnpp-by-tags-backend	IN	CNAME	static
 women			IN	MX	0 mailly.debian.org.
 women			IN	MX	0 muffat.debian.org.
 			; A/AAAA records via services-auto
@@ -493,11 +498,9 @@ $ORIGIN rev.debian.org.
 155.6.170.141		IN	PTR	mips-aql-05.debian.org.
 156.6.170.141		IN	PTR	etler.debian.org.
 157.6.170.141		IN	PTR	mips-aql-06.debian.org.
-;158.6.170.141		IN	PTR	aql158.debian.org.
+158.6.170.141		IN	PTR	mipsel-aql-03.debian.org.
 ; csail
 36.0.31.128		IN	PTR	steffani.debian.org.
-; unicamp
-146.167.106.143		IN	PTR	ppc64el1.debian.net.
 ; osuosl - 140.211.166.192/27
 ; 194	.. passos (power7)
 195.166.211.140		IN	PTR	pieta.debian.org.
@@ -575,8 +578,6 @@ ubc-bl6-iscsi		IN	CNAME	strozzi-db6-iscsi
 ubc-bl7-iscsi		IN	CNAME	strozzi-db7-iscsi
 ubc-bl8-iscsi		IN	CNAME	strozzi-db8-iscsi
 
-traetta-iscsi		IN	A	10.0.0.242
-
 ; rule seems to be that the last octet is host's real address' last octet
 bizet-iscsi		IN	A	10.0.0.137
 coincy-iscsi		IN	A	10.0.0.144
@@ -590,10 +591,8 @@ giustini-mnt		IN	A	192.168.2.6
 polymer-mnt		IN	A	192.168.2.8	; polymer.oftc.net <noc@oftc.net>
 spontini-mnt		IN	A	192.168.2.14
 
-lucatelli-mnt		IN	A	192.168.2.15
 torelli-mnt		IN	A	192.168.2.18
 
-traetta-mnt		IN	A	192.168.2.21
 ganeti1-mnt		IN	A	192.168.2.22
 ganeti2-mnt		IN	A	192.168.2.23
 
@@ -606,8 +605,6 @@ jenko-mnt		IN	A	192.168.2.83
 ullman-mnt		IN	A	192.168.2.91
 sonntag-mnt		IN	A	192.168.2.92
 buxtehude-mnt		IN	A	192.168.2.96 ; 97 conflicts with netgear
-
-traetta-ilo		IN	A	192.168.2.121
 
 positron-mnt		IN	A	192.168.2.241	; positron.oftc.net <noc@oftc.net>
 lux-mnt			IN	A	192.168.2.243	; lux.oftc.net <noc@oftc.net>
@@ -786,6 +783,8 @@ console-45		IN	SSHFP	1 1 53002640141d9737fd9291c285bd39c699a732ba
 console-46		IN	SSHFP	1 1 53002640141d9737fd9291c285bd39c699a732ba
 console-47		IN	SSHFP	1 1 53002640141d9737fd9291c285bd39c699a732ba
 console-48		IN	SSHFP	1 1 53002640141d9737fd9291c285bd39c699a732ba
+mips-sil-01-console	IN	CNAME	console-1
+mipsel-sil-01-console	IN	CNAME	console-2
 cisco-console		IN	CNAME	console-3
 eberlin-console		IN	CNAME	console-4
 pdu-console		IN	CNAME	console-26
@@ -800,7 +799,6 @@ pettersson-ilo		IN	A	172.21.101.10
 $ORIGIN debprivate-osl.debian.org.
 busoni-ilo		IN	A	10.0.0.203
 byrd-ilo		IN	A	10.0.0.22
-rietz-ilo		IN	A	10.0.0.12
 
 $ORIGIN bm.debian.org.
 vm-gw			IN	A	5.153.231.1
@@ -829,6 +827,7 @@ bl2-vrrp.priv		IN	A	172.29.102.2
 $GENERATE 1-14 bm-bl$-backend.priv	IN	A	172.29.120.$
 milanollo-backend.priv			IN	A	172.29.122.2
 picconi-backend.priv			IN	A	172.29.122.3
+senfter-backend.priv			IN	A	172.29.122.4
 pejacevic-backend.priv			IN	A	172.29.122.6
 piu-slave-bm-a-backend.priv		IN	A	172.29.122.7
 coccia-backend.priv			IN	A	172.29.122.11
@@ -838,6 +837,7 @@ donizetti-backend.priv			IN	A	172.29.122.20
 dillon-backend.priv			IN	A	172.29.122.22
 ticharich-backend.priv			IN	A	172.29.122.23
 quantz-backend.priv			IN	A	172.29.122.28
+respighi-backend.priv			IN	A	172.29.122.29
 tate-backend.priv			IN	A	172.29.122.33
 lindsay-backend.priv			IN	A	172.29.122.36
 mekeel-backend.priv			IN	A	172.29.122.40
@@ -898,7 +898,7 @@ $ORIGIN be.debian.org.
 ftp		IN	A	195.234.45.114    ; mirror.as35701.net
 ftp		IN	AAAA	2a01:70:ffff:1::2 ; mirror.as35701.net
 $ORIGIN bg.debian.org.
-ftp		IN	CNAME	debian.spnet.net.
+ftp		IN	CNAME	ftp.uni-sofia.bg.
 www		IN	CNAME	www.debian.org.
 $ORIGIN br.debian.org.
 ftp		IN	CNAME	debian.c3sl.ufpr.br.  ; Marcos Castilho <marcos@inf.ufpr.br>

@@ -32,8 +32,11 @@ $TTL 8h
 
 ;144 NETWORK
 ;145 GATEWAY
-146		IN	PTR	beethoven.debian.org.
-150		IN	PTR	syncproxy3.eu.debian.org.
+146		IN	PTR	mips-sil-01.debian.org.
+147		IN	PTR	mipsel-sil-01.debian.org.
+;148
+;149
+;150
 ;151
 ;152
 153		IN	PTR	asteria.debian.or.at.	; weasel, maxx, rhonda, etc

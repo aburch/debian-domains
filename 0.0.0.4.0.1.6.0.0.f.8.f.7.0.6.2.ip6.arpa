@@ -35,18 +35,17 @@ $TTL 8h
 8.b.c.7.8.f.e.f.f.f.1.8.4.2.2.0		IN	PTR	ubc-bl8.debian.org.
 3.0.8.3.0.4.e.f.f.f.6.3.6.1.2.0		IN	PTR	geo2.debian.org.
 c.0.8.3.0.4.e.f.f.f.6.3.6.1.2.0		IN	PTR	lotti.debian.org.
-1.4.1.4.0.0.e.f.f.f.8.9.0.e.2.0		IN	PTR	lucatelli.debian.org.
 2.5.9.e.7.a.e.f.f.f.1.8.4.2.2.0		IN	PTR	ubc-bl4.debian.org.
 1.6.8.3.0.4.e.f.f.f.6.3.6.1.2.0		IN	PTR	nono.debian.org.
 9.d.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	ubc-bl7.debian.org.
 e.0.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	spontini.debian.org.
 9.0.8.3.0.4.e.f.f.f.6.3.6.1.2.0		IN	PTR	tchaikovsky.debian.org.
-0.9.8.e.5.e.e.f.f.f.4.c.c.1.2.0		IN	PTR	traetta.debian.org.
+;0.9.8.e.5.e.e.f.f.f.4.c.c.1.2.0		IN	PTR
 5.d.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	ubc-bl3.debian.org.
 c.4.8.3.0.4.e.f.f.f.6.3.6.1.2.0		IN	PTR	danzi.debian.org.
 c.7.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	reger.debian.org.
 e.7.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	glinka.debian.org.
-f.7.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	leda.debian.net.
+;f.7.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR
 1.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	tye.debian.org.
 2.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	elgar.debian.org.
 ;3.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR

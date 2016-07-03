@@ -28,24 +28,18 @@ $TTL 8h
 
 $TTL 1h
 
-@		IN	A	206.12.19.127
-		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
-		IN	MX	10 leda.debian.net.
+; A/AAAA records for @
+$INCLUDE "/srv/dns.debian.org/var/services-auto/all"
+@		IN	MX	10 mailly.debian.org.
+@		IN	MX	10 muffat.debian.org.
+			; A/AAAA records via services-auto
 
-ftp		IN	A	206.12.19.127
-		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+buildd		IN	MX	10 mailly.debian.org.
+		IN	MX	10 muffat.debian.org.
 
-http		IN	A	206.12.19.127
-		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+ftp		IN	CNAME	static.debian.org.
 
-incoming	IN	A	206.12.19.127
-		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
-
-pop		IN	A	206.12.19.127
-		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
-
-rsync		IN	A	206.12.19.127
-		IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137f
+incoming	IN	CNAME	static.debian.org.
 
 www		IN	CNAME	static.debian.org.
 

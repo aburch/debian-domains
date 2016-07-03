@@ -50,8 +50,7 @@ $TTL 8h
 ; 5
 ; 6 reserved (giustini-mnt)
 14		IN	PTR	spontini.debian.org.
-15 		IN	PTR	lucatelli.debian.org.
-21		IN	PTR	traetta.debian.org.
+;21		IN	PTR
 22		IN	PTR	ubcece.debian.org.
 23		IN	PTR	ganeti2.debian.org.
 
@@ -70,7 +69,7 @@ $TTL 8h
 124		IN	PTR	reger.debian.org.
 125		IN	PTR	danzi.debian.org.
 126		IN	PTR	glinka.debian.org.
-127		IN	PTR	leda.debian.net.
+;127		IN	PTR
 ;128		IN	PTR
 129		IN	PTR	tye.debian.org.
 130		IN	PTR	elgar.debian.org.
