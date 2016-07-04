@@ -234,8 +234,7 @@ qa			IN	A	5.153.231.28	; quantz
 packages.qa		IN	A	5.153.231.28	; quantz
 			IN	AAAA	2001:41c8:1000:21::21:28	; quantz
 			IN	MX	0 quantz.debian.org.
-release			IN	A	138.16.160.12 ; franck
-			IN	MX	0 mailly.debian.org.
+release			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
 reportbug		IN	CNAME	buxtehude.debian.org.
 rt			IN	A	206.12.19.124   ; reger
