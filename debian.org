@@ -105,10 +105,10 @@ cvs			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
 			IN	MX	0 .
 deb			IN	CNAME	static
-_http._tcp.deb	300	IN	SRV	10 1 80 dualstack.map.fastly.net.
+_http._tcp.deb	300	IN	SRV	10 1 80 prod.debian.map.fastly.net.
 ;_http._tcp.deb	300	IN	SRV	0 1 80 global-nossl.fastly.net.
-cdn-fastly.deb	300	IN	CNAME	dualstack.map.fastly.net.
-cdn-fastly-v6.deb	300	IN	CNAME	dualstack.map.fastly.net.
+cdn-fastly.deb	300	IN	CNAME	prod.debian.map.fastly.net.
+cdn-fastly-v6.deb	300	IN	CNAME	prod.debian.map.fastly.net.
 
 debtags			IN	CNAME	tate
 d-i			IN	CNAME	static
@@ -136,8 +136,8 @@ ftp-master		IN	A	138.16.160.12 ; franck
 			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
 api.ftp-master		IN	CNAME	coccia
-metadata.ftp-master	IN	CNAME	dualstack.map.fastly.net.
-ftp-master.metadata	IN	CNAME	dualstack.map.fastly.net.
+metadata.ftp-master	IN	CNAME	prod.debian.map.fastly.net.
+ftp-master.metadata	IN	CNAME	prod.debian.map.fastly.net.
 ;ftp-master.metadata-backend	IN	CNAME	ftp-master.metadata-master
 ;ftp-master.metadata-master	IN	CNAME	ftp-master
 mirror.ftp-master	IN	CNAME	coccia
@@ -204,7 +204,7 @@ pg-ubcece		IN	CNAME	danzi
 piuparts		IN	CNAME	pejacevic
 planet			IN	CNAME	planet-maxcdn.debian.org.
 planet-maxcdn		IN	CNAME	planet-0.debian.netdna-cdn.com.
-planet-fastly		IN	CNAME	dualstack.map.fastly.net.
+planet-fastly		IN	CNAME	prod.debian.map.fastly.net.
 planet-backend		IN	CNAME	static
 planet-master		IN	CNAME	philp
 planet-search		IN	CNAME	philp
@@ -245,8 +245,8 @@ search			IN	A	194.177.211.202 ; cgi-grnet-01
 			IN	AAAA	2001:648:2ffc:deb::211:202 ; cgi-grnet-01
 			IN	MX	0 .
 security-master		IN	CNAME	seger
-security-cdn	300	IN	CNAME	dualstack.map.fastly.net.
-security-cdn1		IN	CNAME	dualstack.map.fastly.net.
+security-cdn	300	IN	CNAME	prod.debian.map.fastly.net.
+security-cdn1		IN	CNAME	prod.debian.map.fastly.net.
 security-cdn2		IN	CNAME	8cb93cf9d8ec5e67cfccbf5aef63e40b.lswcdn.net.
 security	8h	IN	NS	geo1.debian.org.
 		8h	IN	NS	geo2.debian.org.
