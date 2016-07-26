@@ -1022,6 +1022,8 @@ www		IN	CNAME	www.debian.org.
 $ORIGIN se.debian.org.
 ftp		IN	CNAME	ftp.acc.umu.se.
 ;ftp	60	IN	CNAME	klecker-ftp.debian.org.
+$ORIGIN sg.debian.org.
+ftp		IN	CNAME   mirror.0x.sg. ; Andrew Yong <me@ndoo.sg>
 $ORIGIN si.debian.org.
 ftp		IN	CNAME	debmirror.amis.net.	; debian-mirrors@amis.si
 $ORIGIN sk.debian.org.
