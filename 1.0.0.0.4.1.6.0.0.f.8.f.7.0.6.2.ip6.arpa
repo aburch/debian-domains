@@ -3,7 +3,6 @@
 ; note: ::1 - ::f are reserved for ubc infra
 ;
 ; ds-in-parent = no
-; delegated = no
 ;
 ; dnsu: begin allow_transfer_extra
 ; key 82.195.75.91-key ;
