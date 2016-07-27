@@ -1,5 +1,5 @@
-; 1.0.0.4.0.1.6.0.0.f.8.f.7.0.6.2.ip6.arpa zone
-; reverse for 2607:f8f0:0610:4001::/64 - hosts at ubc
+; 1.0.0.0.4.1.6.0.0.f.8.f.7.0.6.2.ip6.arpa zone
+; reverse for 2607:F8F0:614:1::/64 - hosts at ubc
 ; note: ::1 - ::f are reserved for ubc infra
 ;
 ; ds-in-parent = no
@@ -21,9 +21,8 @@ $TTL 8h
 @		IN	NS	sec1.rcode0.net.
 @		IN	NS	sec2.rcode0.net.
 
-$TTL 8h
+$TTL 1h
 
-; 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		IN	PTR	gw
-1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0		IN	PTR	fubar.debian.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		IN	PTR	gateway.fubar.debian.org.
 
 ; vim:syn=dns
