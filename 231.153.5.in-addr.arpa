@@ -57,7 +57,7 @@ $TTL 8h
 22	IN	PTR	dillon.debian.org.
 23	IN	PTR	ticharich.debian.org.
 25	IN	PTR	petrova.debian.org.
-;
+26	IN	PTR	olin.debian.org.
 27	IN	PTR	barriere.debian.org.
 28	IN	PTR	quantz.debian.org.
 29	IN	PTR	respighi.debian.org.
