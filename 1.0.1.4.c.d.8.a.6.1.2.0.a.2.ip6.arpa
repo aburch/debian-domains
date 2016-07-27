@@ -1,0 +1,27 @@
+; 1.0.1.4.c.d.8.a.6.1.2.0.a.2.ip6.arpa zone
+; reverse for 2A02:16A8:DC41:100::/56 - conova
+;
+; ds-in-parent = no
+;
+; dnsu: begin allow_transfer_extra
+; key 82.195.75.91-key ;
+; 83.136.34.0/27;  // rcode0.net ipv4 axfr
+; 2A02:850:8::/47; // rcode0.net ipv6 axfr
+; dnsu: end allow_transfer_extra
+;
+; dnsu: begin also_notify_extra
+; 83.136.34.7;   // rcode0.net ipv4 ntfy
+; 2A02:850:8::6; // rcode0.net ipv6 ntfy
+; dnsu: end also_notify_extra
+
+$TTL 8h
+
+@		IN	NS	sec1.rcode0.net.
+@		IN	NS	sec2.rcode0.net.
+
+$TTL 1h
+
+e.f.f.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	sompek.debian.org.
+f.f.f.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	stadler.debian.org.
+
+; vim:syn=dns
