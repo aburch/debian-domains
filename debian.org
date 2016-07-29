@@ -192,6 +192,7 @@ network-test-backend	IN	CNAME	static
 nm			IN	A	206.12.19.123	; nono
 			IN	AAAA	2607:F8F0:610:4000:216:36FF:FE40:3861	; nono
 			IN	MX	10 nono.debian.org.
+onion			IN	CNAME	static
 other			IN	A	82.195.75.100	; bendel
 			IN	MX	0 bendel.debian.org.
 packages		IN	MX	0 picconi
