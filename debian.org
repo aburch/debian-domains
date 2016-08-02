@@ -553,6 +553,9 @@ sompek-alom		IN	A	10.231.232.1
 stadler-alom		IN	A	10.231.232.2
 			IN	SSHFP 1 1 15b89ca4601f94ec14bc1c77b814509c33268526
 			IN	SSHFP 1 2 59bcc3ca738e967a5bbbd6e1c94201a6ead3e4cee3db7af12f70b8e7b60df3af
+aagard-ipmi		IN	A	10.231.232.3
+acker-ipmi		IN	A	10.231.232.4
+
 
 $ORIGIN debprivate-oneandone.debian.org.
 wieck-drac		IN	A	192.168.253.2
