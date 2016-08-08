@@ -22,12 +22,21 @@ $TTL 8h
 $TTL 1h
 
 ; useable is 1-251
-; 252/253 are for hsrp; 254 is gateway
-; hsrp - for when we are dual-homed
+;   1-240 allocated to Debian
+; 241-250 allocated to OFTC
+; 251-254 allocated to infrastructure
 
-251		IN	PTR	bastion.fubar.debian.org.
-252		IN	PTR	router2.fubar.debian.org.
-253		IN	PTR	router1.fubar.debian.org.
-254		IN	PTR	gateway.fubar.debian.org.
+241		IN	PTR	positron.oftc.net.        ; on polymer
+242		IN	PTR	irc.geo.oftc.net.         ; on positron
+243		IN	PTR	lux.oftc.net.             ; on polymer
+245		IN	PTR	mole.oftc.net.            ; on polymer
+246		IN	PTR	planck.oftc.net.          ; on polymer
+247		IN	PTR	mosaic.oftc.net.          ; on polymer
+250		IN	PTR	polymer.oftc.net.         ; is physical machine
+
+251		IN	PTR	bastion.fubar.debian.org. ; bastion
+252		IN	PTR	router2.fubar.debian.org. ; router1 (HSRP)
+253		IN	PTR	router1.fubar.debian.org. ; router2 (HSRP)
+254		IN	PTR	gateway.fubar.debian.org. ; gateway
 
 ; vim: syn=dns:
