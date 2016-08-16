@@ -575,6 +575,10 @@ router1-ubcece		IN	A	206.12.19.253
 router2-ubcece		IN	A	206.12.19.252
 bastion-ubcece		IN	A	206.12.19.251
 
+$ORIGIN priv.ubc.debian.org.
+switch			IN	A	172.29.43.253
+console			IN	A	172.29.43.254
+
 $ORIGIN debprivate-ubc.debian.org.
 ; iscsi network
 giustini-a0-iscsi	IN	A	10.0.0.17
