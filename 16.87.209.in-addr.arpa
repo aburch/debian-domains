@@ -34,9 +34,9 @@ $TTL 1h
 247		IN	PTR	mosaic.oftc.net.          ; on polymer
 250		IN	PTR	polymer.oftc.net.         ; is physical machine
 
-251		IN	PTR	bastion.fubar.debian.org. ; bastion
-252		IN	PTR	router2.fubar.debian.org. ; router1 (HSRP)
-253		IN	PTR	router1.fubar.debian.org. ; router2 (HSRP)
-254		IN	PTR	gateway.fubar.debian.org. ; gateway
+251		IN	PTR	bastion.ubc.debian.org.   ; bastion
+252		IN	PTR	router2.ubc.debian.org.   ; router1 (HSRP)
+253		IN	PTR	router1.ubc.debian.org.   ; router2 (HSRP)
+254		IN	PTR	gateway.ubc.debian.org.   ; gateway
 
 ; vim: syn=dns:

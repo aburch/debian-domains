@@ -575,6 +575,13 @@ router1-ubcece		IN	A	206.12.19.253
 router2-ubcece		IN	A	206.12.19.252
 bastion-ubcece		IN	A	206.12.19.251
 
+$ORIGIN ubc.debian.org.
+
+bastion			IN	A	209.87.16.251
+router2			IN	A	209.87.16.252
+router1			IN	A	209.87.16.253
+gateway			IN	A	209.87.16.254
+
 $ORIGIN priv.ubc.debian.org.
 enc02oa1		IN	A	172.29.43.251
 enc02oa2		IN	A	172.29.43.252
@@ -632,8 +639,6 @@ buxtehude-mnt		IN	A	192.168.2.96 ; 97 conflicts with netgear
 
 positron-mnt		IN	A	192.168.2.241	; positron.oftc.net <noc@oftc.net>
 lux-mnt			IN	A	192.168.2.243	; lux.oftc.net <noc@oftc.net>
-
-bastion			IN	A	192.168.2.251
 
 ; ubc-bl2 is a BL460c G7 blade in device bay 2 of strozzi
 ubc-bl2-mnt		IN	CNAME	strozzi-db2-mnt
