@@ -573,10 +573,10 @@ $ORIGIN debian.org.
 gateway-ubcece		IN	A	206.12.19.254
 router1-ubcece		IN	A	206.12.19.253
 router2-ubcece		IN	A	206.12.19.252
-bastion-ubcece		IN	A	206.12.19.251
 
 $ORIGIN ubc.debian.org.
 
+console			IN	CNAME	bastion
 bastion			IN	A	209.87.16.251
 router2			IN	A	209.87.16.252
 router1			IN	A	209.87.16.253
@@ -590,7 +590,9 @@ enc02			IN	CNAME	enc02oa1
 enc02oa1		IN	A	172.29.43.251
 enc02oa2		IN	A	172.29.43.252
 switch			IN	A	172.29.43.253
-console			IN	A	172.29.43.254
+gateway			IN	CNAME	bastion
+console			IN	CNAME	bastion
+bastion			IN	A	172.29.43.254
 
 $ORIGIN debprivate-ubc.debian.org.
 ; iscsi network

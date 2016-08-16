@@ -167,12 +167,12 @@ $GENERATE 2-255 $.201	IN	PTR	client-$i.manda.vpn.debian.org.
 1.202			IN	PTR	gw.sil.vpn.debian.org.
 $GENERATE 2-255 $.202	IN	PTR	client-$i.sil.vpn.debian.org.
 
-;; UBC
-249.43			IN	PTR	msa01io1.priv.ubc.debian.org.
-250.43			IN	PTR	msa02io1.priv.ubc.debian.org.
+;; priv.ubc.debian.org
+249.43			IN	PTR	msa02io1.priv.ubc.debian.org.
+250.43			IN	PTR	msa02io2.priv.ubc.debian.org.
 251.43			IN	PTR	enc02oa1.priv.ubc.debian.org.
 252.43			IN	PTR	enc02oa2.priv.ubc.debian.org.
 253.43			IN	PTR	switch.priv.ubc.debian.org.
-254.43			IN	PTR	console.priv.ubc.debian.org.
+254.43			IN	PTR	bastion.priv.ubc.debian.org.
 
 ; vim: syn=dns:
