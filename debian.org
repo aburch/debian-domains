@@ -583,6 +583,10 @@ router1			IN	A	209.87.16.253
 gateway			IN	A	209.87.16.254
 
 $ORIGIN priv.ubc.debian.org.
+msa02			IN	CNAME	msa02io1
+msa02io1		IN	A	172.29.43.249
+msa02io2		IN	A	172.29.43.250
+enc02			IN	CNAME	enc02oa1
 enc02oa1		IN	A	172.29.43.251
 enc02oa2		IN	A	172.29.43.252
 switch			IN	A	172.29.43.253
