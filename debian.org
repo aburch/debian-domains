@@ -576,6 +576,8 @@ router2-ubcece		IN	A	206.12.19.252
 bastion-ubcece		IN	A	206.12.19.251
 
 $ORIGIN priv.ubc.debian.org.
+enc02oa1		IN	A	172.29.43.251
+enc02oa2		IN	A	172.29.43.252
 switch			IN	A	172.29.43.253
 console			IN	A	172.29.43.254
 

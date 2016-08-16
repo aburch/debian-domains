@@ -168,6 +168,8 @@ $GENERATE 2-255 $.201	IN	PTR	client-$i.manda.vpn.debian.org.
 $GENERATE 2-255 $.202	IN	PTR	client-$i.sil.vpn.debian.org.
 
 ;; UBC
+251.43			IN	PTR	enc02oa1.priv.ubc.debian.org.
+252.43			IN	PTR	enc02oa2.priv.ubc.debian.org.
 253.43			IN	PTR	switch.priv.ubc.debian.org.
 254.43			IN	PTR	console.priv.ubc.debian.org.
 
