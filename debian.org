@@ -894,11 +894,11 @@ pieta-fsp		IN	A	10.0.0.167
 
 $ORIGIN vpn.debian.org.
 gw.manda			IN	A	172.29.201.1
-$GENERATE 2-255 client-$i.manda	IN	A	172.29.201.$
+$GENERATE 2-254 client-$.manda	IN	A	172.29.201.$
 gw.sil				IN	A	172.29.202.1
-$GENERATE 2-255 client-$i.sil	IN	A	172.29.202.$
+$GENERATE 2-254 client-$.sil	IN	A	172.29.202.$
 gw.ubc				IN	A	172.29.203.1
-$GENERATE 2-255 client-$i.ubc	IN	A	172.29.203.$
+$GENERATE 2-254 client-$.ubc	IN	A	172.29.203.$
 
 $ORIGIN dgi.debian.org.
 storace.nfs			IN	A	172.29.170.1

@@ -162,13 +162,13 @@ $GENERATE 1-14 $.123	IN	PTR	bm-bl$-backend.openstack.bm.debian.org.
 ;; VPN
 ;;#####
 1.201			IN	PTR	gw.manda.vpn.debian.org.
-$GENERATE 2-255 $.201	IN	PTR	client-$i.manda.vpn.debian.org.
+$GENERATE 2-254 $.201	IN	PTR	client-$.manda.vpn.debian.org.
 
 1.202			IN	PTR	gw.sil.vpn.debian.org.
-$GENERATE 2-255 $.202	IN	PTR	client-$i.sil.vpn.debian.org.
+$GENERATE 2-254 $.202	IN	PTR	client-$.sil.vpn.debian.org.
 
 1.203			IN	PTR	gw.ubc.vpn.debian.org.
-$GENERATE 2-254 $.202	IN	PTR	client-$i.ubc.vpn.debian.org.
+$GENERATE 2-254 $.202	IN	PTR	client-$.ubc.vpn.debian.org.
 
 ;; priv.ubc.debian.org
 249.43			IN	PTR	msa02io1.priv.ubc.debian.org.
