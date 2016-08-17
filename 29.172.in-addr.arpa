@@ -22,8 +22,7 @@
 
 ; check-initial-refs = geo1.debian.org,geo2.debian.org,geo3.debian.org
 
-; 040/22		ubc oob
-; 044/22		ubc
+; 040/22	ubc
 ; 102		bytemark vrrp
 ; 115		bytemark default gws
 ; 120		bytemark vlan 20
@@ -43,6 +42,7 @@
 ; 182		reserved for new man-da drbd (2016-04)
 ; 201		VPN manda
 ; 202		VPN sil
+; 203/24	VPN ubc
 
 $TTL 8h
 
@@ -166,6 +166,9 @@ $GENERATE 2-255 $.201	IN	PTR	client-$i.manda.vpn.debian.org.
 
 1.202			IN	PTR	gw.sil.vpn.debian.org.
 $GENERATE 2-255 $.202	IN	PTR	client-$i.sil.vpn.debian.org.
+
+1.203			IN	PTR	gw.ubc.vpn.debian.org.
+$GENERATE 2-254 $.202	IN	PTR	client-$i.ubc.vpn.debian.org.
 
 ;; priv.ubc.debian.org
 249.43			IN	PTR	msa02io1.priv.ubc.debian.org.
