@@ -583,12 +583,16 @@ router1			IN	A	209.87.16.253
 gateway			IN	A	209.87.16.254
 
 $ORIGIN priv.ubc.debian.org.
-msa02			IN	CNAME	msa02io1
-msa02io1		IN	A	172.29.43.249
-msa02io2		IN	A	172.29.43.250
-enc02			IN	CNAME	enc02oa1
-enc02oa1		IN	A	172.29.43.251
-enc02oa2		IN	A	172.29.43.252
+$GENERATE 1-16 enc2db$		IN	A	172.29.43.$
+$GENERATE 1-16 enc2db${16}a	IN	A	172.29.43.$
+$GENERATE 1-16 enc2db${32}b	IN	A	172.29.43.$
+$GENERATE 1-16 enc2ib${48}	IN	A	172.29.43.$
+msa2			IN	CNAME	msa02io1
+msa2io1			IN	A	172.29.43.249
+msa2io2			IN	A	172.29.43.250
+enc2			IN	CNAME	enc02oa1
+enc2oa1			IN	A	172.29.43.251
+enc2oa2			IN	A	172.29.43.252
 switch			IN	A	172.29.43.253
 gateway			IN	CNAME	bastion
 console			IN	CNAME	bastion
