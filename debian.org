@@ -583,6 +583,7 @@ router1			IN	A	209.87.16.253
 gateway			IN	A	209.87.16.254
 
 $ORIGIN priv.ubc.debian.org.
+enc2sw			IN	CNAME	enc2ib1
 $GENERATE 1-16 enc2db$	IN	A	172.29.43.$
 $GENERATE 1-16 enc2db$a	IN	A	172.29.43.${16}
 $GENERATE 1-16 enc2db$b	IN	A	172.29.43.${32}
