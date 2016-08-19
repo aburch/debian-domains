@@ -171,6 +171,7 @@ $GENERATE 2-254 $.202	IN	PTR	client-$.sil.vpn.debian.org.
 $GENERATE 2-254 $.202	IN	PTR	client-$.ubc.vpn.debian.org.
 
 ;; priv.ubc.debian.org
+$GENERATE 1-16 $.42	IN	PTR	enc2bl$.priv.ubc.debian.org.
 $GENERATE 1-16 $.43	IN	PTR	enc2db$.priv.ubc.debian.org.
 $GENERATE 1-16 ${16}.43	IN	PTR	enc2db$a.priv.ubc.debian.org.
 $GENERATE 1-16 ${32}.43	IN	PTR	enc2db$b.priv.ubc.debian.org.
