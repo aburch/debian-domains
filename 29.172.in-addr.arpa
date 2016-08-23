@@ -176,6 +176,7 @@ $GENERATE 1-16 $.43	IN	PTR	enc2db$.priv.ubc.debian.org.
 $GENERATE 1-16 ${16}.43	IN	PTR	enc2db$a.priv.ubc.debian.org.
 $GENERATE 1-16 ${32}.43	IN	PTR	enc2db$b.priv.ubc.debian.org.
 $GENERATE 1-8  ${48}.43	IN	PTR	enc2ib$.priv.ubc.debian.org.
+$GENERATE 241-248 $	IN	PTR	dhcp$.priv.ubc.debian.org.
 249.43			IN	PTR	msa2io1.priv.ubc.debian.org.
 250.43			IN	PTR	msa2io2.priv.ubc.debian.org.
 251.43			IN	PTR	enc2oa1.priv.ubc.debian.org.

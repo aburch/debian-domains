@@ -594,6 +594,7 @@ $GENERATE 1-16 enc2db$	IN	A	172.29.43.$     ; device bays (ILO)
 $GENERATE 1-16 enc2db$a	IN	A	172.29.43.${16} ; device bays (A)
 $GENERATE 1-16 enc2db$b	IN	A	172.29.43.${32} ; device bays (B)
 $GENERATE 1-8 enc2ib$	IN	A	172.29.43.${48} ; interconnect bays
+$GENERATE 241-248 dhcp$	IN	A	172.29.43.$     ; DHCP clients
 msa2			IN	CNAME	msa2io1
 msa2io1			IN	A	172.29.43.249
 msa2io2			IN	A	172.29.43.250
