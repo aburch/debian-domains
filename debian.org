@@ -587,7 +587,9 @@ $ORIGIN priv.ubc.debian.org.
 $GENERATE 1-16 enc2bl$-mnt IN	CNAME	enc2bl$         ; MNT
 $GENERATE 1-16 enc2bl$-ilo IN	CNAME	enc2db$         ; ILO
 $GENERATE 1-16 enc2bl$	IN	A	172.29.42.$     ; host operating system
-enc2sw			IN	CNAME	enc2ib1         ; NOTE: IRF
+enc2sw			IN	CNAME	enc2sw1         ; IRF
+enc2sw1			IN	CNAME	enc2ib1         ; IRF primary
+enc2sw2			IN	CNAME	enc2ib2         ; IRF secondary
 $GENERATE 1-16 enc2db$	IN	A	172.29.43.$     ; device bays (ILO)
 $GENERATE 1-16 enc2db$a	IN	A	172.29.43.${16} ; device bays (A)
 $GENERATE 1-16 enc2db$b	IN	A	172.29.43.${32} ; device bays (B)
