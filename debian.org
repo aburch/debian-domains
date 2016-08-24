@@ -584,21 +584,24 @@ router1			IN	A	209.87.16.253
 gateway			IN	A	209.87.16.254
 
 $ORIGIN priv.ubc.debian.org.
-$GENERATE 1-251 dhcp$	IN	A	172.29.40.$     ; DHCP clients
-$GENERATE 1-16 enc2bl$-mnt IN	CNAME	enc2bl$         ; MNT
-$GENERATE 1-16 enc2bl$-ilo IN	CNAME	enc2db$         ; ILO
-$GENERATE 1-16 enc2bl$	IN	A	172.29.42.$     ; host operating system
-enc2sw			IN	CNAME	enc2sw1         ; IRF
-enc2sw1			IN	CNAME	enc2ib1         ; IRF primary
-enc2sw2			IN	CNAME	enc2ib2         ; IRF secondary
-$GENERATE 1-16 enc2db$	IN	A	172.29.43.$     ; device bays (ILO)
-$GENERATE 1-16 enc2db$a	IN	A	172.29.43.${16} ; device bays (A)
-$GENERATE 1-16 enc2db$b	IN	A	172.29.43.${32} ; device bays (B)
-$GENERATE 1-8 enc2ib$	IN	A	172.29.43.${48} ; interconnect bays
+$GENERATE 1-16 enc2bl$-mnt IN	CNAME	enc2bl$          ; MNT
+$GENERATE 1-16 enc2bl$-ilo IN	CNAME	enc2db$          ; ILO
+$GENERATE 1-16 enc2bl$	IN	A	172.29.42.$      ; host operating system
+enc2sw			IN	CNAME	enc2sw1          ; IRF
+enc2sw1			IN	CNAME	enc2ib1          ; IRF primary
+enc2sw2			IN	CNAME	enc2ib2          ; IRF secondary
+enc2fc1			IN	CNAME	enc2ib3
+enc2fc2			IN	CNAME	enc2ib4
+$GENERATE 1-16 enc2db$	IN	A	172.29.43.$      ; device bays (ILO)
+$GENERATE 1-16 enc2db$a	IN	A	172.29.43.${16}  ; device bays (A)
+$GENERATE 1-16 enc2db$b	IN	A	172.29.43.${32}  ; device bays (B)
+$GENERATE 1-8 enc2ib$	IN	A	172.29.43.${48}  ; interconnect bays
+$GENERATE 1-8 dhcp$	IN	A	172.29.43.${240} ; DHCP clients
 msa2			IN	CNAME	msa2io1
 msa2io1			IN	A	172.29.43.249
 msa2io2			IN	A	172.29.43.250
-enc2			IN	CNAME	enc2oa1
+enc2			IN	CNAME	enc2oa
+enc2oa			IN	CNAME	enc2oa1
 enc2oa1			IN	A	172.29.43.251
 enc2oa2			IN	A	172.29.43.252
 switch			IN	A	172.29.43.253
