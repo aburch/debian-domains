@@ -170,19 +170,36 @@ $GENERATE 2-254 $.202	IN	PTR	client-$.sil.vpn.debian.org.
 1.203			IN	PTR	gw.ubc.vpn.debian.org.
 $GENERATE 2-254 $.202	IN	PTR	client-$.ubc.vpn.debian.org.
 
-;; priv.ubc.debian.org
+;; priv.ubc.debian.org - 40.0/22
+;   0.40 do not use - network (current 40.0/22)
+$GENERATE 1-251 $.40	IN	PTR	dhcp$.priv.ubc.debian.org.
+; 252.40 do not use - router1 (future 40.0/24)
+; 253.40 do not use - router2 (future 40.0/24)
+; 254.40 do not use - gateway (future 40.0/24)
+; 255.40 do not use - brdcast (future 40.0/24)
+;   0.41 do not use - network (future 41.0/24)
+; 252.41 do not use - router1 (future 41.0/24)
+; 253.41 do not use - router2 (future 41.0/24)
+; 254.41 do not use - gateway (future 41.0/24)
+; 255.41 do not use - brdcast (future 41.0/24)
+;   0.42 do not use - network (future 42.0/24)
 $GENERATE 1-16 $.42	IN	PTR	enc2bl$.priv.ubc.debian.org.
+; 252.42 do not use - router1 (future 42.0/24)
+; 253.42 do not use - router2 (future 42.0/24)
+; 254.42 do not use - gateway (future 42.0/24)
+; 255.42 do not use - brdcast (future 42.0/24)
+;   0.43 do not use - network (future 42.0/24)
 $GENERATE 1-16 $.43	IN	PTR	enc2db$.priv.ubc.debian.org.
 $GENERATE 1-16 ${16}.43	IN	PTR	enc2db$a.priv.ubc.debian.org.
 $GENERATE 1-16 ${32}.43	IN	PTR	enc2db$b.priv.ubc.debian.org.
 $GENERATE 1-8  ${48}.43	IN	PTR	enc2ib$.priv.ubc.debian.org.
-$GENERATE 241-248 $.43	IN	PTR	dhcp$.priv.ubc.debian.org.
 249.43			IN	PTR	msa2io1.priv.ubc.debian.org.
 250.43			IN	PTR	msa2io2.priv.ubc.debian.org.
 251.43			IN	PTR	enc2oa1.priv.ubc.debian.org.
 252.43			IN	PTR	enc2oa2.priv.ubc.debian.org.
 253.43			IN	PTR	switch.priv.ubc.debian.org.
 254.43			IN	PTR	bastion.priv.ubc.debian.org.
+; 255.43 do not use - brdcast (current 40.0/22)
 
 
 ; vim: syn=dns:
