@@ -1,4 +1,4 @@
-; -*- zone -*-
+; ds-in-parent = yes
 
 $TTL 8h
 
