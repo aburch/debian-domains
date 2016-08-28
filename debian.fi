@@ -1,14 +1,4 @@
 ; ds-in-parent = no
-;
-; dnsu: begin allow_transfer_extra
-; 83.136.34.0/27;  // rcode0.net ipv4 axfr
-; 2A02:850:8::/47; // rcode0.net ipv6 axfr
-; dnsu: end allow_transfer_extra
-;
-; dnsu: begin also_notify_extra
-; 83.136.34.7;   // rcode0.net ipv4 ntfy
-; 2A02:850:8::6; // rcode0.net ipv6 ntfy
-; dnsu: end also_notify_extra
 
 $TTL 8h
 

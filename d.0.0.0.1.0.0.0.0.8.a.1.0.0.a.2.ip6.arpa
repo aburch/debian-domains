@@ -2,16 +2,6 @@
 ; reverse for 2a00:1a80:1:d::/64 - hosts at aql
 ;
 ; ds-in-parent = no
-;
-; dnsu: begin allow_transfer_extra
-; 83.136.34.0/27;  // rcode0.net ipv4 axfr
-; 2A02:850:8::/47; // rcode0.net ipv6 axfr
-; dnsu: end allow_transfer_extra
-;
-; dnsu: begin also_notify_extra
-; 83.136.34.7;   // rcode0.net ipv4 ntfy
-; 2A02:850:8::6; // rcode0.net ipv6 ntfy
-; dnsu: end also_notify_extra
 
 
 $TTL 8h
@@ -28,7 +18,7 @@ $TTL 8h
 3.5.1.0.0.0.0.0.0.0.0.0.0.0.0.0		IN	PTR	mipsel-aql-02.debian.org.
 4.5.1.0.0.0.0.0.0.0.0.0.0.0.0.0		IN	PTR	mips-aql-04.debian.org.
 5.5.1.0.0.0.0.0.0.0.0.0.0.0.0.0		IN	PTR	mips-aql-05.debian.org.
-6.5.1.0.0.0.0.0.0.0.0.0.0.0.0.0		IN	PTR	etler.debian.org.
+6.5.1.0.0.0.0.0.0.0.0.0.0.0.0.0		IN	PTR	eller.debian.org.
 7.5.1.0.0.0.0.0.0.0.0.0.0.0.0.0		IN	PTR	mips-aql-06.debian.org.
 8.5.1.0.0.0.0.0.0.0.0.0.0.0.0.0		IN	PTR	mipsel-aql-03.debian.org.
 
