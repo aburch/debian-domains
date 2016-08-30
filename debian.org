@@ -553,22 +553,20 @@ semtana-alom		IN	CNAME	smetana-sc
 sibelius-ilo		IN	A	192.168.0.4
 
 $ORIGIN debian.org.
+$GENERATE 1-16 ubc-enc2bl$ IN	A	209.87.16.$
+ubc-enc2bl1	300	IN	SSHFP	1 1 a5f6a2396acc89ec0d9d47dc9f85322dae01e826 ; temp
+ubc-enc2bl2	300	IN	SSHFP	1 1 6fc5473cd10941f2887ae0cb22cdd0d5553f987d ; temp
+ubc-enc2bl9	300	IN	SSHFP	1 1 f0c65bbc0a7b30d18134fd26f39781e5877ec256 ; temp
+ubc-enc2bl10	300	IN	SSHFP	1 1 80728335743fcd65d2bbcc84245cb5552ae29208 ; temp
+ubc-console		IN	CNAME	ubc-bastion
+ubc-bastion		IN	A	209.87.16.251
+		300	IN	SSHFP	1 1 2af12924629bcdaf259ec5f86a9fa6b7771b7444
+ubc-router2		IN	A	209.87.16.252
+ubc-router1		IN	A	209.87.16.253
+ubc-gateway		IN	A	209.87.16.254
 gateway-ubcece		IN	A	206.12.19.254
 router1-ubcece		IN	A	206.12.19.253
 router2-ubcece		IN	A	206.12.19.252
-
-$ORIGIN ubc.debian.org.
-$GENERATE 1-16 enc2bl$	IN	A	209.87.16.$
-enc2bl1		300	IN	SSHFP	1 1 a5f6a2396acc89ec0d9d47dc9f85322dae01e826
-enc2bl2		300	IN	SSHFP	1 1 6fc5473cd10941f2887ae0cb22cdd0d5553f987d
-enc2bl9		300	IN	SSHFP	1 1 f0c65bbc0a7b30d18134fd26f39781e5877ec256
-enc2bl10	300	IN	SSHFP	1 1 80728335743fcd65d2bbcc84245cb5552ae29208
-console			IN	CNAME	bastion
-bastion			IN	A	209.87.16.251
-		300	IN	SSHFP	1 1 2af12924629bcdaf259ec5f86a9fa6b7771b7444
-router2			IN	A	209.87.16.252
-router1			IN	A	209.87.16.253
-gateway			IN	A	209.87.16.254
 
 $ORIGIN priv.ubc.debian.org.
 $GENERATE 1-16 enc2bl$-mnt IN	CNAME	enc2bl$          ; MNT
