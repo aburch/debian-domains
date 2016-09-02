@@ -1036,8 +1036,8 @@ ftp		IN	CNAME	ftp.fsn.hu.
 $ORIGIN id.debian.org.
 www		IN	CNAME	www.debian.org.
 $ORIGIN ie.debian.org.
-; ftp	300	IN	CNAME	debian.heanet.ie.  ; Colm MacCarthaigh <colm.maccarthaigh@heanet.ie>
-ftp	300	IN	CNAME	ftp.debian.org.
+ftp	300	IN	CNAME	debian.heanet.ie.  ; Colm MacCarthaigh <colm.maccarthaigh@heanet.ie>
+; ftp	300	IN	CNAME	ftp.debian.org.
 $ORIGIN ir.debian.org.
 ftp		IN	A	188.253.2.125 ; debian.asis.io, would cname, but the nameservers are not really all good; factoreal@asis.io
 $ORIGIN is.debian.org.
