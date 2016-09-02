@@ -502,8 +502,8 @@ $ORIGIN rev.debian.org.
 ;222.166.211.140
 ;=============
 ; conova - 217.196.149.224/28
-225.149.196.217		IN	PTR	sompek.debian.org.
-226.149.196.217		IN	PTR	stadler.debian.org.
+225.149.196.217		IN	PTR	sompek.debian.net.
+226.149.196.217		IN	PTR	stadler.debian.net.
 227.149.196.217		IN	PTR	aagaard.debian.org.
 228.149.196.217		IN	PTR	acker.debian.org.
 ;...

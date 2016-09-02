@@ -10,8 +10,8 @@ $TTL 8h
 
 $TTL 1h
 
-e.f.f.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	sompek.debian.org.
-f.f.f.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	stadler.debian.org.
+e.f.f.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	sompek.debian.net.
+f.f.f.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	stadler.debian.net.
 
 7.2.2.0.b.e.d.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	aagaard.debian.org.
 8.2.2.0.b.e.d.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	acker.debian.org.
