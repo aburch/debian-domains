@@ -553,7 +553,6 @@ semtana-alom		IN	CNAME	smetana-sc
 sibelius-ilo		IN	A	192.168.0.4
 
 $ORIGIN debian.org.
-$GENERATE 1-16 ubc-enc2bl$ IN	A	209.87.16.$
 ubc-enc2bl1	300	IN	SSHFP	1 1 a5f6a2396acc89ec0d9d47dc9f85322dae01e826 ; temp
 ubc-enc2bl2	300	IN	SSHFP	1 1 6fc5473cd10941f2887ae0cb22cdd0d5553f987d ; temp
 ubc-enc2bl9	300	IN	SSHFP	1 1 f0c65bbc0a7b30d18134fd26f39781e5877ec256 ; temp
