@@ -95,6 +95,7 @@ wiki                    IN      A       46.43.39.193
                         IN      AAAA    2001:41c8:134:193::42
 es                      IN      CNAME   static.debian.org.
 fr                      IN      CNAME   static.debian.org.
+debconf16               IN      CNAME   static.debian.org.
 debconf15               IN      A       46.43.39.193
                         IN      AAAA    2001:41c8:134:193::42
 debconf14               IN      A       46.43.39.193
@@ -254,8 +255,6 @@ itchy                   IN      A       5.153.231.229
                         IN      TXT     "the sadistic mouse, Scratchy"
                         IN      TXT "https://en.wikipedia.org/wiki/The_Itchy_%26_Scratchy_Show"
 debconf17               IN      A       5.153.231.229
-                        IN      AAAA    2001:41c8:1000:19::229:2
-debconf16               IN      A       5.153.231.229
                         IN      AAAA    2001:41c8:1000:19::229:2
 
 ; Machine sponsored from oriented.net
