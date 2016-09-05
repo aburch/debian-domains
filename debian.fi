@@ -1,4 +1,5 @@
 ; ds-in-parent = no
+; delegated = no
 
 $TTL 8h
 
