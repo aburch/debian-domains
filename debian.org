@@ -563,6 +563,9 @@ gateway-ubcece		IN	A	206.12.19.254
 router1-ubcece		IN	A	206.12.19.253
 router2-ubcece		IN	A	206.12.19.252
 
+$ORIGIN ubc.debian.org.
+ganeti2			IN	CNAME	ganeti2.priv
+
 $ORIGIN priv.ubc.debian.org.
 $GENERATE 1-16 enc2bl$-mnt IN	CNAME	enc2bl$          ; MNT - for consistency
 $GENERATE 1-16 enc2bl$-ilo IN	CNAME	enc2db$          ; ILO
@@ -598,7 +601,8 @@ $GENERATE 1-16 enc2db$b	IN	A	172.29.43.${32}  ; device bays (B)
 $GENERATE 1-8 enc2ib$	IN	A	172.29.43.${48}  ; interconnect bays
 enc2ib3			IN	SSHFP	1 1 a2f0d5894e73c9f759ad99691b6eac4b4b99377e
 enc2ib4			IN	SSHFP	1 1 bb21c5b8cbd5195daf7a0a0af5eeea74c51da576
-$GENERATE 1-8 dhcp$	IN	A	172.29.43.${240} ; DHCP clients
+$GENERATE 1-7 dhcp$	IN	A	172.29.43.${240} ; DHCP clients
+ganeti2			IN	A	172.29.43.248
 msa2			IN	CNAME	msa2io1
 msa2io1			IN	A	172.29.43.249
 			IN	SSHFP	1 1 bda89bd4db7679bafbe21510598fad6ebd2a4e06
