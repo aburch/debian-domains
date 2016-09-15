@@ -16,6 +16,8 @@ $TTL 1h
 ; 251-254 allocated to infrastructure
 
 $GENERATE 1-16 $ IN	PTR	ubc-enc2bl$.debian.org.
+20		IN	PTR	rachmaninoff.debian.org.
+
 241		IN	PTR	positron.oftc.net.        ; on polymer
 242		IN	PTR	irc.geo.oftc.net.         ; on positron
 243		IN	PTR	lux.oftc.net.             ; on polymer
