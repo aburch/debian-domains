@@ -179,6 +179,7 @@ $GENERATE 2-254 $.202	IN	PTR	client-$.ubc.vpn.debian.org.
 ; 255.41 do not use - brdcast (future 41.0/24)
 ;   0.42 do not use - network (future 42.0/24)
 $GENERATE 1-16 $.42	IN	PTR	enc2bl$.priv.ubc.debian.org.
+20			IN	PTR	rachmaninoff.priv.ubc.debian.org.
 ; 254.42 do not use - gateway (future 42.0/24)
 ; 255.42 do not use - brdcast (future 42.0/24)
 ;   0.43 do not use - network (future 42.0/24)
