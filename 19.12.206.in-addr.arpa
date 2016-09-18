@@ -39,7 +39,7 @@ $TTL 8h
 23		IN	PTR	ganeti2.debian.org.
 
 110		IN	PTR	fano.debian.org.
-111		IN	PTR	finzi.debian.org.
+;111
 113		IN	PTR	geo2.debian.org.
 ;114
 ;116
