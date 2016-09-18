@@ -56,9 +56,9 @@ $TTL 8h
 ;127		IN	PTR
 ;128		IN	PTR
 129		IN	PTR	tye.debian.org.
-130		IN	PTR	elgar.debian.org.
+;130		IN	PTR
 ;131		IN	PTR
-132		IN	PTR	gombert.debian.org.
+;132		IN	PTR
 133		IN	PTR	jenkins.debian.org.
 ;134		IN	PTR
 ;135		IN	PTR

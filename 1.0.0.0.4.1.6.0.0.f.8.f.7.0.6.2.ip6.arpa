@@ -19,5 +19,7 @@ $TTL 1h
 1.2.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	x86-ubc-01.debian.org.
 2.2.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	finzi.debian.org.
 3.2.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	fano.debian.org.
+4.2.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	elgar.debian.org.
+5.2.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	gombert.debian.org.
 
 ; vim:syn=dns
