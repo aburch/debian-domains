@@ -38,7 +38,7 @@ $TTL 8h
 22		IN	PTR	ubcece.debian.org.
 23		IN	PTR	ganeti2.debian.org.
 
-110		IN	PTR	fano.debian.org.
+;110
 ;111
 113		IN	PTR	geo2.debian.org.
 ;114

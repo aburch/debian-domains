@@ -19,6 +19,7 @@ $GENERATE 1-16 $ IN	PTR	ubc-enc2bl$.debian.org.
 20		IN	PTR	rachmaninoff.debian.org.
 21		IN	PTR	x86-ubc-01.debian.org.
 22		IN	PTR	finzi.debian.org.
+23		IN	PTR	fano.debian.org.
 
 241		IN	PTR	positron.oftc.net.        ; on polymer
 242		IN	PTR	irc.geo.oftc.net.         ; on positron
