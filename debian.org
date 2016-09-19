@@ -223,8 +223,8 @@ release			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
 			; A/AAAA records via services-auto
 reportbug		IN	CNAME	buxtehude.debian.org.
-rt			IN	A	206.12.19.124   ; reger
-			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:137c ; reger
+rt			IN	A	209.87.16.27    ; reger
+			IN	AAAA	2607:f8f0:614:1::1274:27        ; reger
 			IN	MX	10 reger.debian.org.
 search			IN	A	194.177.211.202 ; cgi-grnet-01
 			IN	AAAA	2001:648:2ffc:deb::211:202 ; cgi-grnet-01
