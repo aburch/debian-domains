@@ -49,8 +49,8 @@ $TTL 8h
 ;120
 121		IN	PTR	lotti.debian.org.
 ;122
-123		IN	PTR	nono.debian.org.
-124		IN	PTR	reger.debian.org.
+;123		IN	PTR
+;124		IN	PTR
 125		IN	PTR	danzi.debian.org.
 126		IN	PTR	glinka.debian.org.
 ;127		IN	PTR
