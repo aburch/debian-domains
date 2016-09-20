@@ -970,8 +970,8 @@ $ORIGIN by.debian.org.
 ftp		IN	CNAME	ftp.mgts.by. ; Evgeniy Kozhuhovskiy  <ftpadm@mgts.by>
 $ORIGIN ca.debian.org.
 ;ftp		IN	A	206.167.141.10	; ftp1.ca
-;ftp		IN	A	70.38.0.135	; debian.mirror.iweb.ca.
-;ftp		IN	AAAA	2607:f748:10:12::deb:1	; debian.mirror.iweb.ca.
+ftp		IN	A	192.175.120.168	; debian.mirror.iweb.ca.
+ftp		IN	AAAA	2607:f748:10:12::deb:1	; debian.mirror.iweb.ca.
 ;ftp		IN	A	132.246.2.23	; ftp3.ca ; ftp3.nrc.ca.
 ftp		IN	A	207.210.46.249 ; ftp4.ca ; debian.mirror.rafal.ca.
 ftp		IN	AAAA	2604:1500:f001:0:216:3eff:fe3f:746b  ; ftp4.ca ; debian.mirror.rafal.ca.
