@@ -23,5 +23,7 @@ $TTL 1h
 5.2.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	gombert.debian.org.
 6.2.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	nono.debian.org.
 7.2.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	reger.debian.org.
+8.2.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	diabelli.debian.org.
+9.2.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	menotti.debian.org.
 
 ; vim:syn=dns

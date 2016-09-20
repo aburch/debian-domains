@@ -62,14 +62,14 @@ $TTL 8h
 133		IN	PTR	jenkins.debian.org.
 ;134		IN	PTR
 ;135		IN	PTR
-136		IN	PTR	diabelli.debian.org.
+;136		IN	PTR
 ; 137		IN	PTR
 ; 138		IN	PTR
 ; 139		IN	PTR
 ; 140		IN	PTR
 141		IN	PTR	ullmann.debian.org.
 142		IN	PTR	sonntag.debian.org.
-143		IN	PTR	menotti.debian.org.
+;143		IN	PTR
 ;144		IN	PTR
 ;145		IN	PTR
 146		IN	PTR	muffat.debian.org.
