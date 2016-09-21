@@ -51,7 +51,7 @@ $TTL 8h
 ;122
 ;123		IN	PTR
 ;124		IN	PTR
-125		IN	PTR	danzi.debian.org.
+;125		IN	PTR
 126		IN	PTR	glinka.debian.org.
 ;127		IN	PTR
 ;128		IN	PTR

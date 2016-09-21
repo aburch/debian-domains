@@ -25,5 +25,6 @@ $TTL 1h
 7.2.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	reger.debian.org.
 8.2.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	diabelli.debian.org.
 9.2.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	menotti.debian.org.
+0.3.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	danzi.debian.org.
 
 ; vim:syn=dns
