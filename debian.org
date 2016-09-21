@@ -164,9 +164,9 @@ mirror-master		IN	CNAME	glinka
 debug.mirrors		IN	MX	0 .
 			; A/AAAA records via services-auto
 mailout			IN	A	82.195.75.114	; mailly
-			IN	A	206.12.19.146	; muffat
+		15m	IN	A	206.12.19.146	; muffat
 			IN	AAAA	2001:41b8:202:deb:6564:a62:52c3:4b72	; mailly
-			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1392	; muffat
+		15m	IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1392	; muffat
 			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
 munin			IN	CNAME	menotti.debian.org.
