@@ -16,7 +16,7 @@
 ;
 ; dnsu: begin also_notify_extra
 ; 82.195.75.105; // geo1.debian.org
-; 206.12.19.113; // geo2.debian.org
+; 206.12.16.31; // geo2.debian.org
 ; 194.177.211.201; // geo3.debian.org
 ; dnsu: end also_notify_extra
 
