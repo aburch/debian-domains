@@ -40,14 +40,14 @@ $TTL 8h
 
 ;110
 ;111
-113		IN	PTR	geo2.debian.org.
+;113		IN	PTR
 ;114
 ;116
 ;117
-118		IN	PTR	tchaikovsky.debian.org.
+;118		IN	PTR
 ;119		IN	PTR
 ;120
-121		IN	PTR	lotti.debian.org.
+;121		IN	PTR
 ;122
 ;123		IN	PTR
 ;124		IN	PTR
@@ -68,11 +68,11 @@ $TTL 8h
 ; 139		IN	PTR
 ; 140		IN	PTR
 141		IN	PTR	ullmann.debian.org.
-142		IN	PTR	sonntag.debian.org.
+;142		IN	PTR
 ;143		IN	PTR
 ;144		IN	PTR
 ;145		IN	PTR
-146		IN	PTR	muffat.debian.org.
+;146		IN	PTR
 147		IN	PTR	buxtehude.debian.org.
 
 212		IN	PTR	ubc-bl2.debian.org.

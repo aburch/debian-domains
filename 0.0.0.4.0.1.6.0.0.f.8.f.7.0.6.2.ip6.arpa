@@ -17,13 +17,13 @@ $TTL 8h
 
 ; 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		IN	PTR	gw
 8.b.c.7.8.f.e.f.f.f.1.8.4.2.2.0		IN	PTR	ubc-bl8.debian.org.
-3.0.8.3.0.4.e.f.f.f.6.3.6.1.2.0		IN	PTR	geo2.debian.org.
-c.0.8.3.0.4.e.f.f.f.6.3.6.1.2.0		IN	PTR	lotti.debian.org.
+;3.0.8.3.0.4.e.f.f.f.6.3.6.1.2.0		IN	PTR
+;c.0.8.3.0.4.e.f.f.f.6.3.6.1.2.0		IN	PTR
 2.5.9.e.7.a.e.f.f.f.1.8.4.2.2.0		IN	PTR	ubc-bl4.debian.org.
 ;1.6.8.3.0.4.e.f.f.f.6.3.6.1.2.0		IN	PTR
 9.d.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	ubc-bl7.debian.org.
 e.0.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	spontini.debian.org.
-9.0.8.3.0.4.e.f.f.f.6.3.6.1.2.0		IN	PTR	tchaikovsky.debian.org.
+;9.0.8.3.0.4.e.f.f.f.6.3.6.1.2.0		IN	PTR
 ;0.9.8.e.5.e.e.f.f.f.4.c.c.1.2.0		IN	PTR
 5.d.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	ubc-bl3.debian.org.
 ;c.4.8.3.0.4.e.f.f.f.6.3.6.1.2.0		IN	PTR
@@ -41,9 +41,9 @@ e.7.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	glinka.debian.org.
 ; b.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR
 ; c.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR
 d.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	ullmann.debian.org.
-e.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	sonntag.debian.org.
+;e.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR
 ; f.8.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR
-2.9.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR	muffat.debian.org.
+;2.9.3.1.c.0.e.c.2.6.a.0.4.6.5.6		IN	PTR
 ;7.1.1.0.9.1.0.0.2.6.a.0.4.6.5.6
 ;0.1.1.0.9.1.0.0.2.6.a.0.4.6.5.6		IN	PTR
 ;1.1.1.0.9.1.0.0.2.6.a.0.4.6.5.6		IN	PTR

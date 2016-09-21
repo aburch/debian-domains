@@ -27,6 +27,11 @@ $GENERATE 1-16 $ IN	PTR	ubc-enc2bl$.debian.org.
 28		IN	PTR	diabelli.debian.org.
 29		IN	PTR	menotti.debian.org.
 30		IN	PTR	danzi.debian.org.
+31		IN	PTR	geo2.debian.org.
+32		IN	PTR	lotti.debian.org.
+33		IN	PTR	muffat.debian.org.
+34		IN	PTR	sonntag.debian.org.
+35		IN	PTR	tchaikovsky.debian.org.
 
 241		IN	PTR	positron.oftc.net.        ; on polymer
 242		IN	PTR	irc.geo.oftc.net.         ; on positron
