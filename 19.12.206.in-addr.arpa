@@ -45,7 +45,7 @@ $TTL 8h
 ;116
 ;117
 118		IN	PTR	tchaikovsky.debian.org.
-119		IN	PTR	popov.debian.org.
+119		IN	PTR
 ;120
 121		IN	PTR	lotti.debian.org.
 ;122

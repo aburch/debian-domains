@@ -660,7 +660,6 @@ ganeti1-mnt		IN	A	192.168.2.22
 ganeti2-mnt		IN	A	192.168.2.23
 
 ; rule seems to be that the last octet is (host's real address - 50)
-popov-mnt		IN	A	192.168.2.69
 quantz-mnt		IN	A	192.168.2.72
 glinka-mnt		IN	A	192.168.2.76
 tye-mnt			IN	A	192.168.2.79
