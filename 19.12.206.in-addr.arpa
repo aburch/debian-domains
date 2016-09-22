@@ -67,7 +67,7 @@ $TTL 8h
 ; 138		IN	PTR
 ; 139		IN	PTR
 ; 140		IN	PTR
-141		IN	PTR	ullmann.debian.org.
+;141		IN	PTR
 ;142		IN	PTR
 ;143		IN	PTR
 ;144		IN	PTR

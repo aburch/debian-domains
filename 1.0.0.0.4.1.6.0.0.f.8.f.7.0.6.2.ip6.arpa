@@ -33,5 +33,6 @@ $TTL 1h
 5.3.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	tchaikovsky.debian.org.
 6.3.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	gretchaninov.debian.org.
 7.3.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	tye.debian.org.
+8.3.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	ullmann.debian.org.
 
 ; vim:syn=dns
