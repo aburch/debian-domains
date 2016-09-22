@@ -140,8 +140,8 @@ hg			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	MX	0 .
 httpredir		IN	MX	0 .
 			; A/AAAA records via services-auto
-i18n			IN	A	206.12.19.129	; tye
-			IN	AAAA	2607:f8f0:610:4000:6564:a62:ce0c:1381	; tye
+i18n			IN	A	209.87.16.37	; tye
+			IN	AAAA	2607:f8f0:614:1::1274:37	; tye
 			IN	MX	0 tye
 ;incoming	5m	IN	A	138.16.160.12 ; franck
 			;IN	MX	0 .
@@ -590,6 +590,7 @@ enc2bl10		IN	SSHFP	4 2 637D79DF7926800BAFEA11DD0297CD06715FAC4C39E9E0BE3542BE475
 rachmaninoff		IN	A	172.29.42.20
 sonntag			IN	A	172.29.42.34
 gretchaninov		IN	A	172.29.42.36
+tye			IN	A	172.29.42.37
 enc2sw			IN	CNAME	enc2sw1          ; IRF
 enc2sw1			IN	CNAME	enc2ib1          ; IRF primary
 enc2sw2			IN	CNAME	enc2ib2          ; IRF secondary
