@@ -73,7 +73,7 @@ $TTL 8h
 ;144		IN	PTR
 ;145		IN	PTR
 ;146		IN	PTR
-147		IN	PTR	buxtehude.debian.org.
+;147		IN	PTR
 
 212		IN	PTR	ubc-bl2.debian.org.
 213		IN	PTR	ubc-bl3.debian.org.

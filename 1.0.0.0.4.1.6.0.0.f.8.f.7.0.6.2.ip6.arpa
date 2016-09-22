@@ -34,5 +34,6 @@ $TTL 1h
 6.3.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	gretchaninov.debian.org.
 7.3.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	tye.debian.org.
 8.3.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	ullmann.debian.org.
+9.3.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	buxtehude.debian.org.
 
 ; vim:syn=dns

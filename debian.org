@@ -60,8 +60,8 @@ blends			IN	CNAME	static
 bttracker		IN	CNAME	bttracker.acc.umu.se.
 bugs			IN	MX	10 buxtehude
 			; A/AAAA records via services-auto
-bugs-master		IN	A	206.12.19.147			; buxtehude
-			IN	AAAA	2607:f8f0:610:4000:2015:12::147	; buxtehude
+bugs-master		IN	A	209.87.16.39			; buxtehude
+			IN	AAAA	2607:f8f0:614:1::1274:39	; buxtehude
 			IN	MX	0 .
 bugs-beach		IN	CNAME	beach
 bugs-buxtehude		IN	CNAME	buxtehude
@@ -593,6 +593,7 @@ sonntag			IN	A	172.29.42.34
 gretchaninov		IN	A	172.29.42.36
 tye			IN	A	172.29.42.37
 ullmann			IN	A	172.29.42.38
+buxtehude		IN	A	172.29.42.39
 enc2sw			IN	CNAME	enc2sw1          ; IRF
 enc2sw1			IN	CNAME	enc2ib1          ; IRF primary
 enc2sw2			IN	CNAME	enc2ib2          ; IRF secondary
@@ -669,7 +670,6 @@ ganeti2-mnt		IN	A	192.168.2.23
 glinka-mnt		IN	A	192.168.2.76
 tye-mnt			IN	A	192.168.2.79
 jenko-mnt		IN	A	192.168.2.83
-buxtehude-mnt		IN	A	192.168.2.96 ; 97 conflicts with netgear
 
 positron-mnt		IN	A	192.168.2.241	; positron.oftc.net <noc@oftc.net>
 lux-mnt			IN	A	192.168.2.243	; lux.oftc.net <noc@oftc.net>
