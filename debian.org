@@ -345,7 +345,8 @@ rtc-master		IN	CNAME	dillon
 
 ; restricted services
 ;; ubc
-mirror-ubc		IN	CNAME	glinka
+mirror-ubc	300	IN	CNAME	gretchaninov
+;mirror-ubc		IN	CNAME	glinka
 ;mirror-ubc		IN	CNAME	klecker-ftp.debian.org.
 
 ; hosts
