@@ -55,7 +55,7 @@ backports-master	IN	CNAME	ftp-master
 backup			IN	CNAME	beethoven.debian.org.
 bits			IN	CNAME	static
 bits-backend		IN	CNAME	bits-master
-bits-master		IN	CNAME	master
+bits-master		IN	CNAME	dillon
 blends			IN	CNAME	static
 bttracker		IN	CNAME	bttracker.acc.umu.se.
 bugs			IN	MX	10 buxtehude
