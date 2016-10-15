@@ -59,7 +59,7 @@ $TTL 8h
 ;130		IN	PTR
 ;131		IN	PTR
 ;132		IN	PTR
-133		IN	PTR	jenkins.debian.org.
+;133		IN	PTR
 ;134		IN	PTR
 ;135		IN	PTR
 ;136		IN	PTR
