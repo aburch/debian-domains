@@ -13,19 +13,19 @@ $TTL 8h
 $TTL 8h
 
 @		IN	MX	10 buzz
-		IN	A	193.246.120.51
+		IN	A	46.227.224.179
 		IN	AAAA	2a02:cd8:abac:27::33
 
-buzz		IN	A	193.246.120.51
+buzz		IN	A	46.227.224.179
 		IN	AAAA	2a02:cd8:abac:27::33
 
-buzz2		IN	A	193.246.120.52
+buzz2		IN	A	46.227.224.180
 		IN	AAAA	2a02:cd8:abac:27::34
 
 www		IN	CNAME	buzz
 
 lists		IN	MX	10 buzz
-		IN	A	193.246.120.51
+		IN	A	46.227.224.179
 		IN	AAAA	2a02:cd8:abac:27::33
 
 ; vim: syn=dns:

@@ -12,7 +12,7 @@ $TTL 8h
 
 $TTL 8h
 
-@		IN	A	193.246.120.52
+@		IN	A	46.227.224.180
 		IN	AAAA	2a02:cd8:abac:27::34
 		IN	MX	10 buzz.debian.ch.
 
