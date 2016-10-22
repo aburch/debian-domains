@@ -298,8 +298,8 @@ tracker			IN	A	5.153.231.23			; ticharich.debian.org
 			IN	AAAA	2001:41c8:1000:21::21:23	; ticharich.debian.org
 			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
-ftp.upload	300	IN	CNAME	ftp-master.debian.org.	; franck
-;ftp.upload	300	IN	CNAME	coccia.debian.org.
+;ftp.upload	300	IN	CNAME	ftp-master.debian.org.	; franck
+ftp.upload	300	IN	CNAME	coccia.debian.org.
 ;ftp.eu.upload	300	IN	CNAME	XXXXXX.debian.org. XXX
 ;ftp.eu.upload	300	IN	CNAME	ftp-master.debian.org.
 ftp.eu.upload	300	IN	CNAME	coccia.debian.org.
