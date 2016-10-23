@@ -161,6 +161,7 @@ lists			IN	A	82.195.75.100	; bendel
 			IN	TXT	google-site-verification=qmr9wDHZI7J8N5E44Ic9yahfsWEK3NLGFs91aXMcJNc
 lists-test		IN	MX	0 bendel.debian.org.
 manpages	120	IN	CNAME	glinka
+master.upload		IN	CNAME	usper
 micronews		IN	CNAME	static
 mirror			IN	CNAME	glinka
 mirror-master		IN	CNAME	glinka
