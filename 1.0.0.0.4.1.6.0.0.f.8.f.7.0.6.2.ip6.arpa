@@ -13,7 +13,7 @@ $TTL 1h
 
 1.0.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	ubc-enc2bl01.debian.org.
 2.0.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	ubc-enc2bl02.debian.org.
-9.0.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	ubc-enc2bl9.debian.org.
+9.0.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	ubc-enc2bl09.debian.org.
 0.1.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	ubc-enc2bl10.debian.org.
 0.2.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	rachmaninoff.debian.org.
 1.2.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	x86-ubc-01.debian.org.
