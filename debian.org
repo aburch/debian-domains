@@ -14,12 +14,16 @@ $TTL 8h
 ;@			IN	NS	dns1.easydns.com.
 @			IN	NS	sec1.rcode0.net.
 @			IN	NS	sec2.rcode0.net.
-@			IN	NS	debian1.dnsnode.net.
+@			IN	NS	dnsnode.debian.org.
 
 $TTL 8h
 
 @			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
+
+; nameserver services provided by netnod.se
+dnsnode.debian.org.	IN	A	194.146.106.126
+			IN	AAAA	2001:67c:1010:32::53
 
 $TTL 1h
 
