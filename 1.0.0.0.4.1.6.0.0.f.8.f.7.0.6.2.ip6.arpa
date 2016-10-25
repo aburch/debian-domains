@@ -11,7 +11,7 @@ $TTL 8h
 
 $TTL 1h
 
-1.0.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	ubc-enc2bl1.debian.org.
+1.0.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	ubc-enc2bl01.debian.org.
 2.0.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	ubc-enc2bl2.debian.org.
 9.0.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	ubc-enc2bl9.debian.org.
 0.1.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	ubc-enc2bl10.debian.org.
