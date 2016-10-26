@@ -15,7 +15,7 @@ $TTL 1h
 ; 241-250 allocated to OFTC
 ; 251-254 allocated to infrastructure
 
-$GENERATE 1-16 $ IN	PTR	ubc-enc2bl$.debian.org.
+$GENERATE 1-16 $ IN	PTR	ubc-enc2bl${0,2}.debian.org.
 20		IN	PTR	rachmaninoff.debian.org.
 21		IN	PTR	x86-ubc-01.debian.org.
 22		IN	PTR	finzi.debian.org.

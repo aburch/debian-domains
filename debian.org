@@ -575,9 +575,9 @@ $ORIGIN ubc.debian.org.
 ganeti2			IN	CNAME	ganeti2.priv
 
 $ORIGIN priv.ubc.debian.org.
-$GENERATE 1-16 enc2bl$-mnt IN	CNAME	enc2bl$          ; MNT - for consistency
-$GENERATE 1-16 enc2bl$-ilo IN	CNAME	enc2db$          ; ILO
-$GENERATE 1-16 enc2bl$	IN	A	172.29.42.$      ; host operating system
+$GENERATE 1-16 enc2bl${0,2}-mnt	IN	CNAME	enc2bl${0,2}     ; MNT - for consistency
+$GENERATE 1-16 enc2bl${0,2}-ilo	IN	CNAME	enc2db${0,2}     ; ILO
+$GENERATE 1-16 enc2bl${0,2}	IN	A	172.29.42.$      ; host operating system
 enc2bl01		IN	SSHFP	1 1 114F751868D0B9754848D5109E9CD45DE3360B84
 enc2bl01		IN	SSHFP	1 2 EBBF507AF2D99A12870C0564E5544C4D945B2FAB0FB6FFFAFE2E1BF039255D49
 enc2bl01		IN	SSHFP	4 1 679BA0226636452AD844CC4863654CC489C79BE4
@@ -605,13 +605,13 @@ enc2sw1			IN	CNAME	enc2ib1          ; IRF primary
 enc2sw2			IN	CNAME	enc2ib2          ; IRF secondary
 enc2fc1			IN	CNAME	enc2ib3
 enc2fc2			IN	CNAME	enc2ib4
-$GENERATE 1-16 enc2db$	IN	A	172.29.43.$      ; device bays (ILO)
-enc2db1			IN	SSHFP	1 1 ea57c60158ccba4bcbf2baaabcf2dd9ba98da7e4
-enc2db2			IN	SSHFP	1 1 ad71fb8efec9bde761c0e1fa798a4a409c5ee90b
-enc2db9			IN	SSHFP	1 1 8f115ee3e1ebd61f5f92ca2600ef57d43fb3bd15
+$GENERATE 1-16 enc2db${0,2}	IN	A	172.29.43.$      ; device bays (ILO)
+enc2db01		IN	SSHFP	1 1 ea57c60158ccba4bcbf2baaabcf2dd9ba98da7e4
+enc2db02		IN	SSHFP	1 1 ad71fb8efec9bde761c0e1fa798a4a409c5ee90b
+enc2db09		IN	SSHFP	1 1 8f115ee3e1ebd61f5f92ca2600ef57d43fb3bd15
 enc2db10		IN	SSHFP	1 1 0314e6ae686d1294258264a7c81fd400b17d70a9
-$GENERATE 1-16 enc2db$a	IN	A	172.29.43.${16}  ; device bays (A)
-$GENERATE 1-16 enc2db$b	IN	A	172.29.43.${32}  ; device bays (B)
+$GENERATE 1-16 enc2db${0,2}a	IN	A	172.29.43.${16}  ; device bays (A)
+$GENERATE 1-16 enc2db${0,2}b	IN	A	172.29.43.${32}  ; device bays (B)
 $GENERATE 1-8 enc2ib$	IN	A	172.29.43.${48}  ; interconnect bays
 enc2ib3			IN	SSHFP	1 1 a2f0d5894e73c9f759ad99691b6eac4b4b99377e
 enc2ib4			IN	SSHFP	1 1 bb21c5b8cbd5195daf7a0a0af5eeea74c51da576
