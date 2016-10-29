@@ -121,8 +121,7 @@ ftp			IN	MX	0 .
 _http._tcp.ftp		IN	SRV	0 1 80 klecker-ftp.debian.org.
 _http._tcp.ftp		IN	SRV	1 1 80 ftp.acc.umu.se.
 ftp.ipv6		IN	CNAME	ftp
-ftp-master		IN	A	138.16.160.12 ; franck
-	;		IN	MX	10 franck.debian.org.
+ftp-master		IN	A	138.16.160.17 ; fasolo
 			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
 api.ftp-master		IN	CNAME	coccia
@@ -149,8 +148,6 @@ httpredir		IN	MX	0 .
 i18n			IN	A	209.87.16.37	; tye
 			IN	AAAA	2607:f8f0:614:1::1274:37	; tye
 			IN	MX	0 tye
-;incoming	5m	IN	A	138.16.160.12 ; franck
-			;IN	MX	0 .
 incoming		IN	CNAME	static
 irc			IN	CNAME	irc6.geo.oftc.net.
 irc6			IN	CNAME	irc6.geo.oftc.net.
@@ -303,10 +300,7 @@ tracker			IN	A	5.153.231.23			; ticharich.debian.org
 			IN	AAAA	2001:41c8:1000:21::21:23	; ticharich.debian.org
 			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
-;ftp.upload	300	IN	CNAME	ftp-master.debian.org.	; franck
 ftp.upload	300	IN	CNAME	usper.debian.org.
-;ftp.eu.upload	300	IN	CNAME	XXXXXX.debian.org. XXX
-;ftp.eu.upload	300	IN	CNAME	ftp-master.debian.org.
 ftp.eu.upload	300	IN	CNAME	coccia.debian.org.
 veyepar			IN	CNAME	vittoria
 volatile-master		IN	CNAME	static
