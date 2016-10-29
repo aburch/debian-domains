@@ -54,8 +54,7 @@ archive-glinka		IN	CNAME	glinka
 archive-klecker		IN	CNAME	klecker-archive
 archive-sibelius	IN	CNAME	sibelius
 backports		IN	CNAME	static
-backports-backend	IN	CNAME	backports-master
-backports-master	IN	CNAME	ftp-master
+backports-master	IN	CNAME	static
 backup			IN	CNAME	beethoven.debian.org.
 bits			IN	CNAME	static
 bits-backend		IN	CNAME	bits-master
