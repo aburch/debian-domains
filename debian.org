@@ -55,7 +55,6 @@ archive-klecker		IN	CNAME	klecker-archive
 archive-sibelius	IN	CNAME	sibelius
 backports		IN	CNAME	static
 backports-master	IN	CNAME	static
-backup			IN	CNAME	beethoven.debian.org.
 bits			IN	CNAME	static
 bits-backend		IN	CNAME	bits-master
 bits-master		IN	CNAME	dillon
