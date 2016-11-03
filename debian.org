@@ -1121,6 +1121,8 @@ ftp	300	IN	A	128.61.240.89		; debian.gtisc.gatech.edu (edmonds@debian.org)
 ftp6		IN	A	128.61.240.89		; debian.gtisc.gatech.edu (edmonds@debian.org)
 ftp	300	IN	AAAA	2610:148:1f10:3::89	; debian.gtisc.gatech.edu (edmonds@debian.org)
 ftp6		IN	AAAA	2610:148:1f10:3::89	; debian.gtisc.gatech.edu (edmonds@debian.org)
+ftp	300	IN	A	208.80.154.15		; mirrors.wikimedia.org
+ftp	300	IN	AAAA	2620:0:861:1:208:80:154:15 ; mirrors.wikimedia.org
 http		IN	CNAME	ftp.us.debian.org.
 www		IN	CNAME	www.debian.org.
 
