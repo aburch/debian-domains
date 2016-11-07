@@ -53,11 +53,6 @@ $TTL 8h
 $TTL 8h
 
 ;;#####
-;; 1&1 - powell
-;;#####
-100.150			IN	PTR	ganeti-1and1.debian.org.
-
-;;#####
 ;; sil
 ;;#####
 10.160			IN	PTR	cisco.priv.sil.debian.org.
