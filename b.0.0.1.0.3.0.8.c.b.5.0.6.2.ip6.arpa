@@ -1,0 +1,14 @@
+; b.0.0.1.0.3.0.8.c.b.5.0.6.2.ip6.arpa zone
+; reverse for 2605:bc80:3010:b00::/56 - hosts at OSL
+; note: ::1 is reserved for OSL infra
+
+; delegated = no
+
+$TTL 8h
+
+@                                       IN      NS      sec1.rcode0.net.
+@                                       IN      NS      sec2.rcode0.net.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0     IN      PTR     v6gw.osl.debian.org.
+
+; vim: syn=dns:
