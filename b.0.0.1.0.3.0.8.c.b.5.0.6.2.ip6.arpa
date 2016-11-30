@@ -4,7 +4,7 @@
 
 ; delegated = no
 
-$TTL 8h
+$TTL 1h
 
 @                                       IN      NS      sec1.rcode0.net.
 @                                       IN      NS      sec2.rcode0.net.
