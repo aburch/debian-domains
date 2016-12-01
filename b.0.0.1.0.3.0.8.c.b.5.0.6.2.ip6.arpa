@@ -10,4 +10,11 @@ $TTL 1h
 @					IN	NS	sec2.rcode0.net.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	corv-car1-gw.nero.net.
+5.9.1.0.6.6.1.0.b.e.d.0.0.0.0.0.0.0	IN	PTR	pieta.debian.org.
+6.9.1.0.6.6.1.0.b.e.d.0.0.0.0.0.0.0	IN	PTR	ppc64el-osuosl-01.debian.org.
+7.9.1.0.6.6.1.0.b.e.d.0.0.0.0.0.0.0	IN	PTR	powerpc-osuosl-01.debian.org.
+8.9.1.0.6.6.1.0.b.e.d.0.0.0.0.0.0.0	IN	PTR	pizzetti.debian.org.
+0.0.2.0.6.6.1.0.b.e.d.0.0.0.0.0.0.0	IN	PTR	byrd.debian.org.
+1.0.2.0.6.6.1.0.b.e.d.0.0.0.0.0.0.0	IN	PTR	beach.debian.org.
+
 ; vim: syn=dns:
