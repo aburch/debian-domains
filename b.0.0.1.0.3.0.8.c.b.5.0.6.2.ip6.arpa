@@ -6,9 +6,8 @@
 
 $TTL 1h
 
-@                                       IN      NS      sec1.rcode0.net.
-@                                       IN      NS      sec2.rcode0.net.
+@					IN	NS	sec1.rcode0.net.
+@					IN	NS	sec2.rcode0.net.
 
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0     IN      PTR     corv-car1-gw.nero.net.
-
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	corv-car1-gw.nero.net.
 ; vim: syn=dns:
