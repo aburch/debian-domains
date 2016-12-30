@@ -30,7 +30,7 @@ $TTL 8h
 205		IN	PTR	vittoria.debian.org.
 206		IN	PTR	boott.debian.org.
 207		IN	PTR	porta.debian.org.
-; 208
+208		IN	PTR	melartin.debian.org.
 ; 209
 ; 210
 ; 211
