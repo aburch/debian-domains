@@ -27,9 +27,9 @@
 ; 115		bytemark default gws
 ; 120		bytemark vlan 20
 ; 122		bytemark vlan 22
-; 123		bytemark vlan 23 openstack
-; 124		bytemark ---- 24 openstack
-; 127		bytemark vlan 27 openstack
+; 123		bytemark reserved
+; 124		bytemark reserved
+; 127		bytemark reserved
 ; 150		1&1 ganeti
 ; 160		sil mnt vlan
 ; 170		dgi nfs net (between storace and storace-qnap)
@@ -148,10 +148,6 @@ $GENERATE 1-14 $.120	IN	PTR	bm-bl$-backend.priv.bm.debian.org.
 33.122			IN	PTR	tate-backend.priv.bm.debian.org.
 36.122			IN	PTR	lindsay-backend.priv.bm.debian.org.
 40.122			IN	PTR	mekeel-backend.priv.bm.debian.org.
-
-; vlan 23 - 172.29.123/24
-$GENERATE 1-14 $.123	IN	PTR	bm-bl$-backend.openstack.bm.debian.org.
-26.123			IN	PTR	oyens-backend.openstack.bm.debian.org.
 
 ;;#####
 ;; VPN
