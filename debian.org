@@ -901,12 +901,6 @@ tate-backend.priv			IN	A	172.29.122.33
 lindsay-backend.priv			IN	A	172.29.122.36
 mekeel-backend.priv			IN	A	172.29.122.40
 
-$GENERATE 1-14 bm-bl$-backend.openstack	IN A	172.29.123.$
-oyens-backend.openstack	IN	A	172.29.123.26
-
-
-$GENERATE 1-58 vm-$.openstack	IN A	5.153.231.${+129,0,d}
-
 $ORIGIN manda.debian.org.
 nut1			IN	CNAME	clementi.debian.org.
 nut2			IN	CNAME	czerny.debian.org.
