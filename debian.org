@@ -901,6 +901,8 @@ tate-backend.priv			IN	A	172.29.122.33
 lindsay-backend.priv			IN	A	172.29.122.36
 mekeel-backend.priv			IN	A	172.29.122.40
 
+casulana-ilo.priv			IN	A	212.110.162.99
+
 $ORIGIN manda.debian.org.
 nut1			IN	CNAME	clementi.debian.org.
 nut2			IN	CNAME	czerny.debian.org.
