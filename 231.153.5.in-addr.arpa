@@ -56,7 +56,7 @@ $TTL 8h
 38	IN	PTR	sor.debian.org.
 39	IN	PTR	jerea.debian.org.
 40	IN	PTR	mekeel.debian.org.
-;41
+41	IN	PTR	casulana.debian.org.
 42	IN	PTR	pinel.debian.org.
 43	IN	PTR	rusca.debian.org.
 44	IN	PTR	manziarly.debian.org.
