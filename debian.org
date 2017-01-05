@@ -185,6 +185,7 @@ other			IN	A	82.195.75.100	; bendel
 packages		IN	MX	0 picconi
 			; A/AAAA records via services-auto
 packages-picconi	IN	CNAME	picconi
+packages-pkgmirror-csail	IN	CNAME	pkgmirror-csail
 people			IN	CNAME	paradis
 nossl.people		IN	CNAME	paradis
 pg-ubcece		IN	CNAME	danzi
