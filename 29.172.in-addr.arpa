@@ -40,6 +40,8 @@
 ; 178		csail drbd
 ; 180		man-da oob (new)
 ; 182		reserved for new man-da drbd (2016-04)
+; 184		conova drbd
+; 186		reserved for eventual conova VPN
 ; 201		VPN manda
 ; 202		VPN sil
 ; 203/24	VPN ubc
