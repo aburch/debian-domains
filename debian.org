@@ -759,7 +759,6 @@ $ORIGIN debprivate-cecsit.debian.org.
 gluck-ilo		IN	A	172.17.4.2
 
 $ORIGIN debprivate-grnet.debian.org.
-rautavaara		IN	A	172.22.3.199
 blade1			IN	A	172.22.3.201
 blade2			IN	A	172.22.3.202
 blade3			IN	A	172.22.3.203
@@ -770,7 +769,6 @@ blade7			IN	A	172.22.3.207
 blade8			IN	A	172.22.3.208
 blade9			IN	A	172.22.3.209
 blade0			IN	A	172.22.3.210
-rautavaara-drac		IN	A	172.22.3.11
 switch-1		IN	A	172.22.4.20 ; different network
 switch-2		IN	A	172.22.3.21
 $ORIGIN grnet.debian.org.
