@@ -117,6 +117,19 @@ $GENERATE 1-48 ${+100,0,d}.160	IN	PTR	console-$.priv.sil.debian.org.
 
 254.180			IN	PTR	mikro-manda01-mgmt.priv.man-da.debian.org.
 
+;;#######
+;; conova
+;;#######
+
+254.186			IN	PTR	conova-vpn-gw.
+111.186			IN	PTR	aagard-ipmi.priv.conova.debian.org.
+112.186			IN	PTR	acker-ipmi.priv.conova.debian.org.
+11.186			IN	PTR	aagard-mnt.priv.conova.debian.org.
+12.186			IN	PTR	acker-mnt.priv.conova.debian.org.
+
+11.184			IN	PTR	aagard-drbd.priv.conova.debian.org.
+12.184			IN	PTR	acker-drbd.priv.conova.debian.org.
+
 ;;##########
 ;; BYTEMARK
 ;;##########
