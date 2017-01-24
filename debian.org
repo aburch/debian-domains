@@ -394,7 +394,6 @@ franck-ilo		IN	A	128.148.32.22
 
 $ORIGIN debprivate-darmstadt.debian.org.
 gw-manda-ilo		IN	A	192.168.43.139
-epdu02			IN	A	192.168.43.161
 
 $ORIGIN rev.debian.org.
 ; csail
