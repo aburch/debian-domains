@@ -393,14 +393,8 @@ mirror-anu4		IN	A	150.203.164.62
 franck-ilo		IN	A	128.148.32.22
 
 $ORIGIN debprivate-darmstadt.debian.org.
-listera-ilo		IN	A	192.168.43.131
-czerny-ilo		IN	A	192.168.43.137
-clementi-ilo		IN	A	192.168.43.138
 gw-manda-ilo		IN	A	192.168.43.139
-epdu01			IN	A	192.168.43.160
 epdu02			IN	A	192.168.43.161
-eups01			IN	A	192.168.43.162
-eups02			IN	A	192.168.43.163
 
 $ORIGIN rev.debian.org.
 ; csail
