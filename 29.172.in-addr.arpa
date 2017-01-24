@@ -116,6 +116,13 @@ $GENERATE 1-48 ${+100,0,d}.160	IN	PTR	console-$.priv.sil.debian.org.
 ;;#######
 
 10.180			IN	PTR	switch02.priv.manda.debian.org.
+20.180			IN	PTR	epdu01.priv.manda.debian.org.
+21.180			IN	PTR	epdu02.priv.manda.debian.org.
+22.180			IN	PTR	eups01.priv.manda.debian.org.
+23.180			IN	PTR	eups02.priv.manda.debian.org.
+40.180			IN	PTR	listera-ilo.priv.manda.debian.org.
+41.180			IN	PTR	czerny-ilo.priv.manda.debian.org.
+42.180			IN	PTR	clementi-ilo.priv.manda.debian.org.
 254.180			IN	PTR	mikrotik-mgmt.priv.manda.debian.org.
 
 ;;#######
