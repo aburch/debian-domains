@@ -853,7 +853,7 @@ nut1					IN	CNAME	clementi.debian.org.
 nut2					IN	CNAME	czerny.debian.org.
 
 $ORIGIN priv.manda.debian.org.
-gw-mgmt					IN	A	172.29.180.254
+gw-oob					IN	A	172.29.180.254
 switch02				IN	A	172.29.180.10
 					IN	SSHFP	1 2 ad3f0ea38a54b3d8c59d770667cc67cdfb2833bb42ea7f2e54bd6dd21070c4f8
 epdu01					IN	A	172.29.180.20
