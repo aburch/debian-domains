@@ -869,6 +869,8 @@ listera-ilo				IN	A	172.29.180.40
 czerny-ilo				IN	A	172.29.180.41
 clementi-ilo				IN	A	172.29.180.42
 
+$GENERATE 230-249 dhcp-$		IN	A	172.29.180.$
+
 $ORIGIN priv.osuosl.debian.org.
 passos-fsp		IN	A	10.0.0.119
 pieta-fsp		IN	A	10.0.0.167
