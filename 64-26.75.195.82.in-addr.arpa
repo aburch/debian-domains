@@ -67,7 +67,7 @@ $TTL 8h
 118	IN	PTR	dvalin.ayous.org.
 ; 119
 ; 120
-; 121
+121	IN	PTR	temporary-mikrotik-manda-test.
 122	IN	PTR	urd.ayous.org.
 ; 123 DO NOT USE - urd-ssh
 124	IN	PTR	vlan26.gw01-manda.debian.org.
