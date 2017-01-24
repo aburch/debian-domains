@@ -393,8 +393,6 @@ mirror-anu4		IN	A	150.203.164.62
 franck-ilo		IN	A	128.148.32.22
 
 $ORIGIN debprivate-darmstadt.debian.org.
-sw02-net-da		IN	A	192.168.43.45
-			IN	SSHFP	1 2 ad3f0ea38a54b3d8c59d770667cc67cdfb2833bb42ea7f2e54bd6dd21070c4f8
 listera-ilo		IN	A	192.168.43.131
 czerny-ilo		IN	A	192.168.43.137
 clementi-ilo		IN	A	192.168.43.138
@@ -861,6 +859,8 @@ nut2					IN	CNAME	czerny.debian.org.
 
 $ORIGIN priv.manda.debian.org.
 mikrotik-mgmt				IN	A	172.29.180.254
+switch02				IN	A	172.29.180.10
+					IN	SSHFP	1 2 ad3f0ea38a54b3d8c59d770667cc67cdfb2833bb42ea7f2e54bd6dd21070c4f8
 
 $ORIGIN priv.osuosl.debian.org.
 passos-fsp		IN	A	10.0.0.119

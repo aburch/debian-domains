@@ -115,6 +115,7 @@ $GENERATE 1-48 ${+100,0,d}.160	IN	PTR	console-$.priv.sil.debian.org.
 ;; man-da
 ;;#######
 
+10.180			IN	PTR	switch02.priv.manda.debian.org.
 254.180			IN	PTR	mikrotik-mgmt.priv.manda.debian.org.
 
 ;;#######
