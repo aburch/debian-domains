@@ -846,14 +846,17 @@ casulana-ilo.priv			IN	A	212.110.162.99
 $ORIGIN manda.debian.org.
 gw-ext					IN	A	82.195.78.118
 					IN	AAAA	2001:41b8:ff:9::10
+					IN	SSHFP	1 2 1fe474f59e00fed7b96b0ee5d12a8c4b292abf68e12255c74be6c1ac852a3574
 gw-int					IN	A	82.195.75.126
 					IN	AAAA	2001:41b8:202:deb::1
+					IN	SSHFP	1 2 1fe474f59e00fed7b96b0ee5d12a8c4b292abf68e12255c74be6c1ac852a3574
 mikrotik				IN	CNAME	gw-ext
 nut1					IN	CNAME	clementi.debian.org.
 nut2					IN	CNAME	czerny.debian.org.
 
 $ORIGIN priv.manda.debian.org.
 gw-oob					IN	A	172.29.180.254
+					IN	SSHFP	1 2 1fe474f59e00fed7b96b0ee5d12a8c4b292abf68e12255c74be6c1ac852a3574
 switch02				IN	A	172.29.180.10
 					IN	SSHFP	1 2 ad3f0ea38a54b3d8c59d770667cc67cdfb2833bb42ea7f2e54bd6dd21070c4f8
 epdu01					IN	A	172.29.180.20
