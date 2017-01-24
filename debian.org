@@ -915,8 +915,13 @@ casulana-ilo.priv			IN	A	212.110.162.99
 $ORIGIN manda.debian.org.
 mikrotik				IN	A	82.195.78.118
 					IN	AAAA	2001:41b8:ff:9::10
+mikrotik-int				IN	A	82.195.75.126
+					IN	AAAA	2001:41b8:202:deb::1
 nut1					IN	CNAME	clementi.debian.org.
 nut2					IN	CNAME	czerny.debian.org.
+
+$ORIGIN priv.manda.debian.org.
+mikrotik-mgmt				IN	A	172.29.180.254
 
 $ORIGIN priv.osuosl.debian.org.
 passos-fsp		IN	A	10.0.0.119
