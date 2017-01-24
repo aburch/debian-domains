@@ -115,7 +115,7 @@ $GENERATE 1-48 ${+100,0,d}.160	IN	PTR	console-$.priv.sil.debian.org.
 ;; man-da
 ;;#######
 
-254.180			IN	PTR	mikro-manda01-mgmt.priv.man-da.debian.org.
+254.180			IN	PTR	mikrotik-mgmt.priv.manda.debian.org.
 
 ;;#######
 ;; conova
