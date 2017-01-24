@@ -913,6 +913,7 @@ mekeel-backend.priv			IN	A	172.29.122.40
 casulana-ilo.priv			IN	A	212.110.162.99
 
 $ORIGIN manda.debian.org.
+mikrotik			60	IN	A	82.195.78.116
 nut1					IN	CNAME	clementi.debian.org.
 nut2					IN	CNAME	czerny.debian.org.
 
