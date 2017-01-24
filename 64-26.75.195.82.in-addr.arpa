@@ -72,7 +72,7 @@ $TTL 8h
 ; 123 DO NOT USE - urd-ssh
 ; 124 reserved for future VRRP
 ; 125 reserved for future VRRP
-126	IN	PTR	mikrotik-int.manda.debian.org.
+126	IN	PTR	gw-int.manda.debian.org.
 ; 127
 
 ; vim: syn=dns:

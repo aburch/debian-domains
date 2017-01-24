@@ -123,7 +123,7 @@ $GENERATE 1-48 ${+100,0,d}.160	IN	PTR	console-$.priv.sil.debian.org.
 40.180			IN	PTR	listera-ilo.priv.manda.debian.org.
 41.180			IN	PTR	czerny-ilo.priv.manda.debian.org.
 42.180			IN	PTR	clementi-ilo.priv.manda.debian.org.
-254.180			IN	PTR	mikrotik-mgmt.priv.manda.debian.org.
+254.180			IN	PTR	gw-mgmt.priv.manda.debian.org.
 $GENERATE 230-249 $.180	IN	PTR	dhcp-$i.priv.manda.debian.org.
 
 ;;#######
