@@ -38,8 +38,8 @@
 ; 175		grnet drbd
 ; 176		csail oob
 ; 178		csail drbd
-; 180		man-da oob (new)
-; 182		reserved for new man-da drbd (2016-04)
+; 180		manda oob (new)
+; 182		reserved for new manda drbd (2016-04)
 ; 184		conova drbd
 ; 186		reserved for eventual conova VPN
 ; 201		VPN manda
@@ -111,9 +111,9 @@ $GENERATE 1-48 ${+100,0,d}.160	IN	PTR	console-$.priv.sil.debian.org.
 31.178			IN	PTR	csail-node01-drbd.priv.csail.debian.org.
 32.178			IN	PTR	csail-node02-drbd.priv.csail.debian.org.
 
-;;#######
-;; man-da
-;;#######
+;;######
+;; manda
+;;######
 
 10.180			IN	PTR	switch02.priv.manda.debian.org.
 20.180			IN	PTR	epdu01.priv.manda.debian.org.
