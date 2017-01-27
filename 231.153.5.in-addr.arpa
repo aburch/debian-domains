@@ -52,7 +52,7 @@ $TTL 8h
 34	IN	PTR	gideon.debian.org.
 35	IN	PTR	httpredir-bm-01.debian.org.
 36	IN	PTR	lindsay.debian.org.
-;37
+37	IN	PTR	bilbao.debian.org.
 38	IN	PTR	sor.debian.org.
 39	IN	PTR	jerea.debian.org.
 40	IN	PTR	mekeel.debian.org.
