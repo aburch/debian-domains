@@ -160,7 +160,8 @@ lists			IN	A	82.195.75.100	; bendel
 			IN	TXT	google-site-verification=qmr9wDHZI7J8N5E44Ic9yahfsWEK3NLGFs91aXMcJNc
 lists-test		IN	MX	0 bendel.debian.org.
 manpages		IN	CNAME	static
-dyn.manpages	300	IN	A	5.153.231.44
+dyn.manpages		IN	MX	0 .
+			; A/AAAA records via services-auto
 master.upload		IN	CNAME	usper
 micronews		IN	CNAME	static
 mirror			IN	CNAME	glinka
