@@ -70,7 +70,9 @@ $GENERATE 1-48 ${+100,0,d}.160	IN	PTR	console-$.priv.sil.debian.org.
 ;;#####
 11.152			IN	PTR	pettersson-mnt.priv.accumu.debian.org.
 12.152			IN	PTR	praetorius-mnt.priv.accumu.debian.org.
-13.152			IN	PTR	NEWBOX-mnt.priv.accumu.debian.org.
+13.152			IN	PTR	boman-mnt.priv.accumu.debian.org.
+
+133.152			IN	PTR	boman-ilo.priv.accumu.debian.org.
 
 ;;#####
 ;; dgi
