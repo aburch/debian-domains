@@ -31,6 +31,7 @@
 ; 124		bytemark reserved
 ; 127		bytemark reserved
 ; 150		1&1 ganeti
+; 152		accumu mgmt
 ; 160		sil mnt vlan
 ; 170		dgi nfs net (between storace and storace-qnap)
 ; 172		aql oob
@@ -63,6 +64,13 @@ $TTL 8h
 100.160			IN	PTR	console.priv.sil.debian.org.
 240.160			IN	PTR	anguilla-mnt.priv.sil.debian.org.
 $GENERATE 1-48 ${+100,0,d}.160	IN	PTR	console-$.priv.sil.debian.org.
+
+;;#####
+;; accumu
+;;#####
+1.152			IN	PTR	pettersson-mnt.priv.accumu.debian.org.
+2.152			IN	PTR	praetorius-mnt.priv.accumu.debian.org.
+3.152			IN	PTR	NEWBOX-mnt.priv.accumu.debian.org.
 
 ;;#####
 ;; dgi

@@ -793,6 +793,11 @@ pdu-console		IN	CNAME	console-26
 anguilla-mnt		IN	A	172.29.160.240
 nova-console		IN	CNAME	console-25
 
+$ORIGIN priv.accumu.debian.org.
+pettersson-mnt		IN	A	172.29.152.1
+praetorius-mnt		IN	A	172.29.152.2
+NEWBOX-mnt		IN	A	172.29.152.3
+
 $ORIGIN debprivate-accumu.debian.org.
 praetorius-mnt		IN	A	172.21.101.1
 pettersson-ilo		IN	A	172.21.101.10
