@@ -12,6 +12,5 @@ $TTL 8h
 @		IN	NS	sec1.rcode0.net.
 @		IN	NS	sec2.rcode0.net.
 
-$TTL 8h
 
 ; vim:syn=dns
