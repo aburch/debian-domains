@@ -1,0 +1,16 @@
+; 193.31.7.in-addr.arpa
+; reverse for 193.31.7/24 - anycast
+;
+; ds-in-parent = yes
+
+$TTL 8h
+
+;@		IN	NS	dns1.easydns.com.
+;@		IN	NS	dns2.easydns.net.
+;@		IN	NS	dns3.easydns.org.
+;@		IN	NS	dns4.easydns.info.
+@		IN	NS	sec1.rcode0.net.
+@		IN	NS	sec2.rcode0.net.
+
+
+; vim:syn=dns
