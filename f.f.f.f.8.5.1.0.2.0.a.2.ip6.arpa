@@ -12,5 +12,8 @@ $TTL 8h
 @		IN	NS	sec1.rcode0.net.
 @		IN	NS	sec2.rcode0.net.
 
+$TTL 1h
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.b.e.d.0		IN	PTR	h1.anycast-test.mirrors.debian.org.
 
 ; vim:syn=dns

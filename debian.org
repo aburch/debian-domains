@@ -899,6 +899,10 @@ storace-ilo.debian.org.		IN	A	93.94.130.163
 gw-leaseweb-ipv6.debian.org.	IN	AAAA	2001:1af8:4020:b030::1 ; is this what we want?
 
 
+$ORIGIN anycast-test.mirrors.debian.org.
+h1			IN	A	193.31.7.1
+			IN	AAAA	2a02:158:ffff:deb::1
+
 ; countries
 ;==========
 
