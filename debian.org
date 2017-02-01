@@ -68,7 +68,6 @@ bugs-master		IN	A	209.87.16.39			; buxtehude
 bugs-beach		IN	CNAME	beach
 bugs-buxtehude		IN	CNAME	buxtehude
 bugs-mirror		IN	CNAME	beach	; rsync service, not web
-bugs-search		IN	CNAME	glinka
 buildd			IN	A	5.153.231.18 ; wuiet
 			IN	AAAA	2001:41c8:1000:21::21:18 ; wuiet
 			IN	MX	10 wuiet.debian.org.
