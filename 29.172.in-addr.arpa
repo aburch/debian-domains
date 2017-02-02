@@ -42,7 +42,7 @@
 ; 180		manda oob (new)
 ; 182		reserved for new manda drbd (2016-04)
 ; 184		conova drbd
-; 186		reserved for eventual conova VPN
+; 186		conova mgmt
 ; 201		VPN manda
 ; 202		VPN sil
 ; 203/24	VPN ubc
@@ -140,9 +140,10 @@ $GENERATE 230-249 $.180	IN	PTR	dhcp-$i.priv.manda.debian.org.
 ;; conova
 ;;#######
 
-254.186			IN	PTR	conova-vpn-gw.
+254.186			IN	PTR	vpn-gw.priv.conova.debian.org.
 111.186			IN	PTR	aagard-ipmi.priv.conova.debian.org.
 112.186			IN	PTR	acker-ipmi.priv.conova.debian.org.
+
 11.186			IN	PTR	aagard-mnt.priv.conova.debian.org.
 12.186			IN	PTR	acker-mnt.priv.conova.debian.org.
 

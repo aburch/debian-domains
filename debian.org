@@ -472,10 +472,10 @@ sompek-alom		IN	A	10.231.232.1
 stadler-alom		IN	A	10.231.232.2
 			IN	SSHFP 1 1 15b89ca4601f94ec14bc1c77b814509c33268526
 			IN	SSHFP 1 2 59bcc3ca738e967a5bbbd6e1c94201a6ead3e4cee3db7af12f70b8e7b60df3af
-aagard-ipmi		IN	A	10.231.232.3
-;aagard-ipmi		IN	A	172.29.186.111
-acker-ipmi		IN	A	10.231.232.4
-;acker-ipmi		IN	A	172.29.186.112
+
+vpn-gw			IN	A	172.29.186.254
+aagard-ipmi		IN	A	172.29.186.111
+acker-ipmi		IN	A	172.29.186.112
 aagard-mnt		IN	A	172.29.186.11
 acker-mnt		IN	A	172.29.186.12
 
