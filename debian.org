@@ -440,12 +440,9 @@ $ORIGIN rev.debian.org.
 ; 229
 230.149.196.217		IN	PTR	arm-conova-01.debian.org.
 231.149.196.217		IN	PTR	arm-conova-02.debian.org.
-
-;...
-;238.149.196.217
-
-; ...
-; 223 .. broadcast
+; ..
+238.149.196.217		IN	PTR	NEWCONOVAMIRRORBOX.debian.org.
+; 239 .. broadcast
 
 $ORIGIN priv.aql.debian.org.
 switch			IN	A	172.29.172.2
@@ -476,8 +473,10 @@ stadler-alom		IN	A	10.231.232.2
 vpn-gw			IN	A	172.29.186.254
 aagard-ipmi		IN	A	172.29.186.111
 acker-ipmi		IN	A	172.29.186.112
+NEWCONOVAMIRRORBOX-ilo	IN	A	172.29.186.113
 aagard-mnt		IN	A	172.29.186.11
 acker-mnt		IN	A	172.29.186.12
+NEWCONOVAMIRRORBOX-mnt	IN	A	172.29.186.13
 
 aagard-drbd		IN	A	172.29.184.11
 acker-drbd		IN	A	172.29.184.12
