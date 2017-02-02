@@ -140,17 +140,16 @@ $GENERATE 230-249 $.180	IN	PTR	dhcp-$i.priv.manda.debian.org.
 ;; conova
 ;;#######
 
-254.186			IN	PTR	vpn-gw.priv.conova.debian.org.
-111.186			IN	PTR	aagard-ipmi.priv.conova.debian.org.
-112.186			IN	PTR	acker-ipmi.priv.conova.debian.org.
-113.186			IN	PTR	NEWCONOVAMIRRORBOX-ilo.priv.conova.debian.org.
+11.184			IN	PTR	aagard-drbd.priv.conova.debian.org.
+12.184			IN	PTR	acker-drbd.priv.conova.debian.org.
 
 11.186			IN	PTR	aagard-mnt.priv.conova.debian.org.
 12.186			IN	PTR	acker-mnt.priv.conova.debian.org.
 13.186			IN	PTR	NEWCONOVAMIRRORBOX-mnt.priv.conova.debian.org.
-
-11.184			IN	PTR	aagard-drbd.priv.conova.debian.org.
-12.184			IN	PTR	acker-drbd.priv.conova.debian.org.
+111.186			IN	PTR	aagard-ipmi.priv.conova.debian.org.
+112.186			IN	PTR	acker-ipmi.priv.conova.debian.org.
+113.186			IN	PTR	NEWCONOVAMIRRORBOX-ilo.priv.conova.debian.org.
+254.186			IN	PTR	vpn-gw.priv.conova.debian.org.
 
 ;;##########
 ;; BYTEMARK
