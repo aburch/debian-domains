@@ -458,9 +458,13 @@ console			IN	A	141.170.6.148 ; XXX - fixme
 
 mips-aql-01-int		IN	A	172.29.172.31
 mips-aql-02-int		IN	A	172.29.172.32
-mips-aql-03-int		IN	A	172.29.172.33
+minkus-int		IN	A	172.29.172.33
 mips-aql-04-int		IN	A	172.29.172.34
 mips-aql-05-int		IN	A	172.29.172.35
+mips-aql-06-int		IN	A	172.29.172.36
+mipsel-aql-01-int	IN	A	172.29.172.37
+mipsel-aql-02-int	IN	A	172.29.172.38
+mipsel-aql-03-int	IN	A	172.29.172.39
 
 $ORIGIN priv.conova.debian.org.
 sompek-alom		IN	A	10.231.232.1

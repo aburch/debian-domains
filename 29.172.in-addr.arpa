@@ -90,9 +90,13 @@ $GENERATE 1-48 ${+100,0,d}.160	IN	PTR	console-$.priv.sil.debian.org.
 
 31.172			IN	PTR	mips-aql-01-int.priv.aql.debian.org.
 32.172			IN	PTR	mips-aql-02-int.priv.aql.debian.org.
-33.172			IN	PTR	mips-aql-03-int.priv.aql.debian.org.
+33.172			IN	PTR	minkus-int.priv.aql.debian.org.
 34.172			IN	PTR	mips-aql-04-int.priv.aql.debian.org.
 35.172			IN	PTR	mips-aql-05-int.priv.aql.debian.org.
+36.172			IN	PTR	mips-aql-06-int.priv.aql.debian.org.
+37.172			IN	PTR	mipsel-aql-01-int.priv.aql.debian.org.
+38.172			IN	PTR	mipsel-aql-02-int.priv.aql.debian.org.
+39.172			IN	PTR	mipsel-aql-03-int.priv.aql.debian.org.
 
 
 ;;#####
