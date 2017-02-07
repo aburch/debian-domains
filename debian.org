@@ -905,6 +905,10 @@ $ORIGIN anycast-test.mirrors.debian.org.
 h1			IN	A	193.31.7.1
 			IN	AAAA	2a02:158:ffff:deb::1
 
+$ORIGIN testing-anycast.mirrors.debian.org.
+debian			IN	A	193.31.7.1
+			IN	AAAA	2a02:158:ffff:deb::1
+
 ; countries
 ;==========
 
