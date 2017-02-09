@@ -437,11 +437,10 @@ $ORIGIN rev.debian.org.
 226.149.196.217		IN	PTR	stadler.debian.net.
 227.149.196.217		IN	PTR	aagaard.debian.org.
 228.149.196.217		IN	PTR	acker.debian.org.
-; 229
+229.149.196.217		IN	PTR	mirror-conova.debian.org.
 230.149.196.217		IN	PTR	arm-conova-01.debian.org.
 231.149.196.217		IN	PTR	arm-conova-02.debian.org.
 ; ..
-238.149.196.217		IN	PTR	NEWCONOVAMIRRORBOX.debian.org.
 ; 239 .. broadcast
 
 $ORIGIN priv.aql.debian.org.
