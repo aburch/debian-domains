@@ -15,7 +15,7 @@ f.f.f.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	stadler.debian.net.
 
 7.2.2.0.b.e.d.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	aagaard.debian.org.
 8.2.2.0.b.e.d.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	acker.debian.org.
-
+9.2.2.0.b.e.d.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	mirror-conova.debian.org.
 0.3.2.0.b.e.d.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	arm-conova-01.debian.org.
 1.3.2.0.b.e.d.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	arm-conova-02.debian.org.
 
