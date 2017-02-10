@@ -141,7 +141,14 @@ hg			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
 			IN	MX	0 .
 httpredir		IN	MX	0 .
-			; A/AAAA records via services-auto
+			IN	A	5.153.231.4
+			IN	A	128.31.0.62
+			IN	A	130.89.148.14
+			IN	A	140.211.15.34
+			IN	A	149.20.4.15
+			IN	AAAA	2001:4f8:1:c::15
+			IN	AAAA	2001:41c8:1000:21::21:4
+			IN	AAAA	2001:610:1908:b000::148:14
 i18n			IN	A	209.87.16.37	; tye
 			IN	AAAA	2607:f8f0:614:1::1274:37	; tye
 			IN	MX	0 tye
