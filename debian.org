@@ -163,7 +163,7 @@ dyn.manpages		IN	MX	0 .
 master.upload		IN	CNAME	usper
 micronews		IN	CNAME	static
 mirror			IN	CNAME	glinka
-mirror-master		IN	CNAME	glinka
+mirror-master		IN	CNAME	static
 debug.mirrors		IN	MX	0 .
 			; A/AAAA records via services-auto
 mailout			IN	A	82.195.75.114	; mailly
