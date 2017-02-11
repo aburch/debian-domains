@@ -428,6 +428,7 @@ $ORIGIN rev.debian.org.
 199.166.211.140		IN	PTR	ganeti-osuosl.debian.org.
 200.166.211.140		IN	PTR	byrd.debian.org.
 201.166.211.140		IN	PTR	beach.debian.org.
+202.166.211.140		IN	PTR	busoni.debian.org.
 ;...
 ;222.166.211.140
 ;=============
