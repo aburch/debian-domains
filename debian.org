@@ -1089,7 +1089,6 @@ ftp	300	IN	A	128.30.2.26		; debian.csail.mit.edu
 ftp4		IN	A	128.30.2.26		; debian.csail.mit.edu
 ;ftp	300	IN	A	149.20.20.135		; mirrors1.kernel.org
 ;ftp	300	IN	A	204.152.191.39		; mirrors2.kernel.org  # not responding
-; ftp5	300	IN	A	64.50.233.100		; ftp-nyc.osuosl.org
 ftp5		IN	CNAME	ftp
 ftp	300	IN	A	128.61.240.89		; debian.gtisc.gatech.edu (edmonds@debian.org)
 ftp6		IN	A	128.61.240.89		; debian.gtisc.gatech.edu (edmonds@debian.org)
