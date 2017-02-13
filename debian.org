@@ -280,6 +280,7 @@ syncproxy3.eu		IN	A	5.153.231.9		; milanollo
 			IN	AAAA	2001:41c8:1000:21::21:9	; milanollo
 syncproxy.cna		IN	CNAME	mirror-umn3
 ; syncproxy2.wna is down in the hosts block
+syncproxy3.wna		IN	CNAME	gretchaninov.debian.org.
 syncproxy.na		IN	A	128.31.0.64	; mirror-csail
 ubcece			IN	A	206.12.19.22	; VIP for ganeti
 ganeti2			IN	A	206.12.19.23	; ubc-bl7/ubc-bl3/ubc-bl2/ubc-bl6 ganeti vip
