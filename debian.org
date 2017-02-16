@@ -994,7 +994,8 @@ ftp		IN	A	130.230.54.99
 
 $ORIGIN fr.debian.org.
 ftp		IN	CNAME	debian.proxad.net.
-ftp2		IN	CNAME	ftp.oleane.net.
+;ftp2		IN	CNAME	ftp.oleane.net.
+ftp2		IN	CNAME	debian.proxad.net.
 www		IN	CNAME	www.debian.org.
 $ORIGIN gr.debian.org.
 ftp		IN	CNAME	patroklos.noc.ntua.gr.
