@@ -164,8 +164,6 @@ master.upload		IN	CNAME	usper
 micronews		IN	CNAME	static
 mirror			IN	CNAME	glinka
 mirror-master		IN	CNAME	static
-debug.mirrors		IN	MX	0 .
-			; A/AAAA records via services-auto
 mailout			IN	A	82.195.75.114	; mailly
 			IN	A	209.87.16.33	; muffat
 			IN	AAAA	2001:41b8:202:deb:6564:a62:52c3:4b72	; mailly
@@ -910,13 +908,16 @@ storace-ilo.debian.org.		IN	A	93.94.130.163
 gw-leaseweb-ipv6.debian.org.	IN	AAAA	2001:1af8:4020:b030::1 ; is this what we want?
 
 
-$ORIGIN anycast-test.mirrors.debian.org.
-h1			IN	A	193.31.7.1
-			IN	AAAA	2a02:158:ffff:deb::1
+$ORIGIN mirrors.debian.org.
+debug				IN	MX	0 .
+				; A/AAAA records via services-auto
 
-$ORIGIN testing-anycast.mirrors.debian.org.
-debian			IN	A	193.31.7.1
-			IN	AAAA	2a02:158:ffff:deb::1
+; host address
+h1.anycast-test			IN	A	193.31.7.1
+				IN	AAAA	2a02:158:ffff:deb::1
+; service address
+debian.testing-anycast		IN	A	193.31.7.1
+				IN	AAAA	2a02:158:ffff:deb::1
 
 ; countries
 ;==========
