@@ -187,7 +187,7 @@ $GENERATE 1-14 $.120	IN	PTR	bm-bl$-backend.priv.bm.debian.org.
 29.122			IN	PTR	respighi-backend.priv.bm.debian.org.
 33.122			IN	PTR	tate-backend.priv.bm.debian.org.
 36.122			IN	PTR	lindsay-backend.priv.bm.debian.org.
-37.122			IN	PTR	bilbao-backend.priv.bm.debian.org.
+37.122			IN	PTR	mirror-bytemark-backend.priv.bm.debian.org.
 40.122			IN	PTR	mekeel-backend.priv.bm.debian.org.
 
 ;;#####

@@ -52,7 +52,7 @@ $TTL 8h
 34	IN	PTR	gideon.debian.org.
 35	IN	PTR	httpredir-bm-01.debian.org.
 36	IN	PTR	lindsay.debian.org.
-37	IN	PTR	bilbao.debian.org.
+37	IN	PTR	mirror-bytemark.debian.org.
 38	IN	PTR	sor.debian.org.
 39	IN	PTR	jerea.debian.org.
 40	IN	PTR	mekeel.debian.org.
@@ -60,6 +60,8 @@ $TTL 8h
 42	IN	PTR	pinel.debian.org.
 43	IN	PTR	rusca.debian.org.
 44	IN	PTR	manziarly.debian.org.
+45	IN	PTR	mirror-bytemark-debian.debian.org.
+46	IN	PTR	mirror-bytemark-security.debian.org.
 
 
 125	IN	PTR	vm-gw-bl1.bm.debian.org.
