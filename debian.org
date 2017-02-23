@@ -349,55 +349,55 @@ mirror-ubc	300	IN	CNAME	gretchaninov
 
 ; hosts
 ;======
-klecker-ftp		IN	A	130.89.148.12			; klecker
-			IN	AAAA	2001:610:1908:b000::148:12	; klecker
-			IN	MX	0 .
-klecker-archive		IN	A	130.89.148.13			; klecker
-			IN	AAAA	2001:610:1908:b000::148:13	; klecker
-			IN	MX	0 .
-klecker-misc		IN	A	130.89.148.14			; klecker
-			IN	AAAA	2001:610:1908:b000::148:14	; klecker
-lw07-2			IN	A	185.17.185.185
-			IN	AAAA	2001:1af8:4020:b030:deb::185
-paradis2		IN	A	5.153.231.31
-			IN	AAAA	2001:41c8:1000:21::21:31
-			IN	SSHFP	1 1 16655B389AE7A4F6DC96C663C408096727BF8A73
-sibelius2		IN	A	193.62.202.30
-			IN	AAAA	2001:630:206:4000:1a1a:0:c13e:ca1e
+klecker-ftp			IN	A	130.89.148.12			; klecker
+				IN	AAAA	2001:610:1908:b000::148:12	; klecker
+				IN	MX	0 .
+klecker-archive			IN	A	130.89.148.13			; klecker
+				IN	AAAA	2001:610:1908:b000::148:13	; klecker
+				IN	MX	0 .
+klecker-misc			IN	A	130.89.148.14			; klecker
+				IN	AAAA	2001:610:1908:b000::148:14	; klecker
+lw07-2				IN	A	185.17.185.185
+				IN	AAAA	2001:1af8:4020:b030:deb::185
+paradis2			IN	A	5.153.231.31
+				IN	AAAA	2001:41c8:1000:21::21:31
+				IN	SSHFP	1 1 16655B389AE7A4F6DC96C663C408096727BF8A73
+sibelius2			IN	A	193.62.202.30
+				IN	AAAA	2001:630:206:4000:1a1a:0:c13e:ca1e
 
-mirror-conova-debian	IN	A	217.196.149.232
-			IN	AAAA	2a02:16a8:dc41:100::232
-mirror-conova-security	IN	A	217.196.149.233
-			IN	AAAA	2a02:16a8:dc41:100::233
+mirror-conova-debian		IN	A	217.196.149.232
+				IN	AAAA	2a02:16a8:dc41:100::232
+mirror-conova-security		IN	A	217.196.149.233
+				IN	AAAA	2a02:16a8:dc41:100::233
 
-mirror-csail-security	IN	A	128.31.0.63
+mirror-csail-security		IN	A	128.31.0.63
 
 ; security mirror
-mirror-isc-ilo		IN	A	149.20.4.12
-mirror-isc2		IN	AAAA	2001:4f8:1:c::14 ; mirror-isc:
-			IN	A	149.20.4.14
+mirror-isc-ilo			IN	A	149.20.4.12
+mirror-isc2			IN	AAAA	2001:4f8:1:c::14 ; mirror-isc:
+				IN	A	149.20.4.14
 ; other mirror, like static and www
-mirror-isc3		IN	AAAA	2001:4f8:1:c::15 ; mirror-isc:
-			IN	A	149.20.4.15
-syncproxy2.wna		IN	AAAA	2001:4f8:1:c::16 ; mirror-isc:
-			IN	A	149.20.4.16
+mirror-isc3			IN	AAAA	2001:4f8:1:c::15 ; mirror-isc:
+				IN	A	149.20.4.15
+syncproxy2.wna			IN	AAAA	2001:4f8:1:c::16 ; mirror-isc:
+				IN	A	149.20.4.16
 
-mirror-umn2		IN	A	128.101.240.215
-			IN	AAAA	2607:ea00:101:3c0b::1deb:215
-mirror-umn3		IN	A	128.101.240.216 ; syncproxy.cna
-			IN	AAAA	2607:ea00:101:3c0b::1deb:216
-mirror-umn4		IN	A	128.101.240.217
-			IN	AAAA	2607:ea00:101:3c0b::1deb:217
+mirror-umn2			IN	A	128.101.240.215
+				IN	AAAA	2607:ea00:101:3c0b::1deb:215
+mirror-umn3			IN	A	128.101.240.216 ; syncproxy.cna
+				IN	AAAA	2607:ea00:101:3c0b::1deb:216
+mirror-umn4			IN	A	128.101.240.217
+				IN	AAAA	2607:ea00:101:3c0b::1deb:217
 
-mirror-anu2		IN	A	150.203.164.60
-			IN	AAAA	2001:388:1034:2900::3c
-mirror-anu3		IN	A	150.203.164.61
-			IN	AAAA	2001:388:1034:2900::3d
-mirror-anu4		IN	A	150.203.164.62
-			IN	AAAA	2001:388:1034:2900::3e
+mirror-anu2			IN	A	150.203.164.60
+				IN	AAAA	2001:388:1034:2900::3c
+mirror-anu3			IN	A	150.203.164.61
+				IN	AAAA	2001:388:1034:2900::3d
+mirror-anu4			IN	A	150.203.164.62
+				IN	AAAA	2001:388:1034:2900::3e
 
 ; brown
-franck-ilo		IN	A	128.148.32.22
+franck-ilo			IN	A	128.148.32.22
 
 $ORIGIN debprivate-darmstadt.debian.org.
 gw-manda-ilo		IN	A	192.168.43.139
