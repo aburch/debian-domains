@@ -911,6 +911,9 @@ gw-leaseweb-ipv6.debian.org.	IN	AAAA	2001:1af8:4020:b030::1 ; is this what we wa
 $ORIGIN mirrors.debian.org.
 debug				IN	MX	0 .
 				; A/AAAA records via services-auto
+conova.debian.backend		IN	CNAME	mirror-conova-debian.debian.org.
+conova.debug.backend		IN	CNAME	mirror-conova-debian.debian.org.
+conova.security.backend		IN	CNAME	mirror-conova-security.debian.org.
 
 ; host address
 h1.anycast-test			IN	A	193.31.7.1
