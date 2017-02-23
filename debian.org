@@ -365,6 +365,12 @@ paradis2		IN	A	5.153.231.31
 			IN	SSHFP	1 1 16655B389AE7A4F6DC96C663C408096727BF8A73
 sibelius2		IN	A	193.62.202.30
 			IN	AAAA	2001:630:206:4000:1a1a:0:c13e:ca1e
+
+mirror-conova-debian	IN	A	217.196.149.232
+			IN	AAAA	2a02:16a8:dc41:100::232
+mirror-conova-security	IN	A	217.196.149.233
+			IN	AAAA	2a02:16a8:dc41:100::233
+
 mirror-csail-security	IN	A	128.31.0.63
 
 ; security mirror
