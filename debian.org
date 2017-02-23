@@ -923,8 +923,10 @@ klecker.debug.backend		IN	CNAME	klecker-misc.debian.org.
 h1.anycast-test			IN	A	193.31.7.1
 				IN	AAAA	2a02:158:ffff:deb::1
 ; service address
-debian.testing-anycast		IN	A	193.31.7.1
-				IN	AAAA	2a02:158:ffff:deb::1
+debian.anycast-test		IN	A	193.31.7.2
+				IN	AAAA	2a02:158:ffff:deb::2
+security.anycast-test		IN	A	193.31.7.3
+				IN	AAAA	2a02:158:ffff:deb::3
 
 ; countries
 ;==========
