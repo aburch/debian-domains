@@ -915,6 +915,9 @@ conova.debian.backend		IN	CNAME	mirror-conova-debian.debian.org.
 conova.debug.backend		IN	CNAME	mirror-conova-debian.debian.org.
 conova.security.backend		IN	CNAME	mirror-conova-security.debian.org.
 
+klecker.debian.backend		IN	CNAME	klecker-ftp.debian.org.
+klecker.debug.backend		IN	CNAME	klecker-misc.debian.org.
+
 ; host address
 h1.anycast-test			IN	A	193.31.7.1
 				IN	AAAA	2a02:158:ffff:deb::1
