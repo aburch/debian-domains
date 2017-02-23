@@ -15,5 +15,7 @@ $TTL 8h
 $TTL 1h
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.b.e.d.0		IN	PTR	h1.anycast-test.mirrors.debian.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.b.e.d.0		IN	PTR	debian.anycast-test.mirrors.debian.org.
+3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.b.e.d.0		IN	PTR	security.anycast-test.mirrors.debian.org.
 
 ; vim:syn=dns

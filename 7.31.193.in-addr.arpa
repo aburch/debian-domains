@@ -15,5 +15,7 @@ $TTL 8h
 $TTL 1h
 
 1		IN	PTR	h1.anycast-test.mirrors.debian.org.
+2		IN	PTR	debian.anycast-test.mirrors.debian.org.
+3		IN	PTR	security.anycast-test.mirrors.debian.org.
 
 ; vim:syn=dns
