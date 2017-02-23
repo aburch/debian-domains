@@ -363,12 +363,12 @@ lw07-2			IN	A	185.17.185.185
 paradis2		IN	A	5.153.231.31
 			IN	AAAA	2001:41c8:1000:21::21:31
 			IN	SSHFP	1 1 16655B389AE7A4F6DC96C663C408096727BF8A73
-mirror-isc-ilo		IN	A	149.20.4.12
 sibelius2		IN	A	193.62.202.30
 			IN	AAAA	2001:630:206:4000:1a1a:0:c13e:ca1e
 mirror-csail-security	IN	A	128.31.0.63
 
 ; security mirror
+mirror-isc-ilo		IN	A	149.20.4.12
 mirror-isc2		IN	AAAA	2001:4f8:1:c::14 ; mirror-isc:
 			IN	A	149.20.4.14
 ; other mirror, like static and www
