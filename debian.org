@@ -251,6 +251,7 @@ security-nagios		IN	MX	0 .
 			IN	A	200.17.202.197	; santoro
 			IN	A	133.242.99.74	; setoguchi
 			IN	A	150.203.164.61	; mirror-anu
+			IN	A	217.196.149.233	; mirror-conova-security
 			IN	A	149.20.4.14	; mirror-isc
 			IN	A	128.101.240.215	; mirror-umn
 ;security-team	60	IN	CNAME	8cb93cf9d8ec5e67cfccbf5aef63e40b.lswcdn.net.
