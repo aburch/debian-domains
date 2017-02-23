@@ -442,6 +442,9 @@ $ORIGIN rev.debian.org.
 229.149.196.217		IN	PTR	mirror-conova.debian.org.
 230.149.196.217		IN	PTR	arm-conova-01.debian.org.
 231.149.196.217		IN	PTR	arm-conova-02.debian.org.
+232.149.196.217		IN	PTR	mirror-conova-debian.debian.org.
+233.149.196.217		IN	PTR	mirror-conova-security.debian.org.
+234.149.196.217		IN	PTR	mirror-conova-debug.debian.org.
 ; ..
 ; 239 .. broadcast
 
