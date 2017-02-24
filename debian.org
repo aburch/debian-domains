@@ -280,8 +280,7 @@ syncproxy3.eu		IN	A	5.153.231.9		; milanollo
 			IN	AAAA	2001:41c8:1000:21::21:9	; milanollo
 syncproxy.cna		IN	CNAME	mirror-umn3
 ; syncproxy2.wna is down in the hosts block
-syncproxy3.wna		IN	A	209.87.16.40
-			IN	AAAA	2607:f8f0:614:1::1274:40
+; syncproxy[23].wna are down in the hosts block
 syncproxy.na		IN	A	128.31.0.64	; mirror-csail
 ubcece			IN	A	206.12.19.22	; VIP for ganeti
 ganeti2			IN	A	206.12.19.23	; ubc-bl7/ubc-bl3/ubc-bl2/ubc-bl6 ganeti vip
@@ -375,6 +374,8 @@ mirror-conova-debian		IN	A	217.196.149.232
 				IN	AAAA	2a02:16a8:dc41:100::232
 mirror-conova-security		IN	A	217.196.149.233
 				IN	AAAA	2a02:16a8:dc41:100::233
+mirror-conova-archive		IN	A	217.196.149.234
+				IN	AAAA	2a02:16a8:dc41:100::234
 
 mirror-csail-security		IN	A	128.31.0.63
 
@@ -387,6 +388,11 @@ mirror-isc3			IN	AAAA	2001:4f8:1:c::15 ; mirror-isc:
 				IN	A	149.20.4.15
 syncproxy2.wna			IN	AAAA	2001:4f8:1:c::16 ; mirror-isc:
 				IN	A	149.20.4.16
+; gretchaninov
+syncproxy3.wna			IN	A	209.87.16.40
+				IN	AAAA	2607:f8f0:614:1::1274:40
+gretchaninov-archive		IN	A	209.87.16.41
+				IN	AAAA	2607:f8f0:614:1::1274:41
 
 mirror-umn2			IN	A	128.101.240.215
 				IN	AAAA	2607:ea00:101:3c0b::1deb:215
