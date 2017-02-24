@@ -932,12 +932,17 @@ bytemark.security.backend	IN	CNAME	mirror-bytemark-security.debian.org.
 conova.debian.backend		IN	CNAME	mirror-conova-debian.debian.org.
 conova.debug.backend		IN	CNAME	mirror-conova-debian.debian.org.
 conova.security.backend		IN	CNAME	mirror-conova-security.debian.org.
+conova.archive.backend		IN	CNAME	mirror-conova-archive.debian.org.
 
 klecker.debian.backend		IN	CNAME	klecker-ftp.debian.org.
 klecker.debug.backend		IN	CNAME	klecker-misc.debian.org.
+klecker.archive.backend		IN	CNAME	klecker-archive.debian.org.
 
-; debian.backend.mirrors.debian.org A records via services-auto for
-; frontends that want a single backend hostname instead of a list of backends
+; address records for
+;   debian.backend.mirrors.debian.org
+;   archive.backend.mirrors.debian.org
+; used by frontends that want a single backend hostname instead of a list of backends
+; are included via services-auto
 
 ; host address
 h1.anycast-test			IN	A	193.31.7.1
