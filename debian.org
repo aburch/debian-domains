@@ -455,6 +455,7 @@ $ORIGIN rev.debian.org.
 231.149.196.217		IN	PTR	arm-conova-02.debian.org.
 232.149.196.217		IN	PTR	mirror-conova-debian.debian.org.
 233.149.196.217		IN	PTR	mirror-conova-security.debian.org.
+234.149.196.217		IN	PTR	mirror-conova-archive.debian.org.
 ; ..
 ; 239 .. broadcast
 
