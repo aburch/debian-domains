@@ -260,7 +260,7 @@ security-team		IN	CNAME	static
 security-tracker	IN	CNAME	soriano
 snapshot		IN	MX	0 .
 			; A/AAAA records via services-auto
-snapshot-master		IN	CNAME	sibelius
+snapshot-master		IN	CNAME	sibelius2
 snapshot-lw07		IN	CNAME	lw07-2
 snapshot-sibelius	IN	CNAME	sibelius2
 ; common misseppling
