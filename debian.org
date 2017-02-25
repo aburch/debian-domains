@@ -557,6 +557,7 @@ gretchaninov		IN	A	172.29.42.36
 tye			IN	A	172.29.42.37
 ullmann			IN	A	172.29.42.38
 buxtehude		IN	A	172.29.42.39
+piu-slave-ubc-01	IN	A	172.29.42.42
 enc2sw			IN	CNAME	enc2sw1          ; IRF
 enc2sw1			IN	CNAME	enc2ib1          ; IRF primary
 enc2sw2			IN	CNAME	enc2ib2          ; IRF secondary
