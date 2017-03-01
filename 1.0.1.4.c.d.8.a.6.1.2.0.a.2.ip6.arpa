@@ -13,13 +13,13 @@ $TTL 1h
 e.f.f.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	sompek.debian.net.
 f.f.f.f.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	stadler.debian.net.
 
-7.2.2.0.b.e.d.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	aagaard.debian.org.
-8.2.2.0.b.e.d.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	acker.debian.org.
-9.2.2.0.b.e.d.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	mirror-conova.debian.org.
-0.3.2.0.b.e.d.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	arm-conova-01.debian.org.
-1.3.2.0.b.e.d.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	arm-conova-02.debian.org.
-2.3.2.0.b.e.d.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	mirror-conova-debian.debian.org.
-3.3.2.0.b.e.d.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	mirror-conova-security.debian.org.
-4.3.2.0.b.e.d.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	mirror-conova-archive.debian.org.
+7.2.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	aagaard.debian.org.
+8.2.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	acker.debian.org.
+9.2.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	mirror-conova.debian.org.
+0.3.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	arm-conova-01.debian.org.
+1.3.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	arm-conova-02.debian.org.
+2.3.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	mirror-conova-debian.debian.org.
+3.3.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	mirror-conova-security.debian.org.
+4.3.2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	IN	PTR	mirror-conova-archive.debian.org.
 
 ; vim:syn=dns
