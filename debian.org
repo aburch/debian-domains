@@ -1085,7 +1085,8 @@ ftp		IN	A	130.89.149.21 ; debian.snt.utwente.nl
 ;ftp		IN	CNAME	klecker-ftp.debian.org.
 www		IN	CNAME	www.debian.org.
 $ORIGIN no.debian.org.
-ftp		IN	CNAME	debianmirror.uio.no.
+;ftp		IN	CNAME	debianmirror.uio.no.
+ftp		IN	CNAME	ftp.se.debian.org
 $ORIGIN nz.debian.org.
 ftp		IN	CNAME	ftp.citylink.co.nz.
 $ORIGIN pl.debian.org.
