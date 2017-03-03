@@ -953,7 +953,7 @@ debian.anycast-test		IN	A	193.31.7.2
 				IN	AAAA	2a02:158:ffff:deb::2
 security.anycast-test		IN	A	193.31.7.3
 				IN	AAAA	2a02:158:ffff:deb::3
-$TTL 10
+$TTL 10m
 ; countries
 ;==========
 
