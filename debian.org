@@ -626,9 +626,6 @@ torelli-mnt		IN	A	192.168.2.18
 ganeti1-mnt		IN	A	192.168.2.22
 ganeti2-mnt		IN	A	192.168.2.23
 
-; rule seems to be that the last octet is (host's real address - 50)
-tye-mnt			IN	A	192.168.2.79
-
 positron-mnt		IN	A	192.168.2.241	; positron.oftc.net <noc@oftc.net>
 lux-mnt			IN	A	192.168.2.243	; lux.oftc.net <noc@oftc.net>
 
