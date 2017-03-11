@@ -52,7 +52,7 @@ $TTL 8h
 ;123		IN	PTR
 ;124		IN	PTR
 ;125		IN	PTR
-126		IN	PTR	glinka.debian.org.
+;126		IN	PTR
 ;127		IN	PTR
 ;128		IN	PTR
 ;129		IN	PTR

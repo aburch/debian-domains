@@ -50,7 +50,6 @@ arch			IN	A	5.153.231.21	; alioth - moszumanska
 archive			IN	MX	0 .
 			; A/AAAA records via services-auto
 archive-master		IN	CNAME	sibelius
-archive-glinka		IN	CNAME	glinka
 archive-klecker		IN	CNAME	klecker-archive
 archive-sibelius	IN	CNAME	sibelius
 backports		IN	CNAME	static
@@ -162,7 +161,6 @@ dyn.manpages		IN	MX	0 .
 			; A/AAAA records via services-auto
 master.upload		IN	CNAME	usper
 micronews		IN	CNAME	static
-mirror			IN	CNAME	glinka
 mirror-master		IN	CNAME	static
 mailout			IN	A	82.195.75.114	; mailly
 			IN	A	209.87.16.33	; muffat
@@ -344,8 +342,6 @@ rtc-master		IN	CNAME	dillon
 ; restricted services
 ;; ubc
 mirror-ubc	300	IN	CNAME	gretchaninov
-;mirror-ubc		IN	CNAME	glinka
-;mirror-ubc		IN	CNAME	klecker-ftp.debian.org.
 
 ; hosts
 ;======
@@ -631,7 +627,6 @@ ganeti1-mnt		IN	A	192.168.2.22
 ganeti2-mnt		IN	A	192.168.2.23
 
 ; rule seems to be that the last octet is (host's real address - 50)
-glinka-mnt		IN	A	192.168.2.76
 tye-mnt			IN	A	192.168.2.79
 
 positron-mnt		IN	A	192.168.2.241	; positron.oftc.net <noc@oftc.net>
