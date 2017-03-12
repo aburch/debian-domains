@@ -100,6 +100,7 @@ debtags			IN	CNAME	tate
 d-i			IN	CNAME	static
 d-i-backend		IN	CNAME	static
 d-i-master		IN	CNAME	dillon
+dpl			IN	CNAME	static
 dsa			IN	CNAME	static
 darcs			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	AAAA	2001:41c8:1000:21::21:21
