@@ -282,7 +282,6 @@ syncproxy.cna		IN	CNAME	mirror-umn3
 ; syncproxy[23].wna are down in the hosts block
 syncproxy.na		IN	A	128.31.0.64	; mirror-csail
 ubcece			IN	A	206.12.19.22	; VIP for ganeti
-ganeti2			IN	A	206.12.19.23	; ubc-bl7/ubc-bl3/ubc-bl2/ubc-bl6 ganeti vip
 ganeti3			IN	A	82.195.75.111	; czerny/clementi
 ganeti-osuosl		IN	A	140.211.166.199	; byrd
 udd			IN	CNAME	ullmann
@@ -625,7 +624,6 @@ spontini-mnt		IN	A	192.168.2.14
 torelli-mnt		IN	A	192.168.2.18
 
 ganeti1-mnt		IN	A	192.168.2.22
-ganeti2-mnt		IN	A	192.168.2.23
 
 positron-mnt		IN	A	192.168.2.241	; positron.oftc.net <noc@oftc.net>
 lux-mnt			IN	A	192.168.2.243	; lux.oftc.net <noc@oftc.net>

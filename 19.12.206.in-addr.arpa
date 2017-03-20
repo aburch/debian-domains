@@ -36,7 +36,6 @@ $TTL 8h
 14		IN	PTR	spontini.debian.org.
 ;21		IN	PTR
 22		IN	PTR	ubcece.debian.org.
-23		IN	PTR	ganeti2.debian.org.
 
 ;110
 ;111
