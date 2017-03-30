@@ -918,6 +918,8 @@ $ORIGIN mirrors.debian.org.
 debug				IN	MX	0 .
 				; A/AAAA records via services-auto
 
+accumu.security.backend		IN	CNAME	mirror-accumu.debian.org.
+
 bytemark.debian.backend		IN	CNAME	mirror-bytemark-debian.debian.org.
 bytemark.security.backend	IN	CNAME	mirror-bytemark-security.debian.org.
 
@@ -926,9 +928,23 @@ conova.debug.backend		IN	CNAME	mirror-conova-debian.debian.org.
 conova.security.backend		IN	CNAME	mirror-conova-security.debian.org.
 conova.archive.backend		IN	CNAME	mirror-conova-archive.debian.org.
 
+csail.security.backend		IN	CNAME	mirror-csail-security.debian.org.
+
 klecker.debian.backend		IN	CNAME	klecker-ftp.debian.org.
 klecker.debug.backend		IN	CNAME	klecker-misc.debian.org.
 klecker.archive.backend		IN	CNAME	klecker-archive.debian.org.
+
+lobos.security.backend		IN	CNAME	lobos.debian.org.
+
+santoro.security.backend	IN	CNAME	santoro.debian.org.
+
+sechter.security.backend	IN	CNAME	sechter.debian.org.
+
+setoguchi.security.backend	IN	CNAME	setoguchi.debian.org.
+
+villa.security.backend		IN	CNAME	villa.debian.org.
+
+wieck.security.backend		IN	CNAME	wieck.debian.org.
 
 ; address records for
 ;   debian.backend.mirrors.debian.org
