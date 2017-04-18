@@ -512,6 +512,7 @@ $ORIGIN debprivate-sanger.debian.org.
 smetana-sc		IN	A	192.168.0.2
 smetana-alom		IN	CNAME	smetana-sc
 sibelius-ilo		IN	A	192.168.0.4
+sallinen-ilo		IN	A	192.168.0.13
 
 $ORIGIN debian.org.
 ubc-console		IN	CNAME	ubc-bastion
