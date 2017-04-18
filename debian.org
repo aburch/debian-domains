@@ -512,6 +512,8 @@ $ORIGIN debprivate-sanger.debian.org.
 smetana-sc		IN	A	192.168.0.2
 smetana-alom		IN	CNAME	smetana-sc
 sibelius-ilo		IN	A	192.168.0.4
+sibelius		IN	A	192.168.0.11
+smetana			IN	A	192.168.0.12
 sallinen-ilo		IN	A	192.168.0.13
 
 $ORIGIN debian.org.
