@@ -515,6 +515,7 @@ sibelius-ilo		IN	A	192.168.0.4
 sibelius		IN	A	192.168.0.11
 smetana			IN	A	192.168.0.12
 sallinen-ilo		IN	A	192.168.0.13
+sallinen		IN	A	192.168.0.14
 
 $ORIGIN debian.org.
 ubc-console		IN	CNAME	ubc-bastion
