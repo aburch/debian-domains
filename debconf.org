@@ -259,7 +259,7 @@ debconf17               IN      A       5.153.231.229
                         IN      AAAA    2001:41c8:1000:19::229:2
 
 ; Replacement for ned, from oriented.net
-new-new                 IN      A       217.111.138.120
+ned-new                 IN      A       217.111.138.120
                         IN      AAAA    2001:470:b7c1:deb::1
                         IN      TXT     "Ned Flanders, Simpsons next diddly-door neighbor"
                         IN      TXT     "http://simpsons.wikia.com/wiki/Ned_Flanders"
