@@ -966,6 +966,13 @@ debian.anycast-test		IN	A	193.31.7.2
 				IN	AAAA	2a02:158:ffff:deb::2
 security.anycast-test		IN	A	193.31.7.3
 				IN	AAAA	2a02:158:ffff:deb::3
+
+debian.aws-test			IN	CNAME	d3oev8e26obtlh.cloudfront.net.
+security.aws-test		IN	CNAME	d3oev8e26obtlh.cloudfront.net.
+
+debian.gce-test			IN	A	35.186.228.50
+security.gce-test		IN	A	35.186.228.50
+
 $TTL 10m
 ; countries
 ;==========
