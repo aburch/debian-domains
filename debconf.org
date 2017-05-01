@@ -286,21 +286,17 @@ lists                   IN      A       217.111.138.124
                         IN      AAAA    2001:1620:fd1:124::42
 
 skinner                 IN      A       217.111.138.125
-                        IN      SSHFP   1 1 058048a166a3566fae277d62087af48a03a28baa
                         IN      TXT     "Seymour "Spanky" Skinner, Principal of Springfield Elementary School"
                         IN      TXT     "http://en.wikipedia.org/wiki/Seymour_Skinner"
                         IN      MX 10   mail
                         IN      MX 90   smithers
 penta                   IN      A       217.111.138.125
-                        IN      AAAA    2001:1620:fd1:125::42
                         IN      MX 10   mail
                         IN      MX 90   smithers
 git                     IN      A       217.111.138.125
-                        IN      AAAA    2001:1620:fd1:125::42
                         IN      MX 10   mail
                         IN      MX 90   smithers
 milhouse                IN      A       217.111.138.127
-                        IN      AAAA    2001:1620:fd1:127::42
                         IN      SSHFP   1 1 6978dad334afaf4ed49476ad633f2ec8b1febb0c
                         IN      SSHFP   1 2 53f0f01bcddf5558f8897058d5605663c285942f309e6a41b7b53f73f78c2848
                         IN      SSHFP   4 1 e5dcc2d64140e722fa479892854b833a0e4ab604
@@ -311,7 +307,6 @@ milhouse                IN      A       217.111.138.127
                         IN      MX 10   mail
                         IN      MX 90   smithers
 summittest              IN      A       217.111.138.127
-                        IN      AAAA    2001:1620:fd1:127::42
                         IN      SSHFP   1 1 6978dad334afaf4ed49476ad633f2ec8b1febb0c
                         IN      SSHFP   1 2 53f0f01bcddf5558f8897058d5605663c285942f309e6a41b7b53f73f78c2848
                         IN      SSHFP   4 1 e5dcc2d64140e722fa479892854b833a0e4ab604
