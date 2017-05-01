@@ -278,14 +278,14 @@ ned-console             IN      A       217.111.138.122
 
 smithers                IN      A       217.111.138.124
                         IN      SSHFP   1 1 eee876e0e188b6235b6be93e1d709941f1ca35d9
-                        IN      AAAA    2001:1620:fd1:124::42
                         IN      TXT     "Waylon (J) Smithers"
                         IN      TXT     "http://en.wikipedia.org/wiki/Waylon_Smithers"
 lists                   IN      A       217.111.138.124
                         IN      MX      10 smithers
-                        IN      AAAA    2001:1620:fd1:124::42
 
 skinner                 IN      A       217.111.138.125
+                        IN      SSHFP 1 1 058048a166a3566fae277d62087af48a03a28baa
+                        IN      SSHFP 2 1 6a5ec0f97b4c016fbf9dfad55ba3cb534397882f
                         IN      TXT     "Seymour "Spanky" Skinner, Principal of Springfield Elementary School"
                         IN      TXT     "http://en.wikipedia.org/wiki/Seymour_Skinner"
                         IN      MX 10   mail
