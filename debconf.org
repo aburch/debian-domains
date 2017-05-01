@@ -259,8 +259,7 @@ debconf17               IN      A       5.153.231.229
                         IN      AAAA    2001:41c8:1000:19::229:2
 
 ; Replacement for ned, from oriented.net
-ned-new                 IN      A       217.111.138.120
-                        IN      AAAA    2001:470:b7c1:deb::1
+ned                     IN      A       217.111.138.120
                         IN      TXT     "Ned Flanders, Simpsons next diddly-door neighbor"
                         IN      TXT     "http://simpsons.wikia.com/wiki/Ned_Flanders"
                         IN      SSHFP 1 1 4fbbaefd9355a73e3d1c1f9e7a41f41e69d5b85d
@@ -268,13 +267,15 @@ ned-new                 IN      A       217.111.138.120
                         IN      SSHFP 4 1 8ba4690e0c0b183f03ae2aea4caaaec2cec5775f
                         IN      SSHFP 4 2 261219800a52fd635d927ff3f69972f855483ae3172f4c089c9944f3721b1754
 
+ned-console             IN      A       217.111.138.119
+
 ; Machine sponsored from oriented.net
-ned                     IN      A       217.111.138.123
+ned-old                 IN      A       217.111.138.123
                         IN      SSHFP   1 1 aa51c68c75b85612a36b4cba5294d61accee2838
                         IN      TXT     "Ned Flanders, Simpsons next diddly-door neighbor"
                         IN      TXT     "http://simpsons.wikia.com/wiki/Ned_Flanders"
 
-ned-console             IN      A       217.111.138.122
+ned-old-console         IN      A       217.111.138.122
 
 smithers                IN      A       217.111.138.124
                         IN      SSHFP   1 1 eee876e0e188b6235b6be93e1d709941f1ca35d9
