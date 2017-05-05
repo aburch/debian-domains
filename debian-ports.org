@@ -18,9 +18,6 @@ $INCLUDE "/srv/dns.debian.org/var/services-auto/all"
 @		IN	MX	10 muffat.debian.org.
 			; A/AAAA records via services-auto
 
-buildd		IN	MX	10 mailly.debian.org.
-		IN	MX	10 muffat.debian.org.
-
 ftp		IN	CNAME	static.debian.org.
 
 incoming	IN	CNAME	static.debian.org.
