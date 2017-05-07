@@ -925,6 +925,7 @@ debug				IN	MX	0 .
 				; A/AAAA records via services-auto
 
 accumu.security.backend		IN	CNAME	mirror-accumu.debian.org.
+accumu.debian.backend		IN	CNAME	mirror-accumu.debian.org.
 
 bytemark.debian.backend		IN	CNAME	mirror-bytemark-debian.debian.org.
 bytemark.security.backend	IN	CNAME	mirror-bytemark-security.debian.org.
@@ -947,6 +948,8 @@ santoro.security.backend	IN	CNAME	santoro.debian.org.
 sechter.security.backend	IN	CNAME	sechter.debian.org.
 
 setoguchi.security.backend	IN	CNAME	setoguchi.debian.org.
+
+skroutz.debian.backend		IN	CNAME	mirror-skroutz.debian.org.
 
 villa.security.backend		IN	CNAME	villa.debian.org.
 
