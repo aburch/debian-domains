@@ -43,9 +43,12 @@
 ; 182		reserved for new manda drbd (2016-04)
 ; 184		conova drbd
 ; 186		conova mgmt
+; 188/24	leaseweb oob
+; 190/24	leaseweb drbd (reserved)
 ; 201		VPN manda
 ; 202		VPN sil
 ; 203/24	VPN ubc
+; 204/24	VPN leaseweb
 
 $TTL 8h
 
@@ -235,5 +238,12 @@ $GENERATE 1-7 ${240}.43	IN	PTR	dhcp$.priv.ubc.debian.org.
 254.43			IN	PTR	bastion.priv.ubc.debian.org.
 ; 255.43 do not use - brdcast (current 40.0/22)
 
+;; priv.leaseweb.debian.org - 188.0/24
+;   0.188 do not use - network (188.0/24)
+9.188			IN	PTR	lw09.priv.leasweb.debian.org.
+10.188			IN	PTR	lw10.priv.leasweb.debian.org.
+253.188			IN	PTR	switch.priv.leaseweb.debian.org.
+254.188			IN	PTR	bastion.priv.leaseweb.debian.org.
+; 255.188 do not use - brdcast (188.0/24)
 
 ; vim: syn=dns:
