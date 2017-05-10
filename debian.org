@@ -504,6 +504,10 @@ acker-ipmi		IN	A	172.29.186.112
 NEWCONOVAMIRRORBOX-ilo	IN	A	172.29.186.113
 vpn-gw			IN	A	172.29.186.254
 
+$ORIGIN priv.leaseweb.debian.org.
+switch			IN	A	172.29.188.253
+bastion			IN	A	172.29.188.254
+
 $ORIGIN debprivate-oneandone.debian.org.
 wieck-drac		IN	A	192.168.253.2
 wieck-ilo		IN	A	192.168.253.2
