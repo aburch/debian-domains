@@ -83,6 +83,7 @@ cdimage-search		IN	CNAME	cgi-grnet-01
 cgi			IN	A	82.195.75.65	; wolkenstein
 ;			IN	AAAA	2607:f8f0:610:4000:216:36ff:fe40:3806	; wolkenstein
 			IN	MX	0 .
+cloud			IN	CNAME	ftp.acc.umu.se.
 contributors		IN	CNAME	nono
 cvs			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	AAAA	2001:41c8:1000:21::21:21
