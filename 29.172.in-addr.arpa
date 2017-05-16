@@ -221,6 +221,7 @@ $GENERATE 1-16 $.42	IN	PTR	enc2bl${0,2}.priv.ubc.debian.org.
 38.42			IN	PTR	ullmann.priv.ubc.debian.org.
 39.42			IN	PTR	buxtehude.priv.ubc.debian.org.
 42.42			IN	PTR	piu-slave-ubc-01.priv.ubc.debian.org.
+43.42			IN	PTR	hier.priv.ubc.debian.org.
 ; 254.42 do not use - gateway (future 42.0/24)
 ; 255.42 do not use - brdcast (future 42.0/24)
 ;   0.43 do not use - network (future 42.0/24)

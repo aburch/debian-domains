@@ -38,5 +38,6 @@ $TTL 1h
 0.4.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	syncproxy3.wna.debian.org.
 1.4.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	gretchaninov-archive.wna.debian.org.
 2.4.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	piu-slave-ubc-01.debian.org.
+3.4.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	hier.debian.org.
 
 ; vim:syn=dns
