@@ -141,6 +141,7 @@ hg			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	AAAA	2001:41c8:1000:21::21:21
 			IN	SSHFP	1 1 5F5FD22318044CC82776940F94C2CB8FF893509F	; alioth - moszumanska
 			IN	MX	0 .
+historical.packages	IN	CNAME	hier
 httpredir		IN	CNAME	static
 i18n			IN	A	209.87.16.37	; tye
 			IN	AAAA	2607:f8f0:614:1::1274:37	; tye
