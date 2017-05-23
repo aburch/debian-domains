@@ -1053,7 +1053,8 @@ ftp2		IN	CNAME	ftp.halifax.rwth-aachen.de.
 ;ftp2	300	IN	A	130.89.148.12 ; klecker.debian.org
 www		IN	CNAME	www.debian.org.
 $ORIGIN dk.debian.org.
-ftp		IN	CNAME	mirrors.dotsrc.org.
+; ftp		IN	CNAME	mirrors.dotsrc.org.
+ftp	300	IN	CNAME	ftp.debian.org.
 $ORIGIN ee.debian.org.
 ftp		IN	CNAME	ftp.aso.ee.
 $ORIGIN es.debian.org.
