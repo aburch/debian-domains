@@ -301,6 +301,7 @@ tracker			IN	A	5.153.231.23			; ticharich.debian.org
 			IN	MX	0 muffat.debian.org.
 ftp.upload	300	IN	CNAME	usper.debian.org.
 ftp.eu.upload	300	IN	CNAME	coccia.debian.org.
+ftp.security.upload	300	IN	CNAME	seger.debian.org.
 veyepar			IN	CNAME	vittoria
 volatile-master		IN	CNAME	static
 volatile		IN	CNAME	static
