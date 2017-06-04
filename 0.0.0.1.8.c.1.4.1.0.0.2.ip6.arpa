@@ -51,7 +51,6 @@ $GENERATE 0-4 $.5.2.0.0.2.0.0.0.0.0.0.0.0.0.0.0.2.0.0			IN	PTR	bm-bl1$.debian.or
 2.3.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	x86-bm-01.debian.org.
 3.3.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	tate.debian.org.
 4.3.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	gideon.debian.org.
-5.3.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	httpredir-bm-01.debian.org.
 6.3.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	lindsay.debian.org.
 7.3.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	mirror-bytemark.debian.org.
 8.3.0.0.1.2.0.0.0.0.0.0.0.0.0.0.1.2.0.0			IN	PTR	sor.debian.org.

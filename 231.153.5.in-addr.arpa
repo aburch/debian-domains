@@ -50,7 +50,6 @@ $TTL 8h
 32	IN	PTR	x86-bm-01.debian.org.
 33	IN	PTR	tate.debian.org.
 34	IN	PTR	gideon.debian.org.
-35	IN	PTR	httpredir-bm-01.debian.org.
 36	IN	PTR	lindsay.debian.org.
 37	IN	PTR	mirror-bytemark.debian.org.
 38	IN	PTR	sor.debian.org.
