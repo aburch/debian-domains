@@ -14,7 +14,7 @@ $TTL 1h
 
 ; A/AAAA records for @
 $INCLUDE "/srv/dns.debian.org/var/services-auto/all"
-;@		IN	MX	10 mailly.debian.org.
+@		IN	MX	10 mailly.debian.org.
 @		IN	MX	10 muffat.debian.org.
 			; A/AAAA records via services-auto
 
