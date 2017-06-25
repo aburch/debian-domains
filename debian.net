@@ -18,7 +18,7 @@ $TTL 8h
 
 $TTL 8h
 
-@		IN	MX	10 mailly.debian.org.
+:@		IN	MX	10 mailly.debian.org.
 		IN	MX	10 muffat.debian.org.
 
 ; A records for @, from www

@@ -18,8 +18,8 @@ $TTL 8h
 
 $TTL 8h
 
-@			IN	MX	0 mailly.debian.org.
-			IN	MX	0 muffat.debian.org.
+;@			IN	MX	0 mailly.debian.org.
+@			IN	MX	0 muffat.debian.org.
 
 ; nameserver services provided by netnod.se
 dnsnode.debian.org.	IN	A	194.146.106.126
@@ -31,7 +31,7 @@ $TTL 1h
 ;=========
 $INCLUDE "/srv/dns.debian.org/var/services-auto/all"
 
-admin			IN	MX	0 mailly.debian.org.
+;admin			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
 alioth			IN	NS	sec1.rcode0.net.
 			IN	NS	sec2.rcode0.net.
@@ -120,7 +120,7 @@ _http._tcp.ftp		IN	SRV	0 1 80 klecker-ftp.debian.org.
 _http._tcp.ftp		IN	SRV	1 1 80 ftp.acc.umu.se.
 ftp.ipv6		IN	CNAME	ftp
 ftp-master		IN	A	138.16.160.17 ; fasolo
-			IN	MX	0 mailly.debian.org.
+;			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
 api.ftp-master		IN	CNAME	coccia
 metadata.ftp-master	IN	CNAME	prod.debian.map.fastly.net.
@@ -165,11 +165,11 @@ dyn.manpages		IN	MX	0 .
 master.upload		IN	CNAME	usper
 micronews		IN	CNAME	static
 mirror-master		IN	CNAME	static
-mailout			IN	A	82.195.75.114	; mailly
-			IN	A	209.87.16.33	; muffat
-			IN	AAAA	2001:41b8:202:deb:6564:a62:52c3:4b72	; mailly
+;mailout			IN	A	82.195.75.114	; mailly
+mailout			IN	A	209.87.16.33	; muffat
+;			IN	AAAA	2001:41b8:202:deb:6564:a62:52c3:4b72	; mailly
 			IN	AAAA	2607:f8f0:614:1::1274:33		; muffat
-			IN	MX	0 mailly.debian.org.
+;			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
 munin			IN	CNAME	menotti.debian.org.
 nagios			IN	CNAME	tchaikovsky
@@ -200,7 +200,7 @@ popcon			IN	A	5.153.231.42	; pinel
 			IN	MX	10 pinel.debian.org.
 ports-master		IN	A	194.177.211.207	; porta
 			IN	AAAA	2001:648:2ffc:deb::211:207	; porta
-			IN	MX	0 mailly.debian.org.
+;			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
 ports			IN	CNAME	static
 ; ftp.ports A/AAAA records via services-auto
@@ -221,8 +221,8 @@ qa			IN	A	5.153.231.28	; quantz
 packages.qa		IN	A	5.153.231.28	; quantz
 			IN	AAAA	2001:41c8:1000:21::21:28	; quantz
 			IN	MX	0 quantz.debian.org.
-release			IN	MX	0 mailly.debian.org.
-			IN	MX	0 muffat.debian.org.
+;release			IN	MX	0 mailly.debian.org.
+release			IN	MX	0 muffat.debian.org.
 			; A/AAAA records via services-auto
 reportbug		IN	CNAME	buxtehude.debian.org.
 rt			IN	A	209.87.16.27    ; reger
@@ -297,7 +297,7 @@ static			IN	MX	0 .
 			; A/AAAA records via services-auto
 tracker			IN	A	5.153.231.23			; ticharich.debian.org
 			IN	AAAA	2001:41c8:1000:21::21:23	; ticharich.debian.org
-			IN	MX	0 mailly.debian.org.
+;			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
 ftp.upload	300	IN	CNAME	usper.debian.org.
 ftp.eu.upload	300	IN	CNAME	coccia.debian.org.
@@ -309,7 +309,7 @@ vote			IN	A	82.195.75.98
 			IN	AAAA	2001:41b8:202:deb:216:36ff:fe40:4005
 			IN	MX	0 vento.debian.org.
 wiki			IN	CNAME	wilder
-women			IN	MX	0 mailly.debian.org.
+;women			IN	MX	0 mailly.debian.org.
 women			IN	MX	0 muffat.debian.org.
 			; A/AAAA records via services-auto
 www		8h	IN	NS	geo1.debian.org.
@@ -319,7 +319,7 @@ $INCLUDE "/srv/dns.debian.org/var/keys/www.debian.org/dsset"
 www-staging		IN	A	82.195.75.65
 www-broken-layout	IN	A	82.195.75.65
 www-master		IN	A	82.195.75.65	; wolkenstein
-			IN	MX	0 mailly.debian.org.
+;			IN	MX	0 mailly.debian.org.
 			IN	MX	0 muffat.debian.org.
 www-mirror		IN	CNAME	www-master.debian.org.
 
