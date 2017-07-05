@@ -17,7 +17,7 @@ $TTL 8h
 65	IN	PTR	wolkenstein.debian.org.
 66	IN	PTR	mips-manda-01.debian.org.
 67	IN	PTR	mipsel-manda-03.debian.org.
-; 68
+68	IN	PTR	suchon.debian.org.
 ; 69
 ; 70
 ; 71

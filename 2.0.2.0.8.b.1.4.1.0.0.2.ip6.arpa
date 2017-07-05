@@ -52,6 +52,7 @@ a.4.b.4.3.c.2.5.0.0.0.0.5.b.a.b.b.e.d.0		IN	PTR	apu.debconf.org.
 c.4.b.4.3.c.2.5.0.0.0.0.5.b.a.b.b.e.d.0		IN	PTR	smithers.debconf.org.
 7.4.b.4.3.c.2.5.0.0.0.0.5.b.a.b.b.e.d.0		IN	PTR	babylon5.farm.ftbfs.de.
 
+8.6.0.0.1.1.3.0.0.0.0.0.0.0.0.0.b.e.d.0		IN	PTR	suchon.debian.org.
 3.9.0.0.1.1.3.0.0.0.0.0.0.0.0.0.b.e.d.0		IN	PTR	seger.debian.org.
 
 
