@@ -453,10 +453,10 @@ dc17-backend.video    IN A     206.167.36.195
 dc17-preview.video    IN A     206.167.36.195
 
 ; end-user accessible streaming servers
-video              60 IN CNAME dc17-backend
-na.video           60 IN CNAME dc17-backend
-as.video           60 IN CNAME dc17-backend
-eu.video           60 IN CNAME dc17-backend
+video              60 IN CNAME dc17-backend.video
+na.video           60 IN CNAME dc17-backend.video
+as.video           60 IN CNAME dc17-backend.video
+eu.video           60 IN CNAME dc17-backend.video
 tor1.video         60 IN A     138.197.165.234
 tor1.video         60 IN AAAA  2604:a880:cad:d0::5068:8001
 sgp1.video         60 IN A     188.166.214.166
