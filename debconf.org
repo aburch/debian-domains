@@ -458,15 +458,14 @@ dc17-preview.video    IN A     206.167.36.195
 video              60 IN CNAME dc17-frontend.video
 
 ; user-accessible geo-redirects
-na.video           60 IN CNAME tor1.video
+af.video           60 IN CNAME fra1.video
+an.video           60 IN CNAME fra1.video
 as.video           60 IN CNAME sgp1.video
 eu.video           60 IN CNAME fra1.video
+na.video           60 IN CNAME tor1.video
+oc.video           60 IN CNAME sgp1.video
+sa.video           60 IN CNAME tor1.video
 local.video        60 IN CNAME dc17-frontend.video
-
-an.video           60 IN CNAME dc17-backend.video
-af.video           60 IN CNAME dc17-backend.video
-oc.video           60 IN CNAME dc17-backend.video
-sa.video           60 IN CNAME dc17-backend.video
 
 ; DigitalOcean Toronto
 tor1.video         60 IN A     138.197.165.234
