@@ -826,12 +826,10 @@ nova-console		IN	CNAME	console-25
 
 $ORIGIN priv.accumu.debian.org.
 pettersson-mnt		IN	A	172.29.152.11
-praetorius-mnt		IN	A	172.29.152.12
 mirror-accumu-mnt	IN	A	172.29.152.13
 mirror-accumu-ilo	IN	A	172.29.152.133
 
 $ORIGIN debprivate-accumu.debian.org.
-praetorius-mnt		IN	A	172.21.101.1
 pettersson-ilo		IN	A	172.21.101.10
 
 $ORIGIN debprivate-osl.debian.org.
