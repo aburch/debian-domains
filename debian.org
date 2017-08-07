@@ -380,6 +380,7 @@ mirror-conova-security		IN	A	217.196.149.233
 				IN	AAAA	2a02:16a8:dc41:100::233
 mirror-conova-archive		IN	A	217.196.149.234
 				IN	AAAA	2a02:16a8:dc41:100::234
+ganeti-conova			IN	A	217.196.149.235
 
 mirror-csail-security		IN	A	128.31.0.63
 
@@ -463,6 +464,7 @@ $ORIGIN rev.debian.org.
 232.149.196.217		IN	PTR	mirror-conova-debian.debian.org.
 233.149.196.217		IN	PTR	mirror-conova-security.debian.org.
 234.149.196.217		IN	PTR	mirror-conova-archive.debian.org.
+235.149.196.217		IN	PTR	ganeti-conova.debian.org.
 ; ..
 ; 239 .. broadcast
 
