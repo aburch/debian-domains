@@ -448,7 +448,7 @@ web.video               IN      A 23.253.40.202
 ;;;;;;;;;;;;;;;;;;;;;
 
 ; DebConf 17 streaming backend
-dc17-backend.video    IN A     206.167.36.195
+dc17-backend.video    IN A     206.167.36.198
 ; DebConf 17 local streaming frontend
 dc17-frontend.video   IN A     206.167.36.197
 ; DebConf17 storage server for video (p)review
