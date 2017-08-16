@@ -40,6 +40,7 @@ $GENERATE 1-16 $ IN	PTR	ubc-enc2bl${0,2}.debian.org.
 41		IN	PTR	gretchaninov-archive.debian.org.
 42		IN	PTR	piu-slave-ubc-01.debian.org.
 43		IN	PTR	hier.debian.org.
+44		IN	PTR	godard.debian.org.
 
 241		IN	PTR	positron.oftc.net.        ; on polymer
 242		IN	PTR	irc.geo.oftc.net.         ; on positron
