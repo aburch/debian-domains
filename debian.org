@@ -91,7 +91,7 @@ cvs			IN	A	5.153.231.21	; alioth - moszumanska
 			IN	MX	0 .
 deb			IN	CNAME	static
 _http._tcp.deb	300	IN	SRV	10 1 80 prod.debian.map.fastly.net.
-_http._tcp.deb	300	IN	SRV	10 1 80 dpvctowv9b08b.cloudfront.net.
+;_http._tcp.deb	300	IN	SRV	10 1 80 dpvctowv9b08b.cloudfront.net.
 ;_http._tcp.deb	300	IN	SRV	0 1 80 global-nossl.fastly.net.
 cdn-fastly.deb	300	IN	CNAME	prod.debian.map.fastly.net.
 cdn-fastly-v6.deb	300	IN	CNAME	prod.debian.map.fastly.net.
