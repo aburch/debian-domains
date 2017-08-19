@@ -35,4 +35,14 @@ $INCLUDE "/srv/letsencrypt.debian.org/var/hook/snippet"
 *.storm.debian.net.	IN	CNAME	debstorm.org.
 
 
+; owned by the gitdoadm role
+git		IN	A	209.87.16.44
+		IN	AAAA	2607:f8f0:614:1::1274:44
+		IN	MX	10 mailly.debian.org.
+		IN	MX	10 muffat.debian.org.
+godard		IN	A	209.87.16.44
+		IN	AAAA	2607:f8f0:614:1::1274:44
+		IN	MX	10 mailly.debian.org.
+		IN	MX	10 muffat.debian.org.
+
 ; vim: syn=dns:
