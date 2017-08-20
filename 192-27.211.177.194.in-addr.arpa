@@ -26,7 +26,7 @@ $TTL 8h
 201		IN	PTR	geo3.debian.org.
 202		IN	PTR	cgi-grnet-01.debian.org.
 203		IN	PTR	x86-grnet-01.debian.org.
-204		IN	PTR	gigault.debian.org.
+; 204
 205		IN	PTR	vittoria.debian.org.
 206		IN	PTR	boott.debian.org.
 207		IN	PTR	porta.debian.org.

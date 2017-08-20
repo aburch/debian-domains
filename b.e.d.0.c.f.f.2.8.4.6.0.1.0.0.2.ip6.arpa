@@ -20,7 +20,6 @@ $TTL 8h
 1.0.2.0.1.1.2.0.0.0.0.0.0.0.0.0	IN	PTR	geo3.debian.org.
 2.0.2.0.1.1.2.0.0.0.0.0.0.0.0.0	IN	PTR	cgi-grnet-01.debian.org.
 3.0.2.0.1.1.2.0.0.0.0.0.0.0.0.0	IN	PTR	x86-grnet-01.debian.org.
-4.0.2.0.1.1.2.0.0.0.0.0.0.0.0.0	IN	PTR	gigault.debian.org.
 5.0.2.0.1.1.2.0.0.0.0.0.0.0.0.0	IN	PTR	vittoria.debian.org.
 6.0.2.0.1.1.2.0.0.0.0.0.0.0.0.0	IN	PTR	boott.debian.org.
 7.0.2.0.1.1.2.0.0.0.0.0.0.0.0.0	IN	PTR	porta.debian.org.
