@@ -52,4 +52,10 @@ pages		IN	A	209.87.16.45
 		IN	MX	0 .
 *.pages		IN	CNAME	pages
 
+; publicsuffix authorization tokens for
+;  https://github.com/publicsuffix/list/pull/516
+; per https://github.com/publicsuffix/list/wiki/Guidelines
+
+_psl		IN	TXT	"https://github.com/publicsuffix/list/pull/516"
+
 ; vim: syn=dns:
