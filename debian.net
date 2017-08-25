@@ -56,6 +56,6 @@ pages		IN	A	209.87.16.45
 ;  https://github.com/publicsuffix/list/pull/516
 ; per https://github.com/publicsuffix/list/wiki/Guidelines
 
-_psl		IN	TXT	"https://github.com/publicsuffix/list/pull/516"
+_psl	60	IN	TXT	"https://github.com/publicsuffix/list/pull/516"
 
 ; vim: syn=dns:
