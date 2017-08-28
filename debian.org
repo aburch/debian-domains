@@ -978,8 +978,10 @@ debian.anycast-test		IN	A	193.31.7.2
 security.anycast-test		IN	A	193.31.7.3
 				IN	AAAA	2a02:158:ffff:deb::3
 
-debian.gce-test			IN	A	35.186.228.50
-security.gce-test		IN	A	35.186.228.50
+debian.gce-test			IN	A	35.190.93.121
+				IN	AAAA	2600:1901:0:6729::
+security.gce-test		IN	A	35.190.93.121
+				IN	AAAA	2600:1901:0:6729::
 
 $TTL 10m
 ; countries
