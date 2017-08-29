@@ -39,7 +39,7 @@ $TTL 1h
 1.4.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	gretchaninov-archive.wna.debian.org.
 2.4.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	piu-slave-ubc-01.debian.org.
 3.4.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	hier.debian.org.
-4.4.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	godard.debian.net.
-5.4.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	godard2.debian.net.
+4.4.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	godard.debian.org.
+5.4.0.0.4.7.2.1.0.0.0.0.0.0.0.0		IN	PTR	godard2.debian.org.
 
 ; vim:syn=dns

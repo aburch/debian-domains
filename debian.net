@@ -36,17 +36,6 @@ $INCLUDE "/srv/letsencrypt.debian.org/var/hook/snippet"
 
 
 ; owned by the gitdoadm role
-godard		IN	A	209.87.16.44
-		IN	AAAA	2607:f8f0:614:1::1274:44
-		IN	MX	10 mailly.debian.org.
-		IN	MX	10 muffat.debian.org.
-salsa		IN	A	209.87.16.44
-		IN	AAAA	2607:f8f0:614:1::1274:44
-		IN	MX	10 mailly.debian.org.
-		IN	MX	10 muffat.debian.org.
-godard2		IN	A	209.87.16.45
-		IN	AAAA	2607:f8f0:614:1::1274:45
-		IN	MX	0 .
 pages		IN	A	209.87.16.45
 		IN	AAAA	2607:f8f0:614:1::1274:45
 		IN	MX	0 .
