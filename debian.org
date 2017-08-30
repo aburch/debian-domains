@@ -159,7 +159,8 @@ httpredir		IN	CNAME	static
 i18n			IN	A	209.87.16.37	; tye
 			IN	AAAA	2607:f8f0:614:1::1274:37	; tye
 			IN	MX	0 tye
-incoming		IN	CNAME	static
+incoming		IN	MX	0 .
+			; A/AAAA records via services-auto
 irc			IN	CNAME	irc6.geo.oftc.net.
 irc6			IN	CNAME	irc6.geo.oftc.net.
 irc.ipv6		IN	CNAME	irc6.geo.oftc.net.
