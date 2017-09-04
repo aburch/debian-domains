@@ -311,6 +311,7 @@ teams			IN	A	82.195.75.100	; bendel
 			IN	MX	10 bendel.debian.org.
 ssh-delayed.upload	IN	CNAME	usper.debian.org.
 ssh.upload		IN	CNAME	usper.debian.org.
+ssh.security.upload	IN	CNAME	suchon.debian.org.
 static			IN	MX	0 .
 			; A/AAAA records via services-auto
 tracker			IN	A	5.153.231.23			; ticharich.debian.org
@@ -319,7 +320,7 @@ tracker			IN	A	5.153.231.23			; ticharich.debian.org
 			IN	MX	0 muffat.debian.org.
 ftp.upload	300	IN	CNAME	usper.debian.org.
 ftp.eu.upload	300	IN	CNAME	coccia.debian.org.
-ftp.security.upload	300	IN	CNAME	seger.debian.org.
+ftp.security.upload	300	IN	CNAME	suchon.debian.org.
 veyepar			IN	CNAME	vittoria
 volatile-master		IN	CNAME	static
 volatile		IN	CNAME	static
